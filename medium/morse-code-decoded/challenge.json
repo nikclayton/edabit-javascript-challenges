@@ -1,0 +1,16 @@
+{
+  "author_id": "0osh4d0wo0",
+  "author_url": "https://edabit.com/user/XHngE5iScvztMpnR2",
+  "challenge_id": "i94xogDsjvsKep64Q",
+  "code": "function decodeMorse(str){\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string (morse code) as an argument and return an unencrypted string.</span></p><h3><span>Examples</span></h3><pre><code>decodeMorse(\". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .\") \u279e \"EDABBIT CHALLENGE\"\n\ndecodeMorse(\".... . .-.. .--.   -- .   -.-.--\") \u279e \"HELP ME !\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Excepted value are all uppercase.</span></li><li><span>Input string can have digits.</span></li><li><span>Input string can have some special chararacters (e.g. comma, colon, apostrophe, period, question mark, exclamation mark).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/i94xogDsjvsKep64Q",
+  "tags": [
+    "arrays",
+    "conditions",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(decodeMorse(\". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .\"), \"EDABBIT CHALLENGE\");\nTest.assertEquals(decodeMorse(\".... . .-.. .--.   -- .   -.-.--\"), \"HELP ME !\");\nTest.assertEquals(decodeMorse(\"-.-. .... .- .-.. .-.. . -. --. .\"), \"CHALLENGE\");\nTest.assertEquals(decodeMorse(\".----   .- .--. .--. .-.. .   .- -. -..   .....   -.-. .... . .-. .-. -.-- --..--   --...   ... .- -. -.. .-- .. -.-. .... . ... --..--   ..---   - .- -... .-.. . ... --..--   ----.   .. -. ...- .. - . -..   --. ..- -.-- ...   -.-.--   - .... .- - .----. ...   ... ---   -.-. --- --- .-.. .-.-.- .-.-.- .-.-.-\"), \"1 APPLE AND 5 CHERRY, 7 SANDWICHES, 2 TABLES, 9 INVITED GUYS ! THAT'S SO COOL...\");\nTest.assertEquals(decodeMorse(\"-.. .. -..   -.-- --- ..-   --. --- -   -- -.--   -- .- .. .-..   ..--..\"), \"DID YOU GOT MY MAIL ?\");\nTest.assertEquals(decodeMorse(\"- .-- ---   - .... .. -. --. ...   - ---   -.- -. --- .--   ---...   ..   ..-. --- .-. --. . -   - .... . --   ---... -.-.\"), \"TWO THINGS TO KNOW : I FORGET THEM :C\");",
+  "title": "Morse Code Decoded"
+}

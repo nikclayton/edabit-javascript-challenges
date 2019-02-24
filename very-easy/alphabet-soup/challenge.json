@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "bHDbMWpdeNaw23jqT",
+  "code": "function AlphabetSoup(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a string  and returns a string with its letters in alphabetical order.</span></p><h3><span>Examples</span></h3><pre><code>\"hello\" \u279e \"ehllo\"\n\n\"edabit\" \u279e \"abdeit\"\n\n\"hacker\" \u279e \"acehkr\"\n\n\"geek\" \u279e \"eegk\"\n\n\"javascript\" \u279e \"aacijprstv\"</code></pre><h3><span>Notes</span></h3><p><span>You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.</span></p>",
+  "source_url": "https://edabit.com/challenge/bHDbMWpdeNaw23jqT",
+  "tags": [
+    "formatting",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(AlphabetSoup(\"hello\"), \"ehllo\");\nTest.assertEquals(AlphabetSoup(\"edabit\"), \"abdeit\");\nTest.assertEquals(AlphabetSoup(\"hacker\"), \"acehkr\");\nTest.assertEquals(AlphabetSoup(\"geek\"), \"eegk\");\nTest.assertEquals(AlphabetSoup(\"javascript\"), \"aacijprstv\");\nTest.assertEquals(AlphabetSoup(\"credibility\"), \"bcdeiiilrty\");\nTest.assertEquals(AlphabetSoup(\"apostrophe\"), \"aehoopprst\");\nTest.assertEquals(AlphabetSoup(\"determination\"), \"adeeiimnnortt\");\nTest.assertEquals(AlphabetSoup(\"win\"), \"inw\");\nTest.assertEquals(AlphabetSoup(\"synthesis\"), \"ehinsssty\");",
+  "title": "Alphabet Soup"
+}

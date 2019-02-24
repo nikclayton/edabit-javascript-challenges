@@ -1,0 +1,15 @@
+{
+  "author_id": "santriag",
+  "author_url": "https://edabit.com/user/wDXrWvXDyxyNyWQm8",
+  "challenge_id": "8p3enZWLXNTioopbG",
+  "code": "function stretchTruth(num, str, arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that </span><strong><span>a)</span></strong><span> takes a number, a string, and an array as parameters (in that order) and </span><strong><span>b)</span></strong><span> adds up points based on how many times the number or string is in the array. </span></p><p><span>For example:</span></p><ul><li><span>If the number is in the array x times, then that is x points.</span></li><li><span>If the string is in the array y times, then that is y+1 points.</span></li></ul><p><span>Return the total number of points calculated.</span></p><h3><span>Examples</span></h3><pre><code>1, '1', [] \u279e 1\n\n1, '1', [1,'1'] \u279e 3\n\n1, '1', [1,1,'1'] \u279e 4\n\n1, '1', [1,'1','1'] \u279e 4\n\n1, '1', [1,'1','1','1','1','1','1'] \u279e 8\n\n1, 'Sometimes We Stretch the Truth', ['1','Sometimes We Stretch the Truth'] \u279e 2\n\n1, '1', [2,3] \u279e 1\n\n1, '1', [1,3] \u279e 2\n\n1, '1', ['1',3] \u279e 2\n\n1, '-1',['-1','-2',-1,'s'] \u279e 2\n\n1, '-1',['-1','-2',-1,'s',1,1,1,1,1,1,1,1,1,1,1,'-1']  \u279e 14</code></pre><h3><span>Notes</span></h3><ul><li><span>Number parameter can be positive,negative, and be zero, but will not include decimals.</span></li><li><span>String parameter will only contain letter(s) of the alphabet, spaces, or number(s).</span></li><li><span>Array will only contain numbers or strings.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8p3enZWLXNTioopbG",
+  "tags": [
+    "logic",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(stretchTruth(1, '1', []), 1);\nTest.assertEquals(stretchTruth(1, '1', [1,'1']), 3);\nTest.assertEquals(stretchTruth(1, '1', [1,1,'1']), 4);\nTest.assertEquals(stretchTruth(1, '1', [1,'1','1']), 4);\nTest.assertEquals(stretchTruth(1, '1', [1,'1','1','1','1','1','1']), 8);\nTest.assertEquals(stretchTruth(1, 'Sometimes We Stretch the Truth', ['1','Sometimes We Stretch the Truth']), 2);\nTest.assertEquals(stretchTruth(1, '1', [2,3]), 1);\nTest.assertEquals(stretchTruth(1, '1', [1,3]), 2);\nTest.assertEquals(stretchTruth(1, '1', ['1',3]), 2);\nTest.assertEquals(stretchTruth(1, '-1',['-1','-2',-1,'s',1,1]),4);\nTest.assertEquals(stretchTruth(1, '-1',['-1','-2',-1,'s',1,1,1,1,1,1,1,1,1,1,1,'-1']), 14);",
+  "title": "Sometimes We Stretch the Truth"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "cW5gZqYEv6bszrNSw",
+  "code": "function uniqueInOrder(sequence) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a sequence of either strings or numbers, removes the surrounding duplicates and returns an array of items without any items with the same value next to each other and preserves the original order of items.</span></p><h3><span>Examples</span></h3><pre><code>uniqueInOrder(\"AAAABBBCCDAABBB\") \u279e [\"A\", \"B\", \"C\", \"D\", \"A\", \"B\"]\n\nuniqueInOrder(\"ABBCcAD\") \u279e [\"A\", \"B\", \"C\", \"c\", \"A\", \"D\"]\n\nuniqueInOrder([1, 2, 2, 3, 3]) \u279e [1, 2, 3]</code></pre><h3><span>Notes</span></h3><ul><li><span>The initial sequence of items can be either a string or an array.</span></li><li><span>Tests are case sensitive.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/cW5gZqYEv6bszrNSw",
+  "tags": [
+    "formatting",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(uniqueInOrder(\"AAAABBBCCDAABBB\"), [\"A\", \"B\", \"C\", \"D\", \"A\", \"B\"])\nTest.assertSimilar(uniqueInOrder(\"ABBCcAD\"), [\"A\", \"B\", \"C\", \"c\", \"A\", \"D\"])\nTest.assertSimilar(uniqueInOrder([1, 2, 2, 3, 3]), [1, 2, 3])\nTest.assertSimilar(uniqueInOrder(\"12333355555522211133\"), [\"1\", \"2\", \"3\", \"5\", \"2\", \"1\", \"3\"])\nTest.assertSimilar(uniqueInOrder(\"uuUfffFgGggYtt76%5$$$\"), [\"u\", \"U\", \"f\", \"F\", \"g\", \"G\", \"g\", \"Y\", \"t\", \"7\", \"6\", \"%\", \"5\", \"$\"])\nTest.assertSimilar(uniqueInOrder([\"1\", \"2\", \"2\", \"3\", \"3\"]), [\"1\", \"2\", \"3\"])\nTest.assertSimilar(uniqueInOrder([3, 7, 3, 8, 4]), [3, 7, 3, 8, 4])\nTest.assertSimilar(uniqueInOrder(\"ABC\"), [\"A\", \"B\", \"C\"])\nTest.assertSimilar(uniqueInOrder(\"$$$%%%$$$%%%\"), [\"$\", \"%\", \"$\", \"%\"])\nTest.assertSimilar(uniqueInOrder([1, 1, 1, \"A\", \"B\", \"B\"]), [1, \"A\", \"B\"])",
+  "title": "Remove Surrounding Duplicate Items"
+}

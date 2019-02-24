@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "BEHiM4RTmhcLX7Cq6",
+  "code": "function repeat(item, times) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes two arguments </span><code>(item, times)</code><span>. The first argument (</span><code>item</code><span>) is the item that needs repeating while the second argument (</span><code>times</code><span>) is the number of times the item is to be repeated. Return the result in an array.</span></p><h3><span>Examples</span></h3><pre><code>\"edabit\", 3 \u279e [\"edabit\", \"edabit\", \"edabit\"]\n\n13, 5 \u279e [13, 13, 13, 13, 13]\n\n\"7\", 2 \u279e [\"7\", \"7\"]\n\n0, 0 \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><code>item</code><span> can be either a string or a number.</span></li><li><code>times</code><span> will always be a number.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/BEHiM4RTmhcLX7Cq6",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(repeat(\"edabit\", 3), [\"edabit\", \"edabit\", \"edabit\"]);\nTest.assertSimilar(repeat(13, 5), [13, 13, 13, 13, 13]);\nTest.assertSimilar(repeat(\"7\", 2),  [\"7\", \"7\"]);\nTest.assertSimilar(repeat(\"2 0 1 8\", 1), [\"2 0 1 8\"]);\nTest.assertSimilar(repeat(\"tom dick and harry\", 6), [\"tom dick and harry\", \"tom dick and harry\", \"tom dick and harry\", \"tom dick and harry\", \"tom dick and harry\", \"tom dick and harry\"]);\nTest.assertSimilar(repeat(0, 1), [0]);\nTest.assertSimilar(repeat(0, 0), []);\nTest.assertSimilar(repeat(\"z\", 0), []);",
+  "title": "Repeat the Same Item Multiple Times"
+}

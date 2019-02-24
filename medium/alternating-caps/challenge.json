@@ -1,0 +1,16 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "fzuGQP9Cmzi3ujj4r",
+  "code": "function alternatingCaps(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that alternates the case of the characters in a string.</span></p><h3><span>Examples</span></h3><pre><code>alternatingCaps(\"Hello\") \u279e \"HeLlO\"\n\nalternatingCaps(\"Hey, how are you?\") \u279e \"HeY, hOw aRe yOu?\"\n\nalternatingCaps(\"OMG!!! This website is awesome!!\") \u279e \"OmG!!! tHiS WeBsItE Is aWeSoMe!!\"</code></pre><h3><span>Notes</span></h3><p><span>The first character should always be UPPERCASE.</span></p>",
+  "source_url": "https://edabit.com/challenge/fzuGQP9Cmzi3ujj4r",
+  "tags": [
+    "conditions",
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(\n  alternatingCaps('alternating caps'),\n  'AlTeRnAtInG CaPs'\n);\nTest.assertEquals(\n  alternatingCaps(\"Hello, what's your name?\"),\n  \"HeLlO, wHaT'S YoUr nAmE?\"\n);\nTest.assertEquals(\n  alternatingCaps('Lorem ipsum dolor sit amet, consectetur adipisicing elit.'),\n  'LoReM IpSuM DoLoR SiT AmEt, CoNsEcTeTuR AdIpIsIcInG ElIt.'\n);\nTest.assertEquals(\n  alternatingCaps('OMG!!! This website is awesome!!'),\n  'OmG!!! tHiS WeBsItE Is aWeSoMe!!'\n);\nTest.assertEquals(\n  alternatingCaps('The quick brown fox jumps over the lazy dog'),\n  'ThE QuIcK BrOwN FoX JuMpS OvEr tHe lAzY DoG'\n);\nTest.assertEquals(\n  alternatingCaps('The intent is to provide players with a sense of pride and accomplishment for unlocking different heroes.'),\n  'ThE InTeNt iS To pRoViDe pLaYeRs wItH A SeNsE Of pRiDe aNd aCcOmPlIsHmEnT FoR UnLoCkInG DiFfErEnT HeRoEs.'\n);",
+  "title": "\u200b\u200b\u200b\u200b\u200bAlTeRnAtInG CaPs\u200b\u200b\u200b\u200b\u200b"
+}

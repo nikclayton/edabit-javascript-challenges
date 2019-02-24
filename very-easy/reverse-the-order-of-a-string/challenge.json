@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "oS3wCwLWsDqvs7XKd",
+  "code": "function reverse(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a string as its argument and returns the string in reversed order.</span></p><h3><span>Examples</span></h3><pre><code>reverse(\"Hello World\") \u279e \"dlroW olleH\"\n\nreverse(\"The quick brown fox.\") \u279e \".xof nworb kciuq ehT\"\n\nreverse(\"Edabit is really helpful!\") \u279e \"!lufpleh yllaer si tibadE\"</code></pre><h3><span>Notes</span></h3><p><span>You can expect a valid string for all test cases.</span></p>",
+  "source_url": "https://edabit.com/challenge/oS3wCwLWsDqvs7XKd",
+  "tags": [
+    "formatting",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(reverse(\"Think different.\"), \".tnereffid knihT\");\nTest.assertEquals(reverse(\"It doesn\u2019t make sense to hire smart people and tell them what to do; we hire smart people so they can tell us what to do.\"), \".od ot tahw su llet nac yeht os elpoep trams erih ew ;od ot tahw meht llet dna elpoep trams erih ot esnes ekam t\u2019nseod tI\");\nTest.assertEquals(reverse(\"Innovation is the ability to see change as an opportunity - not a threat\"), \"taerht a ton - ytinutroppo na sa egnahc ees ot ytiliba eht si noitavonnI\");\nTest.assertEquals(reverse(\"Everything is based on a simple rule: Quality is the best business plan.\"), \".nalp ssenisub tseb eht si ytilauQ :elur elpmis a no desab si gnihtyrevE\");\nTest.assertEquals(reverse(\"The people who are crazy enough to think they can change the world are the ones who do.\"), \".od ohw seno eht era dlrow eht egnahc nac yeht kniht ot hguone yzarc era ohw elpoep ehT\");\nTest.assertEquals(reverse(\"Don\u2019t let the noise of others\u2019 opinions drown out your own inner voice.\"), \".eciov renni nwo ruoy tuo nword snoinipo \u2019srehto fo esion eht tel t\u2019noD\");\nTest.assertEquals(reverse(\"Learn continually; There's always one more thing to learn.\"), \".nrael ot gniht erom eno syawla s'erehT ;yllaunitnoc nraeL\");\nTest.assertEquals(reverse(\"Quality is more important than quantity. One home run is much better than two doubles.\"), \".selbuod owt naht retteb hcum si nur emoh enO .ytitnauq naht tnatropmi erom si ytilauQ\");\nTest.assertEquals(reverse(\"Your time is limited so don't waste it living someone else's life.\"), \".efil s'esle enoemos gnivil ti etsaw t'nod os detimil si emit ruoY\");\nTest.assertEquals(reverse(\"The only way to be truly satisfied is to do what you believe is great work.\"), \".krow taerg si eveileb uoy tahw od ot si deifsitas ylurt eb ot yaw ylno ehT\");",
+  "title": "Reverse the Order of a String"
+}

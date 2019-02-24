@@ -1,0 +1,15 @@
+{
+  "author_id": "Oli",
+  "author_url": "https://edabit.com/user/RvuuQDghaq4GGGGip",
+  "challenge_id": "noqGmqk6StwApSGwa",
+  "code": "function reverse(bool) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that reverses a </span><code>boolean</code><span> value and returns the string </span><code>\"boolean expected\"</code><span> if another variable type is given.</span></p><h3><span>Examples</span></h3><pre><code>reverse(true) \u279e false\n\nreverse(false) \u279e true\n\nreverse(0) \u279e \"boolean expected\"\n\nreverse(null) \u279e \"boolean expected\"</code></pre><h3><span>Notes</span></h3><ul><li><span>If the input is not a boolean, return the string </span><code>\"boolean expected\"</code><span>.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/noqGmqk6StwApSGwa",
+  "tags": [
+    "conditions",
+    "logic"
+  ],
+  "tests": "Test.assertEquals(reverse(false), true);\nTest.assertEquals(reverse(true), false);\nTest.assertEquals(reverse(0), \"boolean expected\");\nTest.assertEquals(reverse(null), \"boolean expected\");\nTest.assertEquals(reverse(undefined), \"boolean expected\");\nTest.assertEquals(reverse({}), \"boolean expected\");",
+  "title": "Flip the Boolean"
+}

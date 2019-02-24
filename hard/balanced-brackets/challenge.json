@@ -1,0 +1,15 @@
+{
+  "author_id": "faqofff",
+  "author_url": "https://edabit.com/user/NnJhaSQJGXmv9Tqse",
+  "challenge_id": "6NSvSLWWix84rRqpD",
+  "code": "function isBalanced(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that takes a string of brackets and checks whether they're balanced or not.</span></p><p><span>The sequence is balanced if:</span></p><ul><li><span>It contains no unmatched brackets.</span></li><li><span>The subset of brackets enclosed within the confines of a matched pair of brackets is also balanced.</span></li></ul><h3><span>Examples</span></h3><pre><code>isBalanced(\"{[()]}\") \u279e true\n\nisBalanced(\"[()]{}\") \u279e true\n\nisBalanced(\"{[([)]]}\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Return </span><code>undefined</code><span> if no input is given.</span></p>",
+  "source_url": "https://edabit.com/challenge/6NSvSLWWix84rRqpD",
+  "tags": [
+    "logic",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isBalanced('()'), true);\nTest.assertEquals(isBalanced('{[()]}'), true);\nTest.assertEquals(isBalanced('{{[[(())]]}}'), true);\nTest.assertEquals(isBalanced('{{[[(())[]]]}}'), true);\nTest.assertEquals(isBalanced('[()]{}{[()()]()}'), true);\nTest.assertEquals(isBalanced('{[([)]]}'), false);\nTest.assertEquals(isBalanced('{[('), false);\nTest.assertEquals(isBalanced('])}'), false);\nTest.assertEquals(isBalanced('[[]'), false);\nTest.assertEquals(isBalanced('{)(}'), false);\nTest.assertEquals(isBalanced('{{[[([())]]]}}'), false);\nTest.assertEquals(isBalanced(), undefined);",
+  "title": "Balanced Brackets"
+}

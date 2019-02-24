@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "b2NdDSdkjqFnCTfS8",
+  "code": "function filterArray(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes an array of non-negative </span><strong><span>numbers</span></strong><span> and </span><strong><span>strings</span></strong><span> and return a new array without the strings.</span></p><h3><span>Examples</span></h3><pre><code>filterArray([1, 2, \"a\", \"b\"]) \u279e [1, 2]\n\nfilterArray([1, \"a\", \"b\", 0, 15]) \u279e [1, 0, 15]\n\nfilterArray([1, 2, \"aasf\", \"1\", \"123\", 123]) \u279e [1, 2, 123]</code></pre><h3><span>Notes</span></h3><p><span>Zero is a non-negative number.</span></p>",
+  "source_url": "https://edabit.com/challenge/b2NdDSdkjqFnCTfS8",
+  "tags": [
+    "arrays",
+    "formatting",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(filterArray([1, 2, \"a\", \"b\"]), [1, 2]);\nTest.assertSimilar(filterArray([1, \"a\", \"b\", 0, 15]), [1, 0, 15]);\nTest.assertSimilar(filterArray([1, 2, \"aasf\", \"1\", \"123\", 123]), [1, 2, 123]);\nTest.assertSimilar(filterArray([\"jsyt\", 4, \"yt\", 6]), [4,6]);\nTest.assertSimilar(filterArray([\"r\", 5, \"y\", \"e\", 8, 9]), [5, 8, 9]);\nTest.assertSimilar(filterArray([\"a\", \"e\", \"i\", \"o\", \"u\"]), []);\nTest.assertSimilar(filterArray([4, \"z\", \"f\", 5]), [4, 5]);\nTest.assertSimilar(filterArray([\"abc\", 123]), [123]);\nTest.assertSimilar(filterArray([\"$%^\", 567, \"&&&\"]), [567]);\nTest.assertSimilar(filterArray([\"w\", \"r\", \"u\", 43, \"s\", \"a\", 76, \"d\", 88]), [43, 76, 88]);",
+  "title": "Filter out Strings from an Array"
+}

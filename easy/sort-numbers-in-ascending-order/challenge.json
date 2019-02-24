@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "SS23vniCZ6ssGwsQP",
+  "code": "function sortNumsAscending(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes an array of numbers and returns a new array, sorted in ascending order (smallest to biggest).</span></p><ul><li><span>Sort numbers array in ascending order.</span></li><li><span>If functions argument is null, an empty array or undefined, return an empty array.</span></li><li><span>Return new array of sorted numbers.</span></li></ul><h3><span>Examples</span></h3><pre><code>sortNumsAscending([1, 2, 10, 50, 5]) \u279e [1, 2, 5, 10, 50]\n\nsortNumsAscending([80, 29, 4, -95, -24, 85]) \u279e [-95, -24, 4, 29, 80, 85]\n\nsortNumsAscending(null) \u279e []\n\nsortNumsAscending([]) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>The numbers being passed to sortNumsAscending() can be positive or negative.</span></p>",
+  "source_url": "https://edabit.com/challenge/SS23vniCZ6ssGwsQP",
+  "tags": [
+    "arrays",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(sortNumsAscending([1, 2, 10, 50, 5]), [1, 2, 5, 10, 50])\nTest.assertSimilar(sortNumsAscending([80, 29, 4, -95, -24, 85]), [-95, -24, 4, 29, 80, 85])\nTest.assertSimilar(sortNumsAscending(null), [])\nTest.assertSimilar(sortNumsAscending([]), [])\nTest.assertSimilar(sortNumsAscending([47, 51, -17, -16, 91, 47, -85, -8, -16, -27]), [-85, -27, -17, -16, -16, -8, 47, 47, 51, 91])\nTest.assertSimilar(sortNumsAscending([-51, -73, 65, 69, -76, 74, -14]), [-76, -73, -51, -14, 65, 69, 74])\nTest.assertSimilar(sortNumsAscending([45, 98, 35, 65, 97, 21, 33]), [21, 33, 35, 45, 65, 97, 98])\nTest.assertSimilar(sortNumsAscending([-23, -69, -54, -2, -32]), [-69, -54, -32, -23, -2])\nTest.assertSimilar(sortNumsAscending([-21, -9, -96]), [-96, -21, -9])\nTest.assertSimilar(sortNumsAscending([0]), [0])",
+  "title": "Sort Numbers in Ascending Order"
+}

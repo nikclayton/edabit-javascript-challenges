@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "aThG46eyi9LhGdTFY",
+  "code": "function accum(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string and returns a new string with each new character accumulating by +1. Separate each set with a dash.</span></p><h3><span>Examples</span></h3><pre><code>accum(\"abcd\") \u279e \"A-Bb-Ccc-Dddd\"\n\naccum(\"RqaEzty\") \u279e \"R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy\"\n\naccum(\"cwAt\") \u279e \"C-Ww-Aaa-Tttt\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Capitalize the first letter of each set.</span></li><li><span>All tests contain valid strings with alphabetic characters (a-z, A-Z).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/aThG46eyi9LhGdTFY",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(accum(\"abcd\"), \"A-Bb-Ccc-Dddd\");\nTest.assertEquals(accum(\"RqaEzty\"), \"R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy\");\nTest.assertEquals(accum(\"cwAt\"), \"C-Ww-Aaa-Tttt\");\nTest.assertEquals(accum(\"VgyCdnQa\"), \"V-Gg-Yyy-Cccc-Ddddd-Nnnnnn-Qqqqqqq-Aaaaaaaa\");\nTest.assertEquals(accum(\"nRBSdNOsMl\"), \"N-Rr-Bbb-Ssss-Ddddd-Nnnnnn-Ooooooo-Ssssssss-Mmmmmmmmm-Llllllllll\");\nTest.assertEquals(accum(\"nuE\"), \"N-Uu-Eee\");\nTest.assertEquals(accum(\"RlDrhZuQaqsoHEfziByObtMxkFCJVe\"), \"R-Ll-Ddd-Rrrr-Hhhhh-Zzzzzz-Uuuuuuu-Qqqqqqqq-Aaaaaaaaa-Qqqqqqqqqq-Sssssssssss-Oooooooooooo-Hhhhhhhhhhhhh-Eeeeeeeeeeeeee-Fffffffffffffff-Zzzzzzzzzzzzzzzz-Iiiiiiiiiiiiiiiii-Bbbbbbbbbbbbbbbbbb-Yyyyyyyyyyyyyyyyyyy-Oooooooooooooooooooo-Bbbbbbbbbbbbbbbbbbbbb-Tttttttttttttttttttttt-Mmmmmmmmmmmmmmmmmmmmmmm-Xxxxxxxxxxxxxxxxxxxxxxxx-Kkkkkkkkkkkkkkkkkkkkkkkkk-Ffffffffffffffffffffffffff-Ccccccccccccccccccccccccccc-Jjjjjjjjjjjjjjjjjjjjjjjjjjjj-Vvvvvvvvvvvvvvvvvvvvvvvvvvvvv-Eeeeeeeeeeeeeeeeeeeeeeeeeeeeee\");\nTest.assertEquals(accum(\"EXpzPFx\"), \"E-Xx-Ppp-Zzzz-Ppppp-Ffffff-Xxxxxxx\");\nTest.assertEquals(accum(\"NU\"), \"N-Uu\");\nTest.assertEquals(accum(\"g\"), \"G\");",
+  "title": "Compounding Letters"
+}

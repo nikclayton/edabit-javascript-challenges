@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "HTbRYCmPwfZGnBcxW",
+  "code": "function findLargestNum(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an array of numbers. Return the largest number in the array.</span></p><h3><span>Examples</span></h3><pre><code>findLargestNum([4, 5, 1, 3]) \u279e 5\n\nfindLargestNum([300, 200, 600, 150]) \u279e 600\n\nfindLargestNum([1000, 1001, 857, 1]) \u279e 1001</code></pre><h3><span>Notes</span></h3><ul><li><span>Expect either a positive number or zero (there are no negative numbers).</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/HTbRYCmPwfZGnBcxW",
+  "tags": [
+    "arrays",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(findLargestNum([4, 5, 1, 3]), 5)\nTest.assertEquals(findLargestNum([13, 27, 18, 26]), 27)\nTest.assertEquals(findLargestNum([32, 35, 37, 39]), 39)\nTest.assertEquals(findLargestNum([1000, 1001, 857, 1]), 1001)\nTest.assertEquals(findLargestNum([27364, 837363, 736736, 73635]), 837363)\nTest.assertEquals(findLargestNum([30, 2, 40, 3]), 40)\nTest.assertEquals(findLargestNum([0, 1, 0, 0, 1]), 1)",
+  "title": "Find the Largest Number in an Array"
+}

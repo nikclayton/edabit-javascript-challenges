@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "eitMRpuJR3Ls4zQsn",
+  "code": "function nameShuffle(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that accepts a string (of a persons first and last name) and returns a string with the first and last name swapped.</span></p><h3><span>Examples</span></h3><pre><code>nameShuffle(\"Donald Trump\") \u279e \"Trump Donald\"\n\nnameShuffle(\"Rosie O'Donnell\") \u279e \"O'Donnell Rosie\"\n\nnameShuffle(\"Seymour Butts\") \u279e \"Butts Seymour\"</code></pre><h3><span>Notes</span></h3><ul><li><span>There will be exactly one space between the first and last name.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/eitMRpuJR3Ls4zQsn",
+  "tags": [
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(nameShuffle(\"Donald Trump\"),\"Trump Donald\");\nTest.assertEquals(nameShuffle(\"Rosie O'Donnel\"),\"O'Donnel Rosie\");\nTest.assertEquals(nameShuffle(\"Seymour Butts\"),\"Butts Seymour\");\nTest.assertEquals(nameShuffle(\"Ebony Greene\"),\"Greene Ebony\");\nTest.assertEquals(nameShuffle(\"Ken Kennedy\"),\"Kennedy Ken\");\nTest.assertEquals(nameShuffle(\"Allison Gonzalez\"),\"Gonzalez Allison\");\nTest.assertEquals(nameShuffle(\"Albert Frazier\"),\"Frazier Albert\");\nTest.assertEquals(nameShuffle(\"Eloise Hopkins\"),\"Hopkins Eloise\");\nTest.assertEquals(nameShuffle(\"Donnie Welch\"),\"Welch Donnie\");\nTest.assertEquals(nameShuffle(\"Vernon Thomas\"),\"Thomas Vernon\");",
+  "title": "Shuffle the Name"
+}

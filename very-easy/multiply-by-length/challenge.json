@@ -1,0 +1,17 @@
+{
+  "author_id": "Cuby",
+  "author_url": "https://edabit.com/user/CaDoRXMFxjD47Ed5Y",
+  "challenge_id": "LMhRTq3hccz2D9Lax",
+  "code": "function MultiplyByLength(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function to multiply all values in an array by the amount of values in that array.</span></p><h3><span>Examples</span></h3><pre><code>MultiplyByLength([2, 3, 1, 0]) \u279e [8, 12, 4, 0]</code></pre><h3><span>Notes</span></h3><ul><li><span>All values are numbers.</span></li><li><span>All arrays will have at least one element.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/LMhRTq3hccz2D9Lax",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "loops",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(MultiplyByLength([2,6,4,9]), [8,24,16,36]);\nTest.assertSimilar(MultiplyByLength([4,1,1]), [12,3,3]);\nTest.assertSimilar(MultiplyByLength([1,0,3,3,7,2,1]), [7,0,21,21,49,14,7]);\nTest.assertSimilar(MultiplyByLength([0]), [0]);",
+  "title": "Multiply by Length"
+}

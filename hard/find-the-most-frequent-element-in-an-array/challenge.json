@@ -1,0 +1,14 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "hxHBsYebaBM3ff5s6",
+  "code": "function findFrequent(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array and return the most frequently occuring element contained within it.</span></p><h3><span>Examples</span></h3><pre><code>findFrequent([3, 7, 3]) \u279e 3\n\nfindFrequent([null, \"hello\", true, null]) \u279e null\n\nfindFrequent([false, \"up\", \"down\", \"left\", \"right\", true, false]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/hxHBsYebaBM3ff5s6",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertEquals(findFrequent([3, 7, 3]), 3);\nTest.assertEquals(findFrequent([null, \"hello\", true, null]), null);\nTest.assertEquals(findFrequent([false, \"up\", \"down\", \"left\", \"right\", true, false]), false);\nTest.assertEquals(findFrequent([undefined]), undefined);\nTest.assertEquals(findFrequent([1, 2, -3, true, false, undefined, \"yes\", \"yeah\", \"yup\", 2]), 2);\nTest.assertEquals(findFrequent([\"Batman\", \"Superman\", \"Batman\"]), \"Batman\");",
+  "title": "Find the Most Frequent Element in an Array"
+}

@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "4gzDuDkompAqujpRi",
+  "code": "function addUp(num) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function.&nbsp;For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.</span></p><h3><strong><span>Examples</span></strong></h3><pre><code>addUp(4) \u279e 10\n\naddUp(13) \u279e 91\n\naddUp(600) \u279e 180300</code></pre><h3><span>Notes</span></h3><p><span>Expect any positive number between 1 and 1000.</span></p>",
+  "source_url": "https://edabit.com/challenge/4gzDuDkompAqujpRi",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(addUp(4), 10)\nTest.assertEquals(addUp(13), 91)\nTest.assertEquals(addUp(600), 180300)\nTest.assertEquals(addUp(392), 77028)\nTest.assertEquals(addUp(53), 1431)\nTest.assertEquals(addUp(897), 402753)\nTest.assertEquals(addUp(23), 276)\nTest.assertEquals(addUp(1000), 500500)\nTest.assertEquals(addUp(738), 272691)\nTest.assertEquals(addUp(100), 5050)\nTest.assertEquals(addUp(925), 428275)\nTest.assertEquals(addUp(1), 1)\nTest.assertEquals(addUp(999), 499500)\nTest.assertEquals(addUp(175), 15400)\nTest.assertEquals(addUp(111), 6216)",
+  "title": "Add up the Numbers from a Single Number"
+}

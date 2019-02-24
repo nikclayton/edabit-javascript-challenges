@@ -1,0 +1,15 @@
+{
+  "author_id": "faqofff",
+  "author_url": "https://edabit.com/user/NnJhaSQJGXmv9Tqse",
+  "challenge_id": "FPamWj3Ky7ep9ApBz",
+  "code": "function isAnagram(s1, s2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that takes two strings and returns (</span><code>true</code><span> or </span><code>false</code><span>) whether they're anagrams or not.</span></p><h3><span>Examples</span></h3><pre><code>isAnagram(\"cristian\", \"Cristina\") \u279e true\n\nisAnagram(\"Dave Barry\", \"Ray Adverb\") \u279e true\n\nisAnagram(\"Nope\", \"Note\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Should be case insensitive.</span></p>",
+  "source_url": "https://edabit.com/challenge/FPamWj3Ky7ep9ApBz",
+  "tags": [
+    "math",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isAnagram('cristian', 'Cristina'), true);\nTest.assertEquals(isAnagram('Dave Barry', 'Ray Adverb'), true);\nTest.assertEquals(isAnagram('Nope', 'Note'), false);\nTest.assertEquals(isAnagram('Apple', 'Appeal'), false);",
+  "title": "Check for Anagrams"
+}

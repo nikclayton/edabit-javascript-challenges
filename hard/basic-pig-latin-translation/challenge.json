@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "4rEcJErhoTRbNRnKH",
+  "code": "function pigLatin(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string of words and moves the first letter of each word to the end of it, then adds 'ay' to the end of the word. This is called \"Pig Latin\" and it gets more complicated than the rules in this particular challenge. I've intentionally kept things simple, otherwise this would quickly turn into an extremely tedious challenge.</span></p><h3><span>Rules</span></h3><ul><li><span>Move the first letter of each word to the end of the word.</span></li><li><span>Add \"ay\" to the end of the word.</span></li><li><span>Words starting with a vowel (A, E, I, O, U) simply have \"WAY\" appended to the end.</span></li></ul><h3><span>Examples</span></h3><pre><code>pigLatin(\"Cats are great pets.\") \u279e \"Atscay areway reatgay etspay.\"\n\npigLatin(\"Tom got a small piece of pie.\") \u279e \"Omtay otgay away allsmay iecepay ofway iepay.\"\n\npigLatin(\"He told us a very exciting tale.\") \u279e \"Ehay oldtay usway away eryvay excitingway aletay.\"</code></pre><h3><span>Notes</span></h3><p><span>Be sure to preserve proper capitalization and punctuation.</span></p>",
+  "source_url": "https://edabit.com/challenge/4rEcJErhoTRbNRnKH",
+  "tags": [
+    "algorithms",
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(pigLatin(\"Cats are great pets.\"), \"Atscay areway reatgay etspay.\");\nTest.assertEquals(pigLatin(\"Tom got a small piece of pie.\"), \"Omtay otgay away mallsay iecepay ofway iepay.\");\nTest.assertEquals(pigLatin(\"He told us a very exciting tale.\"), \"Ehay oldtay usway away eryvay excitingway aletay.\");\nTest.assertEquals(pigLatin(\"A diamond is not enough.\"), \"Away iamondday isway otnay enoughway.\");\nTest.assertEquals(pigLatin(\"Hurry!\"), \"Urryhay!\");",
+  "title": "Basic Pig Latin Translation"
+}

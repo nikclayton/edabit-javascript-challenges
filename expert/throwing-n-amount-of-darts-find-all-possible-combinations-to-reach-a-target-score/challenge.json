@@ -1,0 +1,16 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "YBZgzAxuyDtS9bomm",
+  "code": "function dartsSolver(sections, darts, target) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>You're given a dartboard divided into sections, each section has a </span><strong><span>unique</span></strong><span> score. That means there won't be two sections with the same score.</span></p><p><img alt=\"alt text\" title=\"Dart Board\" src=\"https://s3.amazonaws.com/edabit-images/dartboard.png\"></p><p><span>Throwing a certain amount of valid darts, find how many solutions there are to reach the target score. Your function will be passed three parameters...</span></p><ul><li><p><strong><span>Sections</span></strong><span>: An array of values for the sections (e.g. </span><code>[3, 6, 8, 11, 15, 19, 22]</code><span>, the array is already sorted).</span></p></li><li><p><strong><span>Darts</span></strong><span>: The amount of darts to throw.</span></p></li><li><p><strong><span>Target</span></strong><span>: The target score.</span></p></li></ul><p><span>Return an empty array if no solution is found, otherwise an array of non-duplicate strings for each solution (e.g. </span><code>[\"3-11-18\", \"7-7-18\", \"7-11-14\"]</code><span>).</span></p><h3><span>Examples</span></h3><p><span>If there are duplicate values, keep only the one sorted from smallest to biggest.</span></p><pre><code>\"8-19-8\"\n\n\"8-8-19\" &lt;-- This is the one you would keep.\n\n\"19-8-8\"</code></pre><p><span>Multiple solutions should be sorted before returning them.</span></p><pre><code>[\"3-11-18\", \"7-7-18\", \"7-11-14\"] is ok.\n\n[\"7-11-14\", \"7-7-18\", \"3-11-18\"] is not ok.</code></pre><h3><span>Notes</span></h3><ul><li><p><span>Multiple darts </span><strong><span>can</span></strong><span> land in the same section.</span></p></li><li><p><span>A dart </span><strong><span>must</span></strong><span> land in a valid section (it can't miss).</span></p></li></ul>",
+  "source_url": "https://edabit.com/challenge/YBZgzAxuyDtS9bomm",
+  "tags": [
+    "arrays",
+    "loops",
+    "recursion"
+  ],
+  "tests": "// Base tests\nTest.assertSimilar(\n  dartsSolver([3, 6, 8, 11, 15, 19, 22], 3, 35),\n  ['8-8-19']\n);\nTest.assertSimilar(\n  dartsSolver([2, 4, 7, 10, 13, 18, 24], 3, 29),\n  ['4-7-18']\n);\nTest.assertSimilar(\n  dartsSolver([3, 7, 11, 14, 18, 20, 25], 3, 40),\n  ['11-11-18']\n);\nTest.assertSimilar(\n  dartsSolver([3, 7, 11, 14, 18, 20, 25], 3, 8),\n  [],\n  'Should return an empty array if there are no solutions'\n);\n\n// Additional tests\nTest.assertSimilar(\n  dartsSolver([3, 7, 11, 14, 18, 20, 25], 3, 32),\n  ['3-11-18', '7-7-18', '7-11-14'],\n  'Should return multiple solutions in the correct order'\n);\nTest.assertSimilar(\n  dartsSolver([3, 7, 11, 14, 18, 20, 25, 29, 34], 3, 67),\n  ['18-20-29'],\n  'Should work with more sections'\n);\nTest.assertSimilar(\n  dartsSolver([3, 7, 11, 14, 18, 20, 25], 4, 23),\n  ['3-3-3-14'],\n  'Should work with 4 darts'\n);\n",
+  "title": "Throwing <N> Amount of Darts Find All Possible Combinations to Reach a Target Score"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "at7jF9Y7SmPGyD92u",
+  "code": "function isSymmetrical(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns </span><code>true</code><span> or </span><code>false</code><span> depending on whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.</span></p><h3><span>Examples</span></h3><pre><code>isSymmetrical(7227) \u279e true\n\nisSymmetrical(12567) \u279e false\n\nisSymmetrical(44444444) \u279e true\n\nisSymmetrical(9939) \u279e false\n\nisSymmetrical(1112111) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/at7jF9Y7SmPGyD92u",
+  "tags": [
+    "conditions",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(isSymmetrical(23), false);\nTest.assertEquals(isSymmetrical(9562), false);\nTest.assertEquals(isSymmetrical(10019), false);\nTest.assertEquals(isSymmetrical(1), true);\nTest.assertEquals(isSymmetrical(3223), true);\nTest.assertEquals(isSymmetrical(95559), true);\nTest.assertEquals(isSymmetrical(66566), true);",
+  "title": "Is the Number Symmetrical?"
+}

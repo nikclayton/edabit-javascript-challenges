@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "taDMEiBjokE9AymBb",
+  "code": "function overlap(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes two strings and returns </span><code>true</code><span> if either of the strings appears at the very end of the other string. Return </span><code>false</code><span> otherwise. \"*\" is a wildcard, so it can take the place of any character.</span></p><h3><span>Examples</span></h3><pre><code>overlap(\"ABC\", \"Ican'tsingmyABC\") \u279e true\n\noverlap(\"abc\", \"Ican'tsingmyABC\") \u279e true\n\noverlap(\"Ican'tsingmyABC\", \"abc\") \u279e true\n\noverlap(\"hello world\", \"hello\") \u279e false\n\noverlap(\"+=\", \"this should work too +=\") \u279e true\n\noverlap(\"hey\", \"*********\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/taDMEiBjokE9AymBb",
+  "tags": [
+    "conditions",
+    "logic",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(overlap(\"ABC\", \"Ican'tsingmyABC\"), true);\nTest.assertEquals(overlap(\"abc\", \"Ican'tsingmyABC\"), true);\nTest.assertEquals(overlap(\"Ican'tsingmyABC\", \"abc\"), true);\nTest.assertEquals(overlap(\"*bc\", \"Ican'tsingmyABC\"), true);\nTest.assertEquals(overlap(\"abc\", \"Ican'tsingmy***\"), true);\nTest.assertEquals(overlap(\"ab\", \"Ican'tsingmy**c\"), false);\nTest.assertEquals(overlap(\"hello world\", \"hello\"), false);\nTest.assertEquals(overlap(\"+=\", \"this should work too +=\"), true);\nTest.assertEquals(overlap(\"don't forget hyphens-\", \"-\"), true);\nTest.assertEquals(overlap(\"don't forget periods \", \".\"), false);\nTest.assertEquals(overlap(\"this will always be true\", \"*\"), true);\nTest.assertEquals(overlap(\"this will always be false\", \"F\"), false);\nTest.assertEquals(overlap(\"hey\", \"*********\"), true);\nTest.assertEquals(overlap(\"a*c\", \"*b*\"), true);\nTest.assertEquals(overlap(\"last test\", \"congrats you passed the last test\"), true);",
+  "title": "Is One String in the Other?"
+}

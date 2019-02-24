@@ -1,0 +1,18 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "muSMtsoSbygZ7J5Xw",
+  "code": "function dataType(value) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns the data type of a given variable. These are the eight data types this challenge will be testing for:</span></p><ul><li><span>Array</span></li><li><span>Object</span></li><li><span>String</span></li><li><span>Number</span></li><li><span>Boolean</span></li><li><span>Null</span></li><li><span>Undefined</span></li><li><span>Date</span></li></ul><h3><span>Examples</span></h3><pre><code>dataType([1, 2, 3, 4]) \u279e \"array\"\n\ndataType({key: \"value\"}) \u279e \"object\"\n\ndataType(\"This is an example string.\") \u279e \"string\"\n\ndataType(new Date()) \u279e \"date\"</code></pre><h3><span>Notes</span></h3><p><span>Return the name of the data type as a lowercase string.</span></p>",
+  "source_url": "https://edabit.com/challenge/muSMtsoSbygZ7J5Xw",
+  "tags": [
+    "arrays",
+    "dates",
+    "objects",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(dataType([1, 2, 3, 4, 5]), \"array\")\nTest.assertEquals(dataType({key: \"value\"}), \"object\")\nTest.assertEquals(dataType(\"This is an example string...\"), \"string\")\nTest.assertEquals(dataType(2017), \"number\")\nTest.assertEquals(dataType(true), \"boolean\")\nTest.assertEquals(dataType(null), \"null\")\nTest.assertEquals(dataType(undefined), \"undefined\")\nTest.assertEquals(dataType(new Date()), \"date\")",
+  "title": "What's the Data Type?"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ufzPhQEbECxfvmSAu",
+  "code": "function findMissing(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array of arrays and return the length of the missing array.</span></p><h3><span>Examples</span></h3><pre><code>findMissing([[1], [1, 2], [4, 5, 1, 1], [5, 6, 7, 8, 9]]) \u279e 3\n\nfindMissing([[5, 6, 7, 8, 9], [1, 2], [4, 5, 1, 1], [1]]) \u279e 3\n\nfindMissing([[4, 4, 4, 4], [1], [3, 3, 3]]) \u279e 2</code></pre><h3><span>Notes</span></h3><ul><li><span>Test input arrays won't always be sorted in order of length.</span></li><li><span>If the array of arrays is </span><code>null</code><span> or empty, your function should return </span><code>false</code><span>.</span></li><li><span>If an array within the parent array is </span><code>null</code><span> or empty, return </span><code>false</code><span>.</span></li><li><span>There will always be a missing element and its length will be between the given arrays.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ufzPhQEbECxfvmSAu",
+  "tags": [
+    "algorithms",
+    "arrays"
+  ],
+  "tests": "Test.assertEquals(findMissing([[1], [1, 2], [4, 5, 1, 1], [5, 6, 7, 8, 9]]), 3);\nTest.assertEquals(findMissing([[5, 6, 7, 8, 9], [1, 2], [4, 5, 1, 1], [1] ]), 3);\nTest.assertEquals(findMissing([[4, 4, 4, 4], [1], [3, 3, 3]]), 2);\nTest.assertEquals(findMissing([[false], [false, false, false]]), 2);\nTest.assertEquals(findMissing([[\"f\", \"r\", \"s\"], [\"d\", \"e\"], [\"a\", \"f\", \"b\", \"n\"], [\"z\"], [\"fg\", \"gty\", \"d\", \"dfr\", \"dr\", \"q\"]]), 5);\nTest.assertEquals(findMissing([[5, 2, 9], [4, 5, 1, 1, 5, 6], [1, 1], [5, 6, 7, 8, 9]]), 4);\nTest.assertEquals(findMissing([]), false, \"When the main array is empty, return false.\");\nTest.assertEquals(findMissing(null), false, \"Return false if you are given null as an argument.\");\nTest.assertEquals(findMissing([[], [1, 2, 2]]), false, \"If an array within the parent array is empty, return false.\");",
+  "title": "What's the Length of the Missing Array?"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "RhvdtEWHAMAqkdugn",
+  "code": "function validatePIN(pin) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits. Your task is to create a function that takes a string and returns </span><code>true</code><span> if the PIN is valid and </span><code>false</code><span> if it's not.</span></p><h3><span>Examples</span></h3><pre><code>validatePIN(\"1234\") \u279e true\n\nvalidatePIN(\"12345\") \u279e false\n\nvalidatePIN(\"a234\") \u279e false\n\nvalidatePIN(\"\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Some test cases contain special characters.</span></li><li><span>Empty strings must return false.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RhvdtEWHAMAqkdugn",
+  "tags": [
+    "regex",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(validatePIN(\"1234\"), true)\nTest.assertEquals(validatePIN(\"12345\"), false)\nTest.assertEquals(validatePIN(\"a234\"), false)\nTest.assertEquals(validatePIN(\"\"), false)\nTest.assertEquals(validatePIN(\"%234\"), false)\nTest.assertEquals(validatePIN(\"`234\"), false)\nTest.assertEquals(validatePIN(\"@234\"), false)\nTest.assertEquals(validatePIN(\"#234\"), false)\nTest.assertEquals(validatePIN(\"$234\"), false)\nTest.assertEquals(validatePIN(\"*234\"), false)\nTest.assertEquals(validatePIN(\"5678\"), true)\nTest.assertEquals(validatePIN(\"^234\"), false)\nTest.assertEquals(validatePIN(\"(234\"), false)\nTest.assertEquals(validatePIN(\")234\"), false)\nTest.assertEquals(validatePIN(\"123456\"), true)\nTest.assertEquals(validatePIN(\"-234\"), false)\nTest.assertEquals(validatePIN(\"_234\"), false)\nTest.assertEquals(validatePIN(\"+234\"), false)\nTest.assertEquals(validatePIN(\"=234\"), false)\nTest.assertEquals(validatePIN(\"?234\"), false)",
+  "title": "ATM PIN Code Validation"
+}

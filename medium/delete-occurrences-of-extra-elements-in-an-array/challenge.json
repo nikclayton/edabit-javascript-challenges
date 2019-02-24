@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "sRuLYeBet7XE2wpRL",
+  "code": "function deleteOccurrences(arr, num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes two arguments: an array and a number. In the array (the first argument), if an element occurs more than N times (the second argument), remove the extra occurrence(s) and return the result.</span></p><h3><span>Examples</span></h3><pre><code>deleteOccurrences([1, 1, 1, 1], 2) \u279e [1, 1]\n\ndeleteOccurrences([13, true, 13, null], 1) \u279e [13, true, null]\n\ndeleteOccurrences([true, true, true], 3) \u279e [true, true, true]</code></pre><h3><span>Notes</span></h3><p><span>Do not alter the order of the original array.</span></p>",
+  "source_url": "https://edabit.com/challenge/sRuLYeBet7XE2wpRL",
+  "tags": [
+    "arrays",
+    "data_structures"
+  ],
+  "tests": "Test.assertSimilar(deleteOccurrences([1, 1, 1, 1], 2), [1, 1]);\nTest.assertSimilar(deleteOccurrences([true, true, true], 3), [true, true, true]);\nTest.assertSimilar(deleteOccurrences([13, true, 13, null], 1), [13, true, null]);\nTest.assertSimilar(deleteOccurrences([], 100), []);\nTest.assertSimilar(deleteOccurrences([\"John\", \"John\", \"Marry\", \"Marry\"], 1), [\"John\", \"Marry\"]);\nTest.assertSimilar(deleteOccurrences([\"Marry\", \"John\", null, \"John\", false, \"John\", 0, \"John\", \"Marry\", \"Marry\", \"John\"], 3), [\"Marry\", \"John\", null, \"John\", false, \"John\", 0, \"Marry\", \"Marry\"]);\nTest.assertSimilar(deleteOccurrences([20, 37, 20, 21], 1), [20, 37, 21]);\nTest.assertSimilar(deleteOccurrences([1, 1, 3, 3, 7, 2, 2, 2, 2], 3), [1, 1, 3, 3, 7, 2, 2, 2]);\nTest.assertSimilar(deleteOccurrences([1, 2, 3, 1, 1, 2, 1, 2, 3, 3, 2, 4, 5, 3, 1],3), [1, 2, 3, 1, 1, 2, 2, 3, 3, 4, 5]);",
+  "title": "Delete Occurrences of Extra Elements in an Array"
+}

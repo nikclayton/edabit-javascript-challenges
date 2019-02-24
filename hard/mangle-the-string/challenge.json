@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "yLqEK5hZ8SGYe5TNR",
+  "code": "function mangled(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string and replaces every letter with the letter following it in the alphabet (\"c\" becomes \"d\", \"z\" becomes \"a\", \"b\" becomes \"c\", etc). Then capitalize every vowel (a, e, i, o, u) and return the new modified string.</span></p><h3><span>Rules</span></h3><ul><li><span>Replace every letter with the letter following it in the alphabet.</span></li><li><span>Capitalize every vowel.</span></li><li><span>\"y\" is not considered a vowel.</span></li></ul><h3><span>Examples</span></h3><pre><code>mangled(\"Fun times!\") \u279e \"GvO Ujnft!\"\n\nmangled(\"The quick brown fox.\") \u279e \"UIf rvjdl cspxO gpy.\"\n\nmangled(\"Omega\") \u279e \"Pnfhb\"</code></pre><h3><span>Notes</span></h3><ul><li><span>\"y\" is not considered a vowel.</span></li><li><span>All test cases contain valid strings.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/yLqEK5hZ8SGYe5TNR",
+  "tags": [
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(mangled(\"Fun times!\"), \"GvO Ujnft!\")\nTest.assertEquals(mangled(\"The quick brown fox.\"), \"UIf rvjdl cspxO gpy.\")\nTest.assertEquals(mangled(\"Omega\"), \"Pnfhb\")\nTest.assertEquals(mangled(\"I will never be this young again. Ever. Oh damn\u2026 I just got older.\"), \"J xjmm Ofwfs cf UIjt zpvOh bhbjO. Fwfs. PI EbnO\u2026 J kvtU hpU pmEfs.\")\nTest.assertEquals(mangled(\"Should we start class now, or should we wait for everyone to get here?\"), \"TIpvmE xf tUbsU dmbtt Opx, ps tIpvmE xf xbjU gps fwfszpOf Up hfU Ifsf?\")\nTest.assertEquals(mangled(\"Check back tomorrow; I will see if the book has arrived.\"), \"DIfdl cbdl Upnpsspx; J xjmm tff jg UIf cppl Ibt bssjwfE.\")\nTest.assertEquals(mangled(\"The lake is a long way from here.\"), \"UIf mblf jt b mpOh xbz gspn Ifsf.\")\nTest.assertEquals(mangled(\"It was getting dark, and we weren\u2019t there yet.\"), \"JU xbt hfUUjOh Ebsl, bOE xf xfsfO\u2019U UIfsf zfU.\")\nTest.assertEquals(mangled(\"The mysterious diary records the voice.\"), \"UIf nztUfsjpvt Ejbsz sfdpsEt UIf wpjdf.\")\nTest.assertEquals(mangled(\"Cats are good pets, for they are clean and are not noisy.\"), \"DbUt bsf hppE qfUt, gps UIfz bsf dmfbO bOE bsf OpU Opjtz.\")",
+  "title": "Mangle the String"
+}

@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "fiXLsemkYTK9oKuDC",
+  "code": "function expand(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a </span><em><span>number</span></em><span> and return a </span><em><span>string</span></em><span> with the number in expanded notation (AKA expanded form). See the resources tab for details on expanded notation.</span></p><h3><span>Examples</span></h3><pre><code>expand(13) \u279e \"10 + 3\"\n\nexpand(86) \u279e \"80 + 6\"\n\nexpand(17000000) \u279e \"10000000 + 7000000\"\n\nexpand(5325) \u279e \"5000 + 300 + 20 + 5\"</code></pre><h3><span>Notes</span></h3><p><span>You can expect only whole numbers greater than 0 as test input.</span></p>",
+  "source_url": "https://edabit.com/challenge/fiXLsemkYTK9oKuDC",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(expand(13), \"10 + 3\");\nTest.assertEquals(expand(86), \"80 + 6\");\nTest.assertEquals(expand(17000000), \"10000000 + 7000000\");\nTest.assertEquals(expand(420370022), \"400000000 + 20000000 + 300000 + 70000 + 20 + 2\");\nTest.assertEquals(expand(70304), \"70000 + 300 + 4\");\nTest.assertEquals(expand(9000000), \"9000000\");\nTest.assertEquals(expand(5325), \"5000 + 300 + 20 + 5\");\nTest.assertEquals(expand(2096039485293), \"2000000000000 + 90000000000 + 6000000000 + 30000000 + 9000000 + 400000 + 80000 + 5000 + 200 + 90 + 3\");\nTest.assertEquals(expand(92093403034573), \"90000000000000 + 2000000000000 + 90000000000 + 3000000000 + 400000000 + 3000000 + 30000 + 4000 + 500 + 70 + 3\");",
+  "title": "Express Number in Expanded Notation"
+}

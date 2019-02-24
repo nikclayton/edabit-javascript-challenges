@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "yaXQvCzAXJLe37Qie",
+  "code": "function sortDecending(num) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes any nonnegative number as an argument and return it with it's digits in descending order. Descending order is when you sort from highest to lowest.</span></p><h3><span>Examples</span></h3><pre><code>sortDecending(123) \u279e 321\n\nsortDecending(1254859723) \u279e 9875543221\n\nsortDecending(73065) \u279e 76530</code></pre><h3><span>Notes</span></h3><p><span>You can expect non-negative numbers for all test cases.</span></p>",
+  "source_url": "https://edabit.com/challenge/yaXQvCzAXJLe37Qie",
+  "tags": [
+    "formatting",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(sortDecending(123), 321)\nTest.assertEquals(sortDecending(670276097), 977766200)\nTest.assertEquals(sortDecending(2619805), 9865210)\nTest.assertEquals(sortDecending(81294), 98421)\nTest.assertEquals(sortDecending(0000000), 0000000)\nTest.assertEquals(sortDecending(321), 321)\nTest.assertEquals(sortDecending(628904), 986420)\nTest.assertEquals(sortDecending(289327560), 987653220)\nTest.assertEquals(sortDecending(6456), 6654)\nTest.assertEquals(sortDecending(444111888555333), 888555444333111)",
+  "title": "Sort Numbers in Descending Order"
+}

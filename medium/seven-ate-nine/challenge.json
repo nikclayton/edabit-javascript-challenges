@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ZYLbEdiWZWA3i6RQK",
+  "code": "function sevenAte9(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string of numbers and removes every </span><strong><span>lone</span></strong><span> 9 that occures between 7's.</span></p><h3><span>Examples</span></h3><pre><code>sevenAte9(\"797\") \u279e \"77\"\n\nsevenAte9(\"7997\") \u279e \"7997\"\n\nsevenAte9(\"1679 7\") \u279e \"167 7\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Ignore spaces but don't remove them.</span></li><li><span>Don't use regular expressions.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ZYLbEdiWZWA3i6RQK",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(sevenAte9(\"165561786121789797\"), \"16556178612178977\");\nTest.assertEquals(sevenAte9(\"797\"), \"77\");\nTest.assertEquals(sevenAte9(\"7\"), \"7\");\nTest.assertEquals(sevenAte9(\"9\"), \"9\");\nTest.assertEquals(sevenAte9(\"16797\"), \"1677\");\nTest.assertEquals(sevenAte9(\"77\"), \"77\");\nTest.assertEquals(sevenAte9(\"x779\"), \"x779\");\nTest.assertEquals(sevenAte9(\"7927\"), \"7927\");\nTest.assertEquals(sevenAte9(\"1779\"), \"1779\");\nTest.assertEquals(sevenAte9(\"17797a\"), \"1777a\");\nTest.assertEquals(sevenAte9(\"1679 7\"), \"167 7\");",
+  "title": "Seven Ate Nine"
+}

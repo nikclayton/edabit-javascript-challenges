@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "RG5NJWDa7pZGFkhTA",
+  "code": "function XO(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string, checks if it has the same number of 'x's and 'o's and returns either </span><code>true</code><span> or </span><code>false</code><span>.</span></p><ul><li><span>Return a boolean value (</span><code>true</code><span> or </span><code>false</code><span>).</span></li><li><span>The string can contain any character.</span></li><li><span>When neither an  x nor an o is in the string, return </span><code>true</code><span>.</span></li></ul><h3><span>Examples</span></h3><pre><code>XO(\"ooxx\") \u279e true\n\nXO(\"xooxx\") \u279e false\n\nXO(\"ooxXm\") \u279e true (case insensitive)\n\nXO(\"zpzpzpp\") \u279e true (returns true if no x and o)\n\nXO(\"zzoo\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Remember to return true if there aren't any x's or o's.</span></li><li><span>Must be case insensitive.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RG5NJWDa7pZGFkhTA",
+  "tags": [
+    "conditions",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(XO(\"ooxx\"), true);\nTest.assertEquals(XO(\"xooxx\"), false);\nTest.assertEquals(XO(\"ooxXm\"), true);\nTest.assertEquals(XO(\"zpzpzpp\"), true);\nTest.assertEquals(XO(\"zzoo\"), false);\nTest.assertEquals(XO(\"Xo\"), true);\nTest.assertEquals(XO(\"x\"), false);\nTest.assertEquals(XO(\"o\"), false);\nTest.assertEquals(XO(\"xxxoo\"), false);\nTest.assertEquals(XO(\"\"), true);",
+  "title": "X's and O's"
+}

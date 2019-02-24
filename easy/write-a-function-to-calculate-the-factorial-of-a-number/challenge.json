@@ -1,0 +1,16 @@
+{
+  "author_id": "rammurthykota",
+  "author_url": "https://edabit.com/user/otNr74eYwKTpLCpxp",
+  "challenge_id": "QraLcMChEjbodThR9",
+  "code": "function factorial(x) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function to calculate the factorial of a number.</span></p><h3><span>Examples</span></h3><pre><code>factorial(0) \u279e 1\n\nfactorial(5) \u279e 120\n\nfactorial(10) \u279e 3628800</code></pre>",
+  "source_url": "https://edabit.com/challenge/QraLcMChEjbodThR9",
+  "tags": [
+    "logic",
+    "loops",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(factorial(0), 1);\nTest.assertSimilar(factorial(5), 120);\nTest.assertEquals(factorial(10), 3628800);",
+  "title": "Write a Function to Calculate the Factorial of a Number"
+}

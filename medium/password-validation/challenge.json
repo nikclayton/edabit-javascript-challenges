@@ -1,0 +1,16 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "JYyXdP5WBmDiL8LvT",
+  "code": "function validatePassword(password) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that validates a password to conform to the following rules:</span></p><ul><li><span>Length between 6 and 24 characters.</span></li><li><span>At least one uppercase letter (A-Z).</span></li><li><span>At least one lowercase letter (a-z).</span></li><li><span>At least one digit (0-9).</span></li><li><span>Maximum of 2 repeated characters.</span><ul><li><span>\"aa\" is OK \ud83d\udc4d</span></li><li><span>\"aaa\" is NOT OK \ud83d\udc4e</span></li></ul></li><li><span>Special characters supported: </span><code>! @ # $ % ^ &amp; * ( ) + = _ - { } [ ] : ; \u201d \u2019 ? &lt; &gt; , .</code></li></ul><h3><span>Examples</span></h3><pre><code>validatePassword(\"P1zz@\") \u279e false    // too short\n\nvalidatePassword(\"iLoveYou\") \u279e false // missing number\n\nvalidatePassword(\"Fhg93@\") \u279e true    // OK</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/JYyXdP5WBmDiL8LvT",
+  "tags": [
+    "conditions",
+    "regex",
+    "validation"
+  ],
+  "tests": "// Invalid passwords\nTest.assertEquals(validatePassword('P1zz@'), false, 'too short');\nTest.assertEquals(validatePassword('P1zz@P1zz@P1zz@P1zz@P1zz@'), false, 'too long');\nTest.assertEquals(validatePassword('mypassword11'), false, 'missing uppercase letter');\nTest.assertEquals(validatePassword('MYPASSWORD11'), false, 'missing lowercase letter');\nTest.assertEquals(validatePassword('iLoveYou'), false, 'missing number');\nTest.assertEquals(validatePassword('P\u00e87$areLove'), false, 'special character \"\u00e8\" disallowed');\nTest.assertEquals(validatePassword(\"Repeeea7!\"), false, 'repeated character \"eee\" disallowed');\n\n// Valid passwords\nTest.assertEquals(validatePassword('H4(k+x0'), true);\nTest.assertEquals(validatePassword('Fhg93@'), true);\nTest.assertEquals(validatePassword('aA0!@#$%^&*()+=_-{}[]:;\u201d'), true);\nTest.assertEquals(validatePassword('zZ9\u2019?<>,.'), true);",
+  "title": "Password Validation"
+}

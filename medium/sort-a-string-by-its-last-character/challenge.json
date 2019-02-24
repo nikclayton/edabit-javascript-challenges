@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ZeNq6QYyDMk8bKsaJ",
+  "code": "function sortByLast(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string of words and return a </span><em><span>string</span></em><span> sorted alphabetically by the </span><em><span>last</span></em><span> character of each word.</span></p><h3><span>Examples</span></h3><pre><code>sortByLast(\"herb camera dynamic\") \u279e \"camera herb dynamic\"\n\nsortByLast(\"stab traction artist approach\") \u279e \"stab approach traction artist\"\n\nsortByLast(\"sample partner autonomy swallow trend\") \u279e \"trend sample partner swallow autonomy\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Tests consist of lowercase alphabetic characters (a-z) and spaces.</span></li><li><span>If two words have the same last character, sort by the order they origianlly appeared.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ZeNq6QYyDMk8bKsaJ",
+  "tags": [
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(sortByLast(\"herb camera dynamic\"), \"camera herb dynamic\");\nTest.assertEquals(sortByLast(\"stab traction artist approach\"), \"stab approach traction artist\");\nTest.assertEquals(sortByLast(\"sample partner autonomy swallow trend\"), \"trend sample partner swallow autonomy\");\nTest.assertEquals(sortByLast(\"dividend platform pupil conclusion silence breakfast\"), \"dividend silence pupil platform conclusion breakfast\");\nTest.assertEquals(sortByLast(\"harm\"), \"harm\");\nTest.assertEquals(sortByLast(\"card warrant opinion medium illustrate\"), \"card illustrate medium opinion warrant\");\nTest.assertEquals(sortByLast(\"cause fine virtue\"), \"cause fine virtue\");\nTest.assertEquals(sortByLast(\"introduce fashionable cause sacrifice reality\"), \"introduce fashionable cause sacrifice reality\");\nTest.assertEquals(sortByLast(\"brick moral institution loud talk resign worth\"), \"loud worth brick talk moral institution resign\");",
+  "title": "Sort a String by Its Last Character"
+}

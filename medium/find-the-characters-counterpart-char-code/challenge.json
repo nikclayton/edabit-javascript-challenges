@@ -1,0 +1,15 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "fbaLZPNjTvYtY444B",
+  "code": "function counterpartCharCode(char) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a single character as an argument and returns the char code of its lowercased / uppercased counterpart.</span></p><h3><span>Examples</span></h3><pre><code>Given that:\n  - \"A\" char code is: 65\n  - \"a\" char code is: 97\n\ncounterpartCharCode(\"A\") \u279e 97\n\ncounterpartCharCode(\"a\") \u279e 65</code></pre><h3><span>Notes</span></h3><ul><li><span>The argument will always be a single character.</span></li><li><span>Not all inputs will have a counterpart (e.g. numbers), in which case return the inputs char code.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/fbaLZPNjTvYtY444B",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "// Normal letters\nTest.assertEquals(counterpartCharCode('a'), 65);\nTest.assertEquals(counterpartCharCode('A'), 97);\nTest.assertEquals(counterpartCharCode('l'), 76);\nTest.assertEquals(counterpartCharCode('L'), 108);\nTest.assertEquals(counterpartCharCode('z'), 90);\nTest.assertEquals(counterpartCharCode('Z'), 122);\n\n// Accented / weird letters\nTest.assertEquals(counterpartCharCode('\u00e8'), 200);\nTest.assertEquals(counterpartCharCode('\u00c8'), 232);\nTest.assertEquals(counterpartCharCode('\u0152'), 339);\nTest.assertEquals(counterpartCharCode('\u0153'), 338);\nTest.assertEquals(counterpartCharCode('\u023a'), 11365);\nTest.assertEquals(counterpartCharCode('\u2c65'), 570);\n\n// These don't have a counterpart, you should return the input's char code\nTest.assertEquals(counterpartCharCode('5'), 53);\nTest.assertEquals(counterpartCharCode('$'), 36);",
+  "title": "Find the Characters Counterpart Char Code"
+}

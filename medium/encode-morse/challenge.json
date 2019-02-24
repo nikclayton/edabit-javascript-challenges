@@ -1,0 +1,16 @@
+{
+  "author_id": "0osh4d0wo0",
+  "author_url": "https://edabit.com/user/XHngE5iScvztMpnR2",
+  "challenge_id": "qktP97jpm5arY2yEA",
+  "code": "function encodeMorse(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string as an argument and return a non-encoded, encrypted string.</span></p><h3><span>Examples</span></h3><pre><code>encodeMorse(\"EDABBIT CHALLENGE\") \u279e \". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .\"\n\nencodeMorse(\"HELP ME !\") \u279e \".... . .-.. .--.   -- .   -.-.--\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Input value can be lower or upper case.</span></li><li><span>Input string can have digits.</span></li><li><span>Input string can have some special characters (e.g. comma, colon, apostrophe, period, question mark, exclamation mark).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/qktP97jpm5arY2yEA",
+  "tags": [
+    "arrays",
+    "conditions",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(encodeMorse(\"EDABBIT CHALLENGE\"),\". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .\");\nTest.assertEquals(encodeMorse(\"HELP ME !\"),\".... . .-.. .--.   -- .   -.-.--\");\nTest.assertEquals(encodeMorse(\"CHALLENGE\"),\"-.-. .... .- .-.. .-.. . -. --. .\");\nTest.assertEquals(encodeMorse( \"1 APPLE AND 5 CHERRY, 7 SANDWICHES, 2 TABLES, 9 INVITED GUYS ! THAT'S SO COOL...\"),\".----   .- .--. .--. .-.. .   .- -. -..   .....   -.-. .... . .-. .-. -.-- --..--   --...   ... .- -. -.. .-- .. -.-. .... . ... --..--   ..---   - .- -... .-.. . ... --..--   ----.   .. -. ...- .. - . -..   --. ..- -.-- ...   -.-.--   - .... .- - .----. ...   ... ---   -.-. --- --- .-.. .-.-.- .-.-.- .-.-.-\");\nTest.assertEquals(encodeMorse(\"did you got my mail ?\"),\"-.. .. -..   -.-- --- ..-   --. --- -   -- -.--   -- .- .. .-..   ..--..\");\nTest.assertEquals(encodeMorse(\"TWO THInGS TO KNOW : i FORGeT THeM :C\"),\"- .-- ---   - .... .. -. --. ...   - ---   -.- -. --- .--   ---...   ..   ..-. --- .-. --. . -   - .... . --   ---... -.-.\");",
+  "title": "Encode Morse"
+}

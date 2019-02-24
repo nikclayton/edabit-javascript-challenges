@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "LvhSTYCbRDS4XTNmx",
+  "code": "function threeDaysAgo(date) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Given a </span><code>Date()</code><span> object, return the date from three days prior as a string: </span><code>\"2016-01-19\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code class=\"language-:\">threeDaysAgo(new Date(2018, 0, 1)) \u279e \"2017-12-29\"\n\nthreeDaysAgo(new Date(2015, 5, 17)) \u279e \"2015-06-14\"\n\nthreeDaysAgo(new Date(1965, 3, 15))\u279e \"1965-04-12\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Your function must work in the past, present and future.</span></li><li><span>JavaScript months are zero based.</span></li><li><span>Your output should NOT be zero based: </span><code>2016, 0, 19</code><span> == </span><code>\"2016-01-19\"</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/LvhSTYCbRDS4XTNmx",
+  "tags": [
+    "dates",
+    "formatting"
+  ],
+  "tests": "Test.assertSimilar(threeDaysAgo(new Date(2017, 1, 1)), \"2017-01-29\");\nTest.assertSimilar(threeDaysAgo(new Date(1950, 6, 8)), \"1950-07-05\");\nTest.assertSimilar(threeDaysAgo(new Date(1965, 3, 15)), \"1965-04-12\");\nTest.assertSimilar(threeDaysAgo(new Date(2025, 4, 24)), \"2025-05-21\");\nTest.assertSimilar(threeDaysAgo(new Date(1965, 3, 15)), \"1965-04-12\");\nTest.assertSimilar(threeDaysAgo(new Date(2015, 5, 17)), \"2015-06-14\");",
+  "title": "Return the Date from Three Days Prior"
+}

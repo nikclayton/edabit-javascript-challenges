@@ -1,0 +1,17 @@
+{
+  "author_id": "Michael Alexander",
+  "author_url": "https://edabit.com/user/9nRurh3vGSqKaFJCX",
+  "challenge_id": "cada8J3AWGRhwQhkk",
+  "code": "function hackerSpeak(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string as an argument and returns a coded (h4ck3r 5p34k) version of the string.</span></p><h3><span>Examples</span></h3><pre><code>hackerSpeak(\"javascript is cool\") \u279e \"j4v45cr1pt 15 c00l\"\n\nhackerSpeak(\"programming is fun\") \u279e \"pr0gr4mm1ng 15 fun\"\n\nhackerSpeak(\"become a coder\") \u279e \"b3c0m3 4 c0d3r\"</code></pre><h3><span>Notes</span></h3><p><span>In order to work properly, the function should replace all 'a's with 4, 'e's with 3, 'i's with 1, 'o's with 0, and 's's with 5.</span></p>",
+  "source_url": "https://edabit.com/challenge/cada8J3AWGRhwQhkk",
+  "tags": [
+    "arrays",
+    "conditions",
+    "control_flow",
+    "functional_programming"
+  ],
+  "tests": "// JavaScript\nTest.assertEquals(hackerSpeak(\"javascript is cool\"), \"j4v45cr1pt 15 c00l\");\nTest.assertEquals(hackerSpeak(\"become a coder\"), \"b3c0m3 4 c0d3r\");\nTest.assertEquals(hackerSpeak(\"hi there\"), \"h1 th3r3\");\nTest.assertEquals(hackerSpeak(\"programming is fun\"), \"pr0gr4mm1ng 15 fun\");\nTest.assertEquals(hackerSpeak(\"keep on practicing\"), \"k33p 0n pr4ct1c1ng\");\n\n\n// More info here: https://edabit.com/help/creating-challenges",
+  "title": "H4ck3r Sp34k"
+}

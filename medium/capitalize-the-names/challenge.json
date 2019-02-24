@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ZN5cpGPNRS3nrjMo5",
+  "code": "function capMe(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of names and returns an array with the first letter capitalized.</span></p><h3><span>Examples</span></h3><pre><code>capMe([\"mavis\", \"senaida\", \"letty\"]) \u279e [\"Mavis\", \"Senaida\", \"Letty\"]\n\ncapMe([\"samuel\", \"MABELLE\", \"letitia\", \"meridith\"]) \u279e [\"Samuel\", \"Mabelle\", \"Letitia\", \"Meridith\"]\n\ncapMe([\"Slyvia\", \"Kristal\", \"Sharilyn\", \"Calista\"]) \u279e [\"Slyvia\", \"Kristal\", \"Sharilyn\", \"Calista\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't change the order of the original array.</span></li><li><span>Notice in the second example above, \"MABELLE\" is returned as \"Mabelle\".</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ZN5cpGPNRS3nrjMo5",
+  "tags": [
+    "arrays",
+    "formatting",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(capMe(['mavis', 'senaida', 'letty']), ['Mavis', 'Senaida', 'Letty'])\nTest.assertSimilar(capMe(['samuel', 'MABELLE', 'letitia', 'meridith']), ['Samuel', 'Mabelle', 'Letitia', 'Meridith'])\nTest.assertSimilar(capMe(['Slyvia', 'Kristal', 'Sharilyn', 'Calista']), ['Slyvia', 'Kristal', 'Sharilyn', 'Calista'])\nTest.assertSimilar(capMe(['krisTopher', 'olIva', 'herminiA']), ['Kristopher', 'Oliva', 'Herminia'])\nTest.assertSimilar(capMe(['luke', 'marsha', 'stanford']), ['Luke', 'Marsha', 'Stanford'])\nTest.assertSimilar(capMe(['kara']), ['Kara'])\nTest.assertSimilar(capMe(['mARIANN', 'jOI', 'gEORGEANN']), ['Mariann', 'Joi', 'Georgeann'])",
+  "title": "Capitalize the Names"
+}

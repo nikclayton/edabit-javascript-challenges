@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "cJHGXaAFus9fQsZ6n",
+  "code": "function sumConsecutives(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array of integers (positive / negative) and return the sum of the numbers that repeat consecutively (return your result as an array).</span></p><h3><span>Examples</span></h3><pre><code>sumConsecutives([0, 7, 7, 7, 5, 4, 9, 9, 0]) \u279e [0, 21, 5, 4, 18, 0]\n\nsumConsecutives([4, 4, 5, 6, 8, 8, 8]) \u279e [8, 5, 6, 24]\n\nsumConsecutives([-5, -5, 7, 7, 12, 0]) \u279e [-10, 14, 12, 0]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/cJHGXaAFus9fQsZ6n",
+  "tags": [
+    "arrays",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(sumConsecutives([0, 7, 7, 7, 5, 4, 9, 9, 0]), [0, 21, 5, 4, 18, 0]);\nTest.assertSimilar(sumConsecutives([4, 4, 5, 6, 8, 8, 8]), [8, 5, 6, 24]);\nTest.assertSimilar(sumConsecutives([-5, -5, 7, 7, 12, 0]), [-10, 14, 12, 0]);\nTest.assertSimilar(sumConsecutives([2, 2, 2, 2, 2, 7]), [10, 7]);\nTest.assertSimilar(sumConsecutives([2, 2, -4, 4, 5, 5, 6, 6, 6, 6, 6, 1]), [4, -4, 4, 10, 30, 1]);\nTest.assertSimilar(sumConsecutives([3, 3, 3, 3, 1]), [12, 1]);\nTest.assertSimilar(sumConsecutives([1, -1, -2, 2, 3, -3, 4, -4]), [1, -1, -2, 2, 3, -3, 4, -4]);",
+  "title": "Sum Consecutive Integers"
+}

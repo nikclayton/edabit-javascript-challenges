@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Aq9mrJ9FWyxWCpgLq",
+  "code": "function deepCount(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array and returns the number of ALL elements within it (including those within the inner-level array(s)).</span></p><h3><span>Examples</span></h3><pre><code>deepCount([1, 2, 3]) \u279e 3\n\ndeepCount([[1], [2], [3]]) \u279e 6\n\ndeepCount([\"x\", \"y\", [\"z\"]]) \u279e 4\n\ndeepCount([\"a\", \"b\", [\"c\", \"d\", [\"e\"]]]) \u279e 7</code></pre><h3><span>Notes</span></h3><p><span>In the examples above, notice how the sub-arrays within the main array count as an element </span><em><span>as well as</span></em><span> the elements within that sub-array.</span></p>",
+  "source_url": "https://edabit.com/challenge/Aq9mrJ9FWyxWCpgLq",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(deepCount([1, 2, 3]), 3);\nTest.assertEquals(deepCount([\"x\", \"y\", [\"z\"]]), 4);\nTest.assertEquals(deepCount([\"a\", \"b\", [\"c\", \"d\", [\"e\"]]]), 7);\nTest.assertEquals(deepCount([[1], [2], [3]]), 6);\nTest.assertEquals(deepCount([[[[[[[[[]]]]]]]]]), 8);\nTest.assertEquals(deepCount([null]), 1);\nTest.assertEquals(deepCount([[]]), 1);\nTest.assertEquals(deepCount([[undefined], [null, [\"edabit\"]], [0]]), 8);",
+  "title": "Deep Array Count"
+}

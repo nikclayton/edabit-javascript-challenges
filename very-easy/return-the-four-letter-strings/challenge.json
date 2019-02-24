@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "havnWL4BimvoaXNMn",
+  "code": "function isFourLetters(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an array of strings. Return all words in the array that are exactly four letters.</span></p><h3><span>Examples</span></h3><pre><code>isFourLetters([\"Ryan\", \"Kieran\", \"Jason\", \"Matt\"]) \u279e [\"Ryan\", \"Matt\"]\n\nisFourLetters([\"Tomato\", \"Potato\", \"Pair\"]) \u279e [\"Pair\"]\n\nisFourLetters([\"Kangaroo\", \"Bear\", \"Fox\"]) \u279e [\"Bear\"]</code></pre><h3><span>Notes</span></h3><p><span>You can expect valid strings for all test cases.</span></p>",
+  "source_url": "https://edabit.com/challenge/havnWL4BimvoaXNMn",
+  "tags": [
+    "arrays",
+    "conditions",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(isFourLetters([\"Ryan\", \"Kieran\", \"Jason\", \"Matt\"]), [\"Ryan\", \"Matt\"])\nTest.assertSimilar(isFourLetters([\"Tomato\", \"Potato\", \"Pair\"]), [\"Pair\"])\nTest.assertSimilar(isFourLetters([\"Kangaroo\", \"Bear\", \"Fox\"]), [\"Bear\"])\nTest.assertSimilar(isFourLetters([\"Red\", \"Blue\", \"Green\", \"Pink\"]), [\"Blue\", \"Pink\"])\nTest.assertSimilar(isFourLetters([\"is\", \"up\", \"two\", \"elephant\"]), [])\nTest.assertSimilar(isFourLetters([]), [])\nTest.assertSimilar(isFourLetters([\"jazz\", \"quiz\", \"jump\"]), [\"jazz\", \"quiz\", \"jump\"])\nTest.assertSimilar(isFourLetters([\"\"]), [])\nTest.assertSimilar(isFourLetters([\"Broccoli\", \"Carrot\", \"Spinach\"]), [])",
+  "title": "Return the Four Letter Strings"
+}

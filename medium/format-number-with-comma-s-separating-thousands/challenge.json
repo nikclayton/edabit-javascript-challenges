@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "5o7CE6N4uNAGDzjRg",
+  "code": "function formatNum(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns a string formatted to separate thousands.</span></p><h3><span>Examples</span></h3><pre><code>formatNum(1000) \u279e \"1,000\"\n\nformatNum(100000) \u279e \"100,000\"\n\nformatNum(20) \u279e \"20\"</code></pre><h3><span>Notes</span></h3><p><span>You can expect a valid number for all test cases.</span></p>",
+  "source_url": "https://edabit.com/challenge/5o7CE6N4uNAGDzjRg",
+  "tags": [
+    "formatting",
+    "numbers",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(formatNum(1000), \"1,000\");\nTest.assertEquals(formatNum(1000000), \"1,000,000\");\nTest.assertEquals(formatNum(20), \"20\");\nTest.assertEquals(formatNum(0), \"0\");\nTest.assertEquals(formatNum(12948), \"12,948\");",
+  "title": "Format Number with Comma(s) Separating Thousands"
+}

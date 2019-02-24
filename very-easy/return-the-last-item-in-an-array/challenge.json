@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "7JBTN4TbaxJQMdX9W",
+  "code": "function getLastItem(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that accepts an array and returns the last item in the array.</span></p><h3><strong><span>Examples</span></strong></h3><pre><code>getLastItem([1, 2, 3]) \u279e 3\n\ngetLastItem(['cat', 'dog', 'duck']) \u279e 'duck'\n\ngetLastItem([true, false, true]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>All test cases contain valid data types.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/7JBTN4TbaxJQMdX9W",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(getLastItem(['Cat', 'Dog', 'Duck']), 'Duck');\nTest.assertEquals(getLastItem([1, 2, 3]), 3);\nTest.assertEquals(getLastItem([undefined]));\nTest.assertEquals(getLastItem([true, false, false, true]), true);\nTest.assertEquals(getLastItem([7, 'String', false, undefined, null]), null);\nTest.assertEquals(getLastItem([false]), false);\nTest.assertEquals(getLastItem([undefined, undefined, undefined]), undefined);\nTest.assertEquals(getLastItem([1, 2, 3, 56, 87, 23, 65, 45]), 45);\nTest.assertEquals(getLastItem(['Apple', 'Orange', undefined]), undefined);\nTest.assertEquals(getLastItem([true, false, 'Apple']), 'Apple');\nTest.assertEquals(getLastItem([null, null, null]), null);\nTest.assertEquals(getLastItem([1]), 1);",
+  "title": "Return the Last Item in an Array"
+}

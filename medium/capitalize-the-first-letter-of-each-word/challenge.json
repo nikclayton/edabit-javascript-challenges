@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "LvtsCQNpx7CwHGubf",
+  "code": "function makeTitle(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string as an argument and converts the first character of each word to uppercase. Return the newly formatted string.</span></p><h3><span>Examples</span></h3><pre><code>makeTitle(\"This is a title\") \u279e \"This Is A Title\"\n\nmakeTitle(\"capitalize every word\") \u279e \"Capitalize Every Word\"\n\nmakeTitle(\"I Like Pizza\") \u279e \"I Like Pizza\"\n\nmakeTitle(\"PIZZA PIZZA PIZZA\") \u279e \"PIZZA PIZZA PIZZA\"</code></pre><h3><span>Notes</span></h3><p><span>You can expect a valid string for each test case.</span></p>",
+  "source_url": "https://edabit.com/challenge/LvtsCQNpx7CwHGubf",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(makeTitle(\"I am a title\"), \"I Am A Title\");\nTest.assertSimilar(makeTitle(\"I AM A TITLE\"), \"I AM A TITLE\");\nTest.assertSimilar(makeTitle(\"i aM a tITLE\"), \"I AM A TITLE\");\nTest.assertSimilar(makeTitle(\"the first letter of every word is capitalized\"), \"The First Letter Of Every Word Is Capitalized\");\nTest.assertSimilar(makeTitle(\"I Like Pizza\"), \"I Like Pizza\");\nTest.assertSimilar(makeTitle(\"Don't count your ChiCKens BeFore They HatCh\"), \"Don't Count Your ChiCKens BeFore They HatCh\");\nTest.assertSimilar(makeTitle(\"All generalizations are false, including this one\"), \"All Generalizations Are False, Including This One\");\nTest.assertSimilar(makeTitle(\"Me and my wife lived happily for twenty years and then we met.\"), \"Me And My Wife Lived Happily For Twenty Years And Then We Met.\");\nTest.assertSimilar(makeTitle(\"There are no stupid questions, just stupid people.\"), \"There Are No Stupid Questions, Just Stupid People.\");\nTest.assertSimilar(makeTitle(\"1f you c4n r34d 7h15, you r34lly n33d 2 g37 l41d\"), \"1f You C4n R34d 7h15, You R34lly N33d 2 G37 L41d\");\nTest.assertSimilar(makeTitle(\"PIZZA PIZZA PIZZA\"), \"PIZZA PIZZA PIZZA\");",
+  "title": "Capitalize the First Letter of Each Word"
+}

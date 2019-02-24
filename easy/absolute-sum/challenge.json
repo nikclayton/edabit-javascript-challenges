@@ -1,0 +1,16 @@
+{
+  "author_id": "gabe",
+  "author_url": "https://edabit.com/user/GbE4ff9CcHwyqzJFh",
+  "challenge_id": "rCmEy2AQYLbRGgKyL",
+  "code": "function getAbsSum(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.</span></p><h3><span>Examples</span></h3><pre><code>getAbsSum([2, -1, 4, 8, 10]) \u279e 25\n\ngetAbsSum([-3, -4, -10, -2, -3]) \u279e 22\n\ngetAbsSum([2, 4, 6, 8, 10]) \u279e 30\n\ngetAbsSum([-1]) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>The term \"absolute value\" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).</span></p>",
+  "source_url": "https://edabit.com/challenge/rCmEy2AQYLbRGgKyL",
+  "tags": [
+    "arrays",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(getAbsSum([2, -1, -3, 4, 8]), 18);\nTest.assertEquals(getAbsSum([-1]), 1);\nTest.assertEquals(getAbsSum([-1, -3, -5, -4, -10, 0]), 23);\nTest.assertEquals(getAbsSum([8, 9, 10, 32, 101, -10]), 170);\nTest.assertEquals(getAbsSum([500]), 500);",
+  "title": "Absolute Sum"
+}

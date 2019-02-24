@@ -1,0 +1,15 @@
+{
+  "author_id": "Tony",
+  "author_url": "https://edabit.com/user/ketYXr2XoMEbbgn5W",
+  "challenge_id": "DrxLn9tdXg4xWpMAY",
+  "code": "function verifySubstrs(mainStr, head, body, tail) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that takes four string arguments. You will be comparing the first string to the three next strings. Verify if the first string starts with the second string, includes the third string, and ends with the fourth string. If the first string passes all checks, return the string </span><code>\"My head, body, and tail.\"</code><span>, otherwise, return </span><code>\"Incomplete.\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>verifySubstrs(\"Onomatopeia\", \"on\", \"mato\", \"ia\") \u279e \"Incomplete.\"\n\nverifySubstrs(\"Centipede\", \"Cent\", \"tip\", \"pede\") \u279e \"My head, body, and tail.\"\n\nverifySubstrs(\"apple\", \"AP\", \"PPL\", \"LE\") \u279e \"Incomplete.\"</code></pre><h3><span>Notes</span></h3><ul><li><span>You'll always get exactly four strings as arguments.</span></li><li><span>Tests are case sensitive.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/DrxLn9tdXg4xWpMAY",
+  "tags": [
+    "conditions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(\n  verifySubstrs(\"Onomatopeia\", \"on\", \"mato\", \"ia\"),\n\t\"Incomplete.\"\n);\n\nTest.assertEquals(\n\tverifySubstrs(\"Baby\", \"B\", \"ab\", \"y\"),\n  \"My head, body, and tail.\"\n);\n\nTest.assertEquals(\n\tverifySubstrs(\"Centipede\", \"Cent\", \"tip\", \"pede\"),\n  \"My head, body, and tail.\"\n);\n\nTest.assertEquals(\n\tverifySubstrs(\"Hey, you, stop that.\", \"Hey\", \", y ou, st \", \".\"),\n  \"Incomplete.\"\n);\n\nTest.assertEquals(\n\tverifySubstrs(\"apple\", \"AP\", \"PPL\", \"LE\"),\n  \"Incomplete.\"\n);",
+  "title": "Head-Body-Tail"
+}

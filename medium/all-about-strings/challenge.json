@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "5bW3TmPnae2FNvusk",
+  "code": "function allAboutStrings(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that, given a </span><strong><span>string</span></strong><span> with at least </span><strong><span>three characters</span></strong><span>, returns an array of its:</span></p><ol><li><span>Length.</span></li><li><span>First character.</span></li><li><span>Last character.</span></li><li><span>Middle character, if the string has an odd number of characters. Middle TWO characters, if the string has an even number of characters.</span></li><li><span>Index of the second occurrence of the second character in the format </span><strong><span>\"@ index #\"</span></strong><span> and </span><strong><span>\"not found\"</span></strong><span> if the second character doesn't occur again.</span></li></ol><h3><span>Examples</span></h3><pre><code>allAboutStrings(\"LASA\") \u279e [4, \"L\", \"A\", \"AS\", \"@ index 3\"]\n\nallAboutStrings(\"Computer\") \u279e [8, \"C\", \"r\", \"pu\", \"not found\"]\n\nallAboutStrings(\"Science\") \u279e [7, \"S\", \"e\", \"e\", \"@ index 5\"]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/5bW3TmPnae2FNvusk",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(allAboutStrings('LASA'), [4, 'L', 'A', 'AS', '@ index 3']);\nTest.assertSimilar(allAboutStrings('Computer'), [8, 'C', 'r', 'pu', 'not found']);\nTest.assertSimilar(allAboutStrings('Science'), [7, 'S', 'e', 'e', '@ index 5']);\nTest.assertSimilar(allAboutStrings('homework'), [8, 'h', 'k', 'ew', '@ index 5']);\nTest.assertSimilar(allAboutStrings('spring'), [6, 's', 'g', 'ri', 'not found']);\nTest.assertSimilar(allAboutStrings('break'), [5, 'b', 'k', 'e', 'not found']);\nTest.assertSimilar(allAboutStrings('programming'), [11, 'p', 'g', 'a', '@ index 4']);\nTest.assertSimilar(allAboutStrings('bad'), [3, 'b', 'd', 'a', 'not found']);",
+  "title": "All About Strings"
+}

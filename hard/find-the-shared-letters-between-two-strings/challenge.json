@@ -1,0 +1,15 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "33EsK9mQzGGzRkXQT",
+  "code": "function sharedLetters(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given two strings, return a </span><code>string</code><span> containing only the letters shared between the two.</span></p><h3><span>Examples</span></h3><pre><code>sharedLetters(\"house\", \"home\") \u279e \"eho\"\n\nsharedLetters(\"Micky\", \"mouse\") \u279e \"m\"\n\nsharedLetters(\"house\", \"villa\") \u279e \"\"</code></pre><h3><span>NotessharedLetters</span></h3><ul><li><span>If none of the letters are shared, return an empty string.</span></li><li><span>The function should be </span><strong><span>case insensitive</span></strong><span> (e.g. comparing </span><code>A</code><span> and </span><code>a</code><span> should return </span><code>a</code><span>).</span></li><li><span>Sort the resulting string alphabetically before returning it.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/33EsK9mQzGGzRkXQT",
+  "tags": [
+    "conditions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(sharedLetters('house', 'home'), 'eho');\nTest.assertEquals(sharedLetters('Micky', 'mouse'), 'm');\nTest.assertEquals(sharedLetters('house', 'villa'), '');\nTest.assertEquals(sharedLetters('Aa', 'aA'), 'a');\nTest.assertEquals(sharedLetters('https://www.example.com', 'https://www.canada.ca'), './:achpstw');\nTest.assertEquals(sharedLetters('Edabit', 'Matt'), 'at');\nTest.assertEquals(sharedLetters('\ud83d\ude42\ud83d\ude00\ud83d\ude04\ud83d\ude01', '\ud83d\ude42\ud83d\ude1e\ud83d\ude14\ud83d\ude23'), '\ud83d\ude42');\nTest.assertEquals(sharedLetters('Javascript', 'Swift'), 'ist');\nTest.assertEquals(sharedLetters('Functional programming', 'Object oriented programming'), ' acgimnoprt');\nTest.assertEquals(sharedLetters('My dog is a GOOD BOY \ud83d\udc36', 'Do you like ice cream? \ud83c\udf66'), ' adimoy');",
+  "title": "Find the Shared Letters between Two Strings"
+}

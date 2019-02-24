@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "zeBNPCpiXYNpKG6pt",
+  "code": "function matrix(x, y, z) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes three arguments </span><code>(x, y, z)</code><span> and returns an array containing subarrays (e.g. </span><code>[[], [], []]</code><span>), each of a certain number of items, all set to either a string or an integer.</span></p><ul><li><strong><span>x argument:</span></strong><span> Number of subarrays contained within the main array.</span></li><li><strong><span>y argument</span></strong><span> Number of items contained within each subarray(s).</span></li><li><strong><span>z argument:</span></strong><span> Item contained within each subarray(s).</span></li></ul><h3><span>Examples</span></h3><pre><code>matrix(3, 2, 3) \u279e [[3, 3], [3, 3], [3, 3]]\n\nmatrix(2, 1, \"edabit\") \u279e [[\"edabit\"], [\"edabit\"]]\n\nmatrix(3, 2, 0) \u279e [[0, 0], [0, 0], [0, 0]]</code></pre><h3><span>Notes</span></h3><ul><li><span>The first two arguments will always be valid integers.</span></li><li><span>The third is either a string or an integer.</span></li><li><span>You can expect valid input for all test cases.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/zeBNPCpiXYNpKG6pt",
+  "tags": [
+    "arrays",
+    "data_structures",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(matrix(3, 4, 0), [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]);\nTest.assertSimilar(matrix(2, 3, \"#\"), [['#', '#', '#'], ['#', '#', '#']]);\nTest.assertSimilar(matrix(2, 3, -4), [[-4, -4, -4], [-4, -4, -4]]);\nTest.assertSimilar(matrix(1, 2, 0), [[0, 0]]);",
+  "title": "Return an Array of Subarrays"
+}

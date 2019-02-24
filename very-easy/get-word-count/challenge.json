@@ -1,0 +1,16 @@
+{
+  "author_id": "maxming",
+  "author_url": "https://edabit.com/user/bYyDorsuAA38kPqH9",
+  "challenge_id": "FydPqxRiosP7EBiQh",
+  "code": "function countWords(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a string and returns the word count. The string will be a sentence.</span></p><h3><span>Examples</span></h3><pre><code>countWords(\"Just an example here move along\") \u279e 6\n\ncountWords(\"This is a test\") \u279e 4\n\ncountWords(\"What an easy task, right\") \u279e 5</code></pre><h3><span>Notes</span></h3><ul><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/FydPqxRiosP7EBiQh",
+  "tags": [
+    "math",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countWords(\"It's high noon\"), 3);\nTest.assertEquals(countWords(\"Is this easy mode\"), 4);\nTest.assertEquals(countWords(\"Is this easy mode\"), 4);",
+  "title": "Get Word Count"
+}

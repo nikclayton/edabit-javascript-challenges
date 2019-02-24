@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "cRAqXCgyYnjdgktEq",
+  "code": "function indexOfCaps(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a single string as argument and returns an ordered list containing the indexes of all capital letters in the string.</span></p><h3><span>Examples</span></h3><pre><code>indexOfCaps(\"eDaBiT\") \u279e [1, 3, 5]\n\nindexOfCaps(\"eQuINoX\") \u279e [1, 3, 4, 6]\n\nindexOfCaps(\"determine\") \u279e []\n\nindexOfCaps(\"STRIKE\") \u279e [0, 1, 2, 3, 4, 5]\n\nindexOfCaps(\"sUn\") \u279e [1]</code></pre><h3><span>Notes</span></h3><ul><li><span>Return an empty array if no uppercase letters are found in the string.</span></li><li><span>Special characters ($#@%) and numbers will be included in some test cases.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/cRAqXCgyYnjdgktEq",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(indexOfCaps(\"eDaBiT\"), [1, 3, 5])\nTest.assertSimilar(indexOfCaps(\"eQuINoX\"), [1, 3, 4, 6])\nTest.assertSimilar(indexOfCaps(\"determine\"), [])\nTest.assertSimilar(indexOfCaps(\"STRIKE\"), [0, 1, 2, 3, 4, 5])\nTest.assertSimilar(indexOfCaps(\"sUn\"), [1])\nTest.assertSimilar(indexOfCaps(\"SpiDer\"), [0, 3])\nTest.assertSimilar(indexOfCaps(\"accOmpAnY\"), [3, 6, 8])\nTest.assertSimilar(indexOfCaps(\"@xCE#8S#i*$en\"), [2, 3, 6])\nTest.assertSimilar(indexOfCaps(\"1854036297\"), [])\nTest.assertSimilar(indexOfCaps(\"Fo?.arg~{86tUx=|OqZ!\"), [0, 12, 16, 18])",
+  "title": "Return the Index of All Capital Letters"
+}

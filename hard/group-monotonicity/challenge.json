@@ -1,0 +1,15 @@
+{
+  "author_id": "kochug",
+  "author_url": "https://edabit.com/user/vQEmjTRgmdGNYB7yk",
+  "challenge_id": "RPfHDE8xNuDu8Te3F",
+  "code": "function groupMonotonic(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function which returns the indices where the monotonicity of a 1-D array changes. If there are none, return an empty array. A monotonic array is one that is either non-increasing or non-decreasing.</span></p><h3><span>Examples</span></h3><pre><code>groupMonotonic([0, 1]) \u279e []\n\ngroupMonotonic([0, 2, 1]) \u279e [1]\n\ngroupMonotonic([0, 1, 1, 0]) \u279e [2]</code></pre><h3><span>Notes</span></h3><ul><li><span>Trivially, all points and line-segments are monotonic (see example </span><span>#</span><span>1).</span></li><li><span>Return the indices where each monotonic section stops, not where each new one begins: i.e. return the \"peaks\" of the triangles (see example </span><span>#</span><span>2).</span></li><li><span>Monotonic arrays are allowed to be constant (see example </span><span>#</span><span>3).</span></li><li><span>You can expect positive and negative values in the array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RPfHDE8xNuDu8Te3F",
+  "tags": [
+    "algorithms",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(groupMonotonic([]), []);\nTest.assertSimilar(groupMonotonic([0]), []);\nTest.assertSimilar(groupMonotonic([1]), []);\nTest.assertSimilar(groupMonotonic([0, 1]), []);\nTest.assertSimilar(groupMonotonic([1, 0]), []);\nTest.assertSimilar(groupMonotonic([1, 1]), []);\nTest.assertSimilar(groupMonotonic([0, 1, 2]), []);\nTest.assertSimilar(groupMonotonic([2, 1, 0]), []);\nTest.assertSimilar(groupMonotonic([0, 2, 1]), [1]);\nTest.assertSimilar(groupMonotonic([1, 0, 2]), [1]);\nTest.assertSimilar(groupMonotonic([0, 1, 1, 0]), [2]);\nTest.assertSimilar(groupMonotonic([1, 2, 3, 4, 4, 4, 3, 2, 1]), [5]);\nTest.assertSimilar(groupMonotonic([0, 6, 10, 9, 3, -3, -9, -10, -6, 0]), [2, 7]);",
+  "title": "Group Monotonicity"
+}

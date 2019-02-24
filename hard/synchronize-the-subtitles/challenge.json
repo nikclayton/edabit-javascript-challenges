@@ -1,0 +1,17 @@
+{
+  "author_id": "VeryKnave",
+  "author_url": "https://edabit.com/user/RW2wFPbMQniZWPmw4",
+  "challenge_id": "H4of8EdxS98ikEaZd",
+  "code": "function syncSubs(subtitles, timeIncrement) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that will increment every time format found in a string (for example </span><code>00:42:33,120</code><span>) by a specific time (for example </span><code>00:00:30,550</code><span>). The result between the examples is </span><code>00:43:03,670</code><span>.</span></p><ul><li><span>The function must take 2 arguments: a string from where to search time format and a string that respects the format </span><code>hours:minutes:seconds,milliseconds</code><span>.</span></li><li><span>The function must return a string identical to the first argument but with all time format incremented with the second argument time format.</span></li><li><span>If the second argument does not respect the given time format (for example </span><code>00:00:00</code><span> or </span><code>0:0:0,000</code><span>), you must return \"There is a problem with the second argument\".</span></li></ul><h3><span>Examples</span></h3><pre><code>syncSubs(\"708\n00:44:50,006 --&gt; 00:44:53,007\nHi.\", \"00:03:30,550\")\n\u279e\n\"708\n00:45:20,556 --&gt; 00:45:23,557\nHi.\"\n\nsyncSubs(\"179\n00:12:52,766 --&gt; 00:12:55,900\n[Door rattling]\", \"00:11:11,111\")\n\u279e\n\"179\n00:24:04,011 --&gt; 00:24:07,011\n[Door rattling]\"\n\nsyncSubs(\"188\n00:13:37,243 --&gt; 00:13:39,744\n30 minutes.\nEveryone's ready.\n189\n00:13:39,779 --&gt; 00:13:43,548\n\n\", \"01:00:51,111\")\n\u279e\n\"188\n02:06:28,000 --&gt; 02:06:30,000\n30 minutes.\nEveryone's ready.\n189\n02:06:30,000 --&gt; 02:06:34,000\"</code></pre><h3><span>Notes</span></h3><p><span>You don't need to worry about a time format being wrong in the first string like </span><code>00:13:79,779</code><span> or </span><code>00:13:39,79</code><span> because there won't be any mistake in it.</span></p>",
+  "source_url": "https://edabit.com/challenge/H4of8EdxS98ikEaZd",
+  "tags": [
+    "algorithms",
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(syncSubs(\n`708\n00:44:50,006 --> 00:44:53,007\nPeople are taking this festival\nextremely seriously.`, `00:03:30,550`),\n`708\n00:48:20,556 --> 00:48:23,557\nPeople are taking this festival\nextremely seriously.`)\nTest.assertEquals(syncSubs(\n`729\n00:45:55,704 --> 00:45:59,506\nSo we don't have to wait for it.`, `00:00:00,000`),\n`729\n00:45:55,704 --> 00:45:59,506\nSo we don't have to wait for it.`)\nTest.assertEquals(syncSubs(\n`735\n00:46:24,967 --> 00:46:27,701\nWe've already won.\n\n736\n00:46:27,736 --> 00:46:30,637\n[Crowd cheers]`, `01:21:00,211`),\n`735\n02:07:25,178 --> 02:07:27,912\nWe've already won.\n\n736\n02:07:27,947 --> 02:07:30,848\n[Crowd cheers]`)\nTest.assertEquals(syncSubs(\n`722\n00:45:34,483 --> 00:45:36,917\nMy mercy...`, `00:60:09,010`),\n`There is a problem with the second argument`)\nTest.assertEquals(syncSubs(\n`722\n00:45:34,483 --> 00:45:36,917\nMy mercy...`, `00:00:09.000`),\n`There is a problem with the second argument`)\nTest.assertEquals(syncSubs(\n`722\n00:45:34,483 --> 00:45:36,917\nMy mercy...`, `0:4:5,921`),\n`There is a problem with the second argument`)\nTest.assertEquals(syncSubs(\n`187\n00:13:29,202 --> 00:13:37,202\n\u266a`, `02:54:55,999`),\n`187\n03:08:25,201 --> 03:08:33,201\n\u266a`)",
+  "title": "Synchronize the Subtitles"
+}

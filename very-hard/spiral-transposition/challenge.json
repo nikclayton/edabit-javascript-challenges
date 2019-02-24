@@ -1,0 +1,18 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "gdmrXxEej2fPZtF4S",
+  "code": "function spiral(arr) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes a two-dimensional array as an argument and returns a one-dimensional array with the values of the original 2d array that are arranged by spiralling through it (starting from the top-left).</span></p><h3><span>Examples</span></h3><pre><code>[\n[7, 2], \u279e [7, 2, 0, 5]\n[5, 0]\n]\n\n[\n[1, 2, 3],  \n[4, 5, 6], \u279e [1, 2, 3, 6, 9, 8, 7, 4, 5]\n[7, 8, 9]\n] \n\n[\n[1, 1, 1],  \n[4, 5, 2], \u279e [1, 1, 1, 2, 2, 3, 3, 4, 5]\n[3, 3, 2] \n]\n\n[\n[1, 4, 3, 9],\n[2, 5, 7, 1], \u279e [1, 4, 3, 9, 1, 3, 1, 9, 5, 4, 8, 2, 5, 7, 2, 6]\n[8, 6, 2, 3],\n[4, 5, 9, 1]\n]\n\n[\n[1, 5],\n[9, 2], \u279e [1, 5, 2, 3, 7, 9]\n[7, 3]\n]\n\n[\n[2, 4, 6, 8], \u279e [2, 4, 6, 8, 5, 1, 3, 7]\n[7, 3, 1, 5]\n]</code></pre><h3><span>Notes</span></h3><p><span>If you do not understand the instructions, write the 3x3 array example on a piece of paper and trace the output through it.</span></p>",
+  "source_url": "https://edabit.com/challenge/gdmrXxEej2fPZtF4S",
+  "tags": [
+    "arrays",
+    "loops",
+    "math",
+    "numbers",
+    "recursion"
+  ],
+  "tests": "Test.assertSimilar(\n  spiral(\n    [\n      [7, 2],\n      [5, 0]\n    ]\n  ),\n  [7, 2, 0, 5],\n  'Should work with a 2x2 array'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [1, 2, 3],\n      [4, 5, 6],\n      [7, 8, 9]\n    ]\n  ),\n  [1, 2, 3, 6, 9, 8, 7, 4, 5],\n  'Should work with a 3x3 array'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [1, 9, 9],\n      [2, 4, 9],\n      [7, 3, 9]\n    ]\n  ),\n  [1, 9, 9, 9, 9, 3, 7, 2, 4],\n  'Should work with a 3x3 array'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [6, 4, 3, 9],\n      [2, 5, 7, 1],\n      [8, 6, 2, 3],\n      [4, 5, 9, 1]\n    ]\n  ),\n  [6, 4, 3, 9, 1, 3, 1, 9, 5, 4, 8, 2, 5, 7, 2, 6],\n  'Should work with a 4x4 array'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [4, 1, 55, 5, 9],\n      [16, 7, 6, 5, 3],\n      [8, 20, 2, 0, 8],\n      [2, 9, 9, 1, 11],\n      [6, 5, 3, 18, 5]\n    ]\n  ),\n  [4, 1, 55, 5, 9, 3, 8, 11, 5, 18, 3, 5, 6, 2, 8, 16, 7, 6, 5, 0, 1, 9, 9, 20, 2],\n  'Should work with a 5x5 array'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [1, 5],\n      [9, 2],\n      [7, 3]\n    ]\n  ),\n  [1, 5, 2, 3, 7, 9],\n  'Should work when there are more rows than collumns'\n);\n\nTest.assertSimilar(\n  spiral(\n    [\n      [2, 4, 6, 8],\n      [7, 3, 0, 5]\n    ]\n  ),\n  [2, 4, 6, 8, 5, 0, 3, 7],\n  'Should work when there are more collumns than rows'\n);",
+  "title": "Spiral Transposition"
+}

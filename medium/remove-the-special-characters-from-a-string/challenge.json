@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "k7CwrsKPHrEL8h4z6",
+  "code": "function removeSpecialCharacters(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string, removes all \"special\" characters (e.g. </span><code>! @ # $ % ^ &amp; \\ *</code><span>) and returns the new string. The only non-alphanumeric characters allowed are dashes </span><code>-</code><span>, underscores </span><code>_</code><span> and spaces.</span></p><h3><span>Examples</span></h3><pre><code>removeSpecialCharacters(\"The quick brown fox!\") \u279e \"The quick brown fox\"\n\nremoveSpecialCharacters(\"%fd76$fd(-)6GvKlO.\") \u279e \"fd76fd-6GvKlO\"\n\nremoveSpecialCharacters(\"D0n$c sed 0di0 du1\") \u279e \"D0nc sed 0di0 du1\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/k7CwrsKPHrEL8h4z6",
+  "tags": [
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(removeSpecialCharacters(\"The quick brown fox!\"), \"The quick brown fox\")\nTest.assertEquals(removeSpecialCharacters(\"%fd76$fd(-)6GvKlO.\"), \"fd76fd-6GvKlO\")\nTest.assertEquals(removeSpecialCharacters(\"D0n$c sed 0di0 du1\"), \"D0nc sed 0di0 du1\")\nTest.assertEquals(removeSpecialCharacters(\"cat_pic.jpeg\"), \"cat_picjpeg\")\nTest.assertEquals(removeSpecialCharacters(\"519-555-8093\"), \"519-555-8093\")\nTest.assertEquals(removeSpecialCharacters(\"h-d+=rf[]_{}<>.,`~!@#$%^&*(|)\"), \"h-drf_\")\nTest.assertEquals(removeSpecialCharacters(\"Etiam#!!!!!,,, [`po%rta ~sem!] {male*su-ada} (ma*gna) mo^llis... eui$smod???\"), \"Etiam porta sem malesu-ada magna mollis euismod\")",
+  "title": "Remove the Special Characters from a String"
+}

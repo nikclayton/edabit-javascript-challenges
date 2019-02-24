@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "MxXj9ZhTGfA96uPm7",
+  "code": "function findDigitAmount(num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns the amount of digits it has.</span></p><h3><span>Examples</span></h3><pre><code>findDigitAmount(123) \u279e 3\n\nfindDigitAmount(56) \u279e 2\n\nfindDigitAmount(7154) \u279e 4\n\nfindDigitAmount(61217311514) \u279e 11\n\nfindDigitAmount(0) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/MxXj9ZhTGfA96uPm7",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(findDigitAmount(1), 1, 'Should work with one digit');\nTest.assertEquals(findDigitAmount(67), 2, 'Should work with a two-digit number');\nTest.assertEquals(findDigitAmount(123), 3, 'Should work with a three-digit number');\nTest.assertEquals(findDigitAmount(55551), 5, 'Should work with a bit bigger number');\nTest.assertEquals(findDigitAmount(96456431), 8, 'Should work with bigger numbers');\nTest.assertEquals(findDigitAmount(0), 1, '0 should return 1, as it is a digit');",
+  "title": "Find the Total Number of Digits the Given Number Has"
+}

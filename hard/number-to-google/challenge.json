@@ -1,0 +1,15 @@
+{
+  "author_id": "0osh4d0wo0",
+  "author_url": "https://edabit.com/user/XHngE5iScvztMpnR2",
+  "challenge_id": "2o8GAmetGCkn5a68Y",
+  "code": "function numToGoogle(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array and returns a string.</span></p><ul><li><strong><span>0</span></strong><span> Repeat the actual decrypted value (using like this : 014 to repeat 14 times). </span><ul><li><em><span>Warning: When you start a repeat you can't stop it to add other numbers.</span></em></li></ul></li><li><strong><span>1, 2, 3, 4</span></strong><span> = g, o, l, e</span></li><li><strong><span>5</span></strong><span> Corresponding to up case of letter before this.</span></li><li><strong><span>6</span></strong><span> Add a point to the end.</span></li><li><strong><span>7</span></strong><span> Change case of the first letter.</span></li><li><strong><span>8</span></strong><span> Reverse the string.</span></li><li><strong><span>9</span></strong><span> Clear the actual decrypted string.</span></li></ul><h3><span>Examples</span></h3><pre><code>numToGoogle([\"12213467\"]) \u279e \"Google.\"\n\nnumToGoogle([\"12213467\", \"321\"]) \u279e \"Google.log\"\n\nnumToGoogle([\"12213467\", \"321\", \"122906\"]) \u279e \"Google.log\"\n\nnumToGoogle([\"15\", \"2502\", \"15\", 345]) \u279e \"GOOGLE\"\n\nnumToGoogle([\"15\", \"2502\", \"15\", 35, 45]) \u279e \"GOOGLE\"\n\nnumToGoogle([15, 202, 1, 3, 4]) \u279e \"Google\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/2o8GAmetGCkn5a68Y",
+  "tags": [
+    "algorithms",
+    "data_structures"
+  ],
+  "tests": "Test.assertEquals(numToGoogle([\"12213467\"]), \"Google.\");\nTest.assertEquals(numToGoogle([\"12213467\", \"321\"]), \"Google.log\");\nTest.assertEquals(numToGoogle([\"12213467\", \"321\", \"122906\"]), \"Google.log\");\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",345]), \"GOOGLE\");\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",35,45]), \"GOOGLE\");\nTest.assertEquals(numToGoogle([15,202,1,3,4]), \"Google\");\nTest.assertEquals(numToGoogle([\"1221348\"]), \"elgoog\");\nTest.assertEquals(numToGoogle([\"15345678\"]), \".ELG\");\nTest.assertEquals(numToGoogle([\"218\",\"6\",\"12\",6,1,2,]), \"go.go.go\");",
+  "title": "Number to Google"
+}

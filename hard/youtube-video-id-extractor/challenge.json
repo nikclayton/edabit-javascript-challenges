@@ -1,0 +1,15 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "AK85Q669ArEKstGjT",
+  "code": "function youtubeId(link) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given a YouTube url, extract the video ID and return it as a string.</span></p><h2><span>Examples</span></h2><pre><code>youtubeId(\"https://www.youtube.com/watch?v=XPEr1cArWRg\") \u279e XPEr1cArWRg\n\nyoutubeId(\"https://youtu.be/BCDEDi5gDPo\") \u279e BCDEDi5gDPo\n\nyoutubeId(\"https://youtube.com/watch?t=4m40s&amp;v=vxP3bY-XxY4\") \u279e vxP3bY-XxY4</code></pre><h2><span>Notes</span></h2><p><span>All examples are valid YouTube links.</span></p>",
+  "source_url": "https://edabit.com/challenge/AK85Q669ArEKstGjT",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(\n  youtubeId('https://www.youtube.com/watch?v=XPEr1cArWRg'),\n  'XPEr1cArWRg'\n);\nTest.assertEquals(\n  youtubeId('http://www.youtube.com/watch?v=-SNQGyVW_YI&t=8871'),\n  '-SNQGyVW_YI'\n);\nTest.assertEquals(\n  youtubeId('https://youtube.com/watch?t=4m40s&v=vxP3bY-XxY4'),\n  'vxP3bY-XxY4'\n);\nTest.assertEquals(\n  youtubeId('www.youtube.com/watch?list=PL3QZUm48uWnsdFakp3A2fI-NzmfH1jyQe&v=yv56ncTdTmU&index=8'),\n  'yv56ncTdTmU'\n);\nTest.assertEquals(\n  youtubeId('https://youtu.be/BCDEDi5gDPo'),\n  'BCDEDi5gDPo'\n);\nTest.assertEquals(\n  youtubeId('https://www.youtube.com/watch?feature=youtu.be&v=jOxnoDi9IYg&t=3311s'),\n  'jOxnoDi9IYg'\n);\nTest.assertEquals(\n  youtubeId('https://www.youtube-nocookie.com/embed/2w9SQjdn9U4'),\n  '2w9SQjdn9U4'\n);",
+  "title": "YouTube Video ID Extractor"
+}

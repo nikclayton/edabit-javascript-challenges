@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "PoqAEPydtM2CEssSQ",
+  "code": "function stripUrlParams(url, paramsToStrip) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a URL (string), removes duplicate query parameters and parameters specified within the 2nd argument (which will be an </span><em><span>optional</span></em><span> array).</span></p><h3><span>Examples</span></h3><pre><code>stripUrlParams(\"https://edabit.com?a=1&amp;b=2&amp;a=2\") \u279e \"https://edabit.com?a=2&amp;b=2\"\n\nstripUrlParams(\"https://edabit.com?a=1&amp;b=2&amp;a=2\", [\"b\"]) \u279e \"https://edabit.com?a=2\"\n\nstripUrlParams(\"https://edabit.com\", [\"b\"]) \u279e \"https://edabit.com\"</code></pre><h3><span>Notes</span></h3><ul><li><span>The 2nd argument </span><code>paramsToStrip</code><span> is optional.</span></li><li><code>paramsToStrip</code><span> can contain multiple params.</span></li><li><span>If there are duplicate query parameters with different values, use the value of the last occuring parameter (see examples </span><span>#</span><span>1 and </span><span>#</span><span>2 above).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/PoqAEPydtM2CEssSQ",
+  "tags": [
+    "algorithms",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2&a=2\"), \"https://edabit.com?a=2&b=2\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2&a=2\", [\"b\"]), \"https://edabit.com?a=2\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com\", [\"b\"]), \"https://edabit.com\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2\"), \"https://edabit.com?a=1&b=2\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2\", [\"c\"]), \"https://edabit.com?a=1&b=2\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2&c=3&d=4\", [\"a\", \"d\"]), \"https://edabit.com?b=2&c=3\", \"The 2nd argument can contain multiple URL params.\");\nTest.assertEquals(stripUrlParams(\"https://edabit.com?a=1&b=2&c=3&d=4&c=5\", [\"a\", \"d\"]), \"https://edabit.com?b=2&c=5\");",
+  "title": "Strip URL Query Parameters"
+}

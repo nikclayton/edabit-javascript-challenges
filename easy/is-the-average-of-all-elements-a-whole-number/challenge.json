@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "arzsQcGsstJxHAnGi",
+  "code": "function isAvgWhole(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes an array as an argument and returns </span><code>true</code><span> or </span><code>false</code><span> depending on whether the average of all elements in the array is a whole number or not.</span></p><h3><span>Examples</span></h3><pre><code>isAvgWhole([1, 3]) \u279e true\n\nisAvgWhole([1, 2, 3, 4]) \u279e false\n\nisAvgWhole([1, 5, 6]) \u279e true\n\nisAvgWhole([1, 1, 1]) \u279e true\n\nisAvgWhole([9, 2, 2, 5]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/arzsQcGsstJxHAnGi",
+  "tags": [
+    "arrays",
+    "conditions",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(isAvgWhole([3, 5, 9]), false);\nTest.assertEquals(isAvgWhole([1, 1, 1, 1]), true);\nTest.assertEquals(isAvgWhole([1, 2, 3, 4, 5]), true);\nTest.assertEquals(isAvgWhole([5, 2, 4]), false);\nTest.assertEquals(isAvgWhole([11, 22]), false);\nTest.assertEquals(isAvgWhole([4, 1, 7, 9, 2, 5, 7, 2, 4]), false);",
+  "title": "Is the Average of All Elements a Whole Number?"
+}

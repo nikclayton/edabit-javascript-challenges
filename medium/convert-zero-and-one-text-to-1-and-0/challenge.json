@@ -1,0 +1,18 @@
+{
+  "author_id": "VeryKnave",
+  "author_url": "https://edabit.com/user/RW2wFPbMQniZWPmw4",
+  "challenge_id": "iKRmj2Q6GQHkAXXxf",
+  "code": "function textToNumberBinary(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string as an argument. The function must return a string containing 1s and 0s based on the string argument's words. If any word of the argument is equal to 'zero' or 'one' (case insensitive) you should consider it. The returned string's length should be a multiple of 8, if the string is not a multiple of 8 you should remove the numbers in excess.</span></p><h3><span>Examples</span></h3><pre><code>textToNumberBinary(\"zero one zero one zero one zero one\") \u279e \"01010101\"\n\ntextToNumberBinary(\"Zero one zero ONE zero one zero one\") \u279e \"01010101\"\n\ntextToNumberBinary(\"zero one zero one zero one zero one one two\")  \u279e \"01010101\"\n\ntextToNumberBinary(\"one Zero zero one zero zero one one one one one zero oNe one one zero one zerO\") \u279e \"1001001111101110\"\n\ntextToNumberBinary(\"zero one zero one zero one zero three\") \u279e \"\"\n\ntextToNumberBinary(\"one one\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><ul><li><span>You must return the result as a string.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/iKRmj2Q6GQHkAXXxf",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "formatting",
+    "logic",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(textToNumberBinary('one one one one zero zero zero zero'), \"11110000\")\nTest.assertEquals(textToNumberBinary('one Zero zero one zero zero one one one one one zero oNe one one zero one zerO'), \"1001001111101110\")\nTest.assertEquals(textToNumberBinary('one zero one'), \"\")\nTest.assertEquals(textToNumberBinary('one zero zero one zero ten one one one one two'), \"10010111\")\nTest.assertEquals(textToNumberBinary('One zero zero one zero one one one zero one one zero zero zero zero one zero one one one zero one one zero zero zero zero one zero one one one zero one one zero zero zero zero one zero one one one zero one one zero zero zero zero one zero one one one zero one one zero zero zero zero one zero'), \"1001011101100001011101100001011101100001011101100001011101100001\")\nTest.assertEquals(textToNumberBinary('TWO one zero one one zero one zero'), \"\")\nTest.assertEquals(textToNumberBinary('TWO one zero one one zero one zero one'), \"10110101\")",
+  "title": "Convert \"Zero\" and \"One\" Text to '1' and '0'"
+}

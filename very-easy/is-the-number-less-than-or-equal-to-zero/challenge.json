@@ -1,0 +1,17 @@
+{
+  "author_id": "Long",
+  "author_url": "https://edabit.com/user/vC8qKKm89BSZiMnhK",
+  "challenge_id": "nQtiQCoqM6rxWpZmC",
+  "code": "function lessThanOrEqualToZero(num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a number as its only argument and returns </span><code>true</code><span> if it's less than or equal to zero, otherwise return </span><code>false</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>lessThanOrEqualToZero(5) \u279e false\n\nlessThanOrEqualToZero(0) \u279e true\n\nlessThanOrEqualToZero(-2) \u279e true\n\nlessThanOrEqualToZero(1) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>You can expect a valid number for every test case.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/nQtiQCoqM6rxWpZmC",
+  "tags": [
+    "algebra",
+    "conditions",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(lessThanOrEqualToZero(5), false);\nTest.assertEquals(lessThanOrEqualToZero(0), true);\nTest.assertEquals(lessThanOrEqualToZero(-5), true);\nTest.assertEquals(lessThanOrEqualToZero(1), false);\nTest.assertEquals(lessThanOrEqualToZero(2), false);\nTest.assertEquals(lessThanOrEqualToZero(10000), false);\nTest.assertEquals(lessThanOrEqualToZero(0.5), false);",
+  "title": "Is the Number Less than or Equal to Zero?"
+}

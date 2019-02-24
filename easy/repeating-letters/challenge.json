@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Mc6Xi4PRw7fDzeMDB",
+  "code": "function doubleChar(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes a string and returns a string in which each character is repeated once.</span></p><h3><span>Examples</span></h3><pre><code>doubleChar(\"String\") \u279e \"SSttrriinngg\"\n\ndoubleChar(\"Hello World!\") \u279e \"HHeelllloo  WWoorrlldd!!\"\n\ndoubleChar(\"1234!_ \") \u279e \"11223344!!__  \"</code></pre><h3><span>Notes</span></h3><p><span>All test cases contain valid strings. Don't worry about spaces, special characters or numbers. They're all considered valid characters.</span></p>",
+  "source_url": "https://edabit.com/challenge/Mc6Xi4PRw7fDzeMDB",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(doubleChar(\"String\"), \"SSttrriinngg\")\nTest.assertEquals(doubleChar(\"Hello World!\"), \"HHeelllloo  WWoorrlldd!!\")\nTest.assertEquals(doubleChar(\"1234!_ \"), \"11223344!!__  \")\nTest.assertEquals(doubleChar(\"##^&%%*&%%$#@@!\"), \"####^^&&%%%%**&&%%%%$$##@@@@!!\")\nTest.assertEquals(doubleChar(\"scandal\"), \"ssccaannddaall\")\nTest.assertEquals(doubleChar(\"economics\"), \"eeccoonnoommiiccss\")\nTest.assertEquals(doubleChar(\" \"), \"  \")\nTest.assertEquals(doubleChar(\"_______\"), \"______________\")\nTest.assertEquals(doubleChar(\"equip gallon read\"), \"eeqquuiipp  ggaalllloonn  rreeaadd\")\nTest.assertEquals(doubleChar(\"baby increase\"), \"bbaabbyy  iinnccrreeaassee\")",
+  "title": "Repeating Letters"
+}

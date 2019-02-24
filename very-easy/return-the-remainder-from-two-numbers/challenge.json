@@ -1,0 +1,15 @@
+{
+  "author_id": "shahednasser",
+  "author_url": "https://edabit.com/user/qfZTGo3mgRsbyKka7",
+  "challenge_id": "Q2j5FTFtsk7PdzrQk",
+  "code": "function remainder(x, y) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>There is a single operator in Javascript capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first provider divided by the second parameter will have a remainder, possiby zero. Return that value.</span></p><h3><span>Examples</span></h3><pre><code>remainder(1, 3) \u279e 1\n\nremainder(-9, 45) \u279e -9\n\nremainder(5, 5) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>The tests only use positive and negative integers.</span></p>",
+  "source_url": "https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(remainder(7,2), 1);\nTest.assertEquals(remainder(3, 4), 3);\nTest.assertEquals(remainder(-9, 45), -9);\nTest.assertEquals(remainder(5, 5), 0);",
+  "title": "Return the Remainder from Two Numbers"
+}

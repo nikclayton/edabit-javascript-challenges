@@ -1,0 +1,15 @@
+{
+  "author_id": "StampDanFan",
+  "author_url": "https://edabit.com/user/x7y9CXN5ReSkDSdEY",
+  "challenge_id": "9ApjPggCLGiPt573m",
+  "code": "function find_index(arr, str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an array and a string as arguments and return the index of the string.</span></p><h3><span>Examples</span></h3><pre><code>find_index([\"hi\", \"edabit\", \"fgh\", \"abc\"], \"fgh\") \u279e 2\n\nfind_index([\"Red\", \"blue\", \"Blue\", \"Green\"], \"blue\") \u279e 1\n\nfind_index([\"a\", \"g\", \"y\", \"d\"], \"d\") \u279e 3\n\nfind_index([\"Pineapple\", \"Orange\", \"Grape\", \"Apple\"], \"Pineapple\") \u279e 0</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>All tests contain valid numbers.</span></li><li><span>If you are stuck, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9ApjPggCLGiPt573m",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(find_index(['abc', 'ghj', 'banana', 'grape'], 'grape'), 3);\nTest.assertEquals(find_index(['a', 'b', 'c', 'd', 'e', 'f'], 'f'), 5);\nTest.assertEquals(find_index(['hi', 'edabit.com', 'testcase', 'validstring'], 'edabit.com'), 1);",
+  "title": "Find the Index"
+}

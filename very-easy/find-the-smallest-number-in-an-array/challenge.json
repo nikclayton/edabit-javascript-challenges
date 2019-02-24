@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "g66EJsbdnSDayyEcK",
+  "code": "function findSmallestNum(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an array of numbers and returns the smallest number in the set.</span></p><h3><span>Examples</span></h3><pre><code>findSmallestNum([34, 15, 88, 2]) \u279e 2\n\nfindSmallestNum([34, -345, -1, 100]) \u279e -345\n\nfindSmallestNum([-76, 1.345, 1, 0]) \u279e -76\n\nfindSmallestNum([0.4356, 0.8795, 0.5435, -0.9999]) \u279e -0.9999\n\nfindSmallestNum([7, 7, 7]) \u279e 7</code></pre><h3><span>Notes</span></h3><ul><li><span>Test cases contain decimals.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/g66EJsbdnSDayyEcK",
+  "tags": [
+    "arrays",
+    "loops",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(findSmallestNum([34, 15, 88, 2]), 2)\nTest.assertEquals(findSmallestNum([34, -345, -1, 100]), -345)\nTest.assertEquals(findSmallestNum([-76, 1.345, 1, 0]), -76)\nTest.assertEquals(findSmallestNum([0.4356, 0.8795, 0.5435, -0.9999]), -0.9999)\nTest.assertEquals(findSmallestNum([7, 7, 7]), 7)\nTest.assertEquals(findSmallestNum([4, 6, 1, 3, 4, 5, 5, 1]), 1)\nTest.assertEquals(findSmallestNum([-4, -6, -8, -1]), -8)\nTest.assertEquals(findSmallestNum([54, 76, 23, 54]), 23)\nTest.assertEquals(findSmallestNum([100]), 100)\nTest.assertEquals(findSmallestNum([0, 1, 2, 3, 4, 5]), 0)",
+  "title": "Find the Smallest Number in an Array"
+}

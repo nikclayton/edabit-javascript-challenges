@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "wPNzJEJebN2mewcqY",
+  "code": "function reverse(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that takes a string of one or more words as an argument and returns the same string, but with all five or more letter words reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.</span></p><h3><span>Examples</span></h3><pre><code>reverse(\"Reverse\") \u279e \"esreveR\"\n\nreverse(\"This is a typical sentence.\") \u279e \"This is a lacipyt .ecnetnes\"\n\nreverse(\"The dog is big.\") \u279e \"The dog is big.\"</code></pre><h3><span>Notes</span></h3><p><span>You can expect a valid string to be provided for each test case.</span></p>",
+  "source_url": "https://edabit.com/challenge/wPNzJEJebN2mewcqY",
+  "tags": [
+    "formatting",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(reverse(\"Reverse\"), \"esreveR\");\nTest.assertEquals(reverse(\"This is a typical sentence.\"), \"This is a lacipyt .ecnetnes\");\nTest.assertEquals(reverse(\"The dog is big.\"), \"The dog is big.\");\nTest.assertEquals(reverse(\"Reverse the order of every word greater than or equal to five characters.\"), \"esreveR the redro of yreve word retaerg than or lauqe to five .sretcarahc\");\nTest.assertEquals(reverse(\"Lets all be unique together until we realise we are all the same.\"), \"Lets all be euqinu rehtegot litnu we esilaer we are all the .emas\");\nTest.assertEquals(reverse(\"The old apple revels in its authority.\"), \"The old elppa slever in its .ytirohtua\");\nTest.assertEquals(reverse(\"The shooter says goodbye to his love.\"), \"The retoohs says eybdoog to his .evol\");\nTest.assertEquals(reverse(\"Please wait outside of the house.\"), \"esaelP wait edistuo of the .esuoh\");\nTest.assertEquals(reverse(\"Two seats were vacant.\"), \"Two staes were .tnacav\");\nTest.assertEquals(reverse(\"Sixty-Four comes asking for bread.\"), \"ruoF-ytxiS semoc gniksa for .daerb\");",
+  "title": "Reverse the Order of Words with Five Letters or More"
+}

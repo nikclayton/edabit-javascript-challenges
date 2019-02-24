@@ -1,0 +1,18 @@
+{
+  "author_id": "Louis",
+  "author_url": "https://edabit.com/user/ynf84kJyw8M2Fmk8G",
+  "challenge_id": "oT6fy9Zvtmsnzdcvs",
+  "code": "function isPrime(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if a number is prime and </span><code>false</code><span> if it's not. A prime number is any positive integer that is evenly divisible by only two divisors: 1 and itself.  The first ten prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29.</span></p><h3><span>Examples</span></h3><pre><code>isPrime(7) \u279e true\n\nisPrime(9) \u279e false\n\nisPrime(10) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>1 is not a prime number.</span></li><li><span>If a number is odd it is not divisible by an even number.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/oT6fy9Zvtmsnzdcvs",
+  "tags": [
+    "algorithms",
+    "logic",
+    "loops",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(isPrime(1), false)\nTest.assertEquals(isPrime(2), true)\nTest.assertEquals(isPrime(3), true)\nTest.assertEquals(isPrime(4), false)\nTest.assertEquals(isPrime(5), true)\nTest.assertEquals(isPrime(6), false)\nTest.assertEquals(isPrime(7), true)\nTest.assertEquals(isPrime(8), false)\nTest.assertEquals(isPrime(9), false)\nTest.assertEquals(isPrime(10), false)\nTest.assertEquals(isPrime(11), true)\nTest.assertEquals(isPrime(102), false)\nTest.assertEquals(isPrime(103), true)",
+  "title": "Is the Number a Prime?"
+}

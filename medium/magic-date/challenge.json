@@ -1,0 +1,15 @@
+{
+  "author_id": "Nabeel Mumtaz",
+  "author_url": "https://edabit.com/user/8wFyDvkPiDdKRDExt",
+  "challenge_id": "x6bADPfDJPMYyzpBa",
+  "code": "function Magic(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You are to read each part of the date into its own integer type variable. The year should be a 4 digit number. You can assume the user enters a correct date (no error checking required).</span></p><p><span>determines whether the entered date is a magic date. Here are the rules for a magic date: </span></p><ul><li><span>mm * dd is a 1-digit number that matches the last digit of yyyy </span></li><li><span>mm * dd is a 2-digit number that matches the last 2 digits of yyyy </span></li><li><span>mm * dd is a 3-digit number that matches the last 3 digits of yyyy</span></li></ul><p><span>The program should then display true or false indicate if the date is magic, or not magic if it is not.</span></p>",
+  "source_url": "https://edabit.com/challenge/x6bADPfDJPMYyzpBa",
+  "tags": [
+    "dates",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(Magic('1 1 2011'),true,'magic date');\nTest.assertEquals(Magic('4 1 2001'),false,'is not a magic date');\nTest.assertEquals(Magic('2 4 2008'),true, 'magic date');\nTest.assertEquals(Magic('3 3 2009'),true, 'magic date');\nTest.assertEquals(Magic('5 2 2010'),true, 'magic date');\nTest.assertEquals(Magic('1 2 2011'),false, 'is not a magic date');\nTest.assertEquals(Magic('9 2 2011'),false, 'is not a magic date');\nTest.assertEquals(Magic('1 4 2011'),false, 'is not a magic date');",
+  "title": "Magic Date"
+}

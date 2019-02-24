@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "3EQGHyiYTNc9LPmhF",
+  "code": "function countVowels(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes a string and returns the number (count) of vowels contained within it.</span></p><h3><span>Examples</span></h3><pre><code>countVowels(\"Celebration\") \u279e 5\n\ncountVowels(\"Palm\") \u279e 1\n\ncountVowels(\"Prediction\") \u279e 4</code></pre><h3><span>Notes</span></h3><ul><li><span>a, e, i, o, u are considered vowles (not y).</span></li><li><span>All test cases are one word and only contain letters.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/3EQGHyiYTNc9LPmhF",
+  "tags": [
+    "loops",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countVowels(\"Celebration\"), 5)\nTest.assertEquals(countVowels(\"Palm\"), 1)\nTest.assertEquals(countVowels(\"Prediction\"), 4)\nTest.assertEquals(countVowels(\"Suite\"), 3)\nTest.assertEquals(countVowels(\"Quote\"), 3)\nTest.assertEquals(countVowels(\"Portrait\"), 3)\nTest.assertEquals(countVowels(\"Steam\"), 2)\nTest.assertEquals(countVowels(\"Tape\"), 2)\nTest.assertEquals(countVowels(\"Nightmare\"), 3)\nTest.assertEquals(countVowels(\"Convention\"), 4)",
+  "title": "How Many Vowels?"
+}

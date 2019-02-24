@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "pFbR2RAjeJmrf9tua",
+  "code": "function countSmileys(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of strings and return the number of smiley faces contained within it. These are the components that make up a valid smiley:</span></p><ul><li><span>A smiley has </span><strong><span>eyes</span></strong><span>. Eyes can be </span><code>:</code><span> or </span><code>;</code><span>.</span></li><li><span>A smiley has a </span><strong><span>nose</span></strong><span> but it doesn't have to. A nose can be </span><code>-</code><span> or </span><code>~</code><span>.</span></li><li><span>A smiley has a </span><strong><span>mouth</span></strong><span> which can be </span><code>)</code><span> or </span><code>D</code><span>.</span></li></ul><p><span>No other characters are allowed except for those mentioned above.</span></p><h3><span>Examples</span></h3><pre><code>countSmileys([\":)\", \";(\", \";}\", \":-D\"]) \u279e 2\n\ncountSmileys([\";D\", \":-(\", \":-)\", \";~)\"]) \u279e 3\n\ncountSmileys([\";]\", \":[\", \";*\", \":$\", \";-D\"]) \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>You will always be given an array as input.</span></li><li><span>An empty array should return 0.</span></li><li><span>The order of each facial element will always be the same.</span></li><li><span>Noses are optional (e.g. </span><code>:)</code><span> and </span><code>:-)</code><span> are both valid).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/pFbR2RAjeJmrf9tua",
+  "tags": [
+    "loops",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countSmileys([\":)\", \";(\", \";}\", \":-D\"]), 2);\nTest.assertEquals(countSmileys([\";D\", \":-(\", \":-)\", \";~)\"]), 3);\nTest.assertEquals(countSmileys([\";]\", \":[\", \";*\", \":$\", \";-D\"]), 1);\nTest.assertEquals(countSmileys([\";(\", \":>\", \":}\", \":]\"]), 0);\nTest.assertEquals(countSmileys([\":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\", \":)\",]), 13);\nTest.assertEquals(countSmileys([':)',':(',':D',':O',':;']), 2);\nTest.assertEquals(countSmileys([':-)',';~D',':-D',':_D']), 3);\nTest.assertEquals(countSmileys([':---)','))',';~~D',';D']), 1);\nTest.assertEquals(countSmileys([';~)',':)',':-)',':--)']), 3);\nTest.assertEquals(countSmileys([':o)',':--D',';-~)']), 0);\nTest.assertEquals(countSmileys([]), 0, \"An empty array should return 0\");",
+  "title": "Count the Smiley Faces :)"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "vpvR2CrLcQxNt57Z6",
+  "code": "function trouble(num1, num2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes two integers as arguments (num1, num2) and returns </span><code>true</code><span> if a number repeats three times in a row at any place in num1 </span><strong><span>AND</span></strong><span> that same number repeats two times in a row in num2.</span></p><h3><span>Examples</span></h3><pre><code>trouble(451999277, 41177722899) \u279e true\n\ntrouble(1222345, 12345) \u279e false\n\ntrouble(666789, 12345667) \u279e true\n\ntrouble(33789, 12345337) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>You can expect every test case to contain exactly two integers.</span></p>",
+  "source_url": "https://edabit.com/challenge/vpvR2CrLcQxNt57Z6",
+  "tags": [
+    "algorithms",
+    "regex",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(trouble(451999277,41177722899), true);\nTest.assertEquals(trouble(444, 44), true);\nTest.assertEquals(trouble(1222345, 12345), false);\nTest.assertEquals(trouble(12345, 12345), false);\nTest.assertEquals(trouble(888, 888), true);\nTest.assertEquals(trouble(666789, 12345667), true);\nTest.assertEquals(trouble(10560002, 100), true);\nTest.assertEquals(trouble(1, 1), false);\nTest.assertEquals(trouble(9111922229333339, 9559669779), false);",
+  "title": "Triple + Double = So Much Trouble"
+}

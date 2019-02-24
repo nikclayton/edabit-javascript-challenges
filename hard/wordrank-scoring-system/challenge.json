@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "sZZ4gr9RNN8JpMaEv",
+  "code": "function wordRank(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string of words and returns the highest scoring word. Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3, etc.</span></p><h3><span>Examples</span></h3><pre><code>wordRank(\"The quick brown fox.\") \u279e \"brown\"\n\nwordRank(\"Nancy is very pretty.\") \u279e \"pretty\"\n\nwordRank(\"Check back tomorrow, man!\") \u279e \"tomorrow\"\n\nwordRank(\"Wednesday is hump day.\") \u279e \"Wednesday\"</code></pre><h3><span>Notes</span></h3><ul><li><span>If two words score the same, return the word that appears first in the original string.</span></li><li><span>The returned string should only contain alphabetic characters (a-z).</span></li><li><span>Preserve case in the returned string (see 4th example above).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/sZZ4gr9RNN8JpMaEv",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(wordRank(\"If the Easter Bunny and the Tooth Fairy had babies would they take your teeth and leave chocolate for you?\"), \"chocolate\");\nTest.assertEquals(wordRank(\"The memory we used to share is no longer coherent.\"), \"memory\");\nTest.assertEquals(wordRank(\"He didn\u2019t want to go to the dentist, yet he went anyway.\"), \"dentist\");\nTest.assertEquals(wordRank(\"What was the person thinking when they discovered cow\u2019s milk was fine for human consumption... and why did they do it in the first place!?\"), \"consumption\");\nTest.assertEquals(wordRank(\"Mary plays the piano.\"), \"plays\");\nTest.assertEquals(wordRank(\"I hear that Nancy is very pretty.\"), \"pretty\");\nTest.assertEquals(wordRank(\"If you like tuna and tomato sauce- try combining the two. It\u2019s really not as bad as it sounds.\"), \"sounds\");\nTest.assertEquals(wordRank(\"She works two jobs to make ends meet; at least, that was her reason for not having time to join us.\"), \"works\");\nTest.assertEquals(wordRank(\"Wednesday is hump day, but has anyone asked the camel if he\u2019s happy about it?\"), \"Wednesday\");\nTest.assertEquals(wordRank(\"The body may perhaps compensates for the loss of a true metaphysics.\"), \"metaphysics\");\nTest.assertEquals(wordRank(\"The clock within this blog and the clock on my laptop are 1 hour different from each other.\"), \"different\");\nTest.assertEquals(wordRank(\"Check back tomorrow; I will see if the book has arrived.\"), \"tomorrow\");",
+  "title": "WordRank Scoring System"
+}

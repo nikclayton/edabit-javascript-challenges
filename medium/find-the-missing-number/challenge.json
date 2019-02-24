@@ -1,0 +1,18 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "rgdT9sZ4QhsKhaSw9",
+  "code": "function missingNums(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of numbers between 1 and 10 (excluding one number) and returns the missing number.</span></p><h3><span>Examples</span></h3><pre><code>missingNums([1, 2, 3, 4, 6, 7, 8, 9, 10]) \u279e 5\n\nmissingNums([7, 2, 3, 6, 5, 9, 1, 4, 8]) \u279e 10\n\nmissingNums([10, 5, 1, 2, 4, 6, 8, 3, 9]) \u279e 7</code></pre><h3><span>Notes</span></h3><ul><li><span>The array of numbers will be unsorted (not in order).</span></li><li><span>Only one number will be missing.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rgdT9sZ4QhsKhaSw9",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "math",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(missingNums([1, 2, 3, 4, 6, 7, 8, 9, 10]), 5)\nTest.assertEquals(missingNums([7, 2, 3, 6, 5, 9, 1, 4, 8]), 10)\nTest.assertEquals(missingNums([7, 2, 3, 9, 4, 5, 6, 8, 10]), 1)\nTest.assertEquals(missingNums([10, 5, 1, 2, 4, 6, 8, 3, 9]), 7)\nTest.assertEquals(missingNums([1, 7, 2, 4, 8, 10, 5, 6, 9]), 3)",
+  "title": "Find the Missing Number"
+}

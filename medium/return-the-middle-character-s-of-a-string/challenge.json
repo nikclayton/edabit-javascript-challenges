@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "R3649PDvoFf6wGxyg",
+  "code": "function getMiddle(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string and returns the middle character(s). If the word's length is odd, return the middle character. If the word's length is even, return the middle two characters.</span></p><h3><span>Examples</span></h3><pre><code>getMiddle(\"test\") \u279e \"es\"\n\ngetMiddle(\"testing\") \u279e \"t\"\n\ngetMiddle(\"middle\") \u279e \"dd\"\n\ngetMiddle(\"A\") \u279e \"A\"</code></pre><h3><span>Notes</span></h3><p><span>All test cases contain a single word (as a string).</span></p>",
+  "source_url": "https://edabit.com/challenge/R3649PDvoFf6wGxyg",
+  "tags": [
+    "formatting",
+    "math",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(getMiddle(\"test\"), \"es\")\nTest.assertEquals(getMiddle(\"testing\"), \"t\")\nTest.assertEquals(getMiddle(\"middle\"), \"dd\")\nTest.assertEquals(getMiddle(\"A\"), \"A\")\nTest.assertEquals(getMiddle(\"inhabitant\"), \"bi\")\nTest.assertEquals(getMiddle(\"brown\"), \"o\")\nTest.assertEquals(getMiddle(\"pawn\"), \"aw\")\nTest.assertEquals(getMiddle(\"cabinet\"), \"i\")\nTest.assertEquals(getMiddle(\"fresh\"), \"e\")\nTest.assertEquals(getMiddle(\"shorts\"), \"or\")",
+  "title": "Return the Middle Character(s) of a String"
+}

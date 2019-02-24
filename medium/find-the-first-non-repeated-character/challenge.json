@@ -1,0 +1,14 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "NyQF2kPYt3YHdhhjn",
+  "code": "function firstNonRepeatedCharacter(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that accepts a string as an argument and returns the first non-repeated character.</span></p><h3><span>Examples</span></h3><pre><code>firstNonRepeatedCharacter(\"it was then the frothy word met the round night\") \u279e \"a\"\n\nfirstNonRepeatedCharacter(\"the quick brown fox jumps then quickly blows air\") \u279e \"f\"\n\nfirstNonRepeatedCharacter(\"g\") \u279e \"g\"\n\nfirstNonRepeatedCharacter(\"\") \u279e false\n\nfirstNonRepeatedCharacter(\"hheelloo\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>An empty string should return </span><code>false</code><span>.</span></li><li><span>If every character repeats, return </span><code>false</code><span>.</span></li><li><span>Don't worry about case sensitivity or non-alphanumeric characters.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/NyQF2kPYt3YHdhhjn",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(firstNonRepeatedCharacter(\"the quick brown fox jumps then quickly blows air\"), \"f\");\nTest.assertEquals(firstNonRepeatedCharacter(\"the misty examination pleases into the drab county\"), \"x\");\nTest.assertEquals(firstNonRepeatedCharacter(\"hheelloo\"), false, \"Return false when every character repeats.\");\nTest.assertEquals(firstNonRepeatedCharacter(\"it was then the darling top met the whispering wing\"), \"d\");\nTest.assertEquals(firstNonRepeatedCharacter(\"\"), false, \"An empty string should return false.\");\nTest.assertEquals(firstNonRepeatedCharacter(\"it was then the frothy word met the round night\"), \"a\");\nTest.assertEquals(firstNonRepeatedCharacter(\"is the remind zone better than the section\"), \"m\");\nTest.assertEquals(firstNonRepeatedCharacter(\"b\"), \"b\");\nTest.assertEquals(firstNonRepeatedCharacter(\"what if the brainy boss ate the afternoon\"), \"w\");\nTest.assertEquals(firstNonRepeatedCharacter(\"the sympathetic mixture rejects into the leafy objective\"), \"p\");",
+  "title": "Find the First Non-Repeated Character"
+}

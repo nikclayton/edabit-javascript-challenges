@@ -1,0 +1,18 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "g4dFuspeWuXLLu65B",
+  "code": "function missingLetter(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array of increasing letters and return the missing letter.</span></p><h3><span>Examples</span></h3><pre><code>missingLetter([\"a\", \"b\", \"c\", \"e\", \"f\", \"g\"]) \u279e \"d\"\n\nmissingLetter([\"O\", \"Q\", \"R\", \"S\"]) \u279e \"P\"\n\nmissingLetter([\"t\", \"u\", \"v\", \"w\", \"x\", \"z\"]) \u279e \"y\"\n\nmissingLetter([\"m\", \"o\"]) \u279e \"n\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Tests will always have exactly one letter missing.</span></li><li><span>The length of the test array will always be at least 2.</span></li><li><span>Tests will be in one particular case (upper or lower but never both).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/g4dFuspeWuXLLu65B",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "math",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(missingLetter([\"a\", \"b\", \"c\", \"e\", \"f\", \"g\"]), \"d\");\nTest.assertEquals(missingLetter([\"O\", \"Q\", \"R\", \"S\"]), \"P\");\nTest.assertEquals(missingLetter([\"t\", \"u\", \"v\", \"w\", \"x\", \"z\"]), \"y\");\nTest.assertEquals(missingLetter([\"m\", \"o\"]), \"n\");\nTest.assertEquals(missingLetter([\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\", \"p\", \"q\", \"r\", \"s\", \"t\", \"u\", \"v\", \"w\", \"x\", \"y\", \"z\"]), \"i\");\nTest.assertEquals(missingLetter([\"q\", \"s\", \"t\"]), \"r\");\nTest.assertEquals(missingLetter([\"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"k\", \"l\", \"m\", \"n\"]), \"j\");\nTest.assertEquals(missingLetter([\"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"m\", \"n\", \"o\", \"p\"]), \"l\");\nTest.assertEquals(missingLetter([\"t\", \"u\", \"w\", \"x\"]), \"v\");\nTest.assertEquals(missingLetter([\"B\", \"D\"]), \"C\");",
+  "title": "Find the Missing Letter"
+}

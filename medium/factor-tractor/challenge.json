@@ -1,0 +1,17 @@
+{
+  "author_id": "Chidambaram",
+  "author_url": "https://edabit.com/user/bsXogzbmTeiwKhpZP",
+  "challenge_id": "zWf4ayT7nbTsxYgRe",
+  "code": "function primeFactorize(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a program to find all the prime factors of a given number. The program must return an array containing all the prime factors, sorted in ascending order. Remember that </span><em><span>1 is neither prime nor composite</span></em><span> and should not be included in your output array.</span></p><h3><span>Examples</span></h3><pre><code>primeFactorize(25) \u279e [5, 5]\n\nprimeFactorize(19) \u279e [19]\n\nprimeFactorize(77) \u279e [7, 11]</code></pre><h3><span>Notes</span></h3><ul><li><span>Output array must be sorted in ascending order</span></li><li><span>The only positive integer which is neither prime nor composite is 1. Return an empty array if 1 is the input.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/zWf4ayT7nbTsxYgRe",
+  "tags": [
+    "logic",
+    "math",
+    "numbers",
+    "recursion"
+  ],
+  "tests": "Test.assertSimilar(primeFactorize(32), [2, 2, 2, 2, 2]);\nTest.assertSimilar(primeFactorize(17), [17]);\nTest.assertSimilar(primeFactorize(35), [5, 7]);\nTest.assertSimilar(primeFactorize(2), [2]);\nTest.assertNotEquals(primeFactorize(2), [1, 2]);\nTest.assertNotEquals(primeFactorize(1), [1]);\nTest.assertNotEquals(primeFactorize(35), [7, 5]);\nTest.assertSimilar(primeFactorize(2591), [2591]);\nTest.assertSimilar(primeFactorize(2532), [2, 2, 3, 211]);",
+  "title": "Factor Tractor"
+}

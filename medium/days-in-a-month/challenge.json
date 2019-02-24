@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "wNhCHwPXNLJwrTith",
+  "code": "function days(month, year) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes the month and year (as integers) and returns the number of days in that month.</span></p><h3><span>Examples</span></h3><pre><code>days(2, 2018) \u279e 28\n\ndays(3, 2011) \u279e 31\n\ndays(4, 654) \u279e 30\n\ndays(2, 2020) \u279e 29\n\ndays(2, 200) \u279e 28\n\ndays(2, 1000) \u279e 29</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/wNhCHwPXNLJwrTith",
+  "tags": [
+    "conditions",
+    "dates"
+  ],
+  "tests": "Test.assertEquals(days(1, 2018), 31, 'Should show the correct day amount for January');\nTest.assertEquals(days(2, 2018), 28, 'Should show the correct day amount for February on a non-leap year');\nTest.assertEquals(days(3, 2018), 31, 'Should show the correct day amount for March');\nTest.assertEquals(days(4, 2018), 30, 'Should show the correct day amount for April');\nTest.assertEquals(days(5, 2018), 31, 'Should show the correct day amount for May');\nTest.assertEquals(days(6, 2018), 30, 'Should show the correct day amount for June');\nTest.assertEquals(days(7, 2018), 31, 'Should show the correct day amount for July');\nTest.assertEquals(days(8, 2018), 31, 'Should show the correct day amount for August');\nTest.assertEquals(days(9, 2018), 30, 'Should show the correct day amount for September');\nTest.assertEquals(days(10, 2018), 31, 'Should show the correct day amount for October');\nTest.assertEquals(days(11, 2018), 30, 'Should show the correct day amount for November');\nTest.assertEquals(days(12, 2018), 31, 'Should show the correct day amount for December');\nTest.assertEquals(days(2, 2004), 29, 'Should show the correct day amount for February on a leap year that is divisible by 4 but not 100');\nTest.assertEquals(days(2, 1800), 28, 'Should show the correct day amount for February on a leap year that is divisible by 100 but not 400 ');\nTest.assertEquals(days(2, 1600), 29, 'Should show the correct day amount for February on a leap year that is divisible by 100 and 400');",
+  "title": "Days in a Month"
+}

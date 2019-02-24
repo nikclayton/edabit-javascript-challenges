@@ -1,0 +1,15 @@
+{
+  "author_id": "Theodore",
+  "author_url": "https://edabit.com/user/hi7Hvtq2mJfkXEGF2",
+  "challenge_id": "BMujCYCkTowit85Wq",
+  "code": "function waterjug(start, goal) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Given a set of 3 jugs of water that have capacities of a, b, and c liters, find the minimum number of operations performed before each jug has x, y, and z liters. Only jug C will start completely filled.</span></p><p><span>An operation is any of the following: A jug is emptied, a jug is filled, or water is poured from one jug to another until one of the jugs is either empty or full.</span></p><p><span>For example, jugs A, B, and C with capacities of 3, 5, and 8, where jugs A and B start empty and C has the full 8, require 2 operations to reach the state of 0, 3, and 5 liters in the jugs.</span></p><p><span>Create a function that, given an array of jug capacities </span><code>[A, B, C]</code><span> and an goal state array </span><code>[x, y, z]</code><span>, returns the minimum number of operations needed to reach the goal state. If the inputs are invalid or there is no solution, return </span><code>\"No solution.\"</code></p><h3><span>Examples</span></h3><pre><code>waterjug([3, 5, 8], [0, 3, 5]) \u279e 2\n\nwaterjug([1, 3, 4],  [0, 2, 2]) \u279e 3\n\nwaterjug([8, 17, 20], [0, 10, 10]) \u279e 9\n\nwaterjug([4, 17, 22], [2, 5, 15]) \u279e \"No solution.\"\n\nwaterjug([3, 5, 8], [0, 0, 9]) \u279e \"No solution.\"</code></pre><h3><span>Notes</span></h3><ul><li><span>The amount of water in a jug can never exceed the capacity of that jug.</span></li><li><span>The total liters in the goal state must be equal to the capacity of jug C.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/BMujCYCkTowit85Wq",
+  "tags": [
+    "algorithms",
+    "data_structures"
+  ],
+  "tests": "Test.assertEquals(waterjug([3, 5, 8], [0, 3, 5]), 2);\nTest.assertEquals(waterjug([1, 3, 4],  [0, 2, 2]), 3);\nTest.assertEquals(waterjug([8, 17, 20], [0, 10, 10]), 9);\nTest.assertEquals(waterjug([4, 17, 22], [2, 5, 15]), \"No solution.\");\nTest.assertEquals(waterjug([3, 5, 8],  [0, 5, 3]), 1);\nTest.assertEquals(waterjug([3, 5, 8], [0, 6, 2]), \"No solution.\");\nTest.assertEquals(waterjug([6, 7, 10],  [0, 0, 10]), 0);\nTest.assertEquals(waterjug([3, 5, 8],  [4, 0, 4]), \"No solution.\");\nTest.assertEquals(waterjug([3, 5, 8],  [2, 1, 4]), \"No solution.\");\nTest.assertEquals(waterjug([3, 5, 8],  [0, 2, 6]), 3);\nTest.assertEquals(waterjug([6, 7, 10],  [5, 5, 0]), \"No solution.\");\nTest.assertEquals(waterjug([30, 45, 50],  [25, 25, 0]), \"No solution.\");\nTest.assertEquals(waterjug([3, 5, 8],  [0, 4, 4]), 7);\nTest.assertEquals(waterjug([4, 7, 10],  [0, 5, 5]), 8);",
+  "title": "Water Jug Puzzle"
+}

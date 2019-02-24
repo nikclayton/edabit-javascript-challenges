@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Q3n42rEWanZSTmsJm",
+  "code": "function minMax(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.</span></p><h3><span>Examples</span></h3><pre><code>[1, 2, 3, 4, 5] \u279e [1, 5]\n\n[2334454, 5] \u279e [5, 2334454]\n\n[1] \u279e [1, 1]</code></pre><h3><span>Notes</span></h3><p><span>All test arrays will have at least one element and are valid.</span></p>",
+  "source_url": "https://edabit.com/challenge/Q3n42rEWanZSTmsJm",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(minMax([14, 35, 6, 1, 34, 54]), [1, 54])\nTest.assertSimilar(minMax([1.346, 1.6532, 1.8734, 1.8723]), [1.346, 1.8734])\nTest.assertSimilar(minMax([0.432, 0.874, 0.523, 0.984, 0.327, 0.2345]), [0.2345, 0.984])\nTest.assertSimilar(minMax([13, 72, 98, 43, 24, 65, 31]), [13, 98])\nTest.assertSimilar(minMax([-54, -23, -54, -21]), [-54, -21])\nTest.assertSimilar(minMax([-0.473, -0.6834, -0.1287, 0.5632]), [-0.6834, 0.5632])\nTest.assertSimilar(minMax([0, 0, 0, 0]), [0, 0])",
+  "title": "Find the Smallest and Biggest Numbers"
+}

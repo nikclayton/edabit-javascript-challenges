@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "8rC8cbEonMKbHeLTx",
+  "code": "function validateEmail(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that accepts a string, checks if it's a valid email address and returns either  </span><code>true</code><span> or </span><code>false</code><span>, depending on the evaluation.</span></p><ul><li><span>The string must contain an </span><code>@</code><span> character.</span></li><li><span>The string must contain a </span><code>.</code><span> character.</span></li><li><span>The </span><code>@</code><span> must have at least one character in front of it.</span><ul><li><span>e.g. </span><code>\"e@edabit.com\"</code><span> is valid while </span><code>\"@edabit.com\"</code><span> is invalid.</span></li></ul></li><li><span>The </span><code>.</code><span> and the </span><code>@</code><span> must be in the appropriate places.</span><ul><li><span>e.g. </span><code>\"hello.email@com\"</code><span> is invalid while </span><code>\"john.smith@email.com\"</code><span> is valid.</span></li></ul></li></ul><p><span>If the string passes these tests, it's considered a valid email address.</span></p><h3><span>Examples</span></h3><pre><code>validateEmail(\"@gmail.com\") \u279e false\n\nvalidateEmail(\"hello.gmail@com\") \u279e false\n\nvalidateEmail(\"gmail\") \u279e false\n\nvalidateEmail(\"hello@gmail\") \u279e false\n\nvalidateEmail(\"hello@edabit.com\") \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Check the </span><strong><span>Tests</span></strong><span> tab to see exactly what's being evaluated.</span></li><li><span>You can easily solve this with regex but the challenge is intended to be solved with logic.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8rC8cbEonMKbHeLTx",
+  "tags": [
+    "logic",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(validateEmail('@edabit.com'), false)\nTest.assertEquals(validateEmail('@edabit'), false)\nTest.assertEquals(validateEmail('matt@edabit.com'), true)\nTest.assertEquals(validateEmail(''), false, \"Don't forget about empty strings!\")\nTest.assertEquals(validateEmail('hello.gmail@com'), false)\nTest.assertEquals(validateEmail('bill.gates@microsoft.com'), true)\nTest.assertEquals(validateEmail('hello@email'), false)\nTest.assertEquals(validateEmail('%^%$#%^%'), false)\nTest.assertEquals(validateEmail('www.email.com'), false)\nTest.assertEquals(validateEmail('email'), false)",
+  "title": "Basic E-Mail Validation"
+}

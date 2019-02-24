@@ -1,0 +1,17 @@
+{
+  "author_id": "Tony",
+  "author_url": "https://edabit.com/user/ketYXr2XoMEbbgn5W",
+  "challenge_id": "2dcXsuTD68iRK5MiT",
+  "code": "function flipEndChars(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string and returns a new string with its first and last characters swapped, except under three conditions:</span></p><ol><li><span>If the length of the string is less than two, return </span><code>\"Incompatible.\"</code><span>.</span></li><li><span>If the argument is not a string, return </span><code>\"Incompatible.\"</code><span>.</span></li><li><span>If the first and last characters are the same, return </span><code>\"Two's a pair.\"</code><span>.</span></li></ol><h3><span>Examples</span></h3><pre><code>flipEndChars(\"Cat, dog, and mouse.\") \u279e \".at, dog, and mouseC\"\n\nflipEndChars(\"ada\") \u279e \"Two's a pair.\"\n\nflipEndChars(\"Ada\") \u279e \"adA\"\n\nflipEndChars(\"z\") \u279e \"Incompatible.\"\n\nflipEndChars([1, 2, 3]) \u279e \"Incompatible.\"</code></pre><h3><span>Notes</span></h3><p><span>Tests are case sensitive (e.g. \"A\" and \"a\" are not the same character).</span></p>",
+  "source_url": "https://edabit.com/challenge/2dcXsuTD68iRK5MiT",
+  "tags": [
+    "arrays",
+    "conditions",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(flipEndChars(\"Cat, dog, and mouse.\"), \".at, dog, and mouseC\");\nTest.assertEquals(flipEndChars(\"Anna, Banana\"), \"anna, BananA\");\nTest.assertEquals(flipEndChars(\"[]\"), \"][\");\nTest.assertEquals(flipEndChars(\"\"), \"Incompatible.\");\nTest.assertEquals(flipEndChars([1, 2, 3]), \"Incompatible.\");\nTest.assertEquals(flipEndChars(\"dfdkf49824fdfdfjhd\"), \"Two's a pair.\");\nTest.assertEquals(flipEndChars(\"#343473847#\"), \"Two's a pair.\");",
+  "title": "Switcharoo"
+}

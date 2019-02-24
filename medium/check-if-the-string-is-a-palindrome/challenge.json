@@ -1,0 +1,14 @@
+{
+  "author_id": "faqofff",
+  "author_url": "https://edabit.com/user/NnJhaSQJGXmv9Tqse",
+  "challenge_id": "2kyS2ESQqPaoZhNSd",
+  "code": "function isPalindrome(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A palindrome is a word, phrase, number or other sequence of characters which reads the same backward or forward, such as </span><em><span>madam</span></em><span> or </span><em><span>kayak</span></em><span>.</span></p><p><span>Write a function that takes a string and determines whether it's a palindrome or not. The function should return a boolean (</span><code>true</code><span> or </span><code>false</code><span> value).</span></p><h3><span>Examples</span></h3><pre><code>isPalindrome(\"A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!\") \u279e true\n\nisPalindrome(\"Neuquen\") \u279e true\n\nisPalindrome(\"Not a palindrome\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Should be case insensitive.</span></li><li><span>Special characters (punctuation or spaces) should be ignored.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/2kyS2ESQqPaoZhNSd",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isPalindrome('A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!'), true);\nTest.assertEquals(isPalindrome('Neuquen'), true);\nTest.assertEquals(isPalindrome('Not a palindrome'), false);",
+  "title": "Check if the String is a Palindrome"
+}

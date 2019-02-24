@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "LMRMELZHhzvdqaQE8",
+  "code": "function selReverse(arr, len) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array and a number and </span><em><span>selectively</span></em><span> reverse the order of the array based on the number you're given (second argument). If you're given the arguments </span><code>[1,2,3,4,5,6]</code><span> and </span><code>2</code><span>, you would return the array </span><code>[2,1, 4,3, 6,5]</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>selReverse([1,2,3,4,5,6], 2) \u279e [2,1, 4,3, 6,5]\n\nselReverse([2,4,6,8,10,12,14,16], 3) \u279e [6,4,2, 12,10,8, 16,14]\n\nselReverse([5,7,2,6,0,4,6], 100) \u279e [6,4,0,6,2,7,5]</code></pre><h3><span>Notes</span></h3><ul><li><span>If the array you're given can't be broken up into equal parts, just reverse the remaining numbers (see 2nd expample).</span></li><li><span>If  </span><code>len</code><span> exceeds the array length, reverse everything.</span></li><li><span>If  </span><code>len</code><span> is zero, return the original array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/LMRMELZHhzvdqaQE8",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(selReverse([1, 2, 3, 4, 5, 6], 2), [2, 1, 4, 3, 6, 5]);\nTest.assertSimilar(selReverse([2, 4, 6, 8, 10, 12, 14, 16], 3), [6, 4, 2, 12, 10, 8, 16, 14]);\nTest.assertSimilar(selReverse([5, 7, 2, 6, 0, 4, 6], 100), [6, 4, 0, 6, 2, 7, 5]);\nTest.assertSimilar(selReverse([6, 0, 0, 0, 3, 8, 9, 7, 1], 9), [1, 7, 9, 8, 3, 0, 0, 0, 6]);\nTest.assertSimilar(selReverse([12, 54, 67, 34, 65, 34, 33], 0), [12, 54, 67, 34, 65, 34, 33]);\nTest.assertSimilar(selReverse([12, 54, 67, 34, 65, 34, 33], 1), [12, 54, 67, 34, 65, 34, 33]);\nTest.assertSimilar(selReverse([22, 13, 22, 13, 13, 22, 22, 13], 5), [13, 13, 22, 13, 22, 13, 22, 22]);\nTest.assertSimilar(selReverse([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2), [2, 1, 4, 3, 6, 5, 8, 7, 10, 9]);\nTest.assertSimilar(selReverse([1], 2), [1]);\nTest.assertSimilar(selReverse([1, 2], 2), [2, 1]);",
+  "title": "Selective Array Reversal"
+}

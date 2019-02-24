@@ -1,0 +1,16 @@
+{
+  "author_id": "sharkbait",
+  "author_url": "https://edabit.com/user/Hz8mnq7xFJZKLymTh",
+  "challenge_id": "MDixWSYxH5JZX3xo3",
+  "code": "function birdCode(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>In the world of birding there are four-letter codes for the common names of birds. These codes are created by some simple rules:</span></p><ul><li><span>If the bird's name has only one word, the code takes the first four letters of that word.</span></li><li><span>If the name is made up of two words, the code takes the first two letters of each word.</span></li><li><span>If the name is made up of three words, the code is created by taking the first letter from the first two words and the first two letters from the third word.</span></li><li><span>If the name is four words long, the code uses the first letter from all the words.</span></li></ul><p><span>There are other ways codes are created, but this challenge will only use the four rules listed above.</span></p><p><span>In this challenge you will write a function that takes an array of strings of common bird names and create the codes for those names based on the rules above. The function will return an array of codes in the same order in which the input names were presented.</span></p><h3><span>Examples:</span></h3><pre><code>birdCode([\"Black-Capped Chickadee\", \"Common Tern\"]) \u279e [\"BCCH\", \"COTE\"]\n\nbirdCode([\"American Redstart\", \"Northern Cardinal\"]) \u279e [\"AMRE\",\"NOCA\"]\n\nbirdCode([\"Bobolink\", \"American White Pelican\"]) \u279e [\"BOBO\",\"AWPE\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>The four-letter codes  in the returned array should be in UPPER CASE.</span></li><li><span>If a common name has a hyphen/dash, it should be considered a space.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/MDixWSYxH5JZX3xo3",
+  "tags": [
+    "arrays",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(birdCode([\"Common Tern\", \"Black-Capped Chickadee\"]), [\"COTE\",\"BCCH\"])\nTest.assertSimilar(birdCode([\"American Redstart\", \"Northern Cardinal\", \"Pine Grosbeak\", \"Barred Owl\", \"Starling\", \"Cooper's Hawk\", \"Pigeon\"]), [\"AMRE\",\"NOCA\",\"PIGR\",\"BAOW\",\"STAR\",\"COHA\",\"PIGE\"])\nTest.assertSimilar(birdCode([\"Great Crested Flycatcher\", \"Bobolink\", \"American White Pelican\", \"Red-Tailed Hawk\", \"Eastern Screech Owl\", \"Blue Jay\"]), [\"GCFL\",\"BOBO\",\"AWPE\",\"RTHA\",\"ESOW\",\"BLJA\"])\nTest.assertSimilar(birdCode([\"Black-Crowned Night Heron\", \"Northern Mockingbird\", \"Eastern Meadowlark\", \"Dark-Eyed Junco\", \"Red-Bellied Woodpecker\"]), [\"BCNH\",\"NOMO\",\"EAME\",\"DEJU\",\"RBWO\"])\nTest.assertSimilar(birdCode([\"Scarlet Tanager\", \"Great Blue Heron\", \"Eastern Phoebe\", \"American Black Duck\", \"Mallard\", \"Canvasback\", \"Merlin\", \"Ovenbird\"]), [\"SCTA\",\"GBHE\",\"EAPH\",\"ABDU\",\"MALL\",\"CANV\",\"MERL\",\"OVEN\"])\nTest.assertSimilar(birdCode([\"Fox Sparrow\", \"White-Winged Crossbill\", \"Veery\", \"American Coot\", \"Sora\", \"Northern Rough-Winged Swallow\", \"Purple Martin\"]), [\"FOSP\",\"WWCR\",\"VEER\",\"AMCO\",\"SORA\",\"NRWS\",\"PUMA\"])",
+  "title": "Bird Names to Four Letter Bird Codes"
+}

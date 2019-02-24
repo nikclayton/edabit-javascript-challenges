@@ -1,0 +1,17 @@
+{
+  "author_id": "Taylor Burke",
+  "author_url": "https://edabit.com/user/inmjjfsii2M4CMf34",
+  "challenge_id": "H25aG5aAdmFcMpBsg",
+  "code": "function calculateExponent(num, exp) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a base number and an exponent number and returns the calculation.</span></p><h3><span>Examples</span></h3><pre><code>calculateExponent(5, 5) \u279e 3125\n\ncalculateExponent(10, 10) \u279e 10000000000\n\ncalculateExponent(3, 3) \u279e 27</code></pre><h3><span>Notes</span></h3><p><span>All inputs should be positive integers.</span></p>",
+  "source_url": "https://edabit.com/challenge/H25aG5aAdmFcMpBsg",
+  "tags": [
+    "logic",
+    "loops",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(calculateExponent(5,5), 3125);\nTest.assertEquals(calculateExponent(3,3), 27);\nTest.assertEquals(calculateExponent(10,10), 10000000000);",
+  "title": "To the Power of _______"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Jasperr",
+  "author_url": "https://edabit.com/user/xxmeopX7HggJJsvYB",
+  "challenge_id": "KcMmQE3bhxvfiYquQ",
+  "code": "function countOnes(i) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Count the amount of ones in the </span><em><span>binary representation</span></em><span> of an integer. So for example, since 12 is '1100' in binary, the return value should be </span><code>2</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>countOnes(0) \u279e 0\n\ncountOnes(100) \u279e 3\n\ncountOnes(999) \u279e 8</code></pre><h3><span>Notes</span></h3><p><span>The input will always be a valid integer (number).</span></p>",
+  "source_url": "https://edabit.com/challenge/KcMmQE3bhxvfiYquQ",
+  "tags": [
+    "formatting",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(countOnes(12), 2)\nTest.assertEquals(countOnes(0), 0)\nTest.assertEquals(countOnes(100), 3)\nTest.assertEquals(countOnes(101), 4)\nTest.assertEquals(countOnes(999), 8)\nTest.assertEquals(countOnes(1e9), 13)\nTest.assertEquals(countOnes(123456789), 16)\nTest.assertEquals(countOnes(1234567890), 12)",
+  "title": "Count Ones in Binary Representation of Integer"
+}

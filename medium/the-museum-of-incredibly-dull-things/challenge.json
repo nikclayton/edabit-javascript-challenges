@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "9ukwiKyv8R9NHSt3d",
+  "code": "function removeSmallest(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A museum wants to get rid of some exhibitions. Vanya, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and removes the one with the lowest rating. Just as she finishes rating the exhibitions, she's called off to an important meeting. She asks you to write a program that tells her the ratings of the items after the lowest one is removed.</span></p><p><span>Create a function that takes an array of integers and removes the smallest value.</span></p><h3><span>Examples</span></h3><pre><code>removeSmallest([1, 2, 3, 4, 5] ) \u279e [2, 3, 4, 5]\n\nremoveSmallest([5, 3, 2, 1, 4]) \u279e [5, 3, 2, 4]\n\nremoveSmallest([2, 2, 1, 2, 1]) \u279e [2, 2, 2, 1]</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't change the order of the left over items.</span></li><li><span>If you get an empty array, return an empty array: </span><code>[] \u279e []</code><span>.</span></li><li><span>If there are multiple items with the same value, remove item with lower index (3rd example).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9ukwiKyv8R9NHSt3d",
+  "tags": [
+    "arrays",
+    "formatting",
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(removeSmallest([1, 2, 3, 4, 5]), [2, 3, 4, 5])\nTest.assertSimilar(removeSmallest([5, 3, 2, 1, 4]), [5, 3, 2, 4])\nTest.assertSimilar(removeSmallest([2, 2, 1, 2, 1]), [2, 2, 2, 1])\nTest.assertSimilar(removeSmallest([3, 1, 6, 7, 3, 7, 6]), [3, 6, 7, 3, 7, 6])\nTest.assertSimilar(removeSmallest([4, 4, 4, 1]), [4, 4, 4])\nTest.assertSimilar(removeSmallest([5, 4, 5, 3, 1, 1]), [5, 4, 5, 3, 1])\nTest.assertSimilar(removeSmallest([1, 5, 3]), [5, 3])\nTest.assertSimilar(removeSmallest([]), [])\nTest.assertSimilar(removeSmallest([6, 2, 5, 4, 8, 6, 3, 2, 7]), [6, 5, 4, 8, 6, 3, 2, 7])\nTest.assertSimilar(removeSmallest([3]), [])",
+  "title": "The Museum of Incredibly Dull Things"
+}

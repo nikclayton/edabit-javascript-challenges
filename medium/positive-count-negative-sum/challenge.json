@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "xXJLZry3vYd4erPct",
+  "code": "function countPosSumNeg(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of positive and negative numbers. Return an array where the first element is the count of positive numbers and the second element is the sum of negative numbers.</span></p><h3><span>Examples</span></h3><pre><code>countPosSumNeg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]) \u279e [10, -65]\n\ncountPosSumNeg([92, 6, 73, -77, 81, -90, 99, 8, -85, 34]) \u279e [7, -252]\n\ncountPosSumNeg([91, -4, 80, -73, -28]) \u279e [2, -105]\n\ncountPosSumNeg(null) \u279e []\n\ncountPosSumNeg([]) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>If the input array is empty or null, return an empty array.</span></p>",
+  "source_url": "https://edabit.com/challenge/xXJLZry3vYd4erPct",
+  "tags": [
+    "arrays",
+    "conditions",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(countPosSumNeg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]), [10, -65])\nTest.assertSimilar(countPosSumNeg([92, 6, 73, -77, 81, -90, 99, 8, -85, 34]), [7, -252])\nTest.assertSimilar(countPosSumNeg([91, -4, 80, -73, -28]), [2, -105])\nTest.assertSimilar(countPosSumNeg([]), [])\nTest.assertSimilar(countPosSumNeg([69, 100, 28, 47, 53, -61, -24]), [5, -85])\nTest.assertSimilar(countPosSumNeg([5, 7, 9, -3, -7, 61, -24]), [4, -34])\nTest.assertSimilar(countPosSumNeg(null), [])\nTest.assertSimilar(countPosSumNeg([98, 51, -19, -97]), [2, -116])\nTest.assertSimilar(countPosSumNeg([-42, 3, -51, -64, 69, 77, -20, -5, 68, -76]), [4, -258])\nTest.assertSimilar(countPosSumNeg(null, null, null), [])",
+  "title": "Positive Count / Negative Sum"
+}

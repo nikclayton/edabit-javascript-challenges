@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "rJPgai5r5XdXeQmLg",
+  "code": "function isIsogram(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>An isogram is a word that has no repeating letters, consecutive or nonconsecutive. Create a function that takes a string and returns either </span><code>true</code><span> or </span><code>false</code><span> depending on whether or not it's an \"isogram\".</span></p><h3><span>Examples</span></h3><pre><code>isIsogram(\"Algorism\") \u279e true\n\nisIsogram(\"PasSword\") \u279e false (not case sensitive)\n\nisIsogram(\"Consecutive\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Ignore letter case (should not be case sensitive).</span></li><li><span>All test cases contain valid one word strings.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rJPgai5r5XdXeQmLg",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isIsogram(\"Algorism\"), true)\nTest.assertEquals(isIsogram(\"PasSword\"), false)\nTest.assertEquals(isIsogram(\"Dermatoglyphics\"), true)\nTest.assertEquals(isIsogram(\"Cat\"), true)\nTest.assertEquals(isIsogram(\"Filmography\"), true)\nTest.assertEquals(isIsogram(\"Consecutive\"), false)\nTest.assertEquals(isIsogram(\"Bankruptcies\"), true)\nTest.assertEquals(isIsogram(\"Unforgivable\"), true)\nTest.assertEquals(isIsogram(\"Unpredictably\"), true)\nTest.assertEquals(isIsogram(\"Moose\"), false)",
+  "title": "Is the Word an Isogram?"
+}

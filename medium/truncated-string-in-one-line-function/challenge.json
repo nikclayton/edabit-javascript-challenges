@@ -1,0 +1,14 @@
+{
+  "author_id": "shahednasser",
+  "author_url": "https://edabit.com/user/qfZTGo3mgRsbyKka7",
+  "challenge_id": "uxbwmpAWeLpcEoHXm",
+  "code": "function truncate(txt, txt_length, txt_suffix = null){\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes three arguments </span><code>(txt, txt_length, txt_suffix)</code><span> and returns a truncated string.</span></p><ul><li><strong><span>txt:</span></strong><span> Original string.</span></li><li><strong><span>txt_length:</span></strong><span> Truncated length limit.</span></li><li><strong><span>txt_suffix:</span></strong><span> Optional suffix string parameter.</span></li></ul><p><span>Truncated returned string length should adjust to passed length in parameters regardless of length of the suffix.</span></p><h3><span>Examples</span></h3><pre><code>truncate(\"CatDogDuck\", 9, \"Rat\") \u279e \"CatDogRat\"\n\ntruncate(\"DogCat\", 3) \u279e \"Dog\"\n\ntruncate(\"The quick brown fox jumped over the lazy dog.\", 15, \"...\") \u279e \"The quick br...\"</code></pre><h3><span>Notes</span></h3><p><span>To \"truncate\" means to shorten by cutting off a part.</span></p>",
+  "source_url": "https://edabit.com/challenge/uxbwmpAWeLpcEoHXm",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(truncate(\"CatDogDuck\", 9, \"Rat\"), \"CatDogRat\")\nTest.assertEquals(truncate(\"DogCat\", 3), \"Dog\")",
+  "title": "Truncated String in One Line Function"
+}

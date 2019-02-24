@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "kaNYPQQWHSX4zGNhj",
+  "code": "function mergeArrays(a, b) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes two arrays and combines them by alternatingly taking elements from each array in turn.</span></p><h3><span>Rules</span></h3><ul><li><span>The arrays may be of different lengths, with at least one character / digit.</span></li><li><span>The first array will contain string characters (lowercase, a-z),</span></li><li><span>The second array will contain integers (all positive).</span></li></ul><h3><span>Examples</span></h3><pre><code>mergeArrays([\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]) \u279e  [\"a\", 1, \"b\", 2, \"c\", 3, \"d\", 4, \"e\", 5]\n\nmergeArrays([1, 2, 3], [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]) \u279e [1, \"a\", 2, \"b\", 3, \"c\", \"d\", \"e\", \"f\"]\n\nmergeArrays([\"f\", \"d\", \"w\", \"t\"], [5, 3, 7, 8]) \u279e [\"f\", 5, \"d\", 3, \"w\", 7, \"t\", 8]</code></pre><h3><span>Notes</span></h3><p><span>No intentional gotchas.</span></p>",
+  "source_url": "https://edabit.com/challenge/kaNYPQQWHSX4zGNhj",
+  "tags": [
+    "arrays",
+    "formatting",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(mergeArrays([\"a\", \"b\", \"c\", \"d\", \"e\"], [1, 2, 3, 4, 5]), [\"a\", 1, \"b\", 2, \"c\", 3, \"d\", 4, \"e\", 5])\nTest.assertSimilar(mergeArrays([1, 2, 3], [\"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]), [1, \"a\", 2, \"b\", 3, \"c\", \"d\", \"e\", \"f\"])\nTest.assertSimilar(mergeArrays([\"f\", \"d\", \"w\", \"t\"], [5, 3, 7, 8]), [\"f\", 5, \"d\", 3, \"w\", 7, \"t\", 8])\nTest.assertSimilar(mergeArrays([4, 54, 7, 87], [\"t\", \"d\", \"t\"]), [4, \"t\", 54, \"d\", 7, \"t\", 87])\nTest.assertSimilar(mergeArrays([\"c\"], [3]), [ \"c\", 3 ])\nTest.assertSimilar(mergeArrays([4, 3, 2, 1], [\"r\", \"d\"]), [ 4, \"r\", 3, \"d\", 2, 1 ])\nTest.assertSimilar(mergeArrays([\"u\", \"k\", \"c\"], [2, 8, 30]), [\"u\", 2, \"k\", 8, \"c\", 30])\nTest.assertSimilar(mergeArrays([\"e\"], [1, 2, 3, 4, 5, 6, 7]), [\"e\", 1, 2, 3, 4, 5, 6, 7])\nTest.assertSimilar(mergeArrays([1, 2, 3, 4, 5, 6, 7], [\"e\"]), [1, \"e\", 2, 3, 4, 5, 6, 7])\nTest.assertSimilar(mergeArrays([123, 456], [\"c\", \"b\", \"a\"]), [123, \"c\", 456, \"b\", \"a\"])",
+  "title": "Merge Two Arrays"
+}

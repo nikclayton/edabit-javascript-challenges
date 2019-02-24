@@ -1,0 +1,15 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "pYSX8duMGhQCM3mWZ",
+  "code": "function truncate(string, length) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string (the string to truncate) and a number (the </span><em><span>maximum</span></em><span> length of the truncated string) as arguments and returns the truncated string at the given length.</span></p><h3><span>Examples</span></h3><pre><code>truncate(\"Lorem ipsum dolor sit amet.\", 11) \u279e \"Lorem ipsum\"\n\ntruncate(\"Lorem ipsum dolor sit amet.\", 16) \u279e \"Lorem ipsum\"\n\ntruncate(\"Lorem ipsum dolor sit amet.\", 17) \u279e \"Lorem ipsum dolor\"</code></pre><h3><span>Notes</span></h3><ul><li><span>To \"truncate\" means </span><em><span>\"to shorten by cutting off the top or end\"</span></em><span>.</span></li><li><span>If a word is trucated in the middle, discard it in the output (see 2nd example above).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/pYSX8duMGhQCM3mWZ",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "// \"Clean cut\"\nTest.assertEquals(truncate('Lorem ipsum dolor sit amet.', 11), 'Lorem ipsum');\n\n// \"Dirty cut\", we have to discard the last word\nTest.assertEquals(truncate('Lorem ipsum dolor sit amet.', 16), 'Lorem ipsum');\n\n// If length is greater than the string's length\nTest.assertEquals(truncate('Lorem ipsum', 20), 'Lorem ipsum');\n\n// Some more tests\nTest.assertEquals(truncate('Lorem ipsum', 4), '');\nTest.assertEquals(truncate('Lorem ipsum', 0), '');\nTest.assertEquals(truncate('', 30), '');",
+  "title": "Truncate String at a Given Length"
+}
