@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ng4KKFW4CBwteJdDH",
+  "code": "function flash([num1, op, num2]) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that outputs the results of a flashcard. A flashcard is an array of three elements: a number, an operator symbol, and another number. Return the mathematical result of that expression.</span></p><p><span>There are 4 operators: </span><code>+</code><span> (addition), </span><code>-</code><span> (subtraction), </span><code>x</code><span> (multiplication), and </span><code>/</code><span> (division). If the flashcard displays a number being divided by zero, e.g. </span><code>[3, \"/\", 0]</code><span>, then return </span><code>undefined</code><span>. For division, round to the hundredths place. So </span><code>[10, \"/\", 3]</code><span> should return </span><code>3.33</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>flash([3, \"x\", 7]) \u279e 21\n\nflash([5, \"+\", 7]) \u279e 12\n\nflash([10, \"-\", 9]) \u279e 1\n\nflash([10, \"/\", 0]) \u279e undefined\n\nflash([10, \"/\", 3]) \u279e 3.33</code></pre><h3><span>Notes</span></h3><p><span>Flash cards contain only zero or positive numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/ng4KKFW4CBwteJdDH",
+  "tags": [
+    "arrays",
+    "conditions"
+  ],
+  "tests": "Test.assertEquals(flash([3, 'x', 7]), 21);\nTest.assertEquals(flash([5, '+', 7]), 12);\nTest.assertEquals(flash([10, '-', 9]), 1);\nTest.assertEquals(flash([10, '/', 0]), undefined);\nTest.assertEquals(flash([10, '/', 3]), 3.33);\nTest.assertEquals(flash([2, 'x', 0]), 0);\nTest.assertEquals(flash([0, '/', 5]), 0);\nTest.assertEquals(flash([0, '+', 0]), 0);\nTest.assertEquals(flash([0, '-', 0]), 0);\nTest.assertEquals(flash([8, '-', 0]), 8);\nTest.assertEquals(flash([0, '/', 0]), undefined);\nTest.assertEquals(flash([3, '/', 8]), 0.38);",
+  "title": "Flash Cards"
+}

@@ -11,6 +11,6 @@
     "numbers",
     "strings"
   ],
-  "tests": "Test.assertEquals(countWords(\"It's high noon\"), 3);\nTest.assertEquals(countWords(\"Is this easy mode\"), 4);\nTest.assertEquals(countWords(\"Is this easy mode\"), 4);",
+  "tests": "Test.assertEquals(countWords(\"It's high noon\"), 3)\nTest.assertEquals(countWords(\"Is this easy mode\"), 4)\nTest.assertEquals(countWords(\"What an easy task, right\"), 5)\nTest.assertEquals(countWords(\"This is a test\"), 4)\nTest.assertEquals(countWords(\"Just an example here move along\"), 6)\nTest.assertEquals(countWords(\"How are you today?\"), 4)",
   "title": "Get Word Count"
 }

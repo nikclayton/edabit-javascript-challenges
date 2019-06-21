@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "LwLoX98Sa3qdv99oR",
+  "code": "function bonacci(N, k) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>N-bonacci numbers are generalisations of the fibonacci sequence, where the next term is always the sum of the previous N terms. By convention, the first (N-1) terms are all 0 and the Nth term is 1.</span></p><p><span>The initial 10 terms of the first 5 N-bonacci sequences are therefore:</span></p><ul><li><span>1-bonacci = 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...</span></li><li><span>2-bonacci = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...</span></li><li><span>3-bonacci = 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, ...</span></li><li><span>4-bonaaci = 0, 0, 0, 1, 1, 2, 4, 8, 15, 29, ...</span></li><li><span>5-bonacci = 0, 0, 0, 0, 1, 1, 2, 4, 8, 16, ...</span></li></ul><p><span>Write a function that returns the kth term of the N-bonacci sequence, for two integer arguments N and k.</span></p><h3><span>Examples</span></h3><pre><code>bonacci(1, 10) \u279e 1\n\nbonacci(2, 10) \u279e 34\n\nbonacci(3, 10) \u279e 44\n\nbonacci(4, 10) \u279e 29\n\nbonacci(5, 10) \u279e 16</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/LwLoX98Sa3qdv99oR",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(bonacci(2, 7), 8)\nTest.assertEquals(bonacci(3, 13), 274)\nTest.assertEquals(bonacci(5, 24), 203513)\nTest.assertEquals(bonacci(8, 44), 32440904961)\nTest.assertEquals(bonacci(1, 4), 1)\nTest.assertEquals(bonacci(2, 2), 1)\nTest.assertEquals(bonacci(3, 1), 0)",
+  "title": "N-bonacci Numbers"
+}

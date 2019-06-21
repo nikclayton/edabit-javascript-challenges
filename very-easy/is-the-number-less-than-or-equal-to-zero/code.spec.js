@@ -1,8 +1,6 @@
 const lessThanOrEqualToZero = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(lessThanOrEqualToZero(5)).toEqual(false);
         expect(lessThanOrEqualToZero(0)).toEqual(true);

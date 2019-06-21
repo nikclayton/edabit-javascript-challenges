@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "77zq4RhMgWup22H6d",
+  "code": "function existsHigher(arr, n) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if there exists </span><strong><span>at least one number</span></strong><span> that is </span><strong><span>larger than or equal to</span></strong><span> </span><code>n</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>existsHigher([5, 3, 15, 22, 4], 10) \u279e true\n\nexistsHigher([1, 2, 3, 4, 5], 8) \u279e false\n\nexistsHigher([4, 3, 3, 3, 2, 2, 2], 4) \u279e true\n\nexistsHigher([], 5) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Return </span><code>false</code><span> for an empty array </span><code>[]</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/77zq4RhMgWup22H6d",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(existsHigher([5, 3, 15, 22, 4], 10), true)\nTest.assertEquals(existsHigher([1, 2, 3, 4, 5], 8), false)\nTest.assertEquals(existsHigher([4, 3, 3, 3, 2, 2, 2], 4), true)\nTest.assertEquals(existsHigher([2, 2, 2, 2], 5), false)\nTest.assertEquals(existsHigher([], 0), false)",
+  "title": "Exists a Number Higher?"
+}

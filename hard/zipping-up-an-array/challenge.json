@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KJDD2N2putddr5vp3",
+  "code": "function zipper(arr1, arr2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Two arrays are part of the same </span><strong><span>zipper</span></strong><span> if the ending is identical. The identical section can be thought of as being \"zipped-up\". Below, </span><code>[2, 2, 4]</code><span> is \"zipped-up\".</span></p><pre><code>Array 1: [3, 5, 8, 9, 2, 2, 4]\nArray 2: [1, 7, 2, 2, 4]</code></pre><p><span>Create a function that takes in two arrays and the </span><strong><span>first index in both arrays</span></strong><span> that the zipper diverges. If the ending is NOT identical, return </span><code>false</code><span>. If both arrays ARE identical, return </span><code>true</code><span>.</span></p><p><span>To illustrate:</span></p><pre><code>zipper([3, 5, 8, 9, 2, 2, 4], [1, 7, 2, 2, 4]) \u279e [3, 1]\n// Zipper 1: 9 (index-3) is first element to diverge.\n// Zipper 2: 7 (index-1) is first element to diverge.</code></pre><h3><span>Examples</span></h3><pre><code>zipper([5, 5, 7, 8, 9, 1, 2], [3, 2, 1, 1, 6, 6, 6, 6, 1, 2]) \u279e [4, 7]\n\nzipper([5, 4, 3, 2, 6], [6, 4, 3, 2, 6]) \u279e [0, 0]\n\nzipper([5, 4, 3, 2, 7], [6, 4, 3, 2, 6]) \u279e false\n\nzipper([5, 4, 3, 2, 6], [5, 4, 3, 2, 6]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Use zero-indexing for the arrays.</span></p>",
+  "source_url": "https://edabit.com/challenge/KJDD2N2putddr5vp3",
+  "tags": [
+    "arrays",
+    "control_flow"
+  ],
+  "tests": "Test.assertSimilar(zipper([5, 5, 7, 8, 9, 1, 2], [3, 2, 1, 1, 6, 6, 6, 6, 1, 2]), [4, 7])\nTest.assertSimilar(zipper([5, 4, 3, 2, 6], [6, 4, 3, 2, 6]), [0, 0])\nTest.assertSimilar(zipper([5, 4, 3, 2, 7], [6, 4, 3, 2, 6]), false)\nTest.assertSimilar(zipper([1, 5, 4, 3], [9, 8, 7, 5, 4, 3]), [0, 2])\nTest.assertSimilar(zipper([7, 8, 9, 9, 9], [8, 8, 9, 9, 9, 9, 9]), [1, 3])\nTest.assertSimilar(zipper([7, 8, 5, 1, 5], [6, 6, 5, 1, 5]), [1, 1])\nTest.assertSimilar(zipper([6, 6, 5, 1, 5], [6, 6, 5, 1, 5]), true)\nTest.assertSimilar(zipper([1, 1, 2, 6, 6, 5, 1, 5], [7, 8, 9, 4, 4, 6, 6, 5, 1, 5]), [2, 4])",
+  "title": "Zipping Up an Array"
+}

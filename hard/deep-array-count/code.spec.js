@@ -1,8 +1,6 @@
 const deepCount = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(deepCount([1, 2, 3])).toEqual(3);
         expect(deepCount(['x', 'y', ['z']])).toEqual(4);

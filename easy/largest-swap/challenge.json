@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hD3euqPHM82Cbr7R8",
+  "code": "function largestSwap(num) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that takes a </span><strong><span>two-digit</span></strong><span> number and determines if it's the largest of two possible digit swaps.</span></p><p><span>To illustrate:</span></p><pre><code>largestSwap(27) \u279e false\n\nlargestSwap(43) \u279e true</code></pre><p><span>If </span><strong><span>27</span></strong><span> is our input, we should return </span><code>false</code><span> because swapping the digits gives us </span><strong><span>72</span></strong><span>, and </span><strong><span>72 &gt; 27</span></strong><span>. On the other hand, swapping </span><strong><span>43</span></strong><span> gives us </span><strong><span>34</span></strong><span>, and </span><strong><span>43 &gt; 34</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>largestSwap(14) \u279e false\n\nlargestSwap(53) \u279e true\n\nlargestSwap(99) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Numbers with two identical digits (third example) should yield </span><code>true</code><span> (you can't do better).</span></p>",
+  "source_url": "https://edabit.com/challenge/hD3euqPHM82Cbr7R8",
+  "tags": [
+    "logic",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(largestSwap(27), false, '27 < 72, so not largest swap.')\nTest.assertEquals(largestSwap(43), true, '43 > 34, so largest swap.')\nTest.assertEquals(largestSwap(14), false, '14 < 41, so not largest swap.')\nTest.assertEquals(largestSwap(53), true, '53 > 35, so largest swap.')\nTest.assertEquals(largestSwap(99), true, 'Cannot do better, so largest swap.')",
+  "title": "Largest Swap"
+}

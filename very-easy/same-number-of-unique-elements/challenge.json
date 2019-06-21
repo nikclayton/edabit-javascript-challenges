@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "R6DX8wKMufT5hLRuK",
+  "code": "function same(a1, a2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if two arrays have the same number of unique elements, and false otherwise.</span></p><h3><span>Examples</span></h3><pre><code>same([1, 3, 4, 4, 4], [2, 5, 7]) \u279e true\n\nsame([9, 8, 7, 6], [4, 4, 3, 1]) \u279e false\n\nsame([2], [3, 3, 3, 3, 3]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/R6DX8wKMufT5hLRuK",
+  "tags": [
+    "arrays",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertEquals(same([1, 3, 4, 4, 4], [2, 5, 7]), true)\nTest.assertEquals(same([9, 8, 7, 6], [4, 4, 3, 1]), false)\nTest.assertEquals(same([2], [3, 3, 3, 3, 3]), true)\nTest.assertEquals(same([5, 6, 7, 9], [4, 1]), false)\nTest.assertEquals(same([5, 9, 9], [9, 5]), true)\nTest.assertEquals(same([1, 1, 1, 4], [1, 4, 4, 4, 4, 4]), true)\nTest.assertEquals(same([], []), true)",
+  "title": "Same Number of Unique Elements"
+}

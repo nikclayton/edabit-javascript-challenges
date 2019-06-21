@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "3ZtykTsx3GSoPHyBb",
+  "code": "function towerHanoi(discs) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>There are 3 towers. Object of the game is to move all the disks over to Tower 3.\nBut you cannot place a larger disk onto a smaller disk. To play the game, go to the </span><strong><span>resources tab</span></strong><span>.</span></p><p><span>Create a function that takes a number </span><code>discs</code><span> as an argument and returns the minimum amount of steps needed to complete the game.</span></p><h3><span>Examples</span></h3><pre><code>towerHanoi(3) \u279e 7\n\ntowerHanoi(5) \u279e 31\n\ntowerHanoi(0) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>The amount of discs is always a positive integer.</span></p>",
+  "source_url": "https://edabit.com/challenge/3ZtykTsx3GSoPHyBb",
+  "tags": [
+    "algorithms",
+    "games",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(towerHanoi(3), 7)\nTest.assertEquals(towerHanoi(5), 31)\nTest.assertEquals(towerHanoi(8), 255)\nTest.assertEquals(towerHanoi(19), 524287)\nTest.assertEquals(towerHanoi(9), 511)\nTest.assertEquals(towerHanoi(13), 8191)\nTest.assertEquals(towerHanoi(0), 0)",
+  "title": "Tower of Hanoi"
+}

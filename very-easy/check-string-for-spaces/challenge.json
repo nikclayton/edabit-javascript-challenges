@@ -1,0 +1,16 @@
+{
+  "author_id": "Peter Flynn",
+  "author_url": "https://edabit.com/user/wkxYjg28PC4xdWH69",
+  "challenge_id": "RAoedjZwcGFhvRTru",
+  "code": "function hasSpaces(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if a string contains any spaces.</span></p><h3><span>Examples</span></h3><pre><code>hasSpaces(\"hello\") \u279e false\n\nhasSpaces(\"hello, world\") \u279e true\n\nhasSpaces(\" \") \u279e true\n\nhasSpaces(\"\") \u279e false\n\nhasSpaces(\",./!@#\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>An empty string does not contain any spaces.</span></li><li><span>Try doing this without RegEx.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RAoedjZwcGFhvRTru",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(hasSpaces(\"Foo\"), false)\nTest.assertEquals(hasSpaces(\"Foo bar\"), true)\nTest.assertEquals(hasSpaces(\"Foo \"), true)\nTest.assertEquals(hasSpaces(\" Foo\"), true)\nTest.assertEquals(hasSpaces(\" \"), true)\nTest.assertEquals(hasSpaces(\"\"), false)\nTest.assertEquals(hasSpaces(\",./;'[]-=\"), false)",
+  "title": "Check String for Spaces"
+}

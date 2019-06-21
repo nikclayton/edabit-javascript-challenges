@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "6xWP2WqWrhjbu2ZyG",
+  "code": "function transposeMatrix(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that transposes a 2D matrix.</span></p><h3><span>Examples</span></h3><pre><code>transposeMatrix([\n  [1, 1, 1],\n  [2, 2, 2],\n  [3, 3, 3]\n]) \u279e [\n  [1, 2, 3],\n  [1, 2, 3],\n  [1, 2, 3]\n]\n\ntransposeMatrix([\n  [5, 5],\n  [6, 7],\n  [9, 1]\n]) \u279e [\n  [5, 6, 9],\n  [5, 7, 1]\n]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/6xWP2WqWrhjbu2ZyG",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(transposeMatrix([\n\t\t[1, 1, 1], \n\t\t[2, 2, 2], \n\t\t[3, 3, 3]\n\t]),  ([\n\t\t[1, 2, 3], \n\t\t[1, 2, 3], \n\t\t[1, 2, 3]\n\t]))\n\t\nTest.assertSimilar(transposeMatrix([\n\t\t[1, 1, 1], \n\t\t[2, 2, 2]\n\t]),  ([\n\t\t[1, 2],\n\t\t[1, 2],\n\t\t[1, 2]\n\t]))\n\t\nTest.assertSimilar(transposeMatrix([\n\t\t[1, 2, 3, 4], \n\t\t[5, 6, 7, 8], \n\t\t[9, 10, 11, 12]\n\t]),  ([\n\t\t[1, 5, 9],\n\t\t[2, 6, 10],\n\t\t[3, 7, 11], \n\t\t[4, 8, 12]\n\t]))",
+  "title": "Matrix Transpose"
+}

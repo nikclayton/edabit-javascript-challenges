@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "CWvC6aNbqHn68D2No",
+  "code": "function getLanguages(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a number that represents a person's programming language score, and returns an alphabetised array of programming languages they are proficient in. Arbitrarily assigned points for each language are listed below:</span></p><table><thead><tr><th><span>Language</span></th><th><span>Points</span></th></tr></thead><tbody><tr><td><span>C#</span></td><td><span>1</span></td></tr><tr><td><span>C++</span></td><td><span>2</span></td></tr><tr><td><span>Java</span></td><td><span>4</span></td></tr><tr><td><span>JavaScript</span></td><td><span>8</span></td></tr><tr><td><span>PHP</span></td><td><span>16</span></td></tr><tr><td><span>Python</span></td><td><span>32</span></td></tr><tr><td><span>Ruby</span></td><td><span>64</span></td></tr><tr><td><span>Swift</span></td><td><span>128</span></td></tr></tbody></table><h3><span>Examples</span></h3><pre><code>getLanguages(25) \u279e [\"C#\", \"PHP\", \"JavaScript\"]\n\ngetLanguages(100) \u279e [\"Java\", \"Python\", \"Ruby\"]\n\ngetLanguages(53) \u279e [\"C#\", \"Java\", \"PHP\", \"Python\"]</code></pre><h3><span>Notes</span></h3><p><span>Easier using bitwise operations.</span></p>",
+  "source_url": "https://edabit.com/challenge/CWvC6aNbqHn68D2No",
+  "tags": [
+    "arrays",
+    "bit_operations",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(getLanguages(32), ['Python'])\nTest.assertSimilar(getLanguages(25), ['C#','JavaScript','PHP'])\nTest.assertSimilar(getLanguages(100), ['Java','Python','Ruby'])\nTest.assertSimilar(getLanguages(255), ['C#','C++','Java','JavaScript','PHP','Python','Ruby','Swift'])\nTest.assertSimilar(getLanguages(53), ['C#','Java','PHP','Python'])\nTest.assertSimilar(getLanguages(12), ['Java','JavaScript'])",
+  "title": "Programming Polyglot"
+}

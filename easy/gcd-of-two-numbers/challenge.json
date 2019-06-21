@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "3HPSLLjh8Go5QPq3C",
+  "code": "function gcd(n1, n2) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>greatest common divisor (GCD)</span></strong><span> of two integers.</span></p><h3><span>Examples</span></h3><pre><code>gcd(32, 8) \u279e 8\n\ngcd(8, 12) \u279e 4\n\ngcd(17, 13) \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>Both values will be positive.</span></li><li><span>The </span><strong><span>GCD</span></strong><span> is the largest factor that divides both numbers.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/3HPSLLjh8Go5QPq3C",
+  "tags": [
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(gcd(32, 8), 8)\nTest.assertEquals(gcd(8, 12), 4)\nTest.assertEquals(gcd(17, 13), 1)\nTest.assertEquals(gcd(14, 7), 7)\nTest.assertEquals(gcd(32, 16), 16)\nTest.assertEquals(gcd(17, 100), 1)\nTest.assertEquals(gcd(55, 20), 5)\nTest.assertEquals(gcd(55, 22), 11)",
+  "title": "GCD of Two Numbers"
+}

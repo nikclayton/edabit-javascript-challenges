@@ -1,18 +1,30 @@
-
 Create a function that takes a number (from 1 to 12) and return its corresponding month name as a string.
 
-### Examples
 
-```
-month_name(3) ➞ "March"
+### Months ###
+1.  January
+2.  February
+3.  March
+4.  April
+5.  May
+6.  June
+7.  July
+8.  August
+9.  September
+10. October
+11. November
+12. December
 
-month_name(12) ➞ "December"
 
-month_name(6) ➞ "June"
-```
+### Examples ###
+    month_name(3) ➞ "March"
 
-### Months
-1. January1. February1. March1. April1. May1. June1. July1. August1. September1. October1. November1. December
-### Notes
+    month_name(12) ➞ "December"
 
-Expect only numbers as input ranging from 1 to 12.
+    month_name(6) ➞ "June"
+
+
+### Notes ###
+*   You can expect only integers ranging from 1 to 12 as test input.
+*   If you get stuck on a challenge, find help in the **Resources**tab.
+*   If you're *really*stuck, unlock solutions in the **Solutions**tab.

@@ -4,7 +4,7 @@
   "challenge_id": "GW5kYFCvGWDZ6TRxd",
   "code": "function factorial(int) {\n  \n}",
   "difficulty": "Easy",
-  "instructions": "<p><span>Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.</span></p><h3><span>Examples</span></h3><pre><code>factorial(3) \u279e 6\n\nfactorial(5) \u279e 120\n\nfactorial(13) \u279e 6227020800</code></pre><h3><span>Notes</span></h3><ul><li><span>Assume all inputs are &gt;= 0.</span></li><li><span>0! = 1.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.</span></p><h3><span>Examples</span></h3><pre><code>factorial(3) \u279e 6\n\nfactorial(5) \u279e 120\n\nfactorial(13) \u279e 6227020800</code></pre><h3><span>Notes</span></h3><p><span>Assume all inputs are greater than or equal to 0.</span></p>",
   "source_url": "https://edabit.com/challenge/GW5kYFCvGWDZ6TRxd",
   "tags": [
     "algebra",
@@ -12,6 +12,6 @@
     "numbers",
     "recursion"
   ],
-  "tests": "Test.assertEquals(factorial(2), 2);\nTest.assertEquals(factorial(6), 720);\nTest.assertEquals(factorial(3), 6);\nTest.assertEquals(factorial(12), 479001600);\nTest.assertEquals(factorial(5), 120);",
+  "tests": "Test.assertEquals(factorial(2), 2)\nTest.assertEquals(factorial(6), 720)\nTest.assertEquals(factorial(3), 6)\nTest.assertEquals(factorial(12), 479001600)\nTest.assertEquals(factorial(5), 120)",
   "title": "Return the Factorial"
 }

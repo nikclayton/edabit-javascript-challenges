@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uGN6vd3t2ycfnCpfv",
+  "code": "function split(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that groups a string into </span><strong><span>parentheses cluster</span></strong><span>. Each cluster should be </span><strong><span>balanced</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>split(\"()()()\") \u279e [\"()\", \"()\", \"()\"]\n\nsplit(\"((()))\") \u279e [\"((()))\"]\n\nsplit(\"((()))(())()()(()())\") \u279e [\"((()))\", \"(())\", \"()\", \"()\", \"(()())\"]\n\nsplit(\"((())())(()(()()))\") \u279e [\"((())())\", \"(()(()()))\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>All input strings will </span><strong><span>only</span></strong><span> contain parentheses.</span></li><li><strong><span>Balanced</span></strong><span>: Every opening parens </span><code>(</code><span> must exist with its matching closing parens </span><code>)</code><span> in the same cluster.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/uGN6vd3t2ycfnCpfv",
+  "tags": [
+    "data_structures",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(split(\"()()()\"), [\"()\", \"()\", \"()\"])\nTest.assertSimilar(split(\"\"), [])\nTest.assertSimilar(split(\"()()(())\"), [\"()\", \"()\", \"(())\"])\nTest.assertSimilar(split(\"(())(())\"), [\"(())\", \"(())\"])\nTest.assertSimilar(split(\"((()))\"), [\"((()))\"])\nTest.assertSimilar(split(\"()(((((((((())))))))))\"), [\"()\", \"(((((((((())))))))))\"])\nTest.assertSimilar(split(\"((())()(()))(()(())())(()())\"), [\"((())()(()))\", \"(()(())())\", \"(()())\"])\nTest.assertSimilar(split(\"((()))(())()()(()())\"), [\"((()))\", \"(())\", \"()\", \"()\", \"(()())\"])\nTest.assertSimilar(split(\"((())())(()(()()))\"), [\"((())())\", \"(()(()()))\"])\nTest.assertSimilar(split(\"(()(()()))()(((()))()(()))(()((()))(())())\"), [\"(()(()()))\", \"()\", \"(((()))()(()))\", \"(()((()))(())())\"])",
+  "title": "Parentheses Clusters"
+}

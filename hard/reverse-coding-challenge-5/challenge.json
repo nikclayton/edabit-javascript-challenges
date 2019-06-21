@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Mq6LeA75xJjzvdthh",
+  "code": "function mysteryFunc(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>832 \u279e 594\n\n51 \u279e 36\n\n7977 \u279e 198\n\n1 \u279e 0\n\n665 \u279e 99\n\n149 \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>If you get stuck, see </span><strong><span>Comments</span></strong><span> for a hint.</span></p>",
+  "source_url": "https://edabit.com/challenge/Mq6LeA75xJjzvdthh",
+  "tags": [
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(mysteryFunc(832), 594)\nTest.assertEquals(mysteryFunc(51), 36)\nTest.assertEquals(mysteryFunc(7977), 198)\nTest.assertEquals(mysteryFunc(1), 0)\nTest.assertEquals(mysteryFunc(665), 99)\nTest.assertEquals(mysteryFunc(149), 0)",
+  "title": "Reverse Coding Challenge #5"
+}

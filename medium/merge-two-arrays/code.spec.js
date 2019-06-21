@@ -1,8 +1,6 @@
 const mergeArrays = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(mergeArrays(['a', 'b', 'c', 'd', 'e'], [1, 2, 3, 4, 5])).toEqual(['a', 1, 'b', 2, 'c', 3, 'd', 4, 'e', 5]);
         expect(mergeArrays([1, 2, 3], ['a', 'b', 'c', 'd', 'e', 'f'])).toEqual([1, 'a', 2, 'b', 3, 'c', 'd', 'e', 'f']);

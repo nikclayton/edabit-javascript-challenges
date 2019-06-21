@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5vAX6Lw2Yrgdkx7Qi",
+  "code": "function isPlural(word) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes in a word and determines whether or not it is plural. A plural word is one that ends in \"s\".</span></p><h3><span>Examples</span></h3><pre><code>isPlural(\"changes\") \u279e true\n\nisPlural(\"change\") \u279e false\n\nisPlural(\"dudes\") \u279e true\n\nisPlural(\"magic\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>Remember that return </span><code>true</code><span> (</span><em><span>boolean</span></em><span>) is not the same as return </span><code>\"true\"</code><span> (</span><em><span>string</span></em><span>).</span></li><li><span>This is an oversimplification of the English language. We are ignoring edge cases like \"goose\" and \"geese\", \"fungus\" and \"fungi\", etc.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/5vAX6Lw2Yrgdkx7Qi",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPlural(\"dudes\"), true)\nTest.assertEquals(isPlural(\"flowers\"), true)\nTest.assertEquals(isPlural(\"checks\"), true)\nTest.assertEquals(isPlural(\"varies\"), true)\nTest.assertEquals(isPlural(\"efforts\"), true)\nTest.assertEquals(isPlural(\"mood\"), false)\nTest.assertEquals(isPlural(\"whiteboard\"), false)\nTest.assertEquals(isPlural(\"cow\"), false)\nTest.assertEquals(isPlural(\"word\"), false)\nTest.assertEquals(isPlural(\"love\"), false)",
+  "title": "Is the Word Singular or Plural?"
+}

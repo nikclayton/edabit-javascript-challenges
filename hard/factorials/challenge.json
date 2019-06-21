@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "B9TMed7zwbokv88eM",
+  "code": "function filterFactorials(numbers) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that filters out factorials from an array. A factorial is a number that can be represented in the following manner: </span></p><pre><code>n! = n * (n-1) * (n-2) * ... * 3 * 2 * 1</code></pre><p><span>Recursively, this can be represented as: </span></p><pre><code>n! = n * (n-1)!</code></pre><h3><span>Examples</span></h3><pre><code>filterFactorials([1, 2, 3, 4, 5, 6, 7]) \u279e [1, 2, 6]\n\nfilterFactorials([1, 4, 120]) \u279e [1, 120]\n\nfilterFactorials([8, 9, 10]) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/B9TMed7zwbokv88eM",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(filterFactorials([1, 2, 3, 4, 5, 6, 7]), [1, 2, 6]);\nTest.assertSimilar(filterFactorials([1, 4, 120]), [1, 120]);\nTest.assertSimilar(filterFactorials([8, 9, 10]), []);\nTest.assertSimilar(filterFactorials([1, 8, 9, 10]), [1]);",
+  "title": "Factorials"
+}

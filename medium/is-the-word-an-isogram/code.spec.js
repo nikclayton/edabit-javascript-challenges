@@ -1,8 +1,6 @@
 const isIsogram = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isIsogram('Algorism')).toEqual(true);
         expect(isIsogram('PasSword')).toEqual(false);

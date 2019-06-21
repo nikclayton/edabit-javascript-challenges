@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "nhXofMMyrowMyr9Nv",
+  "code": "function nextEdge(side1, side2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that finds the maximum range of a triangles third edge.</span></p><h3><span>Examples</span></h3><pre><code>nextEdge(8, 10) \u279e 17\n\nnextEdge(5, 7) \u279e 11\n\nnextEdge(9, 2) \u279e 10</code></pre><h3><span>Notes</span></h3><ul><li><span>(side1 + side2) - 1 = maximum range of third edge.</span></li><li><span>Triangles have side lengths that are positive integers.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/nhXofMMyrowMyr9Nv",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(nextEdge(5, 4), 8)\nTest.assertEquals(nextEdge(8, 3), 10)\nTest.assertEquals(nextEdge(7, 9), 15)\nTest.assertEquals(nextEdge(10, 4), 13)\nTest.assertEquals(nextEdge(7, 2), 8)",
+  "title": "Maximum Edge of a Triangle"
+}

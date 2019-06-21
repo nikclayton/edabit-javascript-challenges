@@ -1,8 +1,6 @@
 const groupMonotonic = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(groupMonotonic([])).toEqual([]);
         expect(groupMonotonic([0])).toEqual([]);

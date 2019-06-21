@@ -1,8 +1,6 @@
 const trouble = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(trouble(451999277, 41177722899)).toEqual(true);
         expect(trouble(444, 44)).toEqual(true);

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HwC7ryWNW6qvc5cN7",
+  "code": "function sortByLetter(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that sort each string in an array by the letter in alphabetic ascending order (</span><code>a-z</code><span>).</span></p><h3><span>Examples</span></h3><pre><code>sortByLetter([\"932c\", \"832u32\", \"2344b\"])\n\u279e [\"2344b\", \"932c\", \"832u32\"]\n\nsortByLetter([\"99a\", \"78b\", \"c2345\", \"11d\"])\n\u279e [\"99a\", \"78b\", \"c2345\", \"11d\"]\n\nsortByLetter([\"572z\", \"5y5\", \"304q2\"])\n\u279e [\"304q2\", \"5y5\", \"572z\"]\n\nsortByLetter([])\n\u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>Each string will only have one (lowercase) letter.</span></li><li><span>If given an empty array, return an empty array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/HwC7ryWNW6qvc5cN7",
+  "tags": [
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(sortByLetter([\"932c\", \"832u32\", \"2344b\"]), [\"2344b\", \"932c\", \"832u32\"])\nTest.assertSimilar(sortByLetter([\"99a\", \"78b\", \"c2345\", \"11d\"]), [\"99a\", \"78b\", \"c2345\", \"11d\"])\nTest.assertSimilar(sortByLetter([\"572z\", \"5y5\", \"304q2\"]), [\"304q2\", \"5y5\", \"572z\"])\nTest.assertSimilar(sortByLetter([]), [])",
+  "title": "Sort by the Letters"
+}

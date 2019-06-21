@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "pkfZB4AkkpyxXQvhT",
+  "code": "function carryDigits(n1, n2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the number of times you must carry a digit when you sum together two integers.</span></p><h3><span>Examples</span></h3><pre><code>carryDigits(36, 135) \u279e 1\n// You carry the 1 when you sum 6 and 5 together.\n\ncarryDigits(671, 329) \u279e 3\n\ncarryDigits(1111, 3333) \u279e 0\n\ncarryDigits(53214, 56905) \u279e 3</code></pre><h3><span>Notes</span></h3><p><span>Count all carry operations (even those on leading digits).</span></p>",
+  "source_url": "https://edabit.com/challenge/pkfZB4AkkpyxXQvhT",
+  "tags": [
+    "control_flow",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(carryDigits(36, 135), 1)\nTest.assertEquals(carryDigits(671, 329), 3)\nTest.assertEquals(carryDigits(1111, 3333), 0)\nTest.assertEquals(carryDigits(4, 5268), 1)\nTest.assertEquals(carryDigits(53214, 16905), 2)\nTest.assertEquals(carryDigits(53214, 56905), 3)\nTest.assertEquals(carryDigits(515, 4), 0)\nTest.assertEquals(carryDigits(515, 90), 1)\nTest.assertEquals(carryDigits(63223, 70000), 1)",
+  "title": "Carrying the Digits"
+}

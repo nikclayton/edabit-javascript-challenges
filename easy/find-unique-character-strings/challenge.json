@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "kPjg5tCKnFsyYFfex",
+  "code": "function filterUnique(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns only strings with unique characters.</span></p><h3><span>Examples</span></h3><pre><code>filterUnique([\"abb\", \"abc\", \"abcdb\", \"aea\", \"bbb\"]) \u279e [\"abc\"]\n// \"b\" occurs in \"abb\" more than once, \"b\" occurs in \"abcdb\" more than once, etc.\n\nfilterUnique([\"88\", \"999\", \"989\", \"9988\", \"9898\"]) \u279e []\n\nfilterUnique([\"ABCDE\", \"DDEB\", \"BED\", \"CCA\", \"BAC\"]) \u279e [\"ABCDE\", \"BED\", \"BAC\"]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/kPjg5tCKnFsyYFfex",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(filterUnique(['abb', 'abc', 'abcdb', 'aea', 'bbb']), ['abc'])\nTest.assertSimilar(filterUnique(['88', '999', '989', '9988', '9898']), [])\nTest.assertSimilar(filterUnique(['ABCDE', 'DDEB', 'BED', 'CCA', 'BAC']), ['ABCDE', 'BED', 'BAC'])\nTest.assertSimilar(filterUnique(['qrrs', 'srrq', 'qqrs', 'qq', 'ss', 'rs']), ['rs'])\nTest.assertSimilar(filterUnique(['abab', 'ba', 'ab', 'cc']), ['ba', 'ab'])",
+  "title": "Find Unique Character Strings"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "xkBFTcHuJTXmrLwjw",
+  "code": "function atbash(str) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>The Atbash cipher is an encryption method in which each letter of a word is replaced with its \"mirror\" letter in the alphabet: A &lt;=&gt; Z; B &lt;=&gt; Y; C &lt;=&gt; X; etc.</span></p><p><span>Create a function that takes a string and applies the Atbash cipher to it.</span></p><h3><span>Examples</span></h3><pre><code>atbash(\"apple\") \u279e \"zkkov\"\n\natbash(\"Hello world!\") \u279e \"Svool dliow!\"\n\natbash(\"Christmas is the 25th of December\") \u279e \"Xsirhgnzh rh gsv 25gs lu Wvxvnyvi\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Capitalisation should be retained.</span></li><li><span>Non-alphabetic characters should not be altered.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/xkBFTcHuJTXmrLwjw",
+  "tags": [
+    "cryptography",
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(atbash(\"abcdefghijklmnopqrstuvwxyz\"), \"zyxwvutsrqponmlkjihgfedcba\")\nTest.assertEquals(atbash(\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"), \"ZYXWVUTSRQPONMLKJIHGFEDCBA\")\nTest.assertEquals(atbash(\"The word 'atbash' derives from the the first and last 2 letters of the Hebrew alphabet.\"), \"Gsv dliw 'zgyzhs' wvirevh uiln gsv gsv urihg zmw ozhg 2 ovggvih lu gsv Svyivd zokszyvg.\")\nTest.assertEquals(atbash(\"Vmxibkgrlm zmw wvxibkgrlm ziv rwvmgrxzo uli gsv Zgyzhs xrksvi.\"),\"Encryption and decryption are identical for the Atbash cipher.\")",
+  "title": "Atbash Cipher"
+}

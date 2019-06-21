@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TfL5ffvWoEgsoRhuP",
+  "code": "function isCircular(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that determines if an array is </span><strong><span>circular</span></strong><span>. An array is </span><strong><span>circular</span></strong><span> if </span><strong><span>its subarrays can be reordered such that</span></strong><span> each subarray's last element is equal to the next subarray's first element.</span></p><p><span>For example, the array </span><code>[[1, 1, 1], [9, 2, 3, 4], [4, 1], [1, 2, 5, 7, 9]]</code><span> </span><strong><span>is circular</span></strong><span> because we can re-arrange the elements to create the following array:</span></p><pre><code>[[9, 2, 3, 4], [4, 1], [1, 1, 1], [1, 2, 5, 7, 9]]</code></pre><h3><span>Examples</span></h3><pre><code>isCircular([[9, 8], [6, 9, 1], [8, 4, 2], [1, 9], [2, 1, 6]]) \u279e true\n// Can be reordered: [[9, 8], [8, 4, 2], [2, 1, 6], [6, 9, 1], [1, 9]]\n\nisCircular([[1, 1], [1, 2]]) \u279e false\n\nisCircular([[2, 1], [1, 2]]) \u279e true\n\nisCircular([[2, 1], [1, 2], [2, 1], [1, 3, 1], [1, 4, 4]]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>In a circular re-ordering, the last subarray's last element must be identical to the first subarray's first element.</span></li><li><span>Subarrays will contain at least one element.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/TfL5ffvWoEgsoRhuP",
+  "tags": [
+    "arrays",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(isCircular([[9, 8], [6, 9, 1], [8, 4, 2], [1, 9], [2, 1, 6]]), true)\nTest.assertEquals(isCircular([[1, 2, 7], [7, 9, 3], [3], [3, 4], [4, 2, 1]]), true)\nTest.assertEquals(isCircular([[1, 2], [2, 3], [3, 4], [4, 5]]), false)\nTest.assertEquals(isCircular([[9, 9], [9, 2], [2, 9], [9, 5], [5, 9], [9, 6], [6, 9]]), true)\nTest.assertEquals(isCircular([[1, 2], [4, 1], [3, 4], [2, 3]]), true)\nTest.assertEquals(isCircular([[1, 1], [1, 2]]), false)\nTest.assertEquals(isCircular([[6, 7, 8, 9], [1, 2, 3, 4, 5, 6], [6, 6, 9], [9, 0, 1]]), false)\nTest.assertEquals(isCircular([[2, 1], [1, 2]]), true)\nTest.assertEquals(isCircular([[2, 1], [1, 2], [2, 1], [1, 3, 1], [1, 4, 4]]), false)",
+  "title": "Is the Array Circular?"
+}

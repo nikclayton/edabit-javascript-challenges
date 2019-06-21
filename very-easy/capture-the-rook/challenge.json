@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "H7cs3TS87sFX72mjF",
+  "code": "function canCapture([yourRook, opponentsRook]) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if two rooks can attack each other, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>canCapture([\"A8\", \"E8\"]) \u279e true\n\ncanCapture([\"A1\", \"B2\"]) \u279e false\n\ncanCapture([\"H4\", \"H3\"]) \u279e true\n\ncanCapture([\"F5\", \"C8\"]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Assume no blocking pieces.</span></li><li><span>Two rooks can attack each other if they share the same row (letter) or column (number).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/H7cs3TS87sFX72mjF",
+  "tags": [
+    "arrays",
+    "games",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canCapture(['A8', 'E8']), true)\nTest.assertEquals(canCapture(['A1', 'B2']), false)\nTest.assertEquals(canCapture(['H4', 'H3']), true)\nTest.assertEquals(canCapture(['F5', 'C8']), false)\nTest.assertEquals(canCapture(['G3', 'G7']), true)\nTest.assertEquals(canCapture(['B3', 'B2']), true)\nTest.assertEquals(canCapture(['F5', 'B2']), false)\nTest.assertEquals(canCapture(['H5', 'C8']), false)",
+  "title": "Capture the Rook"
+}

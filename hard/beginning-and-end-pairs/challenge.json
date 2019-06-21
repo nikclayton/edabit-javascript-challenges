@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "yoRh3uocRGRYgmqHJ",
+  "code": "function pairs(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that pairs the first number in an array with the last, the second number with the second to last, etc.</span></p><h3><span>Examples</span></h3><pre><code>pairs([1, 2, 3, 4, 5, 6, 7]) \u279e [[1, 7], [2, 6], [3, 5], [4, 4]]\n\npairs([1, 2, 3, 4, 5, 6]) \u279e [[1, 6], [2, 5], [3, 4]]\n\npairs([5, 9, 8, 1, 2]) \u279e [[5, 2], [9, 1], [8, 8]]\n\npairs([]) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>If the array has an </span><strong><span>odd length</span></strong><span>, repeat the middle element twice for the last pair.</span></li><li><span>Return an empty array if the input is an empty array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/yoRh3uocRGRYgmqHJ",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(pairs([1, 2, 3, 4, 5, 6, 7]), [[1, 7], [2, 6], [3, 5], [4, 4]])\nTest.assertSimilar(pairs([1, 2, 3, 4, 5, 6]), [[1, 6], [2, 5], [3, 4]])\nTest.assertSimilar(pairs([5, 9, 8, 1, 2]), [[5, 2], [9, 1], [8, 8]])\nTest.assertSimilar(pairs([5, 6, 7]), [[5, 7], [6, 6]])\nTest.assertSimilar(pairs([1, 1, 4, 4, 5, 5]), [[1, 5], [1, 5], [4, 4]])\nTest.assertSimilar(pairs([9, 9, 9, 9, 3, 3, 9]), [[9, 9], [9, 3], [9, 3], [9, 9]])\nTest.assertSimilar(pairs([5, 6]), [[5, 6]])\nTest.assertSimilar(pairs([5]), [[5, 5]])\nTest.assertSimilar(pairs([]), [])",
+  "title": "Beginning and End Pairs"
+}

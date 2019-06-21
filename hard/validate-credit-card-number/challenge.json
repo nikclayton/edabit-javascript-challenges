@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ceEEZioNmxuMJFMxi",
+  "code": "function validateCard(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns </span><code>true</code><span> if the number is a valid credit card number, </span><code>false</code><span> otherwise.</span></p><p><span>Credit card numbers must be between 14-19 digits in length, and pass the Luhn test, described below:</span></p><ol><li><span>Remove the last digit (this is the \"check digit\").</span></li><li><span>Reverse the number.</span></li><li><span>Double the value of each digit in odd-numbered positions. If the doubled value has more than 1 digit, add the digits together (e.g. 8 x 2 = 16  \u279e 1 + 6 = 7).</span></li><li><span>Add all digits.</span></li><li><span>Subtract the last digit of the sum (from step 4) from 10. The result should be equal to the check digit from step 1.</span></li></ol><h3><span>Examples</span></h3><pre><code>validateCard(1234567890123456) \u279e false\n\n// Step 1: check digit = 6, num = 123456789012345\n// Step 2: num reversed = 543210987654321\n// Step 3: digit array after selective doubling: [1, 4, 6, 2, 2, 0, 9, 8, 5, 6, 1, 4, 6, 2, 2]\n// Step 4: sum = 58\n// Step 5: 10 - 8 = 2 (not equal to 6) \u279e false\n\nvalidateCard(1234567890123452) \u279e true\n\n// Same as above, but check digit checks out.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/ceEEZioNmxuMJFMxi",
+  "tags": [
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(validateCard(79927398714), false)\nTest.assertEquals(validateCard(79927398713), false, 'Passes Luhn test, but too short.')\nTest.assertEquals(validateCard(709092739800713), true)\nTest.assertEquals(validateCard(1234567890123456), false)\nTest.assertEquals(validateCard(12345678901237), true)\nTest.assertEquals(validateCard(5496683867445267), true)\nTest.assertEquals(validateCard(4508793361140566), false)\nTest.assertEquals(validateCard(376785877526048), true)\nTest.assertEquals(validateCard(36717601781975), false)",
+  "title": "Validate Credit Card Number"
+}

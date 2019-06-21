@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ERmrS3QrK7sEt4PAt",
+  "code": "function lcm(n1, n2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>least common multiple (LCM)</span></strong><span> of two integers.</span></p><h3><span>Examples</span></h3><pre><code>lcm(9, 18) \u279e 18\n\nlcm(8, 5) \u279e 40\n\nlcm(17, 11) \u279e 187</code></pre><h3><span>Notes</span></h3><ul><li><span>Both values will be positive.</span></li><li><span>The </span><strong><span>LCM</span></strong><span> is the smallest integer that divides both numbers such that the remainder is zero.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ERmrS3QrK7sEt4PAt",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(lcm(9, 18), 18)\nTest.assertEquals(lcm(8, 5), 40)\nTest.assertEquals(lcm(17, 11), 187)\nTest.assertEquals(lcm(17, 5), 85)\nTest.assertEquals(lcm(3, 12), 12)\nTest.assertEquals(lcm(9, 9), 9)",
+  "title": "LCM of Two Numbers"
+}

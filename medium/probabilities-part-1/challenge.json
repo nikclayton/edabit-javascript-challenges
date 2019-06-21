@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "L98LmPEeY4LzpYF8i",
+  "code": "function probability(arr, num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Given an array of numbers and a value </span><em><span>n</span></em><span>, write a function that returns the probability of choosing a number greater than or equal to </span><em><span>n</span></em><span> from the array. The probability should be expressed as a percentage, rounded to one decimal place.</span></p><h3><span>Examples</span></h3><pre><code>probability([5, 1, 8, 9], 6) \u279e 50.0\n\nprobability([7, 4, 17, 14, 12, 3], 16) \u279e 16.7\n\nprobability([4, 6, 2, 9, 15, 18, 8, 2, 10, 8], 6) \u279e 70.0</code></pre><h3><span>Notes</span></h3><p><span>Probability of event = (num of favourable outcomes) / (total num of possible outcomes)</span></p>",
+  "source_url": "https://edabit.com/challenge/L98LmPEeY4LzpYF8i",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertEquals(probability([14, 19, 2, 6], 12), 50.0)\nTest.assertEquals(probability([11, 10, 9, 18, 16, 18, 4, 3, 5], 13), 33.3)\nTest.assertEquals(probability([2, 13, 1, 11, 6, 9, 11, 14, 3], 15), 0.0)\nTest.assertEquals(probability([11, 6, 17, 2, 1, 16, 20, 15], 7), 62.5)\nTest.assertEquals(probability([12, 15, 12, 8, 20, 16, 1], 1), 100.0)\nTest.assertEquals(probability([15, 8, 12, 1, 11, 4], 4), 83.3)\nTest.assertEquals(probability([14, 11, 16, 3, 13, 14, 3], 8), 71.4)\nTest.assertEquals(probability([1, 4, 18, 19, 15, 3, 3, 11], 23), 0.0)\nTest.assertEquals(probability([9, 8, 17, 13, 17], 8), 100.0)\nTest.assertEquals(probability([4, 6, 2, 9, 15, 18, 8, 2, 10, 8], 6), 70.0)\nTest.assertEquals(probability([15, 4, 6, 11, 11, 17, 9, 16, 7, 4, 5, 10], 12), 25.0)\nTest.assertEquals(probability([7, 1, 5, 7, 15, 15, 16, 14], 2), 87.5)\nTest.assertEquals(probability([11, 4, 6, 7, 14, 4, 4], 8), 28.6)\nTest.assertEquals(probability([10, 10, 3, 18, 14, 1, 2, 19, 17, 2, 4, 11, 18, 6, 3], 11), 40.0)",
+  "title": "Probabilities (Part 1)"
+}

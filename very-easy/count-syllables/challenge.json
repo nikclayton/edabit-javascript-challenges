@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "RPBqWjEa7iyo9p54F",
+  "code": "function numberSyllables(word) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that counts the number of syllables a word has. Each syllable is separated with a dash </span><code>-</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>numberSyllables(\"buf-fet\") \u279e 2\n\nnumberSyllables(\"beau-ti-ful\") \u279e 3\n\nnumberSyllables(\"mon-u-men-tal\") \u279e 4\n\nnumberSyllables(\"on-o-mat-o-poe-ia\") \u279e 6</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RPBqWjEa7iyo9p54F",
+  "tags": [
+    "language_fundamentals",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(numberSyllables(\"buf-fet\"), 2)\nTest.assertEquals(numberSyllables(\"beau-ti-ful\"), 3)\nTest.assertEquals(numberSyllables(\"mon-u-men-tal\"), 4)\nTest.assertEquals(numberSyllables(\"on-o-mat-o-poe-ia\"), 6)\nTest.assertEquals(numberSyllables(\"o-ver-ly\"), 3)\nTest.assertEquals(numberSyllables(\"pas-try\"), 2)\nTest.assertEquals(numberSyllables(\"flu-id\"), 2)\nTest.assertEquals(numberSyllables(\"syl-la-ble\"), 3)",
+  "title": "Count Syllables"
+}

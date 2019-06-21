@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "r5iWRGMmLpyreLKEf",
+  "code": "function numberOfDays(coordinate) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Captain Hook and his crew are currently resting at Origin Shore. They are about to embark on their next adventure to an undisclosed location </span><code>(x, y)</code><span> to find treasure.</span></p><p><span>Captain Hook's ship can only move exactly north, south, east or west. It takes exactly 1 day for the ship to travel 1 unit in one of the four cardinal directions.</span></p><p><span>After every 5 days, the crew will take one day of rest.</span></p><p><span>Given the location of the treasure, find out how long it takes for Captain Hook and his crew to find the treasure. The ship is currently at coordinate  </span><code>(0, 0)</code><span>.</span></p><pre><code>numberOfDays([3, 5]) =&gt; 9 days\n// Since: 3 days east + 2 days north (5 days passed) + 1 day of rest + 3 days north\n\nnumberOfDays([-4, -1]) =&gt; 5 days\n// Since 4 days west + 1 day south</code></pre><h3><span>Examples</span></h3><pre><code>numberOfDays([10, 10]) \u279e 23\n\nnumberOfDays([3, 3]) \u279e 7\n\nnumberOfDays([-10, -9]) \u279e 22\n\nnumberOfDays([-1, -2]) \u279e 3</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/r5iWRGMmLpyreLKEf",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(numberOfDays([10, 10]), 23);\nTest.assertEquals(numberOfDays([3, 3]), 7);\nTest.assertEquals(numberOfDays([-10, -9]), 22);\nTest.assertEquals(numberOfDays([-1, -4]), 5);\nTest.assertEquals(numberOfDays([-10, -2]), 14);\nTest.assertEquals(numberOfDays([3, 30]), 39);\nTest.assertEquals(numberOfDays([40, 1]), 49);\nTest.assertEquals(numberOfDays([3, 5]), 9);",
+  "title": "A Pirate's Tale"
+}

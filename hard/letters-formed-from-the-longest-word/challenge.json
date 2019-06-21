@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "D4KLn64XNGdrxR63Z",
+  "code": "function canForm(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if all the strings in an array can be formed by using only the characters from the longest string.</span></p><h3><span>Examples</span></h3><pre><code>canForm([\"mast\", \"manifest\", \"met\", \"fan\"]) \u279e true\n\ncanForm([\"may\", \"master\", \"same\", \"reams\"]) \u279e false\n\ncanForm([\"may\", \"same\", \"reams\", \"mastery\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>There will only be one unique longest string.</span></p>",
+  "source_url": "https://edabit.com/challenge/D4KLn64XNGdrxR63Z",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canForm([\"mast\", \"manifest\", \"met\", \"fan\"]), true)\nTest.assertEquals(canForm([\"may\", \"master\", \"same\", \"reams\"]), false)\nTest.assertEquals(canForm([\"may\", \"same\", \"reams\", \"mastery\"]), true)\nTest.assertEquals(canForm([\"kerfuffle\", \"fluke\", \"fluff\", \"ruffle\", ]), true)\nTest.assertEquals(canForm([\"monument\", \"momento\", \"moment\", \"tome\"]), false)\nTest.assertEquals(canForm([\"shape\", \"shapers\", \"raps\", \"saps\"]), true)",
+  "title": "Letters Formed from the Longest Word"
+}

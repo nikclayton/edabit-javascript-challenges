@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Qoqaohvgh4Mi3bpjj",
+  "code": "function percentageHappy(numbers) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are given an array of </span><code>0</code><span>s and </span><code>1</code><span>s, like the one below:</span></p><pre><code>[0, 1, 0, 0, 0, 1, 1, 1, 0, 1]\n\n// The first element, a 0, and the last element, a 1 are both unhappy.\n// The second element, a 1 is unhappy.\n// The second-to-last element, a 0 is unhappy.\n// All other numbers in this array are happy.</code></pre><p><span>A </span><code>1</code><span> is </span><strong><span>unhappy</span></strong><span> if the digit to its left and the digit to its right are both 0s.\nA </span><code>0</code><span> is </span><strong><span>unhappy</span></strong><span> if the digit to its left and the digit to its right are both 1s. \nIf a number has only one neighbor, it is </span><strong><span>unhappy</span></strong><span> if its only neighbor is different. \nOtherwise, a number is </span><strong><span>happy</span></strong><span>.</span></p><p><span>Write a function that takes in an array of </span><code>0</code><span>s and </span><code>1</code><span>s and outputs the </span><strong><span>percentage of numbers which are happy</span></strong><span>. The total percentage of numbers which are happy can be represented as:</span></p><pre><code>% of happy 0s = (# happy 0s + # unhappy 0s) / # total 0s\n% of happy 1s = (# happy 1s + # unhappy 1s) / # total 1s\npercentage of happy numbers = (% of happy 0s + % of happy 1s) / 2</code></pre><p><span>In the example above, </span><code>0.6</code><span> is the number of happy numbers.</span></p><h3><span>Examples</span></h3><pre><code>percentageHappy([0, 1, 0, 1, 0]) \u279e 0\n\npercentageHappy([0, 1, 1, 0]) \u279e 0.5\n\npercentageHappy([0, 0, 0, 1, 1]) \u279e 1\n\npercentageHappy([1, 0, 0, 1, 1]) \u279e 0.8</code></pre><h3><span>Notes</span></h3><ul><li><span>Remember: a </span><code>0</code><span> border number is unhappy if its only neighbor is a </span><code>1</code><span> and vice versa.</span></li><li><span>An array will contain at least two elements.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Qoqaohvgh4Mi3bpjj",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(percentageHappy([0, 1, 0, 1, 0]), 0)\nTest.assertEquals(percentageHappy([0, 1, 1, 0]), 0.5)\nTest.assertEquals(percentageHappy([0, 0, 0, 1, 1]), 1)\nTest.assertEquals(percentageHappy([1, 0, 0, 1, 1]), 0.8)\nTest.assertEquals(percentageHappy([1, 1, 1, 1, 1]), 1)\nTest.assertEquals(percentageHappy([1, 1, 0, 0, 1, 1]), 1)\nTest.assertEquals(percentageHappy([1, 1, 0, 0, 0, 1, 1]), 1)\nTest.assertEquals(percentageHappy([1, 0, 0, 0, 1]), 0.6)\nTest.assertEquals(percentageHappy([1, 0, 1, 0, 0, 0]), 0.5)\nTest.assertEquals(percentageHappy([1, 1]), 1)\nTest.assertEquals(percentageHappy([1, 0]), 0)",
+  "title": "Happy Numbers"
+}

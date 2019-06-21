@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "3jZyJTfsXTXXwAQkA",
+  "code": "// Fix this broken code!\nfunction checkEquals(arr1, arr2) {\n  if (arr1 === arr2) {\n    return true \n  } else {\n    return false\n  }\n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if two arrays contain identical values, and </span><code>false</code><span> otherwise.</span></p><p><span>To solve this question, your friend writes the following code:</span></p><pre><code>function checkEquals(arr1, arr2) {\nif (arr1 === arr2) {\n  return true\n } else {\n  return false\n }\n}</code></pre><p><span>But testing the code, you see that something is not quite right.\nRunning the code yields the following results:</span></p><pre><code>checkEquals([1, 2], [1, 3]) \u279e false\n// Good so far...\n\ncheckEquals([1, 2], [1, 2]) \u279e false\n// Yikes! What happened?</code></pre><p><span>Rewrite your friend's code so that it correctly checks if two arrays are equal. The tests below should pass:</span></p><h3><span>Examples</span></h3><pre><code>checkEquals([1, 2], [1, 3]) \u279e false\n\ncheckEquals([1, 2], [1, 2]) \u279e true\n\ncheckEquals([4, 5, 6], [4, 5, 6]) \u279e true\n\ncheckEquals([4, 7, 6], [4, 5, 6]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Hint: This has to do with </span><strong><span>value</span></strong><span> vs. </span><strong><span>reference types</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/3jZyJTfsXTXXwAQkA",
+  "tags": [
+    "bugs",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(checkEquals([1, 2], [1, 3]), false)\nTest.assertEquals(checkEquals([1, 2], [1, 2]), true)\nTest.assertEquals(checkEquals([4, 5, 6], [4, 5, 6]), true)\nTest.assertEquals(checkEquals([4, 7, 6], [4, 5, 6]), false)",
+  "title": "Fix the Error: Value vs. Reference Types"
+}

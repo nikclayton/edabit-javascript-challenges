@@ -1,8 +1,6 @@
 const getAbsSum = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(getAbsSum([2, -1, -3, 4, 8])).toEqual(18);
         expect(getAbsSum([-1])).toEqual(1);

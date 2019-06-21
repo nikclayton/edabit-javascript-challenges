@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aJzvBZgp8nzwSk94A",
+  "code": "function divisible(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if the </span><strong><span>product</span></strong><span> of an array is divisible by the </span><strong><span>sum</span></strong><span> of that same array.</span></p><h3><span>Examples</span></h3><pre><code>divisible[3, 2, 4, 2] \u279e false\n\ndivisible[4, 2, 6] \u279e true\n\ndivisible[3, 5, 1] \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/aJzvBZgp8nzwSk94A",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(divisible([3, 2, 4, 1]), false)\nTest.assertEquals(divisible([4, 4, 4, 4]), true)\nTest.assertEquals(divisible([4, 2, 6]), true)\nTest.assertEquals(divisible([1, 1, 1, 1, 10]), false)\nTest.assertEquals(divisible([10, 5, 10]), true)\nTest.assertEquals(divisible([3, 5, 1]), false)",
+  "title": "Product Divisible By Sum?"
+}

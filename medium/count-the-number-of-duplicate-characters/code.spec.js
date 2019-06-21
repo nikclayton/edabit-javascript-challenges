@@ -1,7 +1,9 @@
 const duplicateCount = require('./code');
 
 describe('Tests', () => {
-    
+    test('Duplicate characters are case sensitive.', () => {
+        expect(duplicateCount('Aa')).toEqual(0);
+    });
     
     test('the tests', () => {
         expect(duplicateCount('abcde')).toEqual(0);

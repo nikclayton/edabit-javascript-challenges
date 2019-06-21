@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "c59r7jg89K9vvJ9Zh",
+  "code": "function stringFactor(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given the complete factorization of a number, create a function that converts this array of factors to a string.</span></p><p><span>To illustrate: 24's complete factorization is </span><code>[2, 2, 2, 3]</code><span>, which should be converted to </span><code>\"2^3 x 3\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>stringFactor([2, 2, 2, 3, 3]) \u279e\"2^3 x 3^2\"\n\nstringFactor([2, 7]) \u279e\"2 x 7\"\n\nstringFactor([2, 3, 3]) \u279e\"2 x 3^2\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Factors should be joined with </span><code>x</code><span> (multiplication sign).</span></li><li><span>Multiple instances of the same factor should be exponentiated.</span></li><li><span>Factors raised to the 1 power should be left as is, i.e. write </span><code>7</code><span> instead of </span><code>7^1</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/c59r7jg89K9vvJ9Zh",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(stringFactor([2, 2, 2, 3, 3]), \"2^3 x 3^2\")\nTest.assertEquals(stringFactor([2, 7]), \"2 x 7\")\nTest.assertEquals(stringFactor([2, 3, 3]), \"2 x 3^2\")\nTest.assertEquals(stringFactor([2, 2, 2, 2, 2]), \"2^5\")\nTest.assertEquals(stringFactor([2, 3, 7]), \"2 x 3 x 7\")\nTest.assertEquals(stringFactor([2, 2, 7, 11]), \"2^2 x 7 x 11\")\nTest.assertEquals(stringFactor([11, 11, 11]), \"11^3\")",
+  "title": "String Factoring"
+}

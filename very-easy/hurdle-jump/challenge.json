@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Hp9FitGXpKqdCW6Fd",
+  "code": "function hurdleJump(hurdles, jumpHeight) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an array of hurdle heights and a jumper's jump height, and determine whether or not the hurdler can clear all the hurdles.</span></p><p><span>A hurdler can clear a hurdle if their jump height is </span><strong><span>greater than or equal to</span></strong><span> the hurdle height.</span></p><h3><span>Examples</span></h3><pre><code>hurdleJump([1, 2, 3, 4, 5], 5) \u279e true\n\nhurdleJump([5, 5, 3, 4, 5], 3) \u279e false\n\nhurdleJump([5, 4, 5, 6], 10) \u279e true\n\nhurdleJump([1, 2, 1], 1) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Return </span><code>true</code><span> for the edge case of an empty array of hurdles. (Zero hurdles means that any jump height can clear them).</span></p>",
+  "source_url": "https://edabit.com/challenge/Hp9FitGXpKqdCW6Fd",
+  "tags": [
+    "arrays",
+    "conditions",
+    "control_flow"
+  ],
+  "tests": "Test.assertEquals(hurdleJump([1, 2, 3, 4, 5], 5), true)\nTest.assertEquals(hurdleJump([5, 5, 3, 4, 5], 3), false)\nTest.assertEquals(hurdleJump([5, 4, 5, 6], 10), true)\nTest.assertEquals(hurdleJump([1,2,1], 1), false)\nTest.assertEquals(hurdleJump([3,3,3], 4), true)\nTest.assertEquals(hurdleJump([4,4], 3), false)\nTest.assertEquals(hurdleJump([], 4), true)",
+  "title": "Hurdle Jump"
+}

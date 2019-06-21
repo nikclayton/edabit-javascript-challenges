@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "EfC7rRKdAt8ugcCCT",
+  "code": "function isWordChain(words) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>word-chain</span></strong><span> is an array of words, where the next word is formed by changing </span><strong><span>exactly one letter</span></strong><span> from the previous word. We do not add or subtract letters from words, only change them.</span></p><p><span>Create a function that returns </span><code>true</code><span> if an array is a </span><strong><span>word-chain</span></strong><span> and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isWordChain([\"meal\", \"seal\", \"seat\", \"beat\", \"beet\"]) \u279e true\n// Change \"m\" in \"meal\" to get \"seal\", \"l\" to get \"seat\", etc.\n\nisWordChain([\"red\", \"bed\", \"bet\", \"bat\", \"sat\"]) \u279e true\n\nisWordChain([\"red\", \"bat\", \"cat\", \"sat\"]) \u279e false\n// Do not change more than one letter (\"red\" and \"bat\").\n\nisWordChain([\"read\", \"red\", \"led\", \"lad\", \"lady\"]) \u279e false\n// Do not add or subtract letters.</code></pre><h3><span>Notes</span></h3><ul><li><span>Each word in a </span><strong><span>word chain</span></strong><span> has equal length.</span></li><li><span>All words will be in lower case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/EfC7rRKdAt8ugcCCT",
+  "tags": [
+    "arrays",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isWordChain(['meal', 'seal', 'seat', 'beat', 'beet']), true)\nTest.assertEquals(isWordChain(['red', 'bed', 'bet', 'bat', 'sat']), true)\nTest.assertEquals(isWordChain(['heady', 'ready', 'beady', 'beads', 'meads', 'meats', 'seats', 'feats']), true)\nTest.assertEquals(isWordChain(['score', 'scare', 'stare', 'spare', 'spire']), true)\nTest.assertEquals(isWordChain(['more', 'mire', 'dire', 'dare', 'date']), true)\nTest.assertEquals(isWordChain(['read', 'red', 'led', 'lad', 'lady']), false)\nTest.assertEquals(isWordChain(['red', 'bat', 'cat', 'sat']), false)\nTest.assertEquals(isWordChain(['candy', 'candies', 'fat', 'rat']), false)",
+  "title": "Word Chain"
+}

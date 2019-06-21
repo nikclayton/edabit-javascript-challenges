@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "4zCJaqJvEcAmqcb7y",
+  "code": "function reorderDigits(arr, direction) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that reorders the digits of each numerical element in an array based on ascending (</span><code>asc</code><span>) or descending (</span><code>desc</code><span>) order.</span></p><h3><span>Examples</span></h3><pre><code>reorderDigits([515, 341, 98, 44, 211], \"asc\") \u279e [155, 134, 89, 44, 112]\n\nreorderDigits([515, 341, 98, 44, 211], \"desc\") \u279e [551, 431, 98, 44, 211]\n\nreorderDigits([63251, 78221], \"asc\") \u279e [12356, 12278]\n\nreorderDigits([63251, 78221], \"desc\") \u279e [65321, 87221]\n\nreorderDigits([1, 2, 3, 4], \"asc\")  \u279e [1, 2, 3, 4]\n\nreorderDigits([1, 2, 3, 4], \"desc\") \u279e [1, 2, 3, 4]</code></pre><h3><span>Notes</span></h3><ul><li><span>Single-digit numbers should be ordered the same regardless of direction.</span></li><li><span>Numbers in the array should be kept the same order.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/4zCJaqJvEcAmqcb7y",
+  "tags": [
+    "arrays",
+    "functional_programming",
+    "higher_order_functions",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(reorderDigits([515, 341, 98, 44, 211], 'asc'), [155, 134, 89, 44, 112])\nTest.assertSimilar(reorderDigits([515, 341, 98, 44, 211], 'desc'), [551, 431, 98, 44, 211])\n\nTest.assertSimilar(reorderDigits([63251, 78221], 'asc'), [12356, 12278])\nTest.assertSimilar(reorderDigits([63251, 78221], 'desc'), [65321, 87221])\n\nTest.assertSimilar(reorderDigits([1, 2, 3, 4], 'asc'), [1, 2, 3, 4])\nTest.assertSimilar(reorderDigits([1, 2, 3, 4], 'desc'), [1, 2, 3, 4])\n\nTest.assertSimilar(reorderDigits([12, 21, 15, 51], 'asc'), [12, 12, 15, 15])\nTest.assertSimilar(reorderDigits([12, 21, 15, 51], 'desc'), [21, 21, 51, 51])",
+  "title": "Reorder Digits"
+}

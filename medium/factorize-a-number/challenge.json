@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "zLYbAPk8NMnwoPhjG",
+  "code": "function factorize(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a number as its argument and returns an array of all its factors.</span></p><h3><span>Examples</span></h3><pre><code>factorize(12) \u279e [1, 2, 3, 4, 6, 12]\n\nfactorize(4) \u279e [1, 2, 4]\n\nfactorize(17) \u279e [1, 17]</code></pre><h3><span>Notes</span></h3><ul><li><span>The input integer will be positive.</span></li><li><span>A factor is a number that evenly divides into another number without leaving a remainder. The second example is a factor of 12, because 12 / 2 = 6, with remainder 0.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/zLYbAPk8NMnwoPhjG",
+  "tags": [
+    "control_flow",
+    "loops",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(factorize(12), [1, 2, 3, 4, 6, 12])\nTest.assertSimilar(factorize(4), [1, 2, 4])\nTest.assertSimilar(factorize(17), [1, 17])\nTest.assertSimilar(factorize(24), [1, 2, 3, 4, 6, 8, 12, 24])\nTest.assertSimilar(factorize(1), [1])",
+  "title": "Factorize a Number"
+}

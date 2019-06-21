@@ -1,8 +1,6 @@
 const isPrime = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isPrime(1)).toEqual(false);
         expect(isPrime(2)).toEqual(true);

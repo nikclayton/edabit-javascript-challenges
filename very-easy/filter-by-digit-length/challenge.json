@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "RXNybvGHLuvFiWKvq",
+  "code": "function filterDigitLength(arr, num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that filters out an array to include numbers who only have a certain number of digits.</span></p><h3><span>Examples</span></h3><pre><code>filterDigitLength([88, 232, 4, 9721, 555], 3) \u279e [232, 555]\n// Include only numbers with 3 digits.\n\nfilterDigitLength([2, 7, 8, 9, 1012], 1) \u279e [2, 7, 8, 9]\n// Include only numbers with 1 digit.\n\nfilterDigitLength([32, 88, 74, 91, 300, 4050], 1) \u279e []\n// No numbers with only 1 digit exist =&gt; return empty array.\n\nfilterDigitLength([5, 6, 8, 9], 1) \u279e [5, 6, 8, 9]\n// All numbers in the array have 1 digit only =&gt; return original array.</code></pre><h3><span>Notes</span></h3><ul><li><span>If no numbers of the specified digit length exist, return an empty array.</span></li><li><span>If all numbers in the array have the specified digit length, return original array.</span></li><li><span>The sub-array returned should have the same relative order as the original array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RXNybvGHLuvFiWKvq",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(filterDigitLength([88, 232, 4, 9721, 555], 3), [232, 555])\nTest.assertSimilar(filterDigitLength([2, 7, 8, 9, 1012], 1), [2, 7, 8, 9])\nTest.assertSimilar(filterDigitLength([32, 88, 74, 91, 300, 4050], 1), [], 'Should return empty array if no numbers of specified length exist.')\nTest.assertSimilar(filterDigitLength([5, 6, 8, 9], 1), [5, 6, 8, 9], 'Should return original array if every digit is that length.')\nTest.assertSimilar(filterDigitLength([99, 838, 435, 7666, 989, 431], 3), [838, 435, 989, 431])\nTest.assertSimilar(filterDigitLength([99, 838, 435, 7666, 989, 431], 2), [99])",
+  "title": "Filter by Digit Length"
+}

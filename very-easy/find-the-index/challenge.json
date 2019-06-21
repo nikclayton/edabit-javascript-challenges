@@ -10,6 +10,6 @@
     "arrays",
     "numbers"
   ],
-  "tests": "Test.assertEquals(find_index(['abc', 'ghj', 'banana', 'grape'], 'grape'), 3);\nTest.assertEquals(find_index(['a', 'b', 'c', 'd', 'e', 'f'], 'f'), 5);\nTest.assertEquals(find_index(['hi', 'edabit.com', 'testcase', 'validstring'], 'edabit.com'), 1);",
+  "tests": "Test.assertEquals(find_index(['abc', 'ghj', 'banana', 'grape'], 'grape'), 3)\nTest.assertEquals(find_index(['a', 'b', 'c', 'd', 'e', 'f'], 'f'), 5)\nTest.assertEquals(find_index(['hi', 'edabit.com', 'testcase', 'validstring'], 'edabit.com'), 1)",
   "title": "Find the Index"
 }

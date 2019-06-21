@@ -4,7 +4,7 @@
   "challenge_id": "yLqEK5hZ8SGYe5TNR",
   "code": "function mangled(str) {\n  \n}",
   "difficulty": "Hard",
-  "instructions": "<p><span>Create a function that takes a string and replaces every letter with the letter following it in the alphabet (\"c\" becomes \"d\", \"z\" becomes \"a\", \"b\" becomes \"c\", etc). Then capitalize every vowel (a, e, i, o, u) and return the new modified string.</span></p><h3><span>Rules</span></h3><ul><li><span>Replace every letter with the letter following it in the alphabet.</span></li><li><span>Capitalize every vowel.</span></li><li><span>\"y\" is not considered a vowel.</span></li></ul><h3><span>Examples</span></h3><pre><code>mangled(\"Fun times!\") \u279e \"GvO Ujnft!\"\n\nmangled(\"The quick brown fox.\") \u279e \"UIf rvjdl cspxO gpy.\"\n\nmangled(\"Omega\") \u279e \"Pnfhb\"</code></pre><h3><span>Notes</span></h3><ul><li><span>\"y\" is not considered a vowel.</span></li><li><span>All test cases contain valid strings.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes a string and replaces every letter with the letter following it in the alphabet (\"c\" becomes \"d\", \"z\" becomes \"a\", \"b\" becomes \"c\", etc). Then capitalize every vowel (a, e, i, o, u) and return the new modified string.</span></p><h3><span>Examples</span></h3><pre><code>mangled(\"Fun times!\") \u279e \"GvO Ujnft!\"\n\nmangled(\"The quick brown fox.\") \u279e \"UIf rvjdl cspxO gpy.\"\n\nmangled(\"Omega\") \u279e \"Pnfhb\"</code></pre><h3><span>Notes</span></h3><ul><li><span>\"y\" is not considered a vowel.</span></li><li><span>All test cases contain valid strings.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/yLqEK5hZ8SGYe5TNR",
   "tags": [
     "formatting",

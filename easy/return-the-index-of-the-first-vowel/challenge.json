@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ppBDRwSoqZYcR95Aq",
+  "code": "function firstVowel(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns the index of the first vowel in a string.</span></p><h3><span>Examples</span></h3><pre><code>firstVowel(\"apple\") \u279e 0\n\nfirstVowel(\"hello\") \u279e 1\n\nfirstVowel(\"STRAWBERRY\") \u279e 3\n\nfirstVowel(\"pInEaPPLe\") \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>Inputs will be single words.</span></li><li><span>Characters in words will be upper or lower case.</span></li><li><span>\"y\" is not considered a vowel.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ppBDRwSoqZYcR95Aq",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(firstVowel(\"hello\"), 1)\nTest.assertEquals(firstVowel(\"apple\"), 0)\nTest.assertEquals(firstVowel(\"string\"), 3)\nTest.assertEquals(firstVowel(\"STRAWBERRY\"), 3)\nTest.assertEquals(firstVowel(\"MELON\"), 1)\nTest.assertEquals(firstVowel(\"piNNEaPLE\"), 1)",
+  "title": "Return the Index of the First Vowel"
+}

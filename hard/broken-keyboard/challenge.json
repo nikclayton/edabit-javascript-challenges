@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "pbK3wzLDvdwfEKgMt",
+  "code": "function findBrokenKeys(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given what is supposed to be typed and what is actually typed, write a function that returns the broken key(s). The function looks like:</span></p><pre><code>findBrokenKeys(correct phrase, what you actually typed)</code></pre><h3><span>Examples</span></h3><pre><code>findBrokenKeys(\"happy birthday\", \"hawwy birthday\") \u279e [\"p\"]\n\nfindBrokenKeys(\"starry night\", \"starrq light\") \u279e [\"y\", \"n\"]\n\nfindBrokenKeys(\"beethoven\", \"affthoif5\") \u279e [\"b\", \"e\", \"v\", \"n\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Broken keys should be ordered by when they first appear in the sentence.</span></li><li><span>Only one broken key per letter should be listed.</span></li><li><span>Letters will all be in lower case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/pbK3wzLDvdwfEKgMt",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(findBrokenKeys(\"happy birthday\", \"hawwy birthday\"), [\"p\"])\nTest.assertSimilar(findBrokenKeys(\"starry night\", \"starrq light\"), [\"y\", \"n\"])\nTest.assertSimilar(findBrokenKeys(\"beethoven\", \"affthoif5\"), [\"b\", \"e\", \"v\", \"n\"])\nTest.assertSimilar(findBrokenKeys(\"mozart\", \"aiwgvx\"), [\"m\", \"o\", \"z\", \"a\", \"r\", \"t\"])\nTest.assertSimilar(findBrokenKeys(\"5678\", \"4678\"), [\"5\"], \"It should work for numbers.\")\nTest.assertSimilar(findBrokenKeys(\"!!??$$\", \"$$!!??\"), [\"!\", \"?\", \"$\"], \"It should work for punctuation.\")",
+  "title": "Broken Keyboard"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KsbT9c2zf7jczanTt",
+  "code": "function palindromeSet(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Strings can be segregated into both their letter and digit components.</span></p><ol><li><span>A </span><strong><span>double palindrome</span></strong><span> is when a string's letter component and digit component are both palindromes.</span></li><li><span>A </span><strong><span>single-palindrome</span></strong><span> is when either (but </span><strong><span>not both</span></strong><span>) the letter component or the digit component are palindromes.</span></li></ol><p><span>To illustrate:</span></p><pre><code>\"cab97ac79\" // double-palindrome\n// \"cabac\" and \"9779\" are both palindromes.\n\n\"1abc4de1\" // single-palindrome\n// \"141\" is a palindrome.</code></pre><p><span>Write a function that maps </span><strong><span>double palindromes</span></strong><span> to the number </span><strong><span>2</span></strong><span>, </span><strong><span>single palindromes</span></strong><span> to the number </span><strong><span>1</span></strong><span>, and everything else to the number </span><strong><span>0</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>palindromeSet([\"cb77c\", \"ccc888\", \"ccc789\", \"abc89\"]) \u279e [2, 2, 1, 0]\n\npalindromeSet([\"789\", \"555\", \"ccc\", \"abba\"]) \u279e [0, 1, 1, 1]\n\npalindromeSet([\"7a\", \"5f\", \"6c\"]) \u279e [2, 2, 2]</code></pre><h3><span>Notes</span></h3><ul><li><span>A string is composed of only letters or only numbers, can be at most a single palindrome (see example #2).</span></li><li><span>All single character components are trivially palindromes (see example #3).</span></li><li><span>All letters will be lower cased.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/KsbT9c2zf7jczanTt",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(palindromeSet([\"cb77c\", \"ccc888\", \"ccc789\", \"abc89\"]), [2, 2, 1, 0])\nTest.assertSimilar(palindromeSet([\"18a99b89cc881ba\", \"p7o8p987\", \"p7o\", \"p7o8\"]), [1, 2, 1, 0])\nTest.assertSimilar(palindromeSet([\"ab9a\", \"abba\", \"aa78bb8bbaa7\", \"a88a\"]), [2, 1, 2, 2])\nTest.assertSimilar(palindromeSet([\"789\", \"555\", \"ccc\", \"abba\"]), [0, 1, 1, 1])\nTest.assertSimilar(palindromeSet([\"7a\", \"5f\", \"6c\"]), [2, 2, 2])\nTest.assertSimilar(palindromeSet([\"7ab\", \"5fc\", \"6cd\"]), [1, 1, 1])\nTest.assertSimilar(palindromeSet([\"87ab\", \"15fc\", \"26cd\"]), [0, 0, 0])\nTest.assertSimilar(palindromeSet([\"1234ab\", \"144a441\"]), [0, 2])\nTest.assertSimilar(palindromeSet([\"\"]), [0])",
+  "title": "Double Palindromes"
+}

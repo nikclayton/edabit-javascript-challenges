@@ -1,8 +1,6 @@
 const wurstIsBetter = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(wurstIsBetter('Sausage fests are like salami fests')).toEqual('Wurst fests are like Wurst fests');
         expect(wurstIsBetter('Add the kielbasa and the reserved potatoes and stir through')).toEqual('Add the Wurst and the reserved potatoes and stir through');

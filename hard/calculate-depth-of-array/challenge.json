@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "JJtafXGmNegpQMp6p",
+  "code": "function depth(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given an array, write a function to calculate it's depth. Assume that a normal array has a depth of 1.</span></p><h3><span>Examples</span></h3><pre><code>depth([1, 2, 3, 4]) \u279e 1\n\ndepth([1, [2, 3, 4]]) \u279e 2\n\ndepth([1, [2, [3, 4]]]) \u279e 3\n\ndepth([1, [2, [3, [4]]]]) \u279e 4</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/JJtafXGmNegpQMp6p",
+  "tags": [
+    "arrays",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(depth([1, 2, 3, 4]), 1)\nTest.assertEquals(depth([1, [2, 3, 4]]), 2)\nTest.assertEquals(depth([1, [2, [3, 4]]]), 3)\nTest.assertEquals(depth([1, [2, [3, [4]]]]), 4)\n\nTest.assertEquals(depth([1, [2, [3, [4]]], 4]), 4)\nTest.assertEquals(depth([1, [2], 3, [4], 5, [6]]), 2)\nTest.assertEquals(depth([1, 2, 3, 4, [[5]], [6], 7]), 3)",
+  "title": "Calculate Depth of Array"
+}

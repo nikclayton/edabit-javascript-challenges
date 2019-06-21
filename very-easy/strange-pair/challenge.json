@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WBdjg7zgiqi6L5zsL",
+  "code": "function isStrangePair(str1, str2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>A pair of strings form a </span><strong><span>strange pair</span></strong><span> if:</span></p><ul><li><span>1st string's </span><strong><span>first</span></strong><span> letter = 2nd string's </span><strong><span>last</span></strong><span> letter.</span></li><li><span>1st string's </span><strong><span>last</span></strong><span> letter = 2nd string's </span><strong><span>first</span></strong><span> letter.</span></li></ul><p><span>Create a function that returns </span><code>true</code><span> if a pair of strings constitutes a </span><strong><span>strange pair</span></strong><span>, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isStrangePair(\"ratio\", \"orator\") \u279e true\n\n// \"ratio\" ends with \"o\" and \"orator\" starts with \"o\".\n// \"ratio\" starts with \"r\" and \"orator\" ends with \"r\".\n\nisStrangePair(\"sparkling\", \"groups\") \u279e true\n\nisStrangePair(\"bush\", \"hubris\") \u279e false\n\nisStrangePair(\"\", \"\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>It should work on a pair of empty strings (they trivially share nothing).</span></p>",
+  "source_url": "https://edabit.com/challenge/WBdjg7zgiqi6L5zsL",
+  "tags": [
+    "language_fundamentals",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isStrangePair(\"ratio\", \"orator\"), true)\nTest.assertEquals(isStrangePair(\"sparkling\", \"groups\"), true)\nTest.assertEquals(isStrangePair(\"mentee\", \"eminem\"), true)\nTest.assertEquals(isStrangePair(\"yahtzee\", \"easy\"), true)\nTest.assertEquals(isStrangePair(\"bush\", \"hubris\"), false)\nTest.assertEquals(isStrangePair(\"edit\", \"cheese\"), false)\nTest.assertEquals(isStrangePair(\"false\", \"true\"), false)\nTest.assertEquals(isStrangePair(\"cupid\", \"dionysus\"), false)\nTest.assertEquals(isStrangePair(\"futile\", \"elephant\"), false)\nTest.assertEquals(isStrangePair(\"\", \"\"), true)\nTest.assertEquals(isStrangePair(\"\", \"abc\"), false)\nTest.assertEquals(isStrangePair(\"a\", \"a\"), true)\nTest.assertEquals(isStrangePair(\"a\", \"b\"), false)\nTest.assertEquals(isStrangePair(\"&\", \"&\"), true)\nTest.assertEquals(isStrangePair(\"&!\", \"!&\"), true)\nTest.assertEquals(isStrangePair(\"5556\", \"65\"), true)",
+  "title": "Strange Pair"
+}

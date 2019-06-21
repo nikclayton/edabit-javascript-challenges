@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "eaf8EaFRPwKNGqwZF",
+  "code": "function howBad(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A positive number's population is the number of 1s in its binary representation. An </span><em><span>evil</span></em><span> number has an even numbered population, whereas an </span><em><span>odious</span></em><span> number has an odd numbered population. Moreover, a number is </span><em><span>pernicious</span></em><span> if its population is a prime number.</span></p><p><span>Create a function that takes a number as an argument and returns a sorted array of all its descriptors (\"Evil\", \"Odious\", or \"Pernicious\").</span></p><h3><span>Examples</span></h3><pre><code>howBad(7) \u279e [\"Odious\", \"Pernicious\"]\n// binary = 111\n\nhowBad(17) \u279e [\"Evil\", \"Pernicious\"]\n// binary = 10001\n\nhowBad(23) \u279e [\"Evil\"]\n// binary = 10111</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/eaf8EaFRPwKNGqwZF",
+  "tags": [
+    "conditions",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertSimilar(howBad(7), ['Odious','Pernicious'])\nTest.assertSimilar(howBad(97), ['Odious','Pernicious'])\nTest.assertSimilar(howBad(66), ['Evil','Pernicious'])\nTest.assertSimilar(howBad(77), ['Evil'])\nTest.assertSimilar(howBad(128), ['Odious'])\nTest.assertSimilar(howBad(666), ['Odious','Pernicious'], \"666 is not evil after all!\")\nTest.assertSimilar(howBad(987654321), ['Odious','Pernicious'])\nTest.assertSimilar(howBad(98765), ['Evil'])",
+  "title": "No Good Numbers"
+}

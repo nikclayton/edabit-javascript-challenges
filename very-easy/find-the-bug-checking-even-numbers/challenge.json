@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bcM99TYJmRv5JnZaA",
+  "code": "// Fix this incorrect code!\nfunction checkAllEven(arr) {\n  return arr.every(x % 2 === 0)\n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes in an array and returns </span><code>true</code><span> if all its values are even, and </span><code>false</code><span> otherwise.</span></p><p><span>Not a big deal, your friend says. He writes the following code:</span></p><pre><code>function checkAllEven(arr) {\n  return arr.every(x % 2 === 0)\n}</code></pre><p><span>The code above leads to a </span><code>Reference Error</code><span>, with </span><code>x</code><span> being undefined. Fix the code above so that all tests pass:</span></p><h3><span>Examples</span></h3><pre><code>checkAllEven([1, 2, 3, 4]) \u279e false\n\ncheckAllEven([2, 4, 6]) \u279e true\n\ncheckAllEven([5, 6, 8, 10]) \u279e false\n\ncheckAllEven([-2, 2, -2, 2]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>For help, check </span><strong><span>Resources</span></strong><span> or ask a question in the </span><strong><span>Comments</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/bcM99TYJmRv5JnZaA",
+  "tags": [
+    "arrays",
+    "bugs",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(checkAllEven([1, 2, 3, 4]), false)\nTest.assertEquals(checkAllEven([2, 4, 6]), true)\nTest.assertEquals(checkAllEven([5, 6, 8, 10]), false)\nTest.assertEquals(checkAllEven([-2, 2, -2, 2]), true)",
+  "title": "Find the Bug: Checking Even Numbers"
+}

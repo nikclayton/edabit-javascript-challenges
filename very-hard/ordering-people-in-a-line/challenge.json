@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "cN9jtK2jdAGmFKqDt",
+  "code": "function orderPeople(arr, people) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes in the size of the line and the number of people waiting and places people in an </span><em><span>S-shape</span></em><span> ordering. The demonstration below will make it clear:</span></p><pre><code>// Ordering numbers 1-15 in a [5,3] space.\n\norderPeople([5, 3], 15) \u279e [\n  [1, 2, 3],\n  [6, 5, 4],\n  [7, 8, 9],\n  [12, 11, 10],\n  [13, 14, 15]\n]</code></pre><p><span>If there is extra room, leave those spots blank with a </span><code>0</code><span> filler.</span></p><pre><code>// Ordering numbers 1-5 in a [4, 3] space.\n\norderPeople([4, 3], 5) \u279e [\n  [1, 2, 3],\n  [0, 5, 4],\n  [0, 0, 0],\n  [0, 0, 0]\n]</code></pre><p><span>If there are too many people for the given dimensions, return </span><code>\"overcrowded\"</code><span>.</span></p><pre><code>orderPeople([4, 3], 20) \u279e \"overcrowded\"</code></pre><h3><span>Examples</span></h3><pre><code>orderPeople([3, 3], 8) \u279e [\n  [1, 2, 3],\n  [6, 5, 4],\n  [7, 8, 0]\n]\n\norderPeople([2, 4], 5) \u279e [\n  [1, 2, 3, 4],\n  [0, 0, 0, 5]\n]   \n\norderPeople([2, 4], 10) \u279e \"overcrowded\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Always start the ordering on the upper-left corner.</span></li><li><span>If the </span><strong><span>S-shape</span></strong><span> concept doesn't make sense, try writing down some of these examples on a piece of paper and tracing a pencil through the numbers in order.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/cN9jtK2jdAGmFKqDt",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(orderPeople([5, 3], 15), [\n\t[1, 2, 3],\n\t[6, 5, 4],\n\t[7, 8, 9],\n\t[12, 11, 10],\n\t[13, 14, 15]\n])\n\nTest.assertSimilar(orderPeople([4, 3], 5), [\n\t[1, 2, 3],\n\t[0, 5, 4],\n\t[0, 0, 0],\n\t[0, 0, 0]\n])\n\nTest.assertSimilar(orderPeople([3, 3], 8), [\n\t[1, 2, 3],\n\t[6, 5, 4],\n\t[7, 8, 0]\n])\n\nTest.assertSimilar(orderPeople([2, 4], 5), [\n\t[1, 2, 3, 4],\n\t[0, 0, 0, 5]\n])\n\nTest.assertSimilar(orderPeople([4, 4], 15), [\n\t[1, 2, 3, 4],\n\t[8, 7, 6, 5],\n\t[9, 10, 11, 12],\n\t[0, 15, 14, 13]\n])\n\nTest.assertSimilar(orderPeople([4, 4], 12), [\n\t[1, 2, 3, 4],\n\t[8, 7, 6, 5],\n\t[9, 10, 11, 12],\n\t[0, 0, 0, 0]\n])\n\nTest.assertSimilar(orderPeople([2, 2], 4), [\n\t[1, 2],\n\t[4, 3]\n])\n\nTest.assertSimilar(orderPeople([2, 2], 5),\"overcrowded\")\n\nTest.assertSimilar(orderPeople([2, 2], 3), [\n\t[1, 2],\n\t[0, 3]\n])\n\nTest.assertSimilar(orderPeople([3, 4], 1), [\n\t[1, 0, 0, 0],\n\t[0, 0, 0, 0],\n\t[0, 0, 0, 0]\n])\n\nTest.assertSimilar(orderPeople([2, 4], 10), \"overcrowded\")",
+  "title": "Ordering People in a Line"
+}

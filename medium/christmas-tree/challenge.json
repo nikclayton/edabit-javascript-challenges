@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "QeaCDhw3QrLwbeteD",
+  "code": "function tree(h) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function to create a Christmas tree based on height </span><code>h</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>tree(1) \u279e [\n  \"#\"\n]\n\ntree(2) \u279e [\n  \" # \",\n  \"###\"\n]\n\ntree(5) \u279e [\n  \"    #    \",\n  \"   ###   \",\n  \"  #####  \",\n  \" ####### \",\n  \"#########\"\n]\n\ntree(0) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/QeaCDhw3QrLwbeteD",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(tree(1), [\"#\"])\n\nTest.assertSimilar(tree(2), [\n\t\" # \", \n\t\"###\"\n])\n\nTest.assertSimilar(tree(5), [\n\t\"    #    \",\n\t\"   ###   \", \n\t\"  #####  \", \n\t\" ####### \", \n\t\"#########\"\n])\n\nTest.assertSimilar(tree(0), [])",
+  "title": "Christmas Tree"
+}

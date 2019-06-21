@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "LHTF9ij2FtvwhnzQF",
+  "code": "function toArray(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that turns a comma-delimited list into an array of strings.</span></p><h3><span>Examples</span></h3><pre><code>toArray(\"watermelon, raspberry, orange\")\n\u279e [\"watermelon\", \"raspberry\", \"orange\"]\n\ntoArray(\"x1, x2, x3, x4, x5\")\n\u279e [\"x1\", \"x2\", \"x3\", \"x4\", \"x5\"]\n\ntoArray(\"a, b, c, d\")\n\u279e [\"a\", \"b\", \"c\", \"d\"]\n\ntoArray(\"\")\n\u279e []</code></pre><h3><span>Notes</span></h3><p><span>Return an empty array for an empty string.</span></p>",
+  "source_url": "https://edabit.com/challenge/LHTF9ij2FtvwhnzQF",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(toArray(\"watermelon, raspberry, orange\"), [\"watermelon\", \"raspberry\", \"orange\"])\nTest.assertSimilar(toArray(\"x1, x2, x3, x4, x5\"), [\"x1\", \"x2\", \"x3\", \"x4\", \"x5\"])\nTest.assertSimilar(toArray(\"a, b, c, d\"), [\"a\", \"b\", \"c\", \"d\"])\nTest.assertSimilar(toArray(\"\"), [])",
+  "title": "Array from Comma-Delimited String"
+}

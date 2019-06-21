@@ -1,8 +1,6 @@
 const countVowels = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(countVowels('Celebration')).toEqual(5);
         expect(countVowels('Palm')).toEqual(1);

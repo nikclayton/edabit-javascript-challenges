@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Ps7nX3XdCLDN4Z33y",
+  "code": "function reverse(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that reverses letters in a string but keeps digits in their current order.</span></p><h3><span>Examples</span></h3><pre><code>reverse(\"ab89c\") \u279e \"cb89a\"\n\nreverse(\"jkl5mn923o\") \u279e \"onm5lk923j\"\n\nreverse(\"123a45\") \u279e \"123a45\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Ps7nX3XdCLDN4Z33y",
+  "tags": [
+    "logic",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(reverse(\"ab89c\"), \"cb89a\")\nTest.assertEquals(reverse(\"jkl5mn923o\"), \"onm5lk923j\")\nTest.assertEquals(reverse(\"123a45\"), \"123a45\")\nTest.assertEquals(reverse(\"a1b1c\"), \"c1b1a\")",
+  "title": "Reverse Letters, Keep Numbers in Place"
+}

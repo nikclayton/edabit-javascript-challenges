@@ -1,0 +1,16 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "RhF2wctDjwNCeS4hB",
+  "code": "function rySeq(n, s) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that takes a number </span><code>n</code><span> and a string </span><code>s</code><span> as arguments and returns the </span><em><span>n</span></em><span>th term of the Red/Yellow sequence. </span><code>s</code><span> will ask the function what to return, all, red or yellow.</span></p><p><img alt=\"alt text\" title=\"Red/Yellow Sequence\" src=\"https://edabit-challenges.s3.amazonaws.com/red_yellow_sequence.png\"></p><h3><span>Examples</span></h3><pre><code>rySeq(2, \"all\") \u279e 5\n\nrySeq(3, \"yellow\") \u279e 8\n\nrySeq(28, \"red\") \u279e 55\n\nrySeq(1, \"blue\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>If </span><code>s</code><span> is not \"all\", \"yellow\" or \"red\", return </span><code>false</code><span>.</span></li><li><span>If </span><code>n</code><span> is 0, return </span><code>0</code><span>.</span></li><li><code>n</code><span> is always a positive integer.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RhF2wctDjwNCeS4hB",
+  "tags": [
+    "algebra",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(rySeq(2, \"all\"), 5)\nTest.assertEquals(rySeq(1, \"yellow\"), 0)\nTest.assertEquals(rySeq(1, \"blue\"), false)\nTest.assertEquals(rySeq(28, \"red\"), 55)\nTest.assertEquals(rySeq(6, \"all\"), 61)\nTest.assertEquals(rySeq(3), false)\nTest.assertEquals(rySeq(0, \"all\"), 0)\nTest.assertEquals(rySeq(22, \"all\"), 925)\nTest.assertEquals(rySeq(28, \"yellow\"), 1458)\nTest.assertEquals(rySeq(23, \"red\"), 45)\nTest.assertEquals(rySeq(150, \"all\"), 44701)\nTest.assertEquals(rySeq(30, \"yellow\"), 1682)\nTest.assertEquals(rySeq(1000, \"red\"), 1999)\nTest.assertEquals(rySeq(28, \"green\"), false)",
+  "title": "The Red/Yellow Sequence"
+}

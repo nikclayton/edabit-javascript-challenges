@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "y6TD7s63sm9RwByLY",
+  "code": "function sameAscii(a, b) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Return </span><code>true</code><span> if the sum of ASCII values of the first string is same as the sum of ASCII values of the second string, otherwise return </span><code>false</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>sameAscii(\"a\", \"a\") \u279e true\n\nsameAscii(\"AA\", \"B@\") \u279e true\n\nsameAscii(\"EdAbIt\", \"EDABIT\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>If you need some help with ASCII codes, check the </span><strong><span>Recources</span></strong><span> tab for an image of all ASCII codes used in this challenge.</span></p>",
+  "source_url": "https://edabit.com/challenge/y6TD7s63sm9RwByLY",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(sameAscii(\"a\",\"a\"), true)\nTest.assertEquals(sameAscii(\"A\",\"a\"), false)\nTest.assertEquals(sameAscii(\"!\",\"g\"), false)\nTest.assertEquals(sameAscii(\"aAAAaaAA\",\"~~~aa,\"), true)\nTest.assertEquals(sameAscii(\"aUGSIGHIhiSJGijs\",\"~~~~~~~~~FF,\"), false)\nTest.assertEquals(sameAscii(\"~~Tga2\",\"{}[]()I\"), true)",
+  "title": "Same ASCII?"
+}

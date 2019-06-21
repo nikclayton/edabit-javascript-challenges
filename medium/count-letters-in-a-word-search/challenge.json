@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "6QNPoEjY8DLGKPiqr",
+  "code": "function letterCounter(arr, letter) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that counts the number of times a particular letter shows up in the word search.</span></p><h3><span>Examples</span></h3><pre><code>letterCounter([\n  [\"D\", \"E\", \"Y\", \"H\", \"A\", \"D\"],\n  [\"C\", \"B\", \"Z\", \"Y\", \"J\", \"K\"],\n  [\"D\", \"B\", \"C\", \"A\", \"M\", \"N\"],\n  [\"F\", \"G\", \"G\", \"R\", \"S\", \"R\"],\n  [\"V\", \"X\", \"H\", \"A\", \"S\", \"S\"]\n], \"D\") \u279e 3\n\n// \"D\" shows up 3 times: twice in first row, once in third row.\n\nletterCounter([\n  [\"D\", \"E\", \"Y\", \"H\", \"A\", \"D\"],\n  [\"C\", \"B\", \"Z\", \"Y\", \"J\", \"K\"],\n  [\"D\", \"B\", \"C\", \"A\", \"M\", \"N\"],\n  [\"F\", \"G\", \"G\", \"R\", \"S\", \"R\"],\n  [\"V\", \"X\", \"H\", \"A\", \"S\", \"S\"]\n], \"H\") \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/6QNPoEjY8DLGKPiqr",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'D'), 3)\n\nTest.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'H'), 2)\n\nTest.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'Z'), 1)\n\nTest.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'R'), 2)\n\nTest.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'X'), 1)\n\nTest.assertEquals(letterCounter([\n\t['D', 'E', 'Y', 'H', 'A', 'D'],\n\t['C', 'B', 'Z', 'Y', 'J', 'K'],\n\t['D', 'B', 'C', 'A', 'M', 'N'],\n\t['F', 'G', 'G', 'R', 'S', 'R'],\n\t['V', 'X', 'H', 'A', 'S', 'S']\n], 'S'), 3)",
+  "title": "Count Letters in a Word Search"
+}

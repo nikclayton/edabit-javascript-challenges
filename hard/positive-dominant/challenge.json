@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "7pkKPYtTJzpxRMckZ",
+  "code": "function isPositiveDominant(a) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>An array is </span><strong><span>positive dominant</span></strong><span> if it contains </span><strong><span>strictly more</span></strong><span> </span><strong><span>unique</span></strong><span> positive values than </span><strong><span>unique</span></strong><span> negative values.</span></p><p><span>Write a function that returns </span><code>true</code><span> if an array is *</span><em><span>positive dominant</span></em><span>.</span></p><h3><span>Examples</span></h3><pre><code>[1, 1, 1, 1, -3, -4] \u279e false\n// there is only 1 unique positive value (1)\n// there are 2 unique negative values (-3, -4)\n\n[5, 99, 832, -3, -4] \u279e true\n\n[5, 0] \u279e true\n\n[0, -4, -1] \u279e false</code></pre><h3><span>Notes</span></h3><p><strong><span>0</span></strong><span> neither counts as a positive nor a negative value.</span></p>",
+  "source_url": "https://edabit.com/challenge/7pkKPYtTJzpxRMckZ",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPositiveDominant([1, 1, 1, 1, -3, -4]), false)\nTest.assertEquals(isPositiveDominant([5, 99, 832, -3, -4]), true)\nTest.assertEquals(isPositiveDominant([5, 0]), true)\nTest.assertEquals(isPositiveDominant([0, -4, -1]), false)\nTest.assertEquals(isPositiveDominant([1, 2, 3, -1]), true)\nTest.assertEquals(isPositiveDominant([1, 0, 0, -1]), false)\nTest.assertEquals(isPositiveDominant([5, 4, 3, 0, 0, -1, -1, -2, -2]), true)\nTest.assertEquals(isPositiveDominant([52, 52, 52, -3, 2, 2, 2, -4]), false)\nTest.assertEquals(isPositiveDominant([3, 3, 3, 3, -1, -1, -1]), false)",
+  "title": "Positive Dominant"
+}

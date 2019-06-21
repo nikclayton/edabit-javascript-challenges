@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "yiMSg6cNNCeJDQo3b",
+  "code": "function sumOfEvens(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns the sum of all even elements in a 2D matrix.</span></p><h3><span>Examples</span></h3><pre><code>sumOfEvens([\n  [1, 0, 2],\n  [5, 5, 7],\n  [9, 4, 3]\n]) \u279e 6\n\n// 2 + 4 = 6\n\nsumOfEvens([\n  [1, 1],\n  [1, 1]\n]) \u279e 0\n\nsumOfEvens([\n  [42, 9],\n  [16, 8]\n]) \u279e 66\n\nsumOfEvens([\n  [],\n  [],\n  []\n]) \u279e 0</code></pre><h3><span>Notes</span></h3><ul><li><span>Submatrices will be of equal length.</span></li><li><span>Return 0 if the 2D matrix only consists of empty submatrices.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/yiMSg6cNNCeJDQo3b",
+  "tags": [
+    "arrays",
+    "control_flow",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(sumOfEvens([\n\t\t[1, 5, 1, 3], \n\t\t[4, 1, 2, 0], \n\t\t[6, 9, 7, 4], \n\t\t[5, 1, 2, 6]\n\t]), 24)\n\t\nTest.assertEquals(sumOfEvens([\n\t\t[1, 0, 1],\n\t\t[33, 1, 2],\n\t\t[15, 9, 1],\n\t\t[5, 1, 979]\n\t]), 2)\n\t\nTest.assertEquals(sumOfEvens([\n\t\t[2, 19, 5, 43], \n\t\t[67, 2, 0, 12]\n\t]), 16)\n\t\nTest.assertEquals(sumOfEvens([\n\t\t[1, 3, 7, 9], \n\t\t[11, 13, 15, 17], \n\t\t[19, 21, 23, 25]\n\t]), 0)\n\nTest.assertEquals(sumOfEvens([\n\t\t[], \n\t\t[], \n\t\t[]\n\t]), 0)",
+  "title": "Sum of all Evens in a Matrix"
+}

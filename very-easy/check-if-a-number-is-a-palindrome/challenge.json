@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "6dbpFcrW4schC6zDP",
+  "code": "function isPalindrome(n) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if a number is a palindrome.</span></p><h3><span>Examples</span></h3><pre><code>isPalindrome(838) \u279e true\n\nisPalindrome(4433) \u279e false\n\nisPalindrome(443344) \u279e true</code></pre><h3><span>Notes</span></h3><p><strong><span>Bonus</span></strong><span>: See if you can do this without turning the number into a string.</span></p>",
+  "source_url": "https://edabit.com/challenge/6dbpFcrW4schC6zDP",
+  "tags": [
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPalindrome(838), true)\nTest.assertEquals(isPalindrome(77), true)\nTest.assertEquals(isPalindrome(95159), true)\nTest.assertEquals(isPalindrome(839), false)\nTest.assertEquals(isPalindrome(4234), false)\nTest.assertEquals(isPalindrome(13), false)",
+  "title": "Check if a Number is a Palindrome"
+}

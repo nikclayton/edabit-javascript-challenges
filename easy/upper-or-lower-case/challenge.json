@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "GYfnaQhSmZWLEMx6P",
+  "code": "function stepsToConvert(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Return the smallest number of steps it takes to convert a string </span><strong><span>entirely</span></strong><span> into uppercase or </span><strong><span>entirely</span></strong><span> into lower case, whichever takes the fewest number of steps. A step consists of changing one character from lower to upper case, or vice versa.</span></p><h3><span>Examples</span></h3><pre><code>stepsToConvert(\"abC\") \u279e 1\n// \"abC\" converted to \"abc\" in 1 step\n\nstepsToConvert(\"abCBA\") \u279e 2\n// \"abCBA\" converted to \"ABCBA\" in 2 steps\n\nstepsToConvert(\"aba\") \u279e 0\n\nstepsToConvert(\"abaCCC\") \u279e 3</code></pre><h3><span>Notes</span></h3><ul><li><span>Return </span><code>0</code><span> if empty string.</span></li><li><span>Return </span><code>0</code><span> if the string is already entirely in one case.</span></li><li><span>Only alphabetic characters.</span></li><li><span>Input has no spaces.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/GYfnaQhSmZWLEMx6P",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(stepsToConvert('abC'), 1);\nTest.assertEquals(stepsToConvert('abCBA'), 2);\nTest.assertEquals(stepsToConvert('aba'), 0);\nTest.assertEquals(stepsToConvert('ABA'), 0);\nTest.assertEquals(stepsToConvert('abaCCC'), 3);\nTest.assertEquals(stepsToConvert('abaaCCCDE'), 4);\nTest.assertEquals(stepsToConvert('CCaaCCaaCa'), 5);\nTest.assertEquals(stepsToConvert(''), 0, 'Return 0 if empty string.');",
+  "title": "Upper or Lower Case"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uJewuaLAFMXGWhbgu",
+  "code": "function initialize(names) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes in an array of full names and returns the initials.</span></p><h3><span>Examples</span></h3><pre><code>initialize([\"Stephen Hawking\"]) \u279e [\"S. H.\"]\n\ninitialize([\"Harry Potter\", \"Ron Weasley\"]) \u279e [\"H. P.\", \"R. W.\"]\n\ninitialize([\"Sherlock Holmes\", \"John Watson\", \"Irene Adler\"]) \u279e [\"S. H.\", \"J. W.\", \"I. A.\"]</code></pre><h3><span>Notes</span></h3><p><span>Each initial is followed by a dot.</span></p>",
+  "source_url": "https://edabit.com/challenge/uJewuaLAFMXGWhbgu",
+  "tags": [
+    "arrays",
+    "formatting"
+  ],
+  "tests": "Test.assertSimilar(initialize(['Sherlock Holmes', 'John Watson', 'Irene Adler']), ['S. H.', 'J. W.', 'I. A.'])\nTest.assertSimilar(initialize(['Harry Potter', 'Ron Weasley']), ['H. P.', 'R. W.'])\nTest.assertSimilar(initialize(['Stephen Hawking']), ['S. H.'])\nTest.assertSimilar(initialize(['Atticus Finch']), ['A. F.'])\nTest.assertSimilar(initialize(['Leonardo DiCaprio']), ['L. D.'])",
+  "title": "Initialize"
+}

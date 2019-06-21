@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ejzLBYvAtAiKk9HnP",
+  "code": "function smallestTransform(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the smallest number of changes it takes to transform one number into one with identical digits. A step is incrementing or decrementing a digit by one.</span></p><h3><span>Examples</span></h3><pre><code>smallestTransform(399) \u279e 6\n// 399 transformed to 999 in 6 steps.\n\nsmallestTransform(1234) \u279e 4\n// 1234 can be transformed to either 2222 or 3333 using 4 steps.\n\nsmallestTransform(153) \u279e 4\n\nsmallestTransform(33338) \u279e 5\n\nsmallestTransform(7777) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>If a number already has identical digits, return </span><code>0</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/ejzLBYvAtAiKk9HnP",
+  "tags": [
+    "arrays",
+    "scope"
+  ],
+  "tests": "Test.assertEquals(smallestTransform(399), 6)\nTest.assertEquals(smallestTransform(1234), 4)\nTest.assertEquals(smallestTransform(153), 4)\nTest.assertEquals(smallestTransform(33338), 5)\nTest.assertEquals(smallestTransform(7777), 0)\nTest.assertEquals(smallestTransform(977), 2)\nTest.assertEquals(smallestTransform(589), 4)",
+  "title": "Smallest Transform"
+}

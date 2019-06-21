@@ -4,11 +4,11 @@
   "challenge_id": "Mtke2HhuFwBkFi6Ty",
   "code": "function numArgs() {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that returns the number of argument it was called with.</span></p><h3><span>Examples</span></h3><pre><code>numArgs() \u279e 0\n\nnumArgs(\"foo\") \u279e 1\n\nnumArgs(\"foo\", \"bar\") \u279e 2\n\nnumArgs(true, false) \u279e 2\n\nnumArgs({}) \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>Each key given in a last hash argument counts as one argument.</span></li><li><span>A block counts as one argument.</span></li></ul>",
+  "instructions": "<p><span>Create a function that returns the number of argument it was called with.</span></p><h3><span>Examples</span></h3><pre><code>numArgs() \u279e 0\n\nnumArgs(\"foo\") \u279e 1\n\nnumArgs(\"foo\", \"bar\") \u279e 2\n\nnumArgs(true, false) \u279e 2\n\nnumArgs({}) \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/Mtke2HhuFwBkFi6Ty",
   "tags": [
-    "functional_programming"
+    "language_fundamentals"
   ],
-  "tests": "Test.assertEquals(numArgs(), 0);\nTest.assertEquals(numArgs('foo'), 1);\nTest.assertEquals(numArgs('foo', 'bar'), 2);\nTest.assertEquals(numArgs(null, null), 2);\nTest.assertEquals(numArgs('foo', 'bar', 5, null), 4);\nTest.assertEquals(numArgs(false), 1);\nTest.assertEquals(numArgs('foo', {}), 2);\nTest.assertEquals(numArgs('foo', 'bar', {}), 3);\nTest.assertEquals(numArgs([], [], {}), 3);\nTest.assertEquals(numArgs('foo', 'bar', true, null, 0), 5);",
+  "tests": "Test.assertEquals(numArgs(), 0)\nTest.assertEquals(numArgs('foo'), 1)\nTest.assertEquals(numArgs('foo', 'bar'), 2)\nTest.assertEquals(numArgs(null, null), 2)\nTest.assertEquals(numArgs('foo', 'bar', 5, null), 4)\nTest.assertEquals(numArgs(false), 1)\nTest.assertEquals(numArgs('foo', {}), 2)\nTest.assertEquals(numArgs('foo', 'bar', {}), 3)\nTest.assertEquals(numArgs([], [], {}), 3)\nTest.assertEquals(numArgs('foo', 'bar', true, null, 0), 5)",
   "title": "Count the Arguments"
 }

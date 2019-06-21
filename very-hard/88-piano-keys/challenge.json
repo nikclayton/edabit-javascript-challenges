@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "sh67Jcu2yy35JXWNW",
+  "code": "function pianoKeys(key) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes a number (key) as an argument and returns an array containing 4 strings:</span></p><ul><li><span>The name of the key (the note).</span></li><li><span>The color of the key (Black or White).</span></li><li><span>The octave the note is in.</span></li><li><span>The corresponding frequency of the note.</span></li></ul><p><span>You can look at the Wikipedia page (check the </span><strong><span>Resources</span></strong><span> tab) to find out what the index is for the piano keys, where the octave numbers are and most importantly, how to calculate the frequency of the note, round the frequency to the nearest hundreth. Ignore the shaded parts of the piano (on the Wikipedia page).</span></p><h3><span>Examples</span></h3><pre><code>pianoKeys(1) \u279e [\"A\", \"0\", \"White\", \"27.50\"]\n\npianoKeys(60) \u279e [\"G\u266f/A\u266d\", \"5\", \"Black\", \"830.61\"]\n\npianoKeys(0) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>There are 88 keys, 1 - 88, so there is no 0th key or anything above 88.</span></li><li><span>Try not to put the frequencies in a giant array but to calculate them.</span></li><li><span>Calculate the frequencies from </span><code>A</code><span> notes, they are rounded by nature (e.g. 440 Hz).</span></li><li><span>If the key isn't in the range 1 - 88, return </span><code>false</code><span>.</span></li><li><strong><span>Tip:</span></strong><span> White keys don't have sharps \u266f or flats \u266d in their note name.</span></li><li><strong><span>Tip:</span></strong><span> Copy &amp; paste the note names from Wikipedia, then you have the right \u266f and \u266d 's.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/sh67Jcu2yy35JXWNW",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(pianoKeys(1), ['A', '0', 'White', '27.50'])\nTest.assertSimilar(pianoKeys(15), ['B', '1', 'White', '61.74'])\nTest.assertSimilar(pianoKeys(0), false)\nTest.assertSimilar(pianoKeys(17), ['C\u266f/D\u266d', '2', 'Black', '69.30'])\nTest.assertSimilar(pianoKeys(88), ['C', '8', 'White', '4186.01'])\nTest.assertSimilar(pianoKeys(100), false)\nTest.assertSimilar(pianoKeys(60), ['G\u266f/A\u266d', '5', 'Black', '830.61'])\nTest.assertSimilar(pianoKeys(4), ['C', '1', 'White', '32.70'])\nTest.assertSimilar(pianoKeys(71), ['G', '6', 'White', '1567.98'])\nTest.assertSimilar(pianoKeys(16), ['C', '2', 'White', '65.41'])\nTest.assertSimilar(pianoKeys(29), ['C\u266f/D\u266d', '3', 'Black', '138.59'])",
+  "title": "88 Piano Keys"
+}

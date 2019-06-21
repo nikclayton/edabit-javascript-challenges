@@ -12,6 +12,6 @@
     "math",
     "numbers"
   ],
-  "tests": "Test.assertEquals(lessThanOrEqualToZero(5), false);\nTest.assertEquals(lessThanOrEqualToZero(0), true);\nTest.assertEquals(lessThanOrEqualToZero(-5), true);\nTest.assertEquals(lessThanOrEqualToZero(1), false);\nTest.assertEquals(lessThanOrEqualToZero(2), false);\nTest.assertEquals(lessThanOrEqualToZero(10000), false);\nTest.assertEquals(lessThanOrEqualToZero(0.5), false);",
+  "tests": "Test.assertEquals(lessThanOrEqualToZero(5), false)\nTest.assertEquals(lessThanOrEqualToZero(0), true)\nTest.assertEquals(lessThanOrEqualToZero(-5), true)\nTest.assertEquals(lessThanOrEqualToZero(1), false)\nTest.assertEquals(lessThanOrEqualToZero(2), false)\nTest.assertEquals(lessThanOrEqualToZero(10000), false)\nTest.assertEquals(lessThanOrEqualToZero(0.5), false)",
   "title": "Is the Number Less than or Equal to Zero?"
 }

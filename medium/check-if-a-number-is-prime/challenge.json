@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "f6n3bkqFCojwB2282",
+  "code": "function isPrime(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that outputs </span><code>true</code><span> if a number is prime, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isPrime(31) \u279e true\n\nisPrime(18) \u279e false\n\nisPrime(11) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>A prime number has no other factors except 1 and itself.</span></li><li><span>1 is not considered a prime number.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/f6n3bkqFCojwB2282",
+  "tags": [
+    "math",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPrime(31), true)\nTest.assertEquals(isPrime(18), false)\nTest.assertEquals(isPrime(11), true)\nTest.assertEquals(isPrime(12), false)\nTest.assertEquals(isPrime(1), false)\nTest.assertEquals(isPrime(3), true)\nTest.assertEquals(isPrime(48), false)\nTest.assertEquals(isPrime(10), false)\nTest.assertEquals(isPrime(5), true)\nTest.assertEquals(isPrime(77), false)\nTest.assertEquals(isPrime(7), true)",
+  "title": "Check if a Number is Prime"
+}

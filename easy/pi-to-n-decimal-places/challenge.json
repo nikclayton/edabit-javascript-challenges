@@ -10,6 +10,6 @@
     "math",
     "numbers"
   ],
-  "tests": "Test.assertEquals(myPi(0), 3);\nTest.assertEquals(myPi( 1), 3.1);\nTest.assertEquals(myPi( 2), 3.14);\nTest.assertEquals(myPi( 3), 3.142);\nTest.assertNotEquals(myPi(4), 3.1415, \"Don't forget to round up!\");\nTest.assertEquals(myPi( 5), 3.14159);\nTest.assertEquals(myPi( 6), 3.141593);\nTest.assertEquals(myPi( 7), 3.1415927);\nTest.assertEquals(myPi( 8), 3.14159265);\nTest.assertEquals(myPi( 9), 3.141592654);\nTest.assertEquals(myPi(10), 3.1415926536);\nTest.assertEquals(myPi(11), 3.14159265359);\nTest.assertEquals(myPi(12), 3.141592653590);\nTest.assertEquals(myPi(13), 3.1415926535898);\nTest.assertEquals(myPi(14), 3.14159265358979);\nTest.assertEquals(myPi(15), 3.141592653589793);",
+  "tests": "Test.assertEquals(myPi(0), 3)\nTest.assertEquals(myPi(1), 3.1)\nTest.assertEquals(myPi(2), 3.14)\nTest.assertEquals(myPi(3), 3.142)\nTest.assertEquals(myPi(5), 3.14159)\nTest.assertEquals(myPi(6), 3.141593)\nTest.assertEquals(myPi(7), 3.1415927)\nTest.assertEquals(myPi(8), 3.14159265)\nTest.assertEquals(myPi(9), 3.141592654)\nTest.assertEquals(myPi(10), 3.1415926536)\nTest.assertEquals(myPi(11), 3.14159265359)\nTest.assertEquals(myPi(12), 3.141592653590)\nTest.assertEquals(myPi(13), 3.1415926535898)\nTest.assertEquals(myPi(14), 3.14159265358979)\nTest.assertEquals(myPi(15), 3.141592653589793)",
   "title": "Pi to N Decimal Places"
 }

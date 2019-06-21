@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "iBQYbSHZGhpktLRdn",
+  "code": "function divisibleByFive(n) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if an integer is divisible by 5, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>divisibleByFive(5) \u279e true\n\ndivisibleByFive(-55) \u279e true\n\ndivisibleByFive(37) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/iBQYbSHZGhpktLRdn",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(divisibleByFive(7), false)\nTest.assertEquals(divisibleByFive(5), true)\nTest.assertEquals(divisibleByFive(15), true)\nTest.assertEquals(divisibleByFive(33), false)\nTest.assertEquals(divisibleByFive(-18), false)\nTest.assertEquals(divisibleByFive(999), false)\nTest.assertEquals(divisibleByFive(2), false)",
+  "title": "Check if an Integer is Divisible By Five"
+}

@@ -1,8 +1,6 @@
 const hackerSpeak = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(hackerSpeak('javascript is cool')).toEqual('j4v45cr1pt 15 c00l');
         expect(hackerSpeak('become a coder')).toEqual('b3c0m3 4 c0d3r');

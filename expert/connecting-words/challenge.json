@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "J6ZGG6AvXQzqRpRsy",
+  "code": "function join(arr) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Write a function that connects each previous word to the next word by the shared letters. Return the resulting string (removing </span><strong><span>duplicate characters</span></strong><span> in the overlap) and the </span><strong><span>minimum</span></strong><span> number of shared letters across all pairs of strings.</span></p><h3><span>Examples</span></h3><pre><code>join([\"oven\", \"envier\", \"erase\", \"serious\"]) \u279e [\"ovenvieraserious\", 2]\n\njoin([\"move\", \"over\", \"very\"]) \u279e [\"movery\", 3]\n\njoin([\"to\", \"ops\", \"psy\", \"syllable\"]) \u279e [\"topsyllable\", 1]\n\n// \"to\" and \"ops\" share \"o\" (1)\n// \"ops\" and \"psy\" share \"ps\" (2)\n//\"psy\" and \"syllable\" share \"sy\" (2)\n// the minimum overlap is 1\n\njoin([\"aaa\", \"bbb\", \"ccc\", \"ddd\"]) \u279e [\"aaabbbcccddd\", 0]</code></pre><h3><span>Notes</span></h3><p><span>More specifically, look at the overlap between the previous words </span><strong><span>ending letters</span></strong><span> and the next word's </span><strong><span>beginning letters</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/J6ZGG6AvXQzqRpRsy",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(join([\"happy\", \"python\", \"honey\", \"yelp\", \"plank\", \"lanky\"]), [\"happythoneyelplanky\", 1])\nTest.assertSimilar(join([\"move\", \"over\", \"very\"]), [\"movery\", 3])\nTest.assertSimilar(join([\"oven\", \"envier\", \"erase\", \"serious\"]), [\"ovenvieraserious\", 2])\nTest.assertSimilar(join([\"to\", \"ops\", \"psy\", \"syllable\"]), [\"topsyllable\", 1])\nTest.assertSimilar(join([\"aaa\", \"bbb\", \"ccc\", \"ddd\"]), [\"aaabbbcccddd\", 0])\nTest.assertSimilar(join([\"abcde\", \"bcdefghi\", \"efghi\", \"fghij\", \"ghijklmnop\"]), [\"abcdefghijklmnop\", 4])\nTest.assertSimilar(join([\"aab\", \"abcccd\", \"cdeeef\", \"effff\"]), [\"aabcccdeeeffff\", 2])",
+  "title": "Connecting Words"
+}

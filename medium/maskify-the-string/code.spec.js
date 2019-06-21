@@ -1,8 +1,6 @@
 const maskify = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(maskify('4556364607935616')).toEqual('############5616');
         expect(maskify('64607935616')).toEqual('#######5616');

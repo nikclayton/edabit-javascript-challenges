@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "YHLaB8itA9tEDN5TG",
+  "code": "function doubleLetters(word) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a word and returns </span><code>true</code><span> if the word has two consecutive identical letters.</span></p><h3><span>Examples</span></h3><pre><code>doubleLetters(\"loop\") \u279e true\n\ndoubleLetters(\"yummy\") \u279e true\n\ndoubleLetters(\"orange\") \u279e false\n\ndoubleLetters(\"munchkin\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/YHLaB8itA9tEDN5TG",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "// True test cases\nTest.assertEquals(doubleLetters(\"loop\"), true)\nTest.assertEquals(doubleLetters(\"meeting\"), true)\nTest.assertEquals(doubleLetters(\"yummy\"), true)\nTest.assertEquals(doubleLetters(\"moo\"), true)\nTest.assertEquals(doubleLetters(\"toodles\"), true)\nTest.assertEquals(doubleLetters(\"droop\"), true)\nTest.assertEquals(doubleLetters(\"loot\"), true)\n// False test cases\nTest.assertEquals(doubleLetters(\"orange\"), false)\nTest.assertEquals(doubleLetters(\"munchkin\"), false)\nTest.assertEquals(doubleLetters(\"forestry\"), false)\nTest.assertEquals(doubleLetters(\"raindrops\"), false)\nTest.assertEquals(doubleLetters(\"gold\"), false)\nTest.assertEquals(doubleLetters(\"paradise\"), false)\nTest.assertEquals(doubleLetters(\"chicken\"), false)",
+  "title": "Double Letters"
+}

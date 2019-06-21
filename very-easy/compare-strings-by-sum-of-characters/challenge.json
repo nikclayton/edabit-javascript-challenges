@@ -4,12 +4,12 @@
   "challenge_id": "yHGowWucg3k2kJdZ4",
   "code": "function comp(str1, str2) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes two strings as arguments and return either </span><code>true</code><span> or </span><code>false</code><span> depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.</span></p><h3><span>Examples</span></h3><pre><code>comp(\"AB\", \"CD\") \u279e true\n\ncomp(\"ABC\", \"DE\") \u279e false\n\ncomp(\"hello\", \"edabit\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "instructions": "<p><span>Create a function that takes two strings as arguments and return either </span><code>true</code><span> or </span><code>false</code><span> depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.</span></p><h3><span>Examples</span></h3><pre><code>comp(\"AB\", \"CD\") \u279e true\n\ncomp(\"ABC\", \"DE\") \u279e false\n\ncomp(\"hello\", \"edabit\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/yHGowWucg3k2kJdZ4",
   "tags": [
     "conditions",
     "strings"
   ],
-  "tests": "Test.assertEquals(comp(\"AB\", \"CD\"), true);\nTest.assertEquals(comp(\"ABC\", \"DE\"), false);\nTest.assertEquals(comp(\"hello\", \"edabit\"), false);\nTest.assertEquals(comp(\"meow\", \"woof\"), true);\nTest.assertEquals(comp(\"jrnvjrnnt\", \"cvjknfjvmfvnfjn\"), false);\nTest.assertEquals(comp(\"jkvnjrt\", \"krnf\"), false);\nTest.assertEquals(comp(\"Facebook\", \"Snapchat\"), true);",
+  "tests": "Test.assertEquals(comp(\"AB\", \"CD\"), true)\nTest.assertEquals(comp(\"ABC\", \"DE\"), false)\nTest.assertEquals(comp(\"hello\", \"edabit\"), false)\nTest.assertEquals(comp(\"meow\", \"woof\"), true)\nTest.assertEquals(comp(\"jrnvjrnnt\", \"cvjknfjvmfvnfjn\"), false)\nTest.assertEquals(comp(\"jkvnjrt\", \"krnf\"), false)\nTest.assertEquals(comp(\"Facebook\", \"Snapchat\"), true)",
   "title": "Compare Strings by Sum of Characters"
 }

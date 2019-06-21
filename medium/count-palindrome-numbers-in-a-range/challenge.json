@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "BRoBDeEc2be7wm8BD",
+  "code": "function countPalindromes(num1, num2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns the number of </span><strong><span>palindrome numbers</span></strong><span> in a specified range (</span><strong><span>inclusive</span></strong><span>).</span></p><p><span>For example, between </span><strong><span>8</span></strong><span> and </span><strong><span>34</span></strong><span>, there are </span><strong><span>5</span></strong><span> palindromes: </span><strong><span>8</span></strong><span>, </span><strong><span>9</span></strong><span>, </span><strong><span>11</span></strong><span>, </span><strong><span>22</span></strong><span> and </span><strong><span>33</span></strong><span>. Between </span><strong><span>1550</span></strong><span> and </span><strong><span>1552</span></strong><span> there is exactly one palindrome: </span><strong><span>1551</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>countPalindromes(1, 10) \u279e 9\n\ncountPalindromes(555, 556) \u279e 1\n\ncountPalindromes(878, 898) \u279e 3</code></pre><h3><span>Notes</span></h3><p><span>Single-digit numbers are trivially palindrome numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/BRoBDeEc2be7wm8BD",
+  "tags": [
+    "control_flow",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countPalindromes(1, 10), 9)\nTest.assertEquals(countPalindromes(555, 556), 1)\nTest.assertEquals(countPalindromes(878, 898), 3)\nTest.assertEquals(countPalindromes(8, 34), 5)\nTest.assertEquals(countPalindromes(1550, 1556), 1)",
+  "title": "Count Palindrome Numbers in a Range"
+}

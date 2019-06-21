@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "SAdqaWKRpjLfZnGKA",
+  "code": "function century(year) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes in a date and returns the correct century.</span></p><h3><span>Examples</span></h3><pre><code>century(1756) \u279e \"18th century\"\n\ncentury(1555) \u279e \"16th century\"\n\ncentury(1000) \u279e \"10th century\"\n\ncentury(1001) \u279e \"11th century\"\n\ncentury(2005) \u279e \"21st century\"</code></pre><h3><span>Notes</span></h3><ul><li><span>All dates will be between </span><code>1000</code><span> and </span><code>2010</code><span>.</span></li><li><span>The 11th century is between 1001 and 1100.</span></li><li><span>The 18th century is between 1701-1800.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/SAdqaWKRpjLfZnGKA",
+  "tags": [
+    "control_flow",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(century(1756), \"18th century\")\nTest.assertEquals(century(1555), \"16th century\")\nTest.assertEquals(century(1000), \"10th century\")\nTest.assertEquals(century(1001), \"11th century\")\nTest.assertEquals(century(2005), \"21st century\")\nTest.assertEquals(century(1789), \"18th century\")\nTest.assertEquals(century(1510), \"16th century\")\nTest.assertEquals(century(1615), \"17th century\")\nTest.assertEquals(century(2000), \"20th century\")\nTest.assertEquals(century(1997), \"20th century\")",
+  "title": "Get the Century"
+}

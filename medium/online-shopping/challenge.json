@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5qYYauQwYwxz3nd9R",
+  "code": "function freeShipping(order) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that determines whether a shopping order is eligible for free shipping. An order is eligible for free shipping if the total cost of items purchased exceeds $50.00.</span></p><h3><span>Examples</span></h3><pre><code>freeShipping({ \"Shampoo\": 5.99, \"Rubber Ducks\": 15.99 }) \u279e false\n\nfreeShipping({ \"Flatscreen TV\": 399.99 }) \u279e true\n\nfreeShipping({ \"Monopoly\": 11.99, \"Secret Hitler\": 35.99, \"Bananagrams\": 13.99 }) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Ignore tax or additional fees when calculating the total order cost.</span></p>",
+  "source_url": "https://edabit.com/challenge/5qYYauQwYwxz3nd9R",
+  "tags": [
+    "objects",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(freeShipping({'Shampoo' : 5.99, 'Rubber Ducks': 15.99}), false)\nTest.assertEquals(freeShipping({'Flatscreen TV': 399.99}), true)\nTest.assertEquals(freeShipping({'Monopoly': 11.99, 'Secret Hitler': 35.99, 'Bananagrams': 13.99}), true)\nTest.assertEquals(freeShipping({'Scrabble': 12.32, 'Jenga': 5.55, 'Clue': 20.00}), false)\nTest.assertEquals(freeShipping({'Elephant Plushie': 40.55, 'Octopus Plushie': 20.33, 'Spongebob Plushie': 20.00}), true)",
+  "title": "Online Shopping"
+}

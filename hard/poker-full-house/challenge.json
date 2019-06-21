@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "eJtRrrpRZEoaaYgvw",
+  "code": "function isFullHouse(hand) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that determines whether or not a player is holding a </span><strong><span>Full House</span></strong><span> in their hand. A hand is represented as an array of 5 cards. A full house is defined as a pair of cards and a three-of-a-kind.</span></p><p><span>To illustrate: </span><code>[\"A\", \"A\", \"A\", \"K\", \"K\"]</code><span> would be a </span><strong><span>Full House</span></strong><span>, since the player holds 3 aces and 2 kings.</span></p><h3><span>Examples</span></h3><pre><code>isFullHouse([\"A\", \"A\", \"A\", \"K\", \"K\"]) \u279e true\n\nisFullHouse([\"3\", \"J\", \"J\", \"3\", \"3\"]) \u279e true\n\nisFullHouse([\"10\", \"J\", \"10\", \"10\", \"10\"]) \u279e false\n\nisFullHouse([\"7\", \"J\", \"3\", \"4\", \"2\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/eJtRrrpRZEoaaYgvw",
+  "tags": [
+    "arrays",
+    "games"
+  ],
+  "tests": "Test.assertEquals(isFullHouse(['A', 'A', 'A', 'K', 'K']), true);\nTest.assertEquals(isFullHouse(['3', 'J', 'J', '3', '3']), true);\nTest.assertEquals(isFullHouse(['10', 'J', '10', 'J', '10']), true);\nTest.assertEquals(isFullHouse(['10', 'J', '10', '10', '10']), false);\nTest.assertEquals(isFullHouse(['10', 'J', 'J', '2', '2']), false);\nTest.assertEquals(isFullHouse(['7', 'J', '3', '4', '2']), false);",
+  "title": "Poker Full House"
+}

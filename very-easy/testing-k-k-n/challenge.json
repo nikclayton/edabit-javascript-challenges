@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "giAxQu4vjMRc7dJ2u",
+  "code": "function kToK(n, k) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if </span><code>k^k == n</code><span> for input </span><code>(n, k)</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>kToK(4, 2) \u279e true\n\nkToK(387420489, 9) \u279e true\n# 9^9 == 387420489\n\nkToK(3124, 5) \u279e false\n\nkToK(17, 3) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>The </span><code>^</code><span> operator refers to </span><strong><span>exponentiation operation</span></strong><span>, not the </span><strong><span>bitwise XOR</span></strong><span> operation.</span></p>",
+  "source_url": "https://edabit.com/challenge/giAxQu4vjMRc7dJ2u",
+  "tags": [
+    "bit_operations",
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(kToK(4, 2), true)\nTest.assertEquals(kToK(387420489, 9), true)\nTest.assertEquals(kToK(302875106592253, 13), true)\n\nTest.assertEquals(kToK(3124, 5), false)\nTest.assertEquals(kToK(17, 3), false)\nTest.assertEquals(kToK(823544, 7), false)",
+  "title": "Testing K^K == N?"
+}

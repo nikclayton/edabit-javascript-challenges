@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "N7LuCieCrotxajSqB",
+  "code": "function groupSeats(arr, n) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>A group of </span><code>n</code><span> friends are going to see a movie. They would like to find a spot where they can sit next to each other in the same row. A movie theater's seat layout can be represented as a 2-D matrix, where </span><code>0</code><span>s represent empty seats and </span><code>1</code><span>s represent taken seats.</span></p><pre><code>[[1, 0, 0, 0, 1, 1, 1],\n[1, 1, 1, 0, 1, 1, 1],\n[1, 0, 1, 0, 1, 0, 1],\n[1, 1, 0, 1, 1, 0, 1],\n[1, 0, 1, 1, 1, 1, 1],\n[1, 0, 1, 1, 0, 0, 0]]</code></pre><p><span>Create a function that, given a seat layout and the number of friends </span><code>n</code><span>, returns the number of available spots for all </span><code>n</code><span> friends to sit together. In the above example, if </span><code>n = 3</code><span>, there would be 2 spots (the first row and last row).</span></p><h3><span>Examples</span></h3><pre><code>groupSeats([\n  [1, 0, 1, 0, 1, 0, 1],\n  [0, 1, 0, 1, 0, 1, 0],\n  [0, 0, 1, 1, 1, 1, 1],\n  [1, 0, 1, 1, 0, 0, 1],\n  [1, 1, 1, 0, 1, 0, 1],\n  [0, 1, 1, 1, 1, 0, 0]\n], 2) \u279e 3\n\ngroupSeats([\n  [1, 0, 1, 0, 1, 0, 1],\n  [0, 1, 0, 0, 0, 0, 0],\n], 4) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>Multiple free arrangements that overlap still count as distinct arrangements (see example #2).</span></p>",
+  "source_url": "https://edabit.com/challenge/N7LuCieCrotxajSqB",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(groupSeats([\n\t[1, 0, 1, 0, 1, 0, 1], \n\t[0, 1, 0, 1, 0, 1, 0], \n\t[0, 0, 0, 0, 0, 0, 0], \n\t[1, 0, 1, 1, 0, 0, 1], \n\t[1, 1, 1, 0, 0, 0, 1], \n\t[0, 1, 1, 1, 1, 0, 0]\n], 7), 1)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 0, 0, 1, 1, 1], \n\t[1, 1, 1, 0, 1, 1, 1], \n\t[1, 0, 1, 0, 1, 0, 1], \n\t[1, 1, 0, 1, 1, 0, 1], \n\t[1, 0, 1, 1, 1, 1, 1],\n\t[1, 0, 1, 1, 0, 0, 0]\n], 3), 2)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 0, 0, 0, 1, 1], \n\t[1, 1, 1, 0, 1, 1, 1], \n\t[1, 0, 1, 0, 1, 0, 1], \n\t[1, 1, 0, 1, 1, 0, 1], \n\t[1, 0, 1, 1, 1, 1, 1],\n\t[1, 0, 1, 1, 0, 0, 0]\n], 4), 1)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 1, 0, 0, 1, 1], \n\t[1, 1, 1, 0, 1, 1, 1], \n\t[1, 0, 1, 0, 1, 0, 1], \n\t[1, 1, 0, 1, 1, 0, 1], \n\t[1, 0, 1, 1, 1, 1, 1],\n\t[1, 0, 1, 1, 0, 0, 0]\n], 5), 0)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 1, 0, 0, 1, 1], \n\t[1, 1, 1, 0, 1, 1, 1], \n\t[1, 0, 1, 0, 1, 0, 1], \n\t[1, 1, 0, 1, 0, 0, 1], \n\t[1, 0, 1, 1, 1, 1, 1],\n\t[1, 0, 1, 1, 0, 0, 0]\n], 2), 4)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 1, 0, 1, 0, 1], \n\t[0, 1, 0, 1, 0, 1, 0], \n\t[0, 0, 1, 1, 1, 1, 1], \n\t[1, 0, 1, 1, 0, 0, 1], \n\t[1, 1, 1, 0, 1, 0, 1], \n\t[0, 1, 1, 1, 1, 0, 0]\n], 2), 3)\n\nTest.assertEquals(groupSeats([\n\t[1, 0, 1, 0, 1, 0, 1], \n\t[0, 1, 0, 0, 0, 0, 0], \n], 4), 2)",
+  "title": "Movie Theater Seating"
+}

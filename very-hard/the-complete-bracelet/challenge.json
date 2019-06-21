@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "v4fxXDcyqWx7FnX2s",
+  "code": "function completeBracelet(arr) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>A </span><strong><span>complete bracelet</span></strong><span> is an array with at least one subsequence (pattern) repeating </span><em><span>at least two times</span></em><span>, and </span><em><span>completely</span></em><span> - the subsequence cannot be cut-off at any point. The subsequence </span><strong><span>must have length two or greater</span></strong><span>.</span></p><p><strong><span>Complete bracelets</span></strong><span>:</span></p><pre><code>[1, 2, 3, 3, 1, 2, 3, 3]  // Pattern: [1, 2, 3, 3]\n\n[1, 2, 1, 2, 1, 2, 1, 2]  // Pattern: [1, 2] or [1, 2, 1, 2]\n\n[1, 1, 6, 1, 1, 7, 1, 1, 6, 1, 1, 7, 1, 1, 6, 1, 1, 7]  // Pattern: [1, 1, 6, 1, 1, 7]\n\n[4, 4, 3, 4, 4, 4, 4, 3, 4, 4]  // Pattern: [4, 4, 3, 4, 4]</code></pre><p><strong><span>Incomplete bracelets</span></strong><span>:</span></p><pre><code>[1, 2, 2, 2, 1, 2, 2, 2, 1]  // Incomplete (chopped off)\n\n[1, 1, 6, 1, 1, 7]  // Incomplete (subsequence repeats only once)</code></pre><p><span>Create a function that returns </span><code>true</code><span> if a bracelet is </span><strong><span>complete</span></strong><span>, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>completeBracelet([1, 2, 2, 1, 2, 2]) \u279e true\n\ncompleteBracelet([5, 1, 2, 2]) \u279e false\n\ncompleteBracelet([5, 5, 5]) \u279e false\n// potential pattern [5, 5] cut-off (patterns &gt;= 2)</code></pre><h3><span>Notes</span></h3><ul><li><span>Patterns must be at least two integers in length.</span></li><li><span>See </span><strong><span>Comments</span></strong><span> for a hint if you are stuck.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/v4fxXDcyqWx7FnX2s",
+  "tags": [
+    "arrays",
+    "loops",
+    "scope",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(completeBracelet([1, 2, 2, 1, 2, 2]), true)\nTest.assertEquals(completeBracelet([5, 1, 2, 2]), false)\nTest.assertEquals(completeBracelet([5, 5, 5]), false)\nTest.assertEquals(completeBracelet([5, 5, 7, 7]), false)\nTest.assertEquals(completeBracelet([5, 5, 7, 7, 5, 5, 7, 7]), true)\nTest.assertEquals(completeBracelet([1, 2, 1, 2, 1, 2]), true)\nTest.assertEquals(completeBracelet([1, 2, 2, 2, 1, 2, 2]), false)\nTest.assertEquals(completeBracelet([1, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2]), true)\nTest.assertEquals(completeBracelet([5, 2, 5, 5, 2, 5, 2, 5, 2, 2, 5, 2, 5, 2, 5, 5, 2, 5, 2, 5, 2, 2, 5, 2]), true)\nTest.assertEquals(completeBracelet([1, 2, 3, 3, 1, 2, 3, 3]), true)\nTest.assertEquals(completeBracelet([1, 2, 1, 2, 1, 2, 1, 2]), true)\nTest.assertEquals(completeBracelet([1, 1, 6, 1, 1, 7, 1, 1, 6, 1, 1, 7, 1, 1, 6, 1, 1, 7]), true)\nTest.assertEquals(completeBracelet([4, 4, 3, 4, 4, 4, 4, 3, 4, 4]), true)\nTest.assertEquals(completeBracelet([1, 2, 2, 2, 1, 2, 2, 2, 1]), false)\nTest.assertEquals(completeBracelet([1, 1, 6, 1, 1, 7]), false)\nTest.assertEquals(completeBracelet([5, 5]), false)",
+  "title": "The Complete Bracelet"
+}

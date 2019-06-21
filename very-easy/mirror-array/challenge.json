@@ -1,0 +1,16 @@
+{
+  "author_id": "jesusrq92",
+  "author_url": "https://edabit.com/user/K7k4qCJZ2G4q5hu8M",
+  "challenge_id": "GMh85YdL7kAutJ5YN",
+  "code": "function mirror(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Given an array, transform that array into a mirror.</span></p><h3><span>Examples</span></h3><pre><code>mirror([0, 2, 4, 6]) \u279e [0, 2, 4, 6, 4, 2, 0]\n\nmirror([1, 2, 3, 4, 5]) \u279e [1, 2, 3, 4, 5, 4, 3, 2, 1]\n\nmirror([3, 5, 6, 7, 8]) \u279e [3, 5, 6, 7, 8, 7, 6, 5, 3]</code></pre><h3><span>Notes</span></h3><p><span>Do not repeat the last item of the given array.</span></p>",
+  "source_url": "https://edabit.com/challenge/GMh85YdL7kAutJ5YN",
+  "tags": [
+    "arrays",
+    "logic",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(mirror([1,2,3,4,5]), [1,2,3,4,5,4,3,2,1])\nTest.assertSimilar(mirror([0,2,4,6]), [0,2,4,6,4,2,0])\nTest.assertSimilar(mirror([1,2,2,3,3,4]), [1,2,2,3,3,4,3,3,2,2,1])",
+  "title": "Mirror Array"
+}

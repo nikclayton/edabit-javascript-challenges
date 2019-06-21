@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "djNxjykvXvKuHvGPZ",
+  "code": "function convertBinary(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that transforms all letters from </span><code>[a,m]</code><span> to </span><code>0</code><span> and letters from </span><code>[n,z]</code><span> to </span><code>1</code><span> in a string.</span></p><h3><span>Examples</span></h3><pre><code>convertBinary(\"house\") \u279e \"01110\"\n\nconvertBinary(\"excLAIM\") \u279e \"0100000\"\n\nconvertBinary(\"moon\") \u279e \"0111\"</code></pre><h3><span>Notes</span></h3><p><span>Conversion should be case </span><strong><span>insensitive</span></strong><span> (see example #2).</span></p>",
+  "source_url": "https://edabit.com/challenge/djNxjykvXvKuHvGPZ",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(convertBinary(\"house\"), \"01110\")\nTest.assertEquals(convertBinary(\"excLAIM\"), \"0100000\")\nTest.assertEquals(convertBinary(\"moon\"), \"0111\")\nTest.assertEquals(convertBinary(\"MOOn\"), \"0111\")\nTest.assertEquals(convertBinary(\"topsyTurvy\"), \"1111111111\")",
+  "title": "Transforming Words into Binary Strings"
+}

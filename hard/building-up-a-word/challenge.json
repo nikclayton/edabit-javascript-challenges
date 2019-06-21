@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "P7SoyRXhQrhdZTFak",
+  "code": "function canBuild(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are given an input array of strings, ordered by ascending length.</span></p><p><span>Write a function that returns </span><code>true</code><span> if, for each pair of consecutive strings, the second string can be formed from the first by adding a </span><strong><span>single letter</span></strong><span> either at the </span><strong><span>beginning or end</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>canBuild([\"a\", \"at\", \"ate\", \"late\", \"plate\", \"plates\"]) \u279e true\n\ncanBuild([\"a\", \"at\", \"ate\", \"late\", \"plate\", \"plater\", \"platter\"]) \u279e false\n// \"platter\" is formed by adding \"t\" in the middle of \"plater\"\n\ncanBuild([\"it\", \"bit\", \"bite\", \"biters\"]) \u279e false\n// \"biters\" is formed by adding two letters - we can only add one\n\ncanBuild([\"mean\", \"meany\"]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Return </span><code>false</code><span> a word is </span><strong><span>NOT</span></strong><span> formed by adding </span><strong><span>only one letter</span></strong><span>.</span></li><li><span>Return </span><code>false</code><span> if the letter is added to the </span><strong><span>middle</span></strong><span> of the previous word.</span></li><li><span>Letters in tests will all be </span><strong><span>lower case</span></strong><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/P7SoyRXhQrhdZTFak",
+  "tags": [
+    "arrays",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canBuild(['a', 'at', 'ate', 'late', 'plate', 'plates']), true)\nTest.assertEquals(canBuild(['u', 'ut', 'but', 'butt', 'butte', 'butter', 'buttery']), true)\nTest.assertEquals(canBuild(['a', 'ka', 'ika', 'pika', 'pikac', 'pikach', 'pikachu']), true)\nTest.assertEquals(canBuild(['a', 'at', 'tat', 'stat', 'state', 'estate', 'estates']), true)\nTest.assertEquals(canBuild(['o', 'ol', 'old', 'bold', 'bolde', 'mbolde', 'embolde', 'embolden']), true)\nTest.assertEquals(canBuild(['mean', 'meany']), true)\nTest.assertEquals(canBuild(['at', 'cat', 'cate', 'cater', 'caters']), true)\nTest.assertEquals(canBuild(['a', 'at', 'ate', 'late', 'plate', 'plater', 'platter']), false)\nTest.assertEquals(canBuild(['i', 'it', 'bit', 'bite', 'biters']), false)\nTest.assertEquals(canBuild(['e', 'tea', 'teac', 'teach', 'teache', 'teacher', 'teachers']), false)\nTest.assertEquals(canBuild(['m', 'ma', 'man', 'many', 'meany']), false)\nTest.assertEquals(canBuild(['o', 'op', 'top', 'stop', 'stops', 'stoops']), false)\nTest.assertEquals(canBuild(['air', 'air', 'airy', 'fairy']), false)\nTest.assertEquals(canBuild(['men', 'mean', 'meany']), false)",
+  "title": "Building up a Word"
+}

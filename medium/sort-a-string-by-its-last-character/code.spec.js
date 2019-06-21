@@ -1,8 +1,6 @@
 const sortByLast = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sortByLast('herb camera dynamic')).toEqual('camera herb dynamic');
         expect(sortByLast('stab traction artist approach')).toEqual('stab approach traction artist');

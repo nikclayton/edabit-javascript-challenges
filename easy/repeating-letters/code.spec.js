@@ -1,8 +1,6 @@
 const doubleChar = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(doubleChar('String')).toEqual('SSttrriinngg');
         expect(doubleChar('Hello World!')).toEqual('HHeelllloo  WWoorrlldd!!');

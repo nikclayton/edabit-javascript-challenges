@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bJJTkKdyBwxWy4J3o",
+  "code": "function tallestSkyscraper(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A city skyline can be represented as a 2-D array with </span><code>1</code><span>s representing buildings. In the example below, the height of the tallest building is </span><strong><span>4</span></strong><span> (second-most right column).</span></p><pre><code>[[0, 0, 0, 0, 0, 0],\n[0, 0, 0, 0, 1, 0],\n[0, 0, 1, 0, 1, 0],\n[0, 1, 1, 1, 1, 0],\n[1, 1, 1, 1, 1, 1]]</code></pre><p><span>Create a function that takes a </span><strong><span>skyline</span></strong><span> (2-D array of 0's and 1's) and returns the height of the tallest skyscraper.</span></p><h3><span>Examples</span></h3><pre><code>tallestSkyscraper([\n  [0, 0, 0, 0],\n  [0, 1, 0, 0],\n  [0, 1, 1, 0],\n  [1, 1, 1, 1]\n]) \u279e 3\n\ntallestSkyscraper([\n  [0, 1, 0, 0],\n  [0, 1, 0, 0],\n  [0, 1, 1, 0],\n  [1, 1, 1, 1]\n]) \u279e 4\n\ntallestSkyscraper([\n  [0, 0, 0, 0],\n  [0, 0, 0, 0],\n  [1, 1, 1, 0],\n  [1, 1, 1, 1]\n]) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/bJJTkKdyBwxWy4J3o",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertSimilar(tallestSkyscraper([\n\t[0, 0, 0, 0],\n\t[0, 1, 0, 0],\n\t[0, 1, 1, 0],\n\t[1, 1, 1, 1]\n]), 3)\n\nTest.assertSimilar(tallestSkyscraper([\n\t[0, 1, 0, 0],\n\t[0, 1, 0, 0],\n\t[0, 1, 1, 0],\n\t[1, 1, 1, 1]\n]), 4)\n\nTest.assertSimilar(tallestSkyscraper([\n\t[0, 0, 0, 0],\n\t[0, 0, 0, 0],\n\t[1, 1, 1, 0],\n\t[1, 1, 1, 1]\n]), 2)\n\nTest.assertSimilar(tallestSkyscraper([\n\t[0, 0, 0, 1],\n\t[0, 0, 0, 1],\n\t[1, 1, 1, 1],\n\t[1, 1, 1, 1]\n]), 4)\n\nTest.assertSimilar(tallestSkyscraper([\n\t[0, 0, 0, 0, 0, 0],\n\t[0, 0, 0, 0, 0, 0],\n\t[1, 1, 1, 1, 0, 0],\n\t[1, 1, 1, 1, 1, 1]\n]), 2)\n\nTest.assertSimilar(tallestSkyscraper([\n\t[0, 1, 0, 0, 0, 0],\n\t[0, 1, 0, 0, 0, 0],\n\t[0, 1, 0, 0, 0, 0],\n\t[1, 1, 1, 1, 0, 0],\n\t[1, 1, 1, 1, 1, 1]\n]), 5)",
+  "title": "Tallest Skyscraper"
+}

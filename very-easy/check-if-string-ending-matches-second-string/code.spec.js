@@ -1,8 +1,6 @@
 const checkEnding = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(checkEnding('abc', 'bc')).toEqual(true);
         expect(checkEnding('abc', 'd')).toEqual(false);

@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "qMr6wYGr6NaXAPQGF",
+  "code": "function divisible(num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes an integer and returns </span><code>true</code><span> if it's divisible by 100, otherwise return </span><code>false</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>divisible(1) \u279e false\n\ndivisible(1000) \u279e true\n\ndivisible(100) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/qMr6wYGr6NaXAPQGF",
+  "tags": [
+    "algebra",
+    "conditions",
+    "math"
+  ],
+  "tests": "Test.assertEquals(divisible(1), false)\nTest.assertEquals(divisible(100), true)\nTest.assertEquals(divisible(1000), true)\nTest.assertEquals(divisible(111000), true)\nTest.assertEquals(divisible(-1), false, \"Don't forget negatives\")\nTest.assertEquals(divisible(0), true, \"Cover the 0 cases\")\nTest.assertEquals(divisible(-100), true, \"-100 is divisible by 100\")",
+  "title": "Multiple of 100"
+}

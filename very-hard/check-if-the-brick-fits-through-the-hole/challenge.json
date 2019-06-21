@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ixdXLyopP7c4aPXqx",
+  "code": "// (a,b,c) -- dimensions of the brick\n// (w,h) -- dimensions of the hole\nfunction doesBrickFit(a,b,c, w,h) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write the function that takes three dimensions of a brick: height(a), width(b) and depth(c) and returns </span><code>true</code><span> if this brick can fit into a hole with the width(w) and height(h).</span></p><h3><span>Examples</span></h3><pre><code>doesBrickFit(1, 1, 1, 1, 1) \u279e true\n\ndoesBrickFit(1, 2, 1, 1, 1) \u279e true\n\ndoesBrickFit(1, 2, 2, 1, 1) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>You can turn the brick with any side towards the hole.</span></li><li><span>We assume that the brick fits if its sizes equal the ones of the hole (i.e. brick size should be less than or equal to the size of the hole, not strickly less).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ixdXLyopP7c4aPXqx",
+  "tags": [
+    "conditions",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(doesBrickFit(1,1,1, 1,1), true, \"cube into square\")\nTest.assertEquals(doesBrickFit(1,2,1, 1,1), true)\nTest.assertEquals(doesBrickFit(1,2,2, 1,1), false)\nTest.assertEquals(doesBrickFit(1,2,2, 1,2), true)\nTest.assertEquals(doesBrickFit(1,2,2, 2,1), true)\nTest.assertEquals(doesBrickFit(2,2,2, 1,2), false)",
+  "title": "Check If the Brick Fits through the Hole"
+}

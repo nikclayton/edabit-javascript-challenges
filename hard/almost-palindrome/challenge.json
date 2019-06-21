@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rm5MSuzTPGr4t3X7h",
+  "code": "function almostPalindrome(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A string is an </span><strong><span>almost-palindrome</span></strong><span> if, by changing </span><strong><span>only one character</span></strong><span>, you can make it a palindrome. Create a function that returns </span><code>true</code><span> if a string is an </span><strong><span>almost-palindrome</span></strong><span> and false otherwise.</span></p><h3><span>Examples</span></h3><pre><code>almostPalindrome(\"abcdcbg\") \u279e true\n// Transformed to \"abcdcba\" by changing \"g\" to \"a\".\n\nalmostPalindrome(\"abccia\") \u279e true\n// Transformed to \"abccba\" by changing \"i\" to \"a\".\n\nalmostPalindrome(\"abcdaaa\") \u279e false\n// Can't be transformed to a palindrome in exactly 1 turn.\n\nalmostPalindrome(\"1234312\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Return </span><strong><span>false</span></strong><span> if the string is </span><strong><span>already a palindrome</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/rm5MSuzTPGr4t3X7h",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(almostPalindrome(\"abcdcbg\"), true)\nTest.assertEquals(almostPalindrome(\"abccia\"), true)\nTest.assertEquals(almostPalindrome(\"abcdaaa\"), false)\nTest.assertEquals(almostPalindrome(\"gggfgig\"), true)\nTest.assertEquals(almostPalindrome(\"gggffff\"), false)\nTest.assertEquals(almostPalindrome(\"GIGGG\"), true)\nTest.assertEquals(almostPalindrome(\"ggggi\"), true)\nTest.assertEquals(almostPalindrome(\"ggggg\"), false, 'Should return false if already palindrome.')\nTest.assertEquals(almostPalindrome(\"gggfggg\"), false, 'Should return false if already palindrome.')\nTest.assertEquals(almostPalindrome(\"1234312\"), false)",
+  "title": "Almost Palindrome"
+}

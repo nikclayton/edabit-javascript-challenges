@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TwxkHyzwiZyHhcTgu",
+  "code": "function completelyFilled(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that checks if the box is completely filled with the asterisk symbol </span><code>*</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>completelyFilled([\n  \"#####\",\n  \"#***#\",\n  \"#***#\",\n  \"#***#\",\n  \"#####\"\n]) \u279e true\n\ncompletelyFilled([\n  \"#####\",\n  \"#* *#\",\n  \"#***#\",\n  \"#***#\",\n  \"#####\"\n]) \u279e false\n\ncompletelyFilled([\n  \"###\",\n  \"#*#\",\n  \"###\n]) \u279e true\n\ncompletelyFilled([\n  \"##\",\n  \"##\"\n]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Boxes of size </span><code>n &lt;= 2</code><span> are considered automatically filled (see example #4).</span></p>",
+  "source_url": "https://edabit.com/challenge/TwxkHyzwiZyHhcTgu",
+  "tags": [
+    "formatting",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(completelyFilled([\n\t\t\"#\"\n\t]), true)\nTest.assertEquals(completelyFilled([\n\t\t\"##\", \n\t\t\"##\"\n\t]), true)\nTest.assertEquals(completelyFilled([\n\t\t\"###\", \n\t\t\"#*#\", \n\t\t\"###\"\n\t]), true)\nTest.assertEquals(completelyFilled([\n\t\t\"######\", \n\t\t\"#****#\", \n\t\t\"#****#\", \n\t\t\"#****#\", \n\t\t\"#****#\", \n\t\t\"######\"\n\t]), true)\nTest.assertEquals(completelyFilled([\n\t\t\"#####\", \n\t\t\"#***#\", \n\t\t\"#***#\", \n\t\t\"#***#\", \n\t\t\"#####\"\n\t]), true)\nTest.assertEquals(completelyFilled([\n\t\t\"#####\", \n\t\t\"#* *#\", \n\t\t\"#***#\", \n\t\t\"#***#\", \n\t\t\"#####\"\n\t]), false)\nTest.assertEquals(completelyFilled([\n\t\t\"######\", \n\t\t\"#* **#\", \n\t\t\"#****#\", \n\t\t\"#* **#\", \n\t\t\"#*** #\", \n\t\t\"######\"\n\t]), false)\nTest.assertEquals(completelyFilled([\n\t\t\"######\", \n\t\t\"#* **#\", \n\t\t\"#* **#\", \n\t\t\"#* **#\", \n\t\t\"#* **#\", \n\t\t\"######\"\n\t]), false)",
+  "title": "Box Completely Filled?"
+}

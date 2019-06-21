@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "eoFDKdjN9tFXWcEQi",
+  "code": "function breakPoint(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A number has a </span><strong><span>breakpoint</span></strong><span> if it can be split in a way where the digits on the left side and the digits on the right side sum to the same number.</span></p><p><span>For instance, the number </span><em><span>35190</span></em><span> can be sliced between the digits </span><em><span>351</span></em><span> and </span><em><span>90</span></em><span>, since </span><em><span>3 + 5 + 1 = 9</span></em><span> and </span><em><span>9 + 0 = 9</span></em><span>. On the other hand, the number </span><em><span>555</span></em><span> does </span><strong><span>not</span></strong><span> have a </span><strong><span>breakpoint</span></strong><span> (you must split </span><strong><span>between</span></strong><span> digits).</span></p><p><span>Create a function that returns </span><code>true</code><span> if a number has a breakpoint, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>breakPoint(159780) \u279e true\n\nbreakPoint(112) \u279e true\n\nbreakPoint(1034) \u279e true\n\nbreakPoint(10) \u279e false\n\nbreakPoint(343)  \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Read each digit as only one number.</span></li><li><span>Check the resources tab for a hint.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/eoFDKdjN9tFXWcEQi",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(breakPoint(159780), true)\nTest.assertEquals(breakPoint(112), true)\nTest.assertEquals(breakPoint(10), false)\nTest.assertEquals(breakPoint(1034), true)\nTest.assertEquals(breakPoint(343), false)\nTest.assertEquals(breakPoint(1119444), true)\nTest.assertEquals(breakPoint(6666), true)\nTest.assertEquals(breakPoint(9777771), false)",
+  "title": "Break Point"
+}

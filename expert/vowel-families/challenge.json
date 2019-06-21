@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "nxSeD3tvqQkumGNid",
+  "code": "function sameVowelGroup(w) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Write a function that select all words that shares the same vowels (in any ordering) as the first word in the array.</span></p><h3><span>Examples</span></h3><pre><code>sameVowelGroup([\"toe\", \"ocelot\", \"maniac\"]) \u279e [\"toe\", \"ocelot\"]\n\nsameVowelGroup([\"many\", \"carriage\", \"emit\", \"apricot\", \"animal\"]) \u279e [\"many\"]\n\nsameVowelGroup([\"hoops\", \"chuff\", \"bot\", \"bottom\"]) \u279e [\"hoops\", \"bot\", \"bottom\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Words will contain only </span><strong><span>lowercase letters</span></strong><span>, and </span><strong><span>may contain whitespaces</span></strong><span>.</span></li><li><span>Frequency </span><strong><span>does not</span></strong><span> matter (e.g. if \"loopy\", then you can include words with any number of o's, so long as they </span><strong><span>only</span></strong><span> contain o's, and not any other vowels).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/nxSeD3tvqQkumGNid",
+  "tags": [
+    "objects",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(sameVowelGroup([\"hoops\", \"chuff\", \"bot\", \"bottom\"]), \n[\"hoops\", \"bot\", \"bottom\"])\nTest.assertSimilar(sameVowelGroup([\"crop\", \"nomnom\", \"bolo\", \"yodeller\"]), \n[\"crop\", \"nomnom\", \"bolo\"])\nTest.assertSimilar(sameVowelGroup([\"semantic\", \"aimless\", \"beautiful\", \"meatless icecream\"]), \n[\"semantic\", \"aimless\", \"meatless icecream\"])\nTest.assertSimilar(sameVowelGroup([\"many\", \"carriage\", \"emit\", \"apricot\", \"animal\"]), \n[\"many\"])\nTest.assertSimilar(sameVowelGroup([\"toe\", \"ocelot\", \"maniac\"]), [\"toe\", \"ocelot\"])\nTest.assertSimilar(sameVowelGroup([\"a\", \"apple\", \"flat\", \"map\", \"shark\"]), [\"a\", \"flat\", \"map\", \"shark\"])\nTest.assertSimilar(sameVowelGroup([\"a\", \"aa\", \"ab\", \"abc\", \"aaac\", \"abe\"]), [\"a\", \"aa\", \"ab\", \"abc\", \"aaac\"])",
+  "title": "Vowel Families"
+}

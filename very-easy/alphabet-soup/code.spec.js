@@ -1,8 +1,6 @@
 const AlphabetSoup = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(AlphabetSoup('hello')).toEqual('ehllo');
         expect(AlphabetSoup('edabit')).toEqual('abdeit');

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "LzmaSDaSTn7zSwe2d",
+  "code": "function largerThanRight(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that retrieves every number that is </span><strong><span>strictly larger</span></strong><span> than every number that follows it.</span></p><h3><span>Examples</span></h3><pre><code>largerThanRight([3, 13, 11, 2, 1, 9, 5]) \u279e [13, 11, 9, 5]\n// 13 is larger than all numbers to its right, etc.\n\nlargerThanRight([5, 5, 5, 5, 5, 5]) \u279e [5]\n// Must be strictly larger.\n// Always include the last number.\n\nlargerThanRight([5, 9, 7, 8]) \u279e [9, 7, 8]</code></pre><h3><span>Notes</span></h3><p><span>The last number in an array is trivially strictly larger than all numbers that follow it (no numbers follow it).</span></p>",
+  "source_url": "https://edabit.com/challenge/LzmaSDaSTn7zSwe2d",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(largerThanRight([3, 13, 11, 2, 1, 9, 5]), [13, 11, 9, 5])\nTest.assertSimilar(largerThanRight([9, 8, 7, 6]), [9, 8, 7, 6])\nTest.assertSimilar(largerThanRight([1, 2, 3, 4]), [4])\nTest.assertSimilar(largerThanRight([5, 9, 8, 7]), [9, 8, 7])\nTest.assertSimilar(largerThanRight([5, 5, 5, 5, 5]),[5])",
+  "title": "Larger than All Numbers to Their Right"
+}

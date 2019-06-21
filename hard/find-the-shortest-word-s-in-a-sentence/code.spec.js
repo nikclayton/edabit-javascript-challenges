@@ -1,8 +1,6 @@
 const findShortestWords = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(findShortestWords('Strive not to be a success, but rather to be of value.')).toEqual(['a']);
         expect(findShortestWords('You miss 100% of the shots you don’t take.')).toEqual(['of']);

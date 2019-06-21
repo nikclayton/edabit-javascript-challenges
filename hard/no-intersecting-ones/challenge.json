@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "dPAND8kBRGqqbExiR",
+  "code": "function noIntersectingOnes(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>no-intersecting ones matrix</span></strong><span> is one where no two ones exist on the same row or column.</span></p><p><span>To illustrate:</span></p><pre><code>[\n  [1, 0, 0, 0, 0],\n  [0, 1, 0, 0, 0],\n  [0, 0, 0, 1, 0],\n  [0, 0, 0, 0, 0],\n  [0, 0, 1, 0, 0]\n]</code></pre><p><span>The array below is </span><strong><span>not</span></strong><span> a non-intersecting ones matrix:</span></p><pre><code>[\n  [1, 0, 0, 0, 0],\n  [0, 1, 0, 0, 0],\n  [0, 0, 0, 1, 0],\n  [0, 1, 0, 0, 0],\n  [0, 0, 0, 0, 0]\n]\n\n// Column 2 has two 1s.</code></pre><p><span>Write a function that returns </span><code>true</code><span> if a 2D matrix is a </span><strong><span>no-intersecting ones matrix</span></strong><span> and false otherwise.</span></p><h3><span>Examples</span></h3><pre><code>noIntersectingOnes([\n  [0, 1],\n  [1, 0]\n]) \u279e true\n\nnoIntersectingOnes([\n  [1, 1],\n  [0, 0]\n]) \u279e false\n\nnoIntersectingOnes([\n  [0, 0, 0, 1],\n  [1, 0, 0, 0],\n  [0, 1, 0, 0]\n]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/dPAND8kBRGqqbExiR",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(noIntersectingOnes([\n[0, 1], \n[1, 0]\n]), true)\n\nTest.assertEquals(noIntersectingOnes([\n[1, 1], \n[0, 0]\n]), false)\n\nTest.assertEquals(noIntersectingOnes([\n[0, 0, 0, 1], \n[1, 0, 0, 0], \n[0, 1, 0, 0]\n]), true)\n\nTest.assertEquals(noIntersectingOnes([\n[0, 0, 0, 1], \n[1, 0, 0, 0], \n[0, 0, 0, 1]\n]), false)\n\nTest.assertEquals(noIntersectingOnes([\n[0, 0, 1, 1], \n[0, 0, 0, 0], \n[0, 0, 0, 0]\n]), false)\n\nTest.assertEquals(noIntersectingOnes([\n[0, 0, 0, 0], \n[0, 0, 0, 0], \n[0, 0, 0, 0]\n]), true)\n\nTest.assertEquals(noIntersectingOnes([\n[1, 0, 0], \n[0, 1, 0], \n[0, 0, 1]\n]), true)\n\nTest.assertEquals(noIntersectingOnes([\n[1, 0, 0, 0, 0], \n[0, 1, 0, 0, 0], \n[0, 0, 0, 1, 0], \n[0, 0, 0, 0, 0], \n[0, 0, 1, 0, 0]\n]), true)\n\nTest.assertEquals(noIntersectingOnes([\n[1, 0, 0, 0, 0], \n[0, 1, 0, 0, 0], \n[0, 0, 0, 1, 0], \n[0, 1, 0, 0, 0], \n[0, 0, 0, 0, 0]\n]), false)",
+  "title": "No Intersecting Ones"
+}

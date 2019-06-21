@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ifZ3cDoGZN7gNtRWZ",
+  "code": "function mysteryFunc(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>\"A4B5C2\" \u279e \"AAAABBBBBCC\"\n\n\"C2F1E5\" \u279e \"CCFEEEEE\"\n\n\"T4S2V2\" \u279e \"TTTTSSVV\"\n\n\"A1B2C3D4\" \u279e \"ABBCCCDDDD\"</code></pre><h3><span>Notes</span></h3><p><span>If you get stuck, check the </span><strong><span>Comments</span></strong><span> for help.</span></p>",
+  "source_url": "https://edabit.com/challenge/ifZ3cDoGZN7gNtRWZ",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(mysteryFunc(\"A4B5C2\"), \"AAAABBBBBCC\")\nTest.assertEquals(mysteryFunc(\"C2F1E5\"), \"CCFEEEEE\")\nTest.assertEquals(mysteryFunc(\"T4S2V2\"), \"TTTTSSVV\")\nTest.assertEquals(mysteryFunc(\"A1B2C3D4\"), \"ABBCCCDDDD\")",
+  "title": "Reverse Coding Challenge #1"
+}

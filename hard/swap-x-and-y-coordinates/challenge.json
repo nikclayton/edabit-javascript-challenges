@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "tu8YN5dpi56vWozDS",
+  "code": "function swapXY(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that swaps the X and Y coordinates in a string.</span></p><h3><span>Examples</span></h3><pre><code>swapXY(\"(1, 2), (3, 4)\") \u279e \"(2, 1), (4, 3)\"\n\nswapXY(\"(11, 23), (43, 99)\") \u279e \"(23, 11), (99, 43)\"\n\nswapXY(\"(-5, -3), (7, 4)\") \u279e \"(-3, -5), (4, 7)\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Some numbers have multiple digits.</span></li><li><span>Some numbers will be negative.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/tu8YN5dpi56vWozDS",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(swapXY(\"(1, 2), (3, 4)\"), \"(2, 1), (4, 3)\")\nTest.assertEquals(swapXY(\"(11, 23), (43, 99)\"), \"(23, 11), (99, 43)\")\nTest.assertEquals(swapXY(\"(-5, -3), (7, 4)\"), \"(-3, -5), (4, 7)\")\nTest.assertEquals(swapXY(\"(-1095, -321), (0, -88)\"), \"(-321, -1095), (-88, 0)\")",
+  "title": "Swap X and Y Coordinates"
+}

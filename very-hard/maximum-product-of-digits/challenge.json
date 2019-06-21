@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "79WaA8XtaACx8FND5",
+  "code": "function maxProduct(n) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that returns all numbers </span><strong><span>less than or equal to N</span></strong><span> with the maximum product of digits.</span></p><h3><span>Examples</span></h3><pre><code>maxProduct(8) \u279e [8]\n\nmaxProduct(27) \u279e [27]\n\nmaxProduct(211) \u279e [99, 199]\n\nmaxProduct(9578) \u279e [8999]</code></pre><h3><span>Notes</span></h3><p><span>Search for numbers in the range: </span><code>[0, n]</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/79WaA8XtaACx8FND5",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(maxProduct(8), [8])\nTest.assertSimilar(maxProduct(21), [9, 19])\nTest.assertSimilar(maxProduct(26), [26])\nTest.assertSimilar(maxProduct(27), [27])\nTest.assertSimilar(maxProduct(43), [39])\nTest.assertSimilar(maxProduct(90), [89])\nTest.assertSimilar(maxProduct(199), [99, 199])\nTest.assertSimilar(maxProduct(211), [99, 199])\nTest.assertSimilar(maxProduct(455), [399])\nTest.assertSimilar(maxProduct(917), [899])\nTest.assertSimilar(maxProduct(1578), [999])\nTest.assertSimilar(maxProduct(9578), [8999])\nTest.assertSimilar(maxProduct(11111), [9999])\nTest.assertSimilar(maxProduct(41111), [39999])",
+  "title": "Maximum Product of Digits"
+}

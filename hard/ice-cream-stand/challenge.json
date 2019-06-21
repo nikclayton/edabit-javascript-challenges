@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aJHPftoXzexJMcoPf",
+  "code": "function profit(A, B) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>For this question, treat people as existing only on integers.</span></p><p><span>Two ice cream stands: </span><code>A</code><span> and </span><code>B</code><span> each occupy a spot on the beach, from </span><code>[0, 100]</code><span>. Their positions are represented with coordinates </span><code>(A, B)</code><span>. One position could be:</span></p><pre><code>[32, 69]</code></pre><p><span>People are distributed equally from </span><code>[0, 100]</code><span>, and will purchase ice cream  from the stand closest to them.</span></p><p><span>For </span><code>(A, B)</code><span> above, we have that  everyone from</span><code>[0, 50]</code><span> goes to </span><code>A</code><span> and everyone from </span><code>[51, 100]</code><span> goes to </span><code>B</code><span>. People on 50 will go to </span><code>A</code><span> because </span><strong><span>|50 - 32| = 18 &lt; 19 = |50 - 69|</span></strong><span>, and people on 51 will go to </span><code>B</code><span> because </span><strong><span>|51 - 69| = 18 &lt; 19 = |51 - 32| </span></strong><span>.</span></p><pre><code>profit = total number of integers claimed by the ice cream stand</code></pre><p><span>Write a function that calculates the profit for each ice cream stand based on their position. For the example above,  </span><code>profit(32, 69) = [51, 50]</code><span>.</span></p><p><span>Disregard ties. For instance, if </span><code>(A, B) = (49, 51)</code><span>, disregard the person on </span><code>50</code><span>. Profit is equally distributed in this case, with </span><code>profit(49, 51) = [50, 50]</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>profit(32, 69) \u279e [51, 50]\n\nprofit(49, 51) \u279e [50, 50]\n\nprofit(0, 1) \u279e [1, 100]</code></pre><h3><span>Notes</span></h3><ul><li><code>A</code><span> &lt; </span><code>B</code><span> will always be true.</span></li><li><code>A</code><span> and </span><code>B</code><span> will never occupy the same spot.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/aJHPftoXzexJMcoPf",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(profit(32, 69), [51, 50])\nTest.assertSimilar(profit(49, 51), [50, 50])\nTest.assertSimilar(profit(25, 26), [26, 75])\nTest.assertSimilar(profit(24, 26), [25, 75])\nTest.assertSimilar(profit(0, 1), [1, 100])\nTest.assertSimilar(profit(3, 6), [5, 96])\nTest.assertSimilar(profit(55, 65), [60, 40])\nTest.assertSimilar(profit(25, 75), [50, 50])",
+  "title": "Ice Cream Stand"
+}

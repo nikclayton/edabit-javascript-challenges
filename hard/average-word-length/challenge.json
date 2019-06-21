@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ACeSvyhYe7Qrtsk5R",
+  "code": "function averageWordLength(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes in a sentence and returns the average length of each word in that sentence. Return a float value that is rounded to two decimal places.</span></p><h3><span>Examples</span></h3><pre><code>averageWordLength(\"A B C.\") \u279e 1.00\n\naverageWordLength(\"What a gorgeous day.\") \u279e 4.00\n\naverageWordLength(\"Dude, this is so awesome!\") \u279e 3.80</code></pre><h3><span>Notes</span></h3><p><span>Ignore punctuation when counting the length of a word.</span></p>",
+  "source_url": "https://edabit.com/challenge/ACeSvyhYe7Qrtsk5R",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(averageWordLength('A B C.'), 1.00)\nTest.assertEquals(averageWordLength('What a gorgeous day.'), 4.00)\nTest.assertEquals(averageWordLength('Dude, this is so awesome!'), 3.80)\nTest.assertEquals(averageWordLength('Working on my tan right now.'), 3.67)\nTest.assertEquals(averageWordLength('Having a blast partying in Las Vegas.'), 4.29)\nTest.assertEquals(averageWordLength('Have you ever wondered what Saturn looks like?'), 4.75)\nTest.assertEquals(averageWordLength('I just planted a young oak tree, wonder how tall it will grow in a few years?'), 3.47)",
+  "title": "Average Word Length"
+}

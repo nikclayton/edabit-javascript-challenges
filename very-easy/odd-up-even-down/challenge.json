@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "dWNPtNeQgyn6mS8FA",
+  "code": "function transform(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that goes through the array, </span><strong><span>incrementing (+1)</span></strong><span> for each odd number and </span><strong><span>decrementing (-1)</span></strong><span> for each even number.</span></p><h3><span>Examples</span></h3><pre><code>transform([1, 2, 3, 4, 5]) \u279e [2, 1, 4, 3, 6]\n\ntransform([3, 3, 4, 3]) \u279e [4, 4, 3, 4]\n\ntransform([2, 2, 0, 8, 10]) \u279e [1, 1, -1, 7, 9]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/dWNPtNeQgyn6mS8FA",
+  "tags": [
+    "arrays",
+    "control_flow",
+    "language_fundamentals",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(transform([1, 2, 3, 4, 5]), [2, 1, 4, 3, 6])\nTest.assertSimilar(transform([3, 3, 4, 3]), [4, 4, 3, 4])\nTest.assertSimilar(transform([2, 2, 0, 8, 10]), [1, 1, -1, 7, 9])\nTest.assertSimilar(transform([9, 13, 15, 5, 2, 11]), [10, 14, 16, 6, 1, 12])",
+  "title": "Odd Up, Even Down"
+}

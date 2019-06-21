@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hscAGyt4iNZ3PKy3g",
+  "code": "function chatroomStatus(users) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that returns the number of users in a chatroom based on the following rules:</span></p><ol><li><span>If there is no one, return </span><code>\"no one online\"</code><span>.</span></li><li><span>If there 1 person, return </span><code>\"[user1] online\"</code><span>.</span></li><li><span>If there are 2 people, return </span><code>[user 1] and [user 2]  online\"</code><span>.</span></li><li><span>If there are </span><code>n&gt;2</code><span> people, return the first two names and add </span><code>\"and n-2 more online\"</code><span>.</span></li></ol><p><span>For example, if there are 5 users, return: </span><code>\"[user1], [user2] and 3 more online\"</code></p><h3><span>Examples</span></h3><pre><code>chatroom([]) \u279e \"no one online\"\n\nchatroom([\"paRIE_to\"]) \u279e \"parIE_to online\"\n\nchatroom([\"s234f\", \"mailbox2\"]) \u279e \"s234f and mailbox2 online\"\n\nchatroom([\"pap_ier44\", \"townieBOY\", \"panda321\", \"motor_bike5\", \"sandwichmaker833\", \"violinist91\"])\n\u279e \"pap_ier44, townieBOY and 4 more online\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/hscAGyt4iNZ3PKy3g",
+  "tags": [
+    "arrays",
+    "control_flow"
+  ],
+  "tests": "Test.assertSimilar(chatroomStatus([]), \"no one online\")\nTest.assertSimilar(chatroomStatus([\"becky325\"]), \"becky325 online\")\nTest.assertSimilar(chatroomStatus([\"becky325\", \"malcolm888\"]), \"becky325 and malcolm888 online\")\nTest.assertSimilar(chatroomStatus([\"becky325\", \"malcolm888\", \"fah32fa\"]), \"becky325, malcolm888 and 1 more online\")\nTest.assertSimilar(chatroomStatus([\"paRIE_to\"]), \"paRIE_to online\")\nTest.assertSimilar(chatroomStatus([\"s234f\", \"mailbox2\"]), \"s234f and mailbox2 online\")\nTest.assertSimilar(chatroomStatus([\"pap_ier44\", \"townieBOY\", \"panda321\", \"motor_bike5\", \"sandwichmaker833\", \"violinist91\"]), \"pap_ier44, townieBOY and 4 more online\")",
+  "title": "Chat Room Status"
+}

@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Hx8tidhX6gXNK56aF",
+  "code": "function canComplete(initial, word) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>An input string can be completed if additional letters can be added and no letters need to be taken away to match the word. Furthermore, the order of the letters in the input string must be the same as the order of letters in the final word.</span></p><p><span>Create a function that, given an input string, determines if the word can be completed.</span></p><h3><span>Examples</span></h3><pre><code>canComplete(\"butl\", \"beautiful\") \u279e true\n// We can add \"ea\" between \"b\" and \"u\", and \"ifu\" between \"t\" and \"l\".\n\ncanComplete(\"butlz\", \"beautiful\") \u279e false\n// \"z\" does not exist in the word beautiful.\n\ncanComplete(\"tulb\", \"beautiful\") \u279e false\n// Although \"t\", \"u\", \"l\" and \"b\" all exist in \"beautiful\", they are incorrectly ordered.\n\ncanComplete(\"bbutl\", \"beautiful\") \u279e false\n// Too many \"b\"s, beautiful has only 1.</code></pre><h3><span>Notes</span></h3><p><span>Both string input and word will be lowercased.</span></p>",
+  "source_url": "https://edabit.com/challenge/Hx8tidhX6gXNK56aF",
+  "tags": [
+    "loops",
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canComplete('butl', 'beautiful'), true)\nTest.assertEquals(canComplete('butlz', 'beautiful'), false, \"'z' does not exist in the word `beautiful`\")\nTest.assertEquals(canComplete('tulb', 'beautiful'), false, \"although 't', 'u', 'l' and 'b' incorrectly ordered\")\nTest.assertEquals(canComplete('bbutl', 'beautiful'), false, \"too many 'b's, beautiful has only 1\")\nTest.assertEquals(canComplete('sg', 'something'), true)\nTest.assertEquals(canComplete('sgi', 'something'), false, \"out of order\")\nTest.assertEquals(canComplete('sing', 'something'), true)\nTest.assertEquals(canComplete('siing', 'something'), false, \"too many i's\")",
+  "title": "Complete the Word"
+}

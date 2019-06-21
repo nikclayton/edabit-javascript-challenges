@@ -1,8 +1,6 @@
 const alphabetIndex = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(alphabetIndex('Wednesday is hump day, but has anyone asked the camel if he’s happy about it?')).toEqual('23 5 4 14 5 19 4 1 25 9 19 8 21 13 16 4 1 25 2 21 20 8 1 19 1 14 25 15 14 5 1 19 11 5 4 20 8 5 3 1 13 5 12 9 6 8 5 19 8 1 16 16 25 1 2 15 21 20 9 20');
         expect(alphabetIndex('Check back tomorrow; I will see if the book has arrived.')).toEqual('3 8 5 3 11 2 1 3 11 20 15 13 15 18 18 15 23 9 23 9 12 12 19 5 5 9 6 20 8 5 2 15 15 11 8 1 19 1 18 18 9 22 5 4');

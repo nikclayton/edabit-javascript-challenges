@@ -1,8 +1,6 @@
 const counterpartCharCode = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(counterpartCharCode('a')).toEqual(65);
         expect(counterpartCharCode('A')).toEqual(97);

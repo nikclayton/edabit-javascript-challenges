@@ -1,8 +1,6 @@
 const getPrimeFactorization = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(getPrimeFactorization(2)).toEqual([[2, 1]]);
         expect(getPrimeFactorization(4)).toEqual([[2, 2]]);

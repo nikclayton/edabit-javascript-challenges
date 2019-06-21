@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "niTEsddTdE4gs4YGX",
+  "code": "function transformUpvotes(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that transforms a string of upvote counts into an array of numbers. Each </span><code>k</code><span> represents a thousand.</span></p><h3><span>Examples</span></h3><pre><code>transformUpvotes(\"6.8k 13.5k\") \u279e [6800, 13500]\n\ntransformUpvotes(\"5.5k 8.9k 32\") \u279e [5500, 8900, 32]\n\ntransformUpvotes(\"20.3k 3.8k 7.7k 992\") \u279e [20300, 3800, 7700, 992]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/niTEsddTdE4gs4YGX",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(transformUpvotes('20.3k 3.8k 7.7k 992'), [20300, 3800, 7700, 992])\nTest.assertSimilar(transformUpvotes('5.5k 8.9k 32'), [5500, 8900, 32])\nTest.assertSimilar(transformUpvotes('6.8k 13.5k'), [6800, 13500])",
+  "title": "Transform Upvotes"
+}

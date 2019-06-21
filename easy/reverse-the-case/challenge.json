@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "PTvYKkvf7oytHmJFm",
+  "code": "function reverseCase(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.</span></p><h3><span>Examples</span></h3><pre><code>reverseCase(\"Happy Birthday\") \u279e \"hAPPY bIRTHDAY\"\n\nreverseCase(\"MANY THANKS\") \u279e \"many thanks\"\n\nreverseCase(\"sPoNtAnEoUs\") \u279e \"SpOnTaNeOuS\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/PTvYKkvf7oytHmJFm",
+  "tags": [
+    "formatting",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(reverseCase('Happy Birthday'), 'hAPPY bIRTHDAY')\nTest.assertEquals(reverseCase('MANY THANKS'), 'many thanks')\nTest.assertEquals(reverseCase('sPoNtAnEoUs'), 'SpOnTaNeOuS')\nTest.assertEquals(reverseCase('eXCELLENT, yOuR mAJESTY'), 'Excellent, YoUr Majesty')",
+  "title": "Reverse the Case"
+}

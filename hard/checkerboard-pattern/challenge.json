@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "qNTiqHJ6cDi6Tccny",
+  "code": "function isCheckerboard(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if the two-dimensional </span><code>n x n</code><span> input array has a </span><strong><span>checker-board pattern</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>isCheckerboard([\n  [1, 1],\n  [0, 1]\n]) \u279e false\n\nisCheckerboard([\n  [0, 1],\n  [1, 0]\n]) \u279e true\n\nisCheckerboard([\n  [1, 0, 1, 0, 1],\n  [0, 1, 0, 1, 0],\n  [1, 0, 1, 0, 1],\n  [0, 1, 0, 1, 0],\n  [1, 0, 1, 1, 1]\n]) \u279e false\n\nisCheckerboard([\n  [1, 0, 1, 0, 1],\n  [0, 1, 0, 1, 0],\n  [1, 0, 1, 0, 1],\n  [0, 1, 0, 1, 0],\n  [1, 0, 1, 0, 1]\n]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>An element in the array adheres to the checker-board pattern if the elements directly to the left, right, top and below are of a different type, and the elements on the diagonal direction are of the same type.</span></li><li><span>The element in the upper-left corner can be either </span><code>0</code><span> or </span><code>1</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/qNTiqHJ6cDi6Tccny",
+  "tags": [
+    "arrays",
+    "games",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isCheckerboard([\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1]\n]), true)\n\nTest.assertEquals(isCheckerboard([\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0]\n]), true)\n\nTest.assertEquals(isCheckerboard([\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 1, 1],\n\t[0, 1, 0, 1, 0]\n]), false)\n\nTest.assertEquals(isCheckerboard([\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[1, 1, 0, 1, 0]\n]), false)\n\nTest.assertEquals(isCheckerboard([\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 0, 1],\n\t[0, 1, 0, 1, 0],\n\t[1, 0, 1, 1, 1]\n]), false)\n\nTest.assertEquals(isCheckerboard([\n\t[0, 1],\n\t[1, 0]\n]), true)\n\nTest.assertEquals(isCheckerboard([\n\t[1, 1],\n\t[1, 0]\n]), false)\n\nTest.assertEquals(isCheckerboard([\n\t[1, 1],\n\t[0, 1]\n]), false)\n\nTest.assertEquals(isCheckerboard([\n\t[1, 0],\n\t[0, 1]\n]), true)\n\nTest.assertEquals(isCheckerboard([\n\t[1, 0, 1],\n\t[0, 1, 0],\n\t[1, 0, 1]\n]), true)",
+  "title": "Checkerboard Pattern"
+}

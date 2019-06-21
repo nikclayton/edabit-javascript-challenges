@@ -1,8 +1,6 @@
 const findFrequent = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(findFrequent([3, 7, 3])).toEqual(3);
         expect(findFrequent([undefined, 'hello', true, undefined])).toEqual(undefined);

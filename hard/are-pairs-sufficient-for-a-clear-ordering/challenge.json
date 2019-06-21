@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9cwxZNTWByMeEQAej",
+  "code": "function clearOrdering(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if an array of pairs are sufficient for a clear ordering of all items.</span></p><p><span>To illustrate:</span></p><pre><code>clearOrdering([[\"D\", \"A\"], [\"C\", \"B\"], [\"A\", \"C\"]]) \u279e true\n// Since unequivocally: \"D\" &lt; \"A\" &lt; \"C\" &lt; \"B\"</code></pre><p><span>On the other hand:</span></p><pre><code>clearOrdering([[\"D\", \"A\"], [\"B\", \"A\"], [\"C\", \"D\"]]) \u279e false\n// Since we know that \"C\" &lt; \"D\" &lt; \"A\", and we know \"B\" &lt; \"A\"\n// but we don't know anything about \"B\"s relationship with \"C\" or \"D\".</code></pre><h3><span>Examples</span></h3><pre><code>clearOrdering([[\"S\", \"T\"], [\"T\", \"U\"], [\"U\", \"V\"]]) \u279e true\n\nclearOrdering([[\"T\", \"S\"], [\"T\", \"U\"], [\"U\", \"V\"], [\"V\", \"W\"]]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>See Comments for a good visualization of the question.</span></p>",
+  "source_url": "https://edabit.com/challenge/9cwxZNTWByMeEQAej",
+  "tags": [
+    "arrays",
+    "logic"
+  ],
+  "tests": "Test.assertEquals(clearOrdering([[\"D\", \"A\"], [\"C\", \"B\"], [\"A\", \"C\"]]), true)\nTest.assertEquals(clearOrdering([[\"D\", \"A\"], [\"B\", \"A\"], [\"C\", \"D\"]]), false)\nTest.assertEquals(clearOrdering([[\"S\", \"T\"], [\"T\", \"U\"], [\"U\", \"V\"]]), true)\nTest.assertEquals(clearOrdering([[\"T\", \"S\"], [\"T\", \"U\"], [\"U\", \"V\"], [\"V\", \"W\"]]), false)\nTest.assertEquals(clearOrdering([[\"A\", \"D\"], [\"C\", \"D\"]]), false)\nTest.assertEquals(clearOrdering([[\"A\", \"D\"], [\"D\", \"C\"]]), true)\nTest.assertEquals(clearOrdering([[\"c\", \"d\"], [\"a\", \"b\"], [\"b\", \"c\"]]), true)\nTest.assertEquals(clearOrdering([[\"d\", \"c\"], [\"a\", \"b\"], [\"b\", \"c\"]]), false)\nTest.assertEquals(clearOrdering([[\"a\", \"b\"], [\"b\", \"c\"], [\"c\", \"d\"], [\"e\", \"f\"], [\"d\", \"e\"]]), true)\nTest.assertEquals(clearOrdering([[\"b\", \"a\"], [\"b\", \"c\"], [\"c\", \"d\"], [\"e\", \"f\"], [\"d\", \"e\"]]), false)",
+  "title": "Are Pairs Sufficient for a Clear Ordering?"
+}

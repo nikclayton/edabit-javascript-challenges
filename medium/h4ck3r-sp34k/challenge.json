@@ -12,6 +12,6 @@
     "control_flow",
     "functional_programming"
   ],
-  "tests": "// JavaScript\nTest.assertEquals(hackerSpeak(\"javascript is cool\"), \"j4v45cr1pt 15 c00l\");\nTest.assertEquals(hackerSpeak(\"become a coder\"), \"b3c0m3 4 c0d3r\");\nTest.assertEquals(hackerSpeak(\"hi there\"), \"h1 th3r3\");\nTest.assertEquals(hackerSpeak(\"programming is fun\"), \"pr0gr4mm1ng 15 fun\");\nTest.assertEquals(hackerSpeak(\"keep on practicing\"), \"k33p 0n pr4ct1c1ng\");\n\n\n// More info here: https://edabit.com/help/creating-challenges",
+  "tests": "Test.assertEquals(hackerSpeak(\"javascript is cool\"), \"j4v45cr1pt 15 c00l\")\nTest.assertEquals(hackerSpeak(\"become a coder\"), \"b3c0m3 4 c0d3r\")\nTest.assertEquals(hackerSpeak(\"hi there\"), \"h1 th3r3\")\nTest.assertEquals(hackerSpeak(\"programming is fun\"), \"pr0gr4mm1ng 15 fun\")\nTest.assertEquals(hackerSpeak(\"keep on practicing\"), \"k33p 0n pr4ct1c1ng\")",
   "title": "H4ck3r Sp34k"
 }

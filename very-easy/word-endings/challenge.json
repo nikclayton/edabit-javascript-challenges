@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hwWLHcDoPZmXcGHyd",
+  "code": "function addEnding(arr, ending) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that adds a string ending to each member in an array.</span></p><h3><span>Examples</span></h3><pre><code>addEnding([\"clever\", \"meek\", \"hurried\", \"nice\"], \"ly\")\n\u279e [\"cleverly\", \"meekly\", \"hurriedly\", \"nicely\"]\n\naddEnding([\"new\", \"pander\", \"scoop\"], \"er\")\n\u279e [\"newer\", \"panderer\", \"scooper\"]\n\naddEnding([\"bend\", \"sharpen\", \"mean\"], \"ing\")\n\u279e [\"bending\", \"sharpening\", \"meaning\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/hwWLHcDoPZmXcGHyd",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(addEnding(['clever', 'meek', 'hurried', 'nice'], 'ly'), ['cleverly', 'meekly', 'hurriedly', 'nicely'])\nTest.assertSimilar(addEnding(['new', 'pander', 'scoop'], 'er'), ['newer', 'panderer', 'scooper'])\nTest.assertSimilar(addEnding(['bend', 'sharpen', 'mean'], 'ing'), ['bending', 'sharpening', 'meaning'])\nTest.assertSimilar(addEnding(['bend', 'tooth', 'mint'], 'y'), ['bendy', 'toothy', 'minty'])\nTest.assertSimilar(addEnding(['bend', 'tooth', 'mint'], 'ier'), ['bendier', 'toothier', 'mintier'])",
+  "title": "Word Endings"
+}

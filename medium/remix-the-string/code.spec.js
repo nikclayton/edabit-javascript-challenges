@@ -1,8 +1,6 @@
 const remix = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(remix('abcd', [0, 3, 1, 2])).toEqual('acdb');
         expect(remix('PlOt', [1, 3, 0, 2])).toEqual('OPtl');

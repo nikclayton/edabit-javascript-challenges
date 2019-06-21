@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "PeDpzoeGyv9TfF5G5",
+  "code": "function fibSeq(end) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns </span><code>n</code><span> instances of the Fibonacci sequence as an array.</span></p><p><span>Fibonacci numbers: </span><code>F(n) = F(n-1) + F(n-2) with F(0) = 0</code><span> and </span><code>F(1) = 1</code><span>. So the easy explanation is: The next element is the sum of the two previous elements.</span></p><p><span>If you want to read more about this sequence, take a look at the </span><em><span>On-Line Encyclopedia of Integer Sequences</span></em><span>. Fibonacci numbers are strongly related to the golden ratio. See the OEIS and Wikipedia links in the </span><strong><span>resources tab</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>fibSeq(4) \u279e [0, 1, 1, 2]\n\nfibSeq(7) \u279e [0, 1, 1, 2, 3, 5, 8]\n\nfibSeq(0) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>If 0 is given, return an empty array.</span></li><li><span>If no argument is given, return </span><code>undefined</code><span>.</span></li><li><span>The input will always be a positive integer.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/PeDpzoeGyv9TfF5G5",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "loops",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(fibSeq(2), [0,1])\nTest.assertSimilar(fibSeq(4), [0,1,1,2])\nTest.assertSimilar(fibSeq(0), [])\nTest.assertSimilar(fibSeq(7), [0,1,1,2,3,5,8])\nTest.assertSimilar(fibSeq(), undefined, 'An empty input has to return undefined')\nTest.assertSimilar(fibSeq(20), [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181])\nTest.assertSimilar(fibSeq(1), [0])",
+  "title": "Instances of the Fibonacci Sequence"
+}

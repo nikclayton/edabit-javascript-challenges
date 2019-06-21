@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5hWPHkuDxSYjTzqKT",
+  "code": "function slidingSum(arr, n, k) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the subarrays of </span><code>n</code><span> consecutive elements from the original element that sum up to </span><code>k</code><span>. The function will have the following form: </span><code>slidingSum(arr, n, k)</code></p><p><span>To illustrate:</span></p><pre><code>slidingSum([3, 4, 1, 9, 9, 0, 3, 5, 4], 3, 8) \u279e [[3, 4, 1], [0, 3, 5]]\n// Where [3, 4, 1] and [0, 3, 5] are the only subarrays that sum to 8 with length 3.</code></pre><h3><span>Examples</span></h3><pre><code>slidingSum([1, 4, 2, 3, 5, 0], 2, 5) \u279e [[1, 4], [2, 3], [5, 0]]\n\nslidingSum([5, 5, 5, 5, 5], 1, 5) \u279e [[5], [5], [5], [5], [5]]\n\nslidingSum([5, 5, 5, 5, 5], 5, 24) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>Return an empty array if no subarrays satisfy the </span><code>(n,k)</code><span> condition.</span></p>",
+  "source_url": "https://edabit.com/challenge/5hWPHkuDxSYjTzqKT",
+  "tags": [
+    "arrays",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertSimilar(slidingSum([1, 4, 2, 3, 5, 0], 2, 5), [[1, 4], [2, 3], [5, 0]])\nTest.assertSimilar(slidingSum([5, 5, 5, 5, 5], 1, 5), [[5], [5], [5], [5], [5]])\nTest.assertSimilar(slidingSum([5, 5, 5, 5, 5], 5, 24), [])\nTest.assertSimilar(slidingSum([3, 2, 1, 1, 3, 2], 4, 7), [[3, 2, 1, 1], [2, 1, 1, 3], [1, 1, 3, 2]])\nTest.assertSimilar(slidingSum([3, 4, 1, 9, 9, 0, 3, 5, 4], 3, 8), [[3, 4, 1], [0, 3, 5]])",
+  "title": "Sliding Sum"
+}

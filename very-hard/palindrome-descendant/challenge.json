@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HXRsxLL6vBqJtKeQu",
+  "code": "function palindromeDescendant(num) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>A number may not be a palindrome, but it's descendant can be. A number's direct child is created by summing each pair of adjacent digits to create the digits of the next number.</span></p><p><span>For instance, </span><code>123312</code><span> is not a palindrome, but it's next child </span><code>363</code><span> is, where: </span><code>3 = 1 + 2; 6 = 3 + 3; 3 = 1 + 2</code><span>.</span></p><p><span>Create a function that returns </span><code>true</code><span> if the </span><strong><span>number itself</span></strong><span> is a palindrome or any of its </span><strong><span>descendants down to 2 digits</span></strong><span> (a 1-digit number is trivially a palindrome).</span></p><h3><span>Examples</span></h3><pre><code>palindromedescendant(11211230) \u279e true\n// 11211230 \u279e 2333 \u279e 56 \u279e 11\n\npalindromeDescendant(13001120) \u279e true\n// 13001120 \u279e 3012 \u279e 33\n\npalindromeDescendant(23336014) \u279e true\n// 23336014 \u279e 5665\n\npalindromeDescendant(11) \u279e true\n// Number itself is a palindrome</code></pre><h3><span>Notes</span></h3><p><span>Numbers will always have an even number of digits.</span></p>",
+  "source_url": "https://edabit.com/challenge/HXRsxLL6vBqJtKeQu",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "recursion",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(palindromeDescendant(11211230), true)\nTest.assertEquals(palindromeDescendant(13001120), true)\nTest.assertEquals(palindromeDescendant(23336014), true)\nTest.assertEquals(palindromeDescendant(11), true)\nTest.assertEquals(palindromeDescendant(1122), false)\nTest.assertEquals(palindromeDescendant(332233), true)\nTest.assertEquals(palindromeDescendant(10210112), true)\nTest.assertEquals(palindromeDescendant(9735), false)\nTest.assertEquals(palindromeDescendant(97358817), false)",
+  "title": "Palindrome Descendant"
+}

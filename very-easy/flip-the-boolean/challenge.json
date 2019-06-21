@@ -10,6 +10,6 @@
     "conditions",
     "logic"
   ],
-  "tests": "Test.assertEquals(reverse(false), true);\nTest.assertEquals(reverse(true), false);\nTest.assertEquals(reverse(0), \"boolean expected\");\nTest.assertEquals(reverse(null), \"boolean expected\");\nTest.assertEquals(reverse(undefined), \"boolean expected\");\nTest.assertEquals(reverse({}), \"boolean expected\");",
+  "tests": "Test.assertEquals(reverse(false), true)\nTest.assertEquals(reverse(true), false)\nTest.assertEquals(reverse(0), \"boolean expected\")\nTest.assertEquals(reverse(null), \"boolean expected\")\nTest.assertEquals(reverse(undefined), \"boolean expected\")\nTest.assertEquals(reverse({}), \"boolean expected\")",
   "title": "Flip the Boolean"
 }

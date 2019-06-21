@@ -1,8 +1,6 @@
 const sortNumsAscending = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sortNumsAscending([1, 2, 10, 50, 5])).toEqual([1, 2, 5, 10, 50]);
         expect(sortNumsAscending([80, 29, 4, -95, -24, 85])).toEqual([-95, -24, 4, 29, 80, 85]);

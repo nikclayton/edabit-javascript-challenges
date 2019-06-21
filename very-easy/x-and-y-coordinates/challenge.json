@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "qYAhaD8fTbHWNe9oT",
+  "code": "function convertCartesian(x, y) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that converts two arrays of </span><strong><span>x-</span></strong><span> and </span><strong><span>y-</span></strong><span> coordinates into an array of </span><code>(x,y)</code><span> coordinates.</span></p><h3><span>Examples</span></h3><pre><code>convertCartesian([1, 5, 3, 3, 4], [5, 8, 9, 1, 0])\n\u279e [[1, 5], [5, 8], [3, 9], [3, 1], [4, 0]]\n\nconvertCartesian([9, 8, 3], [1, 1, 1])\n\u279e [[9, 1], [8, 1], [3, 1]]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/qYAhaD8fTbHWNe9oT",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(convertCartesian([1, 5, 3, 3, 4], [5, 8, 9, 1, 0]), [[1, 5], [5, 8], [3, 9], [3, 1], [4, 0]])\nTest.assertSimilar(convertCartesian([9, 8, 3], [1, 1, 1]), [[9, 1], [8, 1], [3, 1]])\nTest.assertSimilar(convertCartesian([2, 5, 1], [7, 8, 9]), [[2, 7], [5, 8], [1, 9]])\nTest.assertSimilar(convertCartesian([3, 2, 2], [6, 1, 7]), [[3, 6], [2, 1], [2, 7]])",
+  "title": "X and Y Coordinates"
+}

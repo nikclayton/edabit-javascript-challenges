@@ -1,8 +1,6 @@
 const minMaxLengthAverage = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(minMaxLengthAverage([6, 9, 15, -2, 92, 11])).toEqual([-2, 92, 6, 21.833333333333332]);
         expect(minMaxLengthAverage([30, 43, 20, 92, 3, 74])).toEqual([3, 92, 6, 43.666666666666664]);

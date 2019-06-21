@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "k5k3aXWp7aibft74n",
+  "code": "function checkFactors(factors, num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if all integers in an array are factors of a number, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>checkFactors([2, 3, 4], 12) \u279e true\n// Since 2, 3, and 4 are all factors of 12.\n\ncheckFactors([1, 2, 3, 8], 12) \u279e false\n// 8 is not a factor of 12.\n\ncheckFactors([1, 2, 50], 100) \u279e true\n\ncheckFactors([3, 6], 9) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/k5k3aXWp7aibft74n",
+  "tags": [
+    "arrays",
+    "loops",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(checkFactors([2, 3, 4], 12), true)\nTest.assertEquals(checkFactors([1, 2, 3, 8], 12), false, '8 is not a factor of 12')\nTest.assertEquals(checkFactors([1, 2, 50], 100), true)\nTest.assertEquals(checkFactors([1, 9, 81], 81), true)\nTest.assertEquals(checkFactors([5, 10, 50], 500), true)\nTest.assertEquals(checkFactors([5, 10, 499], 500), false, '499 is not a factor of 500')\nTest.assertEquals(checkFactors([3, 6], 9), false, '6 is not a factor of 9')",
+  "title": "Check Factors"
+}

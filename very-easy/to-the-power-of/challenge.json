@@ -4,7 +4,7 @@
   "challenge_id": "H25aG5aAdmFcMpBsg",
   "code": "function calculateExponent(num, exp) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes a base number and an exponent number and returns the calculation.</span></p><h3><span>Examples</span></h3><pre><code>calculateExponent(5, 5) \u279e 3125\n\ncalculateExponent(10, 10) \u279e 10000000000\n\ncalculateExponent(3, 3) \u279e 27</code></pre><h3><span>Notes</span></h3><p><span>All inputs should be positive integers.</span></p>",
+  "instructions": "<p><span>Create a function that takes a base number and an exponent number and returns the calculation.</span></p><h3><span>Examples</span></h3><pre><code>calculateExponent(5, 5) \u279e 3125\n\ncalculateExponent(10, 10) \u279e 10000000000\n\ncalculateExponent(3, 3) \u279e 27</code></pre><h3><span>Notes</span></h3><ul><li><span>All test inputs will be positive integers.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/H25aG5aAdmFcMpBsg",
   "tags": [
     "logic",
@@ -12,6 +12,6 @@
     "math",
     "numbers"
   ],
-  "tests": "Test.assertEquals(calculateExponent(5,5), 3125);\nTest.assertEquals(calculateExponent(3,3), 27);\nTest.assertEquals(calculateExponent(10,10), 10000000000);",
-  "title": "To the Power of _______"
+  "tests": "Test.assertEquals(calculateExponent(5,5), 3125)\nTest.assertEquals(calculateExponent(3,3), 27)\nTest.assertEquals(calculateExponent(10,10), 10000000000)",
+  "title": "To the Power of _____"
 }

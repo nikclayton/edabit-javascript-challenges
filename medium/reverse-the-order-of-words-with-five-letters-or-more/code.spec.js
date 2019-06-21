@@ -1,8 +1,6 @@
 const reverse = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(reverse('Reverse')).toEqual('esreveR');
         expect(reverse('This is a typical sentence.')).toEqual('This is a lacipyt .ecnetnes');

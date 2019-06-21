@@ -1,8 +1,6 @@
 const charCount = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(charCount('a', 'edabit')).toEqual(1);
         expect(charCount('b', 'big fat bubble')).toEqual(4);

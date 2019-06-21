@@ -4,12 +4,12 @@
   "challenge_id": "36cEmt2BiGTtZ9SDx",
   "code": "function median(arr) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Create a function that takes an array of numbers and return its median.</span></p><h3><span>Examples</span></h3><pre><code>median([2, 5, 6, 2, 6, 3, 4]) \u279e 4\n\nmedian([21.4323, 432.54, 432.3, 542.4567]) \u279e 432.4\n\nmedian([-23, -43, -29, -53, -67]) \u279e -43</code></pre><h3><span>Notes</span></h3><ul><li><span>Input can be any negative or positive number.</span></li><li><span>Array being passed must contain at least four numbers.</span></li><li><span>See </span><strong><span>Resources</span></strong><span> tab for info on calculating the median.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes an array of numbers and return its median. If the input array is even length, take the average of the two medians, else, take the single median.</span></p><h3><span>Examples</span></h3><pre><code>median([2, 5, 6, 2, 6, 3, 4]) \u279e 4\n\nmedian([21.4323, 432.54, 432.3, 542.4567]) \u279e 432.4\n\nmedian([-23, -43, -29, -53, -67]) \u279e -43</code></pre><h3><span>Notes</span></h3><ul><li><span>Input can be any negative or positive number.</span></li><li><span>Input array will contain at least four numbers.</span></li><li><span>See </span><strong><span>Resources</span></strong><span> tab for info on calculating the median.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/36cEmt2BiGTtZ9SDx",
   "tags": [
     "math",
     "numbers"
   ],
-  "tests": "Test.assertEquals(median([20, 40, 20, 30, 50, 60, 70, 0, 20]), 30);\nTest.assertEquals(median([342, 98, 5456, 32, 786, 432, 890, 321]), 387);\nTest.assertEquals(median([1, 0, 1, 0, 0, 0, 1, 1]), 0.5);\nTest.assertEquals(median([32, 5, 78, 32, 4, 5, 3]), 5);\nTest.assertEquals(median([-20, 40, 30, -2, 40, -13]), 14);\nTest.assertEquals(median([32786, 7837, 83736, 83736, 10383, 738393]), 58261);\nTest.assertEquals(median([7685, 83736, 38376, 73638, 7337]), 38376);\nTest.assertEquals(median([0, 0, 0, 0]), 0);\nTest.assertEquals(median([-30, -42, -60, -10, -30, -50]), -36);\nTest.assertEquals(median([238, 432, 897, 710]), 571);",
+  "tests": "Test.assertEquals(median([20, 40, 20, 30, 50, 60, 70, 0, 20]), 30)\nTest.assertEquals(median([342, 98, 5456, 32, 786, 432, 890, 321]), 387)\nTest.assertEquals(median([1, 0, 1, 0, 0, 0, 1, 1]), 0.5)\nTest.assertEquals(median([32, 5, 78, 32, 4, 5, 3]), 5)\nTest.assertEquals(median([-20, 40, 30, -2, 40, -13]), 14)\nTest.assertEquals(median([32786, 7837, 83736, 83736, 10383, 738393]), 58261)\nTest.assertEquals(median([7685, 83736, 38376, 73638, 7337]), 38376)\nTest.assertEquals(median([0, 0, 0, 0]), 0)\nTest.assertEquals(median([-30, -42, -60, -10, -30, -50]), -36)\nTest.assertEquals(median([238, 432, 897, 710]), 571)",
   "title": "Calculate the Median"
 }

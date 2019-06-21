@@ -1,0 +1,15 @@
+{
+  "author_id": "Peter Flynn",
+  "author_url": "https://edabit.com/user/wkxYjg28PC4xdWH69",
+  "challenge_id": "RQwdZmtrW8mCnuCMN",
+  "code": "function concatName(firstName, lastName) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Given two strings, </span><code>firstName</code><span> and </span><code>lastName</code><span>, return a single string in the format \"last, first\".</span></p><h3><span>Examples</span></h3><pre><code>concatName(\"First\", \"Last\") \u279e \"Last, First\"\n\nconcatName(\"John\", \"Doe\") \u279e \"Doe, John\"\n\nconcatName(\"Mary\", \"Jane\") \u279e \"Jane, Mary\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RQwdZmtrW8mCnuCMN",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(concatName(\"John\", \"Doe\"), \"Doe, John\")\nTest.assertEquals(concatName(\"First\", \"Last\"), \"Last, First\")\nTest.assertEquals(concatName(\"A\", \"B\"), \"B, A\")\n\n// In case someone is making odd assumptions about comma characters.\nTest.assertEquals(concatName(\",\", \",\"), \",, ,\")",
+  "title": "Concatenate First and Last Name into One String"
+}

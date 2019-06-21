@@ -10,6 +10,6 @@
     "dates",
     "numbers"
   ],
-  "tests": "Test.assertEquals(Magic('1 1 2011'),true,'magic date');\nTest.assertEquals(Magic('4 1 2001'),false,'is not a magic date');\nTest.assertEquals(Magic('2 4 2008'),true, 'magic date');\nTest.assertEquals(Magic('3 3 2009'),true, 'magic date');\nTest.assertEquals(Magic('5 2 2010'),true, 'magic date');\nTest.assertEquals(Magic('1 2 2011'),false, 'is not a magic date');\nTest.assertEquals(Magic('9 2 2011'),false, 'is not a magic date');\nTest.assertEquals(Magic('1 4 2011'),false, 'is not a magic date');",
+  "tests": "Test.assertEquals(Magic('1 1 2011'),true,'magic date')\nTest.assertEquals(Magic('4 1 2001'),false,'is not a magic date')\nTest.assertEquals(Magic('2 4 2008'),true, 'magic date')\nTest.assertEquals(Magic('3 3 2009'),true, 'magic date')\nTest.assertEquals(Magic('5 2 2010'),true, 'magic date')\nTest.assertEquals(Magic('1 2 2011'),false, 'is not a magic date')\nTest.assertEquals(Magic('9 2 2011'),false, 'is not a magic date')\nTest.assertEquals(Magic('1 4 2011'),false, 'is not a magic date')",
   "title": "Magic Date"
 }

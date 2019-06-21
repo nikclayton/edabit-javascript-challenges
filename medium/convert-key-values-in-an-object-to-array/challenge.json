@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "4aaBNPnFMc3bzR7JR",
+  "code": "function objectToArray(obj) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that converts an object into an array of keys and values.</span></p><h3><span>Examples</span></h3><pre><code>objectToArray({\n  D: 1,\n  B: 2,\n  C: 3\n}) \u279e [[\"D\", 1], [\"B\", 2], [\"C\", 3]]\n\nobjectToArray({\n  likes: 2,\n  dislikes: 3,\n  followers: 10\n}) \u279e [[\"likes\", 2], [\"dislikes\", 3], [\"followers\", 10]]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/4aaBNPnFMc3bzR7JR",
+  "tags": [
+    "arrays",
+    "objects"
+  ],
+  "tests": "Test.assertSimilar(objectToArray({\n\tD: 1, \n  B: 2, \n  C: 3\n}), [[\"D\", 1], [\"B\", 2], [\"C\", 3]])\n\nTest.assertSimilar(objectToArray({\n\tlikes: 2, \n  dislikes: 3, \n  followers: 10\n}), [[\"likes\", 2], [\"dislikes\", 3], [\"followers\", 10]])",
+  "title": "Convert Key, Values in an Object to Array"
+}

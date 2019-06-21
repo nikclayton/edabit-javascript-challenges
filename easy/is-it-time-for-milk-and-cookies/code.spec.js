@@ -1,8 +1,6 @@
 const timeForMilkAndCookies = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(timeForMilkAndCookies(new Date(2013, 11, 24))).toEqual(true);
         expect(timeForMilkAndCookies(new Date(3000, 11, 24))).toEqual(true);

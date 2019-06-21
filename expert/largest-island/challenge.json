@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "nR3b6f3kwX8Pn9jE4",
+  "code": "function largestIsland(map) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>An </span><strong><span>island is a region of contiguous ones</span></strong><span>. A contiguous one is a </span><code>1</code><span> that is touched by at least one other </span><code>1</code><span>, either </span><strong><span>horizontally</span></strong><span>, </span><strong><span>vertically</span></strong><span> or </span><strong><span>diagonally</span></strong><span>. Given a piece of the map, represented by a 2-D array, create a function that returns the area of the largest island.</span></p><p><span>To illustrate, if we were given the following piece of the map, we should return </span><code>4</code><span>.</span></p><pre><code>[\n  [0, 0, 0],\n  [0, 1, 1],\n  [0, 1, 1]\n]</code></pre><p><span>Our function should yield </span><code>2</code><span> for the map below:</span></p><pre><code>[\n  [1, 0, 0],\n  [0, 0, 1],\n  [0, 0, 1]\n]</code></pre><p><span>Our function should yield </span><code>4</code><span> for the map below: : </span></p><pre><code>[\n  [1, 0, 0],\n  [0, 1, 1],\n  [0, 0, 1]\n]</code></pre><h3><span>Examples</span></h3><pre><code>largestIsland([\n  [1, 0, 0], \n  [0, 0, 0], \n  [0, 0, 1]\n])\n\n\u279e 1\n\nlargestIsland([\n  [1, 1, 0], \n  [0, 1, 1], \n  [0, 0, 1]\n])\n\n\u279e 5\n\nlargestIsland([\n  [1, 0, 0], \n  [1, 0, 0], \n  [1, 0, 1]\n])\n\n\u279e 3</code></pre><h3><span>Notes</span></h3><ul><li><span>Maps can be any </span><code>m x n</code><span> dimension.</span></li><li><span>Maps will always have at least 1 element. </span><code>m &gt;= 1</code><span> and </span><code>n &gt;= 1</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/nR3b6f3kwX8Pn9jE4",
+  "tags": [
+    "arrays",
+    "data_structures",
+    "games",
+    "logic"
+  ],
+  "tests": "Test.assertEquals(largestIsland([\n  [1, 0, 0],\n  [0, 0, 0],\n  [0, 0, 1]\n]), 1)\n\nTest.assertEquals(largestIsland([\n  [1, 1, 0],\n  [0, 1, 1],\n  [0, 0, 1]\n]), 5)\n\nTest.assertEquals(largestIsland([\n  [1, 0, 0],\n  [1, 0, 0],\n  [1, 0, 1]\n]), 3)\n\nTest.assertEquals(largestIsland([\n  [0, 0, 0],\n  [0, 1, 1],\n  [0, 1, 1]\n]), 4)\n\nTest.assertEquals(largestIsland([\n  [1, 0, 0],\n  [0, 0, 1],\n  [0, 0, 1]\n]), 2)\n\nTest.assertEquals(largestIsland([\n  [1, 0, 0],\n  [0, 1, 1],\n  [0, 0, 1]\n]), 4)\n\nTest.assertEquals(largestIsland([\n  [1, 0],\n  [0, 1],\n  [0, 0]\n]), 2)\n\nTest.assertEquals(largestIsland([\n\t[1]\n]), 1)\n\nTest.assertEquals(largestIsland([\n  [1],\n  [0],\n  [1]\n]), 1)\n\nTest.assertEquals(largestIsland([\n  [1, 1, 1],\n  [0, 1, 1],\n  [0, 0, 1]\n]), 6)",
+  "title": "Largest Island"
+}

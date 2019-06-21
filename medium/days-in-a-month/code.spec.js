@@ -60,8 +60,4 @@ test('Should show the correct day amount for February on a leap year that is div
 test('Should show the correct day amount for February on a leap year that is divisible by 100 and 400', () => {
         expect(days(2, 1600)).toEqual(29);
     });
-    
-    test('the tests', () => {
-        
-    });
 });

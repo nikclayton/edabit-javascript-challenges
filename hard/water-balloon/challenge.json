@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rj2fNpjobWZksHrdZ",
+  "code": "function pop(state) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Once a water balloon pops, is soaks the area around it. The ground gets drier the further away you travel from the balloon.</span></p><p><span>The effect of a water balloon popping can be modeled using an array. Create a function that takes an array which takes the </span><strong><span>pre-pop</span></strong><span> state and returns the state after the balloon is popped. The </span><strong><span>pre-pop</span></strong><span> state will contain </span><strong><span>at most</span></strong><span> a single balloon, whose size is represented by the only non-zero element.</span></p><h3><span>Examples</span></h3><pre><code>pop([0, 0, 0, 0, 4, 0, 0, 0, 0]) \u279e [0, 1, 2, 3, 4, 3, 2, 1, 0]\n\npop([0, 0, 0, 3, 0, 0, 0]) \u279e [0, 1, 2, 3, 2, 1, 0]\n\npop([0, 0, 2, 0, 0]) \u279e [0, 1, 2, 1, 0]\n\npop([0]) \u279e [0]</code></pre><h3><span>Notes</span></h3><ul><li><span>Length of input array is always odd.</span></li><li><span>The input array will always be the exact length it takes for there to be exactly one border zero.</span></li><li><span>If the input array consists only of zeroes, return the same array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rj2fNpjobWZksHrdZ",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(pop([0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0]), [0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 0])\nTest.assertSimilar(pop([0, 0, 0, 0, 4, 0, 0, 0, 0]), [0, 1, 2, 3, 4, 3, 2, 1, 0])\nTest.assertSimilar(pop([0, 0, 0, 3, 0, 0, 0]), [0, 1, 2, 3, 2, 1, 0])\nTest.assertSimilar(pop([0, 0, 2, 0, 0]), [0, 1, 2, 1, 0])\nTest.assertSimilar(pop([0, 1, 0]), [0, 1, 0])\nTest.assertSimilar(pop([0]), [0])",
+  "title": "Water Balloon"
+}

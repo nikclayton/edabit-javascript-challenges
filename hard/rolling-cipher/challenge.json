@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "38kbFLBZdtCWSKHDZ",
+  "code": "function rollingCipher(str, n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that accepts a string and an </span><code>n</code><span> and returns a cipher by rolling each character forward (</span><code>n &gt; 0</code><span>) or backward (</span><code>n &lt; 0</code><span>) </span><strong><span>n</span></strong><span> times.</span></p><p><span>Note: Think of the letters as a connected loop, so rolling </span><code>a</code><span> backwards once will yield </span><code>z</code><span>, and rolling </span><code>z</code><span> forward once will yield </span><code>a</code><span>. If you roll 26 times in either direction, you should end up back where you started.</span></p><h3><span>Examples</span></h3><pre><code>rollingCipher(\"abcd\", 1) \u279e \"bcde\"\n\nrollingCipher(\"abcd\", -1) \u279e \"zabc\"\n\nrollingCipher(\"abcd\", 3) \u279e \"defg\"\n\nrollingCipher(\"abcd\", 26) \u279e \"abcd\"</code></pre><h3><span>Notes</span></h3><ul><li><span>All letters are lower cased.</span></li><li><span>No spacing.</span></li><li><span>Each character is rotated the same number of times.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/38kbFLBZdtCWSKHDZ",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertEquals(rollingCipher('abcd', 1), 'bcde')\nTest.assertEquals(rollingCipher('abcd', -1), 'zabc')\nTest.assertEquals(rollingCipher('abcd', 3), 'defg')\nTest.assertEquals(rollingCipher('abcd', 25), 'zabc')\nTest.assertEquals(rollingCipher('abcd', 26), 'abcd')\nTest.assertEquals(rollingCipher('abcd', 27), 'bcde')\nTest.assertEquals(rollingCipher('abcd', 0), 'abcd')",
+  "title": "Rolling Cipher"
+}

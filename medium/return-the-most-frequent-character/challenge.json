@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "2qZPtgxSvvktKMcrc",
+  "code": "function mostFrequentChar(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns the most frequent character in an array of words.</span></p><h3><span>Examples</span></h3><pre><code>mostFrequentChar([\"apple\", \"bandage\", \"yodel\", \"make\"])\n\u279e [\"a\", \"e\"]\n\nmostFrequentChar([\"music\", \"madness\", \"maniac\", \"motion\"])\n\u279e [\"m\"]\n\nmostFrequentChar([\"the\", \"hills\", \"are\", \"alive\", \"with\", \"the\", \"sound\", \"of\", \"music\"])\n\u279e [\"e\", \"h\", \"i\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>If multiple characters tie for most frequent, list all of them in alphabetical order.</span></li><li><span>Words will be in lower case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/2qZPtgxSvvktKMcrc",
+  "tags": [
+    "arrays",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(mostFrequentChar([\"apple\", \"bandage\", \"yodel\", \"make\"]), ['a', 'e'])\nTest.assertSimilar(mostFrequentChar([\"music\", \"madness\", \"maniac\", \"motion\"]), ['m'])\nTest.assertSimilar(mostFrequentChar([\"the\", \"hills\", \"are\", \"alive\", \"with\", \"the\", \"sound\", \"of\", \"music\"]), ['e', 'h', 'i'])\nTest.assertSimilar(mostFrequentChar([\"let\", \"them\", \"eat\", \"cake\"]), ['e'])\nTest.assertSimilar(mostFrequentChar([\"potion\", \"master\", \"professor\", \"snape\"]), ['o', 's'])",
+  "title": "Return the Most Frequent Character"
+}

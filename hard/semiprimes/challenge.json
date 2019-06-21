@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ZPWXhy8wmK2fqJPzT",
+  "code": "function semiprime(n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A semiprime is a composite number that is the product of two primes. Apart from these two primes, its only other proper (non-self) divisor is 1.</span></p><p><span>The two prime factors of a semiprime can be the same number (e.g. the semiprime 49 is the product of 7x7). A semiprime that has two </span><em><span>distinct</span></em><span> prime factors is called a </span><strong><em><span>squarefree semiprime.</span></em></strong></p><p><span>Create a function that takes a number and returns </span><code>\"Squarefree Semiprime\"</code><span>, </span><code>\"Semiprime\"</code><span>, or </span><code>\"Neither\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>semiprime(49) \u279e \"Semiprime\"\n\nsemiprime(15) \u279e \"Squarefree Semiprime\"\n\nsemiprime(97) \u279e \"Neither\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/ZPWXhy8wmK2fqJPzT",
+  "tags": [
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(semiprime(49),\"Semiprime\")\nTest.assertEquals(semiprime(15),\"Squarefree Semiprime\")\nTest.assertEquals(semiprime(19),\"Neither\")\nTest.assertEquals(semiprime(75),\"Neither\")\nTest.assertEquals(semiprime(169),\"Semiprime\")\nTest.assertEquals(semiprime(203),\"Squarefree Semiprime\")\nTest.assertEquals(semiprime(177),\"Squarefree Semiprime\")\nTest.assertEquals(semiprime(125),\"Neither\")\nTest.assertEquals(semiprime(70),\"Neither\")",
+  "title": "Semiprimes"
+}

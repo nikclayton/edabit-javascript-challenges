@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "NXTrfGBXTKg3Z9jkz",
+  "code": "function isPandigital(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>pandigital</span></strong><span> number contains all digits (0-9) at least once. Write a function that takes an integer, returning </span><code>true</code><span> if the integer is pandigital, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isPandigital(98140723568910) \u279e true\n\nisPandigital(90864523148909) \u279e false\n// 7 is missing.\n\nisPandigital(112233445566778899) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Think about the properties of a pandigital number when all duplicates are removed.</span></p>",
+  "source_url": "https://edabit.com/challenge/NXTrfGBXTKg3Z9jkz",
+  "tags": [
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPandigital(84847473937), false)\nTest.assertEquals(isPandigital(546732965015), false)\nTest.assertEquals(isPandigital(6781235184590), true)\nTest.assertEquals(isPandigital(9432821089765), true)\nTest.assertEquals(isPandigital(629764), false)\nTest.assertEquals(isPandigital(90864523148909), false)\nTest.assertEquals(isPandigital(7296012), false)\nTest.assertEquals(isPandigital(647380265483206), false)\nTest.assertEquals(isPandigital(38165975424790), true)\nTest.assertEquals(isPandigital(8146327815320), false)\nTest.assertEquals(isPandigital(768431605430), false)\nTest.assertEquals(isPandigital(4920124852367763), true)\nTest.assertEquals(isPandigital(60543981597247), true)\nTest.assertEquals(isPandigital(10282343456789), true)",
+  "title": "Pandigital Numbers"
+}

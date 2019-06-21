@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "yiHtvXv97xLcw7LQh",
+  "code": "function replaceNextLargest(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that replaces each integer with the next largest in the array.</span></p><h3><span>Examples</span></h3><pre><code>replaceNextLargest([5, 7, 3, 2, 8]) \u279e [7, 8, 5, 3, -1]\n\nreplaceNextLargest([2, 3, 4, 5]) \u279e [3, 4, 5, -1]\n\nreplaceNextLargest([1, 0, -1, 8, -72]) \u279e [8, 1, 0, -1, -1]</code></pre><h3><span>Notes</span></h3><ul><li><span>Replace the maximum with </span><strong><span>-1</span></strong><span>.</span></li><li><span>Elements in the array will be unique.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/yiHtvXv97xLcw7LQh",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(replaceNextLargest([5, 7, 3, 2, 8]), [7, 8, 5, 3, -1])\nTest.assertSimilar(replaceNextLargest([4, 1, 6, -7, -8, 2]), [6, 2, -1, 1, -7, 4])\nTest.assertSimilar(replaceNextLargest([2, 3, 4, 5]), [3, 4, 5, -1])\nTest.assertSimilar(replaceNextLargest([1, 0, -1, 8, -72]), [8, 1, 0, -1, -1])",
+  "title": "Replace With Next Largest Number"
+}

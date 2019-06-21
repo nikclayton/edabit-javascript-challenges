@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rT33paDEoJH5AhsA9",
+  "code": "function freedPrisoners(prison) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>A prison can be represented as an array of cells. Each cell contains exactly one prisoner. A </span><code>1</code><span> represents an unlocked cell and a </span><code>0</code><span> represents a locked cell.</span></p><pre><code>[1, 1, 0, 0, 0, 1, 0]</code></pre><p><span>Starting from the leftmost cell, you are tasked with seeing how many prisoners you can set free, with a catch. Each time you free a prisoner, the locked cells become unlocked, and the unlocked cells become locked again.</span></p><p><span>So, if we use the example above:</span></p><pre><code>[1, 1, 0, 0, 0, 1, 0] \n// You free the prisoner in the 1st cell.\n\n[0, 0, 1, 1, 1, 0, 1] \n// You free the prisoner in the 3rd cell (2nd one locked).\n\n[1, 1, 0, 0, 0, 1, 0]\n// You free the prisoner in the 6th cell (3rd, 4th and 5th locked).\n\n[0, 0, 1, 1, 1, 0, 1]\n// You free the prisoner in the 7th cell - and you are done!</code></pre><p><span>Here, we have freed </span><code>4</code><span> prisoners in total.</span></p><p><span>Create a function that, given this unique prison arrangement, returns the number of freed prisoners.</span></p><h3><span>Examples</span></h3><pre><code>freedPrisoners([1, 1, 0, 0, 0, 1, 0]) \u279e 4\n\nfreedPrisoners([1, 1, 1]) \u279e 1\n\nfreedPrisoners([0, 0, 0]) \u279e 0\n\nfreedPrisoners([0, 1, 1, 1]) \u279e 0</code></pre><h3><span>Notes</span></h3><ul><li><span>You must free a prisoner in order for the locks to switch. So in second example where the input is </span><code>[1, 1, 1]</code><span>, after you release the first prisoner, the locks change to </span><code>[0, 0, 0]</code><span>. Since all cells are locked, you can release no more prisoners.</span></li><li><span>You always start with the leftmost element in the array (the first prison cell). If all the prison cells to your right are all zeroes, you cannot free any more prisoners.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rT33paDEoJH5AhsA9",
+  "tags": [
+    "arrays",
+    "games",
+    "logic",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(freedPrisoners([1, 1, 0, 0, 0, 1, 0]), 4)\nTest.assertEquals(freedPrisoners([1, 0, 0, 0, 0, 0, 0]), 2) \nTest.assertEquals(freedPrisoners([1, 1, 1, 0, 0, 0]), 2) \nTest.assertEquals(freedPrisoners([1, 0, 1, 0, 1, 0]), 6) \nTest.assertEquals(freedPrisoners([1, 1, 1]), 1, 'once first prisoner freed, all cells become locked')\nTest.assertEquals(freedPrisoners([0, 0, 0]), 0, 'first cell locked, so cannot switch')\nTest.assertEquals(freedPrisoners([0, 1, 1, 1]), 0, 'first cell locked, cannot switch')",
+  "title": "Prison Break"
+}

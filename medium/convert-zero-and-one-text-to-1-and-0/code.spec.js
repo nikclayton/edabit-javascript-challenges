@@ -1,8 +1,6 @@
 const textToNumberBinary = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(textToNumberBinary('one one one one zero zero zero zero')).toEqual('11110000');
         expect(textToNumberBinary('one Zero zero one zero zero one one one one one zero oNe one one zero one zerO')).toEqual('1001001111101110');

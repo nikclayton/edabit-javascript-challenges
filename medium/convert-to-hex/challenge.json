@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "jBf8Nq259tBEgsz4X",
+  "code": "function toHex(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a strings characters as ASCII and returns each characters hexadecimal value as a string.</span></p><h3><span>Examples</span></h3><pre><code>toHex(\"hello world\") \u279e \"68 65 6c 6c 6f 20 77 6f 72 6c 64\"\n\ntoHex(\"Big Boi\") \u279e \"42 69 67 20 42 6f 69\"\n\ntoHex(\"Marty Poppinson\") \u279e \"4d 61 72 74 79 20 50 6f 70 70 69 6e 73 6f 6e\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Each byte must be seperated by a space.</span></li><li><span>All alpha hex characters must be lowercase.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/jBf8Nq259tBEgsz4X",
+  "tags": [
+    "logic",
+    "loops",
+    "math"
+  ],
+  "tests": "Test.assertEquals(toHex(\"Big Boi\"), \"42 69 67 20 42 6f 69\")\nTest.assertEquals(toHex(\"Marty Poppinson\"), \"4d 61 72 74 79 20 50 6f 70 70 69 6e 73 6f 6e\")\nTest.assertEquals(toHex(\"abcdefghi\"), \"61 62 63 64 65 66 67 68 69\")\nTest.assertEquals(toHex(\"oh dear\"), \"6f 68 20 64 65 61 72\")\nTest.assertEquals(toHex(\"i hate C#\"), \"69 20 68 61 74 65 20 43 23\")\nTest.assertEquals(toHex(\"i love C++ , not really\"), \"69 20 6c 6f 76 65 20 43 2b 2b 20 2c 20 6e 6f 74 20 72 65 61 6c 6c 79\")",
+  "title": "Convert to Hex"
+}

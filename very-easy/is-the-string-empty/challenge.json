@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "EzbfiquDoAc2Zc9FL",
+  "code": "function isEmpty(s) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if a string is empty and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isEmpty(\"\") \u279e true\n\nisEmpty(\" \") \u279e false\n\nisEmpty(\"a\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>A string containing only whitespaces </span><code>\" \"</code><span> does </span><strong><span>not</span></strong><span> count as empty.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/EzbfiquDoAc2Zc9FL",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isEmpty(\"\"), true)\nTest.assertEquals(isEmpty(\" \"), false)\nTest.assertEquals(isEmpty(\"            \"), false)\nTest.assertEquals(isEmpty(\"38215\"), false)\nTest.assertEquals(isEmpty(\"afjabsdf\"), false)\nTest.assertEquals(isEmpty(\"!?@&\"), false)",
+  "title": "Is the String Empty?"
+}

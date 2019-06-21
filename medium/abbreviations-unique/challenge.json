@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "H8JABWQfYFN4ZSAxE",
+  "code": "function uniqueAbbrev(abbs, words) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You are given two inputs:</span></p><ol><li><span>A array of abbreviations.</span></li><li><span>An array of words.</span></li></ol><p><span>Write a function that returns </span><code>true</code><span> if each abbreviation </span><strong><span>uniquely identifies</span></strong><span> a word, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>uniqueAbbrev([\"ho\", \"h\", \"ha\"], [\"house\", \"hope\", \"happy\"]) \u279e false\n// \"ho\" and \"h\" are ambiguous and can identify either \"house\" or \"hope\"\n\nuniqueAbbrev([\"s\", \"t\", \"v\"], [\"stamina\", \"television\", \"vindaloo\"]) \u279e true\n\nuniqueAbbrev([\"bi\", \"ba\", \"bat\"], [\"big\", \"bard\", \"battery\"]) \u279e false\n\nuniqueAbbrev([\"mo\", \"ma\", \"me\"], [\"moment\", \"many\", \"mean\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Abbreviations will be a substring from </span><code>[0, n]</code><span> from the original string.</span></p>",
+  "source_url": "https://edabit.com/challenge/H8JABWQfYFN4ZSAxE",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(uniqueAbbrev([\"s\", \"t\", \"v\"], [\"stamina\", \"television\", \"vindaloo\"]), true)\nTest.assertEquals(uniqueAbbrev([\"mo\", \"ma\", \"me\"], [\"moment\", \"many\", \"mean\"]), true)\nTest.assertEquals(uniqueAbbrev([\"at\", \"o\", \"abe\"], [\"atom\", \"original\", \"abet\"]), true)\nTest.assertEquals(uniqueAbbrev([\"rh\", \"par\", \"re\"], [\"rhino\", \"parry\", \"residue\"]), true)\nTest.assertEquals(uniqueAbbrev([\"ho\", \"h\", \"ha\"], [\"house\", \"hope\", \"happy\"]), false)\nTest.assertEquals(uniqueAbbrev([\"bi\", \"ba\", \"bat\"], [\"big\", \"bard\", \"battery\"]), false)\nTest.assertEquals(uniqueAbbrev([\"b\", \"c\", \"ch\"], [\"broth\", \"chap\", \"cardigan\"]), false)\nTest.assertEquals(uniqueAbbrev([\"to\", \"too\", \"t\"], [\"topology\", \"took\", \"torrent\"]), false)",
+  "title": "Abbreviations Unique?"
+}

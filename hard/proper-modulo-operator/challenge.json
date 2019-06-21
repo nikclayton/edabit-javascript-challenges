@@ -1,0 +1,15 @@
+{
+  "author_id": "VFDan",
+  "author_url": "https://edabit.com/user/jbH5tDYmskk7BpqtL",
+  "challenge_id": "2eiEBoMFJZhE2SjHz",
+  "code": "// Should return m mod n\nfunction mod(m, n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>In JavaScript, the modulo operator is very bad. For example, </span><code>-13 % 64 = -13</code><span>, when the actual answer is 51. Create a function to fix this. It should also work for positive numbers.</span></p><h3><span>Examples</span></h3><pre><code>mod(-13, 64) \u279e 51\n\nmod(50, 25) \u279e 0\n\nmod(-6, 3) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>All test cases contain valid numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/2eiEBoMFJZhE2SjHz",
+  "tags": [
+    "bugs",
+    "math"
+  ],
+  "tests": "Test.assertEquals(mod(-13, 64), 51);\nTest.assertEquals(mod(50, 25), 0);\nTest.assertEquals(mod(-6, 3), 0);\nTest.assertNotEquals(mod(-45, 2), -1);",
+  "title": "Proper Modulo Operator"
+}

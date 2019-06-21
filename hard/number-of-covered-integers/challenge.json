@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Jaox8TDLREobGf9oJ",
+  "code": "function coveredIntegers(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the total number of </span><strong><span>integers</span></strong><span> covered from an array of intervals (</span><strong><span>inclusive</span></strong><span>).</span></p><h3><span>Examples</span></h3><pre><code>coveredIntegers([[80, 81], [1, 2], [9, 11]]) \u279e 7\n// 7 Integers are covered: 1, 2, 9, 10, 11, 80, 81\n\ncoveredIntegers([[3, 6], [4, 6], [5, 6]]) \u279e 4\n\ncoveredIntegers([[1, 2], [1, 2]]) \u279e 2</code></pre><h3><span>Notes</span></h3><ul><li><span>Intervals may overlap, be subintervals of each other, or be identical.</span></li><li><span>For each interval </span><code>[l, u]</code><span>, </span><code>l</code><span> and </span><code>u</code><span> will be integers, and </span><code>l &lt;= u</code><span> will always be true.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Jaox8TDLREobGf9oJ",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(coveredIntegers([[80, 81], [1, 2], [9, 11]]), 7)\nTest.assertEquals(coveredIntegers([[3, 6], [4, 6], [5, 6]]), 4)\nTest.assertEquals(coveredIntegers([[1, 2], [1, 2]]), 2)\nTest.assertEquals(coveredIntegers([[1, 11]]), 11)\nTest.assertEquals(coveredIntegers([[8, 9], [102, 104]]), 5)\nTest.assertEquals(coveredIntegers([[1, 1], [5, 5], [8, 8]]), 3)\nTest.assertEquals(coveredIntegers([[0, 5], [5, 5], [8, 8]]), 7)\nTest.assertEquals(coveredIntegers([[1, 5], [3, 5], [4, 6], [5, 7]]), 7)\nTest.assertEquals(coveredIntegers([[-3, 10], [-2, 9], [-1, 8], [0, 7], [1, 6], [2, 5], [3, 4]]), 14)",
+  "title": "Number of Covered Integers"
+}

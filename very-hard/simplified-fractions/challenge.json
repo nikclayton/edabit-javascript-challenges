@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ZNnfzsWj5i6S93Cxk",
+  "code": "function simplify(str) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that returns the simplified version of a fraction.</span></p><h3><span>Examples</span></h3><pre><code>simplify(\"4/6\") \u279e \"2/3\"\n\nsimplify(\"10/11\") \u279e \"10/11\"\n\nsimplify(\"100/400\") \u279e \"1/4\"\n\nsimplify(\"8/4\") \u279e \"2\"</code></pre><h3><span>Notes</span></h3><ul><li><span>A fraction is simplified if there are no common factors (except 1) between the numerator and the denominator. For example, </span><code>4/6</code><span> is </span><strong><span>not</span></strong><span> simplified, since </span><code>4</code><span> and </span><code>6</code><span> both share </span><code>2</code><span> as a factor.</span></li><li><span>If improper fractions can be transformed into integers, do so in your code (see example #4).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ZNnfzsWj5i6S93Cxk",
+  "tags": [
+    "math",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(simplify(\"5/7\"), \"5/7\")\nTest.assertEquals(simplify(\"4/6\"), \"2/3\")\nTest.assertEquals(simplify(\"11/10\"), \"11/10\")\nTest.assertEquals(simplify(\"8/4\"), \"2\")\nTest.assertEquals(simplify(\"7/4\"), \"7/4\", 'should work for improper fractions')\nTest.assertEquals(simplify(\"6/4\"), \"3/2\")\nTest.assertEquals(simplify(\"300/200\"), \"3/2\")\nTest.assertEquals(simplify(\"50/25\"), \"2\")\nTest.assertEquals(simplify(\"5/45\"), \"1/9\")",
+  "title": "Simplified Fractions"
+}

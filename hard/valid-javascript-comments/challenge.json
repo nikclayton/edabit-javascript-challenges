@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rQj7JcXSnG5sy33rr",
+  "code": "function commentsCorrect(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>In JavaScript, there are two types of comments:</span></p><ol><li><span>Single-line comments start with </span><code>//</code></li><li><span>Multi-line or inline comments start with </span><code>/*</code><span> and end with </span><code>*/</code></li></ol><p><span>The input will be a sequence of </span><code>//</code><span>, </span><code>/*</code><span> and </span><code>*/</code><span>. </span><strong><span>Every </span><code>/*</code><span> must have a </span><code>*/</code><span> that immediately follows it</span></strong><span>. To add, there can be </span><strong><span>no single-line comments in between multi-line comments</span></strong><span> in between the </span><code>/*</code><span> and </span><code>*/</code><span>.</span></p><p><span>Create a function that returns </span><code>true</code><span> if comments are properly formatted, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>commentsCorrect(\"//////\") \u279e true\n// 3 single-line comments: [\"//\", \"//\", \"//\"]\n\ncommentsCorrect(\"/**//**////**/\") \u279e true\n// 3 multi-line comments + 1 single-line comment:\n// [\"/*\", \"*/\", \"/*\", \"*/\", \"//\", \"/*\", \"*/\"]\n\ncommentsCorrect(\"///*/**/\") \u279e false\n// The first /* is missing a */\n\ncommentsCorrect(\"/////\") \u279e false\n// The 5th / is single, not a double //</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/rQj7JcXSnG5sy33rr",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(commentsCorrect(\"//////\"), true)\nTest.assertEquals(commentsCorrect(\"/**//**////**/\"), true)\nTest.assertEquals(commentsCorrect(\"/**//**//**//**/\"), true)\nTest.assertEquals(commentsCorrect(\"///**///\"), true)\nTest.assertEquals(commentsCorrect(\"/**//////**//**////**/////\"), true)\nTest.assertEquals(commentsCorrect(\"//\"), true)\nTest.assertEquals(commentsCorrect(\"/**/\"), true)\nTest.assertEquals(commentsCorrect(\"///*/**/\"), false)\nTest.assertEquals(commentsCorrect(\"//*/**/\"), false)\nTest.assertEquals(commentsCorrect(\"/////\"), false)\nTest.assertEquals(commentsCorrect(\"///\"), false)\nTest.assertEquals(commentsCorrect(\"/**///**/\"), false)\nTest.assertEquals(commentsCorrect(\"/**/////**/\"), false)",
+  "title": "Valid JavaScript Comments"
+}

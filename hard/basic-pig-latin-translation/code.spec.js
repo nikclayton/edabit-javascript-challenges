@@ -1,8 +1,6 @@
 const pigLatin = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(pigLatin('Cats are great pets.')).toEqual('Atscay areway reatgay etspay.');
         expect(pigLatin('Tom got a small piece of pie.')).toEqual('Omtay otgay away mallsay iecepay ofway iepay.');

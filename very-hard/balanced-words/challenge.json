@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "8QTBwLzAdaM8wkrXu",
+  "code": "function balanced(word) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>We can assign a value to each character in a word, based on their position in the alphabet (a = 1, b = 2, ... , z = 26).  A </span><strong><span>balanced word</span></strong><span> is one where the sum of values on the left-hand side of the word equals the sum of values on the right-hand side. For odd length words, the middle character (balance point) is ignored.</span></p><p><span>Write a function that returns </span><code>true</code><span> if the word is balanced, and </span><code>false</code><span> if it's not.</span></p><h3><span>Examples</span></h3><pre><code>balanced(\"zips\") \u279e true\n// \"zips\" = \"zi|ps\" = 26+9|16+19 = 35|35 = true\n\nbalanced(\"brake\") \u279e false\n// \"brake\" = \"br|ke\" = 2+18|11+5 = 20|16 = false</code></pre><h3><span>Notes</span></h3><ul><li><span>All words will be lowercase, and have a minimum of 2 characters.</span></li><li><span>Palindromic words will always be balanced.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8QTBwLzAdaM8wkrXu",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(balanced('at'), false)\nTest.assertEquals(balanced('forgetful'), false)\nTest.assertEquals(balanced('vegetation'), true)\nTest.assertEquals(balanced('disillusioned'), false)\nTest.assertEquals(balanced('abstract'), true)\nTest.assertEquals(balanced('clever'), false)\nTest.assertEquals(balanced('conditionalities'), true)\nTest.assertEquals(balanced('seasoning'), true)\nTest.assertEquals(balanced('uptight'), false)\nTest.assertEquals(balanced('ticket'), false)\nTest.assertEquals(balanced('calculate'), false)\nTest.assertEquals(balanced('measure'), false)\nTest.assertEquals(balanced('join'), false)\nTest.assertEquals(balanced('anesthesiologies'), true)\nTest.assertEquals(balanced('command'), false)\nTest.assertEquals(balanced('graphite'), true)\nTest.assertEquals(balanced('quadratically'), true)\nTest.assertEquals(balanced('right'), false)\nTest.assertEquals(balanced('fossil'), true)\nTest.assertEquals(balanced('sparkling'), false)\nTest.assertEquals(balanced('dolphin'), true)\nTest.assertEquals(balanced('baseball'), true)\nTest.assertEquals(balanced('immense'), false)\nTest.assertEquals(balanced('pattern'), true)\nTest.assertEquals(balanced('hand'), false)\nTest.assertEquals(balanced('radar'), true)\nTest.assertEquals(balanced('oven'), false)\nTest.assertEquals(balanced('immutability'), true)\nTest.assertEquals(balanced('kayak'), true)\nTest.assertEquals(balanced('bartender'), true)\nTest.assertEquals(balanced('weight'), false)\nTest.assertEquals(balanced('lightbulbs'), true)\nTest.assertEquals(balanced('tail'), true)",
+  "title": "Balanced Words"
+}

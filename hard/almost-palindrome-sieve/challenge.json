@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "xPnZKhYcn5TwK3HFT",
+  "code": "function palindromeSieve(nums) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that takes in an array of integers and returns the integers that are either </span><strong><span>palindromes</span></strong><span> or  </span><strong><span>almost-palindromes</span></strong><span>. An </span><strong><span>almost-palindrome</span></strong><span> is any integer that can be rearranged to form a palindrome.</span></p><p><span>For example, the numbers </span><code>677</code><span> and </span><code>338</code><span> are both </span><strong><span>almost-palindromes</span></strong><span>, since they can be rearranged to form </span><code>767</code><span> and </span><code>383</code><span>, respectively.</span></p><h3><span>Examples</span></h3><pre><code>palindromeSieve([443, 12, 639, 121, 3232]) \u279e [443, 121, 3232]\n// Since 443 =&gt; 434; 121 is a palindrome; 3232 =&gt; 2332 or 3223\n\npalindromeSieve([5, 55, 6655, 8787]) \u279e [5, 55, 6655, 8787]\n// Single-digit numbers are automatically palindromes.\n\npalindromeSieve([897, 89, 23, 54, 6197, 53342]) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>Return an empty array if none of the numbers are palindromes or almost-palindromes.</span></p>",
+  "source_url": "https://edabit.com/challenge/xPnZKhYcn5TwK3HFT",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(palindromeSieve([443, 12, 639, 121, 3232]), [443, 121, 3232])\nTest.assertSimilar(palindromeSieve([5, 55, 6655, 8787]), [5, 55, 6655, 8787])\nTest.assertSimilar(palindromeSieve([897, 89, 23, 54, 6197, 53342]), [])\nTest.assertSimilar(palindromeSieve([112, 334, 555, 656, 665, 444, 443, 7]), [112, 334, 555, 656, 665, 444, 443, 7])\nTest.assertSimilar(palindromeSieve([1, 2, 123]), [1, 2])\nTest.assertSimilar(palindromeSieve([1, 2, 3]), [1, 2, 3])\nTest.assertSimilar(palindromeSieve([555, 687868877]), [555, 687868877])\nTest.assertSimilar(palindromeSieve([555, 68786887]), [555, 68786887])",
+  "title": "Almost-Palindrome Sieve"
+}

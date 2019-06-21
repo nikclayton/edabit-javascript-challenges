@@ -1,0 +1,18 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "i6YqzHcSiPiEQKjeX",
+  "code": "function maximumScore(tileHand) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Given an array of scrabble tiles, create a function that outputs the maximum possible score a player can achieve by summing up the total number of points for all the tiles in their hand. Each hand contains 7 scrabble tiles.</span></p><p><span>Here's an example hand:</span></p><pre><code>[\n  { tile: \"N\", score: 1 },\n  { tile: \"K\", score: 5 },\n  { tile: \"Z\", score: 10 },\n  { tile: \"X\", score: 8 },\n  { tile: \"D\", score: 2 },\n  { tile: \"A\", score: 1 },\n  { tile: \"E\", score: 1 }\n]</code></pre><p><span>The players maximumScore from playing all these tiles would be 1 + 5 + 10 + 8 + 2 + 1 + 1, or 28.</span></p><h3><span>Examples</span></h3><pre><code>maximumScore([\n  { tile: \"N\", score: 1 },\n  { tile: \"K\", score: 5 },\n  { tile: \"Z\", score: 10 },\n  { tile: \"X\", score: 8 },\n  { tile: \"D\", score: 2 },\n  { tile: \"A\", score: 1 },\n  { tile: \"E\", score: 1 }\n]) \u279e 28\n\nmaximumScore([\n  { tile: \"B\", score: 2 },\n  { tile: \"V\", score: 4 },\n  { tile: \"F\", score: 4 },\n  { tile: \"U\", score: 1 },\n  { tile: \"D\", score: 2 },\n  { tile: \"O\", score: 1 },\n  { tile: \"U\", score: 1 }\n]) \u279e 15</code></pre><h3><span>Notes</span></h3><p><span>Here, each tile is represented as an object with two keys: tile and score.</span></p>",
+  "source_url": "https://edabit.com/challenge/i6YqzHcSiPiEQKjeX",
+  "tags": [
+    "arrays",
+    "games",
+    "loops",
+    "numbers",
+    "objects"
+  ],
+  "tests": "Test.assertEquals(maximumScore([{tile: 'N', score: 1}, {tile: 'K', score: 5},  {tile: 'Z', score: 10}, {tile: 'X', score: 8}, {tile: 'D', score: 2}, {tile: 'A', score: 1}, {tile: 'E', score: 1}]), 28);\nTest.assertEquals(maximumScore([{tile: 'B', score: 2}, {tile: 'V', score: 4},  {tile: 'F', score: 4}, {tile: 'U', score: 1}, {tile: 'D', score: 2}, {tile: 'O', score: 1}, {tile: 'U', score: 1}]), 15);\nTest.assertEquals(maximumScore([{tile: 'M', score: 3}, {tile: 'Q', score: 10},  {tile: 'O', score: 1}, {tile: 'E', score: 1}, {tile: 'E', score: 1}, {tile: 'I', score: 1}, {tile: 'A', score: 1}]), 18);\nTest.assertEquals(maximumScore([{tile: 'A', score: 1}, {tile: 'E', score: 1},  {tile: 'O', score: 1}, {tile: 'E', score: 1}, {tile: 'E', score: 1}, {tile: 'I', score: 1}, {tile: 'A', score: 1}]), 7);",
+  "title": "Scrabble Hand"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hzCaSMeqkErxixioy",
+  "code": "function smallest(digits, value) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>smallest N-digit number</span></strong><span> which is a </span><strong><span>multiple</span></strong><span> of the specified value.</span></p><h3><span>Examples</span></h3><pre><code>smallest(3, 8) \u279e 104\n// Smallest 3-digit integer that is a multiple of 8\n\nsmallest(5, 12) \u279e 10008\n\nsmallest(7, 1) \u279e 1000000\n\nsmallest(2, 3) \u279e 12</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/hzCaSMeqkErxixioy",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(smallest(3, 8), 104)\nTest.assertEquals(smallest(5, 12), 10008)\nTest.assertEquals(smallest(7, 1), 1000000)\nTest.assertEquals(smallest(2, 3), 12)\nTest.assertEquals(smallest(9, 33), 100000032)\nTest.assertEquals(smallest(8, 17), 10000012)\nTest.assertEquals(smallest(4, 67), 1005)\nTest.assertEquals(smallest(4, 432), 1296)\nTest.assertEquals(smallest(3, 432), 432)\nTest.assertEquals(smallest(3, 77), 154)",
+  "title": "Smallest N Digit Number"
+}

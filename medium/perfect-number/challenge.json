@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "CEF6zcYWWWhbbgA2M",
+  "code": "function checkPerfect(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that tests whether or not an integer is a </span><strong><span>perfect number</span></strong><span>. A perfect number is a number that can be written as the sum of its factors, excluding the number itself. </span></p><p><span>For example, 6 is a </span><strong><span>perfect number</span></strong><span>, since 1 + 2 + 3 = 6, where 1, 2, and 3 are all factors of 6. Similarly, 28 is a </span><strong><span>perfect number</span></strong><span>, since 1 + 2 + 4 + 7 + 14 = 28. </span></p><h3><span>Examples</span></h3><pre><code>checkPerfect(6) \u279e true\n\ncheckPerfect(28) \u279e true\n\ncheckPerfect(496) \u279e true\n\ncheckPerfect(12) \u279e false\n\ncheckPerfect(97) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/CEF6zcYWWWhbbgA2M",
+  "tags": [
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(checkPerfect(6), true);\nTest.assertEquals(checkPerfect(28), true);\nTest.assertEquals(checkPerfect(496), true);\nTest.assertEquals(checkPerfect(8128), true);\nTest.assertEquals(checkPerfect(33550336), true);\nTest.assertEquals(checkPerfect(12), false);\nTest.assertEquals(checkPerfect(97), false);\nTest.assertEquals(checkPerfect(481), false);\nTest.assertEquals(checkPerfect(1001), false);\nTest.assertEquals(checkPerfect(55555), false);",
+  "title": "Perfect Number"
+}

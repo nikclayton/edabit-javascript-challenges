@@ -1,8 +1,6 @@
 const isEvenOrOdd = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isEvenOrOdd(3)).toEqual('odd');
         expect(isEvenOrOdd(0)).toEqual('even');

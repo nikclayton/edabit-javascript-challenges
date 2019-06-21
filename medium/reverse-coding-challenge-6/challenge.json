@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "igEBCD9MzBfKfEMog",
+  "code": "function mysteryFunc(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>mysteryFunc(152) \u279e 10\n\nmysteryFunc(832) \u279e 48\n\nmysteryFunc(19) \u279e 9\n\nmysteryFunc(133) \u279e 9</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/igEBCD9MzBfKfEMog",
+  "tags": [
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(mysteryFunc(152), 10)\nTest.assertEquals(mysteryFunc(832), 48)\nTest.assertEquals(mysteryFunc(5511), 25)\nTest.assertEquals(mysteryFunc(19), 9)\nTest.assertEquals(mysteryFunc(133), 9)",
+  "title": "Reverse Coding Challenge #6"
+}

@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "S5nPFF44x7JceXPBn",
+  "code": "function isValidIP(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string (IPv4 address in standard dot-decimal format) and returns </span><code>true</code><span> if the IP is valid or </span><code>false</code><span> if it's not. For information on IPv4 formatting, please refer to the resources in the </span><strong><span>Resources</span></strong><span> tab.</span></p><h3><span>Examples</span></h3><pre><code>isValidIP(\"1.2.3.4\") \u279e true\n\nisValidIP(\"1.2.3\") \u279e false\n\nisValidIP(\"1.2.3.4.5\") \u279e false\n\nisValidIP(\"123.45.67.89\") \u279e true\n\nisValidIP(\"123.456.78.90\") \u279e false\n\nisValidIP(\"123.045.067.089\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>IPv6 addresses are not valid.</span></li><li><span>Leading zeros are not valid (</span><code>123.045.067.089</code><span> should return </span><code>false</code><span>).</span></li><li><span>You can expect a single string for every test case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/S5nPFF44x7JceXPBn",
+  "tags": [
+    "algorithms",
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isValidIP(\"12.255.56.1\"), true, \"This is a valid IPv4\");\nTest.assertEquals(isValidIP(\"1.2.3.4\"), true, \"This is a valid IPv4\");\nTest.assertEquals(isValidIP(\"1.2.3\"), false, \"IPv4 contain exactly four octets.\");\nTest.assertEquals(isValidIP(\"1.2.3.4.5\"), false, \"IPv4 contain exactly four octets.\");\nTest.assertEquals(isValidIP(\"123.45.67.89\"), true, \"This is a valid IPv4\");\nTest.assertEquals(isValidIP(\"123.456.78.90\"), false, \"Each octet must be a decimal value between 0 and 255.\");\nTest.assertEquals(isValidIP(\"123.045.067.089\"), false, \"Each octet must be a decimal value between 0 and 255.\");\nTest.assertEquals(isValidIP(\"\"), false, \"An empty string is invalid.\");\nTest.assertEquals(isValidIP(\"abc.def.ghi.jkl\"), false, \"This is not in dot decimal format.\");\nTest.assertEquals(isValidIP(\"123.456.789.0\"), false, \"Each octet must be a decimal value between 0 and 255.\");\nTest.assertEquals(isValidIP(\"12.34.56\"), false, \"IPv4 contain exactly four octets.\");\nTest.assertEquals(isValidIP(\"12.34.56 .1\"), false, \"Check for spaces.\");\nTest.assertEquals(isValidIP(\"12.34.56.-1\"), false, \"Check for invalid characters.\");\nTest.assertEquals(isValidIP(\"123.045.067.089\"), false, \"Each octet must be a decimal value between 0 and 255.\");\nTest.assertEquals(isValidIP(\"192.168.1.1\"), true, \"This is a valid IPv4\");\nTest.assertEquals(isValidIP(\"192.168.1.1  \"), false, \"IPs with trailing spaces are invalid.\");\nTest.assertEquals(isValidIP(\"  192.168.1.1\"), false, \"IPs with leading spaces are invalid.\");\nTest.assertEquals(isValidIP(\"0.232.47.227\"), true, \"This is a valid IPv4\");\nTest.assertEquals(isValidIP(\"1e0.1e0.1e0.1e0\"), false, \"Each octet must be a decimal value between 0 and 255.\");",
+  "title": "IPv4 Validation"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uScx6aGXmNu27NYWz",
+  "code": "function getFrequencies(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns the frequency distribution of an array. This function should return an object, where the keys are the unique elements and the values are the frequency in which those elements occur.</span></p><h3><span>Examples</span></h3><pre><code>getFrequencies([\"A\", \"B\", \"A\", \"A\", \"A\"]) \u279e { A: 4, B: 1 }\n\ngetFrequencies([1, 2, 3, 3, 2]) \u279e { \"1\": 1, \"2\": 2, \"3\": 2 }\n\ngetFrequencies([true, false, true, false, false]) \u279e { true: 2, false: 3 }\n\ngetFrequencies([]) \u279e {}</code></pre><h3><span>Notes</span></h3><ul><li><span>If given an empty array, return an empty object (see example #4).</span></li><li><span>The object should be in the same order as in the input array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/uScx6aGXmNu27NYWz",
+  "tags": [
+    "language_fundamentals",
+    "loops",
+    "objects"
+  ],
+  "tests": "Test.assertSimilar(getFrequencies(['A', 'A']), {A: 2})\nTest.assertSimilar(getFrequencies(['A', 'B', 'A', 'A', 'A']), {A: 4, B: 1})\nTest.assertSimilar(getFrequencies(['A', 'B', 'C', 'A', 'A']), {A: 3, B: 1, C: 1})\nTest.assertSimilar(getFrequencies([true, false, true, false, false]), {'true': 2, 'false': 3})\nTest.assertSimilar(getFrequencies([1, 2, 3, 3, 2]), {'1': 1, '2': 2, '3': 2})\nTest.assertSimilar(getFrequencies([]), {})",
+  "title": "Frequency Distribution"
+}

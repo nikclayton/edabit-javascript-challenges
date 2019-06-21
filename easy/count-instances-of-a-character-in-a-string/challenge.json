@@ -4,12 +4,12 @@
   "challenge_id": "kbFhwaDyrd79JrgeB",
   "code": "function charCount(myChar, str) {\n  \n}",
   "difficulty": "Easy",
-  "instructions": "<p><span>Create a function that takes two strings as arguments and returns the number of times the first string is found in the second string.</span></p><h3><span>Examples</span></h3><pre><code>charCount(\"a\", \"edabit\") \u279e 1\n\ncharCount(\"c\", \"Chamber of secrets\") \u279e 1\n\ncharCount(\"f\", \"frank and his friends have offered five foxes for sale\") \u279e 7</code></pre><h3><span>Notes</span></h3><p><span>Your output must be case-sensitive (see second example).</span></p>",
+  "instructions": "<p><span>Create a function that takes two strings as arguments and returns the number of times the first string is found in the second string.</span></p><h3><span>Examples</span></h3><pre><code>charCount(\"a\", \"edabit\") \u279e 1\n\ncharCount(\"c\", \"Chamber of secrets\") \u279e 1\n\ncharCount(\"b\", \"big fat bubble\") \u279e 4</code></pre><h3><span>Notes</span></h3><p><span>Your output must be case-sensitive (see second example).</span></p>",
   "source_url": "https://edabit.com/challenge/kbFhwaDyrd79JrgeB",
   "tags": [
     "loops",
     "strings"
   ],
-  "tests": "Test.assertEquals(charCount('a', 'edabit'), 1);\nTest.assertEquals(charCount('b', 'big fat bubble'), 4);\nTest.assertEquals(charCount('c', 'Chamber of secrets'), 1);\nTest.assertEquals(charCount('f', 'frank and his friends have offered five foxes for sale'), 7);\nTest.assertEquals(charCount('x', 'edabit'), 0);\nTest.assertEquals(charCount('a', 'Adam and Eve bit the apple and found a snake'), 6);\nTest.assertEquals(charCount('s', 'sssssssssssssssssssssssss'), 25);\nTest.assertEquals(charCount('7', '10795426697'), 2);",
+  "tests": "Test.assertEquals(charCount('a', 'edabit'), 1)\nTest.assertEquals(charCount('b', 'big fat bubble'), 4)\nTest.assertEquals(charCount('c', 'Chamber of secrets'), 1)\nTest.assertEquals(charCount('f', 'frank and his friends have offered five foxes for sale'), 7)\nTest.assertEquals(charCount('x', 'edabit'), 0)\nTest.assertEquals(charCount('a', 'Adam and Eve bit the apple and found a snake'), 6)\nTest.assertEquals(charCount('s', 'sssssssssssssssssssssssss'), 25)\nTest.assertEquals(charCount('7', '10795426697'), 2)",
   "title": "Count Instances of a Character in a String"
 }

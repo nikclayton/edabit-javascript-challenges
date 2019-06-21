@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ceHuvcrXpKF6Ev4Nc",
+  "code": "function countUnique(s1, s2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Given two strings, create a function that returns the total number of unique characters from the combined string.</span></p><h3><span>Examples</span></h3><pre><code>countUnique(\"apple\", \"play\") \u279e 5\n// \"appleplay\" has 5 unique characters:\n// \"a\", \"e\", \"l\", \"p\", \"y\"\n\ncountUnique(\"sore\", \"zebra\") \u279e 7\n// \"sorezebra\" has 7 unique characters:\n// \"a\", \"b\", \"e\", \"o\", \"r\", \"s\", \"z\"\n\ncountUnique(\"a\", \"soup\") \u279e 5</code></pre><h3><span>Notes</span></h3><ul><li><span>Each word will contain at least one letter.</span></li><li><span>All words will be lower cased.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ceHuvcrXpKF6Ev4Nc",
+  "tags": [
+    "data_structures",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countUnique(\"apple\", \"play\"), 5)\nTest.assertEquals(countUnique(\"sore\", \"zebra\"), 7)\nTest.assertEquals(countUnique(\"pip\", \"geeks\"), 6)\nTest.assertEquals(countUnique(\"a\", \"soup\"), 5)\nTest.assertEquals(countUnique(\"maniac\", \"maniac\"), 5)",
+  "title": "Total Number of Unique Characters"
+}

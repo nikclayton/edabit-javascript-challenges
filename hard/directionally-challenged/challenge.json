@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "jRXxKKZh5kGojDd2H",
+  "code": "function routeDiff(directions) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Suppose you are directionally challenged, and get lost easily. As a result, sometimes you walk in circles or make U-turns. You might take a sub-optimal route. Create a function that returns the difference in length between </span><strong><span>your path</span></strong><span> and the </span><strong><span>optimal path</span></strong><span>. Both paths reach the same destination.</span></p><p><span>You start at </span><code>(0,0)</code><span> and reach your destination by the end of the input array.</span></p><p><span>A demonstration:</span></p><pre><code>Your route: [\"N\", \"S\", \"E\", \"W\", \"E\", \"E\", \"E\", \"N\"]  // 8\nOptimal route: [\"E\", \"E\", \"E\", \"N\"] (or [\"N\", \"E\", \"E\", \"E\"], etc.) // 4\n// Difference in length: 8 - 4 = 4\n\n// Explanation: Your \"S\" cancels out your \"N\" and your \"W\" cancels out your \"E\" leaving you back at (0,0)</code></pre><h3><span>Examples</span></h3><pre><code>routeDiff([\"N\", \"E\", \"S\", \"W\"]) \u279e 4\n// You\"ve just walked in a circle! You are back at the origin. Your optimal path was `[]`.\n\nrouteDiff([\"N\", \"N\", \"N\", \"E\", \"N\", \"E\"]) \u279e 0\n// No improvements here!\n\nrouteDiff([\"N\", \"S\", \"N\", \"S\", \"E\", \"W\", \"E\", \"E\"]) \u279e 6</code></pre><h3><span>Notes</span></h3><p><span>Remember that a </span><code>N</code><span> cancels out a </span><code>S</code><span>, and an </span><code>E</code><span> cancels out a </span><code>W</code></p>",
+  "source_url": "https://edabit.com/challenge/jRXxKKZh5kGojDd2H",
+  "tags": [
+    "arrays",
+    "control_flow"
+  ],
+  "tests": "Test.assertEquals(routeDiff(['N', 'E', 'S', 'W']), 4)\nTest.assertEquals(routeDiff(['N', 'N', 'N', 'E', 'N', 'E']), 0)\nTest.assertEquals(routeDiff(['N', 'S', 'N', 'S', 'E', 'W', 'E', 'E']), 6)\nTest.assertEquals(routeDiff(['N', 'S', 'N', 'S', 'E']), 4)\nTest.assertEquals(routeDiff(['N', 'N', 'S', 'S', 'S', 'S', 'E']), 4)\nTest.assertEquals(routeDiff(['N', 'N', 'S', 'S', 'W', 'S', 'E']), 6)\nTest.assertEquals(routeDiff(['N', 'S', 'E']), 2)\nTest.assertEquals(routeDiff(['S', 'S', 'S']), 0)\nTest.assertEquals(routeDiff(['S', 'S', 'S', 'S', 'S', 'N']), 2)",
+  "title": "Directionally Challenged"
+}

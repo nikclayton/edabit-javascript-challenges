@@ -1,8 +1,6 @@
 const getPathLength = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(getPathLength('m,.,.,.,t,.,.,.,h', 3, 3)).toEqual(3);
         expect(getPathLength('m,.,.,.,.,.,.,.,h', 3, 3)).toEqual(2);

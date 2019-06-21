@@ -1,8 +1,6 @@
 const overlap = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(overlap('ABC', 'Ican\'tsingmyABC')).toEqual(true);
         expect(overlap('abc', 'Ican\'tsingmyABC')).toEqual(true);

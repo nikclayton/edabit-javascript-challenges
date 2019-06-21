@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "FtZGQEonGwyozeCna",
+  "code": "function factorChain(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>A </span><strong><span>factor chain</span></strong><span> is an array where each previous element is a factor of the next  consecutive element. The following is a factor chain: </span></p><pre><code>[3, 6, 12, 36]\n\n// 3 is a factor of 6\n// 6 is a factor of 12\n// 12 is a factor of 36</code></pre><p><span>Create a function that determines whether or not an array is a factor chain. </span></p><h3><span>Examples</span></h3><pre><code>factorChain([1, 2, 4, 8, 16, 32]) \u279e true\n\nfactorChain([1, 1, 1, 1, 1, 1]) \u279e true\n\nfactorChain([2, 4, 6, 7, 12]) \u279e false\n\nfactorChain([10, 1]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/FtZGQEonGwyozeCna",
+  "tags": [
+    "arrays",
+    "loops",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(factorChain([1, 2, 4, 8, 16, 32]), true)\nTest.assertEquals(factorChain([1, 1, 1, 1, 1, 1]), true)\nTest.assertEquals(factorChain([2, 4, 6, 7, 12]), false)\nTest.assertEquals(factorChain([10, 1]), false)\nTest.assertEquals(factorChain([10, 20, 30, 40]), false)\nTest.assertEquals(factorChain([10, 20, 40]), true)\nTest.assertEquals(factorChain([1, 1, 1, 1, 7, 49]), true)",
+  "title": "Factor Chain"
+}

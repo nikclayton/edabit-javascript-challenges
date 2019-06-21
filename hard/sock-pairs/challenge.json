@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "AkSERJZ9pTEZfFMNE",
+  "code": "function sockPairs(socks) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Joseph is in the middle of packing for a vacation. He's having a bit of trouble finding all of his socks, though.</span></p><p><span>Write a function that returns the number of sock pairs he has. A sock pair consists of two of the same letter, such as </span><code>\"AA\"</code><span>. The socks are represented as an unordered sequence.</span></p><h3><span>Examples</span></h3><pre><code>sockPairs(\"AA\") \u279e 1\n\nsockPairs(\"ABABC\") \u279e 2\n\nsockPairs(\"CABBACCC\") \u279e 4</code></pre><h3><span>Notes</span></h3><ul><li><span>If given an empty string (no socks in the drawer), return 0.</span></li><li><span>There can be multiple pairs of the same type of sock, such as two pairs of </span><code>CC</code><span> for the last example.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/AkSERJZ9pTEZfFMNE",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(sockPairs(\"AA\"), 1);\nTest.assertEquals(sockPairs(\"ABABC\"), 2);\nTest.assertEquals(sockPairs(\"CABBACCC\"), 4);\nTest.assertEquals(sockPairs(\"AACDE\"), 1);\nTest.assertEquals(sockPairs(\"ACDBE\"), 0);\nTest.assertEquals(sockPairs(\"\"), 0);\nTest.assertEquals(sockPairs(\"ABABAB\"), 2);\nTest.assertEquals(sockPairs(\"AAAAA\"), 2);\nTest.assertEquals(sockPairs(\"AAACCBB\"), 3);",
+  "title": "Sock Pairs"
+}

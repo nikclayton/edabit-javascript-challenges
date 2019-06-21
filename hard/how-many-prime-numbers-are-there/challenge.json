@@ -1,0 +1,16 @@
+{
+  "author_id": "hiroimono",
+  "author_url": "https://edabit.com/user/neNZBuqetyra2TTzr",
+  "challenge_id": "aHHyBptSxSfyzbWaX",
+  "code": "function primeNumbers(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that finds how many prime numbers there are, up to the given integer.</span></p><h3><span>Examples</span></h3><pre><code>primeNumbers(10) \u279e 4\n// 2, 3, 5  and 7\n\nprimeNumbers(20) \u279e 8\n// 2, 3, 5, 7, 11, 13, 17 and 19\n\nprimeNumbers(30) \u279e 10\n// 2, 3, 5, 7, 11, 13, 17, 19, 23 and 29</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/aHHyBptSxSfyzbWaX",
+  "tags": [
+    "algebra",
+    "algorithms",
+    "conditions"
+  ],
+  "tests": "Test.assertEquals(primeNumbers(20), 8)\nTest.assertEquals(primeNumbers(30), 10)\nTest.assertEquals(primeNumbers(100), 25)\nTest.assertEquals(primeNumbers(200), 46)\nTest.assertEquals(primeNumbers(1000), 168)\nTest.assertEquals(primeNumbers(-5), 0)\nTest.assertEquals(primeNumbers(66), 18)\nTest.assertEquals(primeNumbers(133), 32)\nTest.assertEquals(primeNumbers(99), 25)\nTest.assertEquals(primeNumbers(14.5), 6)",
+  "title": "How Many \"Prime Numbers\" Are There?"
+}

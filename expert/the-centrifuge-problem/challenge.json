@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "T4KHxHe8n4cy2hcME",
+  "code": "function cFuge(n, k) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>A centrifuge, as you probably know, is a laboratory device used to separate fluids based on density. The separation is achieved through centrifugal force by spinning a collection of test tubes at high speeds. This means, the configuration needs to be in balance.</span></p><p><span>Create a function that takes two numbers as arguments (</span><em><span>n</span></em><span> and </span><em><span>k</span></em><span>) and returns </span><code>true</code><span> if the configuration is balanced and </span><code>false</code><span> if it's not. To check out the formula, look at the </span><strong><span>resources tab</span></strong><span>.</span></p><p><img alt=\"The Centrifuge Problem with 6 Holes, n=6\" title=\"The Centrifuge Problem with 6 Holes, n=6\" src=\"https://edabit-challenges.s3.amazonaws.com/6_hole_centrifuge.png\"></p><p><span>Here are the valid configurations for </span><em><span>n</span></em><span> = 6, </span><em><span>k</span></em><span>= 2, 3, 4 and 6.</span></p><h3><span>Examples</span></h3><pre><code>cFuge(6, 4) \u279e true\n\ncFuge(2, 1) \u279e false\n\ncFuge(3, 3) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>One test tube (</span><em><span>k</span></em><span> = 1) is </span><strong><span>never</span></strong><span> in balance.</span></li><li><span>One hole (</span><em><span>n</span></em><span> = 1) is </span><strong><span>never</span></strong><span> in balance, even empty.  Just sayin'.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/T4KHxHe8n4cy2hcME",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(c_fuge(6, 4), true)\nTest.assertEquals(c_fuge(5, 1), false)\nTest.assertEquals(c_fuge(12, 7), true)\nTest.assertEquals(c_fuge(1, 1), false)\nTest.assertEquals(c_fuge(21, 18), true)\nTest.assertEquals(c_fuge(1, 0), false)\nTest.assertEquals(c_fuge(4, 2), true)\nTest.assertEquals(c_fuge(5, 3), false)\nTest.assertEquals(c_fuge(21, 13), false)\nTest.assertEquals(c_fuge(3, 3), true)\nTest.assertEquals(c_fuge(50, 1), false)\nTest.assertEquals(c_fuge(8, 6), true)\nTest.assertEquals(c_fuge(9, 5), false)\nTest.assertEquals(c_fuge(2, 1), false)\nTest.assertEquals(c_fuge(59, 59), true)\nTest.assertEquals(c_fuge(11, 4), false)",
+  "title": "The Centrifuge Problem"
+}

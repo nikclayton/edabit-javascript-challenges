@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "fiLc5x3x2bHzHvgK4",
+  "code": "function mauriceWins(mSnails, sSnails) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Steve and Maurice are racing snails. They each have 3, a slow (</span><code>s</code><span>), medium (</span><code>m</code><span>) and fast (</span><code>f</code><span>) one. Although Steve's snails are all a bit stronger than Maurice's, Maurice has a trick up his sleeve. His plan is (written </span><code>[Maurice, Steve]</code><span>):</span></p><ol><li><span>Round 1: </span><code>[s, f]</code><span> Sacrifice his slowest snail against Steve's fastest.</span></li><li><span>Round 2: </span><code>[m, s]</code><span> Use his middle snail against Steve's slowest.</span></li><li><span>Round 3: </span><code>[f, m]</code><span> Use his fastest snail against Steve's middle.</span></li></ol><p><span>Create a function that determines whether Maurice's plan will work by outputting </span><code>true</code><span> if Maurice wins 2/3 games.</span></p><p><span>The function inputs:</span></p><ol><li><span>Array 1: </span><code>[s, m, f]</code><span> for Maurice.</span></li><li><span>Array 2: </span><code>[s, m, f]</code><span> for Steve.</span></li></ol><h3><span>Examples</span></h3><pre><code>mauriceWins([3, 5, 10], [4, 7, 11]) \u279e true\n// Since the matches are (3, 11), (5, 4) and (10, 7), Maurice wins 2 out of 3.\n\nmauriceWins([6, 8, 9], [7, 12, 14]) \u279e false\n// Since the matches are (6, 14), (8, 7) and (9, 12), Steve wins 2 out of 3.\n\nmauriceWins([1, 8, 20], [2, 9, 100]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Maurice wins if his competing snail's speed </span><strong><span>strictly</span></strong><span> exceeds Steve's competing snail's speed.</span></li><li><span>Steve will always play in this order: </span><code>[f, s, m]</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/fiLc5x3x2bHzHvgK4",
+  "tags": [
+    "arrays",
+    "games",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(mauriceWins([3, 5, 10], [4, 7, 11]), true);\nTest.assertEquals(mauriceWins([6, 8, 9], [7, 12, 14]), false);\nTest.assertEquals(mauriceWins([1, 8, 20], [2, 9, 100]), true);\nTest.assertEquals(mauriceWins([1, 2, 3], [2, 3, 4]), false);\nTest.assertEquals(mauriceWins([2, 4, 10], [3, 9, 11]), true);\nTest.assertEquals(mauriceWins([3, 8, 13], [5, 11, 15]), true);",
+  "title": "Snail Race"
+}

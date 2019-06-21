@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Ysk5M8XAscc4fqaAi",
+  "code": "function isValid(zip) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Zip codes consist of 5 consecutive digits. Given a string, write a function to determine whether the input is a valid zip code.</span></p><h3><span>Examples</span></h3><pre><code>isValid(\"59001\") \u279e true\n\nisValid(\"853a7\") \u279e false\n\nisValid(\"732 32\") \u279e false\n\nisValid(\"393939\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Valid zip codes should not be any spaces between the digits.</span></p>",
+  "source_url": "https://edabit.com/challenge/Ysk5M8XAscc4fqaAi",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isValid(\"59001\"), true)\nTest.assertEquals(isValid(\"853a7\"), false, \"No non-digits allowed.\")\nTest.assertEquals(isValid(\"732 32\"), false, \"No spaces allowed.\")\nTest.assertEquals(isValid(\"788876\"), false, \"No sequences of length greater than 5.\")\nTest.assertEquals(isValid(\"a923b\"), false, \"No letters allowed.\")\nTest.assertEquals(isValid(\"5923!\"), false, \"No non-digits allowed.\")\nTest.assertEquals(isValid(\"59238aa\"), false, \"No letters and no sequences of length greater than 5.\")\nTest.assertEquals(isValid(\"88231\"), true)",
+  "title": "Valid Zip Code"
+}

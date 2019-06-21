@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9MEWMJ5eX8EAiWSs5",
+  "code": "function characterMapping(str) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that returns a character mapping from a word.</span></p><h3><span>Examples</span></h3><pre><code>characterMapping(\"abcd\") \u279e [0, 1, 2, 3]\n\ncharacterMapping(\"abb\") \u279e [0, 1, 1]\n\ncharacterMapping(\"babbcb\") \u279e [0, 1, 0, 0, 2, 0]\n\ncharacterMapping(\"hmmmmm\") \u279e [0, 1, 1, 1, 1, 1]</code></pre><h3><span>Notes</span></h3><ul><li><span>Start your counter at 0, and increment by </span><strong><span>1</span></strong><span> each time you encounter a new character.</span></li><li><span>Identical characters should share the same number.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9MEWMJ5eX8EAiWSs5",
+  "tags": [
+    "data_structures",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(characterMapping(\"abcd\"), [0, 1, 2, 3])\nTest.assertSimilar(characterMapping(\"abb\"), [0, 1, 1])\nTest.assertSimilar(characterMapping(\"babbcb\"), [0, 1, 0, 0, 2, 0])\nTest.assertSimilar(characterMapping(\"aaabb\"), [0, 0, 0, 1, 1])\nTest.assertSimilar(characterMapping(\"abccbc\"), [0, 1, 2, 2, 1, 2])\nTest.assertSimilar(characterMapping(\"fluffy\"), [0, 1, 2, 0, 0, 3])\nTest.assertSimilar(characterMapping(\"madness\"), [0, 1, 2, 3, 4, 5, 5])\nTest.assertSimilar(characterMapping(\"buttery\"), [0, 1, 2, 2, 3, 4, 5])\nTest.assertSimilar(characterMapping(\"canine\"), [0, 1, 2, 3, 2, 4])\nTest.assertSimilar(characterMapping(\"hohoho\"), [0, 1, 0, 1, 0, 1])\nTest.assertSimilar(characterMapping(\"hmmmmm\"), [0, 1, 1, 1, 1, 1])\nTest.assertSimilar(characterMapping(\"\"), [])",
+  "title": "Unique Character Mapping"
+}

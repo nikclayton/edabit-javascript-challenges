@@ -4,13 +4,13 @@
   "challenge_id": "Gz27eKkMcLarzE5Rj",
   "code": "function sortByLength(arr) {\n  \n}",
   "difficulty": "Easy",
-  "instructions": "<p><span>Create a function that takes an array of strings and return an array, sorted from shortest to longest.</span></p><h3><span>Examples</span></h3><pre><code>sortByLength([\"Google\", \"Apple\", \"Microsoft\"]) \u279e [\"Apple\", \"Google\", \"Microsoft\"]\n\nsortByLength([\"Leonardo\", \"Michelangelo\", \"Raphael\", \"Donatello\"]) \u279e [\"Raphael\", \"Leonardo\", \"Donatello\", \"Michelangelo\"]\n\nsortByLength([\"Turing\", \"Einstein\", \"Jung\"]) \u279e [\"Jung\", \"Turing\", \"Einstein\"]</code></pre><h3><span>Notes</span></h3><p><span>All test cases contain arrays with strings of </span><em><span>different</span></em><span> lengths, so you won't have to deal with multiple strings of the same length.</span></p>",
+  "instructions": "<p><span>Create a function that takes an array of strings and return an array, sorted from shortest to longest.</span></p><h3><span>Examples</span></h3><pre><code>sortByLength([\"Google\", \"Apple\", \"Microsoft\"])\n\u279e [\"Apple\", \"Google\", \"Microsoft\"]\n\nsortByLength([\"Leonardo\", \"Michelangelo\", \"Raphael\", \"Donatello\"])\n\u279e [\"Raphael\", \"Leonardo\", \"Donatello\", \"Michelangelo\"]\n\nsortByLength([\"Turing\", \"Einstein\", \"Jung\"])\n\u279e [\"Jung\", \"Turing\", \"Einstein\"]</code></pre><h3><span>Notes</span></h3><p><span>All test cases contain arrays with strings of </span><em><span>different</span></em><span> lengths, so you won't have to deal with multiple strings of the same length.</span></p>",
   "source_url": "https://edabit.com/challenge/Gz27eKkMcLarzE5Rj",
   "tags": [
     "algorithms",
     "arrays",
     "sorting"
   ],
-  "tests": "Test.assertSimilar(sortByLength([\"Google\", \"Apple\", \"Microsoft\"]), [\"Apple\", \"Google\", \"Microsoft\"]);\nTest.assertSimilar(sortByLength([\"Leonardo\", \"Michelangelo\", \"Raphael\", \"Donatello\"]), [\"Raphael\", \"Leonardo\", \"Donatello\", \"Michelangelo\"]);\nTest.assertSimilar(sortByLength([\"Turing\", \"Einstein\", \"Jung\"]), [\"Jung\", \"Turing\", \"Einstein\"]);\nTest.assertSimilar(sortByLength([\"Tatooine\", \"Hoth\", \"Yavin\", \"Dantooine\"]), [\"Hoth\", \"Yavin\", \"Tatooine\", \"Dantooine\"]);\nTest.assertSimilar(sortByLength([\"Mario\", \"Bowser\", \"Link\"]), [\"Link\", \"Mario\", \"Bowser\"]);",
+  "tests": "Test.assertSimilar(sortByLength([\"Google\", \"Apple\", \"Microsoft\"]), [\"Apple\", \"Google\", \"Microsoft\"])\nTest.assertSimilar(sortByLength([\"Leonardo\", \"Michelangelo\", \"Raphael\", \"Donatello\"]), [\"Raphael\", \"Leonardo\", \"Donatello\", \"Michelangelo\"])\nTest.assertSimilar(sortByLength([\"Turing\", \"Einstein\", \"Jung\"]), [\"Jung\", \"Turing\", \"Einstein\"])\nTest.assertSimilar(sortByLength([\"Tatooine\", \"Hoth\", \"Yavin\", \"Dantooine\"]), [\"Hoth\", \"Yavin\", \"Tatooine\", \"Dantooine\"])\nTest.assertSimilar(sortByLength([\"Mario\", \"Bowser\", \"Link\"]), [\"Link\", \"Mario\", \"Bowser\"])",
   "title": "Sort an Array by String Length"
 }

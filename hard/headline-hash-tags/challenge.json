@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ABiF6EsqRYMvogcgp",
+  "code": "function getHashTags(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that retrieves the </span><strong><span>top 3</span></strong><span> longest words of a newspaper headline and transforms them into hashtags. If multiple words tie for the same length, retrieve the word that occurs first.</span></p><h3><span>Examples</span></h3><pre><code>getHashTags(\"How the Avocado Became the Fruit of the Global Trade\")\n\u279e [\"#avocado\", \"#became\", \"#global\"]\n\ngetHashTags(\"Why You Will Probably Pay More for Your Christmas Tree This Year\")\n\u279e [\"#christmas\", \"#probably\", \"#will\"]\n\ngetHashTags(\"Hey Parents, Surprise, Fruit Juice Is Not Fruit\")\n\u279e [\"#surprise\", \"#parents\", \"#fruit\"]\n\ngetHashTags(\"Visualizing Science\")\n\u279e [\"#visualizing\", \"#science\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>If the title is less than 3 words, just order the words in the title by length in descending order (see example #4).</span></li><li><span>Punctuation does </span><strong><span>not</span></strong><span> count towards a word's length.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ABiF6EsqRYMvogcgp",
+  "tags": [
+    "regex",
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(getHashTags(\"How the Avocado Became the Fruit of the Global Trade\"), [\"#avocado\", \"#became\", \"#global\"])\nTest.assertSimilar(getHashTags(\"Why You Will Probably Pay More for Your Christmas Tree This Year\"), [\"#christmas\", \"#probably\", \"#will\"])\nTest.assertSimilar(getHashTags(\"Hey Parents, Surprise, Fruit Juice Is Not Fruit\"), [\"#surprise\", \"#parents\", \"#fruit\"])\nTest.assertSimilar(getHashTags(\"Visualizing Science\"), [\"#visualizing\", \"#science\"])\nTest.assertSimilar(getHashTags(\"Minecraft Stars on Youtube Share Secrets to Their Fame\"), [\"#minecraft\", \"#youtube\", \"#secrets\"])\nTest.assertSimilar(getHashTags(\"Are You an Elite Entrepreneur?\"), [\"#entrepreneur\", \"#elite\", \"#are\"])",
+  "title": "Headline Hash Tags"
+}

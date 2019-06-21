@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "4LA4kWtJGXpG3SJhA",
+  "code": "function validateSubsets(subsets, set) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if all subsets in a list belong to a given set.</span></p><h3><span>Examples</span></h3><pre><code>validateSubsets([[1, 2], [2, 3], [1, 3]], [1, 2, 3]) \u279e true\n\nvalidateSubsets([[1, 2, 3], [2], [3], []], [1, 2, 3]) \u279e true\n\nvalidateSubsets([[1, 2], [2, 3], [1, 4]], [1, 2, 3]) \u279e false\n\nvalidateSubsets([[1, 2, 3, 4]], [1, 2, 3]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>The </span><strong><span>empty set</span></strong><span> and the </span><strong><span>set</span></strong><span> itself are </span><strong><span>both</span></strong><span> valid subsets of a set (we are not talking about proper subsets here).</span></li><li><span>The set and the subset will each have unique elements.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/4LA4kWtJGXpG3SJhA",
+  "tags": [
+    "higher_order_functions",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(validateSubsets([[1, 2], [2, 3], [1, 3]], [1, 2, 3]), true)\nTest.assertEquals(validateSubsets([[1, 2, 3], [2], [3], []], [1, 2, 3]), true)\nTest.assertEquals(validateSubsets([[1, 2], [2, 3], [1, 4]], [1, 2, 3]), false)\nTest.assertEquals(validateSubsets([[1, 2, 3, 4]], [1, 2, 3]), false)\nTest.assertEquals(validateSubsets([['a', 'b'], ['b', 'c'], ['a', 'c']], ['a', 'b', 'c']), true)\nTest.assertEquals(validateSubsets([['a', 'b', 'c'], ['b'], ['c'], []], ['a', 'b', 'c']), true)\nTest.assertEquals(validateSubsets([['a', 'b'], ['b', 'c'], ['a', 'd']], ['a', 'b', 'c']), false)\nTest.assertEquals(validateSubsets([['a', 'b', 'c', 'd']], ['a', 'b', 'c']), false)\nTest.assertEquals(validateSubsets([[true, false], [true]], [true, false]), true)\nTest.assertEquals(validateSubsets([[true], [false], []], [true, false]), true)\nTest.assertEquals(validateSubsets([[true], [true, false]], [true]), false)\nTest.assertEquals(validateSubsets([[false]], [true]), false)",
+  "title": "Subset Validation"
+}

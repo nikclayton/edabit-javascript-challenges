@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ATybdGTuRuHAjwnyf",
+  "code": "function truncatable(n) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>A left-truncatable prime is a prime number that contains no 0 digits and, when the first digit is successively removed, the result is always prime.</span></p><p><span>A right-truncatable prime is a prime number that contains no 0 digits and, when the last digit is successively removed, the result is always prime.</span></p><p><span>Create a function that takes an integer as an argument and:</span></p><ul><li><span>If the integer is only a left-truncatable prime, return </span><code>\"left\"</code><span>.</span></li><li><span>If the integer is only a right-truncatable prime, return </span><code>\"right\"</code><span>.</span></li><li><span>If the integer is both, return </span><code>\"both\"</code><span>.</span></li><li><span>Otherwise, return </span><code>false</code><span>.</span></li></ul><h3><span>Examples</span></h3><pre><code>truncatable(9137) \u279e \"left\"\n// Because 9137, 137, 37 and 7 are all prime.\n\ntruncatable(5939) \u279e \"right\"\n// Because 5939, 593, 59 and 5 are all prime.\n\ntruncatable(317) \u279e \"both\"\n// Because 317, 17 and 7 are all prime and 317, 31 and 3 are all prime.\n\ntruncatable(5) \u279e \"both\"\n// The trivial case of single-digit primes is treated as truncatable from both directions.\n\ntruncatable(139) \u279e false\n// 1 and 9 are non-prime, so 139 cannot be truncatable from either direction.\n\ntruncatable(103) \u279e false\n// Because it contains a 0 digit (even though 103 and 3 are primes).</code></pre><h3><span>Notes</span></h3><p><span>The input integers will not exceed 10^6.</span></p>",
+  "source_url": "https://edabit.com/challenge/ATybdGTuRuHAjwnyf",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(truncatable(47), \"left\")\nTest.assertEquals(truncatable(347), \"left\")\nTest.assertEquals(truncatable(62383), \"left\")\nTest.assertEquals(truncatable(79), \"right\")\nTest.assertEquals(truncatable(7331), \"right\")\nTest.assertEquals(truncatable(233993), \"right\")\nTest.assertEquals(truncatable(3797), \"both\")\nTest.assertEquals(truncatable(739397), \"both\")\nTest.assertEquals(truncatable(5), \"both\", \"single-digit number treated as both\")\nTest.assertEquals(truncatable(349), false)\nTest.assertEquals(truncatable(2317), false, \"the starting number is composite\")\nTest.assertEquals(truncatable(131), false, \"1 is not a prime\")\nTest.assertEquals(truncatable(6043), false, \"cannot contain a 0 digit\")",
+  "title": "Truncatable Primes"
+}

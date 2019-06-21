@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "PgNvoxjjy7Gx6zDni",
+  "code": "function multiplicity(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns an array of elements </span><code>[number, multiplicity]</code><span>. The </span><code>multiplicity</code><span> of a number refers to the number of times it occurs in the array.</span></p><p><span>To illustrate:</span></p><pre><code>[5, 5, 1, 1, 5, 5, 3]\n[[5, 4], [1, 2], [3, 1]]\n\n// Since 5 appears 4 times, 1 appears twice, and 3 appears once.</code></pre><p><span>The final array should only include unique elements, and the elements should be ordered by when they first appeared in the original array.</span></p><h3><span>Examples</span></h3><pre><code>multiplicity([1, 1, 1, 2, 2, 3]) \u279e [[1, 3], [2, 2], [3, 1]]\n\nmultiplicity([1, 1, 1, 1, 1]) \u279e [[1, 5]]\n\nmultiplicity([1, 5, 4, 3, 2]) \u279e [[1, 1], [5, 1], [4, 1], [3, 1], [2, 1]]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/PgNvoxjjy7Gx6zDni",
+  "tags": [
+    "arrays",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertSimilar(multiplicity([1, 1, 1, 2, 2, 3]), [[1, 3], [2, 2], [3, 1]])\nTest.assertSimilar(multiplicity([1, 1, 1, 1, 1]), [[1, 5]])\nTest.assertSimilar(multiplicity([1, 5, 4, 3, 2]), [[1, 1], [5, 1], [4, 1], [3, 1], [2, 1]])\nTest.assertSimilar(multiplicity([5, 5, 5, 5, 8]), [[5, 4], [8, 1]])\nTest.assertSimilar(multiplicity([3, 3, 3, 0]), [[3, 3], [0, 1]])\nTest.assertSimilar(multiplicity([1, 1, 2, 2, 3, 3, 4, 4]), [[1, 2], [2, 2], [3, 2], [4, 2]])\nTest.assertSimilar(multiplicity([4, 4, 3, 3, 2, 2, 1, 1]), [[4, 2], [3, 2], [2, 2], [1, 2]])",
+  "title": "Multiplicity of Numbers"
+}

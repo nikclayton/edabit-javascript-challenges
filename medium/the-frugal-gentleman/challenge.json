@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ujzhzyvGoASKxSAib",
+  "code": "function chosenWine(wines) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Atticus has been invited to a dinner party, and he decides to purchase a bottle of wine. However, he has little knowledge of how to choose a good bottle. Being a very frugal gentleman (yet disliking looking like a cheapskate), he decides to use a very simple rule. In any selection of </span><strong><span>two or more wines</span></strong><span>, he will always buy the second-cheapest.</span></p><p><span>Given an array of wine objects, write a function that returns the name of the wine he will buy for the party. If given an empty array, return </span><code>null</code><span>. If given an array of only one, Atticus will buy that wine.</span></p><h3><span>Examples</span></h3><pre><code>chosenWine([\n  { name: \"Wine A\", price: 8.99 },\n  { name: \"Wine 32\", price: 13.99 },\n  { name: \"Wine 9\", price: 10.99 }\n]) \u279e \"Wine 9\"\n\nchosenWine([{ name: \"Wine A\", price: 8.99 }]) \u279e \"Wine A\"\n\nchosenWine([]) \u279e null</code></pre><h3><span>Notes</span></h3><p><span>All wines will be different prices, so there is no confusion in the ordering.</span></p>",
+  "source_url": "https://edabit.com/challenge/ujzhzyvGoASKxSAib",
+  "tags": [
+    "arrays",
+    "objects",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(chosenWine([{name: \"Wine A\", price: 8.99}, {name: \"Wine 32\", price: 13.99}, {name: \"Wine 9\", price: 10.99}]), \"Wine 9\");\nTest.assertEquals(chosenWine([{name: \"Wine A\", price: 8.99}, {name: \"Wine B\", price: 9.99}]), \"Wine B\");\nTest.assertEquals(chosenWine([{name: \"Wine A\", price: 8.99}]), \"Wine A\");\nTest.assertEquals(chosenWine([]), null);\nTest.assertEquals(chosenWine([{name: \"Wine A\", price: 8.99}, {name: \"Wine 389\", price: 109.99}, {name: \"Wine 44\", price: 38.44}, {name: \"Wine 72\", price: 22.77}]), \"Wine 72\");",
+  "title": "The Frugal Gentleman"
+}

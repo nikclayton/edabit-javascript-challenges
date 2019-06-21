@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "P2kYTu2wxAyMmFhEq",
+  "code": "function tune(arr) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes guitar strings as an array of frequencies (numbers) and returns the display of a tuner as an array. You can find the frequencies of the strings on the Wikipedia page (see the </span><strong><span>Resources</span></strong><span> tab).</span></p><ul><li><span>The guitar strings are played 1st to 6th, High E to Low E.</span></li><li><span>If the guitar string matches, return </span><code>\"OK\"</code><span> for that guitar string.</span></li><li><span>If it's too low, return </span><code>\"&gt;\u2022\"</code><span> for 1 or 2 percent off (the arrow means, tune up).</span></li><li><span>Return </span><code>\"&gt;&gt;\u2022\"</code><span> if it's way off. For more than 3 percent.</span></li><li><span>If it's too high, return </span><code>\"\u2022&lt;\"</code><span> for 1 or 2 percent, and </span><code>\"\u2022&lt;&lt;\"</code><span> for more, (tune down).</span></li><li><span>Check the rounded percentages.</span></li><li><span>If </span><code>0</code><span> is given, the guitar string isn't played, return </span><code>\" - \"</code><span>.</span></li></ul><h3><span>Examples</span></h3><pre><code>tune([0, 246.94, 0, 0, 0, 80]) \u279e [\" - \", \"OK\", \" - \", \" - \", \" - \", \"&gt;&gt;\u2022\"]\n\ntune([329, 246, 195, 146, 111, 82]) \u279e [\"OK\", \"OK\", \"&gt;\u2022\", \"&gt;\u2022\", \"\u2022&lt;\", \"OK\" ]\n\ntune([329.63, 246.94, 196, 146.83, 110, 82.41]) \u279e [\"OK\", \"OK\", \"OK\", \"OK\", \"OK\", \"OK\"]</code></pre><h3><span>Notes</span></h3><p><span>Items in the array will always be numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/P2kYTu2wxAyMmFhEq",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(tune([329.63,246.94,196,146.83,110,82.41]), ['OK', 'OK', 'OK', 'OK', 'OK', 'OK' ])\nTest.assertSimilar(tune([0,0,190,0,110,0]), [' - ', ' - ', '>>\u2022', ' - ', 'OK', ' - ' ])\nTest.assertSimilar(tune([331,248,195,147,110,84]), ['OK', 'OK', '>\u2022', 'OK', 'OK', '\u2022<' ])\nTest.assertSimilar(tune([0,246.94,0,0,0,80]), [' - ', 'OK', ' - ', ' - ', ' - ', '>>\u2022' ])\nTest.assertSimilar(tune([329,246,195,146,111,82]), ['OK', 'OK', '>\u2022', '>\u2022', '\u2022<', 'OK' ])",
+  "title": "Guitar Tuner"
+}

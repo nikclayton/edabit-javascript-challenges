@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "zvFri3sia4iNPTeqC",
+  "code": "function checkPalindrome(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>A palindrome is a word that is identical forward and backwards.</span></p><ul><li><span>mom</span></li><li><span>racecar</span></li><li><span>kayak</span></li></ul><p><span>Given a word, create a function that checks whether it is a palindrome.</span></p><h3><span>Examples</span></h3><pre><code>checkPalindrome(\"mom\") \u279e true\n\ncheckPalindrome(\"scary\") \u279e false\n\ncheckPalindrome(\"reviver\") \u279e true\n\ncheckPalindrome(\"stressed\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>All test input is lower cased.</span></p>",
+  "source_url": "https://edabit.com/challenge/zvFri3sia4iNPTeqC",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(checkPalindrome('mom'), true)\nTest.assertEquals(checkPalindrome('scary'), false)\nTest.assertEquals(checkPalindrome('reviver'), true)\nTest.assertEquals(checkPalindrome('stressed'), false )\nTest.assertEquals(checkPalindrome('good'), false)\nTest.assertEquals(checkPalindrome('refer'), true)\nTest.assertEquals(checkPalindrome('something'), false)\nTest.assertEquals(checkPalindrome('redder'), true)\nTest.assertEquals(checkPalindrome('civic'), true)",
+  "title": "Palindrome?"
+}

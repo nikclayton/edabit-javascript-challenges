@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uAGzHNBWbNj2iNqLr",
+  "code": "function bbqSkewers(grill) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You are in charge of the barbecue grill. A </span><strong><span>vegetarian skewer</span></strong><span> is a skewer that has </span><strong><span>only vegetables (-o)</span></strong><span>. A </span><strong><span>non-vegetarian skewer</span></strong><span> is a skewer with </span><strong><span>at least one piece of meat (-x)</span></strong><span>.</span></p><p><span>For example, the grill below has </span><strong><span>4 non-vegetarian skewers</span></strong><span> and </span><strong><span>1 vegetarian skewer</span></strong><span> (the one in the middle).</span></p><pre><code>[\"--xo--x--ox--\",\n\"--xx--x--xx--\",\n\"--oo--o--oo--\",\n\"--xx--x--ox--\",\n\"--xx--x--ox--\"]</code></pre><p><span>Given a BBQ grill, write a function that returns </span><code>[# vegetarian skewers, # non-vegarian skewers]</code><span>. For example above, the function should return </span><code>[1, 4]</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>bbqSkewers( [\n  \"--oooo-ooo--\",\n  \"--xx--x--xx--\",\n  \"--o---o--oo--\",\n  \"--xx--x--ox--\",\n  \"--xx--x--ox--\"\n]) \u279e [2, 3]\n\nbbqSkewers([\n  \"--oooo-ooo--\",\n  \"--xxxxxxxx--\",\n  \"--o---\",\n  \"-o-----o---x--\",\n  \"--o---o-----\"\n]) \u279e [3, 2]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/uAGzHNBWbNj2iNqLr",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(bbqSkewers(\n[\"--oooo-ooo--\", \n\"--xx--x--xx--\", \n\"--o---o--oo--\", \n\"--xx--x--ox--\", \n\"--xx--x--ox--\"]\n), [2, 3])\n\nTest.assertSimilar(bbqSkewers(\n[\"--oooo-ooo--\", \n\"--xxxxxxxx--\", \n\"--o---\", \n\"-o-----o---x--\", \n\"--o---o-----\"]\n), [3, 2])\n\nTest.assertSimilar(bbqSkewers(\n[\"--oooo-ooo--\", \n\"--ooooooo--\", \n\"--o---\", \n\"-o-----o---x--\", \n\"--o-oooo-----\"]\n), [4, 1])",
+  "title": "Barbecue Skewers"
+}

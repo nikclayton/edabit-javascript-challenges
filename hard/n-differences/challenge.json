@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "zYhCuzcXZn9PKG6ry",
+  "code": "function nDifferences(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that transforms an array into an array of its differences repeatedly until there exists only one element left. A difference is </span><code>A[n+1] - A[n]</code><span>.</span></p><p><span>To illustrate:</span></p><pre><code>[5, 1, 9, 3, 4, 0]\n\n[-4, 8, -6, 1, -4] // 1 - 5 = 4; 9 - 1 = 8; 3 - 9 = -6; etc.\n\n[12, -14, 7, -5]\n\n[-26, 21, -12]\n\n[47, -33]\n\n-80</code></pre><h3><span>Examples</span></h3><pre><code>nDifferences([5, 1, 9, 3, 4, 0]) \u279e -80\n\nnDifferences([1, 1, 1, 1]) \u279e 0\n\nnDifferences([5, 8, 8]) \u279e -3</code></pre><h3><span>Notes</span></h3><p><span>Each array will have at least two elements.</span></p>",
+  "source_url": "https://edabit.com/challenge/zYhCuzcXZn9PKG6ry",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertEquals(nDifferences([5, 1, 9, 3, 4, 0]), -80)\nTest.assertEquals(nDifferences([8, 9, 2, 5, 4, 3, 3, 1, 6]), -94)\nTest.assertEquals(nDifferences([5, 1, 9, 6, 1, 7, 3, 4]), 118)\nTest.assertEquals(nDifferences([1, 1, 1, 1]), 0)\nTest.assertEquals(nDifferences([5, 9, 7, 3]), 4)\nTest.assertEquals(nDifferences([1, 5, 3, 9, 7]), -30)\nTest.assertEquals(nDifferences([5, 8, 8]), -3)\nTest.assertEquals(nDifferences([4, 0, 0, 0, 1]), 5)\nTest.assertEquals(nDifferences([3, 5]), 2)",
+  "title": "N Differences"
+}

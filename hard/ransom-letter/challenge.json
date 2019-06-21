@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "XdPy5mwG9g6J9DdEw",
+  "code": "function canBuild(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if you can use the letters of the first string to create the second string. Letters are </span><strong><span>case sensitive</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>canBuild(\"aPPleAL\", \"PAL\") \u279e true\n\ncanBuild(\"aPPleAL\", \"apple\") \u279e false\n\ncanBuild(\"shortCAKE\", \"cakey\") \u279e false\n\ncanBuild(\"a\", \"\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/XdPy5mwG9g6J9DdEw",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canBuild(\"aPPleAL\", \"PAL\"), true)\nTest.assertEquals(canBuild(\"OAT\", \"OAT\"), true)\nTest.assertEquals(canBuild(\"maybelLINE\", \"maybe\"), true)\nTest.assertEquals(canBuild(\"topsh\", \"shop\"), true)\nTest.assertEquals(canBuild(\"topshSHP\", \"SHoP\"), true)\nTest.assertEquals(canBuild(\"DAISIES\", \"SAID\"), true)\nTest.assertEquals(canBuild(\"ToporP\", \"porT\"), true)\nTest.assertEquals(canBuild(\"PoTluCK\", \"PuCK\"), true)\nTest.assertEquals(canBuild(\"pATS\", \"p\"), true)\nTest.assertEquals(canBuild(\"blah\", \"\"), true)\nTest.assertEquals(canBuild(\"aPPleAL\", \"apple\"), false)\nTest.assertEquals(canBuild(\"shortCAKE\", \"cakey\"), false)\nTest.assertEquals(canBuild(\"maybeLINE\", \"lINE\"), false)\nTest.assertEquals(canBuild(\"teaPOT\", \"lINE\"), false)\nTest.assertEquals(canBuild(\"\", \"a\"), false)\nTest.assertEquals(canBuild(\"a\", \"aA\"), false)\nTest.assertEquals(canBuild(\"a\", \"A\"), false)\nTest.assertEquals(canBuild(\"AAAAAA\", \"AAAAAAa\"), false)\nTest.assertEquals(canBuild(\"apple\", \"appleY\"), false)\nTest.assertEquals(canBuild(\"xxYYzZ\", \"zzZxYxY\"), false)\nTest.assertEquals(canBuild(\"abCD\", \"aBCD\"), false)",
+  "title": "Ransom Letter"
+}

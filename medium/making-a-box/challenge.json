@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "eqzf7Mtxqa6bgQX3o",
+  "code": "function makeBox(n) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that creates a box based on dimension </span><strong><span>n</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>makeBox(5) \u279e [\n  \"#####\",\n  \"#   #\",\n  \"#   #\",\n  \"#   #\",\n  \"#####\"\n]\n\nmakeBox(3) \u279e [\n  \"###\",\n  \"# #\",\n  \"###\"\n]\n\nmakeBox(2) \u279e [\n  \"##\",\n  \"##\"\n]\n\nmakeBox(1) \u279e [\n  \"#\"\n]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/eqzf7Mtxqa6bgQX3o",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(makeBox(5), [\n\t\t\"#####\",\n\t\t\"#   #\",\n\t\t\"#   #\",\n\t\t\"#   #\",\n\t\t\"#####\"\n])\n\nTest.assertSimilar(makeBox(6), [\n\t\t\"######\",\n\t\t\"#    #\",\n\t\t\"#    #\",\n\t\t\"#    #\",\n\t\t\"#    #\",\n\t\t\"######\"\n])\n\nTest.assertSimilar(makeBox(4), [\n\t\t\"####\",\n\t\t\"#  #\",\n\t\t\"#  #\",\n\t\t\"####\"\n])\n\nTest.assertSimilar(makeBox(2), [\n\t\t\"##\",\n\t\t\"##\"\n])\n\nTest.assertSimilar(makeBox(1), [\n\t\t\"#\"\n])",
+  "title": "Making a Box"
+}

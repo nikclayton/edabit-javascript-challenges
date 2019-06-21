@@ -1,0 +1,18 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "od9GF2tQKyLAvre8Z",
+  "code": "function isAlphabeticallySorted(sentence) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A word is alphabetically sorted if all of the letters in it are in consecutive alphabetical order. Some examples of alphabetically sorted words: </span><em><span>abhors</span></em><span> (</span><em><span>a</span></em><span> is before </span><em><span>b</span></em><span>, </span><em><span>b</span></em><span> is before </span><em><span>h</span></em><span>, </span><em><span>h</span></em><span> is before </span><em><span>o</span></em><span>, etc.), </span><em><span>ghost</span></em><span>, </span><em><span>accent</span></em><span>, </span><em><span>hoop</span></em><span>.</span></p><p><span>Create a function that takes in a sentence as input and returns </span><code>true</code><span> if there is </span><strong><span>at least one</span></strong><span> alphabetically sorted word inside that has a </span><strong><span>minimum length of 3</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>isAlphabeticallySorted(\"Paula has a French accent.\") \u279e true\n// \"accent\" is alphabetically sorted.\n\nisAlphabeticallySorted(\"The biopsy returned negative results.\") \u279e true\n// \"biopsy\" is alphabetically sorted.\n\nisAlphabeticallySorted(\"She sells sea shells by the sea shore.\") \u279e false\n// Although \"by\" is alphabetically sorted, it is only 2 letters long.</code></pre><h3><span>Notes</span></h3><ul><li><span>Do not count words with 2 or fewer characters.</span></li><li><span>Ignore punctuation (periods, commas, etc).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/od9GF2tQKyLAvre8Z",
+  "tags": [
+    "arrays",
+    "regex",
+    "sorting",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isAlphabeticallySorted('Paula has a French accent.'), true)\nTest.assertEquals(isAlphabeticallySorted('The biopsy returned negative results.'), true)\nTest.assertEquals(isAlphabeticallySorted('She sells sea shells by the sea shore.'), false)\nTest.assertEquals(isAlphabeticallySorted('She almost reached the top of Mt. Everest.'), true)\nTest.assertEquals(isAlphabeticallySorted('She was happy with how her earring hoops looked.'), true)\nTest.assertEquals(isAlphabeticallySorted('Beth dislikes eating starfruit but enjoys cherries.'), false)\nTest.assertEquals(isAlphabeticallySorted(\"Elinor is inside on a rainy day sipping hot chocolate.\"), true)\nTest.assertEquals(isAlphabeticallySorted(\"Mara took a photograph.\"), false)",
+  "title": "Alphabetically Sorted"
+}

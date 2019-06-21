@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "fxvceQdv7RHQzrx2J",
+  "code": "function identicalFilter(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that keeps only strings with repeating identical characters (in other words, it has a set size of 1).</span></p><h3><span>Examples</span></h3><pre><code>identicalFilter([\"aaaaaa\", \"bc\", \"d\", \"eeee\", \"xyz\"]) \n\u279e [\"aaaaaa\", \"d\", \"eeee\"]\n\nidenticalFilter([\"88\", \"999\", \"22\", \"545\", \"133\"]) \n\u279e [\"88\", \"999\", \"22\"]\n\nidenticalFilter([\"xxxxo\", \"oxo\", \"xox\", \"ooxxoo\", \"oxo\"]) \n\u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>A string with a single character is trivially counted as a string with repeating identical characters.</span></li><li><span>If there strings with repeating identical characters, return an empty array (see example #3).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/fxvceQdv7RHQzrx2J",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(identicalFilter(['aaaaaa', 'bc', 'd', 'eeee', 'xyz']), \n['aaaaaa', 'd', 'eeee'])\n\nTest.assertSimilar(identicalFilter(['88', '999', '22', '545', '133']), \n['88', '999', '22'])\n\nTest.assertSimilar(identicalFilter(['xxxxo', 'oxo', 'xox', 'ooxxoo', 'oxo']), \n[])\n\nTest.assertSimilar(identicalFilter(['aa', 'bb', 'cc', 'dd', 'ee']), \n['aa', 'bb', 'cc', 'dd', 'ee'])\n\nTest.assertSimilar(identicalFilter(['aba', 'bcb', 'abb', 'bcc', 'eee']), \n['eee'])\n\nTest.assertSimilar(identicalFilter(['1', '2', '3']), \n['1', '2', '3'])",
+  "title": "Filter Repeating Character Strings"
+}

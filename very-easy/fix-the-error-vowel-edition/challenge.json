@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KgNMGbXXst7ZdWchR",
+  "code": "// Fix this incorrect code, so that all tests pass!\nfunction removeVowels(str) {\n  return str.replace(/[aeiou]/, '')\n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Your friend is trying to write a function that removes all vowels from a string. They write:</span></p><pre><code>function removeVowels(str) {\n  return str.replace(/[aeiou]/, \"\")\n}</code></pre><p><span>However, it seems that it doesn't work? Fix your friend's code so that it actually </span><strong><span>does</span></strong><span> remove all vowels.</span></p><h3><span>Examples</span></h3><pre><code>removeVowels(\"candy\") \u279e \"cndy\"\n\nremoveVowels(\"hello\") \u279e \"hllo\"\n// The \"e\" is removed, but the \"o\" is still there!\n\nremoveVowels(\"apple\") \u279e \"pple\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/KgNMGbXXst7ZdWchR",
+  "tags": [
+    "bugs",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(removeVowels('ben'), 'bn')\nTest.assertEquals(removeVowels('many'), 'mny')\nTest.assertEquals(removeVowels('candy'), 'cndy')\nTest.assertEquals(removeVowels('hello'), 'hll')\nTest.assertEquals(removeVowels('apple'), 'ppl')\nTest.assertEquals(removeVowels('fever'), 'fvr')",
+  "title": "Fix the Error: Vowel Edition"
+}

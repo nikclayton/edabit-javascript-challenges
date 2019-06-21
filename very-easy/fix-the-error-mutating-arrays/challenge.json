@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "j3EoCMaD3LrEYtx78",
+  "code": "// Fix this incorrect code, so that all tests pass!\nfunction minusOne(arr) {\n  arr.pop()\n  return arr\n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Suppose I want to define a function that removes the last element of an array each time I call it, but </span><strong><span>does not mutate the original array</span></strong><span>. Fix the code so that the results are no longer mutating the array.</span></p><pre><code>function minusOne(arr) {\n  arr.pop()\n  return arr\n}</code></pre><h3><span>Examples</span></h3><pre><code>x = [1, 2, 3, 4, 5]\nminusOne(x) \u279e [1, 2, 3, 4]  // 1st time function is called.\nminusOne(x) \u279e [1, 2, 3]  // 2nd time function is called.\nminusOne(x) \u279e [1, 2]  // 3rd time function is called.\nminusOne(x) \u279e [1]  // 4th time function is called.\n\n// What I want instead:\nminusOne(x) \u279e [1, 2, 3, 4]  // 1st time function is called.\nminusOne(x) \u279e [1, 2, 3, 4]  // 2nd time function is called.\nminusOne(x) \u279e [1, 2, 3, 4]  // 3rd time function is called.\nminusOne(x) \u279e [1, 2, 3, 4]  // 4th time function is called.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/j3EoCMaD3LrEYtx78",
+  "tags": [
+    "arrays",
+    "bugs"
+  ],
+  "tests": "x = [1, 2, 3, 4, 5]\nTest.assertSimilar(minusOne(x), [1, 2, 3, 4])\nTest.assertSimilar(minusOne(x), [1, 2, 3, 4])\nTest.assertSimilar(minusOne(x), [1, 2, 3, 4])\nTest.assertSimilar(minusOne(x), [1, 2, 3, 4])\nTest.assertSimilar(minusOne(x), [1, 2, 3, 4])",
+  "title": "Fix the Error: Mutating Arrays"
+}

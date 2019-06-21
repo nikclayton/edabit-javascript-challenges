@@ -1,8 +1,6 @@
 const countOnes = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(countOnes(12)).toEqual(2);
         expect(countOnes(0)).toEqual(0);

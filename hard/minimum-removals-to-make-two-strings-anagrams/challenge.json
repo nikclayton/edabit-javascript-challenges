@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MAAWsTiLs6s4xbLLW",
+  "code": "function minRemovals(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the </span><strong><span>smallest number of letter removals</span></strong><span> so that two strings are </span><strong><span>anagrams</span></strong><span> of each other.</span></p><h3><span>Examples</span></h3><pre><code>minRemovals(\"abcde\", \"cab\") \u279e 2\n// Remove \"d\", \"e\" to make \"abc\" and \"cab\".\n\nminRemovals(\"deafk\", \"kfeap\") \u279e 2\n// Remove \"d\" and \"p\" from the first and second word, respectively.\n\nminRemovals(\"acb\", \"ghi\") \u279e 6\n// Remove all letters from both words to get \"\" and \"\".</code></pre><h3><span>Notes</span></h3><ul><li><span>An anagram is any string that can be formed by shuffling the characters of the original string. For example: </span><code>baedc</code><span> is an anagram of </span><code>abcde</code><span>.</span></li><li><span>An empty string can be considered an anagram of itself.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/MAAWsTiLs6s4xbLLW",
+  "tags": [
+    "data_structures",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(minRemovals(\"abcde\", \"cab\"), 2)\nTest.assertEquals(minRemovals(\"deafk\", \"kfeap\"), 2)\nTest.assertEquals(minRemovals(\"abc\", \"ghi\"), 6)\nTest.assertEquals(minRemovals(\"abcxyz\", \"ghixytz\"), 7)",
+  "title": "Minimum Removals to Make Two Strings Anagrams"
+}

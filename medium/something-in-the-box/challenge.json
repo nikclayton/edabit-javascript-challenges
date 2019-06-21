@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "CKEAH6cs5Tt7aKXKv",
+  "code": "function inBox(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if an asterisk </span><code>*</code><span> is inside a box.</span></p><h3><span>Examples</span></h3><pre><code>inBox([\n  \"###\",\n  \"#*#\",\n  \"###\"\n]) \u279e true\n\ninBox([\n  \"####\",\n  \"#* #\",\n  \"#  #\",\n  \"####\"\n]) \u279e true\n\ninBox([\n  \"####\",\n  \"#  #\",\n  \"#  #\",\n  \"####\"\n]) \u279e false\n\ninBox([\n  \"#####\",\n  \"#   #\",\n  \"#   #\",\n  \"#   #\",\n  \"#####\"\n]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/CKEAH6cs5Tt7aKXKv",
+  "tags": [
+    "formatting",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(inBox([\n\t\t\"###\", \n\t\t\"# #\", \n\t\t\"###\"\n\t]), false)\n\nTest.assertEquals(inBox([\n\t\t\"####\", \n\t\t\"#  #\", \n\t\t\"#  #\", \n\t\t\"####\"\n\t]), false)\n\nTest.assertEquals(inBox([\n\t\t\"#####\", \n\t\t\"#   #\", \n\t\t\"#   #\", \n\t\t\"#   #\", \n\t\t\"#####\"\n\t]), false)\n\nTest.assertEquals(inBox([\n\t\t\"###\", \n\t\t\"#*#\", \n\t\t\"###\"\n\t]), true)\n\nTest.assertEquals(inBox([\n\t\t\"####\", \n\t\t\"# *#\", \n\t\t\"#  #\", \n\t\t\"####\"\n\t]), true)\n\nTest.assertEquals(inBox([\n\t\t\"#####\", \n\t\t\"#  *#\", \n\t\t\"#   #\", \n\t\t\"#   #\", \n\t\t\"#####\"\n\t]), true)\n\nTest.assertEquals(inBox([\n\t\t\"#####\", \n\t\t\"#   #\", \n\t\t\"# * #\", \n\t\t\"#   #\", \n\t\t\"#####\"\n\t]), true)\n\nTest.assertEquals(inBox([\n\t\t\"#####\", \n\t\t\"#   #\", \n\t\t\"#   #\", \n\t\t\"# * #\", \n\t\t\"#####\"\n\t]), true)\n\nTest.assertEquals(inBox([\n\t\t\"#####\", \n\t\t\"#*  #\", \n\t\t\"#   #\", \n\t\t\"#   #\", \n\t\t\"#####\"\n\t]), true)",
+  "title": "Something in the Box?"
+}

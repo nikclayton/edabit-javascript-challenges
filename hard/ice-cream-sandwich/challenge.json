@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "euDed7qoDzgvcHwdS",
+  "code": "function isIcecreamSandwich(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>An </span><strong><span>ice cream sandwich</span></strong><span> is a string that is formed by two identical ends and a different middle.</span></p><h4><span>Some examples of ice cream sandwiches:</span></h4><pre><code>\"AABBBAA\"\n\n\"3&amp;&amp;3\"\n\n\"yyyyymmmmmmmmyyyyy\"\n\n\"hhhhhhhhmhhhhhhhh\"</code></pre><p><span>Notice how </span><strong><span>left</span></strong><span> and </span><strong><span>right</span></strong><span> ends of the sandwich are identical in both </span><strong><span>length</span></strong><span> and in </span><strong><span>repeating character</span></strong><span>. The </span><strong><span>middle</span></strong><span> section is distinctly different.</span></p><h4><span>Not ice cream sandwiches:</span></h4><pre><code>\"BBBBB\"\n// You can't have just plain icecream.\n\n\"AAACCCAA\"\n// You can't have unequal sandwich ends.\n\n\"AACDCAA\"\n// You can't have more than one filling.\n\n\"A\"\n// You can't have fewer than 3 characters.</code></pre><p><span>Write a function that returns </span><code>true</code><span> if a string is an </span><strong><span>ice cream sandwich</span></strong><span> and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isIcecreamSandwich(\"CDC\") \u279e true\n\nisIcecreamSandwich(\"AAABB\") \u279e false\n\nisIcecreamSandwich(\"AA\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>An ice cream sandwich must have a </span><strong><span>minimum length of 3 characters</span></strong><span>, and at least </span><strong><span>two of these characters must be distinct</span></strong><span> (you can't only have the filling!).</span></p>",
+  "source_url": "https://edabit.com/challenge/euDed7qoDzgvcHwdS",
+  "tags": [
+    "language_fundamentals",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isIcecreamSandwich(\"AABBBAA\"), true)\nTest.assertEquals(isIcecreamSandwich(\"3&&3\"), true)\nTest.assertEquals(isIcecreamSandwich(\"yyyyymmmmmmmmyyyyy\"), true)\nTest.assertEquals(isIcecreamSandwich(\"hhhhhhhhmhhhhhhhh\"), true)\nTest.assertEquals(isIcecreamSandwich(\"CDC\"), true)\nTest.assertEquals(isIcecreamSandwich(\"BBBBB\"), false, \"only filling\")\nTest.assertEquals(isIcecreamSandwich(\"AAACCCAA\"), false, \"ends are unbalanced\")\nTest.assertEquals(isIcecreamSandwich(\"AACDCAA\"), false, \"can only have one type of filling\")\nTest.assertEquals(isIcecreamSandwich(\"AAABB\"), false, \"only one end\")\nTest.assertEquals(isIcecreamSandwich(\"AA\"), false, \"too short\")\nTest.assertEquals(isIcecreamSandwich(\"A\"), false, \"too short\")\nTest.assertEquals(isIcecreamSandwich(\"\"), false, \"too short\")",
+  "title": "Ice Cream Sandwich"
+}

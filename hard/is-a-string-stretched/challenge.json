@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "gmpe3wEi64PmrwFMK",
+  "code": "function isStretched(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if the first string is the second string </span><strong><span>stretched</span></strong><span>, and </span><code>false</code><span> otherwise. A stretch is to repeat each character in a string the </span><strong><span>same number of times</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>isStretched(\"pppaaannndddaaa\", \"panda\") \u279e true\n\nisStretched(\"sssshhiipp\", \"ship\") \u279e false\n\nisStretched(\"magnet\", \"magnet\") \u279e true\n\nisStretched(\"magneto\", \"magnet\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Both strings must contain the same letters in order for the stretch to be valid.</span></li><li><span>All strings will be in lower case letters.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/gmpe3wEi64PmrwFMK",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isStretched(\"pppaaannndddaaa\", \"panda\"), true)\nTest.assertEquals(isStretched(\"hheelllloo\", \"hello\"), true)\nTest.assertEquals(isStretched(\"magnet\", \"magnet\"), true)\nTest.assertEquals(isStretched(\"eeeeemmmmmoooootttttiiiiiooooonnnnn\", \"emotion\"), true)\nTest.assertEquals(isStretched(\"sssshhiipp\", \"ship\"), false)\nTest.assertEquals(isStretched(\"cccaaannnddooorrr\", \"candor\"), false)\nTest.assertEquals(isStretched(\"relationshiipp\", \"relationship\"), false)\nTest.assertEquals(isStretched(\"magneto\", \"magnet\"), false)\nTest.assertEquals(isStretched(\"maggnet\", \"magnet\"), false)",
+  "title": "Is a String Stretched?"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "cWvYKp8JTE9ozC6NF",
+  "code": "function isValidHexCode(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that determines whether a string is a valid hex code.</span></p><p><span>A hex code must begin with a pound key </span><code>#</code><span> and is exactly 6 characters in length. Each character must be a digit from </span><code>0-9</code><span> or an alphabetic character from </span><code>A-F</code><span>. All alphabetic characters may be uppercase or lowercase.</span></p><h3><span>Examples</span></h3><pre><code>isValidHexCode(\"#CD5C5C\") \u279e true\n\nisValidHexCode(\"#EAECEE\") \u279e true\n\nisValidHexCode(\"#eaecee\") \u279e true\n\nisValidHexCode(\"#CD5C58C\") \u279e false\n// Length exceeds 6\n\nisValidHexCode(\"#CD5C5Z\") \u279e false\n// Not all alphabetic characters in A-F\n\nisValidHexCode(\"#CD5C&amp;C\") \u279e false\n// Contains unacceptable character\n\nisValidHexCode(\"CD5C5C\") \u279e false\n// Missing #</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/cWvYKp8JTE9ozC6NF",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isValidHexCode('#CD5C5C'), true)\nTest.assertEquals(isValidHexCode('#EAECEE'), true)\nTest.assertEquals(isValidHexCode('#eaecee'), true)\nTest.assertEquals(isValidHexCode('#CD5C58C'), false, 'Length exceeds 6.')\nTest.assertEquals(isValidHexCode('#CD5C5Z'), false, 'Alphabetic characters not in A-F.')\nTest.assertEquals(isValidHexCode('#CD5C&C'), false, 'Unacceptable character.')\nTest.assertEquals(isValidHexCode('CD5C5C'), false, 'Does not start with #.')\nTest.assertEquals(isValidHexCode('#123CCCD'), false, 'Length exceeds 6.')\nTest.assertEquals(isValidHexCode('#123456'), true)\nTest.assertEquals(isValidHexCode('#987654'), true)\nTest.assertEquals(isValidHexCode('#9876543'), false, 'Length exceeds 6.')\nTest.assertEquals(isValidHexCode('#CCCCCC'), true)\nTest.assertEquals(isValidHexCode('#ZCCZCC'), false, 'Not acceptable alphabetic characters.')\nTest.assertEquals(isValidHexCode('#Z88Z99'), false, 'Not acceptable alphabetic characters.')\nTest.assertEquals(isValidHexCode('#Z88!99'), false, 'Unacceptable character.')",
+  "title": "Valid Hex Code"
+}

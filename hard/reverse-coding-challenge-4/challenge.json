@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "s6ZMJPDH4woN3d3Gc",
+  "code": "function mysteryFunc(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>\"hello\" \u279e [4, 1, 3, 3, 1]\n\n\"maybe\" \u279e [4, 2, 1, 3, 1]\n\n\"hopeless\" \u279e [0, 7, 0, 5, 4, 5, 3, 3]\n\n\"higher\" \u279e [2, 3, 1, 2, 5, 0]\n\n\"movement\" \u279e [5, 7, 6, 5, 5, 5, 6, 4]</code></pre><h3><span>Notes</span></h3><p><span>If you get stuck, see </span><strong><span>Comments</span></strong><span> for a hint.</span></p>",
+  "source_url": "https://edabit.com/challenge/s6ZMJPDH4woN3d3Gc",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(mysteryFunc(\"hello\"), [4, 1, 3, 3, 1])\nTest.assertSimilar(mysteryFunc(\"maybe\"), [4, 2, 1, 3, 1])\nTest.assertSimilar(mysteryFunc(\"hopeless\"), [0, 7, 0, 5, 4, 5, 3, 3])\nTest.assertSimilar(mysteryFunc(\"higher\"), [2, 3, 1, 2, 5, 0])\nTest.assertSimilar(mysteryFunc(\"movement\"), [5, 7, 6, 5, 5, 5, 6, 4])",
+  "title": "Reverse Coding Challenge #4"
+}

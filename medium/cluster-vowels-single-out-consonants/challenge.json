@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9MbruYbn8NWRzG2vC",
+  "code": "function split(word) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that takes in a word and splits the consonants one by one, but keeps the vowels in a cluster.</span></p><h3><span>Examples</span></h3><pre><code>split(\"beautifully\") \u279e [\"b\", \"eau\", \"t\", \"i\", \"f\", \"u\", \"l\", \"l\", \"y\"]\n\nsplit(\"spoonful\") \u279e [\"s\", \"p\", \"oo\", \"n\", \"f\", \"u\", \"l\"]\n\nsplit(\"swimming\") \u279e [\"s\", \"w\", \"i\", \"m\", \"m\", \"i\", \"n\", \"g\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Vowels are: </span><code>a, e, i, o, u</code><span>.</span></li><li><span>All letters will be in lower case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9MbruYbn8NWRzG2vC",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(split(\"beautifully\"), [\"b\", \"eau\", \"t\", \"i\", \"f\", \"u\", \"l\", \"l\", \"y\"])\nTest.assertSimilar(split(\"spoonful\"), [\"s\", \"p\", \"oo\", \"n\", \"f\", \"u\", \"l\"])\nTest.assertSimilar(split(\"swimming\"), [\"s\", \"w\", \"i\", \"m\", \"m\", \"i\", \"n\", \"g\"])\nTest.assertSimilar(split(\"courage\"), [\"c\", \"ou\", \"r\", \"a\", \"g\", \"e\"])\nTest.assertSimilar(split(\"cooing\"), [\"c\", \"ooi\", \"n\", \"g\"])",
+  "title": "Cluster Vowels, Single Out Consonants"
+}

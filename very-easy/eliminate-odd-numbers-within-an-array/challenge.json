@@ -4,10 +4,9 @@
   "challenge_id": "uJ9K3HtbjHoDGXKhg",
   "code": "function noOdds(arr) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes an array of numbers and returns only the even values.</span></p><h3><span>Examples</span></h3><pre><code>[1, 2, 3, 4, 5, 6, 7, 8] \u279e [2, 4, 6, 8]\n\n[43, 65, 23, 89, 53, 9, 6] \u279e [6]\n\n[718, 991, 449, 644, 380, 440] \u279e [718, 644, 380, 440]</code></pre><h3><span>Notes</span></h3><ul><li><span>Return all even numbers in the order they were given.</span></li><li><span>All test cases contain valid numbers ranging from 1 to 3000.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes an array of numbers and returns only the even values.</span></p><h3><span>Examples</span></h3><pre><code>noOdds([1, 2, 3, 4, 5, 6, 7, 8]) \u279e [2, 4, 6, 8]\n\nnoOdds([43, 65, 23, 89, 53, 9, 6]) \u279e [6]\n\nnoOdds([718, 991, 449, 644, 380, 440]) \u279e [718, 644, 380, 440]</code></pre><h3><span>Notes</span></h3><ul><li><span>Return all even numbers in the order they were given.</span></li><li><span>All test cases contain valid numbers ranging from 1 to 3000.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/uJ9K3HtbjHoDGXKhg",
   "tags": [
-    "algorithms",
     "arrays",
     "math",
     "numbers",

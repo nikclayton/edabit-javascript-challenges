@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "3Wz6z3LpzSNydGaJA",
+  "code": "function harshad(n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><strong><span>Harshad/Niven</span></strong><span> numbers are positive numbers that are divisible by the sum of their digits. All single-digit numbers are Harshad numbers.</span></p><p><span>For example, 27 is a Harshad number as 2 + 7 = 9, and 9 is a divisor of 27.</span></p><p><span>Harshad numbers can occur in consecutive clusters. The numbers 1 through 10 are Harshad numbers. The numbers 132 and 133 are both Harshad numbers. The numbers 1014, 1015, 1016, 1017 are Harshad numbers.</span></p><p><span>Create a function that takes a number and returns an array of two elements. The first element is the length of the Harshad cluster of which the number is a part. The second is its order in the cluster.</span></p><h3><span>Examples</span></h3><pre><code>harshad(5) \u279e [10, 5]\n// cluster = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n// The second element should be the layman order in the\n// cluster, not the programming index.\n\nharshad(133) \u279e [2, 2]\n// cluster = [132, 133]\n\nharshad(82) \u279e [0, 0]\n// Not a Harshad number, so cluster length is 0, position is 0.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/3Wz6z3LpzSNydGaJA",
+  "tags": [
+    "algebra",
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(harshad(5),[10,5])\nTest.assertSimilar(harshad(133),[2,2])\nTest.assertSimilar(harshad(82),[0,0])\nTest.assertSimilar(harshad(72),[1,1])\nTest.assertSimilar(harshad(12751223),[6,4])\nTest.assertSimilar(harshad(5831),[3,1])\nTest.assertSimilar(harshad(10309),[4,3])\nTest.assertSimilar(harshad(7384),[0,0])\nTest.assertSimilar(harshad(2584),[1,1])\n// Test.assertSimilar(harshad(10810245632),[8,3])",
+  "title": "Harshad Numbers"
+}

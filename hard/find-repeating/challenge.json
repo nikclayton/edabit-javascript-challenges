@@ -1,0 +1,15 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "AtNMAGcwKDad5rC69",
+  "code": "function findRepeating(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that accepts a string and groups repeated values. The groups should have the following structure: </span><code>[[value, first_index, last_index, times_repeated],  ...,  [value, first_index, last_index, times_repeated]]</code><span>.</span></p><ul><li><strong><span>value:</span></strong><span> Character being assessed.</span></li><li><strong><span>first_index:</span></strong><span> Index of characters first appearance.</span></li><li><strong><span>last_index:</span></strong><span> Index of characters last appearance.</span></li><li><strong><span>times_repeated:</span></strong><span> Number of consecutive times character repeats.</span></li></ul><h3><span>Examples</span></h3><pre><code>findRepeating(\"a\") \u279e [[\"a\", 0, 0, 1]]\n\nfindRepeating(\"aabbb\") \u279e [[\"a\", 0, 1, 2], [\"b\", 2, 4, 3]]\n\nfindRepeating(\"1337\") \u279e [[\"1\", 0, 0, 1], [\"3\", 1, 2, 2], [\"7\", 3, 3, 1]]\n\nfindRepeating(\"aabbbaabbb\") \u279e [[\"a\", 0, 1, 2], [\"b\", 2, 4, 3], [\"a\", 5, 6, 2], [\"b\", 7, 9, 3]]</code></pre><h3><span>Notes</span></h3><ul><li><span>An empty string should return an empty array: </span><code>\"\" \u279e []</code></li><li><span>Non-repeated values should start and end on the same index.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/AtNMAGcwKDad5rC69",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(findRepeating(''), [])\nTest.assertSimilar(findRepeating('a'), [['a', 0, 0, 1]])\nTest.assertSimilar(findRepeating('1337'), [['1', 0, 0, 1], ['3', 1, 2, 2], ['7', 3, 3, 1]])\nTest.assertSimilar(findRepeating('aabbb'), [['a', 0, 1, 2], ['b', 2, 4, 3]])\nTest.assertSimilar(findRepeating('addressee'), [['a', 0, 0, 1], ['d', 1, 2, 2], ['r', 3, 3, 1], ['e', 4, 4, 1], ['s', 5, 6, 2], ['e', 7, 8, 2]])\nTest.assertSimilar(findRepeating('aabbbaabbb'), [['a', 0, 1, 2], ['b', 2, 4, 3], ['a', 5, 6, 2], ['b', 7, 9, 3]])\nTest.assertSimilar(findRepeating('1111222233334444'), [['1', 0, 3, 4], ['2', 4, 7, 4], ['3', 8, 11, 4], ['4', 12, 15, 4]])\nTest.assertSimilar(findRepeating('1000000000000066600000000000001'), [['1', 0, 0, 1], ['0', 1, 13, 13], ['6', 14, 16, 3], ['0', 17, 29, 13], ['1', 30, 30, 1]])\n",
+  "title": "Find Repeating"
+}

@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "i5ZanfQWsJ8EGheW8",
+  "code": "function lengthen(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that repeats the shorter string until it is equal to the length of the longer string.</span></p><h3><span>Examples</span></h3><pre><code>lengthen(\"abcdefg\", \"ab\") \u279e \"abababa\"\n\nlengthen(\"ingenius\", \"forest\") \u279e \"forestfo\"\n\nlengthen(\"clap\", \"skipping\") \u279e \"clapclap\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Both strings will differ in length.</span></li><li><span>Both strings will contain at least one character.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/i5ZanfQWsJ8EGheW8",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(lengthen(\"abcdefg\", \"ab\"), \"abababa\")\nTest.assertEquals(lengthen(\"ingenius\", \"forest\"), \"forestfo\")\nTest.assertEquals(lengthen(\"skipping\", \"clap\"), \"clapclap\")\nTest.assertEquals(lengthen(\"k\", \"champagne\"), \"kkkkkkkkk\")\nTest.assertEquals(lengthen(\"DUH\", \"champagne\"), \"DUHDUHDUH\")",
+  "title": "Repeat the Shorter String"
+}

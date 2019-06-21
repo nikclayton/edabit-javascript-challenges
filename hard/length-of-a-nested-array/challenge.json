@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "yXSTvCNen2DQHyrh6",
+  "code": "function getLength(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>The </span><code>.length</code><span> property on an array will return the number of elements in the array. For example, the array below contains 2 elements:</span></p><pre><code>[1, [2, 3]]\n// 2 elements, number 1 and array [2, 3]</code></pre><p><span>Suppose we instead wanted to know the </span><strong><span>total number of non-nested items</span></strong><span> in the nested array. In the above case, </span><code>[1, [2, 3]]</code><span> contains 3 </span><strong><span>non-nested items</span></strong><span>, </span><code>1</code><span>, </span><code>2</code><span> and </span><code>3</code><span>.</span></p><p><span>Write a function that returns the total number of non-nested items in a nested array.</span></p><h3><span>Examples</span></h3><pre><code>getLength([1, [2, 3]]) \u279e 3\n\ngetLength([1, [2, [3, 4]]]) \u279e 4\n\ngetLength([1, [2, [3, [4, [5, 6]]]]]) \u279e 6\n\ngetLength([1, [2], 1, [2], 1]) \u279e 5</code></pre><h3><span>Notes</span></h3><p><span>An empty array should return </span><code>0</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/yXSTvCNen2DQHyrh6",
+  "tags": [
+    "arrays",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(getLength([1, [2,3]]), 3)\nTest.assertEquals(getLength([1, [2, [3, 4]]]), 4)\nTest.assertEquals(getLength([1, [2, [3, [4, [5, 6]]]]]), 6)\nTest.assertEquals(getLength([1, 7, 8]), 3)\nTest.assertEquals(getLength([2]), 1)\nTest.assertEquals(getLength([2, [3], 4, [7]]), 4)\nTest.assertEquals(getLength([2, [3, [5, 7]], 4, [7]]), 6)\nTest.assertEquals(getLength([2, [3, [4, [5]]], [9]]), 5)\nTest.assertEquals(getLength([]), 0)",
+  "title": "Length of a Nested Array"
+}

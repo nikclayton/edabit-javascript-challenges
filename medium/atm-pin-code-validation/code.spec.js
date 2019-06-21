@@ -1,8 +1,6 @@
 const validatePIN = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(validatePIN('1234')).toEqual(true);
         expect(validatePIN('12345')).toEqual(false);

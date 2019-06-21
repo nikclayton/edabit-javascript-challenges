@@ -4,7 +4,7 @@
   "challenge_id": "AP4hnF97anRc2mAZ6",
   "code": "function keysAndValues(obj) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Create a function that takes an object and returns the keys and values as separate arrays.</span></p><h3><span>Examples</span></h3><pre><code>keysAndValues({a: 1, b: 2, c: 3}) \u279e [[\"a\", \"b\", \"c\"], [1, 2, 3]]\n\nkeysAndValues({a: \"Apple\", b: \"Microsoft\", c: \"Google\"}) \u279e [[\"a\", \"b\", \"c\"], [\"Apple\", \"Microsoft\", \"Google\"]]\n\nkeysAndValues({key1: true, key2: false, key3: undefined}) \u279e [[\"key1\", \"key2\", \"key3\"], [true, false, undefined]]</code></pre><h3><span>Notes</span></h3><ul><li><span>Result should be sorted.</span></li><li><span>All tests contain valid objects.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes an object and returns the keys and values as separate arrays.</span></p><h3><span>Examples</span></h3><pre><code>keysAndValues({ a: 1, b: 2, c: 3 })\n\u279e [[\"a\", \"b\", \"c\"], [1, 2, 3]]\n\nkeysAndValues({ a: \"Apple\", b: \"Microsoft\", c: \"Google\" })\n\u279e [[\"a\", \"b\", \"c\"], [\"Apple\", \"Microsoft\", \"Google\"]]\n\nkeysAndValues({ key1: true, key2: false, key3: undefined })\n\u279e [[\"key1\", \"key2\", \"key3\"], [true, false, undefined]]</code></pre><h3><span>Notes</span></h3><ul><li><span>Result should be </span><strong><span>sorted</span></strong><span>.</span></li><li><span>All tests contain valid objects.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/AP4hnF97anRc2mAZ6",
   "tags": [
     "formatting",

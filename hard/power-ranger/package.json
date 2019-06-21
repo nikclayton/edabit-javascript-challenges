@@ -1,0 +1,32 @@
+{
+  "name": "edabit-javascript-power-ranger",
+  "version": "0.0.0",
+  "description": "Edabit exercises in Javascript.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikclayton/edabit-javascript-challenges.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "package.json"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "test": "jest --no-cache ./*",
+    "watch": "jest --no-cache --watch ./*"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "FGrQragjD9MCXo4Ei",
+  "code": "function isMiniSudoku(square) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A Sudoku is a 9x9 grid that is completed when every 3x3 square, row and column consist of the numbers 1-9.</span></p><p><span>For this task, you will be given a completed 3x3 square, in the form of a two-dimensional array. Create a function that checks to make sure this 3x3 square contains each  number from 1-9 exactly once. Make sure there are no duplicates, and no numbers outside this range.</span></p><h3><span>Examples</span></h3><pre><code>isMiniSudoku([[1, 3, 2], [9, 7, 8], [4, 5, 6]]) \u279e true\n\nisMiniSudoku([[1, 1, 3], [6, 5, 4], [8, 7, 9]]) \u279e false\n// The 1 is repeated twice \n\nisMiniSudoku([[0, 1, 2], [6, 4, 5], [9, 8, 7]]) \u279e false\n// The 0 is included (outside range)\n\nisMiniSudoku([[8, 9, 2], [5, 6, 1], [3, 7, 4]]) \u279e true </code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/FGrQragjD9MCXo4Ei",
+  "tags": [
+    "arrays",
+    "games"
+  ],
+  "tests": "Test.assertEquals(isMiniSudoku(\n[[1, 3, 2], \n[9, 7, 8], \n[4, 5, 6]]), true);\nTest.assertEquals(isMiniSudoku(\n[[1, 1, 3], \n[6, 5, 4], \n[8, 7, 9]]), false, '1 is included twice.');\nTest.assertEquals(isMiniSudoku(\n[[0, 1, 2], \n[6, 4, 5], \n[9, 8, 7]]), false, '0 is not in range 1-9.');\nTest.assertEquals(isMiniSudoku(\n[[8, 9, 2], \n[5, 6, 1], \n[3, 7, 4]]), true);\nTest.assertEquals(isMiniSudoku(\n[[2, 3, 4], \n[6, 7, 7], \n[8, 9, 1]]), false, '7 is included twice.');\nTest.assertEquals(isMiniSudoku(\n[[6, 5, 9], \n[4, 3, 8], \n[2, 1, 7]]), true);\nTest.assertEquals(isMiniSudoku(\n[[4, 3, 5], \n[8, 1, 2], \n[9, 6, 7]]), true);\nTest.assertEquals(isMiniSudoku(\n[[4, 3, 5], \n[8, 6, 2], \n[9, 6, 7]]), false, '6 is included twice.');",
+  "title": "Mini Sudoku"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uRtubbXsDHLwAz5RS",
+  "code": "function smallerNum(n1, n2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the smaller number.</span></p><h3><span>Examples</span></h3><pre><code>smallerNum(\"21\", \"44\") \u279e \"21\"\n\nsmallerNum(\"1500\", \"1\") \u279e \"1\"\n\nsmallerNum(\"5\", \"5\") \u279e \"5\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Numbers will be represented as strings, and your output should also be a string.</span></li><li><span>If both numbers tie, return either number.</span></li><li><span>Numbers will be positive.</span></li><li><strong><span>Bonus</span></strong><span>: See if you can do this </span><strong><span>without</span></strong><span> converting to integers.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/uRtubbXsDHLwAz5RS",
+  "tags": [
+    "language_fundamentals",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(smallerNum(\"21\", \"44\"), \"21\")\nTest.assertEquals(smallerNum(\"153\", \"367\"), \"153\")\nTest.assertEquals(smallerNum(\"1500\", \"16\"), \"16\")\nTest.assertEquals(smallerNum(\"100\", \"23\"), \"23\")\nTest.assertEquals(smallerNum(\"1500\", \"1\"), \"1\")\nTest.assertEquals(smallerNum(\"5\", \"5\"), \"5\")",
+  "title": "Smaller String Number"
+}

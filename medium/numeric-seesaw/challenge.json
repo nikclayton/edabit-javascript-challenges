@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "YoYtzAtQiiyb5Z3Qu",
+  "code": "function seesaw(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A number is </span><strong><span>left-heavy</span></strong><span> if the digits on the left side are larger than the digits on the right. It is </span><strong><span>right-heavy</span></strong><span> if the digits on the right side are larger than the digits on the left. Else, it is </span><strong><span>balanced</span></strong><span>.</span></p><p><span>Create a function that takes in an integer and classifies it into one of the three mutually exclusive categories: </span><strong><span>left</span></strong><span>, </span><strong><span>right</span></strong><span> or </span><strong><span>balanced</span></strong><span>. For inputs with an odd number of integers, ignore the fulcrum (the middle number).</span></p><h3><span>Examples</span></h3><pre><code>seesaw(3449) \u279e \"right\"\n// since 34 &lt; 49\n\nseesaw(1143113) \u279e \"left\"\n// since 114 &gt; 113 (3 is the fulcrum)\n\nseesaw(585585) \u279e \"balanced\"\n// since 585 == 585</code></pre><h3><span>Notes</span></h3><p><span>If input is </span><code>null</code><span> or </span><code>undefined</code><span> return </span><code>\"balanced\"</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/YoYtzAtQiiyb5Z3Qu",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(seesaw(3449), \"right\")\nTest.assertEquals(seesaw(1143113), \"left\")\nTest.assertEquals(seesaw(585585), \"balanced\")\nTest.assertEquals(seesaw(11), \"balanced\")\nTest.assertEquals(seesaw(111), \"balanced\")\nTest.assertEquals(seesaw(1), \"balanced\")\nTest.assertEquals(seesaw(5855), \"left\")\nTest.assertEquals(seesaw(5558), \"right\")\nTest.assertEquals(seesaw(null), \"balanced\", 'Return balanced when null.')\nTest.assertEquals(seesaw(undefined), \"balanced\", 'Return balanced when undefined.')",
+  "title": "Numeric Seesaw"
+}

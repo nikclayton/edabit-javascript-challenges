@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "cCNsvFaBQYMkgYnGc",
+  "code": "function cons(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that determines whether elements in an array can be re-arranged to form a consecutive list of numbers where </span><strong><span>each number appears exactly once</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>cons([5, 1, 4, 3, 2]) \u279e true\n// Can be re-arranged to form [1, 2, 3, 4, 5]\n\ncons([5, 1, 4, 3, 2, 8]) \u279e false\n\ncons([5, 6, 7, 8, 9, 9]) \u279e false\n// 9 appears twice</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/cCNsvFaBQYMkgYnGc",
+  "tags": [
+    "arrays",
+    "loops",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(cons([5, 1, 4, 3, 2]), true)\nTest.assertEquals(cons([55, 59, 58, 56, 57]), true)\nTest.assertEquals(cons([-3, -2, -1, 1, 0]), true)\nTest.assertEquals(cons([5, 1, 4, 3, 2, 8]), false)\nTest.assertEquals(cons([5, 6, 7, 8, 9, 9]), false)\nTest.assertEquals(cons([5, 3]), false)",
+  "title": "Consecutive Numbers"
+}

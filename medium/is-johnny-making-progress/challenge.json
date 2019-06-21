@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "QtcPzxgcZJQdsfdMS",
+  "code": "function progressDays(runs) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>To train for an upcoming marathon, Johnny goes on one long-distance run each Saturday. He wants to track how often the number of miles he runs this Saturday exceeds the number of miles run the </span><strong><span>previous</span></strong><span> Saturday. This is called a </span><strong><span>progress day</span></strong><span>.</span></p><p><span>Create a function that takes in an array of miles run every Saturday and returns Johnny's total number of progress days.</span></p><h3><span>Examples</span></h3><pre><code>progressDays([3, 4, 1, 2]) \u279e 2\n// There are two progress days, (3-&gt;4) and (1-&gt;2)\n\nprogressDays([10, 11, 12, 9, 10]) \u279e 3\n\nprogressDays([6, 5, 4, 3, 2, 9]) \u279e 1\n\nprogressDays([9, 9])  \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>Running the </span><strong><span>same number of miles</span></strong><span> as last week does not count as a progress day.</span></p>",
+  "source_url": "https://edabit.com/challenge/QtcPzxgcZJQdsfdMS",
+  "tags": [
+    "arrays",
+    "loops",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(progressDays([3, 4, 1, 2]), 2);\nTest.assertEquals(progressDays([10, 11, 12, 9, 10]), 3);\nTest.assertEquals(progressDays([6, 5, 4, 3, 2, 9]), 1);\nTest.assertEquals(progressDays([9, 9]), 0);\nTest.assertEquals(progressDays([12, 11, 10, 12, 11, 13]), 2);",
+  "title": "Is Johnny Making Progress?"
+}

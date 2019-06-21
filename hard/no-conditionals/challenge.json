@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WjXHgXLAvMxNvD6h2",
+  "code": "function flip(y) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><strong><span>0</span></strong><span> if the input is </span><strong><span>1</span></strong><span>, and returns </span><strong><span>1</span></strong><span> if the input is </span><strong><span>0</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>flip(1) \u279e 0\n\nflip(0) \u279e 1</code></pre><h3><span>Notes</span></h3><p><strong><span>Bonus</span></strong><span>: Do this </span><strong><span>without</span></strong><span> using any: </span></p><ul><li><strong><span>conditionals</span></strong><span> or </span><strong><span>ternary operators</span></strong><span>. </span></li><li><strong><span>negations</span></strong><span>.</span></li><li><strong><span>bit operators</span></strong><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/WjXHgXLAvMxNvD6h2",
+  "tags": [
+    "control_flow",
+    "logic"
+  ],
+  "tests": "Test.assertEquals(flip(0), 1)\nTest.assertEquals(flip(1), 0)",
+  "title": "No Conditionals?"
+}

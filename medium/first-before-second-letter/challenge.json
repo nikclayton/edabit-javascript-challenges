@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ozRsLB9QpRkzuLSXJ",
+  "code": "function firstBeforeSecond(s, first, second) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You are given three inputs: a string, one letter, and a second letter.</span></p><p><span>Write a function that returns </span><code>true</code><span> if every instance of the first letter occurs </span><strong><span>before</span></strong><span> every instance of the second letter.</span></p><h3><span>Examples</span></h3><pre><code>firstBeforeSecond(\"a rabbit jumps joyfully\", \"a\", \"j\") \u279e true\n// every instance of \"a\" occurs before every instance of \"j\"\n\nfirstBeforeSecond(\"knaves knew about waterfalls\", \"k\", \"w\") \u279e  true\n\nfirstBeforeSecond(\"happy birthday\", \"a\", \"y\") \u279e false\n// the \"a\" in \"birthday\" occurs after the \"y\" in \"happy\"\n\nfirstBeforeSecond(\"precarious kangaroos\", \"k\", \"a\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>All strings will be in lower case.</span></li><li><span>All strings will contain the first and second letters at least </span><strong><span>once</span></strong><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ozRsLB9QpRkzuLSXJ",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(firstBeforeSecond(\"a rabbit jumps joyfully\", \"a\", \"j\"), true)\nTest.assertEquals(firstBeforeSecond(\"knaves knew about waterfalls\", \"k\", \"w\"), true)\nTest.assertEquals(firstBeforeSecond(\"maria makes money\", \"m\", \"o\"), true)\nTest.assertEquals(firstBeforeSecond(\"the hostess made pecan pie\", \"h\", \"p\"), true)\nTest.assertEquals(firstBeforeSecond(\"barry the butterfly flew away\", \"b\", \"f\"), true)\nTest.assertEquals(firstBeforeSecond(\"moody muggles\", \"m\", \"g\"), true)\nTest.assertEquals(firstBeforeSecond(\"happy birthday\", \"a\", \"y\"), false)\nTest.assertEquals(firstBeforeSecond(\"precarious kangaroos\", \"k\", \"a\"), false)\nTest.assertEquals(firstBeforeSecond(\"maria makes money\", \"m\", \"i\"), false)\nTest.assertEquals(firstBeforeSecond(\"taken by the beautiful sunrise\", \"u\", \"s\"), false)\nTest.assertEquals(firstBeforeSecond(\"sharp cheddar biscuit\", \"t\", \"s\"), false)\nTest.assertEquals(firstBeforeSecond(\"moody muggles\", \"m\", \"o\"), false)",
+  "title": "First Before Second Letter"
+}

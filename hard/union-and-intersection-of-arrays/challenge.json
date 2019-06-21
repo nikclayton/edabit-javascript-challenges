@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MfAkm7CkWqepAZTBM",
+  "code": "function intersectionUnion(arr1, arr2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function takes in two arrays and returns an </span><strong><span>intersection array</span></strong><span> and a </span><strong><span>union array</span></strong><span>.</span></p><ol><li><strong><span>Intersection Array:</span></strong><span> Elements shared by both.</span></li><li><strong><span>Union Array:</span></strong><span> Elements that exist in first or second array, or both (not exclusive OR).</span></li></ol><p><span>While the input arrays may have duplicate numbers, the returned </span><strong><span>intersection</span></strong><span> and </span><strong><span>union</span></strong><span> arrays should be </span><em><span>set-ified</span></em><span> - that is, contain no duplicates. Returned arrays should be sorted in </span><strong><span>ascending</span></strong><span> order.</span></p><pre><code>Array 1: [5, 6, 6, 6, 8, 9]\nArray 2: [3, 3, 4, 4, 5, 5, 8]\n\nIntersection: [5, 8]\n// 5 and 8 are the only 2 numbers that exist in both arrays.\n\nUnion: [3, 4, 5, 6, 8, 9]\n// Each number exists in at least one array.</code></pre><h3><span>Examples</span></h3><pre><code>intersectionUnion([1, 2, 3, 4, 4], [4, 5, 9]) \u279e [[4], [1, 2, 3, 4, 5, 9]]\n\nintersectionUnion([1, 2, 3], [4, 5, 6]) \u279e [[], [1, 2, 3, 4, 5, 6]]\n\nintersectionUnion([1, 1], [1, 1, 1, 1]) \u279e [[1], [1]]</code></pre><h3><span>Notes</span></h3><ul><li><span>Order of output should be: </span><code>[Intersection], [Union]</code><span>.</span></li><li><span>Remember both output arrays should be in </span><strong><span>ascending order</span></strong><span>.</span></li><li><span>Each input array will have at least one element.</span></li><li><span>If both arrays are disjoint (share nothing in common), return an empty array </span><code>[]</code><span> for the intersection.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/MfAkm7CkWqepAZTBM",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(intersectionUnion([1, 2, 3, 4, 4], [4, 5, 9]), [[4], [1, 2, 3, 4, 5, 9]])\nTest.assertSimilar(intersectionUnion([1, 2, 3], [4, 5, 6]), [[], [1, 2, 3, 4, 5, 6]])\nTest.assertSimilar(intersectionUnion([1, 1], [1, 1, 1, 1]), [[1], [1]])\nTest.assertSimilar(intersectionUnion([5, 5], [5, 6]), [[5], [5, 6]])\nTest.assertSimilar(intersectionUnion([7, 8, 9, 6], [9, 7, 6, 8]), [[6, 7, 8, 9], [6, 7, 8, 9]])\nTest.assertSimilar(intersectionUnion([4, 1, 1, 2], [1, 4, 4, 4, 4, 4, 4]), [[1, 4], [1, 2, 4]])",
+  "title": "Union and Intersection of Arrays"
+}

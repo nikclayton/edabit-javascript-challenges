@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "qkNvH9BZLTNtKQvae",
+  "code": "function equalSlices(total, people, each) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that determines whether or not it's possible to split a pie fairly given these three parameters:</span></p><ol><li><span>Total number of slices.</span></li><li><span>Number of recipients.</span></li><li><span>How many slices each person gets.</span></li></ol><p><span>The function will be in this form:</span></p><pre><code>equalSlices(total slices, no. recipients, slices each)</code></pre><h3><span>Examples</span></h3><pre><code>equalSlices(11, 5, 2) \u279e true\n// 5 people x 2 slices each = 10 slices &lt; 11 slices\n\nequalSlices(11, 5, 3) \u279e false\n// 5 people x 3 slices each = 15 slices &gt; 11 slices\n\nequalSlices(8, 3, 2) \u279e true\n\nequalSlices(8, 3, 3) \u279e false\n\nequalSlices(24, 12, 2) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Return (trivially) </span><code>true</code><span> if there are zero people.</span></li><li><span>It's fine not to use the entire pie.</span></li><li><span>All test parameters are integers.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/qkNvH9BZLTNtKQvae",
+  "tags": [
+    "algebra",
+    "math",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(equalSlices(8, 3, 2), true)\nTest.assertEquals(equalSlices(8, 3, 3), false)\nTest.assertEquals(equalSlices(24, 12, 2), true)\nTest.assertEquals(equalSlices(5, 6, 1), false)\nTest.assertEquals(equalSlices(5, 0, 100), true)\nTest.assertEquals(equalSlices(15, 2, 7), true)\nTest.assertEquals(equalSlices(15, 2, 8), false)",
+  "title": "Slice of Pie"
+}

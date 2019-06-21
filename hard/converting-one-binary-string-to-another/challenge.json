@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HZcpmfBg6NstB5soN",
+  "code": "function minSwaps(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the minimum number of swaps to convert the first binary string into the second.</span></p><h3><span>Examples</span></h3><pre><code>minSwaps(\"1100\", \"1001\") \u279e 1\n\nminSwaps(\"110011\", \"010111\") \u279e 1\n\nminSwaps(\"10011001\", \"01100110\") \u279e 4</code></pre><h3><span>Notes</span></h3><ul><li><span>Both binary strings will be of equal length.</span></li><li><span>Both binary strings will have an equal number of zeroes and ones.</span></li><li><span>A swap is switching two elements in a string (swaps do </span><strong><span>not</span></strong><span> have to be adjacent).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/HZcpmfBg6NstB5soN",
+  "tags": [
+    "logic",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(minSwaps(\"1001\", \"1001\"), 0)\nTest.assertEquals(minSwaps(\"1100\", \"1001\"), 1)\nTest.assertEquals(minSwaps(\"110011\", \"010111\"), 1)\nTest.assertEquals(minSwaps(\"1100\", \"0011\"), 2)\nTest.assertEquals(minSwaps(\"110011\", \"001111\"), 2)\nTest.assertEquals(minSwaps(\"10011001\", \"01100101\"), 3)\nTest.assertEquals(minSwaps(\"11111000001100\", \"10110010100110\"), 3)\nTest.assertEquals(minSwaps(\"01100100100111\", \"10110010100110\"), 3)\nTest.assertEquals(minSwaps(\"11110011001\", \"01100110111\"), 3)\nTest.assertEquals(minSwaps(\"100110001\", \"010100110\"), 3)\nTest.assertEquals(minSwaps(\"100101011\", \"011001101\"), 3)\nTest.assertEquals(minSwaps(\"10011001\", \"01100110\"), 4)",
+  "title": "Converting One Binary String to Another"
+}

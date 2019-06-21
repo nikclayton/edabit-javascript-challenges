@@ -1,0 +1,17 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "vzvh4papXafwAWSNS",
+  "code": "function difCiph(input) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>It's time to send and receive secret messages.</span></p><p><span>Create a single function that takes a number </span><strong><span>or</span></strong><span> an array as an argument and returns a coded or decoded message.</span></p><p><span>The first letter of the string, or the first element of the array represents the Character Code of that letter. The next elements are the differences between the characters:\ne.g. </span><code>A</code><span> +3 --&gt; </span><code>C</code><span> or </span><code>z</code><span> -1 --&gt; </span><code>y</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>difCiph(\"Hello\") \u279e [72, 29, 7, 0, 3]\n// H = 72, the difference between the H and e is 29 (upper- and lowercase).\n// The difference between the two l's is obviously 0.\n\ndifCiph([ 72, 33, -73, 84, -12, -3, 13, -13, -68 ]) \u279e \"Hi there!\"\n\ndifCiph(\"Sunshine\") \u279e [83, 34, -7, 5, -11, 1, 5, -9]</code></pre><h3><span>Notes</span></h3><p><span>The input of the function will always be a string </span><strong><span>or</span></strong><span> an array with numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/vzvh4papXafwAWSNS",
+  "tags": [
+    "arrays",
+    "cryptography",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(difCiph(\"How are you?\"), [72, 39, 8, -87, 65, 17, -13, -69, 89, -10, 6, -54])\nTest.assertSimilar(difCiph(\"?\"), [63])\nTest.assertSimilar(difCiph([84, 20,  -3,  -69,  78,  -9,  4,  -2,  1,  -6,  13,  6,  -3,  1,  -83,  65,  17,  -13,  -69,  83,  1,  -2,  -17,  13,  -7,  -2,  -55,  0 ]), \"The neighbours are strange..\")\nTest.assertSimilar(difCiph(\"It's a secret!\"), [73, 43, -77, 76, -83, 65, -65, 83, -14, -2, 15, -13, 15, -83 ])\nTest.assertSimilar(difCiph([79, -4 ]), \"OK\")\nTest.assertSimilar(difCiph([84, 27,  -2,  2,  3,  0,  -3,  8,  -75,  -12,  19,  -19,  80,  -3,  -77,  73,  5,  -78,  84,  -12,  -3,  -69,  71,  -6,  17,  -14,  1,  9,  -64 ]), \"Tomorrow, 3 pm in the garden.\")\nTest.assertSimilar(difCiph(difCiph(\"Double test!\")), \"Double test!\")\nTest.assertSimilar(difCiph(\"Sunshine\"), [83, 34, -7, 5, -11, 1, 5, -9])",
+  "title": "Difference Cipher"
+}

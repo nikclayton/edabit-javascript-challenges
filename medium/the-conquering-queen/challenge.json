@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "f9Xi45wjDjfD4v4nD",
+  "code": "function canCapture([myQueen, opponentsQueen]) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>In chess, queens can move any number of squares horizontally, vertically or diagonally.</span></p><p><span>Given the location of your queen and your opponents' queen, determine whether or not you're able to capture your opponent's queen. Your location and your opponents' location are the first and second elements of the array, respectively.</span></p><h3><span>Examples</span></h3><pre><code>canCapture([\"A1\", \"H8\"]) \u279e true\n// Your queen can move diagonally to capture opponents' piece.\n\ncanCapture([\"A1\", \"C2\"]) \u279e false\n// Your queen cannot reach C2 from A1 (although a knight could).\n\ncanCapture([\"G3\", \"E5\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Assume there are no blocking pieces.</span></p>",
+  "source_url": "https://edabit.com/challenge/f9Xi45wjDjfD4v4nD",
+  "tags": [
+    "arrays",
+    "control_flow",
+    "games",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(canCapture([\"A1\", \"H8\"]), true);\nTest.assertEquals(canCapture([\"A1\", \"C2\"]), false);\nTest.assertEquals(canCapture([\"G3\", \"E5\"]), true);\nTest.assertEquals(canCapture([\"D3\", \"C2\"]), true);\nTest.assertEquals(canCapture([\"F4\", \"C1\"]), true);\nTest.assertEquals(canCapture([\"H1\", \"A7\"]), false);\nTest.assertEquals(canCapture([\"H1\", \"A8\"]), true);\nTest.assertEquals(canCapture([\"G1\", \"G2\"]), true);\nTest.assertEquals(canCapture([\"A5\", \"G5\"]), true);\nTest.assertEquals(canCapture([\"A5\", \"E2\"]), false);",
+  "title": "The Conquering Queen"
+}

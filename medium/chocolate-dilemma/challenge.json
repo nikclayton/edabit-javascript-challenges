@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "SLsJZd8EzW8nDoT5f",
+  "code": "function testFairness(agatha, bertha) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Two sisters are eating chocolate, whose pieces are represented as subarrays of </span><code>[l x w]</code><span>.</span></p><p><span>Write a function that returns </span><code>true</code><span> if the </span><strong><span>total area</span></strong><span> of chocolate is the same for each sister.</span></p><p><span>To illustrate:</span></p><pre><code>testFairness([[4, 3], [2, 4], [1, 2]],\n[[6, 2], [4, 2], [1, 1], [1, 1]])\n\u279e true\n\n// Agatha's pieces: [4, 3], [2, 4], [1, 2]\n// Bertha's pieces: [6, 2], [4, 2], [1, 1], [1, 1]\n\n// Total area of Agatha's chocolate\n// 4x3 + 2x4 + 1x2 = 12 + 8 + 2 = 22\n\n// Total area of Bertha's chocolate is:\n// 6x2 + 4x2 + 1x1 + 1x1 = 12 + 8 + 1 + 1 = 22</code></pre><h3><span>Examples</span></h3><pre><code>testFairness([[1, 2], [2, 1]], [[2, 2]]) \u279e true\n\ntestFairness([[1, 2], [2, 1]], [[2, 2], [4, 4]]) \u279e false\n\ntestFairness([[2, 2], [2, 2], [2, 2], [2, 2]], [[4, 4]]) \u279e true\n\ntestFairness([[1, 5], [6, 3], [1, 1]], [[7, 1], [2, 2], [1, 1]]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/SLsJZd8EzW8nDoT5f",
+  "tags": [
+    "arrays",
+    "conditions"
+  ],
+  "tests": "Test.assertEquals(testFairness([[1,5], [6,3], [1,1]], [[7,1], [2,2], [1,1]]), false);\nTest.assertEquals(testFairness([[2,2], [2,2], [2,2], [2,2]], [[4,4]]), true);\nTest.assertEquals(testFairness([[1,2], [2,1]], [[2,2]]), true);\nTest.assertEquals(testFairness([[1,2], [2,1]], [[2,2], [4,4]]), false);\nTest.assertEquals(testFairness([[2,4], [1,1], [11,1]], [[2,2], [4,4]]), true);",
+  "title": "Chocolate Dilemma"
+}

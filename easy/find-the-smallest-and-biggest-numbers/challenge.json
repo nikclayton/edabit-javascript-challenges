@@ -4,7 +4,7 @@
   "challenge_id": "Q3n42rEWanZSTmsJm",
   "code": "function minMax(arr) {\n  \n}",
   "difficulty": "Easy",
-  "instructions": "<p><span>Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.</span></p><h3><span>Examples</span></h3><pre><code>[1, 2, 3, 4, 5] \u279e [1, 5]\n\n[2334454, 5] \u279e [5, 2334454]\n\n[1] \u279e [1, 1]</code></pre><h3><span>Notes</span></h3><p><span>All test arrays will have at least one element and are valid.</span></p>",
+  "instructions": "<p><span>Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.</span></p><h3><span>Examples</span></h3><pre><code>minMax([1, 2, 3, 4, 5]) \u279e [1, 5]\n\nminMax([2334454, 5]) \u279e [5, 2334454]\n\nminMax([1]) \u279e [1, 1]</code></pre><h3><span>Notes</span></h3><p><span>All test arrays will have at least one element and are valid.</span></p>",
   "source_url": "https://edabit.com/challenge/Q3n42rEWanZSTmsJm",
   "tags": [
     "arrays",

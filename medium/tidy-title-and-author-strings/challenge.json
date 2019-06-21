@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5vz5mrd7BTd7Q7XSz",
+  "code": "function tidyBooks(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You have an array of strings, each consisting of a </span><strong><span>book title</span></strong><span> and an </span><strong><span>author's name</span></strong><span>.</span></p><p><span>To illustrate:</span></p><pre><code>[\n  \"   Death of a Salesman - Arthur Miller    \",\n  \"   Macbeth - William Shakespeare    \",\n  \"    A Separate Peace - John Knowles     \",\n  \" Lord of the Flies - William Golding\",\n  \"A Tale of Two Cities - Charles Dickens\"\n]</code></pre><p><span>Create a function that takes an array like the one above and transforms it into the same format as the one below:</span></p><pre><code>[\n  [\"Death of a Salesman\", \"Arthur Miller\"],\n  [\"Macbeth\", \"William Shakespeare\"],\n  [\"A Separate Peace\", \"John Knowles\"],\n  [\"Lord of the Flies\", \"William Golding\"],\n  [\"A Tale of Two Cities\", \"Charles Dickens\"]\n]</code></pre><h3><span>Examples</span></h3><pre><code>tidyBooks([\n  \"     The Catcher in the Rye - J. D. Salinger    \",\n  \"    Brave New World - Aldous Huxley   \",\n  \"    Of Mice and Men - John Steinbeck    \"\n]) \u279e [\n  \"The Catcher in the Rye\", \"J. D. Salinger\",\n  \"Brave New World\", \"Aldous Huley\",\n  \"Of Mice and Men\", \"John Steinbeck\"\n]</code></pre><h3><span>Notes</span></h3><p><span>Some of these entries have excess white space. Remove this white space in your final output.</span></p>",
+  "source_url": "https://edabit.com/challenge/5vz5mrd7BTd7Q7XSz",
+  "tags": [
+    "arrays",
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(tidyBooks([\"     The Catcher in the Rye - J. D. Salinger    \", \n\"    Brave New World - Aldous Huxley   \", \n\"    Of Mice and Men - John Steinbeck    \"]), \n[[\"The Catcher in the Rye\", \"J. D. Salinger\"], \n[\"Brave New World\", \"Aldous Huxley\"], \n[\"Of Mice and Men\", \"John Steinbeck\"]])\n\n\nTest.assertSimilar(tidyBooks([\"     The Grapes of Wrath - John Steinbeck    \", \n\"    Great Expectations - Charles Dickens   \", \n\"    The Scarlet Letter - Nathaniel Hawthorne    \"]), \n[[\"The Grapes of Wrath\", \"John Steinbeck\"], \n[\"Great Expectations\", \"Charles Dickens\"], \n[\"The Scarlet Letter\", \"Nathaniel Hawthorne\"]])",
+  "title": "Tidy Title and Author Strings"
+}

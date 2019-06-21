@@ -1,8 +1,6 @@
 const firstLast = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(firstLast([5, 10, 15, 20, 25])).toEqual([5, 25]);
         expect(firstLast(['edabit', 13, undefined, false, true])).toEqual(['edabit', true]);

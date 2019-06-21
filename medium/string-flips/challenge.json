@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "DmKPX7XLSTFPBxysD",
+  "code": "function flip(str, spec) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a string as the first argument, and a (string) specification as a second argument. If the specification is \"word\", return a string with each word reversed while maintaining their original order. If the specification is 'sentence', reverse the order of the words in the string, while keeping the words intact.</span></p><h3><span>Examples</span></h3><pre><code>str1 = \"Hello\"\nstr2 = \"There's never enough time to do all the nothing you want\"\n\n\nflip(str1, \"word\") \u279e \"olleH\"\n\nflip(str1, \"sentence\") \u279e \"Hello\"\n\nflip(str2, \"word\") \u279e \"s'erehT reven hguone emit ot od lla eht gnihton uoy tnaw\"\n\nflip(str2, \"sentence\") \u279e \"want you nothing the all do to time enough never There's\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/DmKPX7XLSTFPBxysD",
+  "tags": [
+    "language_fundamentals",
+    "strings"
+  ],
+  "tests": "str1 = \"There's never enough time to do all the nothing you want\"\nstr2 = \"I have all these great genes but they're recessive\"\nstr3 = \"I like maxims that don't encourage behavior modification\"\n\nTest.assertEquals(flip('Hello', 'word'), 'olleH')\nTest.assertEquals(flip('Hello', 'sentence'), 'Hello')\nTest.assertEquals(flip(str1, 'word'), \"s'erehT reven hguone emit ot od lla eht gnihton uoy tnaw\")\nTest.assertEquals(flip(str1, 'sentence'), \"want you nothing the all do to time enough never There's\")\nTest.assertEquals(flip(str2, 'word'), \"I evah lla eseht taerg seneg tub er'yeht evissecer\")\nTest.assertEquals(flip(str2, 'sentence'), \"recessive they're but genes great these all have I\")\nTest.assertEquals(flip(str3, 'word'), \"I ekil smixam taht t'nod egaruocne roivaheb noitacifidom\")\nTest.assertEquals(flip(str3, 'sentence'), \"modification behavior encourage don't that maxims like I\")\n\n// Quotes credit: Bill Watterson",
+  "title": "String Flips"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Qbi3GuXjwW5fsoKRn",
+  "code": "function additiveInverse(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>A number added with its </span><strong><span>additive inverse</span></strong><span> equals zero. Create a function that returns an array of additive inverses.</span></p><h3><span>Examples</span></h3><pre><code>additiveInverse([5, -7, 8, 3]) \u279e [-5, 7, -8, -3]\n\nadditiveInverse([1, 1, 1, 1, 1]) \u279e [-1, -1, -1, -1, -1]\n\nadditiveInverse([-5, -25, 35]) \u279e [5, 25, -35]</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Qbi3GuXjwW5fsoKRn",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(additiveInverse([5, -7, 8, 3]), [-5, 7, -8, -3])\nTest.assertSimilar(additiveInverse([1, 1, 1, 1, 1]), [-1, -1, -1, -1, -1])\nTest.assertSimilar(additiveInverse([-5, -25, 35]), [5, 25, -35])",
+  "title": "Additive Inverse"
+}

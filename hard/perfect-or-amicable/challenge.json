@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "gGrPrwZ5XZ3GqEzkp",
+  "code": "function numType(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given a positive number x, if all the positive divisors of x (excluding x) add up to x, then x is said to be a perfect number.</span></p><p><span>For example, the set of positive divisors of 6 excluding 6 itself is (1, 2, 3). The sum of this set is 6. Therefore, 6 is a </span><em><span>perfect</span></em><span> number.</span></p><p><span>Given a positive number x, if all the positive divisors of x add up to a second number y, and all the positive divisors of y add up to x, then x and y are said to be a pair of </span><em><span>amicable</span></em><span> numbers.</span></p><p><span>Create a function that takes a number and returns </span><code>\"Perfect\"</code><span> if the number is perfect, </span><code>\"Amicable\"</code><span> if the number is part of an amicable pair, or </span><code>\"Neither\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>numType(6) \u279e \"Perfect\"\n\nnumType(2924) \u279e \"Amicable\"\n\nnumType(5010) \u279e \"Neither\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/gGrPrwZ5XZ3GqEzkp",
+  "tags": [
+    "conditions",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(numType(6), 'Perfect')\nTest.assertEquals(numType(2924), 'Amicable')\nTest.assertEquals(numType(5010), 'Neither')\nTest.assertEquals(numType(8128), 'Perfect')\nTest.assertEquals(numType(10744), 'Amicable')\nTest.assertEquals(numType(17296), 'Amicable')\nTest.assertEquals(numType(498), 'Neither')\nTest.assertEquals(numType(66992), 'Amicable')\nTest.assertEquals(numType(5566), 'Neither')",
+  "title": "Perfect or Amicable?"
+}

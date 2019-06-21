@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8fnEAEj5vKNqAXNYA",
+  "code": "function filterStateNames(arr, type) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that filters out an array of state names into two categories based on the second parameter.</span></p><ol><li><span>Abbreviations </span><code>abb</code></li><li><span>Full names </span><code>full</code></li></ol><h3><span>Examples</span></h3><pre><code>filterStateNames([\"Arizona\", \"CA\", \"NY\", \"Nevada\"], \"abb\")\n\u279e [\"CA\", \"NY\"]\n\nfilterStateNames([\"Arizona\", \"CA\", \"NY\", \"Nevada\"], \"full\")\n\u279e [\"Arizona\", \"Nevada\"]\n\nfilterStateNames([\"MT\", \"NJ\", \"TX\", \"ID\", \"IL\"], \"abb\")\n\u279e [\"MT\", \"NJ\", \"TX\", \"ID\", \"IL\"]\n\nfilterStateNames([\"MT\", \"NJ\", \"TX\", \"ID\", \"IL\"], \"full\")\n\u279e []</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/8fnEAEj5vKNqAXNYA",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(filterStateNames(['Arizona', 'CA', 'NY', 'Nevada'], 'abb'), ['CA', 'NY'])\nTest.assertSimilar(filterStateNames(['Arizona', 'CA', 'NY', 'Nevada'], 'full'), ['Arizona', 'Nevada'])\n\nTest.assertSimilar(filterStateNames(['MT', 'NJ', 'TX', 'ID', 'IL'], 'abb'), ['MT', 'NJ', 'TX', 'ID', 'IL'])\nTest.assertSimilar(filterStateNames(['MT', 'NJ', 'TX', 'ID', 'IL'], 'full'), [])\n\nTest.assertSimilar(filterStateNames(['Montana', 'FL'], 'abb'), ['FL'])\nTest.assertSimilar(filterStateNames(['Montana', 'FL'], 'full'), ['Montana'])",
+  "title": "State Names and Abbreviations"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KffCqRz23XL5ewbgH",
+  "code": "function specialReverse(s, c) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that reverses all the words in a sentence starting with a particular letter.</span></p><h3><span>Examples</span></h3><pre><code>specialReverse(\"word searches are super fun\", \"s\")\n\u279e \"word sehcraes are repus fun\"\n\nspecialReverse(\"first man to walk on the moon\", \"m\")\n\u279e \"first nam to walk on the noom\"\n\nspecialReverse(\"peter piper picked pickled peppers\", \"p\")\n\u279e \"retep repip dekcip delkcip sreppep\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Reverse the words themselves, not the entire sentence.</span></li><li><span>All characters in the sentence will be in lower case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/KffCqRz23XL5ewbgH",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(specialReverse('word searches are super fun', 's'), 'word sehcraes are repus fun')\nTest.assertEquals(specialReverse('first man to walk on the moon', 'm'), 'first nam to walk on the noom')\nTest.assertEquals(specialReverse('peter piper picked pickled peppers', 'p'), 'retep repip dekcip delkcip sreppep')\nTest.assertEquals(specialReverse('he went to climb mount everest', 'p'), 'he went to climb mount everest')",
+  "title": "Reverse Words Starting With a Particular Letter"
+}

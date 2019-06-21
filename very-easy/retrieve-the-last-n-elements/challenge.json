@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "S6zpG8RwDrxaFEQLE",
+  "code": "function last(a, n) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that retrieves the last </span><code>n</code><span> elements from an array.</span></p><h3><span>Examples</span></h3><pre><code>last([1, 2, 3, 4, 5], 1) \u279e [5]\n\nlast([4, 3, 9, 9, 7, 6], 3) \u279e [9, 7, 6]\n\nlast([1, 2, 3, 4, 5], 7) \u279e \"invalid\"\n\nlast([1, 2, 3, 4, 5], 0) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>Return </span><strong><span>invalid</span></strong><span> if </span><code>n</code><span> exceeds the length of the array.</span></li><li><span>Return an empty array if </span><code>n == 0</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/S6zpG8RwDrxaFEQLE",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(last([1, 2, 3, 4, 5], 0), [])\nTest.assertSimilar(last([1, 2, 3, 4, 5], 1), [5])\nTest.assertSimilar(last([4, 3, 9, 9, 7, 6], 3), [9, 7, 6])\nTest.assertSimilar(last([5, 1, 2], 3), [5, 1, 2])\nTest.assertSimilar(last([], 1), \"invalid\")\nTest.assertSimilar(last([1, 2, 3, 4, 5], 7), \"invalid\")",
+  "title": "Retrieve the Last N Elements"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5FhabpvT3FF75kgCi",
+  "code": "function replaceVowels(str, ch) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function replaces all the vowels in a string with a specified character.</span></p><h3><span>Examples</span></h3><pre><code>replaceVowels(\"the aardvark\", \"#\") \u279e \"th# ##rdv#rk\"\n\nreplaceVowels(\"minnie mouse\", \"?\") \u279e \"m?nn?? m??s?\"\n\nreplaceVowels(\"shakespeare\", \"*\") \u279e \"sh*k*sp**r*\"</code></pre><h3><span>Notes</span></h3><p><span>All characters will be in lower case.</span></p>",
+  "source_url": "https://edabit.com/challenge/5FhabpvT3FF75kgCi",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(replaceVowels(\"the aardvark\", \"#\"), \"th# ##rdv#rk\")\nTest.assertEquals(replaceVowels(\"minnie mouse\", \"?\"), \"m?nn?? m??s?\")\nTest.assertEquals(replaceVowels(\"shakespeare\", \"*\"), \"sh*k*sp**r*\")\nTest.assertEquals(replaceVowels(\"all is fair in love and war\", \"<\"), \"<ll <s f<<r <n l<v< <nd w<r\")",
+  "title": "Vowel Replacer"
+}

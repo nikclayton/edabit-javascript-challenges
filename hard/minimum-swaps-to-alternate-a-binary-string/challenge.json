@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "zTKt7exq3R5idX4RY",
+  "code": "function minSwaps(s) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the minimum number of </span><strong><span>swaps</span></strong><span> to create an alternating binary string. The input will have the same number of zeroes and ones.</span></p><h3><span>Examples</span></h3><pre><code>minSwaps(\"101010\") \u279e 0\n\nminSwaps(\"10001110\") \u279e1\n\n// Swap the 0 at index 2 for the 1 at index 5.\n\nminSwaps(\"11110000\") \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/zTKt7exq3R5idX4RY",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(minSwaps(\"10\"), 0)\nTest.assertEquals(minSwaps(\"0101\"), 0)\nTest.assertEquals(minSwaps(\"101010\"), 0)\nTest.assertEquals(minSwaps(\"1100\"), 1)\nTest.assertEquals(minSwaps(\"111000\"), 1)\nTest.assertEquals(minSwaps(\"100101\"), 1)\nTest.assertEquals(minSwaps(\"100011\"), 1)\nTest.assertEquals(minSwaps(\"010110\"), 1)\nTest.assertEquals(minSwaps(\"10001110\"), 1)\nTest.assertEquals(minSwaps(\"11001100\"), 2)\nTest.assertEquals(minSwaps(\"11110000\"), 2)\nTest.assertEquals(minSwaps(\"1001001011\"), 2)\nTest.assertEquals(minSwaps(\"100100100111\"), 3)\nTest.assertEquals(minSwaps(\"101100000111\"), 3)\nTest.assertEquals(minSwaps(\"111000000111\"), 3)\nTest.assertEquals(minSwaps(\"111111000000\"), 3)\nTest.assertEquals(minSwaps(\"11000000011111\"), 3)\nTest.assertEquals(minSwaps(\"11111110000000\"), 3)\nTest.assertEquals(minSwaps(\"1111111100000000\"), 4)",
+  "title": "Minimum Swaps To Alternate a Binary String"
+}

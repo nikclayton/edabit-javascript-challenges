@@ -1,8 +1,6 @@
 const noOdds = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(noOdds([1, 2, 3, 4, 5, 6, 7, 8])).toEqual([2, 4, 6, 8]);
         expect(noOdds([43, 65, 23, 89, 53, 9, 6])).toEqual([6]);

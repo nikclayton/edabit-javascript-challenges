@@ -1,0 +1,15 @@
+{
+  "author_id": "EstoniaAndEnglish",
+  "author_url": "https://edabit.com/user/xv7Xah96onFoKf5Nm",
+  "challenge_id": "3CaszbdZYGN4otQD8",
+  "code": "function triArea(base, height) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that takes the base and height of a triangle and </span><code>return</code><span> its area.</span></p><h3><span>Examples</span></h3><pre><code>triArea(3, 2) \u279e 3\n\ntriArea(7, 4) \u279e 14\n\ntriArea(10, 10) \u279e 50</code></pre><h3><span>Notes</span></h3><ul><li><span>The area of a triangle is </span><code>(base * height) / 2</code><span>.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/3CaszbdZYGN4otQD8",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(triArea(3, 2), 3)\nTest.assertEquals(triArea(5, 4), 10)\nTest.assertEquals(triArea(10, 10), 50)\nTest.assertEquals(triArea(0, 60), 0)\nTest.assertEquals(triArea(12, 11), 66)",
+  "title": "Area of a Triangle"
+}

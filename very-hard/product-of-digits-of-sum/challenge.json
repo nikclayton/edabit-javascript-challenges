@@ -1,0 +1,16 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "Kzmyf4pLx66ZRsnWk",
+  "code": "function sumDigProd() {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes numbers as arguments, adds them together, and returns the product of digits until the answer is only 1 digit long.</span></p><h3><span>Examples</span></h3><pre><code>sumDigProd(16, 28) \u279e 6\n\nsumDigProd(0) \u279e 0\n\nsumDigProd(1, 2, 3, 4, 5, 6) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>The input of the function is at least one number.</span></p>",
+  "source_url": "https://edabit.com/challenge/Kzmyf4pLx66ZRsnWk",
+  "tags": [
+    "arrays",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(sumDigProd(8, 16, 89, 3), 6)\nTest.assertEquals(sumDigProd(16, 28), 6)\nTest.assertEquals(sumDigProd(9), 9)\nTest.assertEquals(sumDigProd(26, 497, 62, 841), 6)\nTest.assertEquals(sumDigProd(0), 0)\nTest.assertEquals(sumDigProd(17737, 98723, 2), 6)\nTest.assertEquals(sumDigProd(123, -99), 8)\nTest.assertEquals(sumDigProd(9, 8), 7)\nTest.assertEquals(sumDigProd(167, 167, 167, 167, 167, 3), 8)\nTest.assertEquals(sumDigProd(111111111), 1)\nTest.assertEquals(sumDigProd(98526, 54, 863, 156489, 45, 6156), 2)\nTest.assertEquals(sumDigProd(999, 999), 8)\nTest.assertEquals(sumDigProd(1, 2, 3, 4, 5, 6), 2)\nTest.assertEquals(sumDigProd(999, 2222), 2)\nTest.assertEquals(sumDigProd(8618, -2), 6)",
+  "title": "Product of Digits of Sum"
+}

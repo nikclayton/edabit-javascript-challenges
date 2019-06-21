@@ -1,8 +1,6 @@
 const wordRank = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(wordRank('If the Easter Bunny and the Tooth Fairy had babies would they take your teeth and leave chocolate for you?')).toEqual('chocolate');
         expect(wordRank('The memory we used to share is no longer coherent.')).toEqual('memory');

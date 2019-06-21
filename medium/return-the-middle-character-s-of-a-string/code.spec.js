@@ -1,8 +1,6 @@
 const getMiddle = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(getMiddle('test')).toEqual('es');
         expect(getMiddle('testing')).toEqual('t');

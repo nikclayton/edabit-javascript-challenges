@@ -1,8 +1,6 @@
 const youtubeId = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(youtubeId('https://www.youtube.com/watch?v=XPEr1cArWRg')).toEqual('XPEr1cArWRg');
         expect(youtubeId('http://www.youtube.com/watch?v=-SNQGyVW_YI&t=8871')).toEqual('-SNQGyVW_YI');

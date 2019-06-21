@@ -1,8 +1,6 @@
 const mangled = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(mangled('Fun times!')).toEqual('GvO Ujnft!');
         expect(mangled('The quick brown fox.')).toEqual('UIf rvjdl cspxO gpy.');

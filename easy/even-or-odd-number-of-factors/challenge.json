@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uGKSYufSxtBErTrhd",
+  "code": "function factorGroup(num) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns </span><code>\"even\"</code><span> if a number has an even number of factors and </span><code>\"odd\"</code><span> if a number has an odd number of factors.</span></p><h3><span>Examples</span></h3><pre><code>factorGroup(33) \u279e \"even\"\n\nfactorGroup(36) \u279e \"odd\"\n\nfactorGroup(7) \u279e \"even\"</code></pre><h3><span>Notes</span></h3><p><span>You don't need to actually calculate the factors to solve this problem.</span></p>",
+  "source_url": "https://edabit.com/challenge/uGKSYufSxtBErTrhd",
+  "tags": [
+    "math"
+  ],
+  "tests": "Test.assertEquals(factorGroup(33), \"even\")\nTest.assertEquals(factorGroup(36), \"odd\")\nTest.assertEquals(factorGroup(7), \"even\")\nTest.assertEquals(factorGroup(1), \"odd\")\nTest.assertEquals(factorGroup(19), \"even\")\nTest.assertEquals(factorGroup(27), \"even\")\nTest.assertEquals(factorGroup(100), \"odd\")\nTest.assertEquals(factorGroup(18), \"even\")\nTest.assertEquals(factorGroup(16), \"odd\")",
+  "title": "Even or Odd Number of Factors"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "nGybgqB9agSqvBszF",
+  "code": "function isEmpty(obj) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if an object is empty, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isEmpty({}) \u279e true\n\nisEmpty({ a: 1 }) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/nGybgqB9agSqvBszF",
+  "tags": [
+    "language_fundamentals",
+    "objects",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isEmpty({}), true)\nTest.assertEquals(isEmpty({a: 1}), false)\nTest.assertEquals(isEmpty({z: 2, w: 4, y: 5}), false)",
+  "title": "Is the Object Empty?"
+}

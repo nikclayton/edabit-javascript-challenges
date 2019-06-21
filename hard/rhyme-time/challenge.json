@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "p3LHPrDSwr4kYE9ov",
+  "code": "function doesRhyme(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if two lines </span><strong><span>rhyme</span></strong><span> and </span><code>false</code><span> otherwise. For the purposes of this exercise, two lines rhyme if the </span><strong><span>last word</span></strong><span> from each sentence contains the </span><strong><span>same vowels</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>doesRhyme(\"Sam I am!\", \"Green eggs and ham.\") \u279e true\n\ndoesRhyme(\"Sam I am!\", \"Green eggs and HAM.\") \u279e true\n// Capitalization and punctuation should not matter.\n\ndoesRhyme(\"You are off to the races\", \"a splendid day.\") \u279e false\n\ndoesRhyme(\"and frequently do?\", \"you gotta move.\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Case insensitive.</span></li><li><span>Here we are disregarding cases like </span><code>thyme</code><span> and </span><code>lime</code><span>.</span></li><li><span>We are also disregarding cases like </span><code>away</code><span> and </span><code>today</code><span> (which technically rhyme, even though they contain different vowels).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/p3LHPrDSwr4kYE9ov",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(doesRhyme('Sam I am!', 'Green eggs and ham.'), true, 'Should work with punctuation.')\nTest.assertEquals(doesRhyme('Sam I am!', 'Green eggs and HAM.'), true, 'Should work with uppercase/punctuation.')\nTest.assertEquals(doesRhyme('head straight to town', 'give me not a frown'), true)\nTest.assertEquals(doesRhyme('with an unpleasant bump', 'in a slump'), true)\nTest.assertEquals(doesRhyme('your elbow and chin!', 'how much can you win?'), true, 'Should work with punctuation.')\nTest.assertEquals(doesRhyme('you will start to race', 'the waiting Place'), true, 'Should work with upper case letters.')\nTest.assertEquals(doesRhyme('All that waiting and staying.', 'where the band are playing.'), true, 'Should work with punctuation.')\nTest.assertEquals(doesRhyme('You are off to the races', 'a splendid day.'), false)\nTest.assertEquals(doesRhyme('and frequently do?', 'you gotta move.'), false)\nTest.assertEquals(doesRhyme('down by the bay', 'where the watermelons grow'), false)\nTest.assertEquals(doesRhyme('back to my home', 'i dare not go'), false)",
+  "title": "Rhyme Time"
+}

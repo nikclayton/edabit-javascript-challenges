@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "wRX9cFtAxPZj86Drp",
+  "code": "function isSmooth(sentence) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Carlos is a huge fan of something he calls </span><strong><span>smooth sentences</span></strong><span>. A smooth sentence is one where the last letter of each word is identical to the first letter the following word.</span></p><p><span>To illustrate, the following would be a smooth sentence: </span><em><span>\"Carlos swam masterfully.\"</span></em></p><p><span>Since \"Carlos\" ends with an \"s\" and swam begins with an \"s\" and swam ends with an \"m\" and masterfully begins with an \"m\".</span></p><h3><span>Examples</span></h3><pre><code>isSmooth(\"Marta appreciated deep perpendicular right trapezoids\") \u279e true\n\nisSmooth(\"Someone is outside the doorway\") \u279e false\n\nisSmooth(\"She eats super righteously\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/wRX9cFtAxPZj86Drp",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isSmooth(\"Marta appreciated deep perpendicular right trapezoids\"), true)\nTest.assertEquals(isSmooth(\"Someone is outside the doorway\"), false)\nTest.assertEquals(isSmooth(\"She eats super righteously\"), true)\nTest.assertEquals(isSmooth(\"Ben naps so often\"), true)\nTest.assertEquals(isSmooth(\"Cute triangles are cute\"), false)\nTest.assertEquals(isSmooth(\"Mad dislikes sharp pointy yoyos\"), true)\nTest.assertEquals(isSmooth(\"Rita asks Sam mean numbered dilemmas\"), true)\nTest.assertEquals(isSmooth(\"Marigold daffodils streaming happily.\"), false)\nTest.assertEquals(isSmooth(\"Simply wonderful laughing.\"), false)",
+  "title": "Smooth Sentences"
+}

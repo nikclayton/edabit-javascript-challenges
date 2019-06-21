@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WT5MGmgaP3jvx8qpt",
+  "code": "function subReddit(link) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function to extract the name of the subreddit from its URL.</span></p><h3><span>Examples</span></h3><pre><code>subReddit(\"https://www.reddit.com/r/funny/\") \u279e \"funny\"\n\nsubReddit(\"https://www.reddit.com/r/relationships/\") \u279e \"relationships\"\n\nsubReddit(\"https://www.reddit.com/r/mildlyinteresting/\") \u279e \"mildlyinteresting\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/WT5MGmgaP3jvx8qpt",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(subReddit(\"https://www.reddit.com/r/relationships/\"), \"relationships\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/mildlyinteresting/\"), \"mildlyinteresting\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/funny/\"), \"funny\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/CrappyDesign/\"), \"CrappyDesign\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/confession/\"), \"confession\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/AskMen/\"), \"AskMen\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/comics/\"), \"comics\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/lifehacks/\"), \"lifehacks\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/wholesomememes/\"), \"wholesomememes\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/iamverysmart/\"), \"iamverysmart\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/starterpacks/\"), \"starterpacks\")\nTest.assertEquals(subReddit(\"https://www.reddit.com/r/awww/\"), \"awww\")",
+  "title": "Retrieve the Subreddit"
+}

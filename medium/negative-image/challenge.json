@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uNzzNQPDQferAAGMc",
+  "code": "function reverseImage(image) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Suppose an image can be represented as a 2D array of 0s and 1s. </span></p><p><span>Write a function to reverse an image. Replace the 0s with 1s and vice versa. </span></p><h3><span>Examples</span></h3><pre><code>reverseImage([\n  [1, 0, 0],\n  [0, 1, 0],\n  [0, 0, 1]\n]) \u279e [\n  [0, 1, 1],\n  [1, 0, 1],\n  [1, 1, 0]\n]\n\nreverseImage([\n  [1, 1, 1],\n  [0, 0, 0]\n]) \u279e [\n  [0, 0, 0],\n  [1, 1, 1]\n]\n\nreverseImage([\n  [1, 0, 0],\n  [1, 0, 0]\n]) \u279e [\n  [0, 1, 1],\n  [0, 1, 1]\n]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/uNzzNQPDQferAAGMc",
+  "tags": [
+    "arrays",
+    "closures",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(reverseImage([\n  [1, 0, 0], \n  [0, 1, 0], \n  [0, 0, 1]\n]), [\n  [0, 1, 1], \n  [1, 0, 1], \n  [1, 1, 0]\n])\n\nTest.assertSimilar(reverseImage([\n  [1, 1, 1], \n  [0, 0, 0]\n]), [\n  [0, 0, 0], \n  [1, 1, 1]\n])\n\nTest.assertSimilar(reverseImage([\n  [1, 0, 0], \n  [1, 0, 0]\n]), [\n  [0, 1, 1], \n  [0, 1, 1]\n])\n\nTest.assertSimilar(reverseImage([\n  [1, 0, 0, 0, 0], \n  [1, 0, 0, 1, 1], \n  [1, 1, 1, 1, 1], \n  [1, 1, 1, 1, 0], \n  [1, 1, 1, 0, 0]\n]), [\n  [0, 1, 1, 1, 1], \n  [0, 1, 1, 0, 0], \n  [0, 0, 0, 0, 0], \n  [0, 0, 0, 0, 1], \n  [0, 0, 0, 1, 1]\n])\n\nTest.assertSimilar(reverseImage([\n  [1, 1], \n  [1, 0], \n  [1, 1], \n  [1, 1], \n  [1, 1]\n]), [\n  [0, 0], \n  [0, 1], \n  [0, 0], \n  [0, 0], \n  [0, 0]\n])",
+  "title": "Negative Image"
+}

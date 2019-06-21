@@ -4,12 +4,12 @@
   "challenge_id": "p7vkhrwcWK7iPSqix",
   "code": "function duplicateCount(str) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Create a function that takes a string and returns the number of alphanumeric characters that occur more than once.</span></p><h3><span>Examples</span></h3><pre><code>duplicateCount(\"abcde\") \u279e 0\n\nduplicateCount(\"aabbcde\") \u279e 2\n\nduplicateCount(\"Indivisibilities\") \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>The input string can be assumed to contain only alphanumeric characters (digits + uppercase and lowercase letters).</span></p>",
+  "instructions": "<p><span>Create a function that takes a string and returns the number of alphanumeric characters that occur more than once.</span></p><h3><span>Examples</span></h3><pre><code>duplicateCount(\"abcde\") \u279e 0\n\nduplicateCount(\"aabbcde\") \u279e 2\n\nduplicateCount(\"Indivisibilities\") \u279e 2\n\nduplicateCount(\"Aa\") \u279e 0\n// Case sensitive</code></pre><h3><span>Notes</span></h3><ul><li><span>Duplicate characters are case sensitive.</span></li><li><span>The input string will contain only alphanumeric characters.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/p7vkhrwcWK7iPSqix",
   "tags": [
     "strings",
     "validation"
   ],
-  "tests": "Test.assertEquals(duplicateCount(\"abcde\"), 0)\nTest.assertEquals(duplicateCount(\"aabbcde\"), 2)\nTest.assertEquals(duplicateCount(\"aabbcdeB\"), 2)\nTest.assertEquals(duplicateCount(\"indivisibility\"), 1)\nTest.assertEquals(duplicateCount(\"Indivisibilities\"), 2)\nTest.assertEquals(duplicateCount(\"aa1112\"), 2)\nTest.assertEquals(duplicateCount(\"bb2c\"), 1)",
+  "tests": "Test.assertEquals(duplicateCount(\"abcde\"), 0)\nTest.assertEquals(duplicateCount(\"Aa\"), 0, \"Duplicate characters are case sensitive.\")\nTest.assertEquals(duplicateCount(\"aabbcde\"), 2)\nTest.assertEquals(duplicateCount(\"aabbcdeB\"), 2)\nTest.assertEquals(duplicateCount(\"indivisibility\"), 1)\nTest.assertEquals(duplicateCount(\"Indivisibilities\"), 2)\nTest.assertEquals(duplicateCount(\"aa1112\"), 2)\nTest.assertEquals(duplicateCount(\"bb2c\"), 1)",
   "title": "Count the Number of Duplicate Characters"
 }

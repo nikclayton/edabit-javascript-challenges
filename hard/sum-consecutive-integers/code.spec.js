@@ -1,8 +1,6 @@
 const sumConsecutives = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sumConsecutives([0, 7, 7, 7, 5, 4, 9, 9, 0])).toEqual([0, 21, 5, 4, 18, 0]);
         expect(sumConsecutives([4, 4, 5, 6, 8, 8, 8])).toEqual([8, 5, 6, 24]);

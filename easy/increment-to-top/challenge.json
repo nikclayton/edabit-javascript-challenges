@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aR66JfnFDXod5FpbS",
+  "code": "function incrementToTop(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns the total number of steps it takes to transform each element to the maximal element in the array. Each step consists of incrementing a digit by one.</span></p><h3><span>Examples</span></h3><pre><code>incrementToTop([3, 4, 5]) \u279e 3\n// 3 increments: 3 -&gt; 4, 4 -&gt; 5; 4 -&gt; 5\n\nincrementToTop([4, 3, 4]) \u279e 1\n\nincrementToTop([3, 3, 3]) \u279e 0\n\nincrementToTop([3, 10, 3]) \u279e 14</code></pre><h3><span>Notes</span></h3><ul><li><span>If the array contains only the same digits, return </span><code>0</code><span> (see second example).</span></li><li><span>Bonus: Can you write a solution that achieves this by only traversing the array once? (i.e. without finding the max before hand)</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/aR66JfnFDXod5FpbS",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertEquals(incrementToTop([3, 4, 5]), 3)\nTest.assertEquals(incrementToTop([4, 3, 4]), 1)\nTest.assertEquals(incrementToTop([3, 3, 3]), 0)\nTest.assertEquals(incrementToTop([3, 10, 3]), 14)\nTest.assertEquals(incrementToTop([1, 2, 3, 4, 5]), 10)",
+  "title": "Increment to Top"
+}

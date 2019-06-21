@@ -1,8 +1,6 @@
 const mean = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(mean([1, 0, 4, 5, 2, 4, 1, 2, 3, 3, 3])).toEqual(2.55);
         expect(mean([324, 543, 654, 9876])).toEqual(2849.25);

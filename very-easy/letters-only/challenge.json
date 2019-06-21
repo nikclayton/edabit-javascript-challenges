@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "GPKkNbytRpsAnHcrX",
+  "code": "function lettersOnly(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that removes any non-letters from a string, returning a well-known film title.</span></p><h3><span>Examples</span></h3><pre><code>lettersOnly(\"R!=:~0o0./c&amp;}9k`60=y\") \u279e \"Rocky\"\n\nlettersOnly(\"^,]%4B|@56a![0{2m&gt;b1&amp;4i4\") \u279e \"Bambi\"\n\nlettersOnly(\"^U)6$22&gt;8p).\") \u279e \"Up\"</code></pre><h3><span>Notes</span></h3><p><span>See the </span><strong><span>Resources</span></strong><span> section for more information on JavaScript string methods.</span></p>",
+  "source_url": "https://edabit.com/challenge/GPKkNbytRpsAnHcrX",
+  "tags": [
+    "formatting",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(lettersOnly(',1|2)\")A^1<[_)?^\"]l[a`3+%!d@8-0_0d.*}i@&n?='), 'Aladdin')\nTest.assertEquals(lettersOnly('^U)6$22>8p).'), 'Up')\nTest.assertEquals(lettersOnly('I5n!449+c@e*}@@1]p{2@`,~t:i0o%n<3%8'), 'Inception')\nTest.assertEquals(lettersOnly('!)\"P[s9)\"69}yc3+?1]+33>3ho'), 'Psycho')\nTest.assertEquals(lettersOnly(':~;G{o}o{+524<df~:>}e24{l8:_l]a:?@]%s7'), 'Goodfellas')\nTest.assertEquals(lettersOnly('&&S~]@8>1-0!h#r),80<_>!}|e>_k:'), 'Shrek')\nTest.assertEquals(lettersOnly(')^/|,!!09]=/1<G2?`=[l{a}d9]^i7a0|t6_o2*r'), 'Gladiator')\nTest.assertEquals(lettersOnly(']8;]V9e{=0r!.5t>i<^_g\"4o\"5~'), 'Vertigo')\nTest.assertEquals(lettersOnly('%%)?\"?B#>/_4a#,;t8|m8675a(n'), 'Batman')\nTest.assertEquals(lettersOnly('97H^)~a8567ll*o?\"6%)w63e37e<n?@='), 'Halloween')",
+  "title": "Letters Only"
+}

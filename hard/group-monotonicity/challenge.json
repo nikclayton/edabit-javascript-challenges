@@ -10,6 +10,6 @@
     "algorithms",
     "math"
   ],
-  "tests": "Test.assertSimilar(groupMonotonic([]), []);\nTest.assertSimilar(groupMonotonic([0]), []);\nTest.assertSimilar(groupMonotonic([1]), []);\nTest.assertSimilar(groupMonotonic([0, 1]), []);\nTest.assertSimilar(groupMonotonic([1, 0]), []);\nTest.assertSimilar(groupMonotonic([1, 1]), []);\nTest.assertSimilar(groupMonotonic([0, 1, 2]), []);\nTest.assertSimilar(groupMonotonic([2, 1, 0]), []);\nTest.assertSimilar(groupMonotonic([0, 2, 1]), [1]);\nTest.assertSimilar(groupMonotonic([1, 0, 2]), [1]);\nTest.assertSimilar(groupMonotonic([0, 1, 1, 0]), [2]);\nTest.assertSimilar(groupMonotonic([1, 2, 3, 4, 4, 4, 3, 2, 1]), [5]);\nTest.assertSimilar(groupMonotonic([0, 6, 10, 9, 3, -3, -9, -10, -6, 0]), [2, 7]);",
+  "tests": "Test.assertSimilar(groupMonotonic([]), [])\nTest.assertSimilar(groupMonotonic([0]), [])\nTest.assertSimilar(groupMonotonic([1]), [])\nTest.assertSimilar(groupMonotonic([0, 1]), [])\nTest.assertSimilar(groupMonotonic([1, 0]), [])\nTest.assertSimilar(groupMonotonic([1, 1]), [])\nTest.assertSimilar(groupMonotonic([0, 1, 2]), [])\nTest.assertSimilar(groupMonotonic([2, 1, 0]), [])\nTest.assertSimilar(groupMonotonic([0, 2, 1]), [1])\nTest.assertSimilar(groupMonotonic([1, 0, 2]), [1])\nTest.assertSimilar(groupMonotonic([0, 1, 1, 0]), [2])\nTest.assertSimilar(groupMonotonic([1, 2, 3, 4, 4, 4, 3, 2, 1]), [5])\nTest.assertSimilar(groupMonotonic([0, 6, 10, 9, 3, -3, -9, -10, -6, 0]), [2, 7])",
   "title": "Group Monotonicity"
 }

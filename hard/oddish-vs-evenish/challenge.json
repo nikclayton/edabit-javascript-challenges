@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "r6TSNwkLZ2DgsoKiH",
+  "code": "function oddishOrEvenish(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that determines whether a number is </span><strong><span>Oddish</span></strong><span> or </span><strong><span>Evenish</span></strong><span>. A number is </span><strong><span>Oddish</span></strong><span> if the sum of all of its digits is odd, and a number is </span><strong><span>Evenish</span></strong><span> if the sum of all of its digits is even. If a function is </span><strong><span>Oddish</span></strong><span>, return </span><code>\"Oddish\"</code><span>. Otherwise, return </span><code>\"Evenish\"</code><span>.</span></p><p><span>For example, </span><code>oddishOrEvenish(121)</code><span> should return </span><code>\"Evenish\"</code><span>, since 1 + 2 + 1 = 4. </span><code>oddishOrEvenish(41)</code><span> should return </span><code>\"Oddish\"</code><span>, since 4 + 1 = 5.</span></p><h3><span>Examples</span></h3><pre><code>oddishOrEvenish(43) \u279e \"Oddish\"\n\noddishOrEvenish(373) \u279e \"Oddish\"\n\noddishOrEvenish(4433) \u279e \"Evenish\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/r6TSNwkLZ2DgsoKiH",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(oddishOrEvenish(43), \"Oddish\");\nTest.assertEquals(oddishOrEvenish(373), \"Oddish\");\nTest.assertEquals(oddishOrEvenish(55551), \"Oddish\");\nTest.assertEquals(oddishOrEvenish(694), \"Oddish\");\nTest.assertEquals(oddishOrEvenish(4433), \"Evenish\");\nTest.assertEquals(oddishOrEvenish(11), \"Evenish\");\nTest.assertEquals(oddishOrEvenish(211112), \"Evenish\");",
+  "title": "Oddish vs. Evenish"
+}

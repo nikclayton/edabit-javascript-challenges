@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "sWo3y2WgtGDDtRtrB",
+  "code": "function minTurns(current, target) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A briefcase has a 4-digit </span><strong><span>rolling-lock</span></strong><span>. Each digit is a number from </span><code>0-9</code><span> that can be rolled either forwards or backwards.</span></p><p><span>Create a function that returns the smallest number of turns it takes to transform the lock from the current combination to the target combination. One turn is equivalent to rolling a number forwards or backwards by one.</span></p><p><span>To illustrate:</span></p><ul><li><strong><span>current-lock</span></strong><span>: 4089</span></li><li><strong><span>target-lock</span></strong><span>: 5672</span></li></ul><p><span>What is the minimum number of turns it takes to transform </span><code>4089</code><span> to </span><code>5672</code><span>? </span></p><pre><code>4 \u279e 5\n4 \u279e 5  // Forward Turns: 1 &lt;- Min\n4 \u279e 3 \u279e 2 \u279e 1 \u279e 0 \u279e 9 \u279e 8 \u279e 7 \u279e 6 \u279e 5  // Backward Turns: 9\n\n0 \u279e 6\n0 \u279e 1 \u279e 2 \u279e 3 \u279e 4 \u279e 5 \u279e 6  // Forward Turns: 6\n0 \u279e 9 \u279e 8 \u279e 7 \u279e 6  // Backward Turns: 4  &lt;- Min\n\n8 \u279e 7\n8 \u279e 9 \u279e 0 \u279e 1 \u279e 2 \u279e 3 \u279e 4 \u279e 5 \u279e 6 \u279e 7  // Forward Turns: 9\n8 \u279e 7  // Backward Turns: 1  &lt;- Min\n\n9 \u279e 2\n9 \u279e 0 \u279e 1 \u279e 2  // Forward Turns: 3  &lt;- Min\n9 \u279e 8 \u279e 7 \u279e 6 \u279e 5 \u279e 4 \u279e 3 \u279e 2  // Backward Turns: 7</code></pre><p><span>It takes </span><code>1 + 4 + 1 + 3 = 9</code><span> minimum turns to change the lock from </span><code>4089</code><span> to </span><code>5672</code><span>. </span></p><h3><span>Examples</span></h3><pre><code>minTurns(\"4089\", \"5672\") \u279e 9\n\nminTurns(\"1111\", \"1100\") \u279e 2\n\nminTurns(\"2391\", \"4984\") \u279e 10</code></pre><h3><span>Notes</span></h3><ul><li><span>Both locks are in string format.</span></li><li><span>A </span><code>9</code><span> rolls forward to </span><code>0</code><span>, and a </span><code>0</code><span> rolls backwards to a </span><code>9</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/sWo3y2WgtGDDtRtrB",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(minTurns(\"4089\", \"5672\"), 9)\nTest.assertEquals(minTurns(\"1732\", \"4444\"), 9)\nTest.assertEquals(minTurns(\"7109\", \"2332\"), 13)\nTest.assertEquals(minTurns(\"2391\", \"4984\"), 10)\nTest.assertEquals(minTurns(\"1234\", \"3456\"), 8)\nTest.assertEquals(minTurns(\"1111\", \"1100\"), 2)\nTest.assertEquals(minTurns(\"1111\", \"0000\"), 4)\nTest.assertEquals(minTurns(\"0000\", \"9999\"), 4)",
+  "title": "Briefcase Lock"
+}

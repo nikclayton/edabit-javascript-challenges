@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "vCtepsfrE7Nts2a9j",
+  "code": "function hammingDistance(str1, str2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><strong><span>Hamming distance</span></strong><span> is the number of characters that differ between two strings.</span></p><p><span>To illustrate:</span></p><pre><code>String1: \"abcbba\"\nString2: \"abcbda\"\n\nHamming Distance: 1 - \"b\" vs. \"d\" is the only difference.</code></pre><p><span>Create a function that computes the </span><strong><span>hamming distance</span></strong><span> between two strings.</span></p><h3><span>Examples</span></h3><pre><code>hammingDistance(\"abcde\", \"bcdef\") \u279e 5\n\nhammingDistance(\"abcde\", \"abcde\") \u279e 0\n\nhammingDistance(\"strong\", \"strung\") \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>Both strings will have the same length.</span></p>",
+  "source_url": "https://edabit.com/challenge/vCtepsfrE7Nts2a9j",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(hammingDistance(\"abcde\", \"bcdef\"), 5)\nTest.assertEquals(hammingDistance(\"abcde\", \"abcde\"), 0)\nTest.assertEquals(hammingDistance(\"strong\", \"strung\"), 1)",
+  "title": "Hamming Distance"
+}

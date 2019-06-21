@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TaH2g7iSJBHgqJemi",
+  "code": "function checkerBoard(n, el1, el2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a </span><strong><span>checker board generator</span></strong><span>, which takes as inputs </span><code>n</code><span> and </span><code>2 elements</code><span> to generate an </span><code>n x n</code><span> checkerboard with those two elements as alternating squares.</span></p><h3><span>Examples</span></h3><pre><code>checkerBoard(2, 7, 6) \u279e [\n  [7, 6],\n  [6, 7]\n]\n\ncheckerBoard(3, \"A\", \"B\") \u279e [\n  [\"A\", \"B\", \"A\"],\n  [\"B\", \"A\", \"B\"],\n  [\"A\", \"B\", \"A\"]\n]\n\ncheckerBoard(4, \"c\", \"d\") \u279e [\n  [\"c\", \"d\", \"c\", \"d\"],\n  [\"d\", \"c\", \"d\", \"c\"],\n  [\"c\", \"d\", \"c\", \"d\"],\n  [\"d\", \"c\", \"d\", \"c\"]\n]\n\ncheckerBoard(4, \"c\", \"c\") \u279e \"invalid\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Both elements can be either strings or integers.</span></li><li><span>The first element should be on the upper left corner of the checker board. e.g. \"c\", not \"d\" should be element </span><code>[0][0]</code><span>  for example 3.</span></li><li><span>Return \"invalid\" if both inputs are identical (see example 4).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/TaH2g7iSJBHgqJemi",
+  "tags": [
+    "arrays",
+    "games",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertSimilar(checkerBoard(3, 'A', 'B'), [\n\t['A', 'B', 'A'],\n\t['B', 'A', 'B'],\n\t['A', 'B', 'A']\n])\n\nTest.assertSimilar(checkerBoard(2, 7, 6), [\n\t[7, 6],\n\t[6, 7]\n])\n\nTest.assertSimilar(checkerBoard(3, 1, 0), [\n\t[1, 0, 1],\n\t[0, 1, 0],\n\t[1, 0, 1]\n])\n\nTest.assertSimilar(checkerBoard(3, 0, 1), [\n\t[0, 1, 0],\n\t[1, 0, 1],\n\t[0, 1, 0]\n])\n\nTest.assertSimilar(checkerBoard(4, 'c', 'd'), [\n\t['c', 'd', 'c', 'd'],\n\t['d', 'c', 'd', 'c'],\n\t['c', 'd', 'c', 'd'],\n\t['d', 'c', 'd', 'c']\n])\n\nTest.assertSimilar(checkerBoard(4, 'c', 'c'), \"invalid\")",
+  "title": "Checkerboard Generator"
+}

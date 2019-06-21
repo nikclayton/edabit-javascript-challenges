@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "APCAgm5FRnnC7ar87",
+  "code": "function waysToClimb(n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the number of ways a person can climb </span><strong><span>n stairs</span></strong><span>, where the person may only climb </span><strong><span>1</span></strong><span> or </span><strong><span>2</span></strong><span> steps at a time.</span></p><p><span>To illustrate, if </span><strong><span>n = 4</span></strong><span> there are </span><strong><span>5</span></strong><span> ways to climb:</span></p><pre><code>[1, 1, 1, 1]\n[2, 1, 1]\n[1, 2, 1]\n[1, 1, 2]\n[2, 2]</code></pre><h3><span>Examples</span></h3><pre><code>waysToClimb(1) \u279e 1\n\nwaysToClimb(2) \u279e 2\n\nwaysToClimb(5) \u279e 8</code></pre><h3><span>Notes</span></h3><p><span>A staircase of height </span><code>0</code><span> should return </span><code>1</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/APCAgm5FRnnC7ar87",
+  "tags": [
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(waysToClimb(0), 1)\nTest.assertEquals(waysToClimb(1), 1)\nTest.assertEquals(waysToClimb(2), 2)\nTest.assertEquals(waysToClimb(3), 3)\nTest.assertEquals(waysToClimb(4), 5)\nTest.assertEquals(waysToClimb(5), 8)\nTest.assertEquals(waysToClimb(6), 13)\nTest.assertEquals(waysToClimb(7), 21)\nTest.assertEquals(waysToClimb(15), 987)\nTest.assertEquals(waysToClimb(23), 46368)",
+  "title": "Staircase of Recursion"
+}

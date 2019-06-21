@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "4hyR7qsvSRCLBXDCz",
+  "code": "function canPlay(hand, face) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>This question is inspired by the popular Uno card game.</span></p><p><span>Write a function that takes in two arguments: (1) a player's current hand and (2) the current face-up card on the table. The function will return </span><code>true</code><span> if the player can make a play, or </span><code>false</code><span> if the player has to draw from the deck.</span></p><p><span>A player can make a play if either:</span></p><ul><li><span>They have a card that is the same </span><strong><span>color</span></strong><span> as the face-up card.</span></li><li><span>They have a card that is the same </span><strong><span>number</span></strong><span> as the face-up card.</span></li></ul><pre><code>canPlay([\"yellow 3\", \"yellow 7\", \"blue 8\", \"red 9\", \"red 2\"], \"red 1\") =&gt; true\n// Since the player has two red cards, and the face-up card is red.\n\ncanPlay([\"yellow 3\", \"yellow 7\"], \"blue 7\") =&gt; true\n// Since the player has a 7, and the face-up card is a 7.</code></pre><h3><span>Examples</span></h3><pre><code>canPlay([\"yellow 3\", \"yellow 5\", \"red 8\"], \"red 2\") \u279e true\n\ncanPlay([\"yellow 3\", \"yellow 5\", \"red 8\"], \"blue 5\") \u279e true\n\ncanPlay([\"yellow 3\", \"blue 5\", \"red 8\", \"red 9\"], \"green 4\") \u279e false\n\ncanPlay([\"yellow 3\", \"red 8\"], \"green 2\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Return </span><code>false</code><span> if the player is not holding any cards (an empty array). </span></li><li><span>There are no special cards or wild cards in this deck.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/4hyR7qsvSRCLBXDCz",
+  "tags": [
+    "arrays",
+    "games"
+  ],
+  "tests": "Test.assertEquals(canPlay(['yellow 3', 'yellow 5', 'red 8'], 'red 2'), true);\nTest.assertEquals(canPlay(['yellow 3', 'yellow 5', 'red 8'], 'blue 5'), true);\nTest.assertEquals(canPlay(['yellow 3', 'blue 5', 'red 8', 'red 9'], 'green 4'), false);\nTest.assertEquals(canPlay(['yellow 3', 'red 8'], 'green 2'), false);\nTest.assertEquals(canPlay(['yellow 5', 'yellow 8', 'red 0', 'blue 0', 'green 4'], 'green 2'), true);\nTest.assertEquals(canPlay([], 'green 2'), false);\nTest.assertEquals(canPlay(['red 2'], 'red 0'), true);\nTest.assertEquals(canPlay(['red 2', 'red 8', 'red 5'], 'blue 1'), false);",
+  "title": "Uno (Part 1)"
+}

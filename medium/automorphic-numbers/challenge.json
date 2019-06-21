@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "QXadaT8denMNXvn3t",
+  "code": "function isAutomorphic(n) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>A number </span><code>n</code><span> is automorphic if </span><code>n^2</code><span> ends in </span><code>n</code><span>.</span></p><p><span>For example: n=5, n^2=2</span><strong><span>5</span></strong></p><p><span>Create a function that takes a number and returns </span><code>true</code><span> if the number is automorphic, </span><code>false</code><span> if it isn't.</span></p><h3><span>Examples</span></h3><pre><code>isAutomorphic(5) \u279e true\n\nisAutomorphic(8) \u279e false\n\nisAutomorphic(76) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/QXadaT8denMNXvn3t",
+  "tags": [
+    "algebra",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isAutomorphic(0), true)\nTest.assertEquals(isAutomorphic(1), true)\nTest.assertEquals(isAutomorphic(5), true)\nTest.assertEquals(isAutomorphic(6), true)\nTest.assertEquals(isAutomorphic(25), true)\nTest.assertEquals(isAutomorphic(76), true)\nTest.assertEquals(isAutomorphic(7109376), true)\nTest.assertEquals(isAutomorphic(36), false)\nTest.assertEquals(isAutomorphic(100), false)\nTest.assertEquals(isAutomorphic(11), false)\nTest.assertEquals(isAutomorphic(6025), false)\nTest.assertEquals(isAutomorphic(3), false)\nTest.assertEquals(isAutomorphic(1376), false)",
+  "title": "Automorphic Numbers"
+}

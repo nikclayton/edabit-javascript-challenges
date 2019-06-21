@@ -1,8 +1,6 @@
 const numArgs = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(numArgs()).toEqual(0);
         expect(numArgs('foo')).toEqual(1);

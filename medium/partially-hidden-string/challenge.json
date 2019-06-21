@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "odpZ7xKpEpMKgasXb",
+  "code": "function partiallyHide(phrase) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes a phrase and transforms each word using the following rules:</span></p><ol><li><span>Keep first and last character the same.</span></li><li><span>Transform middle characters into a dash </span><code>-</code><span>.</span></li></ol><h3><span>Examples</span></h3><pre><code>partiallyHide(\"skies were pretty\") \u279e \"s---s w--e p----y\"\n\npartiallyHide(\"red is not my color\") \u279e \"r-d is n-t my c---r\"\n\npartiallyHide(\"She rolled her eyes\") \u279e \"S-e r----d h-r e--s\"\n\npartiallyHide(\"Harry went to fight the basilisk\") \u279e \"H---y w--t to f---t t-e b------k\"</code></pre><h3><span>Notes</span></h3><p><span>Words with two or fewer letters should not be hidden at all.</span></p>",
+  "source_url": "https://edabit.com/challenge/odpZ7xKpEpMKgasXb",
+  "tags": [
+    "arrays",
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(partiallyHide('Harry went to fight the basilisk'), 'H---y w--t to f---t t-e b------k')\nTest.assertEquals(partiallyHide('She rolled her eyes'), 'S-e r----d h-r e--s')\nTest.assertEquals(partiallyHide('skies were so beautiful'), 's---s w--e so b-------l')\nTest.assertEquals(partiallyHide('red is not my color'), 'r-d is n-t my c---r')\nTest.assertEquals(partiallyHide('so many options'), 'so m--y o-----s')\nTest.assertEquals(partiallyHide('the orient express'), 't-e o----t e-----s')\nTest.assertEquals(partiallyHide('went to the post office'), 'w--t to t-e p--t o----e')",
+  "title": "Partially Hidden String"
+}

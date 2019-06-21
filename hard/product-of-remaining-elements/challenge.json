@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WuoMiJRr69hPRQJYx",
+  "code": "function canPartition(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if you can partition an array into </span><strong><span>one element and the rest</span></strong><span>, such that this element is equal to the </span><strong><span>product</span></strong><span> of all other elements </span><strong><span>excluding itself</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>canPartition([2, 8, 4, 1]) \u279e true\n// 8 = 2 x 4 x 1\n\ncanPartition([-1, -10, 1, -2, 20]) \u279e false\n\ncanPartition([-1, -20, 5, -1, -2, 2]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>The array may contain duplicates.</span></li><li><span>Multiple solutions can exist, any solution is sufficient to return </span><code>true</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/WuoMiJRr69hPRQJYx",
+  "tags": [
+    "arrays",
+    "logic",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(canPartition([-1, -10, 1, -2, 20]), false)\nTest.assertEquals(canPartition([-1, -20, 5, -1, -2, 2]), true)\nTest.assertEquals(canPartition([2, 8, 4, 1]), true)\nTest.assertEquals(canPartition([1, 1, -1, 1]), false)\nTest.assertEquals(canPartition([-1, -1, 1, 1]), true)\nTest.assertEquals(canPartition([0, 5, 1, -1]), false)\nTest.assertEquals(canPartition([0, 1, 1, -1]), false)\nTest.assertEquals(canPartition([0, 1, 1, 1]), false)\nTest.assertEquals(canPartition([0, 0, 1, 1]), true)\nTest.assertEquals(canPartition([0, 0, 1]), true)\nTest.assertEquals(canPartition([0, 0, 0]), true)\nTest.assertEquals(canPartition([5, 5, 25, 100]), false)\nTest.assertEquals(canPartition([-1, 5, 20, 100]), false)\nTest.assertEquals(canPartition([1, 1, 1, 1]), true)\nTest.assertEquals(canPartition([-1, 1, -1]), true)\nTest.assertEquals(canPartition([-1, 1, 1]), false)",
+  "title": "Product of Remaining Elements"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "wrzdwQDwoFDBhbAuh",
+  "code": "function evalPolynomial(poly, num) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>You will be given a polynomial expression in string form. The expression will contain any of the following operations, written using standard mathematical notation for a single variable, \"x\", as illustrated in the examples below:</span></p><ul><li><span>addition: x + 1</span></li><li><span>subtraction: x \u2013 2</span></li><li><span>multiplication: 3x</span></li><li><span>division: x / 4</span></li><li><span>exponentation: x^5</span></li><li><span>brackets: x(x + 1)</span></li></ul><p><span>Your task is to write a function that can evaluate such a polynomial for a given value of x. You will receive two arguments: the polynomial string and the input number.</span></p><p><span>If the mathematical expression contains an error, you should return </span><code>\"invalid\"</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>evalPolynomial(\"x+1\", 5) \u279e 6\n\nevalPolynomial(\"5x^2\", 3) \u279e 45\n\nevalPolynomial(\"(x(x+1))/2\", 4) \u279e 10\n\nevalPolynomial(\"4(x + 3))/2\", 5) \u279e \"invalid\"\n// Invalid because parentheses not balanced.</code></pre><h3><span>Notes</span></h3><p><span>The string will not contain spaces.</span></p>",
+  "source_url": "https://edabit.com/challenge/wrzdwQDwoFDBhbAuh",
+  "tags": [
+    "algebra",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(evalPolynomial(\"x+1\", 1), 2)\nTest.assertEquals(evalPolynomial(\"x^2\", 2), 4, \"check exponentation\")\nTest.assertEquals(evalPolynomial(\"2(x+2)+x(x-1)\", 3), 16, \"check multiplication\")\nTest.assertEquals(evalPolynomial(\"3x^2/8\", 4), 6)\nTest.assertEquals(evalPolynomial(\"3x&2/8\", 5), \"invalid\", \"& not a valid mathematical expression\")\nTest.assertEquals(evalPolynomial(\"print(x)\", 6), \"invalid\", \"print(x) not a valid mathematical expression\")\nTest.assertEquals(evalPolynomial(\"x//2\", 7), \"invalid\", \"// not a valid operator\")\nTest.assertEquals(evalPolynomial(\"\", 8), \"invalid\", \"expression empty\")",
+  "title": "Evaluate Polynomials from String"
+}

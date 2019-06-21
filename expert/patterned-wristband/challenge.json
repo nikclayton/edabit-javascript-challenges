@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HX5eEuKb7epMgsKsj",
+  "code": "function isWristband(arr) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>A wristband can have 4 patterns: </span></p><ol><li><strong><span>horizontal</span></strong><span>: each item in a row is identical.</span></li><li><strong><span>vertical</span></strong><span>: each item in a column is identical.</span></li><li><strong><span>diagonal left</span></strong><span>: each item is identical to the one on it's upper left or bottom right.</span></li><li><strong><span>diagonal right</span></strong><span>: each item is identical to the one on it's upper right or bottom left.</span></li></ol><p><span>You are shown an </span><strong><span>incomplete section</span></strong><span> of a wristband.</span></p><p><span>Write a function that returns </span><code>true</code><span> if the section can be correctly classified into one of the 4 types, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isWristband([\n  [\"A\", \"A\"],\n  [\"B\", \"B\"],\n  [\"C\", \"C\"]\n]) \u279e true \n// Part of horizontal wristband.\n\nisWristband([\n  [\"A\", \"B\"],\n  [\"A\", \"B\"],\n  [\"A\", \"B\"]\n]) \u279e true \n// Part of vertical wristband.\n\nisWristband([\n  [\"A\", \"B\", \"C\"],\n  [\"C\", \"A\", \"B\"],\n  [\"B\", \"C\", \"A\"],\n  [\"A\", \"B\", \"C\"]\n]) \u279e true\n// Part of diagonal left wristband.\n\nisWristband([\n  [\"A\", \"B\", \"C\"],\n  [\"B\", \"C\", \"A\"],\n  [\"C\", \"A\", \"B\"],\n  [\"A\", \"B\", \"A\"]\n]) \u279e true\n// Part of diagonal right wristband.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/HX5eEuKb7epMgsKsj",
+  "tags": [
+    "arrays",
+    "functional_programming",
+    "loops",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isWristband( \n[['A', 'A'], \n['B', 'B'], \n['C', 'C']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B'], \n['A', 'B'], \n['A', 'B']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['C', 'A', 'B'], \n['B', 'C', 'A'], \n['A', 'B', 'C']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['C', 'A', 'B'], \n['D', 'C', 'A'], \n['E', 'D', 'C']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'A', 'B'], \n['D', 'C', 'A'], \n['E', 'D', 'C']]), false)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'C', 'A'], \n['C', 'A', 'B'], \n['A', 'B', 'A']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'C', 'D'], \n['C', 'D', 'E'], \n['D', 'E', 'F']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'C', 'D'], \n['C', 'D', 'E'], \n['D', 'E', 'E']]), true)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'C', 'D'], \n['C', 'D', 'E'], \n['D', 'F', 'E']]), false)\n\nTest.assertEquals(isWristband(\n[['A', 'B', 'C'], \n['B', 'D', 'A'], \n['C', 'A', 'B'], \n['A', 'B', 'A']]), false)\n\nTest.assertEquals(isWristband(\n[['A', 'B'],  \n['A', 'B'], \n['A', 'C'],  \n['A', 'B']]), false)\n\nTest.assertEquals(isWristband(\n[['A', 'A'],  \n['B', 'B'], \n['C', 'C'],  \n['D', 'B']]), false)\n \nTest.assertEquals(isWristband(\n[['A', 'A'],  \n['B', 'B'], \n['C', 'C'],  \n['C', 'C']]), true)",
+  "title": "Patterned Wristband"
+}

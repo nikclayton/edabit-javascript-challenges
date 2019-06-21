@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "pS3FkeSKxZe3AaWMG",
+  "code": "function finalDirection(initial, turns) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You face 1 out of the 4 compass directions: </span><code>N</code><span>, </span><code>S</code><span>, </span><code>E</code><span> or </span><code>W</code><span>.</span></p><ul><li><span>A </span><strong><span>left turn</span></strong><span> is a </span><strong><span>counter-clockwise turn</span></strong><span>. e.g. </span><code>N</code><span> (left-turn) \u279e </span><code>W</code><span>.</span></li><li><span>A </span><strong><span>right turn</span></strong><span> is a </span><strong><span>clockwise turn</span></strong><span>. e.g. </span><code>N</code><span> (right-turn) \u279e </span><code>E</code><span>.</span></li></ul><p><span>Create a function that takes in a starting direction and a sequence of left and right turns, and outputs the final direction faced.</span></p><h3><span>Examples</span></h3><pre><code>finalDirection(\"N\", [\"L\", \"L\", \"L\"]) \u279e \"E\"\n\nfinalDirection(\"N\", [\"R\", \"R\", \"R\", \"L\"]) \u279e \"S\"\n\nfinalDirection(\"N\", [\"R\", \"R\", \"R\", \"R\"]) \u279e \"N\"\n\nfinalDirection(\"N\", [\"R\", \"L\"]) \u279e \"N\"</code></pre><h3><span>Notes</span></h3><p><span>You can only face 1 out of the 4 compass directions: </span><code>N</code><span>, </span><code>S</code><span>, </span><code>E</code><span> or </span><code>W</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/pS3FkeSKxZe3AaWMG",
+  "tags": [
+    "arrays",
+    "control_flow"
+  ],
+  "tests": "Test.assertEquals(finalDirection('N', ['L', 'L', 'L']), 'E')\nTest.assertEquals(finalDirection('N', ['R', 'R', 'R', 'R', 'R', 'R', 'R']), 'W')\nTest.assertEquals(finalDirection('N', ['R', 'R', 'R', 'L']), 'S')\nTest.assertEquals(finalDirection('N', ['R', 'R', 'R', 'R']), 'N')\nTest.assertEquals(finalDirection('N', ['R', 'L']), 'N')\nTest.assertEquals(finalDirection('S', ['R', 'L', 'R', 'L', 'R']), 'W')\nTest.assertEquals(finalDirection('S', ['R', 'L', 'R', 'L', 'R', 'L']), 'S')\nTest.assertEquals(finalDirection('S', ['R', 'L', 'R', 'L', 'L', 'L']), 'N')\nTest.assertEquals(finalDirection('S', ['R', 'R']), 'N')\nTest.assertEquals(finalDirection('S', ['R']), 'W')\nTest.assertEquals(finalDirection('S', ['L']), 'E')\nTest.assertEquals(finalDirection('W', ['L', 'R', 'R']), 'N')\nTest.assertEquals(finalDirection('W', ['R', 'L', 'L']), 'S')\nTest.assertEquals(finalDirection('E', ['L', 'R', 'R']), 'S')\nTest.assertEquals(finalDirection('E', ['R', 'L', 'L']), 'N')",
+  "title": "Compass Directions"
+}

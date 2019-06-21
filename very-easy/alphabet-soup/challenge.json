@@ -4,7 +4,7 @@
   "challenge_id": "bHDbMWpdeNaw23jqT",
   "code": "function AlphabetSoup(str) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes a string  and returns a string with its letters in alphabetical order.</span></p><h3><span>Examples</span></h3><pre><code>\"hello\" \u279e \"ehllo\"\n\n\"edabit\" \u279e \"abdeit\"\n\n\"hacker\" \u279e \"acehkr\"\n\n\"geek\" \u279e \"eegk\"\n\n\"javascript\" \u279e \"aacijprstv\"</code></pre><h3><span>Notes</span></h3><p><span>You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.</span></p>",
+  "instructions": "<p><span>Create a function that takes a string  and returns a string with its letters in alphabetical order.</span></p><h3><span>Examples</span></h3><pre><code>AlphabetSoup(\"hello\") \u279e \"ehllo\"\n\nAlphabetSoup(\"edabit\") \u279e \"abdeit\"\n\nAlphabetSoup(\"hacker\") \u279e \"acehkr\"\n\nAlphabetSoup(\"geek\") \u279e \"eegk\"\n\nAlphabetSoup(\"javascript\") \u279e \"aacijprstv\"</code></pre><h3><span>Notes</span></h3><p><span>You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.</span></p>",
   "source_url": "https://edabit.com/challenge/bHDbMWpdeNaw23jqT",
   "tags": [
     "formatting",

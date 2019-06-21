@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "NhkHhyK7hSCAdLCeZ",
+  "code": "function oddSort(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that sorts </span><strong><span>only the odd numbers</span></strong><span> in an array in </span><strong><span>ascending order</span></strong><span>, keeping the even numbers in their current place.</span></p><p><span>For example, if our input array is: </span><code>[5, 2, 6, 6, 1, 4, 9, 3]</code><span>:</span></p><pre><code>[_, 2, 6, 6, _, 4, _, _]  // keep evens in place.\n\n// Sort odds: [5, 1, 9, 3] =&gt; [1, 3, 5, 9]\n\n[1, 2, 6, 6, 3, 4, 5, 9]  // final array.</code></pre><h3><span>Examples</span></h3><pre><code>oddSort([7, 5, 2, 3, 1]) \u279e [1, 3, 2, 5, 7]\n\noddSort([3, 7, 0, 9, 3, 2, 4, 8]) \u279e [3, 3, 0, 7, 9, 2, 4, 8]\n\noddSort([2, 2, 8, 4]) \u279e [2, 2, 8, 4]\n\noddSort([7, 9, 7]) \u279e [7, 7, 9]</code></pre><h3><span>Notes</span></h3><p><span>Arrays may contain duplicate numbers.</span></p>",
+  "source_url": "https://edabit.com/challenge/NhkHhyK7hSCAdLCeZ",
+  "tags": [
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(oddSort([1, 8, 4, 3, 2, 6, 7, 5]), [1, 8, 4, 3, 2, 6, 5, 7])\nTest.assertSimilar(oddSort([3, 7, 0, 9, 3, 2, 4, 8]), [3, 3, 0, 7, 9, 2, 4, 8])\nTest.assertSimilar(oddSort([7, 5, 2, 3, 1]), [1, 3, 2, 5, 7])\nTest.assertSimilar(oddSort([2, 2, 9, 7, 4, 4, 4, 9]), [2, 2, 7, 9, 4, 4, 4, 9])\nTest.assertSimilar(oddSort([2, 2, 4, 0, 3, 1]), [2, 2, 4, 0, 1, 3])\nTest.assertSimilar(oddSort([2, 2, 8, 4]), [2, 2, 8, 4])\nTest.assertSimilar(oddSort([1, 9, 1]), [1, 1, 9])",
+  "title": "Sort Odds Keeping Evens in Place"
+}

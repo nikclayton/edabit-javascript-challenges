@@ -1,8 +1,6 @@
 const findSmallestNum = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(findSmallestNum([34, 15, 88, 2])).toEqual(2);
         expect(findSmallestNum([34, -345, -1, 100])).toEqual(-345);

@@ -1,8 +1,6 @@
 const syncSubs = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(syncSubs(`708
 00:44:50,006 --> 00:44:53,007

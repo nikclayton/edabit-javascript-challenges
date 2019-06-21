@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "zQm9YZTTFPhNtYjDr",
+  "code": "function societyName(friends) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>A group of friends have decided to start a secret society. The name will be the first letter of each of their names, sorted in alphabetical order.</span></p><p><span>Create a function that takes in an array of names and returns the name of the secret society.</span></p><h3><span>Examples</span></h3><pre><code>societyName([\"Adam\", \"Sarah\", \"Malcolm\"]) \u279e \"AMS\"\n\nsocietyName([\"Harry\", \"Newt\", \"Luna\", \"Cho\"]) \u279e \"CHLN\"\n\nsocietyName([\"Phoebe\", \"Chandler\", \"Rachel\", \"Ross\", \"Monica\", \"Joey\"]) \u279e \"CJMPRR\"</code></pre><h3><span>Notes</span></h3><p><span>The secret society's name should be entirely uppercased.</span></p>",
+  "source_url": "https://edabit.com/challenge/zQm9YZTTFPhNtYjDr",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(societyName(['Adam', 'Sarah', 'Malcolm']), 'AMS')\nTest.assertEquals(societyName(['Phoebe', 'Chandler', 'Rachel', 'Ross', 'Monica', 'Joey']), 'CJMPRR')\nTest.assertEquals(societyName(['Harry', 'Newt', 'Luna', 'Cho']), 'CHLN')\nTest.assertEquals(societyName(['Sherlock', 'Irene', 'John']), 'IJS')\nTest.assertEquals(societyName(['Sheldon', 'Amy', 'Penny', 'Howard', 'Raj']), 'AHPRS')",
+  "title": "Secret Society"
+}

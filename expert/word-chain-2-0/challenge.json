@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "yGvaYr3X8xHPxWRcb",
+  "code": "function isWordChain(words) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Let's update our previous </span><strong><span>word-chain</span></strong><span> definition. In this 2.0 version, a </span><strong><span>word-chain</span></strong><span> is an array of words, where the next word is formed by either:</span></p><ol><li><span>Changing exactly </span><strong><span>one</span></strong><span> letter from the previous word.</span></li><li><span>Adding or subtracting </span><strong><span>one</span></strong><span> letter.</span></li></ol><h3><span>Examples</span></h3><pre><code>isWordChain([\"row\", \"crow\", \"crown\", \"brown\", \"brawn\"]) \u279e true\n// add \"c\" to \"row\" to get \"crow\", \"n\" to get \"crown\", etc.\n\nisWordChain([\"flew\", \"flaw\", \"flan\", \"flat\", \"fat\", \"rat\", \"rot\", \"tot\"]) \u279e true\n\nisWordChain([\"meek\", \"meet\", \"meat\", \"teal\"]) \u279e false\n// \"meat\" =&gt; \"teal\" changes 2 letters (can only change 1).\n\nisWordChain([\"run\", \"runny\", \"bunny\"]) \u279e false\n// \"run\" =&gt; \"runny\" adds 2 letters (can only add 1).</code></pre><h3><span>Notes</span></h3><ul><li><span>You can only do one (not both) for each word change.</span></li><li><span>All words will be in lower-case.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/yGvaYr3X8xHPxWRcb",
+  "tags": [
+    "arrays",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isWordChain([\"row\", \"crow\", \"crown\", \"brown\", \"brawn\"]), true)\nTest.assertEquals(isWordChain([\"flew\", \"flaw\", \"flan\", \"flat\", \"fat\", \"rat\", \"rot\", \"tot\"]), true)\nTest.assertEquals(isWordChain([\"meek\", \"meet\", \"meat\", \"teal\"]), false)\nTest.assertEquals(isWordChain([\"run\", \"runny\", \"bunny\"]), false)\nTest.assertEquals(isWordChain([\"fun\", \"fund\", \"find\", \"bind\", \"wind\", \"wild\", \"wile\", \"wiles\"]), true)\nTest.assertEquals(isWordChain([\"nut\", \"but\", \"bot\", \"boot\", \"loot\", \"look\", \"book\", \"brook\"]), true)\nTest.assertEquals(isWordChain([\"some\", \"tome\", \"tame\", \"lame\", \"flame\", \"flamer\", \"blamer\", \"blamers\"]), true)\nTest.assertEquals(isWordChain([\"a\", \"at\", \"hat\", \"that\", \"what\", \"flat\"]), false)\nTest.assertEquals(isWordChain([\"link\", \"blink\", \"wink\", \"sink\"]), false)",
+  "title": "Word Chain 2.0"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Relativity",
+  "author_url": "https://edabit.com/user/uNCaMmtN427KX6Gni",
+  "challenge_id": "FdsQBPLYBwrpYEbRn",
+  "code": "function quadraticEquation(a, b, c) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function to find only the positive determinant value of </span><code>x</code><span> in any quadratic equation </span><code>ax^2 + bx  + c</code><span>. The function will take three arguements:</span></p><ul><li><code>a</code><span> as the coefficient of </span><code>x^2</code></li><li><code>b</code><span> as the coefficient of </span><code>x</code></li><li><code>c</code><span> as the constant term</span></li></ul><h3><span>Examples</span></h3><pre><code>quadraticEquation(1, 2, -3) \u279e 1\n\nquadraticEquation(2, -7, 3) \u279e 3\n\nquadraticEquation(1, -12, -28) \u279e 14</code></pre><h3><span>Notes</span></h3><p><span>Check the </span><strong><span>Resources</span></strong><span> tab for more information on quadratic equations.</span></p>",
+  "source_url": "https://edabit.com/challenge/FdsQBPLYBwrpYEbRn",
+  "tags": [
+    "algebra",
+    "conditions",
+    "math"
+  ],
+  "tests": "Test.assertEquals(quadraticEquation(1, 2, -3), 1)\nTest.assertEquals(quadraticEquation(2, -7, 3), 3)\nTest.assertEquals(quadraticEquation(1, -12, -28), 14)",
+  "title": "Quadratic Equation"
+}

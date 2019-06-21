@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "TpqLBh6weuqFs9qKy",
+  "code": "function fibonacci(num) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that, given a number, returns the corresponding Fibonacci number.</span></p><h3><span>Examples</span></h3><pre><code>fibonacci(3) \u279e 3\n\nfibonacci(7) \u279e 21\n\nfibonacci(12) \u279e 233</code></pre><h3><span>Notes</span></h3><p><span>The first number in the sequence starts at 1 (not 0).</span></p>",
+  "source_url": "https://edabit.com/challenge/TpqLBh6weuqFs9qKy",
+  "tags": [
+    "algebra",
+    "algorithms",
+    "loops",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(fibonacci(3), 3)\nTest.assertEquals(fibonacci(7), 21)\nTest.assertEquals(fibonacci(12), 233)\nTest.assertEquals(fibonacci(0), 1)\nTest.assertEquals(fibonacci(1), 1)",
+  "title": "The Fibonacci Number"
+}

@@ -7,10 +7,10 @@
   "instructions": "<p><span>Write a function that takes a string and calculates the number of letters and digits within it. Return the result as an object.</span></p><h3><span>Examples</span></h3><pre><code>countAll(\"Hello World\") \u279e {\"LETTERS\":  10, \"DIGITS\": 0}\n\ncountAll(\"H3ll0 Wor1d\") \u279e {\"LETTERS\":  7, \"DIGITS\": 3}\n\ncountAll(\"149990\") \u279e {\"LETTERS\": 0, \"DIGITS\": 6}</code></pre><h3><span>Notes</span></h3><ul><li><span>Tests contain only alphanumeric characters.</span></li><li><span>Spaces are not letters.</span></li><li><span>All tests contain valid strings.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/2ndkdWJpycphvhmv8",
   "tags": [
-    "arrays",
     "conditions",
     "data_structures",
-    "logic"
+    "objects",
+    "regex"
   ],
   "tests": "Test.assertSimilar(countAll('Hello'), {'LETTERS': 5, 'DIGITS': 0});\nTest.assertSimilar(countAll('137'), {'LETTERS': 0, 'DIGITS': 3});\nTest.assertSimilar(countAll('H3LL0'), {'LETTERS': 3, 'DIGITS': 2});\nTest.assertSimilar(countAll('149990'), {'LETTERS': 0, 'DIGITS': 6});\nTest.assertSimilar(countAll('edabit 2018'), {'LETTERS': 6, 'DIGITS': 4}, 'Spaces are not letters.');\nTest.assertSimilar(countAll('    '), {'LETTERS': 0, 'DIGITS': 0});",
   "title": "Count the Letters and Digits"

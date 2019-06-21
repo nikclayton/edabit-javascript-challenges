@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "nG3NSjoK4BTi9jxBS",
+  "code": "function battleOutcome(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Starting from the left side of an integer, adjacent digits pair up in \"battle\" and the larger digit wins. If two digits are the same, they both lose. A lone digit automatically wins.</span></p><p><span>Create a function that returns the victorious digits.</span></p><p><span>To illustrate:</span></p><pre><code>battleOutcome(578921445) \u279e 7925\n// [57]: 7 wins; [89] 9 wins; [21] 2 wins;\n// [44] neither wins; 5 (automatically) wins</code></pre><h3><span>Examples</span></h3><pre><code>battleOutcome(32531) \u279e 351\n// 3 deffeats 2, 5 defeats 3, 1 is a single.\n\nbattleOutcome(111) \u279e 1\n// 1 and 1 tie, so neither move on, last 1 is a single.\n\nbattleOutcome(78925) \u279e 895</code></pre><h3><span>Notes</span></h3><ul><li><span>There are no winners in a battle with equal digits (neither should be printed).</span></li><li><span>If the length of the number is odd, the lone digit should be printed at the end of the number.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/nG3NSjoK4BTi9jxBS",
+  "tags": [
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(battleOutcome(32531), 351)\nTest.assertEquals(battleOutcome(111), 1)\nTest.assertEquals(battleOutcome(5289), 59)\nTest.assertEquals(battleOutcome(76811), 781)\nTest.assertEquals(battleOutcome(3245196), 3596)\nTest.assertEquals(battleOutcome(93552129), 929)",
+  "title": "Digits Battle!"
+}

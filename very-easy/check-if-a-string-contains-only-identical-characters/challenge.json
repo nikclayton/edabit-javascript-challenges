@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bnZzPk2QuWr4w5HuZ",
+  "code": "function isIdentical(s) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if all characters in a string are identical and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isIdentical(\"aaaaaa\") \u279e true\n\nisIdentical(\"aabaaa\") \u279e false\n\nisIdentical(\"ccccca\") \u279e false\n\nisIdentical(\"kk\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/bnZzPk2QuWr4w5HuZ",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isIdentical(\"kkkkk\"), true)\nTest.assertEquals(isIdentical(\"ckkkk\"), false)\nTest.assertEquals(isIdentical(\"kkkkck\"), false)\nTest.assertEquals(isIdentical(\"aabc\"), false)\nTest.assertEquals(isIdentical(\"ccc\"), true)\nTest.assertEquals(isIdentical(\"aabbbb\"), false)\nTest.assertEquals(isIdentical(\"bbbbbb\"), true)",
+  "title": "Check if a String Contains only Identical Characters"
+}

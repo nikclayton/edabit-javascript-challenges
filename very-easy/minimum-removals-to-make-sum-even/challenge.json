@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "exMRkWdmmc6hccYiS",
+  "code": "function minimumRemovals(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the minimum number of removals to make the sum of all elements in an array even.</span></p><h3><span>Examples</span></h3><pre><code>minimumRemovals([1, 2, 3, 4, 5]) \u279e 1\n\nminimumRemovals([5, 7, 9, 11]) \u279e 0\n\nminimumRemovals([5, 7, 9, 12]) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>If the sum is already even, return </span><code>0</code><span> (see example #2).</span></p>",
+  "source_url": "https://edabit.com/challenge/exMRkWdmmc6hccYiS",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(minimumRemovals([1, 2, 3, 4, 5]), 1)\nTest.assertEquals(minimumRemovals([5, 7, 9, 11]), 0)\nTest.assertEquals(minimumRemovals([5, 7, 9, 12]), 1)\nTest.assertEquals(minimumRemovals([5, 8, 8, 8]), 1)\nTest.assertEquals(minimumRemovals([5, 8, 8, 8, 9, 9]), 1)\nTest.assertEquals(minimumRemovals([9, 8, 8, 8, 9, 9]), 1)\nTest.assertEquals(minimumRemovals([5, 5, 4, 4, 3, 3]), 0)\nTest.assertEquals(minimumRemovals([5, 3, 4, 4, 3]), 1)\nTest.assertEquals(minimumRemovals([5, 3, 4, 4, 0]), 0)",
+  "title": "Minimum Removals to Make Sum Even"
+}

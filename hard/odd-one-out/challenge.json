@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "PEecJK7uPz5m2oD9i",
+  "code": "function oddOneOut(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if </span><strong><span>exactly one word</span></strong><span> in the array differs in length from the rest. Return </span><code>false</code><span> in all other cases.</span></p><h3><span>Examples</span></h3><pre><code>oddOneOut([\"silly\", \"mom\", \"let\", \"the\"]) \u279e true\n\noddOneOut([\"swanky\", \"rhino\", \"moment\"]) \u279e true\n\noddOneOut([\"the\", \"them\", \"theme\"]) \u279e false\n\noddOneOut([\"very\", \"to\", \"an\", \"some\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>The length of the array will always have at least </span><strong><span>three or more</span></strong><span> words.</span></p>",
+  "source_url": "https://edabit.com/challenge/PEecJK7uPz5m2oD9i",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(oddOneOut([\"silly\", \"mom\", \"let\", \"the\"]), true)\nTest.assertEquals(oddOneOut([\"swanky\", \"rhino\", \"moment\"]), true)\nTest.assertEquals(oddOneOut([\"the\", \"them\", \"theme\"]), false)\nTest.assertEquals(oddOneOut([\"very\", \"to\", \"an\", \"some\"]), false)\nTest.assertEquals(oddOneOut([\"very\", \"to\", \"then\", \"some\"]), true)",
+  "title": "Odd One Out"
+}

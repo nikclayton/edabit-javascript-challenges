@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HXAWjd2Nkj8eAJ2xY",
+  "code": "function timeToEat(currentTime) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Jake is a very habitual person. He eats breakfast at 7:00 a.m. each morning, lunch at 12:00 p.m. and dinner at 7:00 p.m. in the evening.</span></p><p><span>Create a function that takes in the current time as a string and determines the duration of time before Jake's next meal. Represent this as an array with the first and second elements representing hours and minutes, respectively.</span></p><h3><span>Examples</span></h3><pre><code>timeToEat(\"2:00 p.m.\") \u279e [5, 0]\n// 5 hours until the next meal, dinner\n\ntimeToEat(\"5:50 a.m.\") \u279e [1, 10]\n// 1 hour and 10 minutes until the next meal, breakfast</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/HXAWjd2Nkj8eAJ2xY",
+  "tags": [
+    "arrays",
+    "dates",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(timeToEat(\"2:00 p.m.\"), [5, 0]);\nTest.assertSimilar(timeToEat(\"5:50 a.m.\"), [1, 10]);\nTest.assertSimilar(timeToEat(\"6:37 p.m.\"), [0, 23]);\nTest.assertSimilar(timeToEat(\"12:00 a.m.\"), [7, 0]);\nTest.assertSimilar(timeToEat(\"11:58 p.m.\"), [7, 2]);\nTest.assertSimilar(timeToEat(\"3:33 p.m.\"), [3, 27]);",
+  "title": "Jake's Meal Time"
+}

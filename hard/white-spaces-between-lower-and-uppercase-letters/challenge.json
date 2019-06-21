@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ew9dry9RzoaeiTzwX",
+  "code": "function insertWhitespace(s) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that inserts a white space between every instance of a lower character followed immediately by an upper character.</span></p><h3><span>Examples</span></h3><pre><code>insertWhitespace(\"SheWalksToTheBeach\") \u279e \"She Walks To The Beach\"\n\ninsertWhitespace(\"MarvinTalksTooMuch\") \u279e \"Marvin Talks Too Much\"</code></pre><h3><span>Notes</span></h3><p><span>Each word in the phrase will be at least two characters long.</span></p>",
+  "source_url": "https://edabit.com/challenge/ew9dry9RzoaeiTzwX",
+  "tags": [
+    "formatting",
+    "regex"
+  ],
+  "tests": "Test.assertEquals(insertWhitespace(\"SheWalksToTheBeach\"), \"She Walks To The Beach\")\nTest.assertEquals(insertWhitespace(\"MarvinTalksTooMuch\"), \"Marvin Talks Too Much\")\nTest.assertEquals(insertWhitespace(\"HopelesslyDevotedToYou\"), \"Hopelessly Devoted To You\")\nTest.assertEquals(insertWhitespace(\"EvenTheBestFallDownSometimes\"), \"Even The Best Fall Down Sometimes\")\nTest.assertEquals(insertWhitespace(\"TheGreatestUpsetInHistory\"), \"The Greatest Upset In History\")",
+  "title": "White Spaces Between Lower and Uppercase Letters"
+}

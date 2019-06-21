@@ -1,8 +1,6 @@
 const allAboutStrings = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(allAboutStrings('LASA')).toEqual([4, 'L', 'A', 'AS', '@ index 3']);
         expect(allAboutStrings('Computer')).toEqual([8, 'C', 'r', 'pu', 'not found']);

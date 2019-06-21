@@ -1,8 +1,6 @@
 const repeat = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(repeat('edabit', 3)).toEqual(['edabit', 'edabit', 'edabit']);
         expect(repeat(13, 5)).toEqual([13, 13, 13, 13, 13]);

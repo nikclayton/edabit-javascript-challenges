@@ -1,8 +1,6 @@
 const accum = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(accum('abcd')).toEqual('A-Bb-Ccc-Dddd');
         expect(accum('RqaEzty')).toEqual('R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy');

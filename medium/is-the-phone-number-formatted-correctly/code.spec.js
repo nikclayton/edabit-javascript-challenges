@@ -1,8 +1,6 @@
 const isValidPhoneNumber = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isValidPhoneNumber('(123) 456-7890')).toEqual(true);
         expect(isValidPhoneNumber('(1111)555 2345')).toEqual(false);

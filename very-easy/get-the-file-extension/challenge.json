@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8A9E8LdE6zXcmPX3W",
+  "code": "function getExtension(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that maps files to their extension names.</span></p><h3><span>Examples</span></h3><pre><code>getExtension([\"code.html\", \"code.css\"])\n\u279e [\"html\", \"css\"]\n\ngetExtension([\"project1.jpg\", \"project1.pdf\", \"project1.mp3\"])\n\u279e [\"jpg\", \"pdf\", \"mp3\"]\n\ngetExtension([\"ruby.rb\", \"cplusplus.cpp\", \"python.py\", \"javascript.js\"])\n\u279e [\"rb\", \"cpp\", \"py\", \"js\"]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/8A9E8LdE6zXcmPX3W",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(getExtension([\"project1.jpg\", \"project1.pdf\", \"project1.mp3\"]), [\"jpg\", \"pdf\", \"mp3\"])\nTest.assertSimilar(getExtension([\"ruby.rb\", \"cplusplus.cpp\", \"python.py\", \"javascript.js\"]), [\"rb\", \"cpp\", \"py\", \"js\"])\nTest.assertSimilar(getExtension([\"code.html\", \"code.css\"]), [\"html\", \"css\"])\nTest.assertSimilar(getExtension([\"minesweeper.java\", \"game.java\", \"my_project.java\"]), [\"java\", \"java\", \"java\"])",
+  "title": "Get the File Extension"
+}

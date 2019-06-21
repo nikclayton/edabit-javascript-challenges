@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "b7iHQDw72zzkmgCun",
+  "code": "function countBoomerangs(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>boomerang</span></strong><span> is a V-shaped sequence that is either upright or upside down. Specifically, a boomerang can be defined as: </span><strong><span>sub-array of length 3, with the first and last digits being the same and the middle digit being different</span></strong><span>.</span></p><p><span>Some boomerang examples: </span><code>[3, 7, 3], [1, -1, 1], [5, 6, 5]</code></p><p><span>Create a function that returns the total number of  </span><strong><span>boomerangs</span></strong><span> in an array. </span></p><p><span>To illustrate:</span></p><pre><code>[3, 7, 3, 2, 1, 5, 1, 2, 2, -2, 2]\n// 3 boomerangs in this sequence:  [3, 7, 3], [1, 5, 1], [2, -2, 2]</code></pre><p><span>Be aware that boomerangs can overlap, like so:</span></p><pre><code>[1, 7, 1, 7, 1, 7, 1]\n// 5 boomerangs (from left to right): [1, 7, 1], [7, 1, 7], [1, 7, 1], [7, 1, 7], and [1, 7, 1]</code></pre><h3><span>Examples</span></h3><pre><code>countBoomerangs([9, 5, 9, 5, 1, 1, 1]) \u279e 2\n\ncountBoomerangs([5, 6, 6, 7, 6, 3, 9]) \u279e 1\n\ncountBoomerangs([4, 4, 4, 9, 9, 9, 9]) \u279e 0</code></pre><h3><span>Notes</span></h3><p><code>[5, 5, 5]</code><span> (triple identical digits) is NOT considered a boomerang because the middle digit is identical to the first and last.</span></p>",
+  "source_url": "https://edabit.com/challenge/b7iHQDw72zzkmgCun",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(countBoomerangs([9, 5, 9, 5, 1, 1, 1]), 2)\nTest.assertEquals(countBoomerangs([5, 6, 6, 7, 6, 3, 9]), 1)\nTest.assertEquals(countBoomerangs([4, 4, 4, 9, 9, 9, 9]), 0)\nTest.assertEquals(countBoomerangs([5, 9, 5, 9, 5]), 3)\nTest.assertEquals(countBoomerangs([4, 4, 4, 8, 4, 8, 4]), 3)\nTest.assertEquals(countBoomerangs([2, 2, 2, 2, 2, 2, 3]), 0)\nTest.assertEquals(countBoomerangs([2, 2, 2, 2, 3, 2, 3]), 2)\nTest.assertEquals(countBoomerangs([1, 2, 1, 1, 1, 2, 1]), 2)\nTest.assertEquals(countBoomerangs([5, 1, 1, 1, 1, 4, 1]), 1)\nTest.assertEquals(countBoomerangs([3, 7, 3, 2, 1, 5, 1, 2, 2, -2, 2]), 3)\nTest.assertEquals(countBoomerangs([1, 7, 1, 7, 1, 7, 1]), 5)\nTest.assertEquals(countBoomerangs([5, 5, 5]), 0)",
+  "title": "Number of Boomerangs"
+}

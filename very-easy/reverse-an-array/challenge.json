@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "kJQYTCCWSnzhXG9dn",
+  "code": "function reverse(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function to reverse an array.</span></p><h3><span>Examples</span></h3><pre><code>reverse([1, 2, 3, 4]) \u279e [4, 3, 2, 1]\n\nreverse([9, 9, 2, 3, 4]) \u279e [4, 3, 2, 9, 9]\n\nreverse([]) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/kJQYTCCWSnzhXG9dn",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(reverse([1, 2, 3, 4]), [4, 3, 2, 1])\nTest.assertSimilar(reverse([5, 6, 7]), [7, 6, 5])\nTest.assertSimilar(reverse([9, 9, 2, 3, 4]), [4, 3, 2, 9, 9])\nTest.assertSimilar(reverse([3, 3]), [3, 3])\nTest.assertSimilar(reverse([-1, -1, -1]), [-1, -1, -1])\nTest.assertSimilar(reverse([]), [])",
+  "title": "Reverse an Array"
+}

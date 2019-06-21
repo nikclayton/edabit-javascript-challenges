@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "skaEqSDppmQqApNQu",
+  "code": "function toStarShorthand(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that converts a string into </span><strong><span>star shorthand</span></strong><span>. If a character is repeated </span><code>n</code><span> times, convert it into </span><code>character*n</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>toStarShorthand(\"abbccc\") \u279e \"ab*2c*3\"\n\ntoStarShorthand(\"77777geff\") \u279e \"7*5gef*2\"\n\ntoStarShorthand(\"abc\") \u279e \"abc\"\n\ntoStarShorthand(\"\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Leave lone occurrences of a character as is.</span></li><li><span>Return an empty string if given an empty string input.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/skaEqSDppmQqApNQu",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(toStarShorthand(\"abbccc\"), \"ab*2c*3\")\nTest.assertEquals(toStarShorthand(\"haaaappyyyyy\"), \"ha*4p*2y*5\")\nTest.assertEquals(toStarShorthand(\"77777geff\"), \"7*5gef*2\")\nTest.assertEquals(toStarShorthand(\"11223344\"), \"1*22*23*24*2\")\nTest.assertEquals(toStarShorthand(\"abc\"), \"abc\")\nTest.assertEquals(toStarShorthand(\"\"), \"\")",
+  "title": "Star Shorthand"
+}

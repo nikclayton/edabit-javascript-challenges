@@ -4,12 +4,12 @@
   "challenge_id": "ARr5tA458o2tC9FTN",
   "code": "function hello() {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>This is an introduction to how challenges on Edabit work. In the </span><strong><span>Code</span></strong><span> tab you'll see a starter function that looks like this:</span></p><pre><code>function hello() {\n  \n}</code></pre><p><span>All you have to do is type </span><code>return \"hello edabit.com\";</code><span> between the curly braces and click the </span><strong><span>Check</span></strong><span> button. If everything went according to plan, the button will turn red and say </span><strong><span>SUBMIT FINAL</span></strong><span>. Click it and see what happens.</span></p><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "instructions": "<p><span>This is an introduction to how challenges on Edabit work. In the </span><strong><span>Code</span></strong><span> tab you'll see a starter function that looks like this:</span></p><pre><code>function hello() {\n\n}</code></pre><p><span>All you have to do is type </span><code>return \"hello edabit.com\"</code><span> between the curly braces and click the </span><strong><span>Check</span></strong><span> button. If everything went according to plan, the button will turn red and say </span><strong><span>SUBMIT FINAL</span></strong><span>. Click it and see what happens.</span></p><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/ARr5tA458o2tC9FTN",
   "tags": [
     "strings",
     "validation"
   ],
-  "tests": "Test.assertEquals(hello(), \"hello edabit.com\", \"Did you *return* the result?\");",
+  "tests": "Test.assertEquals(hello(), \"hello edabit.com\", \"Did you *return* the result?\")",
   "title": "How Edabit Works"
 }

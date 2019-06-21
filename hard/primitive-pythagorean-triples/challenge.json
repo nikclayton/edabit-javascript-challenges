@@ -1,0 +1,18 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "7WZBxctgouiNRYAX2",
+  "code": "function isPrimPythTriple(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A Pythagorean triple is a set of three integer numbers that form a right triangle. The sum of the squares of the two smaller numbers should equal the square of the largest number. Given three numbers a, b and c (c being the largest):</span></p><pre><code>a^2 + b^2 = c^2</code></pre><p><span>Furthermore, a Pythagorean triple is said to be primitive if the three numbers are pairwise coprime \u2014 that is, the greatest common prime factor between any two numbers is 1.</span></p><p><span>Create a function that takes an array of three numbers (unordered) and returns </span><code>true</code><span> if the numbers constitute a primitive Pythagorean triple, </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isPrimPythTriple([4, 5, 3]) \u279e true\n\nisPrimPythTriple([7, 12, 13]) \u279e false\n\nisPrimPythTriple([39, 15, 36]) \u279e false\n// Pythagorean triple, but not primitive.\n\nisPrimPythTriple([77, 36, 85]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/7WZBxctgouiNRYAX2",
+  "tags": [
+    "algebra",
+    "conditions",
+    "higher_order_functions",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(isPrimPythTriple([4,5,3]), true)\nTest.assertEquals(isPrimPythTriple([7,12,13]), false)\nTest.assertEquals(isPrimPythTriple([39,15,36]), false,'Pythagorean triple, but not primitive')\nTest.assertEquals(isPrimPythTriple([77,36,85]), true)\nTest.assertEquals(isPrimPythTriple([35,28,21]), false)\nTest.assertEquals(isPrimPythTriple([80,89,39]), true)",
+  "title": "Primitive Pythagorean Triples"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bADsAhtb5g6pu5WYM",
+  "code": "function mysteryFunc(arr, num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>[5, 7, 8, 2, 1], 2 \u279e [1, 1, 0, 0, 1]\n\n[9, 8, 16, 47], 4 \u279e [1, 0, 0, 3]\n\n[17, 11, 99, 55, 23, 1], 5 \u279e [2, 1, 4, 0, 3, 1]\n\n[6, 1], 7 \u279e [6, 1]\n\n[3, 2, 9], 3 \u279e [0, 2, 0]\n\n[48, 22, 0, 19, 33, 100], 10 \u279e [8, 2, 0, 9, 3, 0]</code></pre><h3><span>Notes</span></h3><p><span>If you get stuck, see </span><strong><span>Comments</span></strong><span> for a hint.</span></p>",
+  "source_url": "https://edabit.com/challenge/bADsAhtb5g6pu5WYM",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(mysteryFunc([5, 7, 8, 2, 1], 2), [1, 1, 0, 0, 1])\nTest.assertSimilar(mysteryFunc([9, 8, 16, 47], 4), [1, 0, 0, 3])\nTest.assertSimilar(mysteryFunc([17, 11, 99, 55, 23, 1], 5), [2, 1, 4, 0, 3, 1])\nTest.assertSimilar(mysteryFunc([6, 1], 7), [6, 1])\nTest.assertSimilar(mysteryFunc([3, 2, 9], 3), [0, 2, 0])\nTest.assertSimilar(mysteryFunc([48, 22, 0, 19, 33, 100], 10), [8, 2, 0, 9, 3, 0])",
+  "title": "Reverse Coding Challenge #3"
+}

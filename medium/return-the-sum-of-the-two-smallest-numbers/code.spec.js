@@ -1,8 +1,6 @@
 const sumTwoSmallestNums = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sumTwoSmallestNums([19, 5, 42, 2, 77])).toEqual(7);
         expect(sumTwoSmallestNums([10, 343445353, 3453445, 3453545353453])).toEqual(3453455);

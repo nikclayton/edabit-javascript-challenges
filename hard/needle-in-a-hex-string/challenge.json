@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Fev8jkLtDunP9wexv",
+  "code": "function firstIndex(hex, needle) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Find the index of a string within a hex encoded string.</span></p><p><span>You will be given a string which needs to be found in another string which has previously been tranlated into hex. You will need to return the first index of the needle within the hex encoded string.</span></p><h3><span>Examples</span></h3><pre><code>firstIndex(\"68 65 6c 6c 6f 20 77 6f 72 6c 64\", \"world\") \u279e 6\n\nfirstIndex(\"47 6f 6f 64 62 79 65 20 77 6f 72 6c 64\", \"world\") \u279e 8\n\nfirstIndex(\"42 6f 72 65 64 20 77 6f 72 6c 64\", \"Bored\") \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Fev8jkLtDunP9wexv",
+  "tags": [
+    "formatting",
+    "functional_programming"
+  ],
+  "tests": "Test.assertEquals(firstIndex(\"68 65 6c 6c 6f 20 77 6f 72 6c 64\", \"world\"), 6)\nTest.assertEquals(firstIndex(\"47 6f 6f 64 62 79 65 20 77 6f 72 6c 64\", \"world\"), 8)\nTest.assertEquals(firstIndex(\"74 68 65 20 6e 65 65 64 6c 65 20 69 73 20 74 6f 20 62 65 20 66 6f 75 6e 64\", \"needle\"), 4)\nTest.assertEquals(firstIndex(\"a3 24 25 2d 2d 2d a3 24 20 77 6f 72 6c 64 2d 2d 2d\", \"world\"), 9)\nTest.assertEquals(firstIndex(\"42 6f 72 65 64 20 77 6f 72 6c 64\", \"Bored\"), 0)",
+  "title": "Needle in a Hex String"
+}

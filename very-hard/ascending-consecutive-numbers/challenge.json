@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "jN89tuARCFbtQm6vE",
+  "code": "function ascending(str) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if a string consists of </span><strong><span>ascending consecutive numbers</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>ascending(\"232425\") \u279e true\n\nascending(\"2324256\") \u279e false\n// No matter how this string is divided, the numbers are not consecutive.\n\nascending(\"444445\") \u279e true\n// Consecutive numbers 444 and 445.</code></pre><h3><span>Notes</span></h3><p><span>A </span><strong><span>number</span></strong><span> can consist of any number of digits, so long as the numbers are adjacent to each other, and the string has at least two of them.</span></p>",
+  "source_url": "https://edabit.com/challenge/jN89tuARCFbtQm6vE",
+  "tags": [
+    "functional_programming",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(ascending(\"232425\"), true)\nTest.assertEquals(ascending(\"444445\"), true)\nTest.assertEquals(ascending(\"1234567\"), true)\nTest.assertEquals(ascending(\"123412351236\"), true)\nTest.assertEquals(ascending(\"57585960616263\"), true)\nTest.assertEquals(ascending(\"500001500002500003\"), true)\nTest.assertEquals(ascending(\"919920921\"), true)\n\nTest.assertEquals(ascending(\"2324256\"), false)\nTest.assertEquals(ascending(\"1235\"), false)\nTest.assertEquals(ascending(\"121316\"), false)\nTest.assertEquals(ascending(\"12131213\"), false)\nTest.assertEquals(ascending(\"54321\"), false)\nTest.assertEquals(ascending(\"56555453\"), false)\nTest.assertEquals(ascending(\"90090190290\"), false)\nTest.assertEquals(ascending(\"35236237238\"), false)",
+  "title": "Ascending Consecutive Numbers"
+}

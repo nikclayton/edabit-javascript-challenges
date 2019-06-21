@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ATbswTsEaMJb37Ez2",
+  "code": "function indexShuffle(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function takes all even-indexed characters and odd-indexed characters from a string and concatenates them together.</span></p><p><span>To illustrate:</span></p><pre><code>indexShuffle(\"abcd\") \u279e \"acbd\"\n// \"ac\" (even-indexed) + \"bd\" (odd-indexed)</code></pre><h3><span>Examples</span></h3><pre><code>indexShuffle(\"abcdefg\") \u279e \"acegbdf\"\n\nindexShuffle(\"holiday\") \u279e \"hldyoia\"\n\nindexShuffle(\"maybe\") \u279e \"myeab\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/ATbswTsEaMJb37Ez2",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(indexShuffle(\"abcdef\"), \"acebdf\")\nTest.assertEquals(indexShuffle(\"abababab\"), \"aaaabbbb\")\nTest.assertEquals(indexShuffle(\"it was a beautiful day\"), \"i a  euiu atwsabatfldy\")\nTest.assertEquals(indexShuffle(\"maybe\"), \"myeab\")\nTest.assertEquals(indexShuffle(\"holiday\"), \"hldyoia\")",
+  "title": "Index Shuffle"
+}

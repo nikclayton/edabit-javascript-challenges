@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "i7gQkdYrx4yyW7uLp",
+  "code": "function simonSays(arr1, arr2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes in two arrays and returns </span><code>true</code><span> if the second array follows the first array by </span><strong><span>one</span></strong><span> element, and </span><code>false</code><span> otherwise. In other words, determine  if the second array is the first array shifted to the right by 1.</span></p><h3><span>Examples</span></h3><pre><code>simonSays([1, 2], [5, 1]) \u279e true\n\nsimonSays([1, 2], [5, 5]) \u279e false\n\nsimonSays([1, 2, 3, 4, 5], [0, 1, 2, 3, 4]) \u279e true\n\nsimonSays([1, 2, 3, 4, 5], [5, 5, 1, 2, 3]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Both input arrays will be of the same length, and will have a minimum length of 2.</span></li><li><span>The values of the </span><code>0</code><span>-indexed element in the first array and the </span><code>n-1</code><span>th indexed element in the second array do not matter.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/i7gQkdYrx4yyW7uLp",
+  "tags": [
+    "arrays",
+    "games",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(simonSays(\n\t[1, 2, 3, 4, 5],\n\t[0, 1, 2, 3, 4]\n), true)\n\nTest.assertEquals(simonSays(\n\t[1, 2, 3, 4, 5],\n\t[5, 5, 1, 2, 3]\n), false)\n\nTest.assertEquals(simonSays(\n\t[1, 2],\n\t[5, 1]\n), true)\n\nTest.assertEquals(simonSays(\n\t[1, 2],\n\t[5, 5]\n), false)\n\nTest.assertEquals(simonSays(\n\t[1, 2, 3],\n\t[0, 1, 2]\n), true)",
+  "title": "Simon Says"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5Jeq8Cf59KnLLg4Go",
+  "code": "function isParselTongue(sentence) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Hermione has come up with a precise formula for determining whether or not a phrase was ssspoken by a parssseltongue (</span><em><span>a reference from the Harry Potter universe; the language of ssserpents and those who can converse with them</span></em><span>).</span></p><p><span>Each word in a sssentence must contain either:</span></p><ol><li><span>At least 2 instances of the letter \"s\" (i.e. must be together </span><code>ss</code><span>), or...</span></li><li><span>Zero instances of the letter \"s\".</span></li></ol><h3><span>Examples</span></h3><pre><code>isParselTongue(\"Sshe ssselects to eat that apple. \") \u279e true\n\nisParselTongue(\"She ssselects to eat that apple. \") \u279e false\n// \"She\" only contains one \"s\".\n\nisParselTongue(\"Beatrice samples lemonade\") \u279e false\n// While \"samples\" has 2 instances of \"s\", they are not together.\n\nisParselTongue(\"You ssseldom sssspeak sso boldly, ssso messmerizingly.\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>There should be no words with only one instance of the letter \"s\" (see example #2).</span></p>",
+  "source_url": "https://edabit.com/challenge/5Jeq8Cf59KnLLg4Go",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isParselTongue(\"Sshe ssselects to eat that apple.\"), true)\nTest.assertEquals(isParselTongue(\"She ssselects to eat that apple.\"), false)\nTest.assertEquals(isParselTongue(\"You ssseldom sssspeak sso boldly, ssso messmerizingly.\"), true)\nTest.assertEquals(isParselTongue(\"Steve likes to eat pancakes\"), false)\nTest.assertEquals(isParselTongue(\"Sssteve likess to eat pancakess\"), true)\nTest.assertEquals(isParselTongue(\"Beatrice samples lemonade\"), false)\nTest.assertEquals(isParselTongue(\"Beatrice enjoysss lemonade\"), true)",
+  "title": "Parseltongue"
+}

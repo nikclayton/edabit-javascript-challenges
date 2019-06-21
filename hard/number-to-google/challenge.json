@@ -10,6 +10,6 @@
     "algorithms",
     "data_structures"
   ],
-  "tests": "Test.assertEquals(numToGoogle([\"12213467\"]), \"Google.\");\nTest.assertEquals(numToGoogle([\"12213467\", \"321\"]), \"Google.log\");\nTest.assertEquals(numToGoogle([\"12213467\", \"321\", \"122906\"]), \"Google.log\");\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",345]), \"GOOGLE\");\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",35,45]), \"GOOGLE\");\nTest.assertEquals(numToGoogle([15,202,1,3,4]), \"Google\");\nTest.assertEquals(numToGoogle([\"1221348\"]), \"elgoog\");\nTest.assertEquals(numToGoogle([\"15345678\"]), \".ELG\");\nTest.assertEquals(numToGoogle([\"218\",\"6\",\"12\",6,1,2,]), \"go.go.go\");",
+  "tests": "Test.assertEquals(numToGoogle([\"12213467\"]), \"Google.\")\nTest.assertEquals(numToGoogle([\"12213467\", \"321\"]), \"Google.log\")\nTest.assertEquals(numToGoogle([\"12213467\", \"321\", \"122906\"]), \"Google.log\")\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",345]), \"GOOGLE\")\nTest.assertEquals(numToGoogle([\"15\", \"2502\", \"15\",35,45]), \"GOOGLE\")\nTest.assertEquals(numToGoogle([15,202,1,3,4]), \"Google\")\nTest.assertEquals(numToGoogle([\"1221348\"]), \"elgoog\")\nTest.assertEquals(numToGoogle([\"15345678\"]), \".ELG\")\nTest.assertEquals(numToGoogle([\"218\",\"6\",\"12\",6,1,2,]), \"go.go.go\")",
   "title": "Number to Google"
 }

@@ -11,6 +11,6 @@
     "regex",
     "validation"
   ],
-  "tests": "Test.assertEquals(trouble(451999277,41177722899), true);\nTest.assertEquals(trouble(444, 44), true);\nTest.assertEquals(trouble(1222345, 12345), false);\nTest.assertEquals(trouble(12345, 12345), false);\nTest.assertEquals(trouble(888, 888), true);\nTest.assertEquals(trouble(666789, 12345667), true);\nTest.assertEquals(trouble(10560002, 100), true);\nTest.assertEquals(trouble(1, 1), false);\nTest.assertEquals(trouble(9111922229333339, 9559669779), false);",
+  "tests": "Test.assertEquals(trouble(451999277,41177722899), true)\nTest.assertEquals(trouble(444, 44), true)\nTest.assertEquals(trouble(1222345, 12345), false)\nTest.assertEquals(trouble(12345, 12345), false)\nTest.assertEquals(trouble(888, 888), true)\nTest.assertEquals(trouble(666789, 12345667), true)\nTest.assertEquals(trouble(10560002, 100), true)\nTest.assertEquals(trouble(1, 1), false)\nTest.assertEquals(trouble(9111922229333339, 9559669779), false)",
   "title": "Triple + Double = So Much Trouble"
 }

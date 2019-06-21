@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "a78cwfLkCepCmCkQ2",
+  "code": "function completeFactorization(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that decomposes an integer into its prime factors, ordered from smallest to largest.</span></p><p><span>For instance:</span></p><pre><code>completeFactorization(24) = [2, 2, 2, 3]\n// Since 24 = 8 x 3 = 2^3 x 3 = 2 x 2 x 2 x 3</code></pre><h3><span>Examples</span></h3><pre><code>completeFactorization(10) \u279e [2, 5]\n\ncompleteFactorization(9) \u279e [3, 3]\n\ncompleteFactorization(72) \u279e [2, 2, 2, 3, 3]</code></pre><h3><span>Notes</span></h3><p><code>1</code><span> is not considered a prime number, so omit it in your final array of prime factors.</span></p>",
+  "source_url": "https://edabit.com/challenge/a78cwfLkCepCmCkQ2",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertSimilar(completeFactorization(30), [2, 3, 5])\nTest.assertSimilar(completeFactorization(12), [2, 2, 3])\nTest.assertSimilar(completeFactorization(15), [3, 5])\nTest.assertSimilar(completeFactorization(48), [2, 2, 2, 2, 3])\nTest.assertSimilar(completeFactorization(311), [311])\nTest.assertSimilar(completeFactorization(17), [17])\nTest.assertSimilar(completeFactorization(44), [2, 2, 11])\nTest.assertSimilar(completeFactorization(10), [2, 5])\nTest.assertSimilar(completeFactorization(9), [3, 3])\nTest.assertSimilar(completeFactorization(72), [2, 2, 2, 3, 3])",
+  "title": "Complete Prime Factorization"
+}

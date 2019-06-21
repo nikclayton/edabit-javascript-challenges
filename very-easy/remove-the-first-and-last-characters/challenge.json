@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Wq3Q5ewau9Fu2GN9i",
+  "code": "function removeFirstLast(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that removes the first and last characters from a string.</span></p><h3><span>Examples</span></h3><pre><code>removeFirstLast(\"hello\") \u279e \"ell\"\n\nremoveFirstLast(\"maybe\") \u279e \"ayb\"\n\nremoveFirstLast(\"benefit\") \u279e \"enefi\"\n\nremoveFirstLast(\"a\") \u279e \"a\"</code></pre><h3><span>Notes</span></h3><p><span>If the string is 2 or fewer characters long, return the string itself (See Example #4).</span></p>",
+  "source_url": "https://edabit.com/challenge/Wq3Q5ewau9Fu2GN9i",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(removeFirstLast(\"hello\"), \"ell\")\nTest.assertEquals(removeFirstLast(\"benefit\"), \"enefi\")\nTest.assertEquals(removeFirstLast(\"wordy\"), \"ord\")\nTest.assertEquals(removeFirstLast(\"maybe\"), \"ayb\")\nTest.assertEquals(removeFirstLast(\"to\"), \"to\")\nTest.assertEquals(removeFirstLast(\"a\"), \"a\")\nTest.assertEquals(removeFirstLast(\"\"), \"\")",
+  "title": "Remove the First and Last Characters"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "SaP7mAdsQCrN4ShCi",
+  "code": "function seq(n) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function containing an expression, in terms of </span><em><span>n</span></em><span>, for the </span><em><span>n</span></em><span>th term of the sequence that has the following first six terms:</span></p><p><code>2, 6, 13, 23, 36, 52</code><span> ...and the sequence continues.</span></p><h3><span>Examples</span></h3><pre><code>seq(1) \u279e 2\n\nseq(2) \u279e 6\n\nseq(6) \u279e 52</code></pre><h3><span>Notes</span></h3><p><span>The input </span><em><span>n</span></em><span> is always a positive integer.</span></p>",
+  "source_url": "https://edabit.com/challenge/SaP7mAdsQCrN4ShCi",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(seq(1), 2)\nTest.assertEquals(seq(2), 6)\nTest.assertEquals(seq(0), 1, 'If the formula is right, 0 can be an input.')\nTest.assertEquals(seq(18), 478)\nTest.assertEquals(seq(27), 1081)\nTest.assertEquals(seq(6), 52)\nTest.assertEquals(seq(99), 14653)",
+  "title": "The Nth Term of the Sequence"
+}

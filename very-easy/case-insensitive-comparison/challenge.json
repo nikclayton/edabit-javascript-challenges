@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9MBwBaa3wDKX8Mxbv",
+  "code": "function match(s1, s2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that validates whether two strings are identical. Make this validator </span><strong><span>case insensitive</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>match(\"hello\", \"hELLo\") \u279e true\n\nmatch(\"motive\", \"emotive\") \u279e false\n\nmatch(\"venom\", \"VENOM\") \u279e true\n\nmatch(\"mask\", \"mAskinG\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/9MBwBaa3wDKX8Mxbv",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(match(\"hello\", \"hELLo\"), true)\nTest.assertEquals(match(\"hey\", \"hey\"), true)\nTest.assertEquals(match(\"venom\", \"VENOM\"), true)\nTest.assertEquals(match(\"maGIciAN\", \"magician\"), true)\nTest.assertEquals(match(\"stupIFy\", \"stupifY\"), true)\n\nTest.assertEquals(match(\"bald\", \"blad\"), false)\nTest.assertEquals(match(\"motive\", \"emotive\"), false)\nTest.assertEquals(match(\"mask\", \"mAskinG\"), false)\nTest.assertEquals(match(\"skim\", \"skimp\"), false)\nTest.assertEquals(match(\"EXCEl\", \"exceLs\"), false)",
+  "title": "Case Insensitive Comparison"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "AKocM4opFZBrva2JX",
+  "code": "function asciiSort(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function to that compares two words based on the sum of their ASCII codes and returns the word with the smaller ASCII sum.</span></p><h3><span>Examples</span></h3><pre><code>asciiSort([\"hey\", \"man\"]) \u279e \"man\"\n// [\"h\", \"e\", \"y\"] \u279e sum([104, 101, 121]) \u279e 326\n// [\"m\", \"a\", \"n\"] \u279e sum([109, 97, 110]) \u279e 316\n\nasciiSort([\"majorly\", \"then\"]) \u279e \"then\"\n\nasciiSort([\"victory\", \"careless\"]) \u279e \"victory\"</code></pre><h3><span>Notes</span></h3><p><span>Both words will have strictly different ASCII sums.</span></p>",
+  "source_url": "https://edabit.com/challenge/AKocM4opFZBrva2JX",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(asciiSort([\"hey\", \"man\"]), \"man\")\nTest.assertEquals(asciiSort([\"majorly\", \"then\"]), \"then\")\nTest.assertEquals(asciiSort([\"magic\", \"kingdom\"]), \"magic\")\nTest.assertEquals(asciiSort([\"bored\", \"shampoo\"]), \"bored\")\nTest.assertEquals(asciiSort([\"victory\", \"careless\"]), \"victory\")",
+  "title": "Compare by ASCII Codes"
+}

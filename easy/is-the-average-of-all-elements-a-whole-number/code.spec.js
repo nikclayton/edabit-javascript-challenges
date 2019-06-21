@@ -1,8 +1,6 @@
 const isAvgWhole = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isAvgWhole([3, 5, 9])).toEqual(false);
         expect(isAvgWhole([1, 1, 1, 1])).toEqual(true);

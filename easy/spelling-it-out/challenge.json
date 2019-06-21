@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Akgh37c6dccEsNBt6",
+  "code": "function spelling(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function which takes in a word and spells it out, by consecutively adding letters until the full word is completed.</span></p><h3><span>Examples</span></h3><pre><code>spelling(\"bee\") \u279e [\"b\", \"be\", \"bee\"]\n\nspelling(\"happy\") \u279e [\"h\", \"ha\", \"hap\", \"happ\", \"happy\"]\n\nspelling(\"eagerly\") \u279e [\"e\", \"ea\", \"eag\", \"eage\", \"eager\", \"eagerl\", \"eagerly\"]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Akgh37c6dccEsNBt6",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(spelling(\"bee\"), ['b', 'be', 'bee'])\nTest.assertSimilar(spelling(\"cake\"), ['c', 'ca', 'cak', 'cake'])\nTest.assertSimilar(spelling(\"happy\"), ['h', 'ha', 'hap', 'happ', 'happy'])\nTest.assertSimilar(spelling(\"eagerly\"), ['e', 'ea', 'eag', 'eage', 'eager', 'eagerl', 'eagerly'])\nTest.assertSimilar(spelling(\"believe\"), ['b', 'be', 'bel', 'beli', 'belie', 'believ', 'believe'])",
+  "title": "Spelling it Out"
+}

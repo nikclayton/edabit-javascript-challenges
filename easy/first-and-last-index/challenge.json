@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "AYpxyzbnbS7BGSgvd",
+  "code": "function charIndex(word, char) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Given a word, write a function that returns the </span><strong><span>first index</span></strong><span> and the </span><strong><span>last index</span></strong><span> of a character.</span></p><h3><span>Examples</span></h3><pre><code>charIndex(\"hello\", \"l\") \u279e [2, 3]\n// The first \"l\" has index 2, the last \"l\" has index 3.\n\ncharIndex(\"circumlocution\", \"c\") \u279e [0, 8]\n// The first \"c\" has index 0, the last \"c\" has index 8.\n\ncharIndex(\"happy\", \"h\") \u279e [0, 0]\n// Only one \"h\" exists, so the first and last index is 0.\n\ncharIndex(\"happy\", \"e\") \u279e undefined\n// \"e\" does not exist in \"happy\", so we return undefined.</code></pre><h3><span>Notes</span></h3><ul><li><span>If the character does not exist in the word, return </span><code>undefined</code><span>.</span></li><li><span>If only one instance of the character exists, the first and last index will be the same.</span></li><li><span>Check the </span><strong><span>Resources</span></strong><span> tab for hints.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/AYpxyzbnbS7BGSgvd",
+  "tags": [
+    "arrays",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertSimilar(charIndex('hello', 'l'), [2, 3])\nTest.assertSimilar(charIndex('circumlocution', 'r'), [2, 2])\nTest.assertSimilar(charIndex('circumlocution', 'i'), [1, 11])\nTest.assertSimilar(charIndex('circumlocution', 'c'), [0, 8])\nTest.assertSimilar(charIndex('happy', 'h'), [0, 0])\nTest.assertSimilar(charIndex('happy', 'p'), [2, 3])\nTest.assertSimilar(charIndex('happy', 'e'), undefined)",
+  "title": "First and Last Index"
+}

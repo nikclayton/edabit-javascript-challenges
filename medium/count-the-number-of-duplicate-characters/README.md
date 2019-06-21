@@ -1,16 +1,17 @@
-
 Create a function that takes a string and returns the number of alphanumeric characters that occur more than once.
 
-### Examples
 
-```
-duplicateCount("abcde") ➞ 0
+### Examples ###
+    duplicateCount("abcde") ➞ 0
 
-duplicateCount("aabbcde") ➞ 2
+    duplicateCount("aabbcde") ➞ 2
 
-duplicateCount("Indivisibilities") ➞ 2
-```
+    duplicateCount("Indivisibilities") ➞ 2
 
-### Notes
+    duplicateCount("Aa") ➞ 0
+    // Case sensitive
 
-The input string can be assumed to contain only alphanumeric characters (digits + uppercase and lowercase letters).
+
+### Notes ###
+*   Duplicate characters are case sensitive.
+*   The input string will contain only alphanumeric characters.

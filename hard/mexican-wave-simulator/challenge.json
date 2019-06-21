@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Jqp5E7SNY3gYFBNRL",
+  "code": "function wave(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><img alt=\"Mexican Wave Simulator\" src=\"https://s3.amazonaws.com/edabit-images/mex.gif\"></p><p><em><span>The wave (known as a Mexican wave in the English-speaking world outside North America) is an example of metachronal rhythm achieved in a packed stadium when successive groups of spectators briefly stand, yell, and raise their arms.</span></em></p><p><span>Create a function that takes a string and turns it into a Mexican Wave.</span></p><h3><span>Examples</span></h3><pre><code>wave(\"edabit\") \u279e [\"Edabit\", \"eDabit\", \"edAbit\", \"edaBit\", \"edabIt\", \"edabiT\"]\n\nwave(\"just do it\") \u279e [\"Just do it\", \"jUst do it\", \"juSt do it\", \"jusT do it\", \"just Do it\", \"just dO it\", \"just do It\", \"just do iT\"]\n\nwave(\" \") \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>All test cases will be lowercase strings.</span></li><li><span>Ignore spaces (they are considered empty seats).</span></li><li><span>An empty string should return an empty array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Jqp5E7SNY3gYFBNRL",
+  "tags": [
+    "arrays",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(wave(\"edabit\"), [\"Edabit\", \"eDabit\", \"edAbit\", \"edaBit\", \"edabIt\", \"edabiT\"]);\nTest.assertSimilar(wave(\"dogs cats pigs\"), [\"Dogs cats pigs\", \"dOgs cats pigs\", \"doGs cats pigs\", \"dogS cats pigs\", \"dogs Cats pigs\", \"dogs cAts pigs\", \"dogs caTs pigs\", \"dogs catS pigs\", \"dogs cats Pigs\", \"dogs cats pIgs\", \"dogs cats piGs\", \"dogs cats pigS\"], \"Ignore spaces.\");\nTest.assertSimilar(wave(\" \"), [], \"Ignore spaces.\");\nTest.assertSimilar(wave(\"\"), [], \"An empty string should return an empty array.\");\nTest.assertSimilar(wave(\"g\"), [\"G\"]);\nTest.assertSimilar(wave(\" blue\"), [\" Blue\", \" bLue\", \" blUe\", \" bluE\"], \"Space at the beginning.\");\nTest.assertSimilar(wave(\"green \"), [\"Green \", \"gReen \", \"grEen \", \"greEn \", \"greeN \"], \"Space at the end.\");",
+  "title": "Mexican Wave Simulator"
+}

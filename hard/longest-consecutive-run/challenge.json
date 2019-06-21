@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "J3HA3p3enpxnMJCmd",
+  "code": "function longestRun(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>consecutive-run</span></strong><span> is a list of adjacent, consecutive integers. This list can be either increasing or decreasing. Create a function that takes an array of numbers and returns the length of the longest </span><strong><span>consecutive-run</span></strong><span>.</span></p><p><span>To illustrate:</span></p><pre><code>longestRun([1, 2, 3, 5, 6, 7, 8, 9]) \u279e 5\n// Two consecutive runs: [1, 2, 3] and [5, 6, 7, 8, 9] (longest).</code></pre><h3><span>Examples</span></h3><pre><code>longestRun([1, 2, 3, 10, 11, 15]) \u279e 3\n// Longest consecutive-run: [1, 2, 3].\n\nlongestRun([5, 4, 2, 1]) \u279e 2\n// Longest consecutive-run: [5, 4] and [2, 1].\n\nlongestRun([3, 5, 7, 10, 15]) \u279e 1\n// No consecutive runs, so we return 1.</code></pre><h3><span>Notes</span></h3><p><span>If there aren't any consecutive runs (there is a gap between each integer), return </span><code>1</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/J3HA3p3enpxnMJCmd",
+  "tags": [
+    "arrays",
+    "control_flow",
+    "logic",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(longestRun([1, 2, 3, 5, 6, 7, 8, 9]), 5)\nTest.assertEquals(longestRun([1, 2, 3, 10, 11, 15]), 3)\nTest.assertEquals(longestRun([-7, -6, -5, -4, -3, -2, -1]), 7)\nTest.assertEquals(longestRun([3, 5, 6, 10, 15]), 2)\nTest.assertEquals(longestRun([3, 5, 7, 10, 15]), 1)\nTest.assertEquals(longestRun([5, 4, 3, 2, 1]), 5)\nTest.assertEquals(longestRun([5, 4, 2, 1]), 2)\nTest.assertEquals(longestRun([10, 9, 0, 5]), 2)\nTest.assertEquals(longestRun([1, 2, 3, 2, 1]), 3)\nTest.assertEquals(longestRun([10, 9, 8, 7, 6, 2, 1]), 5)",
+  "title": "Longest Consecutive Run"
+}

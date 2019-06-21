@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8p7apuCwgSzWkaTC8",
+  "code": "function squish(arr, d) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that squishes an array from the left or the right.</span></p><h3><span>Examples</span></h3><pre><code>squish([1, 2, 3, 4, 5], \"left\")\n\u279e [[1, 2, 3, 4, 5], [3, 3, 4, 5], [6, 4, 5], [10, 5], [15]]\n\nsquish([1, 2, 3, 4, 5], \"right\")\n\u279e [[1, 2, 3, 4, 5], [1, 2, 3, 9], [1, 2, 12], [1, 14], [15]]\n\nsquish([1, 0, 2, -3], \"left\")\n\u279e [[1, 0, 2, -3], [1, 2, -3], [3, -3], [0]]\n\nsquish([1, 0, 2, -3], \"right\")\n\u279e [[1, 0, 2, -3], [1, 0, -1], [1, -1], [0]]</code></pre><h3><span>Notes</span></h3><ul><li><span>Squishing from the left is to successively sum the first two elements of an array (shortening the array in the process).</span></li><li><span>Squishing from the right is to successively sum the last two elements of an array.</span></li><li><span>Include the original array as the first element in either squish.</span></li><li><span>Return an empty array if the input is an empty array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8p7apuCwgSzWkaTC8",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "// Left Squish Tests\nTest.assertSimilar(squish([1, 2, 3, 4, 5], \"left\"), [[1, 2, 3, 4, 5], [3, 3, 4, 5], [6, 4, 5], [10, 5], [15]])\nTest.assertSimilar(squish([1, 0, 2, -3], \"left\"), [[1, 0, 2, -3], [1, 2, -3], [3, -3], [0]])\nTest.assertSimilar(squish([4, 9, -3, 2, 5], \"left\"), [[4, 9, -3, 2, 5], [13, -3, 2, 5], [10, 2, 5], [12, 5], [17]])\nTest.assertSimilar(squish([8, -7, 6, 1, 0, 2], \"left\"), [[8, -7, 6, 1, 0, 2], [1, 6, 1, 0, 2], [7, 1, 0, 2], [8, 0, 2], [8, 2], [10]])\nTest.assertSimilar(squish([8, 7], \"left\"), [[8, 7], [15]])\nTest.assertSimilar(squish([8], \"left\"), [[8]])\nTest.assertSimilar(squish([], \"left\"), [])\n\n// Right Squish Tests\nTest.assertSimilar(squish([1, 2, 3, 4, 5], \"right\"), [[1, 2, 3, 4, 5], [1, 2, 3, 9], [1, 2, 12], [1, 14], [15]])\nTest.assertSimilar(squish([1, 0, 2, -3], \"right\"), [[1, 0, 2, -3], [1, 0, -1], [1, -1], [0]])\nTest.assertSimilar(squish([4, 9, -3, 2, 5], \"right\"), [[4, 9, -3, 2, 5], [4, 9, -3, 7], [4, 9, 4], [4, 13], [17]])\nTest.assertSimilar(squish([8, -7, 6, 1, 0, 2], \"right\"), [[8, -7, 6, 1, 0, 2], [8, -7, 6, 1, 2], [8, -7, 6, 3], [8, -7, 9], [8, 2], [10]])\nTest.assertSimilar(squish([8, 7], \"right\"), [[8, 7], [15]])\nTest.assertSimilar(squish([8], \"right\"), [[8]])\nTest.assertSimilar(squish([], \"right\"), [])",
+  "title": "Squishing an Array"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aKx7FLtttZqopDo5e",
+  "code": "function canBuild(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if it's possible to build a phrase (</span><code>p1</code><span>) using only the characters from another phrase (</span><code>p2</code><span>). The function looks like: </span><code>canBuild(p1, p2)</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>canBuild(\"got 2 go\", \"gogogo 2 today\") \u279e true\n\ncanBuild(\"sit on top\", \"its a moo point\") \u279e true\n\ncanBuild(\"long high add or\", \"highway road go long\") \u279e false\n\ncanBuild(\"fill tuck mid\", \"truck falls dim\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>All letters will be in lower case.</span></li><li><span>Numbers and special characters included.</span></li><li><span>Ignore whitespaces. </span></li><li><span>Do not count white space as a character.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/aKx7FLtttZqopDo5e",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canBuild(\"got 2 go\", \"go go go 2 today\"), true)\nTest.assertEquals(canBuild(\"for an angel\", \"angel forest nymph awaken\"), true)\nTest.assertEquals(canBuild(\"sit on top\", \"its a moo point\"), true)\nTest.assertEquals(canBuild(\"solar to oven\", \"love desolate rose thorn\"), true)\nTest.assertEquals(canBuild(\"gate im in\", \"magnetizing\"), true)\nTest.assertEquals(canBuild(\"moreso\", \"mount rushmore\"), true)\nTest.assertEquals(canBuild(\"dool\", \"ken doll\"), false)\nTest.assertEquals(canBuild(\"world of make believe\", \"make believe world\"), false)\nTest.assertEquals(canBuild(\"long high add or\", \"highway road go long\"), false)\nTest.assertEquals(canBuild(\"fill tuck mid\", \"truck falls dim\"), false)\nTest.assertEquals(canBuild(\"skin man i\", \"man in mask\"), false)\nTest.assertEquals(canBuild(\"foolish prides\", \"foolish pride\"), false)",
+  "title": "Fridge Poetry"
+}

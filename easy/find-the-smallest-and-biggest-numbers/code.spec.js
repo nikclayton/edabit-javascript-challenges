@@ -1,8 +1,6 @@
 const minMax = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(minMax([14, 35, 6, 1, 34, 54])).toEqual([1, 54]);
         expect(minMax([1.346, 1.6532, 1.8734, 1.8723])).toEqual([1.346, 1.8734]);

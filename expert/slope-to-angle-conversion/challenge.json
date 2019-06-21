@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "GwACHhzxHvTggemSy",
+  "code": "function convert(slope) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Given a slope of a line, calculate and return the value of the angle of line (relative to the y -axis). For example, a horizontal line would be 90 degrees.</span></p><h3><span>Examples</span></h3><pre><code>convert(1) \u279e 45\n\nconvert(0) \u279e 90\n\nconvert(-1) \u279e 135</code></pre><h3><span>Notes</span></h3><ul><li><span>All values returned should be in degrees.</span></li><li><span>All values returned should be rounded to the nearest whole number.</span></li><li><span>The value to return must be strictly between 0 and 180.</span></li><li><span>All inputs will be valid integer values.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/GwACHhzxHvTggemSy",
+  "tags": [
+    "algebra",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(convert(0), 90)\nTest.assertEquals(convert(1), 45)\nTest.assertEquals(convert(-1), 135)\nTest.assertEquals(convert(3), 18)\nTest.assertEquals(convert(100), 1)\nTest.assertEquals(convert(-20), 177)",
+  "title": "Slope to Angle Conversion"
+}

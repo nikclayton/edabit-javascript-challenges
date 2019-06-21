@@ -1,16 +1,13 @@
+Create a function that takes two strings and returns (`true`or `false`) whether they're anagrams or not.
 
-Write a function that takes two strings and returns (`true` or `false`) whether they're anagrams or not.
 
-### Examples
+### Examples ###
+    isAnagram("cristian", "Cristina") ➞ true
 
-```
-isAnagram("cristian", "Cristina") ➞ true
+    isAnagram("Dave Barry", "Ray Adverb") ➞ true
 
-isAnagram("Dave Barry", "Ray Adverb") ➞ true
+    isAnagram("Nope", "Note") ➞ false
 
-isAnagram("Nope", "Note") ➞ false
-```
 
-### Notes
-
+### Notes ###
 Should be case insensitive.

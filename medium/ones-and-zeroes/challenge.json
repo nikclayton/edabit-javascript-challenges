@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "sasbE2MCNAtmEWeeq",
+  "code": "function sameLength(s) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if every consecutive sequence of </span><strong><span>ones</span></strong><span> is followed by a consecutive sequence of </span><strong><span>zeroes</span></strong><span> of the same length.</span></p><h3><span>Examples</span></h3><pre><code>sameLength(\"110011100010\") \u279e true\n\nsameLength(\"101010110\") \u279e false\n\nsameLength(\"111100001100\") \u279e true\n\nsameLength(\"111\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/sasbE2MCNAtmEWeeq",
+  "tags": [
+    "loops",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(sameLength('10'), true)\nTest.assertEquals(sameLength('1010'), true)\nTest.assertEquals(sameLength('1100'), true)\nTest.assertEquals(sameLength('10101110001100'), true)\nTest.assertEquals(sameLength('1111000010101100'), true)\n\nTest.assertEquals(sameLength('1001'), false)\nTest.assertEquals(sameLength('101001'), false)\nTest.assertEquals(sameLength('101'), false)\nTest.assertEquals(sameLength('10010'), false)\nTest.assertEquals(sameLength('110'), false)\nTest.assertEquals(sameLength('11001'), false)\nTest.assertEquals(sameLength('11100011000'), false)",
+  "title": "Ones and Zeroes"
+}

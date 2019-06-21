@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TWwNf9xxyvWGjEn3n",
+  "code": "function countIdentical(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes in a two-dimensional array and returns the number of </span><strong><span>sub-arrays with identical elements</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>countIdentical([\n  [1],\n  [2],\n  [3],\n  [4]\n]) \u279e 4\n\n// Single-item arrays still count as having identical elements.\n\ncountIdentical([\n  [1, 2],\n  [2, 3],\n  [3, 4],\n  [4, 4]\n]) \u279e 1\n\ncountIdentical([\n  [33, 33],\n  [5],\n  [\"a\", \"a\"],\n  [2, 2, 2],\n  [1, 2, 2],\n  [3, 1]\n]) \u279e 4\n\n// 4 arrays with identical elements: [33, 33], [5], [\"a\", \"a\"], and [2, 2, 2]\n\ncountIdentical([\n  [\"@\", \"@\", \"@\", \"@\"],\n  [2, 3], [3, 4], [4, 4]\n]) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>Single-element arrays count as (trivially) having identical elements.</span></p>",
+  "source_url": "https://edabit.com/challenge/TWwNf9xxyvWGjEn3n",
+  "tags": [
+    "arrays",
+    "conditions",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(countIdentical([[33, 33], [5], ['a', 'a'], [2, 2, 2], [1, 2, 2], [3, 1]]), 4)\nTest.assertSimilar(countIdentical([[1], [2], [3], [4]]), 4)\nTest.assertSimilar(countIdentical([[1, 2], [2, 3], [3, 4], [4, 4]]), 1)\nTest.assertSimilar(countIdentical([['@', '@', '@', '@'], [2, 3], [3, 4], [4, 4]]), 2)",
+  "title": "Identical Subarrays"
+}

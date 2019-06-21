@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "y55uFmf4xCdivNBaT",
+  "code": "function elapsed(t1, t2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes two timestamps as input, and returns a string describing the time elapsed between them (in days, hours, minutes, seconds as appropriate).</span></p><h3><span>Examples</span></h3><pre><code>elapsed(1559813526, 1559899926) \u279e \"1 day\"\n\nelapsed(1559681004, 1559899926) \u279e \"2 days, 12 hours, 48 minutes, 42 seconds\"\n\nelapsed(1558773066, 1559899926) \u279e \"13 days, 1 hour, 1 minute\"</code></pre><h3><span>Notes</span></h3><p><span>Timestamps are seconds elapsed since 1st January 1970.</span></p>",
+  "source_url": "https://edabit.com/challenge/y55uFmf4xCdivNBaT",
+  "tags": [
+    "algebra",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(elapsed(1559813526, 1559899926), \"1 day\")\nTest.assertEquals(elapsed(1559681004, 1559899926), \"2 days, 12 hours, 48 minutes, 42 seconds\")\nTest.assertEquals(elapsed(1557641659, 1559899926), \"26 days, 3 hours, 17 minutes, 47 seconds\")\nTest.assertEquals(elapsed(1557652446, 1559899926), \"26 days, 18 minutes\")\nTest.assertEquals(elapsed(1558773066, 1559899926), \"13 days, 1 hour, 1 minute\")\nTest.assertEquals(elapsed(1552513985, 1559899926), \"85 days, 11 hours, 39 minutes, 1 second\")",
+  "title": "Time Elapsed"
+}

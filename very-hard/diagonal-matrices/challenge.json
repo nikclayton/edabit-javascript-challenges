@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Lcgmf6CvjXnzFTScc",
+  "code": "function diagonalize(n, dir) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that diagonally orders numbers in a </span><code>n x n</code><span> matrix, depending on which of the four corners you originate from: upper-left (</span><code>ul</code><span>), upper-right (</span><code>ur</code><span>), lower-left (</span><code>ll</code><span>), lower-right (</span><code>lr</code><span>).</span></p><h3><span>Examples</span></h3><pre><code>diagonalize(3, \"ul\") \u279e [\n  [0, 1, 2],\n  [1, 2, 3],\n  [2, 3, 4]\n]\n\ndiagonalize(4, \"ur\") \u279e [\n  [3, 2, 1, 0],\n  [4, 3, 2, 1],\n  [5, 4, 3, 2],\n  [6, 5, 4, 3]\n]\n\ndiagonalize(3, \"ll\") \u279e [\n  [2, 3, 4],\n  [1, 2, 3],\n  [0, 1, 2]\n]\n\ndiagonalize(5, \"lr\") \u279e [\n  [8, 7, 6, 5, 4],\n  [7, 6, 5, 4, 3],\n  [6, 5, 4, 3, 2],\n  [5, 4, 3, 2, 1],\n  [4, 3, 2, 1, 0]\n]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Lcgmf6CvjXnzFTScc",
+  "tags": [
+    "arrays",
+    "functional_programming"
+  ],
+  "tests": "Test.assertSimilar(diagonalize(3, 'ul'), [\n\t[0, 1, 2],\n\t[1, 2, 3],\n\t[2, 3, 4]\n], \"It should work for the upper left corner.\")\n\nTest.assertSimilar(diagonalize(4, 'ur'), [\n\t[3, 2, 1, 0],\n\t[4, 3, 2, 1],\n\t[5, 4, 3, 2],\n\t[6, 5, 4, 3]\n], \"It should work for the upper right corner.\")\n\nTest.assertSimilar(diagonalize(3, 'll'), [\n\t[2, 3, 4],\n\t[1, 2, 3],\n\t[0, 1, 2]\n], \"It should work for the lower left corner.\")\n\nTest.assertSimilar(diagonalize(5, 'lr'), [\n\t[8, 7, 6, 5, 4],\n\t[7, 6, 5, 4, 3],\n\t[6, 5, 4, 3, 2],\n\t[5, 4, 3, 2, 1],\n\t[4, 3, 2, 1, 0]\n], \"It should work for the lower right corner.\")",
+  "title": "Diagonal Matrices"
+}

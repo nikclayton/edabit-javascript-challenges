@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "FGuBhmmvXgkvvTQHc",
+  "code": "function longestCommonEnding(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>longest common ending</span></strong><span> between two strings.</span></p><h3><span>Examples</span></h3><pre><code>longestCommonEnding(\"multiplication\", \"ration\") \u279e \"ation\"\n\nlongestCommonEnding(\"potent\", \"tent\") \u279e \"tent\"\n\nlongestCommonEnding(\"skyscraper\", \"carnivore\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><p><span>Return an empty string if there exists no common ending.</span></p>",
+  "source_url": "https://edabit.com/challenge/FGuBhmmvXgkvvTQHc",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(longestCommonEnding(\"pitiful\", \"beautiful\"), \"tiful\")\nTest.assertEquals(longestCommonEnding(\"truck\", \"trick\"), \"ck\")\nTest.assertEquals(longestCommonEnding(\"vote\", \"asymptote\"), \"ote\")\nTest.assertEquals(longestCommonEnding(\"multiplication\", \"ration\"), \"ation\")\nTest.assertEquals(longestCommonEnding(\"potent\", \"tent\"), \"tent\")\nTest.assertEquals(longestCommonEnding(\"skyscraper\", \"carnivore\"), \"\")",
+  "title": "Longest Common Ending"
+}

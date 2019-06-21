@@ -1,8 +1,6 @@
 const removeSpecialCharacters = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(removeSpecialCharacters('The quick brown fox!')).toEqual('The quick brown fox');
         expect(removeSpecialCharacters('%fd76$fd(-)6GvKlO.')).toEqual('fd76fd-6GvKlO');

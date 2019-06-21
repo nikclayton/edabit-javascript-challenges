@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "m6GYKsereS6JdARGW",
+  "code": "function firstAndLast(s) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>lexicographically first</span></strong><span> and </span><strong><span>lexicographically last</span></strong><span> rearrangements of a string. Output the results in the following manner:</span></p><pre><code>firstAndLast(string) \u279e [first, last]</code></pre><h3><span>Examples</span></h3><pre><code>firstAndLast(\"marmite\") \u279e [\"aeimmrt\", \"trmmiea\"]\n\nfirstAndLast(\"bench\") \u279e [\"bcehn\", \"nhecb\"]\n\nfirstAndLast(\"scoop\") \u279e [\"coops\", \"spooc\"]</code></pre><h3><span>Notes</span></h3><ul><li><strong><span>Lexicographically first</span></strong><span>: the permutation of the string that would appear </span><strong><span>first</span></strong><span> in the English dictionary (if the word existed).</span></li><li><strong><span>Lexicographically last</span></strong><span>: the permutation of the string that would appear </span><strong><span>last</span></strong><span> in the English dictionary (if the word existed).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/m6GYKsereS6JdARGW",
+  "tags": [
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(firstAndLast(\"marmite\"), [\"aeimmrt\", \"trmmiea\"])\nTest.assertSimilar(firstAndLast(\"bench\"), [\"bcehn\", \"nhecb\"])\nTest.assertSimilar(firstAndLast(\"scoop\"), [\"coops\", \"spooc\"])\nTest.assertSimilar(firstAndLast(\"fanatic\"), [\"aacfint\", \"tnifcaa\"])",
+  "title": "Lexicographically First and Last"
+}

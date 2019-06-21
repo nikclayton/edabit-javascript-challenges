@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "wQGGp6Qce6phDCvW9",
+  "code": "function canFind(bigrams, words) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are given an input array of bigrams, and an array of words.</span></p><p><span>Write a function that returns </span><code>true</code><span> if you can find </span><strong><span>every single bigram</span></strong><span> from this array can be found at least </span><strong><span>once</span></strong><span> in an array of words.</span></p><h3><span>Examples</span></h3><pre><code>canFind([\"at\", \"be\", \"th\", \"au\"], [\"beautiful\", \"the\", \"hat\"]) \u279e true\n\ncanFind([\"ay\", \"be\", \"ta\", \"cu\"], [\"maybe\", \"beta\", \"abet\", \"course\"]) \u279e false\n# \"cu\" does not exist in any of the words\n\ncanFind([\"th\", \"fo\", \"ma\", \"or\"], [\"the\", \"many\", \"for\", \"forest\"]) \u279e true\n\ncanFind([\"oo\", \"mi\", \"ki\", \"la\"], [\"milk\", \"chocolate\", \"cooks\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>A </span><strong><span>bigram</span></strong><span> is string of </span><strong><span>two consecutive characters</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/wQGGp6Qce6phDCvW9",
+  "tags": [
+    "higher_order_functions",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canFind([\"at\", \"be\", \"th\", \"au\"], [\"beautiful\", \"the\", \"hat\"]), true)\nTest.assertEquals(canFind([\"bo\", \"ta\", \"el\", \"st\", \"ca\"], [\"books\", \"table\", \"cap\", \"hostel\"]), true)\nTest.assertEquals(canFind([\"la\", \"te\"], [\"latte\"]), true)\nTest.assertEquals(canFind([\"th\", \"fo\", \"ma\", \"or\"], [\"the\", \"many\", \"for\", \"forest\"]), true)\nTest.assertEquals(canFind([\"ay\", \"be\", \"ta\", \"cu\"], [\"maybe\", \"beta\", \"abet\", \"course\"]), false)\nTest.assertEquals(canFind([\"oo\", \"mi\", \"ki\", \"la\"], [\"milk\", \"chocolate\", \"cooks\"]), false)\nTest.assertEquals(canFind([\"la\"], []), false)\nTest.assertEquals(canFind([\"la\", \"at\", \"te\", \"ea\"], [\"latte\"]), false)",
+  "title": "Do All Bigrams Exist?"
+}

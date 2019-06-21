@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "j63YSGGK9xoLiXCKF",
+  "code": "function isBetween(first, last, word) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if a word can be found in between the start and end word in a dictionary.</span></p><pre><code>isBetween(start_word, end_word, word)</code></pre><h3><span>Examples</span></h3><pre><code>isBetween(\"apple\", \"banana\", \"azure\") \u279e true\n\nisBetween(\"monk\", \"monument\", \"monkey\") \u279e true\n\nisBetween(\"bookend\", \"boolean\", \"boost\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>All letters will be in lower case.</span></p>",
+  "source_url": "https://edabit.com/challenge/j63YSGGK9xoLiXCKF",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isBetween(\"apple\", \"banana\", \"azure\"), true)\nTest.assertEquals(isBetween(\"bookcase\", \"zebra\", \"squid\"), true)\nTest.assertEquals(isBetween(\"shrapnel\", \"tapenade\", \"tally\"), true)\nTest.assertEquals(isBetween(\"monk\", \"monument\", \"monkey\"), true)\nTest.assertEquals(isBetween(\"oath\", \"ostrich\", \"osteoporosis\"), true)\nTest.assertEquals(isBetween(\"ostracize\", \"ostrich\", \"open\"), false)\nTest.assertEquals(isBetween(\"bookend\", \"boolean\", \"boost\"), false)\nTest.assertEquals(isBetween(\"tamer\", \"tanner\", \"timid\"), false)\nTest.assertEquals(isBetween(\"rhino\", \"sorcerer\", \"quote\"), false)\nTest.assertEquals(isBetween(\"body\", \"lung\", \"ace\"), false)",
+  "title": "Between Words"
+}

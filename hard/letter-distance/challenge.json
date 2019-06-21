@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "SgmaKy8e8X7ibaGYM",
+  "code": "function letterDistance(str1, str2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given two words, the </span><strong><span>letter distance</span></strong><span> is calculated by taking the absolute value of the difference in character codes and summing up the difference.</span></p><p><span>If one word is longer than another, add the difference in lengths towards the score.</span></p><p><span>To illustrate:</span></p><pre><code>letterDistance(\"house\", \"fly\") = dist(\"h\", \"f\") + dist(\"o\", \"l\") + dist(\"u\", \"y\") + dist(house.length, fly.length)\n\n= |104 - 102| + |111 - 108| + |117 - 121| + |5 - 3|\n= 2 + 3 + 4 + 2\n= 11</code></pre><h3><span>Examples</span></h3><pre><code>letterDistance(\"sharp\", \"sharq\") \u279e 1\n\nletterDistance(\"abcde\", \"Abcde\") \u279e 32\n\nletterDistance(\"abcde\", \"bcdef\") \u279e 5</code></pre><h3><span>Notes</span></h3><ul><li><span>Always start comparing the two strings from their first letter.</span></li><li><span>Excess letters are not counted towards distance.</span></li><li><span>Capital letters are included.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/SgmaKy8e8X7ibaGYM",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(letterDistance('house', 'fly'), 11);\nTest.assertEquals(letterDistance('sharp', 'sharq'), 1);\nTest.assertEquals(letterDistance('abcde', 'bcdef'), 5);\nTest.assertEquals(letterDistance('abcde', 'a'), 4);\nTest.assertEquals(letterDistance('abcde', 'e'), 8);\nTest.assertEquals(letterDistance('abcde', 'Abcde'), 32);\nTest.assertEquals(letterDistance('abcde', 'A'), 36);\nTest.assertEquals(letterDistance('very', 'fragile'), 67);",
+  "title": "Letter Distance"
+}

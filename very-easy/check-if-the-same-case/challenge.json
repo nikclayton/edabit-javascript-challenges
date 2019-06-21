@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TDpT9tvwJK5uLn98h",
+  "code": "function sameCase(str) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if an input string contains only uppercase or only lowercase letters.</span></p><h3><span>Examples</span></h3><pre><code>sameCase(\"hello\") \u279e true\n\nsameCase(\"HELLO\") \u279e true\n\nsameCase(\"Hello\") \u279e false\n\nsameCase(\"ketcHUp\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/TDpT9tvwJK5uLn98h",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(sameCase(\"HELLO\"), true)\nTest.assertEquals(sameCase(\"HEllo\"), false)\nTest.assertEquals(sameCase(\"mArmALadE\"), false)\nTest.assertEquals(sameCase(\"marmalade\"), true)\nTest.assertEquals(sameCase(\"MARMALADE\"), true)\nTest.assertEquals(sameCase(\"ketchUP\"), false)\nTest.assertEquals(sameCase(\"pickle\"), true)\nTest.assertEquals(sameCase(\"MUSTARD\"), true)",
+  "title": "Check if the Same Case"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aeYjmvYD5YmmA9Dso",
+  "code": "function digitDistance(num1, num2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>The </span><strong><span>digit distance</span></strong><span> between two numbers is the absolute value of the difference of each digit.</span></p><p><span>To illustrate:</span></p><pre><code>digitDistance(234, 489) \u279e 12\n// Since |2 - 4| + |3 - 8| + |4 - 9| = 2 + 5 + 5</code></pre><p><span>Create a function that returns the </span><strong><span>digit distance</span></strong><span> between two integers.</span></p><h3><span>Examples</span></h3><pre><code>digitDistance(121, 599) \u279e 19\n\ndigitDistance(12, 12) \u279e 0\n\ndigitDistance(10, 20) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>Both integers will be exactly the same length.</span></p>",
+  "source_url": "https://edabit.com/challenge/aeYjmvYD5YmmA9Dso",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(digitDistance(121, 599), 19)\nTest.assertEquals(digitDistance(12, 12), 0)\nTest.assertEquals(digitDistance(10, 20), 1)\nTest.assertEquals(digitDistance(12345678, 23456789), 8)\nTest.assertEquals(digitDistance(5555, 6666), 4)\nTest.assertEquals(digitDistance(105, 777), 15)",
+  "title": "Digit Distance"
+}

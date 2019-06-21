@@ -1,8 +1,6 @@
 const sortByLength = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sortByLength(['Google', 'Apple', 'Microsoft'])).toEqual(['Apple', 'Google', 'Microsoft']);
         expect(sortByLength(['Leonardo', 'Michelangelo', 'Raphael', 'Donatello'])).toEqual(['Raphael', 'Leonardo', 'Donatello', 'Michelangelo']);

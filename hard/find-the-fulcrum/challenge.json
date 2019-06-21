@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "PdgSERZzFr4LmHNdk",
+  "code": "function findFulcrum(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>A </span><strong><span>fulcrum</span></strong><span> of an array is an integer such that all elements to the left of it and all elements to the right of it sum to the same value. Write a function that finds the </span><strong><span>fulcrum</span></strong><span> of an array.</span></p><p><span>To illustrate:</span></p><pre><code>findFulcrum([3, 1, 5, 2, 4, 6, -1]) \u279e 2\n// Since [3, 1, 5] and [4, 6, -1] both sum to 9</code></pre><h3><span>Examples</span></h3><pre><code>findFulcrum([1, 2, 4, 9, 10, -10, -9, 3]) \u279e 4\n\nfindFulcrum([9, 1, 9]) \u279e 1\n\nfindFulcrum([7, -1, 0, -1, 1, 1, 2, 3]) \u279e 0\n\nfindFulcrum([8, 8, 8, 8]) \u279e -1</code></pre><h3><span>Notes</span></h3><ul><li><span>If the fulcrum does not exist, return -1 (see example #4).</span></li><li><span>Exclude the leftmost and rightmost elements when computing the fulcrum (it doesn't make sense to sum zero values).</span></li><li><span>If an array has multiple fulcrums, return the one that occurs first.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/PdgSERZzFr4LmHNdk",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(findFulcrum([1, 2, 4, 9, 10, -10, -9, 3]), 4)\nTest.assertEquals(findFulcrum([9, 1, 9]), 1)\nTest.assertEquals(findFulcrum([7, -1, 0, -1, 1, 1, 2, 3]), 0)\nTest.assertEquals(findFulcrum([8, 8, 8, 8]), -1)\nTest.assertEquals(findFulcrum([9, 3, 4, 8, 1]), -1)\nTest.assertEquals(findFulcrum([1, -1, 10, 5, -4, -1]), 10)",
+  "title": "Find the Fulcrum"
+}

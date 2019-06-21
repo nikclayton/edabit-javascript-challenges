@@ -1,8 +1,6 @@
 const MultiplyByLength = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(MultiplyByLength([2, 6, 4, 9])).toEqual([8, 24, 16, 36]);
         expect(MultiplyByLength([4, 1, 1])).toEqual([12, 3, 3]);

@@ -1,0 +1,15 @@
+{
+  "author_id": "Jon",
+  "author_url": "https://edabit.com/user/kWRBCPSL64DfrZHMz",
+  "challenge_id": "8Qg78sf5SNDEANKti",
+  "code": "function animals(chickens, cows, pigs) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>You've got </span><code>chickens</code><span> (2 legs), </span><code>cows</code><span> (4 legs) and </span><code>pigs</code><span> (4 legs) on your farm. Return the total number of legs on your farm.</span></p><h3><span>Examples</span></h3><pre><code>animals(2, 3, 5) \u279e 36\n\nanimals(1, 2, 3) \u279e 22\n\nanimals(5, 2, 8) \u279e 50</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8Qg78sf5SNDEANKti",
+  "tags": [
+    "algorithms",
+    "math"
+  ],
+  "tests": "Test.assertEquals(animals(5, 2, 8), 50)\nTest.assertEquals(animals(3, 4, 7), 50)\nTest.assertEquals(animals(1, 2, 3), 22)\nTest.assertEquals(animals(3, 5, 2), 34)",
+  "title": "The Farm Problem"
+}

@@ -4,7 +4,7 @@
   "challenge_id": "H9ohpGMyqJ9bAkqE5",
   "code": "function checkEnding(str1, str2) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes two strings and returns </span><code>true</code><span> if the first argument ends with the second argument; otherewise return </span><code>false</code><span> .</span></p><h3><span>Rules</span></h3><ul><li><span>Take two strings as arguments.</span></li><li><span>Determine if second string matches ending of first string.</span></li><li><span>Return boolean value.</span></li></ul><h3><span>Examples</span></h3><pre><code>\"abc\", \"bc\" \u279e true\n\n\"abc\", \"d\" \u279e false\n\n\"samurai\", \"zi\" \u279e false\n\n\"feminine\", \"nine\" \u279e true\n\n\"convention\", \"tio\" \u279e false</code></pre><h3><span>Notes</span></h3><p><span>All test cases are valid one word strings.</span></p>",
+  "instructions": "<p><span>Create a function that takes two strings and returns </span><code>true</code><span> if the first string ends with the second string; otherewise return </span><code>false</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>checkEnding(\"abc\", \"bc\") \u279e true\n\ncheckEnding(\"abc\", \"d\") \u279e false\n\ncheckEnding(\"samurai\", \"zi\") \u279e false\n\ncheckEnding(\"feminine\", \"nine\") \u279e true\n\ncheckEnding(\"convention\", \"tio\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>All test cases are valid one word strings.</span></p>",
   "source_url": "https://edabit.com/challenge/H9ohpGMyqJ9bAkqE5",
   "tags": [
     "strings",

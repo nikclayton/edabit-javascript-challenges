@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rLf6ApKPLy3fP37XH",
+  "code": "function getIndices(arr, el) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the indices of all occurrences of an item in the array.</span></p><h3><span>Examples</span></h3><pre><code>getIndices([\"a\", \"a\", \"b\", \"a\", \"b\", \"a\"], \"a\") \u279e [0, 1, 3, 5]\n\ngetIndices([1, 5, 5, 2, 7], 7) \u279e [4]\n\ngetIndices([1, 5, 5, 2, 7], 5) \u279e [1, 2]\n\ngetIndices([1, 5, 5, 2, 7], 8) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>If an element does not exist in an array, return </span><code>[]</code><span>.</span></li><li><span>Arrays are zero-indexed.</span></li><li><span>Values in the array will be value-types (don't need to worry about nested arrays).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rLf6ApKPLy3fP37XH",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(getIndices(['a', 'a', 'b', 'a', 'b', 'a'], 'a'), [0, 1, 3, 5])\nTest.assertSimilar(getIndices([1, 5, 5, 2, 7], 7), [4])\nTest.assertSimilar(getIndices([1, 5, 5, 2, 7], 5),[1, 2])\nTest.assertSimilar(getIndices([1, 5, 5, 2, 7], 8), [])\nTest.assertSimilar(getIndices([8, 8, 8, 8, 8], 8), [0, 1, 2, 3, 4])\nTest.assertSimilar(getIndices([8, 8, 7, 8, 8], 8), [0, 1, 3, 4])\nTest.assertSimilar(getIndices([true, false, true, false], true), [0, 2])\nTest.assertSimilar(getIndices([true, false, true, false], false), [1, 3])",
+  "title": "All Occurrences of an Element in an Array"
+}

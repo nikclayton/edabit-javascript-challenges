@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "p5xNwq2v9ZX7vo3mb",
+  "code": "function dictionary(initial, words) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes in an initial word and filters out an array to contain words that start with the same letters as the initial word.</span></p><h3><span>Examples</span></h3><pre><code>dictionary(\"bu\", [\"button\", \"breakfast\", \"border\"]) \u279e [\"button\"]\n\ndictionary(\"tri\", [\"triplet\", \"tries\", \"trip\", \"piano\", \"tree\"]) \u279e [\"triplet\", \"tries\", trip\"]\n\ndictionary(\"beau\", [\"pastry\", \"delicious\", \"name\", \"boring\"]) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>If none of the words match, return an empty array.</span></li><li><span>Keep the filtered array in the same relative order as the original array of words.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/p5xNwq2v9ZX7vo3mb",
+  "tags": [
+    "conditions",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(dictionary('bu', ['button', 'breakfast', 'border']), ['button'])\nTest.assertSimilar(dictionary('beau', ['pastry', 'delicious', 'name', 'boring']), [])\nTest.assertSimilar(dictionary('there', ['there', 'here', 'everywhere']), ['there'])\nTest.assertSimilar(dictionary('sno', ['snow', 'paper', 'ghost']), ['snow'])\nTest.assertSimilar(dictionary('ma', ['marriage', 'married', 'many', 'delight']), ['marriage', 'married', 'many'])\nTest.assertSimilar(dictionary('no', ['inferno', 'notion', 'nominate', 'note', 'fairy']), ['notion', 'nominate', 'note'])\nTest.assertSimilar(dictionary('cre', ['creating', 'creature', 'creed', 'increasing']), ['creating', 'creature', 'creed'])",
+  "title": "Little Dictionary"
+}

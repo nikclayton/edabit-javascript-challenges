@@ -1,8 +1,6 @@
 const median = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(median([20, 40, 20, 30, 50, 60, 70, 0, 20])).toEqual(30);
         expect(median([342, 98, 5456, 32, 786, 432, 890, 321])).toEqual(387);

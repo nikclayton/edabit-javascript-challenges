@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Gfed7xePtBzXLQewA",
+  "code": "function erase(s) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Suppose a hash </span><code>#</code><span> represents the backspace key being pressed. Write a function that transforms a string containing </span><code>#</code><span> into a string without any </span><code>#</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>erase(\"he##l#hel#llo\") \u279e \"hello\"\n\nerase(\"major# spar##ks\") \u279e \"majo spks\"\n\nerase(\"si###t boy\") \u279e \"t boy\"\n\nerase(\"####\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><ul><li><span>In addition to characters, backspaces can also remove whitespaces.</span></li><li><span>If the number of hashes exceeds the previous characters, remove those previous characters entirely (see example #3).</span></li><li><span>If there only exist backspaces, return an empty string (see example #4).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Gfed7xePtBzXLQewA",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(erase(\"he##l#hel#llo\"), \"hello\")\nTest.assertEquals(erase(\"major# spar##ks\"), \"majo spks\" )\nTest.assertEquals(erase(\"si###t boy\"), \"t boy\")\nTest.assertEquals(erase(\"motion #sick\"), \"motionsick\")\nTest.assertEquals(erase(\"m#oti#o#n sick##ne#ss##\"), \"otn sin\")\nTest.assertEquals(erase(\"courz#i#age\"), \"courage\")\nTest.assertEquals(erase(\"aris##### c#r#ti#c\"), \" tc\")\nTest.assertEquals(erase(\"beauty##\"), \"beau\")\nTest.assertEquals(erase(\"beauty#\"), \"beaut\")\nTest.assertEquals(erase(\"b#\"), \"\")\nTest.assertEquals(erase(\"####\"), \"\")",
+  "title": "Backspace Attack"
+}

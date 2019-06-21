@@ -1,8 +1,6 @@
 const Go = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(Go(1)).toEqual('-');
         expect(Go(2)).toEqual('--');

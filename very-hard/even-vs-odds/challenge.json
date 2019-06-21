@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "975ac5gm3hAwYqqjS",
+  "code": "function availableSpots(arr, num) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Odd numbers like to hangout with odd numbers. Even numbers like to hangout with even numbers.</span></p><p><span>A </span><strong><span>spot</span></strong><span> is an insertion between two numbers in an array. Given an array of </span><strong><span>n</span></strong><span> integers in length, there are </span><strong><span>n-1</span></strong><span> spots available. </span></p><p><span>For instance:</span></p><pre><code>[3, 4, 9, 10, 1]  // Array of 5 digits can also be thought of as...\n\n[3, __ , 4, __ , 9, __, 10, __, 1]  // ...an array of 4 spots.</code></pre><p><span>After a number is newly inserted into a </span><strong><span>spot</span></strong><span>, it's </span><strong><span>left neighbor</span></strong><span> is the number directly to the left of it and it's </span><strong><span>right neighbor</span></strong><span> is the number directly to the right of it.</span></p><p><span>For instance:</span></p><pre><code>[3, 6, 4, 9, 10, 1]  // Left neighbor of 6 is 3, right neighbor of 6 is 4.</code></pre><p><span>Odd numbers like having the following </span><strong><span>(left neighbor, right neighbor combinations)</span></strong><span>: </span><code>(odd, even), (even, odd), (odd, odd)</code><span> .They </span><strong><span>dislike</span></strong><span> having both neighbors being even, or </span><code>(even, even)</code><span>.</span></p><p><span>Similarly, even numbers like the following neighbor combinations: </span><code>(even, odd), (odd, even), (even, even)</code><span>. They </span><strong><span>dislike</span></strong><span> having both neighbors being odd, or </span><code>(odd, odd)</code><span>.</span></p><p><span>Given an array, calculate the number of liked spots.</span></p><h3><span>Examples</span></h3><pre><code>availableSpots([0, 4, 6, 8], 9) \u279e 0\n// 9 likes NONE of the following spots: [0, __, 4], [4, __ , 6], [6, __, 8] b/c all of his neighbors are even.\n\navailableSpots([0, 4, 6, 8], 12) \u279e 3\n// 12 likes ALL of the spots.\n\navailableSpots([4, 4, 4, 4, 5], 7) \u279e 1\n// 7 dislikes every spot except the last one at: [4, __, 5].\n\navailableSpots([4, 4], 8) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/975ac5gm3hAwYqqjS",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "logic",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(availableSpots([0, 4, 6, 8], 9), 0);\nTest.assertEquals(availableSpots([0, 4, 6, 8], 6), 3);\nTest.assertEquals(availableSpots([1, 2, 3, 4], 6), 3);\nTest.assertEquals(availableSpots([1, 2, 3, 4], 5), 3);\nTest.assertEquals(availableSpots([1, 1, 1, 4], 7), 3);\nTest.assertEquals(availableSpots([1, 1, 4, 4], 7), 2);\nTest.assertEquals(availableSpots([1, 4, 4, 4], 7), 1);\nTest.assertEquals(availableSpots([4, 4, 4, 4], 7), 0);\nTest.assertEquals(availableSpots([5, 5, 5, 8, 8, 5, 5, 5, 5], 32), 3);\nTest.assertEquals(availableSpots([4, 4], 8), 1);",
+  "title": "Even vs. Odds"
+}

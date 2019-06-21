@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "knZ2M5xC6XijT7M8w",
+  "code": "function combo(arr, n) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that returns all </span><strong><span>combinations of size n</span></strong><span> from an array. Sort the array in ascending lexicographical order.</span></p><h3><span>Examples</span></h3><pre><code>combo([1, 2, 3, 4], 1) \u279e [[1], [2], [3], [4]]\n\ncombo([1, 2, 3, 4], 2) \u279e [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]\n\ncombo([1, 2, 3, 4], 5) \u279e []\n\ncombo([1, 2, 3, 4], 0) \u279e [[]]</code></pre><h3><span>Notes</span></h3><ul><li><span>Lexicographical order: Compare the first element: </span><code>[1, 2]</code><span> will be before </span><code>[2, 4]</code><span>. If both share the same first element, compare the second element: </span><code>[1, 2]</code><span> is before </span><code>[1, 3]</code><span>, etc.</span></li><li><span>Return an empty array </span><code>[]</code><span> if </span><code>n</code><span> exceeds the length of the array.</span></li><li><span>Return  </span><code>[[]]</code><span> if </span><code>n</code><span> is </span><code>0</code><span> (see example #4). (Since there is only one combination of length 0: an empty array).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/knZ2M5xC6XijT7M8w",
+  "tags": [
+    "arrays",
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertSimilar(combo([1, 2, 3, 4], 2), [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]])\nTest.assertSimilar(combo([1, 2, 3, 4], 3), [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]])\nTest.assertSimilar(combo([1, 2, 3, 4], 1), [[1], [2], [3], [4]])\nTest.assertSimilar(combo([1, 2, 3, 4], 5), [])\nTest.assertSimilar(combo([1, 2, 3, 4], 0), [[]])\nTest.assertSimilar(combo(['a', 'b', 'c'], 0), [[]])\nTest.assertSimilar(combo(['a', 'b', 'c'], 4), [])\nTest.assertSimilar(combo(['a', 'b', 'c'], 1), [['a'], ['b'], ['c']])\nTest.assertSimilar(combo(['a', 'b', 'c'], 2), [['a', 'b'], ['a', 'c'], ['b', 'c']])\nTest.assertSimilar(combo(['a', 'b', 'c'], 3), [['a', 'b', 'c']])",
+  "title": "Generate N-Size Combinations from an Array"
+}

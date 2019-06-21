@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "qBHiycz67g7BrM9h5",
+  "code": "function isPowerful(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given a positive number x:</span></p><pre><code>p = (p1, p2, \u2026)\n// Set of *prime* factors of x</code></pre><p><span>If the square of every item in p is also a factor of x, then x is said to be a </span><strong><em><span>powerful</span></em></strong><span> number.</span></p><p><span>Create a function that takes a number and returns </span><code>true</code><span> if it's powerful, </span><code>false</code><span> if it's not.</span></p><h3><span>Examples</span></h3><pre><code>isPowerful(36) \u279e true\n// p = (2, 3) (prime factors of 36)\n// 2^2 = 4 (factor of 36)\n// 3^2 = 9 (factor of 36)\n\nisPowerful(27) \u279e true\n\nisPowerful(674) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/qBHiycz67g7BrM9h5",
+  "tags": [
+    "conditions",
+    "math",
+    "numbers",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isPowerful(36), true)\nTest.assertEquals(isPowerful(27), true)\nTest.assertEquals(isPowerful(32), true)\nTest.assertEquals(isPowerful(72), true)\nTest.assertEquals(isPowerful(243), true)\nTest.assertEquals(isPowerful(968), true)\nTest.assertEquals(isPowerful(951), false)\nTest.assertEquals(isPowerful(144), true)\nTest.assertEquals(isPowerful(674), false)\nTest.assertEquals(isPowerful(600), false)\nTest.assertEquals(isPowerful(500), true)\nTest.assertEquals(isPowerful(320), false)\nTest.assertEquals(isPowerful(720), false)",
+  "title": "Powerful Numbers"
+}

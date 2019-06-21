@@ -68,8 +68,4 @@ test('INVALID: alpha below 0', () => {
 test('INVALID: alpha above 1', () => {
         expect(validColor('rgba(0,0,0,1.1)')).toEqual(false);
     });
-    
-    test('the tests', () => {
-        
-    });
 });

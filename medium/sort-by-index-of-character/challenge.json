@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "nxH5e4p2TR8sAEAc7",
+  "code": "function sortByCharacter(arr, n) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that sorts an array of characters alphabetically in ascending order </span><strong><span>(a-z)</span></strong><span> by the character at the </span><strong><span>n-th index</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>sortByCharacter([\"az16\", \"by35\", \"cx24\"], 2) \u279e [\"cx24\", \"by35\", \"az16\"]\n// By 2nd character: [\"x\", \"y\", \"z\"] is in alphabetical order.\n\nsortByCharacter([\"mayor\", \"apple\", \"petal\"], 5) \u279e [\"apple\", \"petal\", \"mayor\"]\n// By 5th character: [\"e\", \"l\", \"r\"] is in alphabetical order.\n\nsortByCharacter([\"mate\", \"team\", \"bade\"], 3) \u279e [\"team\", \"bade\", \"mate\"]</code></pre><h3><span>Notes</span></h3><p><span>All inputs will be of same length.</span></p>",
+  "source_url": "https://edabit.com/challenge/nxH5e4p2TR8sAEAc7",
+  "tags": [
+    "arrays",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(sortByCharacter(['az16', 'by35', 'cx24'], 1), ['az16', 'by35', 'cx24'])\nTest.assertSimilar(sortByCharacter(['az16', 'by35', 'cx24'], 2), ['cx24', 'by35', 'az16'])\nTest.assertSimilar(sortByCharacter(['az16', 'by35', 'cx24'], 3), ['az16', 'cx24', 'by35'])\nTest.assertSimilar(sortByCharacter(['az16', 'by35', 'cx24'], 4), ['cx24', 'by35', 'az16'])\nTest.assertSimilar(sortByCharacter(['apple', 'mayor', 'bendy', 'petal'], 5), ['apple', 'petal', 'mayor', 'bendy'])\nTest.assertSimilar(sortByCharacter(['team', 'mate', 'bade'], 3), ['team', 'bade', 'mate'])",
+  "title": "Sort By Index of Character"
+}

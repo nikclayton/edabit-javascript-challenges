@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "auJ4HPjQ9YJFB4Wjy",
+  "code": "function nextNumber(num) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Write a function that returns the next largest number that can be created from the same digits as the input.</span></p><h3><span>Examples</span></h3><pre><code>nextNumber(19) \u279e 91\n\nnextNumber(3542) \u279e 4235\n\nnextNumber(5432) \u279e 5432\n\nnextNumber(58943) \u279e 59348</code></pre><h3><span>Notes</span></h3><ul><li><span>If no larger number can be formed, return the number itself.</span></li><li><strong><span>Bonus</span></strong><span>: See if you can do this without generating all digit permutations.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/auJ4HPjQ9YJFB4Wjy",
+  "tags": [
+    "numbers",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(nextNumber(7), 7)\nTest.assertEquals(nextNumber(19), 91)\nTest.assertEquals(nextNumber(217), 271)\nTest.assertEquals(nextNumber(899), 989)\nTest.assertEquals(nextNumber(989), 998)\nTest.assertEquals(nextNumber(1115), 1151)\nTest.assertEquals(nextNumber(2345), 2354)\nTest.assertEquals(nextNumber(3542), 4235)\nTest.assertEquals(nextNumber(5432), 5432)\nTest.assertEquals(nextNumber(57812), 57821)\nTest.assertEquals(nextNumber(57218), 57281)\nTest.assertEquals(nextNumber(58943), 59348)\nTest.assertEquals(nextNumber(97410), 97410)\nTest.assertEquals(nextNumber(718293), 718329)\nTest.assertEquals(nextNumber(618921), 619128)\nTest.assertEquals(nextNumber(967432), 972346)\nTest.assertEquals(nextNumber(890124), 890142)\nTest.assertEquals(nextNumber(9321345), 9321354)\nTest.assertEquals(nextNumber(219034567), 219034576)\nTest.assertEquals(nextNumber(219876543), 231456789)",
+  "title": "Next Largest Number"
+}

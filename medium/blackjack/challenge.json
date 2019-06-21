@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "QGHWExeW6neueusKP",
+  "code": "function overTwentyOne(cards) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of card numbers and checks if the sum of their value exceeds 21. If the sum exceeds 21, return </span><code>true</code><span> and if the sum is under or equal to 21, return </span><code>false</code><span>. Values of the cards are as follows:</span></p><ul><li><span>2-10 are their value.</span></li><li><span>J-K (face cards) count as 10.</span></li><li><span>Aces count either as 1 or 11 - play conservatively, so that if giving an ace a value of 11 causes you to lose and 1 allows you to win, then go with 1.</span></li></ul><h3><span>Examples</span></h3><pre><code>overTwentyOne([2, 8, \"J\"]) \u279e false\n\noverTwentyOne([\"A\", \"J\", \"K\"]) \u279e false\n\noverTwentyOne([5, 5, 3, 9]) \u279e true\n\noverTwentyOne([2, 6, 4, 4, 5]) \u279e false\n\noverTwentyOne([\"J\", \"Q\", \"K\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/QGHWExeW6neueusKP",
+  "tags": [
+    "arrays",
+    "conditions",
+    "games",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(overTwentyOne(['A', 2, 3]), false);\nTest.assertEquals(overTwentyOne(['A', 'J', 'K']), false);\nTest.assertEquals(overTwentyOne(['A', 'J', 'K', 'Q']), true);\nTest.assertEquals(overTwentyOne([5, 3, 6, 6, 7, 9]), true);",
+  "title": "Blackjack"
+}

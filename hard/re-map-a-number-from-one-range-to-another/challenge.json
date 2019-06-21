@@ -1,0 +1,16 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "roCH4n2xnBjLoXfjv",
+  "code": "function remap(value, low1, high1, low2, high2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function similar to Processings \"map\" function (see resources tab), in which a value and it's range is taken and remapped to a new range.</span></p><p><span>The function takes 5 numbers:</span></p><ul><li><span>Value: </span><code>value</code></li><li><span>Range: </span><code>low1</code><span> and </span><code>high1</code></li><li><span>Range: </span><code>low2</code><span> and </span><code>high2</code></li></ul><h3><span>Examples</span></h3><pre><code>remap(7, 2, 12, 0, 100) \u279e 50\n\nremap(17, 5, 55, 100, 30) \u279e 83.2\n\nremap(50, 1, 51, 0, 100) \u279e 98</code></pre><h3><span>Notes</span></h3><ul><li><span>Your test input will always be numbers.</span></li><li><span>If the input range is </span><code>0</code><span>, return </span><code>0</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/roCH4n2xnBjLoXfjv",
+  "tags": [
+    "algorithms",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(remap(7, 2, 12, 0, 100), 50)\nTest.assertEquals(remap(17, 5, 55, 100, 30), 83.2)\nTest.assertEquals(remap(2.5, 2, 3, -80, 80), 0)\nTest.assertEquals(remap(50, 1, 51, 0, 100), 98)\nTest.assertEquals(remap(0, 0, 0, 0, 0), 0, 'The input range is 0.')\nTest.assertEquals(remap(20, 10, 50, 50, 10), 40)\nTest.assertEquals(remap(0, 5, -20, 60, 1000), 248)\nTest.assertEquals(remap(17, 17, 17, 519, 1085), 0, 'The input range is 0.')",
+  "title": "Re-Map a Number from One Range to Another"
+}

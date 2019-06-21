@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TkbyvmeqbGpSsHLq8",
+  "code": "function countUniqueBooks(s, bookend) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Suppose a </span><strong><span>pair of identical characters</span></strong><span> serve as </span><strong><span>book ends</span></strong><span> for all characters in between them. Write a function that returns the </span><strong><span>total number of unique characters</span></strong><span> (books, so to speak) between all pairs of book ends.</span></p><p><span>The function will look like:</span></p><pre><code>countUniqueBooks(\"stringSequence\", \"bookEnd\")</code></pre><h3><span>Examples</span></h3><pre><code>countUniqueBooks(\"AZYWABBCATTTA\", \"A\") \u279e 4\n\n// 1st bookend group: \"AZYWA\" : 3 unique books: \"Z\", \"Y\", \"W\"\n// 2nd bookend group: \"ATTTA\": 1 unique book: \"T\"\n\ncountUniqueBooks(\"$AA$BBCATT$C$$B$\", \"$\") \u279e 3\n\ncountUniqueBooks(\"ZZABCDEF\", \"Z\") \u279e 0</code></pre><h3><span>Notes</span></h3><ul><li><span>No book characters will be identical to the bookend character.</span></li><li><span>There will always be an even number of bookends.</span></li><li><span>Return </span><code>0</code><span> if bookends contain zero books.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/TkbyvmeqbGpSsHLq8",
+  "tags": [
+    "higher_order_functions",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countUniqueBooks(\"AZYWABBCATTTA\", \"A\"), 4)\nTest.assertEquals(countUniqueBooks(\"$AA$BBCATT$C$$B$\", \"$\"), 3)\nTest.assertEquals(countUniqueBooks(\"ZZABCDEF\", \"Z\"), 0)\nTest.assertEquals(countUniqueBooks(\"A#BBCD##GGA##!#\", \"#\"), 6)\nTest.assertEquals(countUniqueBooks(\"&AAAAAAAAAAAA&\", \"&\"), 1)\nTest.assertEquals(countUniqueBooks(\"&&&&&&&&\", \"&\"), 0)\nTest.assertEquals(countUniqueBooks(\"&A&&&&&&C&\", \"&\"), 2)\nTest.assertEquals(countUniqueBooks(\"&A&33333&C&\", \"&\"), 2)\nTest.assertEquals(countUniqueBooks(\"&3&3&3&\", \"&\"), 1)\nTest.assertEquals(countUniqueBooks(\"&4&3&3&\", \"&\"), 2)\nTest.assertEquals(countUniqueBooks(\"&AA&\", \"A\"), 0)\nTest.assertEquals(countUniqueBooks(\"AZAAABDZCCZZ\", \"Z\"), 3)\nTest.assertEquals(countUniqueBooks(\"AZAAABDZCCZZ\", \"A\"), 1)",
+  "title": "Books and Book Ends"
+}

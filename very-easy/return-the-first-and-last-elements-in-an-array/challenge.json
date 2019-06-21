@@ -4,12 +4,13 @@
   "challenge_id": "R3AYf3eTdATXTQTdZ",
   "code": "function firstLast(arr) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes an array of numbers and return the </span><strong><span>first</span></strong><span> and </span><strong><span>last</span></strong><span> elements as a new array.</span></p><h3><span>Examples</span></h3><pre><code>firstLast([5, 10, 15, 20, 25]) \u279e [5, 25]\n\nfirstLast([\"edabit\", 13, null, false, true]) \u279e [\"edabit\", true]\n\nfirstLast([undefined, 4, \"6\", \"hello\", null]) \u279e [undefined, null]</code></pre><h3><span>Notes</span></h3><p><span>Test input will always contain a minimum of two elements within the array.</span></p>",
+  "instructions": "<p><span>Create a function that takes an array of numbers and return the </span><strong><span>first</span></strong><span> and </span><strong><span>last</span></strong><span> elements as a new array.</span></p><h3><span>Examples</span></h3><pre><code>firstLast([5, 10, 15, 20, 25]) \u279e [5, 25]\n\nfirstLast([\"edabit\", 13, null, false, true]) \u279e [\"edabit\", true]\n\nfirstLast([undefined, 4, \"6\", \"hello\", null]) \u279e [undefined, null]</code></pre><h3><span>Notes</span></h3><ul><li><span>Test input will always contain a minimum of two elements within the array.</span></li><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/R3AYf3eTdATXTQTdZ",
   "tags": [
     "arrays",
+    "language_fundamentals",
     "validation"
   ],
-  "tests": "Test.assertSimilar(firstLast([5, 10, 15, 20, 25]), [5, 25]);\nTest.assertSimilar(firstLast([\"edabit\", 13, null, false, true]), [\"edabit\", true]);\nTest.assertSimilar(firstLast([undefined, 4, \"6\", \"hello\", null]), [undefined, null]);\nTest.assertSimilar(firstLast([\"hello\", \"edabit\", \"dot\", \"com\"]), [\"hello\", \"com\"]);\nTest.assertSimilar(firstLast([3, 2, 1]), [3, 1]);\nTest.assertSimilar(firstLast([\"one\", \"two\"]), [\"one\", \"two\"]);\nTest.assertSimilar(firstLast([false, false, true, false, false, true, false]), [false, false]);",
+  "tests": "Test.assertSimilar(firstLast([5, 10, 15, 20, 25]), [5, 25])\nTest.assertSimilar(firstLast([\"edabit\", 13, null, false, true]), [\"edabit\", true])\nTest.assertSimilar(firstLast([undefined, 4, \"6\", \"hello\", null]), [undefined, null])\nTest.assertSimilar(firstLast([\"hello\", \"edabit\", \"dot\", \"com\"]), [\"hello\", \"com\"])\nTest.assertSimilar(firstLast([3, 2, 1]), [3, 1])\nTest.assertSimilar(firstLast([\"one\", \"two\"]), [\"one\", \"two\"])\nTest.assertSimilar(firstLast([false, false, true, false, false, true, false]), [false, false])",
   "title": "Return the First and Last Elements in an Array"
 }

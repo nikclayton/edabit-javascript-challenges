@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MwLp6s75F6S5wRrEJ",
+  "code": "function calcDeterminant(matrix) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function to calculate the determinant of a </span><code>2 x 2</code><span> matrix. The determinant of the following matrix is: </span><code>ad - bc</code><span>:</span></p><pre><code>[[a, b], [c, d]]</code></pre><h3><span>Examples</span></h3><pre><code>calcDeterminant([\n  [1, 2],\n  [3, 4]\n]) \u279e -2\n\ncalcDeterminant([\n  [5, 3],\n  [3, 1]\n]) \u279e -4\n\ncalcDeterminant([\n  [1, 1],\n  [1, 1]\n]) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/MwLp6s75F6S5wRrEJ",
+  "tags": [
+    "arrays",
+    "math"
+  ],
+  "tests": "Test.assertEquals(calcDeterminant([\n\t[1, 2],\n\t[3, 4]\n]), -2)\n\nTest.assertEquals(calcDeterminant([\n\t[5, 3],\n\t[3, 1]\n]), -4)\n\nTest.assertEquals(calcDeterminant([\n\t[1, 1],\n\t[1, 1]\n]), 0)\n\nTest.assertEquals(calcDeterminant([\n\t[1, 1],\n\t[1, 0]\n]), -1)",
+  "title": "Calculate Determinant of a 2x2 Matrix"
+}

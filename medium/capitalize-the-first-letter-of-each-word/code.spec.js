@@ -1,8 +1,6 @@
 const makeTitle = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(makeTitle('I am a title')).toEqual('I Am A Title');
         expect(makeTitle('I AM A TITLE')).toEqual('I AM A TITLE');

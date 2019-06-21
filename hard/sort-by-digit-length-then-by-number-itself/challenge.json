@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "S3sM8FkrWDrfjWeJ6",
+  "code": "function digitSort(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that sorts an array of integers by their digit length in </span><strong><span>descending order</span></strong><span>, then settles ties by sorting numbers with the same digit length in </span><strong><span>ascending order</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>digitSort([77, 23, 5, 7, 101])\n\u279e [101, 23, 77, 5, 7]\n\ndigitSort([1, 5, 9, 2, 789, 563, 444])\n\u279e [444, 563, 789, 1, 2, 5, 9]\n\ndigitSort([53219, 3772, 564, 32, 1])\n\u279e [53219, 3772, 564, 32, 1]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/S3sM8FkrWDrfjWeJ6",
+  "tags": [
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(digitSort([77, 23, 5, 7, 101]), [101, 23, 77, 5, 7])\nTest.assertSimilar(digitSort([1, 5, 9, 2, 789, 563, 444]), [444, 563, 789, 1, 2, 5, 9])\nTest.assertSimilar(digitSort([53219, 3772, 564, 32, 1]), [53219, 3772, 564, 32, 1])\nTest.assertSimilar(digitSort([9, 667, 87, 56, 3023, 5555, 111]), [3023, 5555, 111, 667, 56, 87, 9])",
+  "title": "Sort by Digit Length, then By Number Itself"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9bLHfb3wB8QCvtqWK",
+  "code": "function tweakLetters(str, arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that tweaks letters by one forward (+1) or backwards (-1) according to an array.</span></p><h3><span>Examples</span></h3><pre><code>tweakLetters(\"apple\", [0, 1, -1, 0, -1]) \u279e \"aqold\"\n// \"p\" + 1 =&gt; \"q\"; \"p\" - 1 =&gt; \"o\"; \"e\" - 1 =&gt; \"d\"\n\ntweakLetters(\"many\", [0, 0, 0, -1]) \u279e \"manx\"\n\ntweakLetters(\"rhino\", [1, 1, 1, 1, 1]) \u279e \"sijop\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/9bLHfb3wB8QCvtqWK",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(tweakLetters(\"apple\", [0, 1, -1, 0, -1]), \"aqold\")\nTest.assertEquals(tweakLetters(\"many\", [0, 0, 0, -1]), \"manx\")\nTest.assertEquals(tweakLetters(\"rhino\", [1, 1, 1, 1, 1]), \"sijop\")\nTest.assertEquals(tweakLetters('xyz', [1, 1, 1]), 'yza')\nTest.assertEquals(tweakLetters('abc', [-1, -1, -1]), 'zab')",
+  "title": "Tweaking Letters"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "DHQwNzAMoFm5XKeZx",
+  "code": "function combinator(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that, given an array of string arrays, returns an array of all combinations as concatenated strings.</span></p><ol><li><span>The function is called with an array of arrays containing strings.</span></li><li><span>The task is to combine each string of each array with each string of each other array.</span></li><li><span>If one of the string arrays is empty, the function will return an empty array.</span></li></ol><p><span>The function will accept an optional second string parameter. This parameter, if specified, is to be used to combine two strings.</span></p><h3><span>Examples</span></h3><pre><code>combinator([[\"a\", \"b\"], [\"c\", \"d\"]]) \u279e [\"ac\", \"ad\", \"bc\", \"bd\"]\n\ncombinator([[\"foo\", \"bar\"], [\"baz\", \"bamboo\"]], \" \") \u279e [\"foo baz\", \"foo bamboo\", \"bar baz\", \"bar bamboo\"]\n\ncombinator([[]]) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>The order of the given strings must be retained in the combinations.</span></li><li><span>You can assume that:</span><ul><li><span>The function is always called with an array of string arrays and that.</span></li><li><span>The string arrays can be empty.</span></li></ul></li></ul>",
+  "source_url": "https://edabit.com/challenge/DHQwNzAMoFm5XKeZx",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(combinator([['a']]), ['a']);\nTest.assertSimilar(combinator([['ab'], ['ba']]), ['abba']);\nTest.assertSimilar(combinator([['a', 'b']]), ['a', 'b']);\nTest.assertSimilar(combinator([['a', 'b'], ['c', 'd']]), ['ac', 'ad', 'bc', 'bd']);\nTest.assertSimilar(combinator([['a', 'b'], ['c', 'd'], ['e', 'f']]), ['ace', 'acf', 'ade', 'adf', 'bce', 'bcf', 'bde', 'bdf']);\nTest.assertSimilar(combinator([['foo', 'bar'], ['baz', 'bamboo']], ' '), ['foo baz', 'foo bamboo', 'bar baz', 'bar bamboo']);\nTest.assertSimilar(combinator([[]]), []);\nTest.assertSimilar(combinator([['a', 'b'], [], ['e', 'f']]), []);\nTest.assertSimilar(combinator([[], ['e', 'f']]), []);",
+  "title": "Combinator"
+}

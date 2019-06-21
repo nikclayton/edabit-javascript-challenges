@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "dNZmjoi3Lip2j4emx",
+  "code": "function findEvenNums(num) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that finds all even numbers from </span><code>1</code><span> to the given number.</span></p><h3><span>Examples</span></h3><pre><code>findEvenNums(8) \u279e [2, 4, 6, 8]\n\nfindEvenNums(4) \u279e [2, 4]\n\nfindEvenNums(2) \u279e [2]</code></pre><h3><span>Notes</span></h3><p><span>If there are no even numbers, return an empty array.</span></p>",
+  "source_url": "https://edabit.com/challenge/dNZmjoi3Lip2j4emx",
+  "tags": [
+    "arrays",
+    "conditions",
+    "numbers"
+  ],
+  "tests": "Test.assertSimilar(findEvenNums(4), [2, 4])\nTest.assertSimilar(findEvenNums(8), [2, 4 ,6, 8])\nTest.assertSimilar(findEvenNums(2), [2])\nTest.assertSimilar(findEvenNums(1), [])\nTest.assertSimilar(findEvenNums(9), [2, 4 ,6, 8])\nTest.assertSimilar(findEvenNums(11), [2, 4 ,6, 8, 10])",
+  "title": "Even Number Generator"
+}

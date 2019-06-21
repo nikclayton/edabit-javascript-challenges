@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "HqWmsX885jpZqMkdL",
+  "code": "function consecutiveCombo(a1, a2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if two arrays, when combined, form a consecutive sequence.</span></p><h3><span>Examples</span></h3><pre><code>consecutiveCombo([7, 4, 5, 1], [2, 3, 6]) \u279e true\n\nconsecutiveCombo([1, 4, 6, 5], [2, 7, 8, 9]) \u279e false\n\nconsecutiveCombo([1, 4, 5, 6], [2, 3, 7, 8, 10]) \u279e false\n\nconsecutiveCombo([44, 46], [45]) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>The input arrays will have unique values.</span></li><li><span>The input arrays can be in any order.</span></li><li><span>A </span><strong><span>consecutive sequence</span></strong><span> is a sequence without any gaps in the integers, e.g. </span><code>1, 2, 3, 4, 5</code><span> is a </span><strong><span>consecutive sequence</span></strong><span>, but </span><code>1, 2, 4, 5</code><span> is not.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/HqWmsX885jpZqMkdL",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(consecutiveCombo([1, 4, 5, 7], [2, 3, 6]), true)\nTest.assertEquals(consecutiveCombo([1, 4, 5, 6], [2, 7, 8, 9]), false)\nTest.assertEquals(consecutiveCombo([1, 4, 5, 6], [2, 3, 7, 8, 10]), false)\nTest.assertEquals(consecutiveCombo([7, 5, 4, 1], [2, 3, 6, 8]), true)\nTest.assertEquals(consecutiveCombo([33, 34, 40], [39, 38, 37, 36, 35, 32, 31, 30]), true)\nTest.assertEquals(consecutiveCombo([1, 4, 5, 6], [2, 3, 7, 8, 10]), false)\nTest.assertEquals(consecutiveCombo([44, 46], [45]), true)\nTest.assertEquals(consecutiveCombo([4, 3, 1], [2, 5]), true)\nTest.assertEquals(consecutiveCombo([4, 3, 1], [2, 5, 7, 6]), true)\nTest.assertEquals(consecutiveCombo([4, 3, 1], [7, 6, 5]), false)\nTest.assertEquals(consecutiveCombo([4, 3, 1], [0, 7, 6, 5]), false)\nTest.assertEquals(consecutiveCombo([44, 46], [45]), true)",
+  "title": "Combined Consecutive Sequence"
+}

@@ -1,8 +1,6 @@
 const pointsInCircle = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(pointsInCircle([{x: 0, y: 0}, {x: 1, y: 1}, {x: 0, y: 5}, {x: 10, y: 10}], 0, 0, 5)).toEqual(2);
         expect(pointsInCircle([{x: 9, y: 6}, {x: 9, y: 3}, {x: 4, y: 8}, {x: 3, y: 10}, {x: 1, y: 6}], 0, 0, 7.5)).toEqual(1);

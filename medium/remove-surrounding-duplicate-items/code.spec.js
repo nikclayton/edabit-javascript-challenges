@@ -1,8 +1,6 @@
 const uniqueInOrder = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(uniqueInOrder('AAAABBBCCDAABBB')).toEqual(['A', 'B', 'C', 'D', 'A', 'B']);
         expect(uniqueInOrder('ABBCcAD')).toEqual(['A', 'B', 'C', 'c', 'A', 'D']);

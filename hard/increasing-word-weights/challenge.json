@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "HCc5AiPdjjREC7jRP",
+  "code": "function increasingWordWeight(sentence) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>The </span><em><span>weight</span></em><span> of a word can be calculated by summing the </span><code>Unicode</code><span> code point for each character in the word, </span><em><span>excluding</span></em><span> any punctuation:</span></p><pre><code>\"Wouldn't\" = 87 + 111 + 117 + 108 + 100 + 110 + 116 = 749</code></pre><p><span>Write a function that takes a sentence as a string, returning </span><code>true</code><span> if all word weights increase for each word in the sentence, and </span><code>false</code><span> if any word weight decreases or remains the same.</span></p><h3><span>Examples</span></h3><pre><code>increasingWordWeight(\"Why not try?\") \u279e true\n// 312 -&gt; 337 -&gt; 351 (weights increase)\n\nincreasingWordWeight(\"All other roads.\") \u279e false\n// 281 -&gt; 546 -&gt; 537 (537 is less than 546)</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/HCc5AiPdjjREC7jRP",
+  "tags": [
+    "arrays",
+    "language_fundamentals",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(increasingWordWeights(\"Why not try?\"), true)\nTest.assertEquals(increasingWordWeights(\"Face your fears, never settle.\"), true)\nTest.assertEquals(increasingWordWeights(\"DON'T SHOUT!\"), true)\nTest.assertEquals(increasingWordWeights(\"Can you just leave?\"), true)\nTest.assertEquals(increasingWordWeights(\"You will push ahead, creating solutions!\"), true)\nTest.assertEquals(increasingWordWeights(\"All that money doesn't guarantee happiness.\"), true)\nTest.assertEquals(increasingWordWeights(\"Full steam ahead!\"), false)\nTest.assertEquals(increasingWordWeights(\"Not all those who wander are lost.\"), false)\nTest.assertEquals(increasingWordWeights(\"All other roads.\"), false)\nTest.assertEquals(increasingWordWeights(\"Whatever you are, be a good one.\"), false)\nTest.assertEquals(increasingWordWeights(\"Standing on the shoulders of giants.\"), false)\nTest.assertEquals(increasingWordWeights(\"You get what you settle for.\"), false)",
+  "title": "Increasing Word Weights"
+}

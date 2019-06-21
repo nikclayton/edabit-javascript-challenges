@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "3Efavz8YmSBia4p8s",
+  "code": "function indexMultiplier(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Return the sum of all items in an array, where each item is multiplied by its index (zero-based). For empty arrays, return </span><code>0</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>indexMultiplier([1, 2, 3, 4, 5]) \u279e 40\n// (1*0 + 2*1 + 3*2 + 4*3 + 5*4)\n\nindexMultiplier([-3, 0, 8, -6]) \u279e -2\n// (-3*0 + 0*1 + 8*2 + -6*3)</code></pre><h3><span>Notes</span></h3><p><span>All items in the array will be integers.</span></p>",
+  "source_url": "https://edabit.com/challenge/3Efavz8YmSBia4p8s",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(indexMultiplier([9, 3, 7, -7]), -4)\nTest.assertEquals(indexMultiplier([3, 8, 6, -4]), 8)\nTest.assertEquals(indexMultiplier([10, -9, -2, 0, 2]), -5)\nTest.assertEquals(indexMultiplier([4, 4, 2, 2, -4]), -2)\nTest.assertEquals(indexMultiplier([9, 4, 7, 5, -1, -3]), 14)\nTest.assertEquals(indexMultiplier([-9, 5, 9, 5, -7, 7]), 45)\nTest.assertEquals(indexMultiplier([-1, -2, 8, -5]), -1)\nTest.assertEquals(indexMultiplier([7, 10, -5, -4, 6, 2]), 22)\nTest.assertEquals(indexMultiplier([0, 1, 0, 1, 0, 1, 0, 1]), 16)\nTest.assertEquals(indexMultiplier([-2, 5, -7, -23, 0, 14]), -8)\nTest.assertEquals(indexMultiplier([53, -43, 39, -2, -11, 3]), 0)\nTest.assertEquals(indexMultiplier([40, 32, -18, 48, -15]), 80)\nTest.assertEquals(indexMultiplier([1, -20, -11, 4, -12, 38, -30, 34]), 170)\nTest.assertEquals(indexMultiplier([-21, 30, 20, 6, -16]), 24)\nTest.assertEquals(indexMultiplier([8, -24, -8, -23, 20, 32, -29, -20]), -183)\nTest.assertEquals(indexMultiplier([]), 0)",
+  "title": "Index Multiplier"
+}

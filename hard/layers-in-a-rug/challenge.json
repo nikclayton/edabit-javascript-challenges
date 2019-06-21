@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8khL2WEhZ6M9onHL4",
+  "code": "function countLayers(rug) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that counts how many concentric layers a rug.</span></p><h3><span>Examples</span></h3><pre><code>countLayers([\n  \"AAAA\",\n  \"ABBA\",\n  \"AAAA\"\n]) \u279e 2\n\ncountLayers([\n  \"AAAAAAAAA\",\n  \"ABBBBBBBA\",\n  \"ABBAAABBA\",\n  \"ABBBBBBBA\",\n  \"AAAAAAAAA\"\n]) \u279e 3\n\ncountLayers([\n  \"AAAAAAAAAAA\",\n  \"AABBBBBBBAA\",\n  \"AABCCCCCBAA\",\n  \"AABCAAACBAA\",\n  \"AABCADACBAA\",\n  \"AABCAAACBAA\",\n  \"AABCCCCCBAA\",\n  \"AABBBBBBBAA\",\n  \"AAAAAAAAAAA\"\n]) \u279e 5</code></pre><h3><span>Notes</span></h3><ul><li><span>Multiple layers can share the </span><strong><span>same component</span></strong><span> so count them separately (example #2).</span></li><li><span>Layers will be horizontally and vertically symmetric.</span></li><li><span>There will be at least one layer for each rug.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8khL2WEhZ6M9onHL4",
+  "tags": [
+    "logic",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countLayers([\n\"AAA\"]), 1)\n\nTest.assertEquals(countLayers([\n\"AAAA\", \n\"AAAA\", \n\"AAAA\"]), 1)\n\nTest.assertEquals(countLayers([\n\"AAAA\", \n\"ABBA\", \n\"AAAA\"]), 2)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAA\", \n\"ABBBBBBBA\", \n\"ABBBBBBBA\", \n\"ABBBBBBBA\", \n\"AAAAAAAAA\"]), 2)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAA\", \n\"ABBBBBBBA\", \n\"ABBAAABBA\", \n\"ABBBBBBBA\", \n\"AAAAAAAAA\"]), 3)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAA\", \n\"ABBBBBBBA\", \n\"ABCCCCCBA\", \n\"ABBBBBBBA\", \n\"AAAAAAAAA\"]), 3)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAAAA\", \n\"AABBBBBBBAA\",\n\"AABCCCCCBAA\",\n\"AABCAAACBAA\",\n\"AABCADACBAA\", \n\"AABCAAACBAA\",\n\"AABCCCCCBAA\",\n\"AABBBBBBBAA\",\n\"AAAAAAAAAAA\"]), 5)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAAAA\", \n\"AABBBBBBBAA\",\n\"AABCCCCCBAA\",\n\"AABCAAACBAA\",\n\"AABCABACBAA\", \n\"AABCAAACBAA\",\n\"AABCCCCCBAA\",\n\"AABBBBBBBAA\",\n\"AAAAAAAAAAA\"]), 5)\n\nTest.assertEquals(countLayers([\n\"AAAAAAAAAAA\", \n\"AABBBBBBBAA\",\n\"AABCCCCCBAA\",\n\"AABCDDDCBAA\",\n\"AABCDDDCBAA\", \n\"AABCDDDCBAA\",\n\"AABCCCCCBAA\",\n\"AABBBBBBBAA\",\n\"AAAAAAAAAAA\"]), 4)\n\nTest.assertEquals(countLayers([\n\"FFFFFFFFFFFFFFFFFFFFFFFFF\",\n\"FFFFFFFFFFFFFFFFFFFFFFFFF\",\n\"FFFFGGGGGGGGGGGGGGGGGFFFF\",\n\"FFFFGGGAAAAAAAAAAAGGGFFFF\", \n\"FFFFGGGAABBBBBBBAAGGGFFFF\",\n\"FFFFGGGAABCCCCCBAAGGGFFFF\",\n\"FFFFGGGAABCDDDCBAAGGGFFFF\",\n\"FFFFGGGAABCDDDCBAAGGGFFFF\", \n\"FFFFGGGAABCDDDCBAAGGGFFFF\",\n\"FFFFGGGAABCCCCCBAAGGGFFFF\",\n\"FFFFGGGAABBBBBBBAAGGGFFFF\",\n\"FFFFGGGAAAAAAAAAAAGGGFFFF\", \n\"FFFFGGGGGGGGGGGGGGGGGFFFF\", \n\"FFFFFFFFFFFFFFFFFFFFFFFFF\", \n\"FFFFFFFFFFFFFFFFFFFFFFFFF\"]), 6)",
+  "title": "Layers in a Rug"
+}

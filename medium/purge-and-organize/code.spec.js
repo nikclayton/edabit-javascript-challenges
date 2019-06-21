@@ -1,8 +1,6 @@
 const uniqueSort = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(uniqueSort([1, 5, 8, 2, 3, 4, 4, 4, 10])).toEqual([1, 2, 3, 4, 5, 8, 10]);
         expect(uniqueSort([1, 2, 5, 4, 7, 7, 7])).toEqual([1, 2, 4, 5, 7]);

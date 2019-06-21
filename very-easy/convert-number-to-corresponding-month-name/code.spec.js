@@ -1,8 +1,6 @@
 const month_name = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(month_name(1)).toEqual('January');
         expect(month_name(2)).toEqual('February');

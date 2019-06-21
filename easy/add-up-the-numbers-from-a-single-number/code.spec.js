@@ -1,8 +1,6 @@
 const addUp = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(addUp(4)).toEqual(10);
         expect(addUp(13)).toEqual(91);

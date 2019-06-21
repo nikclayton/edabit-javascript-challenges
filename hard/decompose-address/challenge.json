@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "xAc7G3AzGgQzLabTe",
+  "code": "function decomposeAddress(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that decomposes an address string into an array of five substrings:</span></p><ol><li><span>Street Number</span></li><li><span>Street Name</span></li><li><span>City Name</span></li><li><span>State</span></li><li><span>Zip Code</span></li></ol><h3><span>Examples</span></h3><pre><code>decomposeAddress(\"557 Farmer Rd Corner, MT 59105\")\n\u279e [\"557\", \"Farmer Rd\", \"Corner\", \"MT\", \"59105\"]\n\ndecomposeAddress(\"3315 Vanity St Beverly Hills, CA 90210\")\n\u279e [\"3315\", \"Vanity St\", \"Beverly Hills\", \"CA\", \"90210\"]\n\ndecomposeAddress(\"8919 Scarecrow Ct Idaho Falls, ID 80193\")\n\u279e [\"8919\", \"Scarecrow Ct\", \"Idaho Falls\", \"ID\", \"80193\"]</code></pre><h3><span>Notes</span></h3><p><span>All street extensions will be shortened to two-letter formats.</span></p>",
+  "source_url": "https://edabit.com/challenge/xAc7G3AzGgQzLabTe",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(decomposeAddress(\"3315 Vanity St Beverly Hills, CA 90210\"), [\"3315\", \"Vanity St\", \"Beverly Hills\", \"CA\", \"90210\"])\nTest.assertSimilar(decomposeAddress(\"557 Farmer Rd Corner, MT 59105\"), [\"557\", \"Farmer Rd\", \"Corner\", \"MT\", \"59105\"])\nTest.assertSimilar(decomposeAddress(\"8919 Scarecrow Ct Idaho Falls, ID 80193\"), [\"8919\", \"Scarecrow Ct\", \"Idaho Falls\", \"ID\", \"80193\"])\nTest.assertSimilar(decomposeAddress(\"91 Ronald Dr Stenton, MS 39073\"), [\"91\", \"Ronald Dr\", \"Stenton\", \"MS\", \"39073\"])\nTest.assertSimilar(decomposeAddress(\"25000 Meek Pl Bozerman, MT 59104\"), [\"25000\", \"Meek Pl\", \"Bozerman\", \"MT\", \"59104\"])",
+  "title": "Decompose Address"
+}

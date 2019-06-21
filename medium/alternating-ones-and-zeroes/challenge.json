@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "XHzuvkGKGy7pB73ZE",
+  "code": "function canAlternate(s) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if the binary string can be rearranged to form a string of alternating </span><code>0</code><span>s and </span><code>1</code><span>s.</span></p><h3><span>Examples</span></h3><pre><code>canAlternate(\"0001111\") \u279e true\n// Can make: \"1010101\"\n\ncanAlternate(\"01001\") \u279e true\n// Can make: \"01010\"\n\ncanAlternate(\"010001\") \u279e false\n\ncanAlternate(\"1111\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>No substring of the output may contain more than one consecutive repeating character (e.g. </span><code>00</code><span> or </span><code>11</code><span> are not allowed).</span></li><li><span>Return </span><code>false</code><span> if a string only contains </span><code>0</code><span>s or only contains </span><code>1</code><span>s.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/XHzuvkGKGy7pB73ZE",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canAlternate(\"0001111\"), true)\nTest.assertEquals(canAlternate(\"01001\"), true)\nTest.assertEquals(canAlternate(\"010001\"), false)\nTest.assertEquals(canAlternate(\"0100110111\"), false)\nTest.assertEquals(canAlternate(\"10101010\"), true)\nTest.assertEquals(canAlternate(\"010101000\"), false)\nTest.assertEquals(canAlternate(\"0111\"), false)\nTest.assertEquals(canAlternate(\"00\"), false)\nTest.assertEquals(canAlternate(\"1111\"), false)\nTest.assertEquals(canAlternate(\"101\"), true)",
+  "title": "Alternating Ones and Zeroes"
+}

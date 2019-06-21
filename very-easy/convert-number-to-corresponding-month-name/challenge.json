@@ -4,7 +4,7 @@
   "challenge_id": "NKknKNfeaJxLDfJuZ",
   "code": "function month_name(num) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes a number (from 1 to 12) and return its corresponding month name as a string.</span></p><h3><span>Examples</span></h3><pre><code>month_name(3) \u279e \"March\"\n\nmonth_name(12) \u279e \"December\"\n\nmonth_name(6) \u279e \"June\"</code></pre><h3><span>Months</span></h3><ol><li><span>January</span></li><li><span>February</span></li><li><span>March</span></li><li><span>April</span></li><li><span>May</span></li><li><span>June</span></li><li><span>July</span></li><li><span>August</span></li><li><span>September</span></li><li><span>October</span></li><li><span>November</span></li><li><span>December</span></li></ol><h3><span>Notes</span></h3><p><span>Expect only numbers as input ranging from 1 to 12.</span></p>",
+  "instructions": "<p><span>Create a function that takes a number (from 1 to 12) and return its corresponding month name as a string.</span></p><h3><span>Months</span></h3><ol><li><span>January</span></li><li><span>February</span></li><li><span>March</span></li><li><span>April</span></li><li><span>May</span></li><li><span>June</span></li><li><span>July</span></li><li><span>August</span></li><li><span>September</span></li><li><span>October</span></li><li><span>November</span></li><li><span>December</span></li></ol><h3><span>Examples</span></h3><pre><code>month_name(3) \u279e \"March\"\n\nmonth_name(12) \u279e \"December\"\n\nmonth_name(6) \u279e \"June\"</code></pre><h3><span>Notes</span></h3><ul><li><span>You can expect only integers ranging from 1 to 12 as test input.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/NKknKNfeaJxLDfJuZ",
   "tags": [
     "arrays",
@@ -12,6 +12,6 @@
     "dates",
     "formatting"
   ],
-  "tests": "Test.assertEquals(month_name(1),\t'January');\nTest.assertEquals(month_name(2)\t, 'February');\nTest.assertEquals(month_name(3), 'March');\nTest.assertEquals(month_name(4), 'April');\nTest.assertEquals(month_name(5)\t, 'May');\nTest.assertEquals(month_name(6)\t, 'June');\nTest.assertEquals(month_name(7)\t, 'July');\nTest.assertEquals(month_name(8)\t, 'August');\nTest.assertEquals(month_name(9)\t, 'September');\nTest.assertEquals(month_name(10), 'October');\nTest.assertEquals(month_name(11), 'November');\nTest.assertEquals(month_name(12), 'December');",
+  "tests": "Test.assertEquals(month_name(1), 'January')\nTest.assertEquals(month_name(2), 'February')\nTest.assertEquals(month_name(3), 'March')\nTest.assertEquals(month_name(4), 'April')\nTest.assertEquals(month_name(5), 'May')\nTest.assertEquals(month_name(6), 'June')\nTest.assertEquals(month_name(7), 'July')\nTest.assertEquals(month_name(8), 'August')\nTest.assertEquals(month_name(9), 'September')\nTest.assertEquals(month_name(10), 'October')\nTest.assertEquals(month_name(11), 'November')\nTest.assertEquals(month_name(12), 'December')",
   "title": "Convert Number to Corresponding Month Name"
 }

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "RdHCBE4GXzdAEFQug",
+  "code": "function swapTwo(s) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that swaps the first </span><strong><span>pair</span></strong><span> (1st and 2nd characters) with the second </span><strong><span>pair</span></strong><span> (3rd and 4th characters) for every quadruplet substring.</span></p><h3><span>Examples</span></h3><pre><code>swapTwo(\"ABCDEFGH\") \u279e \"CDABGHEF\"\n\nswapTwo(\"AABBCCDDEEFF\") \u279e \"BBAADDCCFFEE\"\n\nswapTwo(\"munchkins\") \u279e \"ncmuinhks\"\n\nswapTwo(\"FFGGHHI\") \u279e \"FFGGIHH\"</code></pre><h3><span>Notes</span></h3><p><span>Keep </span><strong><span>leftover strings</span></strong><span> in the same order.</span></p>",
+  "source_url": "https://edabit.com/challenge/RdHCBE4GXzdAEFQug",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(swapTwo(\"ABCDEFGH\"), \"CDABGHEF\")\nTest.assertEquals(swapTwo(\"AABBCCDDEEFF\"), \"BBAADDCCFFEE\")\nTest.assertEquals(swapTwo(\"oompaloompa\"), \"mpooooalmpa\")\nTest.assertEquals(swapTwo(\"munchkins\"), \"ncmuinhks\")\nTest.assertEquals(swapTwo(\"FFGGHHI\"), \"GGFFHHI\")\nTest.assertEquals(swapTwo(\"FFG\"), \"FFG\")\nTest.assertEquals(swapTwo(\"\"), \"\")",
+  "title": "Swapping 2 By 2"
+}

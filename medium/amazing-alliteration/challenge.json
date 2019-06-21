@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "RdypN7bxyrjnyhcCe",
+  "code": "function alliterationCorrect(sentence) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><strong><span>Alliteration</span></strong><span> refers to a sequence of words that begin with the same letter. For this exercise, a sentence is correctly alliterated if all words </span><strong><span>strictly greater than 3 characters</span></strong><span> begins with the same letter.</span></p><h3><span>Examples</span></h3><pre><code>alliterationCorrect(\"She swam to the shore.\") \u279e true\n// All words &gt;= 4 letters long begins with \"s\"\n\nalliterationCorrect(\"Maybel manages money well.\") \u279e false\n// \"well\" does not begin with an \"m\"\n\nalliterationCorrect(\"He helps harness happiness.\") \u279e true\n\nalliterationCorrect(\"There are many animals.\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Check the resources tab for a better explanation of alliteration.</span></li><li><span>This is to allow for </span><strong><span>filler words</span></strong><span> such as \"the\", \"to\", \"a\", etc. - so words with three or fewer characters are not counted.</span></li><li><span>Punctuation does not count as part of a word's length.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/RdypN7bxyrjnyhcCe",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(alliterationCorrect('She swam to the shore.'), true)\nTest.assertEquals(alliterationCorrect('Maybel manages money well.'), false)\nTest.assertEquals(alliterationCorrect('He helps harness happiness.'), true)\nTest.assertEquals(alliterationCorrect('There are many animals in the zoo.'), false)\nTest.assertEquals(alliterationCorrect('Tanya took the tomatoes. Two times two is not twenty.'), true)\nTest.assertEquals(alliterationCorrect('Two times two is four.'), false)\nTest.assertEquals(alliterationCorrect('Nancy nimbly ran for the newts.'), true)",
+  "title": "Amazing Alliteration"
+}

@@ -4,7 +4,7 @@
   "challenge_id": "r9yzk5388xhrsrLv2",
   "code": "function getProducts(arr) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>You have an array of integers, and for each index you want to find the product of </span><em><span>every integer except the integer at that index</span></em><span>.</span></p><p><span>Write a function that takes an array of integers and returns an array of the products.</span></p><h3><span>Examples</span></h3><pre><code>getProducts([1, 7, 3, 4]) \u279e [84, 12, 28, 21]\n\ngetProducts([1, 7, 3, 4]) \u279e [84, 12, 28, 21]\n\ngetProducts([1, 2, 3, 0, 5]) \u279e [0, 0, 0, 30, 0]</code></pre><h3><span>Notes</span></h3><p><span>You can't use division, otherwise you might end up dividing by 0 and the universe would end.</span></p>",
+  "instructions": "<p><span>You have an array of integers, and for each index you want to find the product of </span><em><span>every integer except the integer at that index</span></em><span>.</span></p><p><span>Create a function that takes an array of integers and returns an array of the products.</span></p><h3><span>Examples</span></h3><pre><code>getProducts([1, 7, 3, 4]) \u279e [84, 12, 28, 21]\n\ngetProducts([1, 7, 3, 4]) \u279e [84, 12, 28, 21]\n\ngetProducts([1, 2, 3, 0, 5]) \u279e [0, 0, 0, 30, 0]</code></pre><h3><span>Notes</span></h3><p><span>You can't use division, otherwise you might end up dividing by 0 and the universe would end.</span></p>",
   "source_url": "https://edabit.com/challenge/r9yzk5388xhrsrLv2",
   "tags": [
     "arrays",

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "RN3LvGdsfsyruoBtt",
+  "code": "function whoWon(board) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given a tic-tac-toe board, create a function that determines whether X won, O won, or there's a tie.</span></p><p><span>The board is represented as a 2-dimensional array. A board does not have to be completely filled. Blank squares are represented with the letter \"B\". For each board, X begins and O goes second.</span></p><h3><span>Examples</span></h3><pre><code>whoWon([\n  [\"X\", \"O\", \"B\"],\n  [\"B\", \"X\", \"O\"],\n  [\"B\", \"B\", \"X\"]\n]) \n\n\u279e \"X\"\n\nwhoWon([\n  [\"X\", \"O\", \"X\"],\n  [\"O\", \"X\", \"B\"],\n  [\"X\", \"B\", \"O\"]\n]) \n\n\u279e \"X\"\n\nwhoWon([\n  [\"X\", \"X\", \"O\"],\n  [\"O\", \"O\", \"X\"],\n  [\"X\", \"X\", \"O\"]\n]) \n\n\u279e \"Tie\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/RN3LvGdsfsyruoBtt",
+  "tags": [
+    "arrays",
+    "games"
+  ],
+  "tests": "Test.assertEquals(whoWon([\n['X', 'O', 'B'], \n['B', 'X', 'O'],\n['B', 'B', 'X']\n]), \"X\");\n\nTest.assertEquals(whoWon([\n['X', 'O', 'X'], \n['O', 'X', 'B'],\n['X', 'B', 'O']\n]), \"X\");\n\nTest.assertEquals(whoWon([\n['X', 'X', 'O'], \n['O', 'O', 'X'],\n['X', 'X', 'O']\n]), \"Tie\");\n\nTest.assertEquals(whoWon([\n['X', 'X', 'B'], \n['O', 'X', 'X'],\n['O', 'O', 'O']\n]), \"O\");\n\nTest.assertEquals(whoWon([\n['X', 'X', 'B'], \n['O', 'X', 'X'],\n['O', 'O', 'O']\n]), \"O\");\n\nTest.assertEquals(whoWon([\n['O', 'X', 'X'], \n['B', 'O', 'B'],\n['X', 'B', 'O']\n]), \"O\");\n\nTest.assertEquals(whoWon([\n['X', 'O', 'X'], \n['O', 'O', 'X'],\n['X', 'X', 'O']\n]), \"Tie\");",
+  "title": "Tic Tac Toe"
+}

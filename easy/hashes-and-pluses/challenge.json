@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ydBcGvv3n447nbxCy",
+  "code": "function hashPlusCount(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that returns the number of hashes and pluses in a string.</span></p><h3><span>Examples</span></h3><pre><code>hashPlusCount(\"###+\") \u279e [3, 1]\n\nhashPlusCount(\"##+++#\") \u279e [3, 3]\n\nhashPlusCount(\"#+++#+#++#\") \u279e [4, 6]\n\nhashPlusCount(\"\") \u279e [0, 0]</code></pre><h3><span>Notes</span></h3><p><span>It should return </span><code>[0, 0]</code><span> for an empty string.</span></p>",
+  "source_url": "https://edabit.com/challenge/ydBcGvv3n447nbxCy",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(hashPlusCount(\"####\"), [4, 0])\nTest.assertSimilar(hashPlusCount(\"#\"), [1, 0])\nTest.assertSimilar(hashPlusCount(\"+++++++\"), [0, 7])\nTest.assertSimilar(hashPlusCount(\"++\"), [0, 2])\nTest.assertSimilar(hashPlusCount(\"#+#+\"), [2, 2])\nTest.assertSimilar(hashPlusCount(\"###+\"), [3, 1])\nTest.assertSimilar(hashPlusCount(\"##+++#\"), [3, 3])\nTest.assertSimilar(hashPlusCount(\"#+++#+#++#\"), [4, 6])\nTest.assertSimilar(hashPlusCount(\"\"), [0, 0])",
+  "title": "Hashes and Pluses"
+}

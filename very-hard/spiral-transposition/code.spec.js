@@ -28,8 +28,4 @@ test('Should work when there are more rows than collumns', () => {
 test('Should work when there are more collumns than rows', () => {
         expect(spiral([[2, 4, 6, 8], [7, 3, 0, 5]])).toEqual([2, 4, 6, 8, 5, 0, 3, 7]);
     });
-    
-    test('the tests', () => {
-        
-    });
 });

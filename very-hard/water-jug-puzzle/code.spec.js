@@ -1,8 +1,6 @@
 const waterjug = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(waterjug([3, 5, 8], [0, 3, 5])).toEqual(2);
         expect(waterjug([1, 3, 4], [0, 2, 2])).toEqual(3);

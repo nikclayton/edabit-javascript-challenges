@@ -1,8 +1,6 @@
 const expand = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(expand(13)).toEqual('10 + 3');
         expect(expand(86)).toEqual('80 + 6');

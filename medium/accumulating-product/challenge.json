@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "QXRdQoWRMx4rZ8WDR",
+  "code": "function accumulatingProduct(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array and returns an array of the accumulating product.</span></p><h3><span>Examples</span></h3><pre><code>accumulatingProduct([1, 2, 3, 4]) \u279e [1, 2, 6, 24]\n// [1, 2, 6, 24] can be written as [1, 1 x 2, 1 x 2 x 3, 1 x 2 x 3 x 4]\n\naccumulatingProduct([1, 5, 7]) \u279e [1, 5, 35]\n\naccumulatingProduct([1, 0, 1, 0]) \u279e [1, 0, 0, 0]\n\naccumulatingProduct([]) \u279e []</code></pre><h3><span>Notes</span></h3><p><span>An empty array should return an empty array </span><code>[]</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/QXRdQoWRMx4rZ8WDR",
+  "tags": [
+    "arrays"
+  ],
+  "tests": "Test.assertSimilar(accumulatingProduct([1, 2, 3, 4]), [1, 2, 6, 24])\nTest.assertSimilar(accumulatingProduct([5, 10, 1, 1]), [5, 50, 50, 50])\nTest.assertSimilar(accumulatingProduct([1, 5, 7]), [1, 5, 35])\nTest.assertSimilar(accumulatingProduct([1, 0, 1, 0]), [1, 0, 0, 0])\nTest.assertSimilar(accumulatingProduct([1]), [1])\nTest.assertSimilar(accumulatingProduct([1, 2, 2, 2, 2, 2, 2]), [1, 2, 4, 8, 16, 32, 64])\nTest.assertSimilar(accumulatingProduct([1, 1, 1, 1, 1, 1, 1]), [1, 1, 1, 1, 1, 1, 1])\nTest.assertSimilar(accumulatingProduct([]), [])",
+  "title": "Accumulating Product"
+}

@@ -1,5 +1,5 @@
-function missingNums(arr) {
+function missingNum(arr) {
   // Your code here.
 }
 
-module.exports = missingNums;
+module.exports = missingNum;

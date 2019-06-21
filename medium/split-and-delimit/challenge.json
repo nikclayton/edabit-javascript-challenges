@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "D7wauJQRRCnCqroEZ",
+  "code": "function splitAndDelimit(str, num, del) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that splits a string into substrings of size n, adding a specified delimiter between each of the pieces.</span></p><h3><span>Examples</span></h3><pre><code>splitAndDelimit(\"bellow\", 2, \"&amp;\") \u279e \"be&amp;ll&amp;ow\"\n\nsplitAndDelimit(\"magnify\", 3, \":\") \u279e \"mag:nif:y\"\n\nsplitAndDelimit(\"poisonous\", 2, \"~\") \u279e \"po~is~on~ou~s\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/D7wauJQRRCnCqroEZ",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(splitAndDelimit(\"bellow\", 2, '&'), \"be&ll&ow\")\nTest.assertEquals(splitAndDelimit(\"magnify\", 3, ':'), \"mag:nif:y\")\nTest.assertEquals(splitAndDelimit(\"poisonous\", 2, '~'), \"po~is~on~ou~s\")\nTest.assertEquals(splitAndDelimit(\"shape-shifting\", 5, '^'), \"shape^-shif^ting\")\nTest.assertEquals(splitAndDelimit(\"nebulous\", 1, '#'), \"n#e#b#u#l#o#u#s\")",
+  "title": "Split and Delimit"
+}

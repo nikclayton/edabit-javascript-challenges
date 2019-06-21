@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8L62AipTvCLPQKtFH",
+  "code": "function afterPotion(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>There are two types of potions:</span></p><ol><li><strong><span>Growing potion</span></strong><span>: </span><code>\"A\"</code></li><li><strong><span>Shrinking potion</span></strong><span>: </span><code>\"B\"</code></li></ol><ul><li><span>If </span><code>\"A\"</code><span> immediately follows a </span><strong><span>digit</span></strong><span>, add 1 to the digit.</span></li><li><span>If </span><code>\"B\"</code><span> immediately follows a </span><strong><span>digit</span></strong><span>, subtract 1 from the digit.</span></li></ul><p><span>Create a function that returns a string according to these rules, removing the potions once they've been consumed.</span></p><h3><span>Examples</span></h3><pre><code>afterPotion(\"3A78B51\") \u279e \"47751\"\n// 3 grows to 4, 8 shrinks to 7\n\nafterPotion(\"9999B\") \u279e \"9998\"\n\nafterPotion(\"9A123\") \u279e \"10123\"\n\nafterPotion(\"567\") \u279e \"567\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Digits that do not have a potion on their immediate right should be left alone.</span></li><li><span>A digit will always either be followed by </span><strong><span>zero</span></strong><span> or </span><strong><span>exactly 1 potion</span></strong><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/8L62AipTvCLPQKtFH",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(afterPotion(\"567\"), \"567\", \"it should work without any potions\")\nTest.assertEquals(afterPotion(\"3A78B51\"), \"47751\", \"it should work with both potions\")\nTest.assertEquals(afterPotion(\"9999B\"), \"9998\")\nTest.assertEquals(afterPotion(\"9A123\"), \"10123\")\nTest.assertEquals(afterPotion(\"1A2A3A4A\"), \"2345\")\nTest.assertEquals(afterPotion(\"9B8B7B6A\"), \"8767\")",
+  "title": "Growing and Shrinking Potions"
+}

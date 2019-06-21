@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "mDtrDtY3JCPmEv9jt",
+  "code": "function isCorrectAliases(names, aliases) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are in the process of creating a chat application and want to add an </span><strong><span>anonymous name</span></strong><span> feature. This anonymous name feature will create an alias that consists of two capitalized words beginning with the same letter as the users first name.</span></p><p><span>Create a function that determines if the array of users is mapped to an array of anonymous names correctly.</span></p><h3><span>Examples</span></h3><pre><code>isCorrectAliases([\"Adrian M.\", \"Harriet S.\", \"Mandy T.\"], [\"Amazing Artichoke\", \"Hopeful Hedgehog\", \"Marvelous Mouse\"]) \u279e true\n\nisCorrectAliases([\"Rachel F.\", \"Pam G.\", \"Fred Z.\", \"Nancy K.\"]) \u279e [\"Reassuring Rat\", \"Peaceful Panda\", \"Fantastic Frog\", \"Notable Nickel\"] \u279e true\n\nisCorrectAliases([\"Beth T.\"]) \u279e [\"Brandishing Mimosa\"] \u279e false\n// Both words in \"Scary Mimosa\" should begin with a \"B\" - \"Brandishing Beaver\" would do the trick.</code></pre><h3><span>Notes</span></h3><p><span>Both words in the alias should be capitalized.</span></p>",
+  "source_url": "https://edabit.com/challenge/mDtrDtY3JCPmEv9jt",
+  "tags": [
+    "arrays",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(isCorrectAliases(['Adrian M.', 'Harriet S.', 'Mandy T.'], ['Amazing Artichoke', 'Hopeful Hedgehog', 'Marvelous Mouse']), true)\nTest.assertEquals(isCorrectAliases(['Rachel F.', 'Pam G.', 'Fred Z.', 'Nancy K.'], ['Reassuring Rat', 'Peaceful Panda', 'Fantastic Frog', 'Notable Nickel']), true)\nTest.assertEquals(isCorrectAliases(['Beth T.'], ['Brandishing Mimosa']), false)\nTest.assertEquals(isCorrectAliases(['Mick S.', 'Sam R.', 'Val W.'], ['Magnificent Mint', 'Sly Serpent', 'Victorious Viceroy']), true)\nTest.assertEquals(isCorrectAliases(['Bella T.', 'Tom H.', 'Ben C.'], ['Beautiful Barn', 'Talented Tapestry', 'Cool Bamboo']), false)\nTest.assertEquals(isCorrectAliases(['Bella T.', 'Tom H.', 'Ben C.'], ['Beautiful Barn', 'Talented Tapestry', 'Bountiful Bamboo']), true)",
+  "title": "Anonymous Name"
+}

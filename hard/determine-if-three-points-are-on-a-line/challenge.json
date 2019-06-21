@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Mzd9ZxakCh36XCTGf",
+  "code": "function sameLine(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if three points belong to the same line, and </span><code>false</code><span> otherwise. Each point is represented by an array consisting of an x- and y-coordinates.</span></p><h3><span>Examples</span></h3><pre><code>sameLine([[0, 0], [1, 1], [3, 3]]) \u279e true\n\nsameLine([[-2, -1], [2, 1], [0, 0]]) \u279e true\n\nsameLine([[-2, 0], [-10, 0], [-8, 0]]) \u279e true\n\nsameLine([[0, 0], [1, 1], [1, 2]]) \u279e false\n\nsameLine([[3, 4], [3, 5], [6, 6]]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Note the special case of a vertical line.</span></p>",
+  "source_url": "https://edabit.com/challenge/Mzd9ZxakCh36XCTGf",
+  "tags": [
+    "arrays",
+    "math",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(sameLine([[0, 0], [1, 1], [3, 3]]), true)\nTest.assertEquals(sameLine([[-2, -1], [2, 1], [0, 0]]), true)\nTest.assertEquals(sameLine([[-2, 0], [-10, 0], [-8, 0]]), true)\nTest.assertEquals(sameLine([[0, 0], [0, 5], [0, 7]]), true)\nTest.assertEquals(sameLine([[9, 9], [8, 8], [6, 6]]), true)\nTest.assertEquals(sameLine([[0, 0], [1, 1], [1, 2]]), false)\nTest.assertEquals(sameLine([[3, 4], [3, 5], [6, 6]]), false)\nTest.assertEquals(sameLine([[9, 8], [8, 8], [6, 6]]), false)",
+  "title": "Determine if Three Points are on a Line"
+}

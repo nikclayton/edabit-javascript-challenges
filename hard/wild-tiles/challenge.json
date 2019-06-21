@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "2vmA8faDorenTwLf3",
+  "code": "function canBuild(word, letters) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if it is possible to build a string with a particular scrabble hand.</span></p><h3><span>Examples</span></h3><pre><code>canBuild(\"quavers\", [\"S\", \"U\", \"Q\", \"V\", \"A\", \"#\", \"#\"]) \u279e true\n\ncanBuild(\"move\", [\"M\", \"U\", \"T\", \"V\", \"E\", \"J\", \"#\"]) \u279e true\n\ncanBuild(\"move\", [\"M\", \"U\", \"T\", \"V\", \"E\", \"J\", \"S\"]) \u279e false\n\ncanBuild(\"sharp\", [\"S\", \"K\", \"H\", \"#\", \"#\", \"F\", \"F\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Hashtags </span><code>\"#\"</code><span> represent wild tiles.</span></p>",
+  "source_url": "https://edabit.com/challenge/2vmA8faDorenTwLf3",
+  "tags": [
+    "games",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canBuild(\"quavers\", [\"S\", \"U\", \"Q\", \"V\", \"A\", \"#\", \"#\"]), true)\nTest.assertEquals(canBuild(\"move\", [\"M\", \"U\", \"T\", \"V\", \"E\", \"J\", \"#\"]), true)\nTest.assertEquals(canBuild(\"banter\", [\"N\", \"E\", \"B\", \"N\", \"#\", \"A\", \"T\"]), true)\nTest.assertEquals(canBuild(\"snake\", [\"S\", \"K\", \"E\", \"N\", \"V\", \"J\", \"A\"]), true)\nTest.assertEquals(canBuild(\"move\", [\"M\", \"U\", \"T\", \"V\", \"E\", \"J\", \"S\"]), false)\nTest.assertEquals(canBuild(\"sharp\", [\"S\", \"K\", \"H\", \"#\", \"#\", \"F\", \"F\"]), false)\nTest.assertEquals(canBuild(\"more\", [\"M\", \"R\", \"I\", \"E\", \"U\", \"S\", \"F\"]), false)\nTest.assertEquals(canBuild(\"talker\", [\"#\", \"#\", \"Z\", \"V\", \"P\", \"A\", \"K\"]), false)\nTest.assertEquals(canBuild(\"talker\", [\"#\", \"#\", \"T\", \"T\", \"A\", \"A\", \"L\"]), false)\nTest.assertEquals(canBuild(\"brain\", [\"#\", \"S\", \"B\", \"B\", \"I\", \"I\", \"#\"]), false)",
+  "title": "Wild Tiles"
+}

@@ -1,8 +1,6 @@
 const nameShuffle = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(nameShuffle('Donald Trump')).toEqual('Trump Donald');
         expect(nameShuffle('Rosie O\'Donnel')).toEqual('O\'Donnel Rosie');

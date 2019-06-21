@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "YxtBN5uCTSCqoZofd",
+  "code": "function mysteryFunc(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>This is a </span><strong><span>reverse coding challenge</span></strong><span>.</span></p><p><span>Your task is to create a function that, when fed the inputs below, produce the sample outputs shown.</span></p><h3><span>Examples</span></h3><pre><code>3 \u279e 21\n\n9 \u279e 2221\n\n17 \u279e 22221\n\n24 \u279e 22228</code></pre><h3><span>Notes</span></h3><p><span>If you get stuck, check the </span><strong><span>Comments</span></strong><span> for help.</span></p>",
+  "source_url": "https://edabit.com/challenge/YxtBN5uCTSCqoZofd",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(mysteryFunc(3), 21)\nTest.assertEquals(mysteryFunc(9), 2221)\nTest.assertEquals(mysteryFunc(15), 2227)\nTest.assertEquals(mysteryFunc(17), 22221)\nTest.assertEquals(mysteryFunc(19), 22223)\nTest.assertEquals(mysteryFunc(24), 22228)\nTest.assertEquals(mysteryFunc(35), 222223)",
+  "title": "Reverse Coding Challenge #2"
+}

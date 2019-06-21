@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Wd7WKqm95jhcAGATG",
+  "code": "function removeDups(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of items, removes all duplicate items and returns a new array in the same sequential order as the old array (minus duplicates).</span></p><h3><span>Examples</span></h3><pre><code>removeDups([\"John\", \"Taylor\", \"John\"]) \u279e [\"John\", \"Taylor\"]\n\nremoveDups([1, 0, 1, 0]) \u279e [1, 0]\n\nremoveDups([\"The\", \"big\", \"cat\"]) \u279e [\"The\", \"big\", \"cat\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Test cases contain arrays with both strings and numbers.</span></li><li><span>Case sensitive.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Wd7WKqm95jhcAGATG",
+  "tags": [
+    "arrays",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(removeDups(['John', 'Taylor', 'John']), ['John', 'Taylor'])\nTest.assertSimilar(removeDups(['John', 'Taylor', 'John', 'john']), ['John', 'Taylor', 'john'])\nTest.assertSimilar(removeDups(['javascript', 'python', 'python', 'ruby', 'javascript', 'c', 'ruby']), ['javascript', 'python', 'ruby', 'c'])\nTest.assertSimilar(removeDups([1, 2, 2, 2, 3, 2, 5, 2, 6, 6, 3, 7, 1, 2, 5]), [1, 2, 3, 5, 6, 7])\nTest.assertSimilar(removeDups(['#', '#', '%', '&', '#', '$', '&']), ['#', '%', '&', '$'])\nTest.assertSimilar(removeDups([3, 'Apple', 3, 'Orange', 'Apple']), [3, 'Apple', 'Orange'])",
+  "title": "Remove Duplicates from an Array"
+}

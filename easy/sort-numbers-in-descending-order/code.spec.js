@@ -1,8 +1,6 @@
 const sortDecending = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sortDecending(123)).toEqual(321);
         expect(sortDecending(670276097)).toEqual(977766200);

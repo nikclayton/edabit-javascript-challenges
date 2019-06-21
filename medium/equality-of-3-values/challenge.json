@@ -4,13 +4,13 @@
   "challenge_id": "PKiTjA7SLK99ZZ8GK",
   "code": "function equal(a, b, c) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Write a function that takes three input values </span><code>(a, b, c)</code><span> and returns the number of equal values.</span></p><h3><span>Examples</span></h3><pre><code>equal(3, 4, 3) \u279e 2\n\nequal(1, 1, 1) \u279e 3\n\nequal(3, 4, 1) \u279e 0 </code></pre><h3><span>Notes</span></h3><p><span>Your function must return 0, 2 or 3.</span></p>",
+  "instructions": "<p><span>Create a function that takes three integer arguments </span><code>(a, b, c)</code><span> and returns the number of equal values.</span></p><h3><span>Examples</span></h3><pre><code>equal(3, 4, 3) \u279e 2\n\nequal(1, 1, 1) \u279e 3\n\nequal(3, 4, 1) \u279e 0</code></pre><h3><span>Notes</span></h3><p><span>Your function must return 0, 2 or 3.</span></p>",
   "source_url": "https://edabit.com/challenge/PKiTjA7SLK99ZZ8GK",
   "tags": [
     "algorithms",
     "conditions",
     "numbers"
   ],
-  "tests": "Test.assertEquals(equal(2,3,4), 0, \"All values are differents\");\nTest.assertEquals(equal(7,3,7), 2, \"Two values are equal\");\nTest.assertEquals(equal(4,4,4), 3, \"All 3 values are equal\");\nTest.assertEquals(equal(7,3,4), 0, \"All values are differents\");\nTest.assertEquals(equal(3,3,6), 2, \"Two values are equal\");\nTest.assertEquals(equal(1,1,1), 3, \"All 3 values are equal\");\nTest.assertEquals(equal(1,7,6), 0, \"All values are differents\");\nTest.assertEquals(equal(\"a\",\"toto\",\"a\"), 2, \"Two values are equal\");\nTest.assertEquals(equal(7, 7, 7), 3, \"All 3 values are equal\");",
+  "tests": "Test.assertEquals(equal(2,3,4), 0, \"All values are differents\");\nTest.assertEquals(equal(7,3,7), 2, \"Two values are equal\");\nTest.assertEquals(equal(4,4,4), 3, \"All 3 values are equal\");\nTest.assertEquals(equal(7,3,4), 0, \"All values are differents\");\nTest.assertEquals(equal(3,3,6), 2, \"Two values are equal\");\nTest.assertEquals(equal(1,1,1), 3, \"All 3 values are equal\");\nTest.assertEquals(equal(1,7,6), 0, \"All values are differents\");\nTest.assertEquals(equal(7, 7, 7), 3, \"All 3 values are equal\");",
   "title": "Equality of 3 Values"
 }

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "xt4CMLpfFRuDTsJgC",
+  "code": "function toCamelCase(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.</span></p><h3><span>Examples</span></h3><pre><code>toCamelCase(\"A-B-C\") \u279e \"ABC\"\n\ntoCamelCase(\"the-stealth-warrior\") \u279e \"theStealthWarrior\"\n\ntoCamelCase(\"The_Stealth_Warrior\") \u279e \"TheStealthWarrior\"</code></pre><h3><span>Notes</span></h3><p><span>An empty string as input </span><code>\"\"</code><span> should return an empty string.</span></p>",
+  "source_url": "https://edabit.com/challenge/xt4CMLpfFRuDTsJgC",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(toCamelCase(\"the_stealth_warrior\"), \"theStealthWarrior\", \"Did not return correct value\")\nTest.assertEquals(toCamelCase(\"The-Stealth-Warrior\"), \"TheStealthWarrior\", \"Did not return correct value\")\nTest.assertEquals(toCamelCase(\"A-B-C\"), \"ABC\", \"Did not return correct value.\")\nTest.assertEquals(toCamelCase(''), '', \"An empty string was provided but not returned.\")",
+  "title": "Convert String to camelCase"
+}

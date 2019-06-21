@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MTSETAhgv24aeZ6wP",
+  "code": "function finalResult(arr) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>When two blocks of the same \"type\" are adjacent to each other, the entire contiguous block disappears (pops off). If this occurs, this can allow previously separated blocks to be in contact with each other, setting off a chain reaction. This will continue until each block is surrounded by a different block.</span></p><p><span>Here's a demonstration:</span></p><pre><code>[\"A\", \"B\", \"C\", \"C\", \"B\", \"D\", \"A\"]\n// The two adjacent Cs pop off\n\n[\"A\", \"B\", \"B\", \"D\", \"A\"]\n// Two adjacent Bs pop off\n\n[\"A\", \"D\", \"A\"]\n// No more blocks can be popped off</code></pre><p><span>Another demonstration:</span></p><pre><code>[\"A\", \"B\", \"A\", \"A\", \"A\", \"B\", \"B\"]\n// The three adjacent As will pop off\n// (before the two adjacent Bs)\n\n[\"A\", \"B\", \"B\", \"B\"]\n// 3 adjacent Bs pop off\n\n[\"A\"]\n// Final result</code></pre><h3><span>Examples</span></h3><pre><code>finalResult([\"B\", \"B\", \"A\", \"C\", \"A\", \"A\", \"C\"]) \u279e [\"A\"]\n\nfinalResult([\"B\", \"B\", \"C\", \"C\", \"A\", \"A\", \"A\"]) \u279e []\n\nfinalResult([\"C\", \"A\", \"C\"]) \u279e [\"C\", \"A\", \"C\"]</code></pre><h3><span>Notes</span></h3><p><span>If the first round has multiple poppable blocks, pop starting from the left.</span></p>",
+  "source_url": "https://edabit.com/challenge/MTSETAhgv24aeZ6wP",
+  "tags": [
+    "arrays",
+    "games",
+    "loops",
+    "regex"
+  ],
+  "tests": "Test.assertSimilar(finalResult(['B', 'B', 'A', 'C', 'A', 'A', 'C']), ['A'])\nTest.assertSimilar(finalResult(['B', 'B', 'C', 'C', 'A', 'A', 'A']), [])\nTest.assertSimilar(finalResult(['C', 'A', 'C']), ['C', 'A', 'C'])\nTest.assertSimilar(finalResult(['C', 'A', 'A', 'C', 'B']), ['B'])\nTest.assertSimilar(finalResult(['C', 'C']), [])\nTest.assertSimilar(finalResult(['A', 'B', 'C', 'C', 'B', 'D', 'A']), ['A', 'D', 'A'])\nTest.assertSimilar(finalResult(['A', 'B', 'A', 'A', 'A', 'B', 'B']), ['A'])",
+  "title": "Popping Blocks"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MXbibjS95Y8X4wDZx",
+  "code": "function hasIdentical(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if there exists a row that is identical to a column in a 2-D matrix.</span></p><p><span>To illustrate:</span></p><pre><code>[\n  [1, 2, 3, 4],\n  [2, 4, 9, 8],\n  [5, 9, 7, 7],\n  [6, 8, 1, 0]\n]\n\n// 2nd row + 2nd column are identical: [2, 4, 9, 8]</code></pre><h3><span>Examples</span></h3><pre><code>hasIdentical([\n  [4, 4, 4, 4],\n  [2, 4, 9, 8],\n  [5, 4, 7, 7],\n  [6, 4, 1, 0]\n]) \u279e true\n\nhasIdentical([\n  [4, 4, 9, 4],\n  [2, 1, 9, 8],\n  [5, 4, 7, 7],\n  [6, 4, 1, 0]\n]) \u279e false\n\nhasIdentical([\n  [4, 4]\n  [2, 1]\n]) \u279e false\n\nhasIdentical([\n  [4, 2]\n  [2, 1]\n]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Non-square matrices should be </span><code>false</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/MXbibjS95Y8X4wDZx",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(hasIdentical([\n\t[4, 4, 4, 4], \n\t[2, 4, 9, 8], \n\t[5, 4, 7, 7], \n\t[6, 4, 1, 0]\n]), true)\n\nTest.assertEquals(hasIdentical([\n\t[4, 2, 4, 6, 1], \n\t[2, 4, 9, 4, 5], \n\t[5, 1, 7, 1, 9], \n\t[6, 4, 1, 0, 33], \n\t[5, 5, 5, 33, 5]\n]), true)\n\nTest.assertEquals(hasIdentical([\n\t[4, 2],\n\t[2, 1]\n]), true)\n\nTest.assertEquals(hasIdentical([\n\t[4, 4, 9, 4], \n\t[2, 1, 9, 8], \n\t[5, 4, 7, 7], \n\t[6, 4, 1, 0]\n]), false)\n\nTest.assertEquals(hasIdentical([\n\t[4, 4],\n\t[2, 1]\n]), false)\n\nTest.assertEquals(hasIdentical([\n\t[4, 4, 3],\n\t[2, 1, 9], \n\t[3, 8, 1]\n]), false)\n\nTest.assertEquals(hasIdentical([\n\t[4, 4, 4],\n\t[2, 1, 4]\n]), false)\n\nTest.assertEquals(hasIdentical([\n\t[4, 4, 4]\n]), false)",
+  "title": "Identical Row and Column?"
+}

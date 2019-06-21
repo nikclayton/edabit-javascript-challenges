@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bqJmJxZYgkRKrLq7v",
+  "code": "function row(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Excel row names are in the following format:</span></p><pre><code>A, B, ..., Z, AA, ..., AZ, BA, ..., ZZ, AAA, AAB, ...</code></pre><p><span>Write a function that returns the </span><strong><span>row number</span></strong><span> from the row name.</span></p><h3><span>Examples</span></h3><pre><code>row(\"A\") \u279e 1\n\nrow(\"Z\") \u279e 26\n\nrow(\"AA\") \u279e 27\n\nrow(\"BA\") \u279e 53</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/bqJmJxZYgkRKrLq7v",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(row(\"A\"), 1)\nTest.assertEquals(row(\"B\"), 2)\nTest.assertEquals(row(\"Z\"), 26)\nTest.assertEquals(row(\"AA\"), 27)\nTest.assertEquals(row(\"BA\"), 53)\nTest.assertEquals(row(\"BB\"), 54)\nTest.assertEquals(row(\"CW\"), 101)\nTest.assertEquals(row(\"DD\"), 108)\nTest.assertEquals(row(\"PQ\"), 433)\nTest.assertEquals(row(\"ZZ\"), 702)\nTest.assertEquals(row(\"ABC\"), 731)\nTest.assertEquals(row(\"ZZT\"), 18272)\nTest.assertEquals(row(\"STVW\"), 348059)",
+  "title": "Get the Excel Row"
+}

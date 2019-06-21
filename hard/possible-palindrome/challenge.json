@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ej8abBJapqjz72mgF",
+  "code": "function possiblePalindrome(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that determines whether it is possible to build a palindrome from the characters in a string.</span></p><h3><span>Examples</span></h3><pre><code>possiblePalindrome(\"acabbaa\") \u279e true\n// Can make the following palindrome: \"aabcbaa\"\n\npossiblePalindrome(\"aacbdbc\") \u279e true\n// Can make the following palindrome: \"abcdcba\"\n\npossiblePalindrome(\"aacbdb\") \u279e false\n\npossiblePalindrome(\"abacbb\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/ej8abBJapqjz72mgF",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(possiblePalindrome('acabbaa'), true)\nTest.assertEquals(possiblePalindrome('aacbdbc'), true)\nTest.assertEquals(possiblePalindrome('aacbdb'), false)\nTest.assertEquals(possiblePalindrome('abacbb'), false)\nTest.assertEquals(possiblePalindrome('abb'), true)\nTest.assertEquals(possiblePalindrome('bbb'), true)\nTest.assertEquals(possiblePalindrome('bbaa'), true)\nTest.assertEquals(possiblePalindrome('bbaacc'), true)\nTest.assertEquals(possiblePalindrome('bbaaccd'), true)\nTest.assertEquals(possiblePalindrome('bbaacd'), false)\nTest.assertEquals(possiblePalindrome('abc'), false)\nTest.assertEquals(possiblePalindrome('ab'), false)\nTest.assertEquals(possiblePalindrome('aabbccddef'), false)",
+  "title": "Possible Palindrome"
+}

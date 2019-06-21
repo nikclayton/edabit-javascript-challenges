@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "piRQ5GwbXaemykNki",
+  "code": "function isRectangle(coordinates) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that determines whether four coordinates properly create a rectangle. A rectangle has 4 sides and has 90 degrees for each angle. Coordinates are given as strings containing an x- and a y- coordinate: </span><code>\"(x, y)\"</code><span>.</span></p><p><span>For this problem, assume none of the rectangles are tilted.</span></p><pre><code>isRectangle([\"(0, 0)\", \"(0, 1)\", \"(1, 0)\", \"(1,1)\"]) \u279e true</code></pre><h3><span>Examples</span></h3><pre><code>isRectangle([\"(-4, 3)\", \"(4, 3)\", \"(4, -3)\", \"(-4, -3)\"]) \u279e true\n\nisRectangle([\"(0, 0)\", \"(0, 1)\"]) \u279e false\n// A line is not a rectangle!\n\nisRectangle([\"(0, 0)\", \"(0, 1)\", \"(1, 0)\"]) \u279e false\n// Neither is a triangle!\n\nisRectangle([\"(0, 0)\", \"(9, 0)\", \"(7, 5)\", \"(16, 5)\"]) \u279e false\n// A parallelogram, but not a rectangle!</code></pre><h3><span>Notes</span></h3><ul><li><span>A square is also a rectangle!</span></li><li><span>A parallelogram is NOT necessarily a rectangle (the rectangle is a special case of a parallelogram).</span></li><li><span>If the input is fewer than or greater than 4 coordinates, return </span><code>false</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/piRQ5GwbXaemykNki",
+  "tags": [
+    "math",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isRectangle([\"(-4, 3)\", \"(4, 3)\", \"(4, -3)\", \"(-4,-3)\"]), true)\nTest.assertEquals(isRectangle([\"(0, 0)\", \"(0, 1)\"]), false, 'A line is not a rectangle!')\nTest.assertEquals(isRectangle([\"(0, 0)\", \"(0, 1)\", \"(1,0)\"]), false, 'Neither is a triangle!')\nTest.assertEquals(isRectangle([\"(0, 0)\", \"(9, 0)\", \"(7,5)\", \"(16, 5)\"]), false, 'A parallelogram, but not a rectangle!')\nTest.assertEquals(isRectangle([\"(0, 0)\", \"(1, 0)\", \"(0, 1)\", \"(0, 0)\"]), false, 'One of the points is identical (really only 3 coordinates)')\nTest.assertEquals(isRectangle([\"(1, 0)\", \"(1, 2)\", \"(2, 1)\", \"(2, 3)\", \"(3, 3)\"]), false, 'Too many sides (among other things)!')\nTest.assertEquals(isRectangle([\"(-2, 2)\", \"(-2, -1)\", \"(5, -1)\", \"(5, 2)\"]), true)",
+  "title": "Rectangle or Not?"
+}

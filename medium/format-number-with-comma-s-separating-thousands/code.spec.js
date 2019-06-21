@@ -1,8 +1,6 @@
 const formatNum = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(formatNum(1000)).toEqual('1,000');
         expect(formatNum(1000000)).toEqual('1,000,000');

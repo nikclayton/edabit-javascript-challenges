@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "StoCYdQvX2i7zaNLY",
+  "code": "function checkFlush(table, hand) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes in two arrays and determines whether there exists a flush. </span></p><ul><li><span>The first array represents the 5 cards dealt on the table. </span></li><li><span>The second array represents the 2 cards in your hand. </span></li></ul><p><span>Notation: card number and suit (abbreviated as S = Spades, H = Hearts, D = Diamonds, C = Clubs) separated by an underscore. </span></p><h3><span>Examples</span></h3><pre><code>checkFlush([\"A_S\", \"J_H\", \"7_D\", \"8_D\", \"10_D\"], [\"J_D\", \"3_D\"]) \u279e true // diamond flush\n\ncheckFlush([\"10_S\", \"7_S\", \"9_H\", \"4_S\", \"3_S\"], [\"K_S\", \"Q_S\"]) \u279e true // spade flush\n\ncheckFlush([\"3_S\", \"10_H\", \"10_D\", \"10_C\", \"10_S\"], [\"3_S\", \"4_D\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>Hint: If there aren't at least 3 cards of the same suit on the table, there is zero chance of there being a flush.</span></p>",
+  "source_url": "https://edabit.com/challenge/StoCYdQvX2i7zaNLY",
+  "tags": [
+    "arrays",
+    "conditions",
+    "control_flow",
+    "games"
+  ],
+  "tests": "Test.assertEquals(checkFlush(['A_S', 'J_H', '7_D', '8_D', '10_D'], ['J_D', '3_D']), true);\nTest.assertEquals(checkFlush(['10_S', '7_S', '9_H', '4_S', '3_S'], ['K_S', 'Q_S']), true);\nTest.assertEquals(checkFlush(['3_S', '10_H', '10_D', '10_C', '10_S'], ['3_S', '4_D']), false);\nTest.assertEquals(checkFlush(['8_H', '10_H', '10_D', 'J_H', '10_S'], ['5_D', 'Q_H']), false);",
+  "title": "Poker Flush?"
+}

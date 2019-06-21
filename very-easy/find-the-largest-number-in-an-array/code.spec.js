@@ -1,8 +1,6 @@
 const findLargestNum = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(findLargestNum([4, 5, 1, 3])).toEqual(5);
         expect(findLargestNum([13, 27, 18, 26])).toEqual(27);

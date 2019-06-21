@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "oXWwHkutPD5Aer6Db",
+  "code": "function checkPattern(arr, pattern) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Create a function that checks if the sub-arrays in an array adhere to the specified pattern.</span></p><h3><span>Examples</span></h3><pre><code>checkPattern([[1, 1], [2, 2], [1, 1], [2, 2]], \"ABAB\") \u279e true\n\ncheckPattern([[1, 2], [1, 3], [1, 4], [1, 2]], \"ABCA\") \u279e true\n\ncheckPattern([[1, 2, 3], [1, 2, 3], [3, 2, 1], [3, 2, 1]], \"AABB\") \u279e true\n\ncheckPattern([[8, 8, 8, 8], [7, 7, 7, 7], [6, 6, 6, 6], [5, 5, 5, 5]], \"ABCD\") \u279e true\n\ncheckPattern([[8, 8, 8, 8], [7, 7, 7, 7], [6, 6, 6, 6], [5, 5, 5, 5]], \"DCBA\") \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>The length of the pattern will always be the same as the length of the (main) array.</span></li><li><span>The pattern does not necessarily have to be alphabetically ordered (see last example).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/oXWwHkutPD5Aer6Db",
+  "tags": [
+    "arrays",
+    "functional_programming"
+  ],
+  "tests": "Test.assertEquals(checkPattern([[1, 1], [2, 2], [1, 1], [2, 2]], \"ABAB\"), true)\nTest.assertEquals(checkPattern([[1, 2], [1, 2], [1, 2], [1, 2]], \"AAAA\"), true)\nTest.assertEquals(checkPattern([[1, 2], [1, 3], [1, 4], [1, 2]], \"ABCA\"), true)\nTest.assertEquals(checkPattern([[1, 2, 3], [1, 2, 3], [3, 2, 1], [3, 2, 1]], \"AABB\"), true)\nTest.assertEquals(checkPattern([[8, 8, 8, 8], [7, 7, 7, 7], [6, 6, 6, 6], [5, 5, 5, 5]], \"ABCD\"), true)\nTest.assertEquals(checkPattern([[8, 8, 8, 8], [7, 7, 7, 7], [6, 6, 6, 6], [5, 5, 5, 5]], \"DCBA\"), true)\nTest.assertEquals(checkPattern([[8], [7], [6], [6]], \"ABCC\"), true)\nTest.assertEquals(checkPattern([[8], [9], [9], [9]], \"ABBB\"), true)\nTest.assertEquals(checkPattern([[1, 1], [2, 2], [1, 1], [1, 2]], \"ABAB\"), false)\nTest.assertEquals(checkPattern([[1, 2], [1, 2], [2, 2], [3, 2]], \"AAAA\"), false)\nTest.assertEquals(checkPattern([[8], [9], [9], [8]], \"ABBB\"), false)\nTest.assertEquals(checkPattern([[8], [7], [6], [5]], \"ABCC\"), false)\nTest.assertEquals(checkPattern([[8, 8, 8, 8], [7, 7, 7, 7], [6, 6, 6, 6], [5, 5, 5, 5]], \"DDBA\"), false)\nTest.assertEquals(checkPattern([[1, 2], [1, 2], [1, 2], [1, 2]], \"AABA\"), false)",
+  "title": "Fit the Pattern"
+}

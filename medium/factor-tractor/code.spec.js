@@ -1,8 +1,6 @@
 const primeFactorize = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(primeFactorize(32)).toEqual([2, 2, 2, 2, 2]);
         expect(primeFactorize(17)).toEqual([17]);

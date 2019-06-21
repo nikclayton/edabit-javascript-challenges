@@ -1,8 +1,6 @@
 const countPosSumNeg = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(countPosSumNeg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15])).toEqual([10, -65]);
         expect(countPosSumNeg([92, 6, 73, -77, 81, -90, 99, 8, -85, 34])).toEqual([7, -252]);

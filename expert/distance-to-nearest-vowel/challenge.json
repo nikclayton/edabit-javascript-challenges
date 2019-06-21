@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "b9FBAhxaijR9fzxgo",
+  "code": "function distanceToNearestVowel(str) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>Write a function that takes in a string and for each character, returns the distance to the nearest vowel. If the character is a vowel itself, return </span><strong><span>0</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>distanceToNearestVowel(\"aaaaa\") \u279e [0, 0, 0, 0, 0]\n\ndistanceToNearestVowel(\"babbb\") \u279e [1, 0, 1, 2, 3]\n\ndistanceToNearestVowel(\"abcdabcd\") \u279e [0, 1, 2, 1, 0, 1, 2, 3]\n\ndistanceToNearestVowel(\"shopper\") \u279e [2, 1, 0, 1, 1, 0, 1]</code></pre><h3><span>Notes</span></h3><ul><li><span>All input strings will contain </span><strong><span>at least one vowel</span></strong><span>.</span></li><li><span>Strings will be lowercased.</span></li><li><span>Vowels are: </span><code>a, e, i, o, u</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/b9FBAhxaijR9fzxgo",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(distanceToNearestVowel(\"aaaaa\"), [0, 0, 0, 0, 0])\nTest.assertSimilar(distanceToNearestVowel(\"bba\"), [2, 1, 0])\nTest.assertSimilar(distanceToNearestVowel(\"abbb\"), [0, 1, 2, 3])\nTest.assertSimilar(distanceToNearestVowel(\"abab\"), [0, 1, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"babbb\"), [1, 0, 1, 2, 3])\nTest.assertSimilar(distanceToNearestVowel(\"baaab\"), [1, 0, 0, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"abcdabcd\"), [0, 1, 2, 1, 0, 1, 2, 3])\nTest.assertSimilar(distanceToNearestVowel(\"abbaaaaba\"), [0, 1, 1, 0, 0, 0, 0, 1, 0])\nTest.assertSimilar(distanceToNearestVowel(\"treesandflowers\"), [2, 1, 0, 0, 1, 0, 1, 2, 2, 1, 0, 1, 0, 1, 2])\nTest.assertSimilar(distanceToNearestVowel(\"pokerface\"), [1, 0, 1, 0, 1, 1, 0, 1, 0])\nTest.assertSimilar(distanceToNearestVowel(\"beautiful\"), [1, 0, 0, 0, 1, 0, 1, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"rythmandblues\"), [5, 4, 3, 2, 1, 0, 1, 2, 2, 1, 0, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"shopper\"), [2, 1, 0, 1, 1, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"singingintherain\"), [1, 0, 1, 1, 0, 1, 1, 0, 1, 2, 1, 0, 1, 0, 0, 1])\nTest.assertSimilar(distanceToNearestVowel(\"sugarandspice\"), [1, 0, 1, 0, 1, 0, 1, 2, 2, 1, 0, 1, 0])\nTest.assertSimilar(distanceToNearestVowel(\"totally\"), [1, 0, 1, 0, 1, 2, 3])",
+  "title": "Distance to Nearest Vowel"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Peter Flynn",
+  "author_url": "https://edabit.com/user/wkxYjg28PC4xdWH69",
+  "challenge_id": "xr4Xf28xeSrc7XmCF",
+  "code": "function countdown(start) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that takes a number as an argument and returns an array of numbers counting down from this number to zero.</span></p><h3><span>Examples</span></h3><pre><code>countdown(5) \u279e [5, 4, 3, 2, 1, 0]\n\ncountdown(1) \u279e [1, 0]\n\ncountdown(0) \u279e [0]</code></pre><h3><span>Notes</span></h3><p><span>The argument will always be greater than or equal to zero.</span></p>",
+  "source_url": "https://edabit.com/challenge/xr4Xf28xeSrc7XmCF",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(countdown(3), [3, 2, 1, 0])\nTest.assertSimilar(countdown(20), [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0])\nTest.assertSimilar(countdown(1), [1, 0])\nTest.assertSimilar(countdown(0), [0])",
+  "title": "Generate a Countdown of Numbers in an Array"
+}

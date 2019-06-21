@@ -1,8 +1,6 @@
 const numToGoogle = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(numToGoogle(['12213467'])).toEqual('Google.');
         expect(numToGoogle(['12213467', '321'])).toEqual('Google.log');

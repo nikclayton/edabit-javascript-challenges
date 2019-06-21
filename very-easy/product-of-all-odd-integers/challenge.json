@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "4LnwAC3kgTctc7r3k",
+  "code": "function oddProduct(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the product of all odd integers in an array.</span></p><h3><span>Examples</span></h3><pre><code>oddProduct([3, 4, 1, 1, 5]) \u279e 15\n\noddProduct([5, 5, 8, 2, 4, 32]) \u279e 25\n\noddProduct([1, 2, 1, 2, 1, 2, 1, 2]) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/4LnwAC3kgTctc7r3k",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(oddProduct([3, 4, 1, 1, 5]), 15)\nTest.assertEquals(oddProduct([5, 5, 8, 2, 4, 32]), 25)\nTest.assertEquals(oddProduct([1, 2, 1, 2, 1, 2, 1, 2]), 1)\nTest.assertEquals(oddProduct([0, 0, 0, 1]), 1)\nTest.assertEquals(oddProduct([1, 2, 2, 5, 2, 0]), 5)",
+  "title": "Product of All Odd Integers"
+}

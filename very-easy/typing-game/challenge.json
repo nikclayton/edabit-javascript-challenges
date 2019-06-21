@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KESyfS3A5vB2jkxFR",
+  "code": "function correctStream(user, correct) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>You're in the midst of creating a typing game.</span></p><p><span>Create a function that takes in two arrays: the array of </span><strong><span>user-typed words</span></strong><span>, and the array of </span><strong><span>correctly-typed words</span></strong><span> and outputs an array containing </span><code>1</code><span>s (correctly-typed words) and </span><code>-1</code><span>s (incorrectly-typed words).</span></p><pre><code>Inputs:\nUser-typed Array: [\"cat\", \"blue\", \"skt\", \"umbrells\", \"paddy\"]\nCorrect Array: [\"cat\", \"blue\", \"sky\", \"umbrella\", \"paddy\"]\n\nOutput: [1, 1, -1, -1, 1]</code></pre><h3><span>Examples</span></h3><pre><code>correctStream(\n  [\"it\", \"is\", \"find\"],\n  [\"it\", \"is\", \"fine\"]\n) \u279e [1, 1, -1]\n\ncorrectStream(\n  [\"april\", \"showrs\", \"bring\", \"may\", \"flowers\"],\n  [\"april\", \"showers\", \"bring\", \"may\", \"flowers\"]\n) \u279e [1, -1, 1, 1, 1]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/KESyfS3A5vB2jkxFR",
+  "tags": [
+    "arrays",
+    "games",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(correctStream([\"it\", \"is\", \"find\"], [\"it\", \"is\", \"fine\"]), [1, 1, -1])\nTest.assertSimilar(correctStream([\"april\", \"showrs\", \"bring\", \"may\", \"flowers\"], [\"april\", \"showers\", \"bring\", \"may\", \"flowers\"]), [1, -1, 1, 1, 1])\nTest.assertSimilar(correctStream([\"weird\", \"indicr\", \"moment\"], [\"weird\", \"indict\", \"moment\"]), [1, -1, 1])\nTest.assertSimilar(correctStream([\"starry\", \"wind\", \"skies\"], [\"starry\", \"wind\", \"skies\"]), [1, 1, 1])",
+  "title": "Typing Game"
+}

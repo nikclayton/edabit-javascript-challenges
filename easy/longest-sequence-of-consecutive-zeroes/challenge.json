@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "5zwzw2AFC95u3ZLtm",
+  "code": "function longestZero(s) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that returns the longest sequence of consecutive zeroes in a binary string.</span></p><h3><span>Examples</span></h3><pre><code>longestZero(\"01100001011000\") \u279e \"0000\"\n\nlongestZero(\"100100100\") \u279e \"00\"\n\nlongestZero(\"11111\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><p><span>If no zeroes exist in the input, return an empty string.</span></p>",
+  "source_url": "https://edabit.com/challenge/5zwzw2AFC95u3ZLtm",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(longestZero(\"01100001011000\"), \"0000\")\nTest.assertEquals(longestZero(\"100100100\"), \"00\")\nTest.assertEquals(longestZero(\"111101\"), \"0\")\nTest.assertEquals(longestZero(\"1000000000011101\"), \"0000000000\")\nTest.assertEquals(longestZero(\"100001110000100000\"), \"00000\")\nTest.assertEquals(longestZero(\"101001101\"), \"00\")\nTest.assertEquals(longestZero(\"101010101\"), \"0\")\nTest.assertEquals(longestZero(\"1001001\"), \"00\")\nTest.assertEquals(longestZero(\"111111\"), \"\")",
+  "title": "Longest Sequence of Consecutive Zeroes"
+}

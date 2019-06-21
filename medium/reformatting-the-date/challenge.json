@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "CJo2NPyHDb5YyDu2S",
+  "code": "function convertDate(date) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that converts dates from one of five string formats:</span></p><ol><li><span>\"January 9, 2019\" (MM D, YYYY)</span></li><li><span>\"Jan 9, 2019\" (MM D, YYYY)</span></li><li><span>\"01/09/2019\"  (MM/DD/YYYY)</span></li><li><span>\"01-09-2019\"  (MM-DD-YYYY)</span></li><li><span>\"01.09.2019\" (MM.DD.YYYY)</span></li></ol><p><span>into an array with this format: </span><code>[MM, DD, YYYY]</code><span>, where </span><code>MM</code><span>, </span><code>DD</code><span>, and </span><code>YYYY</code><span> are all integers. Using the example above:</span></p><h3><span>Examples</span></h3><pre><code>convertDate(\"January 9, 2019\") \u279e [1, 9, 2019]\n\nconvertDate(\"Jan 9, 2019\") \u279e [1, 9, 2019]\n\nconvertDate(\"01/09/2019\") \u279e [1, 9, 2019]\n\nconvertDate(\"01-09-2019\") \u279e [1, 9, 2019]\n\nconvertDate(\"01.09.2019\") \u279e [1, 9, 2019]</code></pre><h3><span>Notes</span></h3><p><span>You can solve this any number of ways, but using JavaScript's </span><code>new Date()</code><span> method is probably the easiest. Check the </span><strong><span>Resources</span></strong><span> tab for documentation.</span></p>",
+  "source_url": "https://edabit.com/challenge/CJo2NPyHDb5YyDu2S",
+  "tags": [
+    "dates",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(convertDate(\"January 9, 2019\"), [1, 9, 2019])\nTest.assertSimilar(convertDate(\"Jan 9, 2019\"), [1, 9, 2019])\nTest.assertSimilar(convertDate(\"01/09/2019\"), [1, 9, 2019])\nTest.assertSimilar(convertDate(\"01-09-2019\"), [1, 9, 2019])\nTest.assertSimilar(convertDate(\"01.09.2019\"), [1, 9, 2019])\n\nTest.assertSimilar(convertDate(\"March 3, 1901\"), [3, 3, 1901])\nTest.assertSimilar(convertDate(\"Mar 3, 1901\"), [3, 3, 1901])\nTest.assertSimilar(convertDate(\"03/03/1901\"), [3, 3, 1901])\nTest.assertSimilar(convertDate(\"03-03-1901\"), [3, 3, 1901])\nTest.assertSimilar(convertDate(\"03.03.1901\"), [3, 3, 1901])\n\nTest.assertSimilar(convertDate(\"August 8, 1666\"), [8, 8, 1666])\nTest.assertSimilar(convertDate(\"Nov 13, 1533\"), [11, 13, 1533])\nTest.assertSimilar(convertDate(\"04/15/1789\"), [4, 15, 1789])\nTest.assertSimilar(convertDate(\"12-23-1111\"), [12, 23, 1111])\nTest.assertSimilar(convertDate(\"02.28.1832\"), [2, 28, 1832])",
+  "title": "Reformatting the Date"
+}

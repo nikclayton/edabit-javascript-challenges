@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "z5RAq9cvB3pF4CuGC",
+  "code": "function questionMarks(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string, which will contain numbers, letters, and question marks.</span></p><ol><li><span>Check for 3 question marks between every pair of two numbers that add up to 10.</span></li><li><span>If so, return </span><code>true</code><span>, otherwise return </span><code>false</code><span>.</span></li><li><span>If there aren't any two numbers that add up to 10, return </span><code>false</code><span>.</span></li></ol><p><span>In other words, if your input is </span><code>\"arrb6???4xxbl5???eee5\"</code><span>, you would return </span><code>true</code><span> because there are exactly 3 question marks between 6 and 4, and 3 question marks between 5 and 5 at the end of the string.</span></p><h3><span>Examples</span></h3><pre><code>questionMarks(\"arrb6???4xxbl5???eee5\") \u279e true\n\nquestionMarks(\"arrb6???7xxbl5???eee5\") \u279e true\n\nquestionMarks(\"arrb6???7xxbl5??eee5\") \u279e false\n\nquestionMarks(\"arrb3???7xxbl???3??eee5\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/z5RAq9cvB3pF4CuGC",
+  "tags": [
+    "conditions",
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(questionMarks(\"\"), false)\nTest.assertEquals(questionMarks(\"???\"), false)\nTest.assertEquals(questionMarks(\"0???9\"), false)\nTest.assertEquals(questionMarks(\"1???9???10\"), false)\nTest.assertEquals(questionMarks(\"1???9???1\"), true)\nTest.assertEquals(questionMarks(\"1???9xx0???10\"), true)\nTest.assertEquals(questionMarks(\"0???10\"), true)\nTest.assertEquals(questionMarks(\"-1???11\"), true)\nTest.assertEquals(questionMarks(\"111???-101\"), true)\nTest.assertEquals(questionMarks(\"arrb6???4xxbl5???eee5\"), true)",
+  "title": "Between 3 Question Marks"
+}

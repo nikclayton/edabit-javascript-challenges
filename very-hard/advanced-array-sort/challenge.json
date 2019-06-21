@@ -1,0 +1,17 @@
+{
+  "author_id": "Alex Nemechek",
+  "author_url": "https://edabit.com/user/tXzqHX2abH7KJQqKg",
+  "challenge_id": "SAeaT8pzJDkSoACsi",
+  "code": "function advancedSort(arr) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes in an array of </span><strong><span>numbers or strings</span></strong><span> and returns an array with the items from the original array stored in subarrays. Items of the same value should be in the same subarray.</span></p><h3><span>Examples</span></h3><pre><code>advancedSort([2, 1, 2, 1]) \u279e [[2, 2], [1, 1]]\n\nadvancedSort([5, 4, 5, 5, 4, 3]) \u279e [[5, 5, 5], [4, 4], [3]]\n\nadvancedSort([\"b\", \"a\", \"b\", \"a\", \"c\"]) \u279e [[\"b\", \"b\"], [\"a\", \"a\"], [\"c\"]]</code></pre><h3><span>Notes</span></h3><p><span>The subarrays should be returned in the order of each element's first appearance in the given array.</span></p>",
+  "source_url": "https://edabit.com/challenge/SAeaT8pzJDkSoACsi",
+  "tags": [
+    "algorithms",
+    "arrays",
+    "loops",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(advancedSort([1,2,1,2]) , [[1,1],[2,2]])\nTest.assertSimilar(advancedSort([2,1,2,1]) , [[2,2],[1,1]])\nTest.assertSimilar(advancedSort([3,2,1,3,2,1]) , [[3,3],[2,2],[1,1]])\nTest.assertSimilar(advancedSort([5,5,4,3,4,4]) , [[5,5],[4,4,4],[3]])\nTest.assertSimilar(advancedSort([80,80,4,60,60,3]),[[80,80],[4],[60,60],[3]])\nTest.assertSimilar(advancedSort(['c','c','b','c','b',1,1]),[['c','c','c'],['b','b'],[1,1]])\nTest.assertSimilar(advancedSort([1234, 1235, 1234, 1235, 1236, 1235]),[[1234, 1234],[1235, 1235, 1235],[1236]])\nTest.assertSimilar(advancedSort(['1234', '1235', '1234', '1235', '1236', '1235']),[['1234', '1234'],['1235', '1235', '1235'],['1236']])",
+  "title": "Advanced Array Sort"
+}

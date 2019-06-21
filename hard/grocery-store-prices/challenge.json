@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "fbTF9EksvFpq3wZaX",
+  "code": "function getPrices(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are given an array of strings consisting of grocery items, with prices in parentheses. Return an array of prices in float format.</span></p><h3><span>Examples</span></h3><pre><code>getPrices([\"ice cream ($5.99)\", \"banana ($0.20)\", \"sandwich ($8.50)\", \"soup ($1.99)\"]) \u279e [5.99, 0.2, 8.50, 1.99]\n\ngetPrices([\"salad ($4.99)\"]) \u279e [4.99]</code></pre><h3><span>Notes</span></h3><p><span>See if you can use RegExp to solve (but it's not necessary).</span></p>",
+  "source_url": "https://edabit.com/challenge/fbTF9EksvFpq3wZaX",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(getPrices(['ice cream ($5.99)', 'banana ($0.20)', 'sandwich ($8.50)', 'soup ($1.99)']), [5.99, 0.2, 8.50, 1.99]);\nTest.assertSimilar(getPrices(['salad ($4.99)']), [4.99]);\nTest.assertSimilar(getPrices(['artichokes ($1.99)', 'rotiserrie chicken ($5.99)', 'gum ($0.75)']), [1.99, 5.99, 0.75]);\nTest.assertSimilar(getPrices(['pizza ($2.99)', 'shampoo ($15.75)', 'trash bags ($15.00)']), [2.99, 15.75, 15]);",
+  "title": "Grocery Store Prices"
+}

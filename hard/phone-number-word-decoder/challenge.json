@@ -1,0 +1,15 @@
+{
+  "author_id": "shahednasser",
+  "author_url": "https://edabit.com/user/qfZTGo3mgRsbyKka7",
+  "challenge_id": "LhMQuGstm7EENosjw",
+  "code": "function textToNum(phone) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a program that converts a phone number with letters to one with only numbers.</span></p><h3><span>Examples</span></h3><pre><code>textToNum(\"123-647-EYES\") \u279e \"123-647-3937\"\n\ntextToNum(\"(325)444-TEST\") \u279e \"(325)444-8378\"\n\ntextToNum(\"653-TRY-THIS\") \u279e \"653-879-8447\"\n\ntextToNum(\"435-224-7613\") \u279e \"435-224-7613\"</code></pre><h3><span>Notes</span></h3><p><span>All inputs will be formatted as a string representing a proper phone number in the format </span><code>XXX-XXX-XXXX</code><span> or </span><code>(XXX)XXX-XXXX</code><span>, using numbers and capital letters.</span></p>",
+  "source_url": "https://edabit.com/challenge/LhMQuGstm7EENosjw",
+  "tags": [
+    "formatting",
+    "regex"
+  ],
+  "tests": "Test.assertEquals(\"123-647-3937\", textToNum(\"123-647-EYES\"));\nTest.assertEquals(\"(325)444-8378\", textToNum(\"(325)444-TEST\"));\nTest.assertEquals(\"653-879-8447\", textToNum(\"653-TRY-THIS\"));\nTest.assertEquals(\"435-224-7613\", textToNum(\"435-224-7613\"));\nTest.assertEquals(\"(333)668-3245\", textToNum(\"(33D)ONT-FAIL\"));\nTest.assertEquals(\"(025)445-6741\", textToNum(\"(025)445-6741\"));",
+  "title": "Phone Number Word Decoder"
+}

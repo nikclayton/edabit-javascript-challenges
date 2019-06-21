@@ -1,0 +1,16 @@
+{
+  "author_id": "\u0412\u0430\u045a\u0430",
+  "author_url": "https://edabit.com/user/puF7tgr34fjsLXiDT",
+  "challenge_id": "wmdanmJkaT9waTg3y",
+  "code": "function pentagonal(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that takes a positive integer and calculates how many dots exist in a pentagonal shape around the center dot on the </span><em><span>Nth</span></em><span> iteration.</span></p><p><span>In the image below you can see the first iteration is only a single dot. On the second, there are 6 dots. On the third, there are 16 dots, and on the fourth there are 31 dots.</span></p><p><img alt=\"alt text\" title=\"Pentagonal Number\" src=\"https://edabit-challenges.s3.amazonaws.com/pentagonal_number.png\"></p><p><span>Return the number of dots that exist in the whole pentagon on the </span><em><span>Nth</span></em><span> iteration.</span></p><h3><span>Examples</span></h3><pre><code>pentagonal(1) \u279e 1\n\npentagonal(2) \u279e 6\n\npentagonal(3) \u279e 16\n\npentagonal(8) \u279e 141</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/wmdanmJkaT9waTg3y",
+  "tags": [
+    "logic",
+    "numbers",
+    "recursion"
+  ],
+  "tests": "Test.assertEquals(pentagonal(1), 1)\nTest.assertEquals(pentagonal(3), 16)\nTest.assertEquals(pentagonal(8), 141)\nTest.assertEquals(pentagonal(10), 226)\nTest.assertEquals(pentagonal(15), 526)\nTest.assertEquals(pentagonal(33), 2641)\nTest.assertEquals(pentagonal(43), 4516)\nTest.assertEquals(pentagonal(13), 391)\nTest.assertEquals(pentagonal(50), 6126)\nTest.assertEquals(pentagonal(62), 9456)\nTest.assertEquals(pentagonal(21), 1051)",
+  "title": "Pentagonal Number"
+}

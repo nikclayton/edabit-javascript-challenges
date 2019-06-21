@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "vHJrWvyEiiGp5yZtX",
+  "code": "function longestNonrepeatingSubstring(str) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that returns the </span><strong><span>longest non-repeating substring</span></strong><span> for a string input.</span></p><h3><span>Examples</span></h3><pre><code>longestNonrepeatingSubstring(\"abcabcbb\") \u279e \"abc\"\n\nlongestNonrepeatingSubstring(\"aaaaaa\") \u279e \"a\"\n\nlongestNonrepeatingSubstring(\"abcde\") \u279e \"abcde\"\n\nlongestNonrepeatingSubstring(\"abcda\") \u279e \"abcd\"</code></pre><h3><span>Notes</span></h3><ul><li><span>If multiple substrings tie in length, return the one which occurs </span><strong><span>first</span></strong><span>.</span></li><li><strong><span>Bonus</span></strong><span>: Can you solve this problem in </span><strong><span>linear time</span></strong><span>?</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/vHJrWvyEiiGp5yZtX",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(longestNonrepeatingSubstring(\"abcabcbb\"), \"abc\")\nTest.assertEquals(longestNonrepeatingSubstring(\"aaaaaa\"), \"a\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abcde\"), \"abcde\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abcda\"), \"abcd\")\nTest.assertEquals(longestNonrepeatingSubstring(\"aaccddeeffb\"), \"ac\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abdde\"), \"abd\")\nTest.assertEquals(longestNonrepeatingSubstring(\"ccdddcccc\"), \"cd\")\nTest.assertEquals(longestNonrepeatingSubstring(\"cdxdxccxc\"), \"cdx\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abddefgh\"), \"defgh\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abcdabcd\"), \"abcd\")\nTest.assertEquals(longestNonrepeatingSubstring(\"abddebcc\"), \"debc\")\nTest.assertEquals(longestNonrepeatingSubstring(\"xyxxyzyzy\"), \"xyz\")\nTest.assertEquals(longestNonrepeatingSubstring(\"kjlmjsdeee\"), \"lmjsde\")\nTest.assertEquals(longestNonrepeatingSubstring(\"kjlmjsdfew\"), \"lmjsdfew\")\nTest.assertEquals(longestNonrepeatingSubstring(\"kjlmjsdfewii\"), \"lmjsdfewi\")\nTest.assertEquals(longestNonrepeatingSubstring(\"kjlmjjiiiidfewii\"), \"idfew\")\nTest.assertEquals(longestNonrepeatingSubstring(\"kjlmjjiiiidfiwii\"), \"kjlm\")",
+  "title": "Longest Substring with Non-repeating Characters"
+}

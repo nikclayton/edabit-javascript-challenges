@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "6ALbTxgu8BZaa6YYN",
+  "code": "function numberOfSwaps(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Mona has created a method to sort an array in ascending order.</span></p><p><span>Starting from the left of the array, she compares numbers by pairs. If the first pair is ordered </span><code>[smaller number, larger number]</code><span>, she moves on. If the first pair is ordered </span><code>[larger number, smaller number]</code><span>, she swaps the two integers before moving on to the next pair. She repeats this process until she reaches the end of the array.</span></p><p><span>Then, she moves back to the beginning of the array and repeats this process until the entire array is sorted.</span></p><p><span>If the unsorted array is: </span><code>[3, 9, 7, 4]</code><span>, she will perform the following steps (note </span><em><span>Swaps</span></em><span> here refers to cumulative swaps):</span></p><ol><li><span>She starts with the first pair.</span></li><li><code>[3, 9]</code><span> is in order, move on. Array: </span><code>[3, 9, 7, 4]</code><span>. Swaps: </span><code>0</code><span>.</span></li><li><code>[9, 7]</code><span> is not. Swap. Array: </span><code>[3, 7, 9, 4]</code><span>. Swaps: </span><code>1</code></li><li><code>[9, 4]</code><span> is not. Swap. Array: </span><code>[3, 7, 4, 9]</code><span>. Swaps: </span><code>2</code></li><li><span>Check if array is sorted. It is not, so start over at first pair.</span></li><li><code>[3, 7]</code><span> is in order, move on. Array: </span><code>[3, 7, 4, 9]</code><span>. Swaps: </span><code>2</code></li><li><code>[7, 4]</code><span> is not. Swap. Array: </span><code>[3, 4, 7, 9]</code><span>. Swaps: </span><code>3</code><span>.</span></li><li><code>[7, 9]</code><span> is in order, move on. Array: </span><code>[3, 4, 7, 9]</code><span>. Swaps: </span><code>3</code><span>.</span></li><li><span>Check if array is sorted. It is. End.</span></li></ol><p><span>Sorting the array </span><code>[3, 9, 7, 4]</code><span> takes her </span><em><span>3 swaps</span></em><span>. Write a function that takes in an unsorted array and returns the number of swaps it takes for the array to be sorted according to Mona's algorithm.</span></p><h3><span>Examples</span></h3><pre><code>numberOfSwaps([5, 4, 3]) \u279e 3\n\nnumberOfSwaps([1, 3, 4, 5]) \u279e 0\n\nnumberOfSwaps([5, 4, 3, 2]) \u279e 6</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/6ALbTxgu8BZaa6YYN",
+  "tags": [
+    "scope",
+    "sorting"
+  ],
+  "tests": "Test.assertEquals(numberOfSwaps([3, 9, 7, 4]), 3)\nTest.assertEquals(numberOfSwaps([5, 4, 3]), 3)\nTest.assertEquals(numberOfSwaps([5, 4, 3, 2]), 6)\nTest.assertEquals(numberOfSwaps([1, 2, 4, 3]), 1)\nTest.assertEquals(numberOfSwaps([1, 2, 5, 4, 3]), 3)\nTest.assertEquals(numberOfSwaps([1, 3, 4, 5]), 0)\nTest.assertEquals(numberOfSwaps([1, 2]), 0)",
+  "title": "Mona's Sort"
+}

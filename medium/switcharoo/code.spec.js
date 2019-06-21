@@ -1,8 +1,6 @@
 const flipEndChars = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(flipEndChars('Cat, dog, and mouse.')).toEqual('.at, dog, and mouseC');
         expect(flipEndChars('Anna, Banana')).toEqual('anna, BananA');

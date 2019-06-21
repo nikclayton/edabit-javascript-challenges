@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rcgqCsnCqMPTSjkBf",
+  "code": "function splitGroups(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that splits a string into an array of identical clusters.</span></p><h3><span>Examples</span></h3><pre><code>splitGroups(\"555\") \u279e [\"555\"]\n\nsplitGroups(\"5556667788\") \u279e [\"555\", \"666\", \"77\", \"88\"]\n\nsplitGroups(\"aaabbbaabbab\") \u279e [\"aaa\", \"bbb\", \"aa\", \"bb\", \"a\", \"b\"]\n\nsplitGroups(\"abbbcc88999&amp;&amp;!!!_\") \u279e [\"a\", \"bbb\", \"cc\", \"88\", \"999\", \"&amp;&amp;\", \"!!!\", \"_\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>Each cluster should only have one unique character.</span></li><li><span>The resulting array should be in the same order as the input string.</span></li><li><span>Should work with letters, numbers and other characters.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rcgqCsnCqMPTSjkBf",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(splitGroups('aaabbbaabbab'), ['aaa', 'bbb', 'aa', 'bb', 'a', 'b'])\nTest.assertSimilar(splitGroups('5556667788'), ['555', '666', '77', '88'])\nTest.assertSimilar(splitGroups('abbbcc88999&&!!!_'), ['a', 'bbb', 'cc', '88', '999', '&&', '!!!', '_'], 'It should work with special chars.')\nTest.assertSimilar(splitGroups('555'), ['555'])\nTest.assertSimilar(splitGroups('AABBCC'), ['AA', 'BB', 'CC'])",
+  "title": "Split String by Identical Characters"
+}

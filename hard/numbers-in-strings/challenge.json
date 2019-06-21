@@ -1,0 +1,17 @@
+{
+  "author_id": "Alex Nemechek",
+  "author_url": "https://edabit.com/user/tXzqHX2abH7KJQqKg",
+  "challenge_id": "eCPim4XcssdZdvs32",
+  "code": "function numInStr(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array of strings and returns an array with only the strings that have numbers in them. If there are no strings containing numbers, return an empty array.</span></p><h3><span>Examples</span></h3><pre><code>numInStr([\"1a\", \"a\", \"2b\", \"b\"]) \u279e [\"1a\", \"2b\"]\n\nnumInStr([\"abc\", \"abc10\"]) \u279e [\"abc10\"]\n\nnumInStr([\"abc\", \"ab10c\", \"a10bc\", \"bcd\"]) \u279e [\"ab10c\", \"a10bc\"]\n\nnumInStr([\"this is a test\", \"test1\"]) \u279e [\"test1\"]</code></pre><h3><span>Notes</span></h3><p><span>The strings can contain white spaces or any type of characters.</span></p>",
+  "source_url": "https://edabit.com/challenge/eCPim4XcssdZdvs32",
+  "tags": [
+    "arrays",
+    "loops",
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(numInStr(['abc', 'abc10']), ['abc10'])\nTest.assertSimilar(numInStr(['abc', 'ab10c',  'a10bc', 'bcd']),['ab10c', 'a10bc'])\nTest.assertSimilar(numInStr(['1', 'a' , ' ' ,'b']), ['1'])\nTest.assertSimilar(numInStr(['rct', 'ABC', 'Test', 'xYz']), [])\nTest.assertSimilar(numInStr(['this IS','10xYZ', 'xy2K77', 'Z1K2W0', 'xYz']), ['10xYZ', 'xy2K77', 'Z1K2W0'])\nTest.assertSimilar(numInStr(['-/>', '10bc', 'abc ']), ['10bc'])",
+  "title": "Numbers in Strings"
+}

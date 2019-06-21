@@ -1,8 +1,6 @@
 const truncate = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(truncate('Lorem ipsum dolor sit amet.', 11)).toEqual('Lorem ipsum');
         expect(truncate('Lorem ipsum dolor sit amet.', 16)).toEqual('Lorem ipsum');

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "EoSFpRHksc3CTzox9",
+  "code": "function closestPalindrome(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns the closest palindrome number to an integer. If two palindrome numbers tie in absolute distance, return the </span><strong><span>smaller number</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>closestPalindrome(887) \u279e 888\n\nclosestPalindrome(100) \u279e 99\n// 99 and 101 are equally distant, so we return the smaller palindrome.\n\nclosestPalindrome(888) \u279e 888\n\nclosestPalindrome(27) \u279e 22</code></pre><h3><span>Notes</span></h3><p><span>If the number itself is a palindrome, return that number.</span></p>",
+  "source_url": "https://edabit.com/challenge/EoSFpRHksc3CTzox9",
+  "tags": [
+    "loops",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(closestPalindrome(887), 888)\nTest.assertEquals(closestPalindrome(888), 888)\nTest.assertEquals(closestPalindrome(27), 22)\nTest.assertEquals(closestPalindrome(519), 515)\nTest.assertEquals(closestPalindrome(4892), 4884)\nTest.assertEquals(closestPalindrome(1), 1)\nTest.assertEquals(closestPalindrome(100), 99)\nTest.assertEquals(closestPalindrome(33344), 33333)\nTest.assertEquals(closestPalindrome(123456), 123321)\nTest.assertEquals(closestPalindrome(978215236), 978212879)",
+  "title": "Closest Palindrome Number"
+}

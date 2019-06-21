@@ -1,8 +1,6 @@
 const reverse = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(reverse('Think different.')).toEqual('.tnereffid knihT');
         expect(reverse('It doesn’t make sense to hire smart people and tell them what to do; we hire smart people so they can tell us what to do.')).toEqual('.od ot tahw su llet nac yeht os elpoep trams erih ew ;od ot tahw meht llet dna elpoep trams erih ot esnes ekam t’nseod tI');

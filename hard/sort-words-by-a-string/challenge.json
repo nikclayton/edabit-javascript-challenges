@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ScrNCxkxyWEBAvfck",
+  "code": "function sortByString(arr, str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that sorts words by a given string.</span></p><h3><span>Examples</span></h3><pre><code>sortByString([\"apple\", \"banana\", \"cherry\", \"date\"], \"dbca\")\n\u279e [\"date\", \"banana\", \"cherry\", \"apple\"]\n\nsortByString([\"small\", \"big\", \"medium\"], \"sazymtb\")\n\u279e [\"small\", \"medium\", \"big\"]\n\nsortByString([\"poof\", \"floof\", \"loop\"], \"flatp\")\n\u279e [\"floof\", \"loop\", \"poof\"]</code></pre><h3><span>Notes</span></h3><ul><li><span>The string may have excess letters (see examples #1 and #2).</span></li><li><span>There will be unique starting letters in each array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ScrNCxkxyWEBAvfck",
+  "tags": [
+    "sorting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(sortByString([\"apple\", \"banana\", \"cherry\", \"date\"], \"dbca\"),\n[\"date\", \"banana\", \"cherry\", \"apple\"])\n\nTest.assertSimilar(sortByString([\"small\", \"big\", \"medium\"], \"sazymtb\"),\n[\"small\", \"medium\", \"big\"])\n\nTest.assertSimilar(sortByString([\"poof\", \"floof\", \"loop\"], \"flatp\"),\n[\"floof\", \"loop\", \"poof\"])\n\nTest.assertSimilar(sortByString([\"yellow\", \"phone\", \"book\"], \"abcdpy\"),\n[\"book\", \"phone\", \"yellow\"])",
+  "title": "Sort Words by a String"
+}

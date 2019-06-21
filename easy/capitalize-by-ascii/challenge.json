@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KPENunE3uhBcmSQ7C",
+  "code": "function asciiCapitalize(str) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that takes a string as input and capitalizes a letter if it's ASCII code is even, and returns its lower case version if it's ASCII code is odd.</span></p><h3><span>Examples</span></h3><pre><code>asciiCapitalize(\"to be or not to be!\") \u279e \"To Be oR NoT To Be!\"\n\nasciiCapitalize(\"THE LITTLE MERMAID\") \u279e \"THe LiTTLe meRmaiD\"\n\nasciiCapitalize(\"Oh what a beautiful morning.\") \u279e \"oH wHaT a BeauTiFuL moRNiNg.\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/KPENunE3uhBcmSQ7C",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(asciiCapitalize(\"Oh what a beautiful morning.\"), \"oH wHaT a BeauTiFuL moRNiNg.\")\nTest.assertEquals(asciiCapitalize(\"THE LITTLE MERMAID\"), \"THe LiTTLe meRmaiD\")\nTest.assertEquals(asciiCapitalize(\"to be or not to be!\"), \"To Be oR NoT To Be!\")",
+  "title": "Capitalize by ASCII"
+}

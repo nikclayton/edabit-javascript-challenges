@@ -1,8 +1,6 @@
 const sharedLetters = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(sharedLetters('house', 'home')).toEqual('eho');
         expect(sharedLetters('Micky', 'mouse')).toEqual('m');

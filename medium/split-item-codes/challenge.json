@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Trog78Qz4bGNLFh6M",
+  "code": "function splitCode(item) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>You have an array of item codes with the following format: </span><code>\"[letters][digits]\"</code></p><p><span>Create a function that splits these strings into their alphabetic and numeric parts.</span></p><h3><span>Examples</span></h3><pre><code>splitCode(\"TEWA8392\") \u279e [\"TEWA\", 8392]\n\nsplitCode(\"MMU778\") \u279e [\"MMU\", 778]\n\nsplitCode(\"SRPE5532\") \u279e [\"SSRPE\", 5532]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Trog78Qz4bGNLFh6M",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(splitCode(\"TEWA8392\"), [\"TEWA\", 8392])\nTest.assertSimilar(splitCode(\"MMU778\"), [\"MMU\", 778])\nTest.assertSimilar(splitCode(\"SRPE5532\"), [\"SRPE\", 5532])\nTest.assertSimilar(splitCode(\"SKU8977\"), [\"SKU\", 8977])\nTest.assertSimilar(splitCode(\"MCI5589\"), [\"MCI\", 5589])\nTest.assertSimilar(splitCode(\"WIEB3921\"), [\"WIEB\", 3921])",
+  "title": "Split Item Codes"
+}

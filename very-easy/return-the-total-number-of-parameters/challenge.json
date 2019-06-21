@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hztqDz4mjCPpLMMF4",
+  "code": "function numberArgs(/* fill-in */) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the </span><strong><span>total number of parameters</span></strong><span> passed in.</span></p><h3><span>Examples</span></h3><pre><code>numberArgs(\"a\", \"b\", \"c\") \u279e 3\n\nnumberArgs(10, 20, 30, 40, 50) \u279e 5\n\nnumberArgs(x, y) \u279e 2\n\nnumberArgs() \u279e 0</code></pre><h3><span>Notes</span></h3><ul><li><span>How can you express the input parameter so it takes a variable number of arguments?</span></li><li><span>See </span><strong><span>Resources</span></strong><span> for additional info.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/hztqDz4mjCPpLMMF4",
+  "tags": [
+    "language_fundamentals"
+  ],
+  "tests": "Test.assertEquals(numberArgs('a', 'b', 'c'), 3)\nTest.assertEquals(numberArgs(10, 20, 30, 40, 50), 5)\nTest.assertEquals(numberArgs('x', 'y'), 2)\nTest.assertEquals(numberArgs(), 0)\n\n\n\n\n",
+  "title": "Return the Total Number of Parameters"
+}

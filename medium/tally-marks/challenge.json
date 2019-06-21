@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ufYYJX5CsmSbXazcr",
+  "code": "function switchNotation(scores, desired_notation) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that can convert from </span><strong><span>normal notation</span></strong><span> to </span><strong><span>tally-mark notation</span></strong><span> and vice versa. In tally-mark notation, a number can be decomposed as the sum of </span><code>5</code><span>s + </span><code>remainder</code><span>.</span></p><p><span>The function will look like this: </span><code>switchNotation([current scores], desired notation)</code></p><pre><code>Ex.1 Normal: 3, 24, 4, 9\nEx.1 Tally: 3, 55554, 4, 54\n\nEx.2 Normal: 2, 12, 2, 4\nEx.2 Tally: 2, 552, 2, 4</code></pre><h3><span>Examples</span></h3><pre><code>switchNotation([51], \"normal\") \u279e [6]\n\nswitchNotation([3, 55, 55551], \"normal\") \u279e [3, 10, 21]\n\nswitchNotation([15, 29, 5, 3], \"tally\") \u279e [555, 555554, 5, 3]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/ufYYJX5CsmSbXazcr",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(switchNotation([3, 55, 55551], 'normal'), [3, 10, 21])\nTest.assertSimilar(switchNotation([553, 55, 51], 'normal'), [13, 10, 6])\nTest.assertSimilar(switchNotation([51], 'normal'), [6])\nTest.assertSimilar(switchNotation([555, 55, 5], 'normal'), [15, 10, 5])\nTest.assertSimilar(switchNotation([15, 29, 5, 3], 'tally'), [555, 555554, 5, 3])\nTest.assertSimilar(switchNotation([3, 8, 8, 6], 'tally'), [3, 53, 53, 51])\nTest.assertSimilar(switchNotation([3, 44, 8, 21], 'tally'), [3, 555555554, 53, 55551])",
+  "title": "Tally Marks"
+}

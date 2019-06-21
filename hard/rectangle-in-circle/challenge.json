@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "Qqo3rXrDEQ6kc4PqR",
+  "code": "function rectangleInCircle(w, h, radius) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes 3 numbers \u2014 the width and height of a rectangle, and the radius of a circle and returns </span><code>true</code><span> if the rectangle can fit inside the circle, </span><code>false</code><span> if it can't.</span></p><h3><span>Examples</span></h3><pre><code>rectangleInCircle(8, 6, 5) \u279e true\n\nrectangleInCircle(5, 9, 5) \u279e false\n\nrectangleInCircle(4, 7, 4) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Qqo3rXrDEQ6kc4PqR",
+  "tags": [
+    "math",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(rectangleInCircle(5, 12, 7), true)\nTest.assertEquals(rectangleInCircle(5, 12, 6), false)\nTest.assertEquals(rectangleInCircle(3, 7, 4), true)\nTest.assertEquals(rectangleInCircle(4, 7, 4), false)\nTest.assertEquals(rectangleInCircle(11, 1, 6), true)\nTest.assertEquals(rectangleInCircle(21, 12, 12), false)",
+  "title": "Rectangle in Circle"
+}

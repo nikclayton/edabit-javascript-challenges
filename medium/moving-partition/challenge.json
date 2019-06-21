@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MJKYcPsw34sWbcqP8",
+  "code": "function movingPartition(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function to partition an array from left to right.</span></p><h3><span>Examples</span></h3><pre><code>movingPartition([-1, -1, -1, -1])\n\u279e [[[-1], [-1, -1, -1]], [[-1, -1], [-1, -1]], [[-1, -1, -1], [-1]]]\n\nmovingPartition([1, 2, 3, 4, 5])\n\u279e [[[1], [2, 3, 4, 5]], [[1, 2], [3, 4, 5]], [[1, 2, 3], [4, 5]], [[1, 2, 3, 4], [5]]]\n\nmovingPartition([]) \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>With an </span><code>n</code><span> input, your output should be an array containing </span><code>n-1</code><span> subarrays. Each subarray should have two elements: the left and the right side of the partition (both should be non-empty, unless the input array is empty).</span></li><li><span>An empty array should return an empty array: </span><code>[]</code></li></ul>",
+  "source_url": "https://edabit.com/challenge/MJKYcPsw34sWbcqP8",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertSimilar(movingPartition([1, 2, 3, 4, 5]), [[[1], [2, 3, 4, 5]], [[1, 2], [3, 4, 5]], [[1, 2, 3], [4, 5]], [[1, 2, 3, 4], [5]]])\nTest.assertSimilar(movingPartition([-1, -1, -1, -1]), [[[-1], [-1, -1, -1]], [[-1, -1], [-1, -1]], [[-1, -1, -1], [-1]]])\nTest.assertSimilar(movingPartition([8, 9, 10]), [[[8], [9, 10]], [[8, 9], [10]]])\nTest.assertSimilar(movingPartition([]), [])",
+  "title": "Moving Partition"
+}

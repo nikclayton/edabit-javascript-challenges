@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "uryLqjondNYMTXhBt",
+  "code": "function sumDigits(a, b) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that sums the total number of digits between two numbers, </span><strong><span>inclusive</span></strong><span>. For example, between the numbers </span><code>19</code><span> and </span><code>22</code><span> we have:</span></p><pre><code>(1 + 9) + (2 + 0) + (2 + 1) + (2 + 2) = 19</code></pre><h3><span>Examples</span></h3><pre><code>sumDigits(7, 8) \u279e 15\n\nsumDigits(17, 20) \u279e 29\n\nsumDigits(10, 12) \u279e 6</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/uryLqjondNYMTXhBt",
+  "tags": [
+    "loops",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(sumDigits(7, 8), 15)\nTest.assertEquals(sumDigits(17, 20), 29)\nTest.assertEquals(sumDigits(10, 12), 6)\nTest.assertEquals(sumDigits(500, 506), 56)\nTest.assertEquals(sumDigits(66, 789), 9324)",
+  "title": "Sum of Digits Between Two Numbers"
+}

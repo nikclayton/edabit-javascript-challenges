@@ -2,9 +2,9 @@
   "author_id": "DasMozart",
   "author_url": "https://edabit.com/user/2eAwdyT6n7og5EzdW",
   "challenge_id": "qMKzp256C9Ng9pGYc",
-  "code": "function isCircleCollision(c1,c2) {\n  \n}",
+  "code": "function isCircleCollision(c1, c2) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if the given circles are intersecting, otherwise return </span><code>false</code><span>. The circles are given as two arrays containing the values in the following order:</span></p><ol><li><span>Radius of the circle.</span></li><li><span>Position on the x-axis.</span></li><li><span>Position on the y-axis.</span></li></ol><h3><span>Examples</span></h3><pre><code>isCircleCollision([10,0,0], [10,10,10]) \u279e true\n\nisCircleCollision([1,0,0], [1,10,10]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>You can expect useable input and positive radii.</span></li><li><span>Check the </span><strong><span>Resources</span></strong><span> tab for help.</span></li></ul>",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if the given circles are intersecting, otherwise return </span><code>false</code><span>. The circles are given as two arrays containing the values in the following order:</span></p><ol><li><span>Radius of the circle.</span></li><li><span>Position on the x-axis.</span></li><li><span>Position on the y-axis.</span></li></ol><h3><span>Examples</span></h3><pre><code>isCircleCollision([10, 0, 0], [10, 10, 10]) \u279e true\n\nisCircleCollision([1, 0, 0], [1, 10, 10]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>You can expect useable input and positive radii.</span></li><li><span>Check the </span><strong><span>Resources</span></strong><span> tab for help.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/qMKzp256C9Ng9pGYc",
   "tags": [
     "algebra",
@@ -12,6 +12,6 @@
     "games",
     "math"
   ],
-  "tests": "Test.assertEquals(isCircleCollision([10,0,0],[10,10,10]), true);\nTest.assertEquals(isCircleCollision([10,0,0],[5,0,0]), true);\nTest.assertEquals(isCircleCollision([1,0,0],[1,0,0]), true);\nTest.assertEquals(isCircleCollision([5,0,0],[5,10,10]), false);\nTest.assertEquals(isCircleCollision([1,0,0],[1,10,10]), false);",
+  "tests": "Test.assertEquals(isCircleCollision([10,0,0],[10,10,10]), true)\nTest.assertEquals(isCircleCollision([10,0,0],[5,0,0]), true)\nTest.assertEquals(isCircleCollision([1,0,0],[1,0,0]), true)\nTest.assertEquals(isCircleCollision([5,0,0],[5,10,10]), false)\nTest.assertEquals(isCircleCollision([1,0,0],[1,10,10]), false)",
   "title": "Simple Circle Collision Detection"
 }

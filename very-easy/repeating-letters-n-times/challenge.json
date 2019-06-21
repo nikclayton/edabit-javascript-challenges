@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "pggD9dH8Nwuac7fPE",
+  "code": "function repeat(str, n) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that repeats each character in a string </span><strong><span>n</span></strong><span> times.</span></p><h3><span>Examples</span></h3><pre><code>repeat(\"mice\", 5) \u279e \"mmmmmiiiiiccccceeeee\"\n\nrepeat(\"hello\", 3) \u279e \"hhheeellllllooo\"\n\nrepeat(\"stop\", 1) \u279e \"stop\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/pggD9dH8Nwuac7fPE",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(repeat(\"mice\", 5), \"mmmmmiiiiiccccceeeee\")\nTest.assertEquals(repeat(\"hello\", 3), \"hhheeellllllooo\")\nTest.assertEquals(repeat(\"stop\", 1), \"stop\")\nTest.assertEquals(repeat(\"tomato\", 2), \"ttoommaattoo\")",
+  "title": "Repeating Letters N Times"
+}

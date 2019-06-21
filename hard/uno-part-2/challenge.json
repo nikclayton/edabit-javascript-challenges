@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TGCRiLbcdoTK9uwdZ",
+  "code": "function decision(hand, face) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>This problem is a continuation of Uno Part 1 (although you don't need to complete that problem to complete this one).</span></p><p><span>It's your turn to play again. Create a function that takes as its arguments (1) your hand (an array of cards), and (2) the face-up card. In Uno, you are able to play a card from your hand if either:</span></p><ul><li><span>One of the card colors in your hand matches the face-up card's color.</span></li><li><span>One of the card numbers in your hand matches the face-up card's number.</span></li></ul><p><span>Write a function that will return:</span></p><ol><li><span>\"Uno!\" if </span><strong><span>after</span></strong><span> playing your card, you are left with a single card.</span></li><li><span>\"You won!\" if </span><strong><span>after</span></strong><span> playing your card, you are left with zero cards (an empty array).</span></li><li><span>\"Keep going...\" otherwise.</span></li></ol><h3><span>Examples</span></h3><pre><code>decision([\"yellow 3\", \"red 3\"], \"red 10\") \u279e \"Uno!\"\n\ndecision([\"blue 1\"], \"blue 5\") \u279e \"You won!\"\n\ndecision([\"blue 1\", \"green 2\", \"yellow 4\", \"red 2\"], \"blue 5\") \u279e \"Keep going...\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/TGCRiLbcdoTK9uwdZ",
+  "tags": [
+    "arrays",
+    "games"
+  ],
+  "tests": "Test.assertEquals(decision(['yellow 3', 'red 3'], 'red 10'), \"Uno!\");\nTest.assertEquals(decision(['blue 1'], 'blue 5'), \"You won!\");\nTest.assertEquals(decision(['red 1'], 'blue 5'), \"Uno!\");\nTest.assertEquals(decision(['red 1', 'blue 10'], 'blue 5'), \"Uno!\");\nTest.assertEquals(decision(['red 1', 'blue 10', 'green 7'], 'blue 5'), \"Keep going...\");\nTest.assertEquals(decision(['red 1', 'green 7'], 'green 2'), \"Uno!\");\nTest.assertEquals(decision(['green 7'], 'green 2'), \"You won!\");\nTest.assertEquals(decision(['blue 7'], 'green 7'), \"You won!\");\nTest.assertEquals(decision(['blue 1', 'green 2', 'yellow 4', 'red 2'], 'blue 5'), \"Keep going...\");",
+  "title": "Uno - Part 2"
+}

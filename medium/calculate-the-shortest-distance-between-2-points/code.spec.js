@@ -1,8 +1,6 @@
 const shortestDistance = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(shortestDistance('1,1,2,1')).toEqual(1);
         expect(shortestDistance('1,1,3,1')).toEqual(2);

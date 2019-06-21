@@ -32,8 +32,4 @@ test('is not a magic date', () => {
 test('is not a magic date', () => {
         expect(Magic('1 4 2011')).toEqual(false);
     });
-    
-    test('the tests', () => {
-        
-    });
 });

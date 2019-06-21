@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "xPAPYC24EEpwzwQDy",
+  "code": "function ctoa(c) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the ASCII value of the passed in character.</span></p><h3><span>Examples</span></h3><pre><code>ctoa(\"A\") \u279e 65\n\nctoa(\"m\") \u279e 109\n\nctoa(\"[\") \u279e 91\n\nctoa(\"\\\") \u279e 92</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/xPAPYC24EEpwzwQDy",
+  "tags": [
+    "algorithms",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(ctoa(' '), 32)\nTest.assertEquals(ctoa('A'), 65)\nTest.assertEquals(ctoa(']'), 93)\nTest.assertEquals(ctoa('^'), 94)\nTest.assertEquals(ctoa('c'), 99)",
+  "title": "Char-to-ASCII"
+}

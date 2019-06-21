@@ -4,12 +4,12 @@
   "challenge_id": "NAQhEoxbofPidLxm9",
   "code": "function addition(num) {\n  \n}",
   "difficulty": "Very Easy",
-  "instructions": "<p><span>Create a function that takes a number as an argument, increments the number by +1 and returns the result.</span></p><h3><span>Examples</span></h3><pre><code>addition(0) \u279e 1\n\naddition(9) \u279e 10\n\naddition(-3) \u279e -2</code></pre><h3><span>Notes</span></h3><p><span>The numbers will be integer only.</span></p>",
+  "instructions": "<p><span>Create a function that takes a number as an argument, increments the number by +1 and returns the result.</span></p><h3><span>Examples</span></h3><pre><code>addition(0) \u279e 1\n\naddition(9) \u279e 10\n\naddition(-3) \u279e -2</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/NAQhEoxbofPidLxm9",
   "tags": [
     "math",
     "numbers"
   ],
-  "tests": "Test.assertEquals(addition(2), 3);\nTest.assertEquals(addition(-9), -8);\nTest.assertEquals(addition(0), 1);",
+  "tests": "Test.assertEquals(addition(2), 3)\nTest.assertEquals(addition(-9), -8)\nTest.assertEquals(addition(0), 1)",
   "title": "Return the Next Number from the Integer Passed"
 }

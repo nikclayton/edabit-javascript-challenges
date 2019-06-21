@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "NfBqxaDu4KoxAysWF",
+  "code": "function doubleSwap(str, c1, c2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function to replace all instances of character </span><code>a</code><span> with character </span><code>b</code><span> and vice versa.</span></p><h3><span>Examples</span></h3><pre><code>doubleSwap(\"a\", \"b\", \"aabbccc\") \u279e \"bbaaccc\"\n\ndoubleSwap(\"#\", \"&amp;\", \"random w#rds writt&amp;n h&amp;r&amp;\")\n\u279e \"random w&amp;rds writt#n h#r#\"\n\ndoubleSwap(\"8\", \"9\", \"128 895 556 788 999\")\n\u279e \"129 985 556 799 888\"</code></pre><h3><span>Notes</span></h3><p><span>Both characters will show up at least once in the string.</span></p>",
+  "source_url": "https://edabit.com/challenge/NfBqxaDu4KoxAysWF",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(doubleSwap(\"aabbccc\", \"a\", \"b\"), \"bbaaccc\")\nTest.assertEquals(doubleSwap(\"random w#rds writt&n h&r&\", \"#\", \"&\"), \"random w&rds writt#n h#r#\")\nTest.assertEquals(doubleSwap(\"128 895 556 788 999\", \"8\", \"9\"), \"129 985 556 799 888\")\nTest.assertEquals(doubleSwap(\"mamma mia\", \"m\", \"a\"), \"amaam aim\")\nTest.assertEquals(doubleSwap(\"**##**\", \"*\", \"#\"), \"##**##\")\nTest.assertEquals(doubleSwap(\"123456789\", \"4\", \"5\"), \"123546789\")\nTest.assertEquals(doubleSwap(\"445566&&\", \"4\", \"&\"), \"&&556644\")\nTest.assertEquals(doubleSwap(\"!?@,.\", \",\", \".\"), \"!?@.,\")\nTest.assertEquals(doubleSwap(\"Q_Q T_T =.= >.<\", \"Q\", \"T\"), \"T_T Q_Q =.= >.<\")\nTest.assertEquals(doubleSwap(\"(Q_Q) (T_T) (=.=) (>.<)\", \")\", \"(\"), \")Q_Q( )T_T( )=.=( )>.<(\")\nTest.assertEquals(doubleSwap(\"<>\", \">\", \"<\"), \"><\")\nTest.assertEquals(doubleSwap(\"001101\", \"1\", \"0\"), \"110010\")\nTest.assertEquals(doubleSwap(\"!\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\", \"a\", \"b\"), \"!\\\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`bacdefghijklmnopqrstuvwxyz{|}~\")",
+  "title": "Double Character Swap"
+}

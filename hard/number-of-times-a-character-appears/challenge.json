@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Mbmyf5Q2bXJvdtaiv",
+  "code": "function charAppears(sentence, char) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the number of times a character appears in each word in a sentence.</span></p><p><span>Treat upper and lower case characters of the same letter as being identical (e.g. </span><code>a</code><span> exists in </span><code>Anna</code><span> twice, not once; </span><code>A</code><span> exists in </span><code>Anna</code><span> twice, not once).</span></p><h3><span>Examples</span></h3><pre><code>charAppears(\"She sells sea shells by the seashore.\", \"s\")\n\u279e [1, 2, 1, 2, 0, 0, 2]\n// \"s\" shows up once in \"She\", twice in \"sells\", once in \"sea\", twice in \"shells\", etc.\n\ncharAppears(\"Peter Piper picked a peck of pickled peppers.\", \"P\")\n\u279e [1, 2, 1, 0, 1, 0, 1, 3]\n// \"p\" shows up once in \"Peter\", ... 3 times in \"peppers\".\n\ncharAppears(\"She hiked in the morning, then swam in the river.\", \"t\")\n\u279e [0, 0, 0, 1, 0, 1, 0, 0, 1, 0]</code></pre><h3><span>Notes</span></h3><p><span>Ignore case (note that capitalization, in both the sentence and character itself, in examples #1 &amp; #2).</span></p>",
+  "source_url": "https://edabit.com/challenge/Mbmyf5Q2bXJvdtaiv",
+  "tags": [
+    "arrays",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(charAppears(\"She sells sea shells by the seashore.\", \"s\"), [1, 2, 1, 2, 0, 0, 2])\nTest.assertSimilar(charAppears(\"Peter Piper picked a peck of pickled peppers.\", \"p\"), [1, 2, 1, 0, 1, 0, 1, 3])\nTest.assertSimilar(charAppears(\"She hiked in the morning, then swam in the river.\", \"t\"), [0, 0, 0, 1, 0, 1, 0, 0, 1, 0])\nTest.assertSimilar(charAppears(\"I scream, you scream, we all scream for ice cream.\", \"f\"), [0, 0, 0, 0, 0, 0, 0, 1, 0, 0])\nTest.assertSimilar(charAppears(\"Snap, crackle, pop!\", \"p\"), [1, 0, 2])\nTest.assertSimilar(charAppears(\"What a wonderful world.\", \"w\"), [1, 0, 1, 1])",
+  "title": "Number of Times a Character Appears"
+}

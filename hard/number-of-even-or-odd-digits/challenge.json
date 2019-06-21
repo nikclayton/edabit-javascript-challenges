@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "fZxhP7ZSFEhLGvjME",
+  "code": "function countDigits(arr, type) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes in an array of integers returns the number of even or odd digits for each number, depending on the parameter.</span></p><h3><span>Examples</span></h3><pre><code>countDigits([22, 53, 99, 61, 777, 8], \"odd\") \u279e [0, 2, 2, 1, 3, 0]\n\ncountDigits([22, 53, 99, 61, 777, 8], \"even\") \u279e [2, 0, 0, 1, 0, 1]\n\ncountDigits([54, 113, 89, 10], \"odd\") \u279e [1, 3, 1, 1]\n\ncountDigits([54, 113, 89, 10], \"even\") \u279e [1, 0, 1, 1]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/fZxhP7ZSFEhLGvjME",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertSimilar(countDigits([22, 53, 99, 61, 777, 8], \"odd\"), [0, 2, 2, 1, 3, 0])\nTest.assertSimilar(countDigits([54, 113, 89, 10], \"odd\"), [1, 3, 1, 1])\nTest.assertSimilar(countDigits([17, 19, 21], \"odd\"), [2, 2, 1])\nTest.assertSimilar(countDigits([1, 2, 3, 4], \"odd\"), [1, 0, 1, 0])\nTest.assertSimilar(countDigits([22, 53, 99, 61, 777, 8], \"even\"), [2, 0, 0, 1, 0, 1])\nTest.assertSimilar(countDigits([54, 113, 89, 10], \"even\"), [1, 0, 1, 1])\nTest.assertSimilar(countDigits([5, 8, 9, 12], \"even\"), [0, 1, 0, 1])\nTest.assertSimilar(countDigits([1, 2, 3], \"even\"), [0, 1, 0])",
+  "title": "Number of Even or Odd Digits"
+}

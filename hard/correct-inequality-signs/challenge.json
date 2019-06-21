@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Y2H2aDQhfeE9bHg6m",
+  "code": "function correctSigns(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns </span><code>true</code><span> if a given inequality expression is correct and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>correctSigns(\"3 &lt; 7 &lt; 11\") \u279e true\n\ncorrectSigns(\"13 &gt; 44 &gt; 33 &gt; 1\") \u279e false\n\ncorrectSigns(\"1 &lt; 2 &lt; 6 &lt; 9 &gt; 3\") \u279e true</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/Y2H2aDQhfeE9bHg6m",
+  "tags": [
+    "regex",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(correctSigns(\"3 < 7 < 11\"), true)\nTest.assertEquals(correctSigns(\"13 > 44 > 33 > 1\"), false)\nTest.assertEquals(correctSigns(\"1 < 2 < 6 < 9 > 3\"), true)\nTest.assertEquals(correctSigns(\"4 > 3 > 2 > 1\"), true)\nTest.assertEquals(correctSigns(\"5 < 7 > 1\"), true)\nTest.assertEquals(correctSigns(\"5 > 7 > 1\"), false)\nTest.assertEquals(correctSigns(\"9 < 9\"), false)",
+  "title": "Correct Inequality Signs"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "7HiitQLp9CQGQNWJr",
+  "code": "function buildStaircase(height, block) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that builds a staircase given the height and the type of building block.</span></p><h3><span>Examples</span></h3><pre><code>buildStaircase(3, \"#\") \u279e [\n  [\"#\", \"_\", \"_\"],\n  [\"#\", \"#\", \"_\"],\n  [\"#\", \"#\", \"#\"]\n]\n\nbuildStaircase(4, \"#\") \u279e [\n  [\"#\", \"_\", \"_\", \"_\"],\n  [\"#\", \"#\", \"_\", \"_\"],\n  [\"#\", \"#\", \"#\", \"_\"],\n  [\"#\", \"#\", \"#\", \"#\"]\n]\n\nbuildStaircase(3, \"A\") \u279e [\n  [\"A\", \"_\", \"_\"],\n  [\"A\", \"A\", \"_\"],\n  [\"A\", \"A\", \"A\"]\n]\n\n// height = 3 and building block = \"A\"\n\nbuildStaircase(4, \"$\") \u279e [\n  [\"$\", \"_\", \"_\", \"_\"],\n  [\"$\", \"$\", \"_\", \"_\"],\n  [\"$\", \"$\", \"$\", \"_\"],\n  [\"$\", \"$\", \"$\", \"$\"]\n]\n\n// height = 4 and building block = \"$\"</code></pre><h3><span>Notes</span></h3><ul><li><span>If the height is 0, return an empty array </span><code>[]</code><span>.</span></li><li><span>See </span><strong><span>Comments</span></strong><span> or </span><strong><span>Resources</span></strong><span> for help.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/7HiitQLp9CQGQNWJr",
+  "tags": [
+    "arrays",
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(buildStaircase(0, '#'), \n[])\n\nTest.assertSimilar(buildStaircase(1, '#'), \n[['#']])\n\nTest.assertSimilar(buildStaircase(2, '#'), \n[['#', '_'], \n['#', '#']])\n\nTest.assertSimilar(buildStaircase(3, '#'), \n[['#', '_', '_'], \n['#', '#', '_'], \n['#', '#', '#']])\n\nTest.assertSimilar(buildStaircase(4, '#'), \n[['#', '_', '_', '_'], \n['#', '#', '_', '_'], \n['#', '#', '#', '_'], \n['#', '#', '#', '#']])\n\nTest.assertSimilar(buildStaircase(3, 'A'), \n[['A', '_', '_'], \n['A', 'A', '_'], \n['A', 'A', 'A']])\n\nTest.assertSimilar(buildStaircase(4, 'A'), \n[['A', '_', '_', '_'], \n['A', 'A', '_', '_'], \n['A', 'A', 'A', '_'], \n['A', 'A', 'A', 'A']])\n\nTest.assertSimilar(buildStaircase(4, '$'), \n[['$', '_', '_', '_'], \n['$', '$', '_', '_'], \n['$', '$', '$', '_'], \n['$', '$', '$', '$']])",
+  "title": "Building a Staircase"
+}

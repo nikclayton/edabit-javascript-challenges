@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "QuhNPjLubRNh2McfX",
+  "code": "function rolls(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes an array consisting of dice rolls from 1-6. Return the sum of your rolls with the following conditions:</span></p><ol><li><span>If a 1 is rolled, that is bad luck. The next roll counts as 0.</span></li><li><span>If a 6 is rolled, that is good luck. The next roll is amplified by a factor of 2.</span></li><li><span>The array length will always be 3 or higher.</span></li></ol><h3><span>Examples</span></h3><pre><code>rolls([1, 2, 3]) \u279e 4\n// The second roll, 2, counts as 0 as a result of rolling 1.\n\nrolls([2, 6, 2, 5]) \u279e 17\n// The 2 following the 6 was amplified by 2.\n\nrolls([6, 1, 1]) \u279e 8\n// The first roll makes the second roll worth 2, but the\n// second roll was still 1 so the third roll doesn't count.</code></pre><h3><span>Notes</span></h3><p><span>Even if a 6 is rolled after a 1, 6 isn't summed but the 6's \"effect\" still takes place.</span></p>",
+  "source_url": "https://edabit.com/challenge/QuhNPjLubRNh2McfX",
+  "tags": [
+    "algorithms",
+    "conditions",
+    "games",
+    "math"
+  ],
+  "tests": "Test.assertEquals(rolls([1,2,3]), 4)\nTest.assertEquals(rolls([2,6,2,5]), 17)\nTest.assertEquals(rolls([6,1,1]), 8)\nTest.assertEquals(rolls([5,1,6,1,6]), 8)\nTest.assertEquals(rolls([1,1,1]), 1)\nTest.assertEquals(rolls([1,1,3,1,1]), 2)\nTest.assertEquals(rolls([1,1,1,1,1]), 1)\nTest.assertEquals(rolls([6,6,6]), 30)",
+  "title": "Dice Gambling"
+}

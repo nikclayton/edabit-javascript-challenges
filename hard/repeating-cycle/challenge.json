@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "9opuZaXyTKcwKMb6C",
+  "code": "function isRepeatingCycle(arr, length) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Below is an example of a </span><strong><span>repeating cycle</span></strong><span>.</span></p><pre><code>isRepeatingCycle([1, 2, 3, 1, 2], 3) =&gt; true\n// Since the first two elements of [1, 2, 3] equals [1, 2]</code></pre><p><span>Below is an example of a </span><strong><span>non-repeating cycle</span></strong><span>.</span></p><pre><code>isRepeatingCycle([1, 2, 3, 1, 3], 3) =&gt; false\n// Since [1, 2, 3] != [1, 3]</code></pre><p><span>You are tasked with writing a function that takes in two inputs: (1) an array of integers; (2) the length of each cycle. Return the boolean value </span><code>true</code><span> if the array is a repeating cycle, and </span><code>false</code><span> if the array is a non-repeating cycle.</span></p><h3><span>Examples</span></h3><pre><code>isRepeatingCycle([1, 2, 3, 1, 2, 3, 1], 3) \u279e true\n\nisRepeatingCycle([1, 2, 3, 4, 2, 3, 1], 4) \u279e false\n\nisRepeatingCycle([1, 2, 1, 2, 2], 2) \u279e false\n\nisRepeatingCycle([1, 1, 1, 1], 3) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>All cycles begin with the first element of the array.</span></li><li><span>Return </span><code>true</code><span> if the cycle length is greater than the array length.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9opuZaXyTKcwKMb6C",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isRepeatingCycle([1, 2, 3, 1, 2, 3, 1], 3), true);\nTest.assertEquals(isRepeatingCycle([1, 2, 3, 4, 2, 3, 1], 4), false);\nTest.assertEquals(isRepeatingCycle([1, 2, 1, 2, 2], 2), false);\nTest.assertEquals(isRepeatingCycle([1, 1, 1, 1], 3), true, \"Trivially repeating, since array is identical.\");\nTest.assertEquals(isRepeatingCycle([1, 2, 1, 9], 4), true, \"Trivially repeating, since the cycle length = length of the array.\");\nTest.assertEquals(isRepeatingCycle([1, 1, 3, 1, 1], 7), true, \"Cycle length exceeds array length, so trivially true.\");\nTest.assertEquals(isRepeatingCycle([1, 2, 1, 2, 1, 2, 1], 3), false);\nTest.assertEquals(isRepeatingCycle([1, 2, 1, 2, 1, 2, 1], 2), true);\nTest.assertEquals(isRepeatingCycle([1, 2, 1, 2, 1, 2, 1], 4), true);",
+  "title": "Repeating Cycle"
+}

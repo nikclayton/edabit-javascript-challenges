@@ -1,8 +1,6 @@
 const filterArray = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(filterArray([1, 2, 'a', 'b'])).toEqual([1, 2]);
         expect(filterArray([1, 'a', 'b', 0, 15])).toEqual([1, 0, 15]);

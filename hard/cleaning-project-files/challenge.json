@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "pw8taSZSektvqcDS2",
+  "code": "function cleanUp(files, sort) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are in the midst of organizing all of your coding projects. It's a mess! Every file you've ever created is located in the same folder.</span></p><p><span>To clean it up, you've decided that you will use one of two organization methods.</span></p><ol><li><span>The </span><code>prefix</code><span> method: You will group all files with the same project name under the same folder.</span></li><li><span>The </span><code>suffix</code><span> method: You will group all files with the same extension under the same folder.</span></li></ol><p><span>Create a function that takes in the current folder sorts the files according to the organization method (</span><code>prefix</code><span> or </span><code>suffix</code><span>). A folder is a grouping of files in the same array.</span></p><h3><span>Examples</span></h3><pre><code>// Sorting by project name (ex1 and ex2)\ncleanUp([\"ex1.html\", \"ex1.js\", \"ex2.html\", \"ex2.js\"], \"prefix\") \u279e [\n  [\"ex1.html\", \"ex1.js\"],\n  [\"ex2.html\", \"ex2.js\"]\n]\n\n// Sorting by extension (.html and .js)\ncleanUp([\"ex1.html\", \"ex1.js\", \"ex2.html\", \"ex2.js\"], \"suffix\") \u279e [\n  [\"ex1.html\", \"ex2.html\"],\n  [\"ex1.js\", \"ex2.js\"]\n]\n\ncleanUp([\"music_app.js\", \"music_app.png\", \"music_app.wav\", \"tetris.png\", \"tetris.js\"], \"prefix\") \u279e [\n  [\"music_app.js\", \"music_app.png\", \"music_app.wav\"],\n  [\"tetris.png\", \"tetris.js\"]\n]\n\ncleanUp([\"_1.rb\", \"_2.rb\", \"_3.rb\", \"_4.rb\"], \"suffix\") \u279e [\n  [\"_1.rb\", \"_2.rb\", \"_3.rb\", \"_4.rb\"]\n]\n\ncleanUp([\"_1.rb\", \"_2.rb\", \"_3.rb\", \"_4.rb\"], \"prefix\") \u279e [\n  [\"_1.rb\"], [\"_2.rb\"],\n  [\"_3.rb\"], [\"_4.rb\"]\n]</code></pre><h3><span>Notes</span></h3><p><span>Keep elements in the same relative order.</span></p>",
+  "source_url": "https://edabit.com/challenge/pw8taSZSektvqcDS2",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(cleanUp(['music_app.js', 'music_app.png', 'music_app.wav', 'tetris.png', 'tetris.js'], 'prefix'), [['music_app.js', 'music_app.png', 'music_app.wav'], ['tetris.png', 'tetris.js']])\nTest.assertSimilar(cleanUp(['_1.rb', '_2.rb', '_3.rb', '_4.rb'], 'suffix'), [['_1.rb', '_2.rb', '_3.rb', '_4.rb']])\nTest.assertSimilar(cleanUp(['_1.rb', '_2.rb', '_3.rb', '_4.rb'], 'prefix'), [['_1.rb'], ['_2.rb'], ['_3.rb'], ['_4.rb']])\nTest.assertSimilar(cleanUp(['project1.html', 'project2.html', 'project1.css', 'project2.css', 'project1.js', 'project2.js'], 'suffix'), [['project1.html', 'project2.html'], ['project1.css', 'project2.css'], ['project1.js', 'project2.js']])",
+  "title": "Cleaning Project Files"
+}

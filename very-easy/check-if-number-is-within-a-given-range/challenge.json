@@ -1,0 +1,17 @@
+{
+  "author_id": "Peter Flynn",
+  "author_url": "https://edabit.com/user/wkxYjg28PC4xdWH69",
+  "challenge_id": "Wp8uSyh2tfpdzR4CP",
+  "code": "function isInRange(num, range) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Given a number and an object with </span><code>min</code><span> and </span><code>max</code><span> properties, return </span><code>true</code><span> if the number lies within the given range (inclusive).</span></p><h3><span>Examples</span></h3><pre><code>isInRange(4, { min: 0, max: 5 }) \u279e true\n\nisInRange(4, { min: 4, max: 5 }) \u279e true\n\nisInRange(4, { min: 6, max: 10 }) \u279e false\n\nisInRange(5, { min: 5, max: 5 }) \u279e true</code></pre><h3><span>Notes</span></h3><ul><li><span>Numbers can be positive or negative, and they may not be integers.</span></li><li><span>You can assume </span><code>min &lt;= max</code><span> is always true.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Wp8uSyh2tfpdzR4CP",
+  "tags": [
+    "language_fundamentals",
+    "numbers",
+    "objects",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isInRange(4, { min: 0, max: 5 }), true)\nTest.assertEquals(isInRange(4, { min: 4, max: 5 }), true)\nTest.assertEquals(isInRange(4, { min: 0, max: 4 }), true)\nTest.assertEquals(isInRange(4, { min: 6, max: 10 }), false)\nTest.assertEquals(isInRange(11, { min: 6, max: 10 }), false)\nTest.assertEquals(isInRange(5, { min: 5, max: 5 }), true)\nTest.assertEquals(isInRange(1.5, { min: 1.25, max: 1.75 }), true)\nTest.assertEquals(isInRange(1.1, { min: 1.25, max: 1.75 }), false)\nTest.assertEquals(isInRange(1.8, { min: 1.25, max: 1.75 }), false)\nTest.assertEquals(isInRange(-1, { min: -1, max: 1 }), true)",
+  "title": "Check if Number is within a Given Range"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "9se2zfxxSrLPKpyH9",
+  "code": "function samplesFromCurve(samples, curve) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that given a type of </span><code>curve</code><span> will generate an array containing a </span><code>samples</code><span> amount of numbers calculated from said </span><code>curve</code><span>.</span></p><p><span>It's easier to see with a visual representation:</span></p><p><img alt=\"graph of the 3 curves\" src=\"https://i.imgur.com/MYkTPWy.png\"></p><p><span>If </span><code>samples = 3</code><span> and </span><code>curve = 'pow'</code><span>, we would sample 3 points along the </span><strong><span>x axis</span></strong><span> </span><code>[0, 0.5, 1]</code><span> and figure out the value of </span><code>y</code><span>, in the case of the </span><code>pow</code><span> curve the values are </span><code>[0, 0.25, 1]</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>samplesFromCurve(3, \"linear\") \u279e [0, 0.5,  1]\n\nsamplesFromCurve(3, \"pow\")    \u279e [0, 0.25, 1]\n\nsamplesFromCurve(3, \"sqrt\")   \u279e [0, 0.71, 1]\n\nsamplesFromCurve(5, \"linear\") \u279e [0, 0.25, 0.5, 0.75,  1]</code></pre><h3><span>Notes</span></h3><ul><li><span>The available curves are </span><code>linear</code><span>, </span><code>pow</code><span>, </span><code>sqrt</code><span> as shown in the picture.</span></li><li><span>All values returned must have a </span><strong><span>maximum of 2 decimals</span></strong><span> to avoid floating point problems in the tests.</span></li><li><span>All values returned must be between </span><code>0</code><span> and </span><code>1</code><span> (inclusive).</span></li><li><span>The </span><code>samples</code><span> parameter will always be \u2265 </span><code>2</code><span>.</span></li><li><span>The samples are </span><strong><span>evenly distributed</span></strong><span> along the </span><strong><span>x axis</span></strong><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/9se2zfxxSrLPKpyH9",
+  "tags": [
+    "algebra",
+    "arrays",
+    "math"
+  ],
+  "tests": "// Linear\nTest.assertSimilar(samplesFromCurve(2, 'linear'), [0, 1]);\nTest.assertSimilar(samplesFromCurve(3, 'linear'), [0, 0.5, 1]);\nTest.assertSimilar(samplesFromCurve(11, 'linear'), [\n  0,\n  0.1,\n  0.2,\n  0.3,\n  0.4,\n  0.5,\n  0.6,\n  0.7,\n  0.8,\n  0.9,\n  1,\n]);\n\n// Pow\nTest.assertSimilar(samplesFromCurve(4, 'pow'), [0, 0.11, 0.44, 1]);\nTest.assertSimilar(samplesFromCurve(5, 'pow'), [0, 0.06, 0.25, 0.56, 1]);\nTest.assertSimilar(samplesFromCurve(11, 'pow'), [\n  0,\n  0.01,\n  0.04,\n  0.09,\n  0.16,\n  0.25,\n  0.36,\n  0.49,\n  0.64,\n  0.81,\n  1,\n]);\n\n// Sqrt\nTest.assertSimilar(samplesFromCurve(6, 'sqrt'), [0, 0.45, 0.63, 0.77, 0.89, 1]);\nTest.assertSimilar(samplesFromCurve(7, 'sqrt'), [0, 0.41, 0.58, 0.71, 0.82, 0.91, 1]);\nTest.assertSimilar(samplesFromCurve(11, 'sqrt'), [\n  0,\n  0.32,\n  0.45,\n  0.55,\n  0.63,\n  0.71,\n  0.77,\n  0.84,\n  0.89,\n  0.95,\n  1,\n]);",
+  "title": "Sample points from a curve"
+}

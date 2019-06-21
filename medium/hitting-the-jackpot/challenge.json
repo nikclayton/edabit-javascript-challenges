@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "hxyvTffvdT4E238CY",
+  "code": "function testJackpot(result) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes in an array (slot machine outcome) and returns </span><code>true</code><span> if all elements in the array are identical, and </span><code>false</code><span> otherwise. The array will contain 4 elements.</span></p><h3><span>Examples</span></h3><pre><code>testJackpot([\"@\", \"@\", \"@\", \"@\"]) \u279e true\n\ntestJackpot([\"abc\", \"abc\", \"abc\", \"abc\"]) \u279e true\n\ntestJackpot([\"SS\", \"SS\", \"SS\", \"SS\"]) \u279e true\n\ntestJackpot([\"&amp;&amp;\", \"&amp;\", \"&amp;&amp;&amp;\", \"&amp;&amp;&amp;&amp;\"]) \u279e false\n\ntestJackpot([\"SS\", \"SS\", \"SS\", \"Ss\"]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>The elements must be exactly identical for there to be a jackpot.</span></p>",
+  "source_url": "https://edabit.com/challenge/hxyvTffvdT4E238CY",
+  "tags": [
+    "arrays",
+    "control_flow",
+    "games",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(testJackpot(['@', '@', '@', '@']), true);\nTest.assertEquals(testJackpot(['!', '!', '!', '!']), true);\nTest.assertEquals(testJackpot(['abc', 'abc', 'abc', 'abc']), true);\nTest.assertEquals(testJackpot(['karaoke', 'karaoke', 'karaoke', 'karaoke']), true);\nTest.assertEquals(testJackpot(['SS', 'SS', 'SS', 'SS']), true);\nTest.assertEquals(testJackpot([':(', ':)', ':|', ':|']), false);\nTest.assertEquals(testJackpot(['&&', '&', '&&&', '&&&&']), false);\nTest.assertEquals(testJackpot(['hee', 'heh', 'heh', 'heh']), false);\nTest.assertEquals(testJackpot(['SS', 'SS', 'SS', 'Ss']), false);\nTest.assertEquals(testJackpot(['SS', 'SS', 'Ss', 'Ss']), false);",
+  "title": "Hitting the Jackpot"
+}

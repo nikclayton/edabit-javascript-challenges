@@ -1,8 +1,6 @@
 const indexOfCaps = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(indexOfCaps('eDaBiT')).toEqual([1, 3, 5]);
         expect(indexOfCaps('eQuINoX')).toEqual([1, 3, 4, 6]);

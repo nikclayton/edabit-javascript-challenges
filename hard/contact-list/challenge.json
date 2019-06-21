@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "oK8YTFzTDBzjQpmtH",
+  "code": "function sortContacts(names, sort) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a sorting function that takes in an array of names and sorts them </span><strong><span>by last name</span></strong><span> either alphabetically (</span><code>ASC</code><span>) or reverse-alphabetically (</span><code>DESC</code><span>).</span></p><h3><span>Examples</span></h3><pre><code>sortContacts([\n  \"John Locke\",\n  \"Thomas Aquinas\",\n  \"David Hume\",\n  \"Rene Descartes\"\n], \"ASC\")\n\n\u279e [\"Thomas Aquinas\", \"Rene Descartes\", \"David Hume\", \"John Locke\"]\n// Aquinas (A) &lt; Descartes (D) &lt; Hume (H) &lt; Locke (L)\n\nsortContacts([\n  \"Paul Erdos\",\n  \"Leonhard Euler\",\n  \"Carl Gauss\"\n], \"DESC\")\n  \n\u279e [\"Carl Gauss\", \"Leonhard Euler\", \"Paul Erdos\"]\n// Gauss (G) &gt; Euler (EU) &gt; Erdos (ER)\n\nsortContacts([\"Albert Einstein\"], \"ASC\") \u279e [\"Albert Einstein\"]\n\nsortContacts([], \"DESC\") \u279e []\n\nsortContacts(null, \"DESC\") \u279e []\n\nsortContacts(undefined, \"DESC\") \u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>An array with a single name should be trivially returned.</span></li><li><span>An empty array, or an input of </span><code>null</code><span> or </span><code>undefined</code><span> should return an empty array.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/oK8YTFzTDBzjQpmtH",
+  "tags": [
+    "arrays",
+    "sorting"
+  ],
+  "tests": "Test.assertSimilar(sortContacts(['John Locke', 'Thomas Aquinas', 'David Hume', 'Rene Descartes'], 'ASC'), ['Thomas Aquinas', 'Rene Descartes', 'David Hume', 'John Locke'])\nTest.assertSimilar(sortContacts(['Paul Erdos', 'Leonhard Euler', 'Carl Gauss'], 'DESC'), ['Carl Gauss', 'Leonhard Euler', 'Paul Erdos'])\nTest.assertSimilar(sortContacts(['Michael Phelps', 'Jesse Owens', 'Michael Jordan', 'Usain Bolt'], 'DESC'), ['Michael Phelps', 'Jesse Owens', 'Michael Jordan', 'Usain Bolt'])\nTest.assertSimilar(sortContacts(['Al Gore', 'Barack Obama'], 'ASC'), ['Al Gore', 'Barack Obama'])\nTest.assertSimilar(sortContacts(['Albert Einstein'], 'ASC'), ['Albert Einstein'])\nTest.assertSimilar(sortContacts([], 'DESC'), [])\nTest.assertSimilar(sortContacts(null, 'DESC'), [])\nTest.assertSimilar(sortContacts(undefined, 'DESC'), [])",
+  "title": "Contact List"
+}

@@ -1,0 +1,16 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "jbR9NupEL8zAZkbKx",
+  "code": "function matchLastItem(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array of items and checks if the last item matches the rest of the array.</span></p><h3><span>Examples</span></h3><pre><code>matchLastItem([\"rsq\", \"6hi\", \"g\", \"rsq6hig\"]) \u279e true\n// The last item is the rest joined.\n\nmatchLastItem([1, 1, 1, \"11\"]) \u279e false\n// The last item should be \"111\".\n\nmatchLastItem([8, \"thunder\", true, \"8thundertrue\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>The array is always filled with items.</span></p>",
+  "source_url": "https://edabit.com/challenge/jbR9NupEL8zAZkbKx",
+  "tags": [
+    "arrays",
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(matchLastItem(['rsq', '6hi', 'g', 'rsq6hig']), true)\nTest.assertEquals(matchLastItem([ 0, 1, 2, 3, 4, 5, '12345' ]), false)\nTest.assertEquals(matchLastItem([ 'for', 'mi', 'da', 'bel', 'formidable' ]), false)\nTest.assertEquals(matchLastItem([8, 'thunder', true, '8thundertrue']), true)\nTest.assertEquals(matchLastItem([ 1, 1, 1, '11' ]), false)\nTest.assertEquals(matchLastItem(['tocto','G8G','xtohkgc','3V8','ctyghrs',100.88,'fyuo','Q','toctoG8Gxtohkgc3V8ctyghrs100.88fyuoQ']), true)",
+  "title": "Match the Last Item"
+}

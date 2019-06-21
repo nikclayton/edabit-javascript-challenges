@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "dqSPYsWFtsCLeeZC2",
+  "code": "function digitOccurrences(min, max, digit) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that counts the number of times a specific digit occurs in a range (</span><strong><span>inclusive</span></strong><span>). The function will look like:</span></p><pre><code>digitOccurrences(min, max, digit) \u279e # times digit occurs</code></pre><h3><span>Examples</span></h3><pre><code>digitOccurrences(51, 55, 5) \u279e 6\n// [51, 52, 53, 54, 55] : 5 occurs 6 times\n\ndigitOccurrences(1, 8, 9) \u279e 0\n\ndigitOccurrences(-8, -1, 8) \u279e 1\n\ndigitOccurrences(71, 77, 2) \u279e 1</code></pre><h3><span>Notes</span></h3><ul><li><span>Ranges can be negative.</span></li><li><code>min &lt;= max</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/dqSPYsWFtsCLeeZC2",
+  "tags": [
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(digitOccurrences(51, 55, 5), 6)\nTest.assertEquals(digitOccurrences(1, 8, 9), 0)\nTest.assertEquals(digitOccurrences(71, 77, 2), 1)\nTest.assertEquals(digitOccurrences(1, 14, 4), 2)\nTest.assertEquals(digitOccurrences(20, 30, 2), 11)\nTest.assertEquals(digitOccurrences(18, 37, 3), 10)\nTest.assertEquals(digitOccurrences(5, 335, 6), 63)\nTest.assertEquals(digitOccurrences(-19, 19, 0), 3)\nTest.assertEquals(digitOccurrences(-8, -1, 8), 1)\nTest.assertEquals(digitOccurrences(-5, -5, 4), 0)\nTest.assertEquals(digitOccurrences(-5, -5, 5), 1)\nTest.assertEquals(digitOccurrences(-50, -45, 4), 5)\nTest.assertEquals(digitOccurrences(-500, -45, 4), 190)",
+  "title": "Count a Specific Digit"
+}

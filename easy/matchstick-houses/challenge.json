@@ -1,0 +1,18 @@
+{
+  "author_id": "Ruud Peter Boelens",
+  "author_url": "https://edabit.com/user/Akq3fQcPRgPrWfsye",
+  "challenge_id": "tYHkTdFrEmWfxpPKF",
+  "code": "function matchHouses(step) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>This challenge will help you interpret mathematical relationships both algebraically and geometrically.</span></p><p><img alt=\"Matchstick Houses, Steps 1, 2 and 3\" title=\"Matchstick Houses, Steps 1, 2 and 3\" src=\"https://edabit-challenges.s3.amazonaws.com/matchstick_houses.png\"></p><p><span>Create a function that takes a number (step) as an argument and returns the amount of matchsticks in that step. See step 1, 2 and 3 in the image above.</span></p><h3><span>Examples</span></h3><pre><code>matchHouses(1) \u279e 6\n\nmatchHouses(4) \u279e 21\n\nmatchHouses(87) \u279e 436</code></pre><h3><span>Notes</span></h3><ul><li><span>Step 0 returns </span><code>0</code><span> matchsticks.</span></li><li><span>The input (step) will always be a positive integer.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/tYHkTdFrEmWfxpPKF",
+  "tags": [
+    "algebra",
+    "algorithms",
+    "logic",
+    "math",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(matchHouses(1), 6)\nTest.assertEquals(matchHouses(0), 0)\nTest.assertEquals(matchHouses(17), 86)\nTest.assertEquals(matchHouses(36), 181)\nTest.assertEquals(matchHouses(15), 76)\nTest.assertEquals(matchHouses(99), 496)\nTest.assertEquals(matchHouses(3), 16)\nTest.assertEquals(matchHouses(87), 436)",
+  "title": "Matchstick Houses"
+}

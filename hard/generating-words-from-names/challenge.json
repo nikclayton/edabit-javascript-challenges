@@ -1,0 +1,14 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "tGehcXPRmrepQPGQW",
+  "code": "function anagram(name, words) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if a given name can generate an array of words.</span></p><h3><span>Examples</span></h3><pre><code>anagram(\"Justin Bieber\", [\"injures\", \"ebb\", \"it\"]) \u279e true\n\nanagram(\"Natalie Portman\", [\"ornamental\", \"pita\"]) \u279e true\n\nanagram(\"Chris Pratt\", [\"chirps\", \"rat\"]) \u279e false\n// Not all letters are used \n\nanagram(\"Jeff Goldblum\", [\"jog\", \"meld\", \"bluffs\"]) \u279e false\n// \"s\" does not exist in the original name</code></pre><h3><span>Notes</span></h3><ul><li><span>Each letter in the name may only be used once.</span></li><li><span>All letters in the name must be used.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/tGehcXPRmrepQPGQW",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(anagram(\"Justin Bieber\", [\"injures\", \"ebb\", \"it\"]), true)\nTest.assertEquals(anagram(\"Natalie Portman\", [\"ornamental\", \"pita\"]), true)\nTest.assertEquals(anagram(\"Emma Watson\", [\"mows\", \"meant\", \"a\"]), true)\nTest.assertEquals(anagram(\"Daniel Radcliffe\", [\"clarified\", \"elf\", \"and\"]), true)\nTest.assertEquals(anagram(\"Tom Hiddleston\", [\"tenths\", \"mood\", \"lid\"]), true)\nTest.assertEquals(anagram(\"Blake Lively\", [\"key\", \"veal\", \"bill\"]), true)\nTest.assertEquals(anagram(\"Ryan Reynolds\", [\"yonder\", \"sly\", \"ran\"]), true)\nTest.assertEquals(anagram(\"Kristen Stewart\", [\"trinkets\", \"war\", \"set\"]), true)\nTest.assertEquals(anagram(\"Chris Pratt\", [\"chirps\", \"rat\"]), false)\nTest.assertEquals(anagram(\"Jeff Goldblum\", [\"jog\", \"meld\", \"bluffs\"]), false)\nTest.assertEquals(anagram(\"Taylor Swift\", [\"stratify\", \"ow\"]), false)\nTest.assertEquals(anagram(\"Adam Levine\", [\"medieval\", \"man\"]), false)\nTest.assertEquals(anagram(\"Blake Shelton\", [\"betoken\", \"all\", \"she\"]), false)\nTest.assertEquals(anagram(\"Miley Cyrus\", [\"lyric\", \"my\", \"suer\"]), false)\nTest.assertEquals(anagram(\"Matt Damon\", [\"madman\"]), false)\nTest.assertEquals(anagram(\"Graham Norton\", [\"graham\", \"not\", \"or\"]), false)\nTest.assertEquals(anagram(\"Graham Norton\", [\"graham\", \"not\", \"or\"]), false)",
+  "title": "Generating Words from Names"
+}

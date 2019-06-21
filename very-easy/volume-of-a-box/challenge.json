@@ -1,0 +1,15 @@
+{
+  "author_id": "Alon",
+  "author_url": "https://edabit.com/user/Q69qbJ2JtmQFkMXqz",
+  "challenge_id": "ms3q5GYSpFpwxeFWX",
+  "code": "function volumeOfBox(sizes) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that gets an object arguments with height, width and length of a box and returns the volume of the box.</span></p><h3><span>Examples</span></h3><pre><code>volumeOfBox({ width: 2, length: 5, height: 1 }) \u279e 10\n\nvolumeOfBox({ width: 4, length: 2, height: 2 }) \u279e 16\n\nvolumeOfBox({ width: 2, length: 3, height: 5 }) \u279e 30</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>Remember that the values are in an object.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/ms3q5GYSpFpwxeFWX",
+  "tags": [
+    "math",
+    "objects"
+  ],
+  "tests": "Test.assertEquals(volumeOfBox({width: 11,length: 1, height: 2}), 22)\nTest.assertEquals(volumeOfBox({width: 1, length: 5,  height: 3}), 15)\nTest.assertEquals(volumeOfBox({width: 2, length: 1,  height: 1}), 2)\nTest.assertEquals(volumeOfBox({width: 2, length: 6,  height: 5}), 60)\nTest.assertEquals(volumeOfBox({width: 2, length: 5,  height: 3}), 30)\nTest.assertEquals(volumeOfBox({width: 2, length: 5,  height: 1}), 10)",
+  "title": "Volume of a Box"
+}

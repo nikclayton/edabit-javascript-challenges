@@ -29,15 +29,7 @@ test('All values are differents', () => {
         expect(equal(1, 7, 6)).toEqual(0);
     });
 
-test('Two values are equal', () => {
-        expect(equal('a', 'toto', 'a')).toEqual(2);
-    });
-
 test('All 3 values are equal', () => {
         expect(equal(7, 7, 7)).toEqual(3);
-    });
-    
-    test('the tests', () => {
-        
     });
 });

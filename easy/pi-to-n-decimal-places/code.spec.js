@@ -1,10 +1,6 @@
 const myPi = require('./code');
 
 describe('Tests', () => {
-    test('Don\'t forget to round up!', () => {
-        expect(myPi(4)).not.toEqual(3.1415);
-    });
-    
     test('the tests', () => {
         expect(myPi(0)).toEqual(3);
         expect(myPi(1)).toEqual(3.1);

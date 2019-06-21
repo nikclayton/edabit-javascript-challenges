@@ -1,0 +1,14 @@
+{
+  "author_id": "Pustur",
+  "author_url": "https://edabit.com/user/65dbBZynphj53nXqA",
+  "challenge_id": "AcL4HiKbC9cYSHmYt",
+  "code": "function specialReverseString(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes a string and returns the reversed string. However there's a few rules to follow in order to make the challenge interesting.</span></p><h3><span>Examples</span></h3><pre><code>specialReverseString(\"Edabit\") \u279e \"Tibade\"\n\nspecialReverseString(\"UPPER lower\") \u279e \"REWOL reppu\"\n\nspecialReverseString(\"1 23 456\") \u279e \"6 54 321\"</code></pre><h3><span>Notes</span></h3><ul><li><span>The UPPERCASE/lowercase positions must be kept in the same order as the original string (see example #1 and #2 above).</span></li><li><span>Spaces must be kept in the same order as the original string (see example #3 above).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/AcL4HiKbC9cYSHmYt",
+  "tags": [
+    "strings"
+  ],
+  "tests": "Test.assertEquals(specialReverseString('Edabit'), 'Tibade');\nTest.assertEquals(specialReverseString('UPPER lower'), 'REWOL reppu');\nTest.assertEquals(specialReverseString('1 23 456'), '6 54 321');\nTest.assertEquals(specialReverseString('Hello World!'), '!dlro Wolleh');\nTest.assertEquals(specialReverseString(\"Where's your dog Daisy?\"), \"?ysiadg odru oys 'erehw\");\nTest.assertEquals(specialReverseString('addition(3, 2) \u279e 5'), '5\u279e)2,3(noit id d a');\nTest.assertEquals(specialReverseString(\"It's known that CSS means Cascading Style Sheets\"), \"Stee hsely tsgn IDA csacs Naemsscta Htnwo Nks'ti\");",
+  "title": "Reverse the String (But with a Catch)"
+}

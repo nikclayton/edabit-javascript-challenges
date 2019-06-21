@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "bLyX8WoeX2geoW7j4",
+  "code": "function generateRug(n) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Create a function that takes in parameter </span><code>n</code><span> and generates an </span><code>n x n</code><span> (where </span><code>n</code><span> is odd) </span><strong><span>concentric rug</span></strong><span>.</span></p><p><span>The center of a concentric rug is </span><code>0</code><span>, and the rug \"fans-out\", as show in the examples below.</span></p><h3><span>Examples</span></h3><pre><code>generateRug(1) \u279e [\n  [0]\n]\n\ngenerateRug(3) \u279e [\n  [1, 1, 1],\n  [1, 0, 1],\n  [1, 1, 1]\n]\n\ngenerateRug(5) \u279e [\n  [2, 2, 2, 2, 2],\n  [2, 1, 1, 1, 2],\n  [2, 1, 0, 1, 2],\n  [2, 1, 1, 1, 2],\n  [2, 2, 2, 2, 2]\n]\n\ngenerateRug(7) \u279e [\n  [3, 3, 3, 3, 3, 3, 3],\n  [3, 2, 2, 2, 2, 2, 3],\n  [3, 2, 1, 1, 1, 2, 3],\n  [3, 2, 1, 0, 1, 2, 3],\n  [3, 2, 1, 1, 1, 2, 3],\n  [3, 2, 2, 2, 2, 2, 3],\n  [3, 3, 3, 3, 3, 3, 3]\n]</code></pre><h3><span>Notes</span></h3><ul><li><code>n &gt;= 0</code><span>.</span></li><li><span>Always increment by 1 each \"layer\" outwards you travel.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/bLyX8WoeX2geoW7j4",
+  "tags": [
+    "arrays",
+    "functional_programming",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(generateRug(1), [\n\t[0]\n])\n\nTest.assertSimilar(generateRug(3), [\n\t[1, 1, 1],\n\t[1, 0, 1],\n\t[1, 1, 1]\n])\n\nTest.assertSimilar(generateRug(5), [\n\t[2, 2, 2, 2, 2],\n\t[2, 1, 1, 1, 2],\n\t[2, 1, 0, 1, 2],\n\t[2, 1, 1, 1, 2],\n\t[2, 2, 2, 2, 2]\n])\n\nTest.assertSimilar(generateRug(7), [\n\t[3, 3, 3, 3, 3, 3, 3],\n\t[3, 2, 2, 2, 2, 2, 3],\n\t[3, 2, 1, 1, 1, 2, 3],\n\t[3, 2, 1, 0, 1, 2, 3],\n\t[3, 2, 1, 1, 1, 2, 3],\n\t[3, 2, 2, 2, 2, 2, 3],\n\t[3, 3, 3, 3, 3, 3, 3]\n])\n\nTest.assertSimilar(generateRug(9), [\n\t[4, 4, 4, 4, 4, 4, 4, 4, 4],\n\t[4, 3, 3, 3, 3, 3, 3, 3, 4],\n\t[4, 3, 2, 2, 2, 2, 2, 3, 4],\n\t[4, 3, 2, 1, 1, 1, 2, 3, 4],\n\t[4, 3, 2, 1, 0, 1, 2, 3, 4],\n\t[4, 3, 2, 1, 1, 1, 2, 3, 4],\n\t[4, 3, 2, 2, 2, 2, 2, 3, 4],\n\t[4, 3, 3, 3, 3, 3, 3, 3, 4],\n\t[4, 4, 4, 4, 4, 4, 4, 4, 4]\n])\nTest.assertSimilar(generateRug(1), [\n\t[0]\n])\n\nTest.assertSimilar(generateRug(3), [\n\t[1, 1, 1],\n\t[1, 0, 1],\n\t[1, 1, 1]\n])\n\nTest.assertSimilar(generateRug(5), [\n\t[2, 2, 2, 2, 2],\n\t[2, 1, 1, 1, 2],\n\t[2, 1, 0, 1, 2],\n\t[2, 1, 1, 1, 2],\n\t[2, 2, 2, 2, 2]\n])\n\nTest.assertSimilar(generateRug(7), [\n\t[3, 3, 3, 3, 3, 3, 3],\n\t[3, 2, 2, 2, 2, 2, 3],\n\t[3, 2, 1, 1, 1, 2, 3],\n\t[3, 2, 1, 0, 1, 2, 3],\n\t[3, 2, 1, 1, 1, 2, 3],\n\t[3, 2, 2, 2, 2, 2, 3],\n\t[3, 3, 3, 3, 3, 3, 3]\n])\n\nTest.assertSimilar(generateRug(9), [\n\t[4, 4, 4, 4, 4, 4, 4, 4, 4],\n\t[4, 3, 3, 3, 3, 3, 3, 3, 4],\n\t[4, 3, 2, 2, 2, 2, 2, 3, 4],\n\t[4, 3, 2, 1, 1, 1, 2, 3, 4],\n\t[4, 3, 2, 1, 0, 1, 2, 3, 4],\n\t[4, 3, 2, 1, 1, 1, 2, 3, 4],\n\t[4, 3, 2, 2, 2, 2, 2, 3, 4],\n\t[4, 3, 3, 3, 3, 3, 3, 3, 4],\n\t[4, 4, 4, 4, 4, 4, 4, 4, 4]\n])",
+  "title": "Concentric Rugs"
+}

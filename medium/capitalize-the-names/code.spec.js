@@ -1,8 +1,6 @@
 const capMe = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(capMe(['mavis', 'senaida', 'letty'])).toEqual(['Mavis', 'Senaida', 'Letty']);
         expect(capMe(['samuel', 'MABELLE', 'letitia', 'meridith'])).toEqual(['Samuel', 'Mabelle', 'Letitia', 'Meridith']);

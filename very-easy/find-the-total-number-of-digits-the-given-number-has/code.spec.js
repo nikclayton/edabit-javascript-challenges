@@ -24,8 +24,4 @@ test('Should work with bigger numbers', () => {
 test('0 should return 1, as it is a digit', () => {
         expect(findDigitAmount(0)).toEqual(1);
     });
-    
-    test('the tests', () => {
-        
-    });
 });

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "r9uigYABnbPLY7zsz",
+  "code": "function greetPeople(names) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>In this exercise you will have to:</span></p><ul><li><span>Take a list of names.</span></li><li><span>Add \"Hello\" to every name.</span></li><li><span>Make one big string with all greetings.</span></li></ul><p><span>The solution should be one string with a comma in between every \"Hello (Name)\".</span></p><h3><span>Examples</span></h3><pre><code>greetPeople([\"Joe\"]) \u279e \"Hello Joe\"\n\ngreetPeople([\"Angela\", \"Joe\"]) \u279e \"Hello Angela, Hello Joe\"\n\ngreetPeople([\"Frank\", \"Angela\", \"Joe\"]) \u279e \"Hello Frank, Hello Angela, Hello Joe\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Each greeting has to be separated with a comma and a space.</span></li><li><span>If you're given an empty array </span><code>[]</code><span>, return an empty string </span><code>\"\"</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/r9uigYABnbPLY7zsz",
+  "tags": [
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(greetPeople([\"Kyrill\"]),  \"Hello Kyrill\")\nTest.assertEquals(greetPeople([\"Kyrill\", \"Mom\", \"Dad\", \"Zuzu\"]), \"Hello Kyrill, Hello Mom, Hello Dad, Hello Zuzu\")\nTest.assertEquals(greetPeople([]), \"\")",
+  "title": "Say Hello to Guests"
+}

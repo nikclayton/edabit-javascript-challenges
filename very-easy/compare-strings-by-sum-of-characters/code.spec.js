@@ -1,8 +1,6 @@
 const comp = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(comp('AB', 'CD')).toEqual(true);
         expect(comp('ABC', 'DE')).toEqual(false);

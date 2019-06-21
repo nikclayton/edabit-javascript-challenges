@@ -1,8 +1,6 @@
 const encodeMorse = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(encodeMorse('EDABBIT CHALLENGE')).toEqual('. -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .');
         expect(encodeMorse('HELP ME !')).toEqual('.... . .-.. .--.   -- .   -.-.--');

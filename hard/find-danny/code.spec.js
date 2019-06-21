@@ -1,8 +1,6 @@
 const checkIfDannyIsHere = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(checkIfDannyIsHere('is there dan here ?')).toEqual(false);
         expect(checkIfDannyIsHere('and here dan ny ?')).toEqual(false);

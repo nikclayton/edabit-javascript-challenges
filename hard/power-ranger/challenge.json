@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Rr3TMAJvNiA4YDpB4",
+  "code": "function powerRanger(power, min, max) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that takes in </span><strong><span>n</span></strong><span>,  </span><strong><span>a</span></strong><span>, </span><strong><span>b</span></strong><span> and returns the number of values raised to the </span><strong><span>nth</span></strong><span> power lie in the range </span><code>[a, b]</code><span>, </span><strong><span>inclusive</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>powerRanger(2, 49, 65) \u279e 2\n// 2 squares (n^2) lie between 48 and 65, 49 (7^2) and 64 (8^2)\n\npowerRanger(3, 1, 27) \u279e 3\n// 3 cubes (n^3) lie between 1 and 27, 1 (1^3), 8 (2^3) and 27 (3^3)\n\npowerRanger(10, 1, 5) \u279e 1\n// 1 value raised to the 10th power lies between 1 and 5, 1 (1^10)\n\npowerRanger(5, 31, 33) \u279e 1\n\npowerRanger(4, 250, 1300) \u279e 3</code></pre><h3><span>Notes</span></h3><ul><li><span>Remember that the range is inclusive.</span></li><li><strong><span>a</span></strong><span> &lt; </span><strong><span>b</span></strong><span> will always be true.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Rr3TMAJvNiA4YDpB4",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(powerRanger(5, 31, 33), 1)\nTest.assertEquals(powerRanger(4, 250, 1300), 3)\nTest.assertEquals(powerRanger(2, 49, 65), 2)\nTest.assertEquals(powerRanger(3, 1, 27), 3)\nTest.assertEquals(powerRanger(10, 1, 5), 1)\nTest.assertEquals(powerRanger(1, 1, 5), 5)\nTest.assertEquals(powerRanger(2, 1, 100), 10)",
+  "title": "Power Ranger"
+}

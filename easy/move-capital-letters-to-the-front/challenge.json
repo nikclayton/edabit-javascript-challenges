@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "8n9RyHThC3dNEPCng",
+  "code": "function capToFront(s) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Create a function that moves all capital letters to the front of a word.</span></p><h3><span>Examples</span></h3><pre><code>capToFront(\"hApPy\") \u279e \"APhpy\"\n\ncapToFront(\"moveMENT\") \u279e \"MENTmove\"\n\ncapToFront(\"shOrtCAKE\") \u279e \"OCAKEshrt\"</code></pre><h3><span>Notes</span></h3><p><span>Keep the original relative order of the upper and lower case letters the same.</span></p>",
+  "source_url": "https://edabit.com/challenge/8n9RyHThC3dNEPCng",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(capToFront(\"hApPy\"), \"APhpy\")\nTest.assertEquals(capToFront(\"moveMENT\"), \"MENTmove\")\nTest.assertEquals(capToFront(\"aPPlE\"), \"PPEal\")\nTest.assertEquals(capToFront(\"shOrtCAKE\"), \"OCAKEshrt\")",
+  "title": "Move Capital Letters to the Front"
+}

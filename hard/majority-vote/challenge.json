@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "aewSLr2r2LMSDhPxf",
+  "code": "function majorityVote(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that returns the </span><strong><span>majority vote</span></strong><span> in an array. A majority vote is an element that occurs </span><strong><span>&gt; N/2</span></strong><span> times in an array (where </span><strong><span>N</span></strong><span> is the length of the array).</span></p><h3><span>Examples</span></h3><pre><code>majorityVote([\"A\", \"A\", \"B\"]) \u279e \"A\"\n\nmajorityVote([\"A\", \"A\", \"A\", \"B\", \"C\", \"A\"]) \u279e \"A\"\n\nmajorityVote([\"A\", \"B\", \"B\", \"A\", \"C\", \"C\"]) \u279e null</code></pre><h3><span>Notes</span></h3><ul><li><span>The frequency of the majority element must be </span><strong><span>strictly greater</span></strong><span> than 1/2.</span></li><li><span>If there is no majority element, return </span><code>null</code><span>.</span></li><li><span>If the array is empty, return </span><code>null</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/aewSLr2r2LMSDhPxf",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(majorityVote([\"A\", \"B\", \"B\", \"B\", \"A\", \"A\"]), null)\nTest.assertEquals(majorityVote([\"B\", \"B\", \"B\"]), \"B\")\nTest.assertEquals(majorityVote([\"A\", \"B\", \"B\"]), \"B\")\nTest.assertEquals(majorityVote([\"A\", \"A\", \"B\"]), \"A\")\nTest.assertEquals(majorityVote([\"A\", \"A\", \"A\", \"B\", \"C\", \"A\"]), \"A\")\nTest.assertEquals(majorityVote([\"B\", \"A\", \"B\", \"B\", \"C\", \"A\", \"B\", \"B\"]), \"B\")\nTest.assertEquals(majorityVote([\"A\", \"B\", \"B\", \"A\", \"C\", \"C\"]), null)\nTest.assertEquals(majorityVote([\"A\", \"B\"]), null)\nTest.assertEquals(majorityVote([\"A\"]), \"A\")\nTest.assertEquals(majorityVote([]), null)",
+  "title": "Majority Vote"
+}

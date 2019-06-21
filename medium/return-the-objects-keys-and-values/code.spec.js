@@ -1,8 +1,6 @@
 const keysAndValues = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(keysAndValues({a: 1, b: 2, c: 3})).toEqual([['a', 'b', 'c'], [1, 2, 3]]);
         expect(keysAndValues({a: 'Apple', b: 'Microsoft', c: 'Google'})).toEqual([['a', 'b', 'c'], ['Apple', 'Microsoft', 'Google']]);

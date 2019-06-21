@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "AS2DsdhRkALvAmNKc",
+  "code": "function bell(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>The Bell number is the number of ways an array of x items can be partitioned into non-empty subarrays. See the resources section for an in-depth explanation.</span></p><p><span>Create a function that takes a number x and returns the corresponding Bell number.</span></p><h3><span>Examples</span></h3><pre><code>bell(1) \u279e 1\n// sample_lst = [1], possible_partitions = [[[1]]]\n\nbell(2) \u279e 2\n// sample_lst = [1, 2], poss_part = [[[1, 2]], [[1], [2]]]\n\nbell(3) \u279e 5\n// sample_lst = [1, 2, 3], poss_part = [[[1, 2, 3]], [[1, 2], [3]], [[1], [2, 3]], [[1, 3], [2]], [[1], [2],[3]]]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/AS2DsdhRkALvAmNKc",
+  "tags": [
+    "loops",
+    "math"
+  ],
+  "tests": "Test.assertEquals(bell(1), 1)\nTest.assertEquals(bell(2), 2)\nTest.assertEquals(bell(3), 5)\nTest.assertEquals(bell(4), 15)\nTest.assertEquals(bell(5), 52)\nTest.assertEquals(bell(6), 203)",
+  "title": "Bell Number"
+}

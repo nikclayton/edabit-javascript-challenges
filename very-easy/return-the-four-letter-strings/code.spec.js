@@ -1,8 +1,6 @@
 const isFourLetters = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(isFourLetters(['Ryan', 'Kieran', 'Jason', 'Matt'])).toEqual(['Ryan', 'Matt']);
         expect(isFourLetters(['Tomato', 'Potato', 'Pair'])).toEqual(['Pair']);

@@ -1,20 +1,17 @@
+Create a function that takes a string and returns a string with its letters in alphabetical order.
 
-Create a function that takes a string  and returns a string with its letters in alphabetical order.
 
-### Examples
+### Examples ###
+    AlphabetSoup("hello") ➞ "ehllo"
 
-```
-"hello" ➞ "ehllo"
+    AlphabetSoup("edabit") ➞ "abdeit"
 
-"edabit" ➞ "abdeit"
+    AlphabetSoup("hacker") ➞ "acehkr"
 
-"hacker" ➞ "acehkr"
+    AlphabetSoup("geek") ➞ "eegk"
 
-"geek" ➞ "eegk"
+    AlphabetSoup("javascript") ➞ "aacijprstv"
 
-"javascript" ➞ "aacijprstv"
-```
 
-### Notes
-
+### Notes ###
 You can assume numbers and punctuation symbols won't be included in test cases. You'll only have to deal with single word, alphabetic characters.

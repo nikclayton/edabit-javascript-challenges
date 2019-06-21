@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Zu4LyLXhd9e49krFP",
+  "code": "function puzzlePieces(a1, a2) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>Write a function that returns </span><code>true</code><span> if two arrays sum up to a constant array.</span></p><h3><span>Examples</span></h3><pre><code>puzzlePieces([1, 2, 3, 4], [4, 3, 2, 1]) \u279e true\n// Both arrays sum to [5, 5, 5, 5]\n\npuzzlePieces([1, 8, 5, 0, -1, 7], [0, -7, -4, 1, 2, -6]) \u279e true\n\npuzzlePieces([1, 2], [-1, -1]) \u279e false\n\npuzzlePieces([9, 8, 7], [7, 8, 9, 10]) \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Each array will have at least one element.</span></li><li><span>Return </span><code>false</code><span> if both arrays are of different length.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/Zu4LyLXhd9e49krFP",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertEquals(puzzlePieces([1, 2, 3, 4], [4, 3, 2, 1]), true)\nTest.assertEquals(puzzlePieces([1, 8, 5, 0, -1, 7], [0, -7, -4, 1, 2, -6]), true)\nTest.assertEquals(puzzlePieces([2, 1, 1], [-2, -1, -1]), true)\nTest.assertEquals(puzzlePieces([2], [-2]), true)\nTest.assertEquals(puzzlePieces([5, -1], [-6, 0]), true)\nTest.assertEquals(puzzlePieces([0, 0, 0, 0, 0], [1, 1, 1, 1, 1]), true)\nTest.assertEquals(puzzlePieces([1, 2], [-1, -1]), false)\nTest.assertEquals(puzzlePieces([9, 8, 7], [7, 8, 9, 10]), false)\nTest.assertEquals(puzzlePieces([9, 8, 7], [7, 8, 9, 16]), false)\nTest.assertEquals(puzzlePieces([1, 1, 1], [1, 1, 2]), false)\nTest.assertEquals(puzzlePieces([1, 8, 1], [1, -8, -1]), false)\nTest.assertEquals(puzzlePieces([0, 0, 0, 0, 0], [1, 1, 0, 1, 1]), false)\nTest.assertEquals(puzzlePieces([0, 0, 0, 0, 0], [1, 1, 1, 1]), false)",
+  "title": "Puzzle Pieces"
+}

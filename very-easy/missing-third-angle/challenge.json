@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "djyXcJZAuezrSXJ4j",
+  "code": "function missingAngle(angle1, angle2) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>You are given 2 out of 3 of the angles in a triangle, in degrees. </span></p><p><span>Write a function that classifies the missing angle as either </span><code>\"acute\"</code><span>, </span><code>\"right\"</code><span>, or </span><code>\"obtuse\"</code><span> based on its degrees.</span></p><ul><li><span>An </span><strong><span>acute</span></strong><span> angle is one smaller than 90 degrees.</span></li><li><span>A </span><strong><span>right</span></strong><span> angle is one that is exactly 90 degrees.</span></li><li><span>An </span><strong><span>obtuse</span></strong><span> angle is one greater than 90 degrees (but smaller than 180 degrees).</span></li></ul><p><span>For example: </span><code>missingAngle(11, 20)</code><span> should return </span><code>\"obtuse\"</code><span>, since the missing angle would be 149 degrees, which makes it obtuse.</span></p><h3><span>Examples</span></h3><pre><code>missingAngle(27, 59) \u279e \"obtuse\" \n\nmissingAngle(135, 11) \u279e \"acute\"\n\nmissingAngle(45, 45) \u279e \"right\"</code></pre><h3><span>Notes</span></h3><p><span>The sum of angles of any triangle is always 180 degrees.</span></p>",
+  "source_url": "https://edabit.com/challenge/djyXcJZAuezrSXJ4j",
+  "tags": [
+    "algebra",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(missingAngle(27, 59), \"obtuse\")\nTest.assertEquals(missingAngle(135, 11), \"acute\")\nTest.assertEquals(missingAngle(45, 45), \"right\")\nTest.assertEquals(missingAngle(45, 15), \"obtuse\")\nTest.assertEquals(missingAngle(31, 100), \"acute\")\nTest.assertEquals(missingAngle(35, 55), \"right\")",
+  "title": "Missing Third Angle"
+}

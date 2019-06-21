@@ -1,0 +1,16 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "ccZBsRp6pX869gyqx",
+  "code": "function encrypt(word) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Make a function that encrypts a given input with these steps:</span></p><p><span>Input: </span><code>\"apple\"</code></p><p><span>Step 1: Reverse the input: </span><code>\"elppa\"</code></p><p><span>Step 2: Replace all vowels using the following chart:</span></p><pre><code>a =&gt; 0\ne =&gt; 1\no =&gt; 2\nu =&gt; 3\n\n// \"1lpp0\"</code></pre><p><span>Step 3: Add \"aca\" to the end of the word: </span><code>\"1lpp0aca\"</code></p><p><span>Output: </span><code>\"1lpp0aca\"</code></p><h3><span>Examples</span></h3><pre><code>encrypt(banana) \u279e \"0n0n0baca\"\n\nencrypt(karaca) \u279e \"0c0r0kaca\"\n\nencrypt(burak) \u279e \"k0r3baca\"\n\nencrypt(alpaca) \u279e \"0c0pl0aca\"</code></pre><h3><span>Notes</span></h3><p><span>All inputs are strings, no uppercases and all output must be strings.</span></p>",
+  "source_url": "https://edabit.com/challenge/ccZBsRp6pX869gyqx",
+  "tags": [
+    "algorithms",
+    "formatting",
+    "math"
+  ],
+  "tests": "Test.assertEquals(encrypt(\"karaca\"), \"0c0r0kaca\")\nTest.assertEquals(encrypt(\"burak\"), \"k0r3baca\")\nTest.assertEquals(encrypt(\"banana\"), \"0n0n0baca\")\nTest.assertEquals(encrypt(\"alpaca\"), \"0c0pl0aca\")\nTest.assertEquals(encrypt(\"hello\"), \"2ll1haca\")",
+  "title": "The Karaca's Encryption Algorithm"
+}

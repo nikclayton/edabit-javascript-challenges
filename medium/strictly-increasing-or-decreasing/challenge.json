@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "E4zMxggTmqxS2Fmcj",
+  "code": "function check(arr) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that takes an array and determines whether it's strictly increasing, strictly decreasing, or neither.</span></p><h3><span>Examples</span></h3><pre><code>check([1, 2, 3]) \u279e \"increasing\"\n\ncheck([3, 2, 1]) \u279e \"decreasing\"\n\ncheck([1, 2, 1]) \u279e \"neither\"\n\ncheck([1, 1, 2]) \u279e \"neither\"</code></pre><h3><span>Notes</span></h3><ul><li><span>The last example does NOT count as strictly increasing, since 1-indexed </span><code>1</code><span> is not strictly greater than the 0-indexed </span><code>1</code><span>.</span></li><li><span>Input arrays have a minimum length of 2.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/E4zMxggTmqxS2Fmcj",
+  "tags": [
+    "arrays",
+    "conditions",
+    "control_flow",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(check([1, 2, 3]), \"increasing\")\nTest.assertEquals(check([3, 2, 1]), \"decreasing\")\nTest.assertEquals(check([1, 2, 1]), \"neither\")\nTest.assertEquals(check([1, 1, 2]), \"neither\")\nTest.assertEquals(check([1, 3, 5, 7, 9, 10]), \"increasing\")\nTest.assertEquals(check([5, 6, 5, 7, 9, 10]), \"neither\")\nTest.assertEquals(check([5, 7]), \"increasing\")\nTest.assertEquals(check([9, 7, 1]), \"decreasing\")",
+  "title": "Strictly Increasing or Decreasing"
+}

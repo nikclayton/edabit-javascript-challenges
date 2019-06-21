@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "TyX7xfsAPfJZxfaZq",
+  "code": "function returnUnique(arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>In each input array, every number </span><strong><span>repeats at least once</span></strong><span>, except for </span><strong><span>two</span></strong><span>.</span></p><p><span>Write a function that returns the </span><strong><span>two unique numbers</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>returnUnique([1, 9, 8, 8, 7, 6, 1, 6]) \u279e [9, 7]\n\nreturnUnique([5, 5, 2, 4, 4, 4, 9, 9, 9, 1]) \u279e [2, 1]\n\nreturnUnique([9, 5, 6, 8, 7, 7, 1, 1, 1, 1, 1, 9, 8]) \u279e [5, 6]</code></pre><h3><span>Notes</span></h3><p><span>Keep the same ordering in the output.</span></p>",
+  "source_url": "https://edabit.com/challenge/TyX7xfsAPfJZxfaZq",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(returnUnique([1, 9, 8, 8, 7, 6, 1, 6]), [9, 7])\nTest.assertSimilar(returnUnique([5, 5, 2, 4, 4, 4, 9, 9, 9, 1]), [2, 1])\nTest.assertSimilar(returnUnique([9, 5, 6, 8, 7, 7, 1, 1, 1, 1, 1, 9, 8]), [5, 6])\nTest.assertSimilar(returnUnique([4, 3, 9, 9, 1, 1, 6, 1, 6, 2, 4]), [3, 2])\nTest.assertSimilar(returnUnique([44, 44, 44, 2, 55, 55, 55, 0, 66, 66, 66]), [2, 0])\nTest.assertSimilar(returnUnique([-9, -9, -9, 7, -9, -9, 1]), [7, 1])\nTest.assertSimilar(returnUnique([2, 2, -19, 2, 7, 7, 4, 9, 9, 0, 0, 3, 3, 3]), [-19, 4])",
+  "title": "Two Distinct Elements"
+}

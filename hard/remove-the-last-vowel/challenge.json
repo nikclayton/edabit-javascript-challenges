@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rEyBNGafoHLYmyKfj",
+  "code": "function removeLastVowel(str) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that removes the last vowel in each word in a sentence.</span></p><h3><span>Examples</span></h3><pre><code>removeLastVowel(\"Those who dare to fail miserably can achieve greatly.\")\n\u279e \"Thos wh dar t fal miserbly cn achiev gretly.\"\n\nremoveLastVowel(\"Love is a serious mental disease.\")\n\u279e \"Lov s  serios mentl diseas\"\n\nremoveLastVowel(\"Get busy living or get busy dying.\")\n\u279e \"Gt bsy livng r gt bsy dyng\"</code></pre><h3><span>Notes</span></h3><p><span>Vowels are: </span><code>a, e, i, o, u</code></p>",
+  "source_url": "https://edabit.com/challenge/rEyBNGafoHLYmyKfj",
+  "tags": [
+    "formatting",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(removeLastVowel(\"Those who dare to fail miserably can achieve greatly.\"), \"Thos wh dar t fal miserbly cn achiev gretly.\")\nTest.assertEquals(removeLastVowel(\"Love is a serious mental disease.\"), \"Lov s  serios mentl diseas.\")\nTest.assertEquals(removeLastVowel(\"Get busy living or get busy dying.\"), \"Gt bsy livng r gt bsy dyng.\")\nTest.assertEquals(removeLastVowel(\"If you want to live a happy life, tie it to a goal, not to people.\"), \"f yo wnt t liv  hppy lif, ti t t  gol, nt t peopl.\")",
+  "title": "Remove the Last Vowel"
+}

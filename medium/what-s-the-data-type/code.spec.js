@@ -1,8 +1,6 @@
 const dataType = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(dataType([1, 2, 3, 4, 5])).toEqual('array');
         expect(dataType({key: 'value'})).toEqual('object');

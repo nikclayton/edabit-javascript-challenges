@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "2kentanhDPfDNfXG4",
+  "code": "function replace(str, r) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that replaces all letters within a specified range with the hash symbol </span><code>#</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>replace(\"abcdef\", \"c-e\") \u279e \"ab###f\"\n\nreplace(\"rattle\", \"r-z\") \u279e \"#a##le\"\n\nreplace(\"microscopic\", \"i-i\") \u279e \"m#croscop#c\"\n\nreplace(\"\", \"a-z\") \u279e \"\"</code></pre><h3><span>Notes</span></h3><ul><li><span>The range will always be in order, a.k.a. for </span><code>m-n</code><span>, character </span><code>m</code><span> will always come before or equal </span><code>n</code><span>.</span></li><li><span>Strings will be in lower case letters only.</span></li><li><span>Return an empty string if the input is an empty string.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/2kentanhDPfDNfXG4",
+  "tags": [
+    "language_fundamentals",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(replace(\"abcdef\", \"c-e\"), \"ab###f\")\nTest.assertEquals(replace(\"rattle\", \"r-z\"), \"#a##le\")\nTest.assertEquals(replace(\"microscopic\", \"i-i\"), \"m#croscop#c\")\nTest.assertEquals(replace(\"bountiful\", \"a-o\"), \"##u#t##u#\")\nTest.assertEquals(replace(\"zebra\", \"a-z\"), \"#####\")\nTest.assertEquals(replace(\"mount\", \"a-e\"), \"mount\")\nTest.assertEquals(replace(\"\", \"a-z\"), \"\")",
+  "title": "Replacing Letters with Hashes"
+}

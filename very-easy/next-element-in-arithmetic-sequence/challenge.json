@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "dzdoYrTL5vws4dFud",
+  "code": "function nextElement(arr) {\n  \n}",
+  "difficulty": "Very Easy",
+  "instructions": "<p><span>Create a function that returns the next element in an </span><strong><span>arithmetic sequence</span></strong><span>. In an arithmetic sequence, each element is formed by adding the same constant to the previous element.</span></p><h3><span>Examples</span></h3><pre><code>nextElement([3, 5, 7, 9]) \u279e 11\n\nnextElement([-5, -6, -7]) \u279e -8\n\nnextElement([2, 2, 2, 2, 2]) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>All input arrays will contain </span><strong><span>integers only</span></strong><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/dzdoYrTL5vws4dFud",
+  "tags": [
+    "arrays",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(nextElement([3, 5, 7, 9]), 11) \nTest.assertEquals(nextElement([-5, -6, -7]), -8) \nTest.assertEquals(nextElement([2, 2, 2, 2, 2]), 2)",
+  "title": "Next Element in Arithmetic Sequence"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "exX3Y9T68wGvLEPHL",
+  "code": "function maxHam(s1, s2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>An </span><strong><span>anagram</span></strong><span> is a word, x, formed by rearranging the letters that make up another word, y, and using up all the letters in y at the same frequency. For example, </span><em><span>\"dear\"</span></em><span> is an anagram of </span><em><span>\"read\"</span></em><span> and </span><em><span>\"plead\"</span></em><span> is an anagram of </span><em><span>\"paled\"</span></em><span>.</span></p><p><span>The </span><strong><span>Hamming distance</span></strong><span> between two strings is the number of positions at which they differ. Hamming distances can only be calculated for strings of equal length.</span></p><pre><code>let s1 = \"eleven\"\n\nlet s2 = \"twelve\"</code></pre><p><span>They only have the third position (index 2) in common, giving them a Hamming distance of 5.</span></p><p><span>As anagrams are of identical length, the Hamming distance between them can be calculated.</span></p><pre><code>let s1 = \"read\"\n\nlet s2 = \"dear\"</code></pre><p><span>These strings differ at the first and last positions, giving them a Hamming distance of 2. </span><em><span>\"Plead\"</span></em><span> and </span><em><span>\"paled\"</span></em><span> have a Hamming distance of 3.</span></p><p><span>Create a function that takes two strings, and returns:</span></p><ul><li><code>true</code><span> if they are anagrams of each other and their Hamming distance is equal to their length (i.e. no letters in the same positions).</span></li><li><code>false</code><span> if they aren't anagrams, or</span></li><li><span>Their Hamming distance if they are anagrams with &gt;=1 letter at the same index.</span></li></ul><h3><span>Examples</span></h3><pre><code>maxHam(\"dear\", \"read\") \u279e 2\n\nmaxHam(\"dare\", \"read\") \u279e true\n\nmaxHam(\"solemn\", \"molest\") \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/exX3Y9T68wGvLEPHL",
+  "tags": [
+    "strings",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(maxHam('dare','read'), true)\nTest.assertEquals(maxHam('dear','read'), 2)\nTest.assertEquals(maxHam('naive','ravine'), false)\nTest.assertEquals(maxHam('observe','verbose'), 6)\nTest.assertEquals(maxHam('mister','remits'), true)\nTest.assertEquals(maxHam('pirates','traipse'), true)\nTest.assertEquals(maxHam('petal','leapt'), 4)\nTest.assertEquals(maxHam('solemn','molest'), false)\nTest.assertEquals(maxHam('solemn','melons'), 5)\nTest.assertEquals(maxHam('solemn','lemons'), true)\nTest.assertEquals(maxHam('emigrants','streaming'), true)\nTest.assertEquals(maxHam('teardrop','predated'), false)",
+  "title": "Farthest Hamming Anagrams"
+}

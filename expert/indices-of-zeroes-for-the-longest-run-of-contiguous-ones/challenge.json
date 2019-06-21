@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "2gX93BLEfAQFSCoSy",
+  "code": "function zeroIndices(arr, k) {\n  \n}",
+  "difficulty": "Expert",
+  "instructions": "<p><span>You are given an </span><strong><span>array of binary integers</span></strong><span> and </span><code>k</code><span>, the </span><strong><span>number of flips</span></strong><span> allowed.</span></p><p><span>Write a function that returns the indices of zeroes of which, when flipped, return the </span><strong><span>longest contiguous sequence of ones</span></strong><span>.</span></p><h3><span>Examples</span></h3><pre><code>zeroIndices([1, 0, 1, 1, 0, 0, 0, 1], 1) \u279e [1]\n\nzeroIndices([1, 0, 0, 0, 0, 1], 1) \u279e [1]\n\nzeroIndices([1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0], 3) \u279e [6, 7, 9]\n\nzeroIndices([1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0], 3) \u279e [7, 8, 9]</code></pre><h3><span>Notes</span></h3><p><span>If multiple combinations of indices tie for longest one sequence, return the indices which occur </span><strong><span>first</span></strong><span> (see examples #2, #3).</span></p>",
+  "source_url": "https://edabit.com/challenge/2gX93BLEfAQFSCoSy",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(zeroIndices([1, 0, 1, 1, 0, 0, 0, 1], 1), [1]); \nTest.assertSimilar(zeroIndices([1, 0, 1, 1, 0, 0, 0, 1], 2), [1, 4]);\nTest.assertSimilar(zeroIndices([1, 0, 1, 1, 0, 0, 0, 1], 3), [1, 4, 5]);\nTest.assertSimilar(zeroIndices([1, 0, 1, 1, 0, 0, 0, 1], 4), [1, 4, 5, 6]);\n\nTest.assertSimilar(zeroIndices([1, 1, 0, 1, 1, 0, 0, 1], 1), [2]);\nTest.assertSimilar(zeroIndices([0, 1, 1, 1, 1, 0, 0, 0], 1), [0]);\nTest.assertSimilar(zeroIndices([0, 1, 1, 0, 0, 0, 1, 1, 1], 1), [5]);\nTest.assertSimilar(zeroIndices([1, 0, 1, 0, 1, 0], 1), [1]);\nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 1], 1), [1]);\n\nTest.assertSimilar(zeroIndices([1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1], 2), [1, 2]);\nTest.assertSimilar(zeroIndices([1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1], 2), [7, 8]);\nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0], 2), [6, 7]); \n\nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0], 3), [6, 7, 9]); \nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0], 3), [4, 5, 7]);\nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], 3), [1, 2, 3]); \nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0], 3), [7, 8, 9]); \n\nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0], 4), [7, 8, 9, 11]); \nTest.assertSimilar(zeroIndices([1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0], 4), [8, 9, 10, 11]); \nTest.assertSimilar(zeroIndices([0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], 4), [2, 3, 4, 5]);",
+  "title": "Indices of Zeroes for the Longest Run of Contiguous Ones"
+}

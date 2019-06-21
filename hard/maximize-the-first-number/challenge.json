@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "7vowiHDR5oYksAjqQ",
+  "code": "function maxPossible(n1, n2) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Write a function that makes the </span><strong><span>first number as large as possible</span></strong><span> by swapping out its digits for digits in the second number.</span></p><p><span>To illustrate:</span></p><pre><code>maxPossible(9328, 456) \u279e 9658\n// 9658 is the largest possible number built from swaps from 456.\n// 3 replaced with 6 and 2 replaced with 5.</code></pre><h3><span>Examples</span></h3><pre><code>maxPossible(523, 76) \u279e 763\n\nmaxPossible(9132, 5564) \u279e 9655\n\nmaxPossible(8732, 91255) \u279e 9755</code></pre><h3><span>Notes</span></h3><ul><li><span>Each digit in the second number can only be used once.</span></li><li><span>Zero to all digits in the second number may be used.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/7vowiHDR5oYksAjqQ",
+  "tags": [
+    "higher_order_functions",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(maxPossible(9328, 456), 9658)\nTest.assertEquals(maxPossible(523, 76), 763)\nTest.assertEquals(maxPossible(9132, 5564), 9655)\nTest.assertEquals(maxPossible(8732, 91255), 9755)\nTest.assertEquals(maxPossible(589, 777), 789)\nTest.assertEquals(maxPossible(1, 0), 1)\nTest.assertEquals(maxPossible(8, 9), 9)\nTest.assertEquals(maxPossible(28, 19), 98)\nTest.assertEquals(maxPossible(12345, 4), 42345)",
+  "title": "Maximize the First Number"
+}

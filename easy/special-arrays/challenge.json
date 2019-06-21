@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "wikfKaQm3zP7buRA4",
+  "code": "function isSpecialArray(arr) {\n  \n}",
+  "difficulty": "Easy",
+  "instructions": "<p><span>An array is </span><strong><span>special</span></strong><span>, if every even index contains an even number and every odd index contains an odd number. Create a function that returns </span><code>true</code><span> if an array is </span><strong><span>special</span></strong><span>, and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>isSpecialArray([2, 7, 4, 9, 6, 1, 6, 3]) \u279e true\n// Even indices: [2, 4, 6, 6]; Odd indices: [7, 9, 1, 3]\n\nisSpecialArray([2, 7, 9, 1, 6, 1, 6, 3]) \u279e false\n// Index 2 has an odd number 9.\n\nisSpecialArray([2, 7, 8, 8, 6, 1, 6, 3]) \u279e false\n// Index 3 has an even number 8.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/wikfKaQm3zP7buRA4",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(isSpecialArray([2, 7, 4, 9, 6, 1, 6, 3]), true)\nTest.assertEquals(isSpecialArray([2, 7, 9, 1, 6, 1, 6, 3]), false)\nTest.assertEquals(isSpecialArray([2, 7, 8, 8, 6, 1, 6, 3]), false)\nTest.assertEquals(isSpecialArray([1, 1, 1, 2]), false)\nTest.assertEquals(isSpecialArray([2, 2, 2, 2]), false)\nTest.assertEquals(isSpecialArray([2, 1, 2, 1]), true)\nTest.assertEquals(isSpecialArray([4, 5, 6, 7]), true)\nTest.assertEquals(isSpecialArray([4, 5, 6, 7, 0, 5]), true)",
+  "title": "Special Arrays"
+}

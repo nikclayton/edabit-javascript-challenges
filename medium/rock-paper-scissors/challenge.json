@@ -1,0 +1,17 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "jtvCv6cjHorKpmyFc",
+  "code": "function calculateScore(games) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Abigail and Benson are playing Rock, Paper, Scissors.</span></p><p><span>Each game is represented by an array of length 2, where the first element represents what Abigail played and the second element represents what Benson played.</span></p><p><span>Given a sequence of games, determine who wins the most number of matches. If they tie, output \"Tie\".</span></p><ul><li><span>R stands for Rock</span></li><li><span>P stands for Paper</span></li><li><span>S stands for Scissors</span></li></ul><h3><span>Examples</span></h3><pre><code>calculateScore([[\"R\", \"P\"], [\"R\", \"S\"], [\"S\", \"P\"]]) \u279e \"Abigail\"\n\n// Ben wins the first game (Paper beats Rock).\n// Abigail wins the second game (Rock beats Scissors).\n// Abigail wins the third game (Scissors beats Paper). \n// Abigail wins 2/3.\n\ncalculateScore([[\"R\", \"R\"], [\"S\", \"S\"]]) \u279e \"Tie\"\n\ncalculateScore([[\"S\", \"R\"], [\"R\", \"S\"], [\"R\", \"R\"]]) \u279e \"Tie\"</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/jtvCv6cjHorKpmyFc",
+  "tags": [
+    "conditions",
+    "control_flow",
+    "loops",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(calculateScore([['R', 'P'], ['R', 'S'], ['S', 'P']]),  \"Abigail\");\nTest.assertEquals(calculateScore([['R', 'R'], ['S', 'S']]), \"Tie\");\nTest.assertEquals(calculateScore([['S', 'R'], ['R', 'S'], ['R', 'R']]), \"Tie\");\nTest.assertEquals(calculateScore([['S', 'R'], ['P', 'R']]), \"Tie\");\nTest.assertEquals(calculateScore([['S', 'S'], ['S', 'P'], ['R', 'S'], ['S', 'R'], ['R', 'R']]), \"Abigail\");\nTest.assertEquals(calculateScore([['S', 'R'], ['S', 'R'], ['S', 'R'], ['R', 'S'], ['R', 'S']]), \"Benson\");",
+  "title": "Rock, Paper, Scissors!"
+}

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WYHgoTtdQHjjSvD7G",
+  "code": "function nextPrime(num) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Given an integer, create a function that returns the next prime. If the number is prime, return the number itself.</span></p><h3><span>Examples</span></h3><pre><code>nextPrime(12) \u279e 13\n\nnextPrime(24) \u279e 29\n\nnextPrime(11) \u279e 11\n// 11 is a prime, so we return the number itself.</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/WYHgoTtdQHjjSvD7G",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(nextPrime(12), 13)\nTest.assertEquals(nextPrime(24), 29)\nTest.assertEquals(nextPrime(11), 11)\nTest.assertEquals(nextPrime(13), 13)\nTest.assertEquals(nextPrime(14), 17)\nTest.assertEquals(nextPrime(33), 37)",
+  "title": "Next Prime"
+}

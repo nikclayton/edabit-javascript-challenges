@@ -1,8 +1,6 @@
 const missingLetter = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(missingLetter(['a', 'b', 'c', 'e', 'f', 'g'])).toEqual('d');
         expect(missingLetter(['O', 'Q', 'R', 'S'])).toEqual('P');

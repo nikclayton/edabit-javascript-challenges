@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "sEn8HvF2pHiv4La2N",
+  "code": "function canBuild(digits, arr) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>You are given an array representing the number of 0s, 1s, 2s, ..., 9s you have. The function will look like:</span></p><pre><code>can_build([#0s, #1s, #2s, ..., #9s], [num1, num2, ...])</code></pre><p><span>Write a function that returns </span><code>true</code><span> if you can build the following numbers using only the digits you have.</span></p><h3><span>Examples</span></h3><pre><code>canBuild([0, 1, 2, 2, 3, 0, 0, 0, 1, 1], [123, 444, 92]) \u279e true\n\n// You have: one 1, two 2s, two 3s, three 4s, one 8 and one 9\n// Using only these digits, you can build 123, 444, and 92\n\ncanBuild([10, 2, 3, 8, 5, 8, 5, 5, 3, 1], [11, 2, 22, 49, 444, 998, 87, 44]) \u279e false\n\ncanBuild([0, 0, 0, 0, 0, 0, 0, 0, 0, 0], []) \u279e true\n\ncanBuild([0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [3]) \u279e false</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/sEn8HvF2pHiv4La2N",
+  "tags": [
+    "arrays",
+    "higher_order_functions",
+    "loops"
+  ],
+  "tests": "Test.assertEquals(canBuild([0, 0, 0, 0, 0, 0, 0, 0, 0, 0], []), true)\nTest.assertEquals(canBuild([1, 1, 0, 0, 0, 0, 0, 0, 1, 0], [1, 8]), true)\nTest.assertEquals(canBuild([1, 1, 0, 0, 0, 0, 0, 0, 1, 0], [1, 80]), true)\nTest.assertEquals(canBuild([0, 1, 2, 2, 3, 0, 0, 0, 1, 1], [123, 444, 92]), true)\nTest.assertEquals(canBuild([1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [10, 23, 45, 6789]), true)\nTest.assertEquals(canBuild([0, 2, 3, 0, 5, 0, 0, 0, 0, 1], [11, 2, 22, 49, 444, 4]), true)\nTest.assertEquals(canBuild([1, 1, 0, 0, 0, 0, 0, 0, 1, 0], [1, 80, 0]), false)\nTest.assertEquals(canBuild([0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1]), false)\nTest.assertEquals(canBuild([0, 2, 3, 0, 5, 0, 0, 0, 0, 1], [11, 7, 2, 22, 49, 444, 4]), false)\nTest.assertEquals(canBuild([0, 2, 3, 0, 5, 0, 0, 0, 0, 1], [11, 2, 22, 49, 444, 44]), false)\nTest.assertEquals(canBuild([10, 2, 3, 8, 5, 8, 5, 5, 3, 1], [11, 2, 22, 49, 444, 998, 87, 44]), false)",
+  "title": "Can You Make the Numbers"
+}

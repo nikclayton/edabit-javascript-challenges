@@ -4,7 +4,7 @@
   "challenge_id": "jdYxyKyppvogyhBJ6",
   "code": "function pointsInCircle(points, centerX, centerY, radius) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Count the amount of coordinates on a two-dimensional grid that are inside a given circle. The function has four arguments: the points, the circle's center x, y and the circle's radius. For example:</span></p><h3><span>Examples</span></h3><pre><code>pointsInCircle([{x: 0, y: 0}, {x: 1, y: 1}, {x: 0, y: 5}, {x: 10, y: 10}], 0, 0, 5) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>Only count the coordinates that are </span><em><span>in</span></em><span> the circle, not the ones that are on the border.</span></p>",
+  "instructions": "<p><span>Count the amount of coordinates on a two-dimensional grid that are inside a given circle. The function has four arguments: the points, the circle's center x, y and the circle's radius. For example:</span></p><h3><span>Examples</span></h3><pre><code>pointsInCircle([\n  { x: 0, y: 0 },\n  { x: 1, y: 1 },\n  { x: 0, y: 5 },\n  { x: 10, y: 10 }\n], 0, 0, 5) \u279e 2</code></pre><h3><span>Notes</span></h3><p><span>Only count the coordinates that are </span><em><span>in</span></em><span> the circle, not the ones that are on the border.</span></p>",
   "source_url": "https://edabit.com/challenge/jdYxyKyppvogyhBJ6",
   "tags": [
     "arrays",

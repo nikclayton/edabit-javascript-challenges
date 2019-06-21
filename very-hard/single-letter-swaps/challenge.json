@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "xukQmQoGopXbQMdZj",
+  "code": "function validateSwaps(arr, str) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Given an array of strings and an original string, write a function to output an array of boolean values - </span><code>true</code><span> if the word can be formed from the original word by swapping two letters </span><strong><span>only once</span></strong><span> and </span><code>false</code><span> otherwise.</span></p><h3><span>Examples</span></h3><pre><code>validateSwaps([\"BACDE\", \"EBCDA\", \"BCDEA\", \"ACBED\"], \"ABCDE\")\n\u279e [true, true, false, false]\n\n// Swap \"A\" and \"B\" from \"ABCDE\" to get \"BACDE\".\n// Swap \"A\" and \"E\" from \"ABCDE\" to get \"EBCDA\".\n// Both \"BCDEA\" and \"ACBED\" cannot be formed from \"ABCDE\" using only a single swap.\n\nvalidateSwaps([\"32145\", \"12354\", \"15342\", \"12543\"], \"12345\")\n\u279e [true, true, true, true]\n\nvalidateSwaps([\"9786\", \"9788\", \"97865\", \"7689\"], \"9768\")\n\u279e [true, false, false, false]</code></pre><h3><span>Notes</span></h3><p><span>Original string will consist of unique characters.</span></p>",
+  "source_url": "https://edabit.com/challenge/xukQmQoGopXbQMdZj",
+  "tags": [
+    "arrays",
+    "loops",
+    "validation"
+  ],
+  "tests": "Test.assertSimilar(validateSwaps(['BACDE', 'EBCDA', 'BCDEA', 'ACBED'], 'ABCDE'),\n[true, true, false, false])\n\nTest.assertSimilar(validateSwaps(['32145', '12354', '15342', '12543'], '12345'),\n[true, true, true, true])\n\nTest.assertSimilar(validateSwaps(['9786', '9788', '97865', '7689'], '9768'),\n[true, false, false, false])\n\nTest.assertSimilar(validateSwaps(['123', '321', '132', '13', '12'], '213'), \n[true, false, false, false, false])\n\nTest.assertSimilar(validateSwaps(['123', '1234', '1235'], '12'), \n[false, false, false])\n\nTest.assertSimilar(validateSwaps(['123', '123', '123'], '133'), \n[false, false, false])\n\nTest.assertSimilar(validateSwaps(['132', '321', '213'], '123'), \n[true, true, true])",
+  "title": "Single Letter Swaps"
+}

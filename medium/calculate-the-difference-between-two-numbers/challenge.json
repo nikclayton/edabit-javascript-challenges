@@ -1,0 +1,15 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "GXmPdAoeH5kiDNEis",
+  "code": "function percentDiff(num1, num2) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that takes two integers as arguments and returns the percent difference between them.</span></p><p><span>The % difference between two numbers is the absolute value of the difference between the two numbers, divided by the average of those two numbers, multiplied by 100%.</span></p><p><img alt=\"% difference formula\" title=\"% difference formula\" src=\"http://mathcentral.uregina.ca/QQ/database/QQ.09.06/s/carolyn1.1.gif\"></p><h3><span>Examples</span></h3><pre><code>percentDiff(60, 100) \u279e 50.0\n\npercentDiff(100, 60) \u279e 50.0\n\npercentDiff(4538, 5439) \u279e 18.1\n\npercentDiff(4538, 5439) \u279e 18.1</code></pre><h3><span>Notes</span></h3><ul><li><span>Round your result to one decimal place.</span></li><li><span>You will be given only whole numbers as test input.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/GXmPdAoeH5kiDNEis",
+  "tags": [
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(percentDiff(60, 100), 50.0)\nTest.assertEquals(percentDiff(100, 60), 50.0)\nTest.assertEquals(percentDiff(5439, 4538), 18.1)\nTest.assertEquals(percentDiff(4538, 5439), 18.1)\nTest.assertEquals(percentDiff(87, 26), 108.0)\nTest.assertEquals(percentDiff(26, 87), 108.0)\nTest.assertEquals(percentDiff(465, 112), 122.4)\nTest.assertEquals(percentDiff(10438, 7345), 34.8)\nTest.assertEquals(percentDiff(10, 5), 66.7)\nTest.assertEquals(percentDiff(3, 100), 188.3)",
+  "title": "Calculate the % Difference between Two Numbers"
+}

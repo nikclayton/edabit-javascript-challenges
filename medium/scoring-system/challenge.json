@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "WvGmrCyiiZeunZLAg",
+  "code": "function calculateScores(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Andy, Ben and Charlotte are playing a board game. The three of them decided to come up with a new scoring system. A player's first initial (\"A\", \"B\" or \"C\") denotes that player scoring a single point. Given a string of capital letters, return an array of the players' scores.</span></p><p><span>For instance, if </span><code>ABBACCCCAC</code><span> is written when the game is over, then Andy scored </span><strong><span>3 points</span></strong><span>, Ben scored </span><strong><span>2 points</span></strong><span>, and Charlotte scored </span><strong><span>5 points</span></strong><span>, since there are 3 instances of letter A, 2 instances of letter B, and 5 instances of letter C. So the array </span><code>[3, 2, 5]</code><span> should be returned.</span></p><h3><span>Examples</span></h3><pre><code>calculateScores(\"A\") \u279e [1, 0, 0]\n\ncalculateScores(\"ABC\") \u279e [1, 1, 1]\n\ncalculateScores(\"ABCBACC\") \u279e [2, 2, 3]</code></pre><h3><span>Notes</span></h3><p><span>If given an empty string as an input, return </span><code>[0, 0, 0]</code><span>.</span></p>",
+  "source_url": "https://edabit.com/challenge/WvGmrCyiiZeunZLAg",
+  "tags": [
+    "numbers",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(calculateScores(\"AAB\"), [2, 1, 0]);\nTest.assertSimilar(calculateScores(\"ABC\"), [1, 1, 1]);\nTest.assertSimilar(calculateScores(\"ABCBACC\"), [2, 2, 3]);\nTest.assertSimilar(calculateScores(\"CCBBBB\"), [0, 4, 2]);\nTest.assertSimilar(calculateScores(\"CCAABBAABBCC\"), [4, 4, 4]);\nTest.assertSimilar(calculateScores(\"A\"), [1, 0, 0]);\nTest.assertSimilar(calculateScores(\"\"), [0, 0, 0]);\nTest.assertSimilar(calculateScores(\"ACCCA\"), [2, 0, 3]);",
+  "title": "Scoring System"
+}

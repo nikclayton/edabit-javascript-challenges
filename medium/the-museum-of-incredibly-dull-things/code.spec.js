@@ -1,8 +1,6 @@
 const removeSmallest = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(removeSmallest([1, 2, 3, 4, 5])).toEqual([2, 3, 4, 5]);
         expect(removeSmallest([5, 3, 2, 1, 4])).toEqual([5, 3, 2, 4]);

@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "Qkdyd5CLHizJqmNdx",
+  "code": "function canSeeStage(seats) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Create a function that determines whether each seat can \"see\" the front-stage. A number can \"see\" the front-stage if it is </span><strong><span>strictly greater</span></strong><span> than the number before it.</span></p><p><span>Everyone can see the front-stage in the example below:</span></p><pre><code>// FRONT STAGE\n[[1, 2, 3, 2, 1, 1],\n[2, 4, 4, 3, 2, 2],\n[5, 5, 5, 5, 4, 4],\n[6, 6, 7, 6, 5, 5]]\n\n// Starting from the left, the 6 &gt; 5 &gt; 2 &gt; 1, so all numbers can see.\n// 6 &gt; 5 &gt; 4 &gt; 2 - so all numbers can see, etc.</code></pre><p><span>Not everyone can see the front-stage in the example below:</span></p><pre><code>// FRONT STAGE\n[[1, 2, 3, 2, 1, 1], \n[2, 4, 4, 3, 2, 2], \n[5, 5, 5, 10, 4, 4], \n[6, 6, 7, 6, 5, 5]]\n\n// The 10 is directly in front of the 6 and blocking its view.</code></pre><p><span>The function should return </span><code>true</code><span> if </span><strong><span>every number</span></strong><span> can see the front-stage, and </span><code>false</code><span> if even a single number cannot.</span></p><h3><span>Examples</span></h3><pre><code>canSeeStage([\n  [1, 2, 3],\n  [4, 5, 6],\n  [7, 8, 9]\n]) \u279e true\n\ncanSeeStage([\n  [0, 0, 0],\n  [1, 1, 1],\n  [2, 2, 2]\n]) \u279e true\n\ncanSeeStage([\n  [2, 0, 0], \n  [1, 1, 1], \n  [2, 2, 2]\n]) \u279e false\n\ncanSeeStage([\n  [1, 0, 0],\n  [1, 1, 1],\n  [2, 2, 2]\n]) \u279e false\n\n// Number must be strictly smaller than \n// the number directly behind it.</code></pre><h3><span>Notes</span></h3><p><span>Numbers must be </span><strong><span>strictly greater</span></strong><span> than the number in front of it.</span></p>",
+  "source_url": "https://edabit.com/challenge/Qkdyd5CLHizJqmNdx",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(canSeeStage(\n[[1, 2, 3], \n[4, 5, 6], \n[7, 8, 9]]), true)\n\nTest.assertEquals(canSeeStage(\n[[1, 2, 2], \n[1, 2, 3], \n[4, 4, 4]]), false)\n\nTest.assertEquals(canSeeStage(\n[[1, 1, 2], \n[5, 2, 3], \n[4, 4, 4]]), false)\n\nTest.assertEquals(canSeeStage(\n[[1, 1, 2], \n[5, 2, 3], \n[6, 4, 4]]), true)\n\nTest.assertEquals(canSeeStage(\n[[0, 0, 0], \n[1, 1, 1], \n[2, 2, 2]]), true)\n\nTest.assertEquals(canSeeStage(\n[[2, 0, 0], \n[1, 1, 1], \n[2, 2, 2]]), false)\n\nTest.assertEquals(canSeeStage(\n[[1, 0, 0], \n[1, 1, 1], \n[2, 2, 2]]), false)\n\nTest.assertEquals(canSeeStage(\n[[1, 2, 3, 2, 1, 1], \n[2, 4, 4, 3, 2, 2], \n[5, 5, 5, 5, 4, 4], \n[6, 6, 7, 6, 5, 5]]), true)\n\nTest.assertEquals(canSeeStage(\n[[1, 2, 3, 2, 1, 1], \n[2, 4, 4, 3, 2, 2], \n[5, 5, 5, 10, 4, 4], \n[6, 6, 7, 6, 5, 5]]), false)",
+  "title": "Concert Seats"
+}

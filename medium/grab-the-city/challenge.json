@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "D47BAo44DZKqnLg5M",
+  "code": "function grabCity(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function to return the city from each of these vacation spots.</span></p><h3><span>Examples</span></h3><pre><code>grabCity(\"[Last Day!] Beer Festival [Munich]\") \u279e \"Munich\"\n\ngrabCity(\"Cheese Factory Tour [Portland]\") \u279e \"Portland\"\n\ngrabCity(\"[50% Off!][Group Tours Included] 5-Day Trip to Onsen [Kyoto]\") \u279e \"Kyoto\"</code></pre><h3><span>Notes</span></h3><p><span>There may be additional  brackets, but the city will always be in the last bracket pair.</span></p>",
+  "source_url": "https://edabit.com/challenge/D47BAo44DZKqnLg5M",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(grabCity(\"[Last Day!] Beer Festival [Munich]\"), \"Munich\")\nTest.assertEquals(grabCity(\"Cheese Factory Tour [Portland]\"), \"Portland\")\nTest.assertEquals(grabCity(\"[Duration: 7 hours] Tour of the Maritimes [Prince Edward Island]\"), \"Prince Edward Island\")\nTest.assertEquals(grabCity(\"[5 Stars] Traditional Gondola Experience [Venice]\"), \"Venice\")\nTest.assertEquals(grabCity(\"[Last Minute Deal][$1039] Machu Picchu 3 Day Trip [Machu Picchu]\"), \"Machu Picchu\")\nTest.assertEquals(grabCity(\"[50% Off!][Group Tours Included] 5-Day Trip to Onsen [Kyoto]\"), \"Kyoto\")",
+  "title": "Grab the City"
+}

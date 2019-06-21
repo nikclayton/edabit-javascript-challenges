@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "afxdcvEi4Ra4fPLoQ",
+  "code": "function generateRug(n, direction) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>Write a function that takes in </span><strong><span>size</span></strong><span> and </span><strong><span>direction</span></strong><span> and generates a </span><strong><span>diagonal rug</span></strong><span>.</span></p><p><span>The size is the </span><code>n</code><span> parameter, and all rugs are square </span><code>n x n</code><span>. The direction is whether the diagonal part begins on the left or the right side.</span></p><h3><span>Examples</span></h3><pre><code>generateRug(4, \"left\") \u279e [\n  [0, 1, 2, 3],\n  [1, 0, 1, 2],\n  [2, 1, 0, 1],\n  [3, 2, 1, 0]\n]\n\ngenerateRug(5, \"right\") \u279e [\n  [4, 3, 2, 1, 0],\n  [3, 2, 1, 0, 1],\n  [2, 1, 0, 1, 2],\n  [1, 0, 1, 2, 3],\n  [0, 1, 2, 3, 4]\n]\n\ngenerateRug(1, \"left\") \u279e [\n  [0]\n]\n\ngenerateRug(2, \"right\") \u279e [\n  [1, 0],\n  [0, 1]\n]</code></pre><h3><span>Notes</span></h3><ul><li><code>n &gt; 0</code></li><li><span>A </span><code>1 x 1</code><span> rug is trivially </span><code>[[0]]</code><span> (same for left and right).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/afxdcvEi4Ra4fPLoQ",
+  "tags": [
+    "arrays",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(generateRug(4, \"left\"),  \n[[0, 1, 2, 3], \n[1, 0, 1, 2], \n[2, 1, 0, 1], \n[3, 2, 1, 0]])\n\nTest.assertSimilar(generateRug(5, \"right\"),\n[[4, 3, 2, 1, 0], \n[3, 2, 1, 0, 1], \n[2, 1, 0, 1, 2], \n[1, 0, 1, 2, 3], \n[0, 1, 2, 3, 4]])\n\nTest.assertSimilar(generateRug(6, \"left\"),\n[[0, 1, 2, 3, 4, 5], \n[1, 0, 1, 2, 3, 4], \n[2, 1, 0, 1, 2, 3], \n[3, 2, 1, 0, 1, 2], \n[4, 3, 2, 1, 0, 1], \n[5, 4, 3, 2, 1, 0]])\n\nTest.assertSimilar(generateRug(1, \"left\"), \n[[0]])\n\nTest.assertSimilar(generateRug(2, \"right\"), \n[[1, 0], \n[0, 1]])",
+  "title": "Diagonal Rug"
+}

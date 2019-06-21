@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "ZYJNYe2tKhG2kb7Sh",
+  "code": "function possiblyPerfect(key, answers) {\n  \n}",
+  "difficulty": "Hard",
+  "instructions": "<p><span>Suppose a student can earn 100% on an exam by getting the answers all correct or all incorrect. Given a </span><strong><span>potentially incomplete</span></strong><span> answer key and the student's answers, write a function that determines whether or not a student can still score 100%. Questions with missing answers are marked with an underscore, </span><code>\"_\"</code><span>.</span></p><pre><code>[\"A\", \"_\", \"C\", \"_\", \"B\"]   // answer key\n[\"A\", \"D\", \"C\", \"E\", \"B\"]   // student's solution\n\n\u279e true\n\n// Possible for student to get all questions correct.\n\n[\"B\", \"_\", \"B\"]   // answer key\n[\"B\", \"D\", \"C\"]   // student's solution\n\n\u279e false\n\n// First question is correct but third is wrong, so not possible to score 100%.\n\n[\"T\", \"_\", \"F\", \"F\", \"F\"]   // answer key\n[\"F\", \"F\", \"T\", \"T\", \"T\"]   // student's solution\n\n\u279e true\n\n// Possible for student to get all questions incorrect.</code></pre><h3><span>Examples</span></h3><pre><code>possiblyPerfect([\"B\", \"A\", \"_\", \"_\"], [\"B\", \"A\", \"C\", \"C\"]) \u279e true\n\npossiblyPerfect([\"A\", \"B\", \"A\", \"_\"], [\"B\", \"A\", \"C\", \"C\"]) \u279e true\n\npossiblyPerfect([\"A\", \"B\", \"C\", \"_\"], [\"B\", \"A\", \"C\", \"C\"]) \u279e false\n\npossiblyPerfect([\"B\", \"_\"], [\"C\", \"A\"]) \u279e true\n\npossiblyPerfect([\"B\", \"A\"], [\"C\", \"A\"]) \u279e false\n\npossiblyPerfect([\"B\"], [\"B\"]) \u279e true</code></pre><h3><span>Notes</span></h3><p><span>Test has at least one question.</span></p>",
+  "source_url": "https://edabit.com/challenge/ZYJNYe2tKhG2kb7Sh",
+  "tags": [
+    "arrays",
+    "validation"
+  ],
+  "tests": "Test.assertEquals(possiblyPerfect(['A', '_', 'C', '_', 'B'], ['A', 'D', 'C', 'E', 'B']), true)\nTest.assertEquals(possiblyPerfect(['B', '_', 'B'], ['B', 'D', 'C']), false)\nTest.assertEquals(possiblyPerfect(['T', '_', 'F', 'F', 'F'], ['F', 'F', 'T', 'T', 'T']), true)\n\nTest.assertEquals(possiblyPerfect(['B', 'A', '_', '_'], ['B', 'A', 'C', 'C']), true)\nTest.assertEquals(possiblyPerfect(['A', 'B', 'A', '_'], ['B', 'A', 'C', 'C']), true)\nTest.assertEquals(possiblyPerfect(['A', 'B', 'C', '_'], ['B', 'A', 'C', 'C']), false)\n\nTest.assertEquals(possiblyPerfect(['B', '_'], ['C', 'A']), true)\nTest.assertEquals(possiblyPerfect(['B', 'A'], ['C', 'A']), false)\nTest.assertEquals(possiblyPerfect(['B'], ['B']), true)\n\nTest.assertEquals(possiblyPerfect(['_', 'T', '_', '_'], ['T', 'F', 'F', 'F']), true)\nTest.assertEquals(possiblyPerfect(['_', 'T', '_', '_'], ['T', 'T', 'F', 'T']), true)\nTest.assertEquals(possiblyPerfect(['_', 'T', 'T', 'T'], ['T', 'T', 'F', 'T']), false)\nTest.assertEquals(possiblyPerfect(['_', 'T', 'T', 'T'], ['T', 'T', 'T', 'T']), true)\nTest.assertEquals(possiblyPerfect(['_', 'T', 'T', 'T'], ['F', 'F', 'F', 'F']), true)",
+  "title": "All or Nothing"
+}

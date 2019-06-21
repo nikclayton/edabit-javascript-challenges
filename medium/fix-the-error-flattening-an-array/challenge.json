@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "MXChCnzCSBobgY4Ex",
+  "code": "// Fix this incorrect code so that all tests pass!\nfunction flatten(arr) {\n  arr2 = [];\n  for (let i = 0; i < arr.length; i++) {\n    arr2.concat(arr[i]);\n  }\n  return arr2; \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>I'm trying to write a function to flatten an array of subarrays into one array. (Suppose I am unware there is a </span><code>.flat()</code><span> method in the Array prototype). In other words, I want to transform this: </span><code>[[1, 2], [3, 4]]</code><span> into </span><code>[1, 2, 3, 4]</code><span>.</span></p><p><span>Here is my code:</span></p><pre><code>function flatten(arr) {\n  arr2 = [];\n  for (let i = 0; i &lt; arr.length; i++) {\n    arr2.concat(arr[i]);\n  }\n  return arr2;\n}</code></pre><p><span>But...it doesn't seem to be working! Fix my code so that it correctly flattens the array. </span></p><h3><span>Examples</span></h3><pre><code>flatten([[1, 2], [3, 4]]) \u279e []\n// Expected: [1, 2, 3, 4]\n\nflatten([[\"a\", \"b\"], [\"c\", \"d\"]]) \u279e []\n// Expected: [\"a\", \"b\", \"c\", \"d\"]\n\nflatten([[true, false], [false, false]]) \u279e []\n// Expected: [true, false, false, false]</code></pre><h3><span>Notes</span></h3><p><span>N/A</span></p>",
+  "source_url": "https://edabit.com/challenge/MXChCnzCSBobgY4Ex",
+  "tags": [
+    "arrays",
+    "bugs"
+  ],
+  "tests": "Test.assertSimilar(flatten([[1, 2], [3, 4]]), [1, 2, 3, 4])\nTest.assertSimilar(flatten([['a', 'b'], ['c', 'd']]), ['a', 'b', 'c', 'd'])\nTest.assertSimilar(flatten([[true, false], [false, false]]), [true, false, false, false])",
+  "title": "Fix the Error: Flattening an Array"
+}

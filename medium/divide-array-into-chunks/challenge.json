@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "g8jGf8wrHtmwFfM8H",
+  "code": "function chunkify(arr, size) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that divides an array into chunks of size </span><strong><span>n</span></strong><span>, where </span><strong><span>n</span></strong><span> is the length of each chunk.</span></p><h3><span>Examples</span></h3><pre><code>chunkify([2, 3, 4, 5], 2) \u279e [[2, 3], [4, 5]]\n\nchunkify([2, 3, 4, 5, 6], 2) \u279e [[2, 3], [4, 5], [6]]\n\nchunkify([2, 3, 4, 5, 6, 7], 3) \u279e [[2, 3, 4], [5, 6, 7]]\n\nchunkify([2, 3, 4, 5, 6, 7], 1) \u279e [[2], [3], [4], [5], [6], [7]]\n\nchunkify([2, 3, 4, 5, 6, 7], 7) \u279e [[2, 3, 4, 5, 6, 7]]</code></pre><h3><span>Notes</span></h3><p><span>It's O.K. if the last chunk is not completely filled (see second example).</span></p>",
+  "source_url": "https://edabit.com/challenge/g8jGf8wrHtmwFfM8H",
+  "tags": [
+    "arrays",
+    "formatting",
+    "loops"
+  ],
+  "tests": "Test.assertSimilar(chunkify([2, 3, 4, 5], 2), [[2, 3], [4, 5]])\nTest.assertSimilar(chunkify([2, 3, 4, 5, 6], 2), [[2, 3], [4, 5], [6]])\nTest.assertSimilar(chunkify([2, 3, 4, 5, 6, 7], 3), [[2, 3, 4], [5, 6, 7]])\nTest.assertSimilar(chunkify([2, 3, 4, 5, 6, 7], 1), [[2], [3], [4], [5], [6], [7]] )\nTest.assertSimilar(chunkify([2, 3, 4, 5, 6, 7], 7), [[2, 3, 4, 5, 6, 7]] )\nTest.assertSimilar(chunkify([2, 3, 4, 5], 3), [[2, 3, 4], [5]])\nTest.assertSimilar(chunkify([2, 3, 4, 5, 6, 7, 8], 3), [[2, 3, 4], [5, 6, 7], [8]])",
+  "title": "Divide Array into Chunks"
+}

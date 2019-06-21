@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "rKeYpxFeRQRP2Afg7",
+  "code": "function noYelling(phrase) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that transforms sentences ending  with multiple question marks </span><code>?</code><span> or exclamation marks </span><code>!</code><span> into a sentence only ending with one.</span></p><h3><span>Examples</span></h3><pre><code>noYelling(\"What went wrong?????????\")  \u279e \"What went wrong?\"\n\nnoYelling(\"Oh my goodness!!!\")  \u279e \"Oh my goodness!\"\n\nnoYelling(\"I just!!! can!!! not!!! believe!!! it!!!\")  \u279e \"I just!!! can!!! not!!! believe!!! it!\"\n// Only change repeating punctuation at the end of the sentence.\n\nnoYelling(\"Oh my goodness!\")  \u279e \"Oh my goodness!\"\n// Do not change sentences where there exists only one or zero exclamation marks/question marks.\n\nnoYelling(\"I just cannot believe it.\")  \u279e \"I just cannot believe it.\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Only change </span><strong><span>ending punctuation</span></strong><span> - keep the exclamation marks or question marks in the middle of the sentence the same (see third example).</span></li><li><span>Don't worry about mixed punctuation (no cases that end in something like </span><code>?!??!</code><span>).</span></li><li><span>Keep sentences that do not have question/exclamation marks the same.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/rKeYpxFeRQRP2Afg7",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(noYelling(\"What went wrong?????????\"), \"What went wrong?\")\nTest.assertEquals(noYelling(\"Oh my goodness!!!\"), \"Oh my goodness!\")\nTest.assertEquals(noYelling(\"WHAT!\"), \"WHAT!\")\nTest.assertEquals(noYelling(\"WHAT?\"), \"WHAT?\")\nTest.assertEquals(noYelling(\"Oh my goodness!\"), \"Oh my goodness!\")\nTest.assertEquals(noYelling(\"I just cannot believe it.\"), \"I just cannot believe it.\")\nTest.assertEquals(noYelling(\"I just!!! can!!! not!!! believe!!! it!!!\"), \"I just!!! can!!! not!!! believe!!! it!\")\nTest.assertEquals(noYelling(\"That's a ton!! of cheese!!!!\"), \"That's a ton!! of cheese!\")",
+  "title": "No Yelling"
+}

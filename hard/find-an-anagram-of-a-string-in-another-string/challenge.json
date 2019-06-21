@@ -2,12 +2,13 @@
   "author_id": "shahednasser",
   "author_url": "https://edabit.com/user/qfZTGo3mgRsbyKka7",
   "challenge_id": "q577i4KiZRFKyPLJf",
-  "code": "function ana_str_str(needle, haystack){\n  \n}",
+  "code": "function ana_str_str(needle, haystack) {\n  \n}",
   "difficulty": "Hard",
-  "instructions": "<p><span>Create a function that takes two strings and determines if an anagram of the first string is in the second string. Anagrams of \"bag\" are \"bag\", \"bga\", \"abg\", \"agb\", \"gab\", \"gba\". Since none of those anagrams are in \"grab\", the answer is false. A \"g\", \"a\", and \"b\" are in the string \"grab\", but they're split up by the \"r\".</span></p><h3><span>Examples</span></h3><pre><code>ana_str_str(\"car\", \"race\") \u279e True\n\nana_str_str(\"nod\", \"done\") \u279e True\n\nana_str_str(\"bag\", \"grab\") \u279e False</code></pre><h3><span>Notes</span></h3><ul><li><span>Inputs will be valid strings in all lowercase letters.</span></li><li><span>There exists a linear time algorithm for this.</span></li></ul>",
+  "instructions": "<p><span>Create a function that takes two strings and determines if an anagram of the first string is in the second string. Anagrams of \"bag\" are \"bag\", \"bga\", \"abg\", \"agb\", \"gab\", \"gba\". Since none of those anagrams are in \"grab\", the answer is false. A \"g\", \"a\", and \"b\" are in the string \"grab\", but they're split up by the \"r\".</span></p><h3><span>Examples</span></h3><pre><code>ana_str_str(\"car\", \"race\") \u279e true\n\nana_str_str(\"nod\", \"done\") \u279e true\n\nana_str_str(\"bag\", \"grab\") \u279e false</code></pre><h3><span>Notes</span></h3><ul><li><span>Inputs will be valid strings in all lowercase letters.</span></li><li><span>There exists a linear time algorithm for this.</span></li></ul>",
   "source_url": "https://edabit.com/challenge/q577i4KiZRFKyPLJf",
   "tags": [
-    "strings"
+    "strings",
+    "validation"
   ],
   "tests": "Test.assertEquals(ana_str_str('car', 'race'), true)\nTest.assertEquals(ana_str_str('nod', 'done'), true)\nTest.assertEquals(ana_str_str('bag', 'grab'), false)",
   "title": "Find an Anagram of a String in Another String"

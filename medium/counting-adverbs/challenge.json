@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "sjeXqkCFvv6qSchtA",
+  "code": "function countAdverbs(sentence) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Create a function that counts the number of </span><strong><span>adverbs</span></strong><span> in a sentence. An adverb is a word that ends with </span><code>ly</code><span>.</span></p><h3><span>Examples</span></h3><pre><code>countAdverbs(\"She ran hurriedly towards the stadium.\") \u279e 1\n\ncountAdverbs(\"She ate the lasagna heartily and noisily.\") \u279e 2\n\ncountAdverbs(\"He hates potatoes.\") \u279e 0\n\ncountAdverbs(\"He was happily, crazily, foolishly over the moon.\") \u279e 3</code></pre><h3><span>Notes</span></h3><ul><li><span>Do NOT count words where the </span><code>ly</code><span> is in the beginning or the middle (e.g. Lysol, Illya).</span></li><li><span>For the purpose of this exercise, ignore the nuances of the English language (some adjectives also end in </span><code>ly</code><span>).</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/sjeXqkCFvv6qSchtA",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(countAdverbs(\"She ran hurriedly towards the stadium.\"), 1)\nTest.assertEquals(countAdverbs(\"She ate the lasagna heartily and noisily.\"), 2)\nTest.assertEquals(countAdverbs(\"He hates potatoes.\"), 0)\nTest.assertEquals(countAdverbs(\"He was happily, crazily, foolishly over the moon.\"), 3)\nTest.assertEquals(countAdverbs(\"She writes poetry beautifully.\"), 1)\nTest.assertEquals(countAdverbs(\"There are many fat geese in the park.\"), 0)\nTest.assertEquals(countAdverbs(\"The horse acted aggressively and stubbornly.\"), 2)\nTest.assertEquals(countAdverbs(\"She forgot where to buy the lysol.\"), 0, '-ly should not be counted if it is not at the end.')\nTest.assertEquals(countAdverbs(\"Ilya ran to the store.\"), 0, '-ly should not be counted if it is not at the end.')",
+  "title": "Counting Adverbs"
+}

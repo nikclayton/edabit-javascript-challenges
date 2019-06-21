@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "PooaCaiDfY2t229bE",
+  "code": "function moveToEnd(arr, el) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that moves all elements of one type to the </span><strong><span>end</span></strong><span> of the array.</span></p><h3><span>Examples</span></h3><pre><code>moveToEnd([1, 3, 2, 4, 4, 1], 1) \u279e [3, 2, 4, 4, 1, 1]\n// Move all the 1s to the end of the array.\n\nmoveToEnd([7, 8, 9, 1, 2, 3, 4], 9) \u279e [7, 8, 1, 2, 3, 4, 9]\n\nmoveToEnd([\"a\", \"a\", \"a\", \"b\"], \"a\") \u279e [\"b\", \"a\", \"a\", \"a\"]</code></pre><h3><span>Notes</span></h3><p><span>Keep the order of the un-moved items the same.</span></p>",
+  "source_url": "https://edabit.com/challenge/PooaCaiDfY2t229bE",
+  "tags": [
+    "arrays",
+    "higher_order_functions"
+  ],
+  "tests": "Test.assertSimilar(moveToEnd([1, 3, 2, 4, 4, 1], 1), [3, 2, 4, 4, 1, 1])\nTest.assertSimilar(moveToEnd([7, 8, 9, 1, 2, 3, 4], 9), [7, 8, 1, 2, 3, 4, 9])\nTest.assertSimilar(moveToEnd([7, 7, 7, 6, 6, 6, 6], 7), [6, 6, 6, 6, 7, 7, 7])\nTest.assertSimilar(moveToEnd([\"a\", \"c\", \"c\", \"c\", \"b\", \"c\"], \"b\"), [\"a\", \"c\", \"c\", \"c\", \"c\", \"b\"])\nTest.assertSimilar(moveToEnd([\"a\", \"c\", \"c\", \"c\", \"b\", \"c\"], \"c\"), [\"a\", \"b\", \"c\", \"c\", \"c\", \"c\"])\nTest.assertSimilar(moveToEnd([\"a\", \"a\", \"a\", \"b\"], \"a\"), [\"b\", \"a\", \"a\", \"a\"])",
+  "title": "Moving to the End"
+}

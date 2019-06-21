@@ -1,22 +1,17 @@
+Create a function that takes two strings and returns `true`if the first string ends with the second string; otherewise return `false`.
 
-Create a function that takes two strings and returns `true` if the first argument ends with the second argument; otherewise return `false` .
 
-### Rules
-- Take two strings as arguments.- Determine if second string matches ending of first string.- Return boolean value.
-### Examples
+### Examples ###
+    checkEnding("abc", "bc") ➞ true
 
-```
-"abc", "bc" ➞ true
+    checkEnding("abc", "d") ➞ false
 
-"abc", "d" ➞ false
+    checkEnding("samurai", "zi") ➞ false
 
-"samurai", "zi" ➞ false
+    checkEnding("feminine", "nine") ➞ true
 
-"feminine", "nine" ➞ true
+    checkEnding("convention", "tio") ➞ false
 
-"convention", "tio" ➞ false
-```
 
-### Notes
-
+### Notes ###
 All test cases are valid one word strings.

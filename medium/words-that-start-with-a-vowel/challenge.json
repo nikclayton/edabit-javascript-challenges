@@ -1,0 +1,15 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "KZwvC92KweCGiwiXF",
+  "code": "function retrieve(str) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that retrieves all words that begin with a vowel.</span></p><h3><span>Examples</span></h3><pre><code>retrieve(\"A simple life is a happy life for me.\") \u279e [\"a\", \"is\", \"a\"]\n\nretrieve(\"Exercising is a healthy way to burn off energy.\"\n\u279e [\"exercising\", \"is\", \"a\", \"off\", \"energy\"]\n\nretrieve(\"The poor ostrich was ostracized.\")\n\u279e [\"ostrich\", \"ostracized\"]\n\nretrieve(\"\")\n\u279e []</code></pre><h3><span>Notes</span></h3><ul><li><span>Make all words lower case in the output.</span></li><li><span>Retrieve the words in the order they appear in the sentence.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/KZwvC92KweCGiwiXF",
+  "tags": [
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertSimilar(retrieve(\"A simple life is a happy life for me.\"), [\"a\", \"is\", \"a\"])\nTest.assertSimilar(retrieve(\"Exercising is a healthy way to burn off energy.\"), [\"exercising\", \"is\", \"a\", \"off\", \"energy\"])\nTest.assertSimilar(retrieve(\"The poor ostrich was ostracized.\"), [\"ostrich\", \"ostracized\"])\nTest.assertSimilar(retrieve(\"\"), [])",
+  "title": "Words that Start with a Vowel"
+}

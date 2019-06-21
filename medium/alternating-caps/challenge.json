@@ -4,7 +4,7 @@
   "challenge_id": "fzuGQP9Cmzi3ujj4r",
   "code": "function alternatingCaps(str) {\n  \n}",
   "difficulty": "Medium",
-  "instructions": "<p><span>Create a function that alternates the case of the characters in a string.</span></p><h3><span>Examples</span></h3><pre><code>alternatingCaps(\"Hello\") \u279e \"HeLlO\"\n\nalternatingCaps(\"Hey, how are you?\") \u279e \"HeY, hOw aRe yOu?\"\n\nalternatingCaps(\"OMG!!! This website is awesome!!\") \u279e \"OmG!!! tHiS WeBsItE Is aWeSoMe!!\"</code></pre><h3><span>Notes</span></h3><p><span>The first character should always be UPPERCASE.</span></p>",
+  "instructions": "<p><span>Create a function that alternates the case of the characters in a string.</span><br><span>In the final string, the case should be opposite for every adjacent letter.</span></p><p><span>\u26a0\ufe0fIf the instructions are unclear check out the tests and the comments, apparently I can't explain this challenge to save my life.</span></p><h3><span>Examples</span></h3><pre><code>alternatingCaps(\"Hello\") \u279e \"HeLlO\"\n\nalternatingCaps(\"Hey, how are you?\") \u279e \"HeY, hOw aRe yOu?\"\n\nalternatingCaps(\"OMG!!! This website is awesome!!\") \u279e \"OmG!!! tHiS WeBsItE Is aWeSoMe!!\"</code></pre><h3><span>Notes</span></h3><p><span>The first character should always be UPPERCASE.</span></p>",
   "source_url": "https://edabit.com/challenge/fzuGQP9Cmzi3ujj4r",
   "tags": [
     "conditions",

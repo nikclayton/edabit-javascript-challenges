@@ -1,0 +1,16 @@
+{
+  "author_id": "Helen Yu",
+  "author_url": "https://edabit.com/user/mNMQvcxKSSvqqMYCH",
+  "challenge_id": "2FBEMqxiZ2z9efgQB",
+  "code": "function firstNVowels(s, n) {\n  \n}",
+  "difficulty": "Medium",
+  "instructions": "<p><span>Write a function that returns the first </span><strong><span>n</span></strong><span> vowels of a string.</span></p><h3><span>Examples</span></h3><pre><code>firstNVowels(\"sharpening skills\", 3) \u279e \"aei\"\n\nfirstNVowels(\"major league\", 5) \u279e \"aoeau\"\n\nfirstNVowels(\"hostess\", 5) \u279e \"invalid\"</code></pre><h3><span>Notes</span></h3><ul><li><span>Return </span><code>invalid</code><span> if the </span><strong><span>n</span></strong><span> exceeds the number of vowels in a string.</span></li><li><span>Vowels are: </span><code>a, e, i, o, u</code><span>.</span></li></ul>",
+  "source_url": "https://edabit.com/challenge/2FBEMqxiZ2z9efgQB",
+  "tags": [
+    "loops",
+    "regex",
+    "strings"
+  ],
+  "tests": "Test.assertEquals(firstNVowels(\"sharpening skills\", 3), \"aei\")\nTest.assertEquals(firstNVowels(\"major league\", 5), \"aoeau\")\nTest.assertEquals(firstNVowels(\"crabby patty\", 2), \"aa\")\nTest.assertEquals(firstNVowels(\"shrimp\", 1), \"i\")\nTest.assertEquals(firstNVowels(\"shrimpy\", 2), \"invalid\")\nTest.assertEquals(firstNVowels(\"hostess\", 5), \"invalid\")",
+  "title": "First N Vowels"
+}

@@ -1,8 +1,6 @@
 const reverse = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(reverse(false)).toEqual(true);
         expect(reverse(true)).toEqual(false);

@@ -1,8 +1,6 @@
 const alternatingCaps = require('./code');
 
 describe('Tests', () => {
-    
-    
     test('the tests', () => {
         expect(alternatingCaps('alternating caps')).toEqual('AlTeRnAtInG CaPs');
         expect(alternatingCaps('Hello, what\'s your name?')).toEqual('HeLlO, wHaT\'S YoUr nAmE?');

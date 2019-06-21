@@ -1,0 +1,17 @@
+{
+  "author_id": "Matt",
+  "author_url": "https://edabit.com/user/BkPgkDQGHm66X4Qai",
+  "challenge_id": "upHyzAsn83TctQQYn",
+  "code": "function split(num) {\n  \n}",
+  "difficulty": "Very Hard",
+  "instructions": "<p><span>About a month ago I stumbled upon an interesting problem \u2014 something called the 25 split. In the problem, you had to break up 25 into parts, and, from those parts that add to it, try to create the biggest product.</span></p><p><span>For example, </span><code>3 * 22 = 66</code><span> or </span><code>5 * 5 * 5 * 5 * 5 = 3125</code><span>. With this first part, return the value of the biggest product possible using natural number parts from a given number, </span><em><span>x</span></em><span>.</span></p><h3><span>Examples</span></h3><pre><code>split(5) \u279e 6\n// 3 times 2\n\nsplit(10) \u279e 36\n// 3 * 3 * 4\n\nsplit(1) \u279e 1</code></pre><h3><span>Notes</span></h3><p><span>3's are useful...</span></p>",
+  "source_url": "https://edabit.com/challenge/upHyzAsn83TctQQYn",
+  "tags": [
+    "algebra",
+    "control_flow",
+    "math",
+    "numbers"
+  ],
+  "tests": "Test.assertEquals(split(25), 8748)\nTest.assertEquals(split(1), 1)\nTest.assertEquals(split(10), 36)\nTest.assertEquals(split(5), 6)\nTest.assertEquals(split(15), 243)\nTest.assertEquals(split(20), 1458)",
+  "title": "Split 25 (Part 1)"
+}
