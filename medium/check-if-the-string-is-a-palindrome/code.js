@@ -1,5 +1,6 @@
 function isPalindrome(str) {
-  // Your code here.
+  let newStr = str.replace(" ", "");
+  console.log(newStr, str)
 }
 
 module.exports = isPalindrome;
