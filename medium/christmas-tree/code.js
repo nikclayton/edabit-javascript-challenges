@@ -19,7 +19,6 @@ function tree(h) {
     for (let k = 1; k < h - i; k++) {
       layer += " ";
     }
-    console.log(cTree)
     cTree.push(layer);
   }
   return cTree;
