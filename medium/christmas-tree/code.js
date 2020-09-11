@@ -1,22 +1,18 @@
 function tree(h) {
   const cTree = [];
-  if(h === 1) {
-    cTree.push("#")
-    return cTree;
-  }
   for (let i = 1; i < h + 1; i++) {
     let layer = "";
-    for (let k = 1; k < h - i ; k++) {
+    for (let k = 0; k < h - i ; k++) {
       layer += " ";
     }
-    for (let j = 0; j < h; j++) {
+    for (let j = 0; j < i; j++) {
       if (j === 0) {
         layer += "#";
       } else  {
         layer += "##"
       }
     }
-    for (let k = 1; k < h - i; k++) {
+    for (let k = 0; k < h - i; k++) {
       layer += " ";
     }
     cTree.push(layer);
