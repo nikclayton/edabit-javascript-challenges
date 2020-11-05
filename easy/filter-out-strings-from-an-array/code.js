@@ -1,5 +1,11 @@
 function filterArray(arr) {
-  // Your code here.
+  const newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof(arr[i]) === "number") {
+      newArr.push(arr[i])
+    }
+  }
+  return newArr;
 }
 
 module.exports = filterArray;
