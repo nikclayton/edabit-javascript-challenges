@@ -1,5 +1,9 @@
 function societyName(friends) {
-  // Your code here.
+  let name = "";
+  for (let i  = 0; i < friends.length; i++) {
+    name += friends[i][0];
+  }
+  return name;
 }
 
 module.exports = societyName;
