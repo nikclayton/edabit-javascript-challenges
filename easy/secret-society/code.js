@@ -1,8 +1,15 @@
 function societyName(friends) {
   let name = "";
+  const initals = [];
   for (let i  = 0; i < friends.length; i++) {
-    name += friends[i][0];
+    initals.push(friends[i][0]);
   }
+  initals.sort();
+
+  for (let i = 0; i < initals.length; i++) {
+    name += initals[i]
+  }
+
   return name;
 }
 
