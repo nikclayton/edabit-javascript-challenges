@@ -10,6 +10,12 @@ function mauriceWins(mSnails, sSnails) {
   if (mSnails[2] > sSnails[1]) {
     wins++
   }
+
+  if (wins >= 2) {
+    return true;
+  } else  {
+    return false;
+  }
 }
 
 module.exports = mauriceWins;
