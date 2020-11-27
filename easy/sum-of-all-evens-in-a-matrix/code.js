@@ -7,6 +7,8 @@ function sumOfEvens(arr) {
       }
     }
   }
+
+  return evenTotal;
 }
 
 module.exports = sumOfEvens;
