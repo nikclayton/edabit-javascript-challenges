@@ -4,6 +4,8 @@ function sumOfCubes(nums) {
     let cube = Math.cube(nums[i])
     total += cube;
   }
+
+  return total;
 }
 
 module.exports = sumOfCubes;
