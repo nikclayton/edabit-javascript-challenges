@@ -8,7 +8,7 @@ function set(arr) {
     }
   }
 
-  return
+  return newArr;
 }
 
 module.exports = set;
