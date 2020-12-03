@@ -1,5 +1,6 @@
 function transformUpvotes(str) {
-  // Your code here.
+  const arr = [];
+
 }
 
 module.exports = transformUpvotes;
