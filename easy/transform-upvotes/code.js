@@ -4,7 +4,8 @@ function transformUpvotes(str) {
   for(let i = 0; i < strArr.length; i++) {
     if (strArr[i].indexOf("k") !== -1) {
       let newNum = strArr[i].replace(/k/g, "");
-      let convertNum = parseInt(newNum);
+      let convertNum = parseFloat(newNum);
+      let trueNumber = convertNum * 1000;
     }
   }
 }
