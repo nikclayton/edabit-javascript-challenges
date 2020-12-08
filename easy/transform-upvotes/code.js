@@ -6,6 +6,7 @@ function transformUpvotes(str) {
       let newNum = strArr[i].replace(/k/g, "");
       let convertNum = parseFloat(newNum);
       let trueNumber = convertNum * 1000;
+      arr.push(trueNumber);
     }
   }
 }
