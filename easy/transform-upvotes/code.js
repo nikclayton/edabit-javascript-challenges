@@ -9,6 +9,8 @@ function transformUpvotes(str) {
       arr.push(trueNumber);
     }
   }
+
+  return arr;
 }
 
 module.exports = transformUpvotes;
