@@ -1,5 +1,5 @@
 function factorial(x) {
-  // Your code here.
+  let total = 1;
 }
 
 module.exports = factorial;
