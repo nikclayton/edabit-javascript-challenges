@@ -1,5 +1,5 @@
 function allPairs(arr, target) {
-  // Your code here.
+  const newArr = []
 }
 
 module.exports = allPairs;
