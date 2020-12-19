@@ -4,6 +4,9 @@ function allPairs(arr, target) {
     for (let k = i + 1; k < arr.length ; k++) {
       if (arr[i] + arr[k] === target) {
         const tempArr = [];
+        if (arr[i] > arr[k]) {
+
+        }
       }
     }
   }
