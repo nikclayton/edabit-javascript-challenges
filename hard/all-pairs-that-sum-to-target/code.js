@@ -5,7 +5,8 @@ function allPairs(arr, target) {
       if (arr[i] + arr[k] === target) {
         const tempArr = [];
         if (arr[i] > arr[k]) {
-
+          arr.push(arr[k]);
+          arr.push(arr[i]);
         }
       }
     }
