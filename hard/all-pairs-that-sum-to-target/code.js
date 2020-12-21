@@ -8,7 +8,8 @@ function allPairs(arr, target) {
           arr.push(arr[k]);
           arr.push(arr[i]);
         } else {
-
+          arr.push(arr[i]);
+          arr.push(arr[k]);
         }
       }
     }
