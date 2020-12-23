@@ -15,6 +15,7 @@ function allPairs(arr, target) {
       }
     }
   }
+  return newArr;
 }
 
 module.exports = allPairs;
