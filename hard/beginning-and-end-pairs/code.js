@@ -1,5 +1,5 @@
 function pairs(arr) {
-  // Your code here.
+  const newArr = [];
 }
 
 module.exports = pairs;
