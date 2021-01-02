@@ -6,6 +6,10 @@ function pairs(arr) {
   } else {
     arrHalf = (arr.length - 1) / 2;
   }
+
+  for (let i = 0; i < arrHalf; i++) {
+
+  }
 }
 
 module.exports = pairs;
