@@ -10,6 +10,7 @@ function pairs(arr) {
   for (let i = 0; i < arrHalf; i++) {
     const tempArr = [];
     tempArr.push(arr[i]);
+    tempArr.push(arr[arr.length - (i + 1)])
   }
 }
 
