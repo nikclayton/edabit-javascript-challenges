@@ -12,6 +12,7 @@ function pairs(arr) {
     tempArr.push(arr[i]);
     tempArr.push(arr[arr.length - (i + 1)])
   }
+  newArr.push(tempArr);
 }
 
 module.exports = pairs;
