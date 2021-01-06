@@ -11,8 +11,11 @@ function pairs(arr) {
     const tempArr = [];
     tempArr.push(arr[i]);
     tempArr.push(arr[arr.length - (i + 1)])
+    newArr.push(tempArr);
   }
-  newArr.push(tempArr);
+  return newArr;
 }
+
+
 
 module.exports = pairs;
