@@ -8,6 +8,8 @@ function findRepeating(str) {
       tempArr.push(str[i]);
     }
   }
+
+  return arr;
 }
 
 module.exports = findRepeating;
