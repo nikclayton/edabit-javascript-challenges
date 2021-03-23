@@ -9,7 +9,7 @@ function findShortestWords(str) {
   }
 
   for (let i = 0; i < words.length; i++)  {
-    if (words[i].length === min) {
+    if (words[i].length === min && isNaN(parseInt(words[i]))) {
       shortest.push(words[i].toLowerCase());
     }
   }
