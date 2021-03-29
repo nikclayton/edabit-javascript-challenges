@@ -15,8 +15,6 @@ function flipArray(arr) {
     }
   }
 
-  console.log(arr[0], columns)
-
   return newArr;
 }
 
