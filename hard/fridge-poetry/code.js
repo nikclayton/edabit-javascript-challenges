@@ -8,7 +8,6 @@ function canBuild(s1, s2) {
     }
   }
 
-  console.log(string1, string2);
   return true;
 }
 
