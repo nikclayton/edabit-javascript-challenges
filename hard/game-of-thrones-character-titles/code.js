@@ -1,7 +1,7 @@
 function correctTitle(str) {
  const words = str.split(" ")
  for (let i = 0; i < words.length; i++) {
-   const currentWord = words[i].toLowerCase();
+  const currentWord = words[i].toLowerCase();
   if (currentWord  === "and" || currentWord === "the" || currentWord === "of"
       || currentWord === "in") {
         words[i] = currentWord;
