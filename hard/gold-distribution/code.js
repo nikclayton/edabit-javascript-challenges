@@ -6,12 +6,10 @@ function piratesKilled(gold, tolerance) {
     }
   }
   for (let i = 0; i < gold.length; i++) {
-    console.log(tolerance[i], (max - gold[i]))
-    if (tolerance[i] <= (max - gold[i])) {
+    if (tolerance[i] < (max - gold[i])) {
       return true;
     }
   }
-  console.log(max);
   return false;
 }
 
