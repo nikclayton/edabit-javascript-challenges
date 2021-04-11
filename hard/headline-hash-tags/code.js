@@ -9,18 +9,18 @@ function getHashTags(str) {
     if (words[i].length > longest.length) {
       thirdLongest = secondLongest;
       secondLongest = longest;
-      longest = words[i];
+      longest = words[i].toLowerCase();
     }  else if (words[i].length > secondLongest.length) {
       thirdLongest = secondLongest;
-      secondLongest = words[i];
-    } else if (words[i].length > thirdLongest)  {
-      thirdLongest = words[i]
+      secondLongest = words[i].toLowerCase();
+    } else if (words[i].length > thirdLongest.length)  {
+      thirdLongest = words[i].toLowerCase();
     }
   }
 
-  longestWords.push(`# ${longest}`);
-  longestWords.push(`# ${secondLongest}`);
-  longestWords.push(`# ${thirdLongest}`);
+  longestWords.push(`#${longest}`);
+  longestWords.push(`#${secondLongest}`);
+  longestWords.push(`#${thirdLongest}`);
 
   return longestWords
 }
