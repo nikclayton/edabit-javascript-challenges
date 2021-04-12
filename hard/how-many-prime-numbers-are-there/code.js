@@ -3,6 +3,8 @@ function primeNumbers(num) {
   for (let i = 2; i < num; i++) {
 
   }
+
+  return primeNumber
 }
 
 module.exports = primeNumbers;
