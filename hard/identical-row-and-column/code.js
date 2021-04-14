@@ -8,6 +8,9 @@ function hasIdentical(arr) {
     columns.push(column)
   }
 
+  for (let i = 0; i < arr.length; i++)   {
+
+  }
   console.log(columns)
 }
 
