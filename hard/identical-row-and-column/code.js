@@ -8,14 +8,20 @@ function hasIdentical(arr) {
     columns.push(column)
   }
 
+  console.log(columns)
+
   for (let i = 0; i < arr.length; i++)  {
+    let isTrue = true;
     for (let k = 0; k < arr.length; k++) {
       if (arr[i][k] !== columns[i][k]) {
-        return false;
+        isTrue = false;
       }
     }
+    if (isTrue) {
+      return true;
+    }
   }
-  return true;
+  return false;
 }
 
 module.exports = hasIdentical;
