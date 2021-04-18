@@ -12,7 +12,9 @@ function hasIdentical(arr) {
 
   for (let i = 0; i < arr.length; i++)  {
     let isTrue = true;
+    console.log(arr[i], columns[i])
     for (let k = 0; k < arr.length; k++) {
+      console.log(arr[i][k], columns[i][k])
       if (arr[i][k] !== columns[i][k]) {
         isTrue = false;
       }
