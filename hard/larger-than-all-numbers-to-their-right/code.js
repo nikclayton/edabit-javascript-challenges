@@ -12,8 +12,12 @@ function largerThanRight(arr) {
   console.log(largestNumber, isLargest)
 
   if (isLargest === true) {
-    largerNumber.push(arr[0]);
-    console.log(largerNumber)
+    for (let i = 0; i < arr.length; i++) {
+      if (!largerNumber.includes(arr[i])) {
+        largerNumber.push(arr[i])
+      }
+    }
+    return largerNumber;
   }
 
   for (let i = 1; i < arr.length; i++) {
