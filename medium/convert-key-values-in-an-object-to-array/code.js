@@ -1,5 +1,6 @@
 function objectToArray(obj) {
-  // Your code here.
+  const entries = Object.entries(obj);
+  return entries;
 }
 
 module.exports = objectToArray;
